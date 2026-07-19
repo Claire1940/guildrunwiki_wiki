@@ -28,6 +28,12 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Guildrun 模块导航卡片专用图标
+  Trophy: LucideIcons.Trophy,
+  Swords: LucideIcons.Swords,
+  Gem: LucideIcons.Gem,
+  Flame: LucideIcons.Flame,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
