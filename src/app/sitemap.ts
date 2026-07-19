@@ -5,17 +5,15 @@ import { routing, type Locale } from '@/i18n/routing'
 // output:'export' 要求路由处理器显式声明静态
 export const dynamic = 'force-static'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://guildrunwiki.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts CONTENT_TYPES 同步；Part3 调整导航后此处一并更新）
 const contentTypePriority: Record<string, number> = {
 	'guides': 0.9,
 	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
 	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
+	'biomes': 0.8,
+	'building': 0.7,
 	'support': 0.6,
 }
 
@@ -23,11 +21,9 @@ const contentTypePriority: Record<string, number> = {
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
 	'guides': 'weekly',
 	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
 	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
+	'biomes': 'weekly',
+	'building': 'monthly',
 	'support': 'monthly',
 }
 
