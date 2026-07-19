@@ -1,1 +1,830 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Guildrun Wiki - Helden, Builds, Relikte & Tier List",
+      "description": "Das Guildrun Wiki umfasst die besten Helden, Builds, Relikte, Gegenstände, Spezialisierungen, Teamsynergien, den Schwierigkeitsgrad-Fortschritt, Demo-Tipps und wöchentliche Updates.",
+      "keywords": "Guildrun, Guildrun Wiki, Helden, Builds, Relikte, Gegenstände, Tier List, Demo, Steam",
+      "ogTitle": "Guildrun Wiki - Helden, Builds, Relikte & Tier List",
+      "ogDescription": "Das Guildrun Wiki umfasst die besten Helden, Builds, Relikte, Gegenstände, Spezialisierungen, Teamsynergien, den Schwierigkeitsgrad-Fortschritt, Demo-Tipps und wöchentliche Updates für den PvE-Roguelike-Autobattler auf Steam.",
+      "twitterTitle": "Guildrun Wiki - Helden, Builds, Relikte & Tier List",
+      "twitterDescription": "Das Guildrun Wiki umfasst die besten Helden, Builds, Relikte, Gegenstände, Spezialisierungen und Teamsynergien für den PvE-Roguelike-Autobattler auf Steam."
+    }
+  },
+  "nav": {
+    "guide": "Guide",
+    "tiers": "Tiers",
+    "release": "Release",
+    "builds": "Builds",
+    "combat": "Kampf",
+    "mechanics": "Mechaniken",
+    "steam": "Steam"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Weiterlesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "PvE-Roguelike-Autobattler",
+    "title": "Guildrun Wiki",
+    "description": "Baue eine flexible Gilde aus Helden auf, kombiniere Spezialisierungen, Gegenstände und Relikte, passe deine Strategie in jedem Run an, meistere eskalierende Risse und fordere den Endless-Modus heraus.",
+    "keywords": "Guildrun, Steam, PvE-Autobattler, Roguelike, Helden, Builds, Relikte, Spezialisierungen, Tier List",
+    "getFreeCodesCTA": "Kostenlose Demo herunterladen",
+    "playOnSteamCTA": "Auf Steam spielen",
+    "stats": {
+      "stat1": {
+        "value": "7.184",
+        "label": "Spieler online"
+      },
+      "stat2": {
+        "value": "8.007",
+        "label": "Höchstwert gleichzeitiger Spieler"
+      },
+      "stat3": {
+        "value": "96 %",
+        "label": "Positive Bewertungen"
+      },
+      "stat4": {
+        "value": "25",
+        "label": "Verfügbare Helden"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Guildrun-Gameplay",
+    "description": "Rekrutiere Helden, entwickle Spezialisierungspfade, kombiniere Gegenstände sowie Relikte und schließe eskalierende Risse in diesem Einzelspieler-PvE-Roguelike-Autobattler auf Steam ab."
+  },
+  "tools": {
+    "title": "Guildrun",
+    "titleHighlight": "Wiki",
+    "subtitle": "Alles, was du brauchst, um Guildrun zu meistern – von deinem ersten Run bis zum Endless-Modus",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guildrun Einsteiger-Guide",
+        "description": "Rekrutierung, Shop, Spezialisierungen und dein erster erfolgreicher Run"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Guildrun Demo & Release",
+        "description": "Kostenlose Steam-Demo, Plattformen, Veröffentlichungszeitraum und Fortschrittsübernahme"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Guildrun Helden-Tier-List",
+        "description": "Helden-Rankings nach Skalierung, Flexibilität, Überlebensfähigkeit und Nutzen"
+      },
+      {
+        "icon": "Swords",
+        "title": "Die besten Guildrun Team-Builds",
+        "description": "Zusammenstellungen, Positionierung, Gegenstände, Relikte und Pivot-Pläne"
+      },
+      {
+        "icon": "Shield",
+        "title": "Guildrun Spezialisierungen",
+        "description": "Klassenrollen, Rang-Upgrades, Pfade, Multiklassen und Respec"
+      },
+      {
+        "icon": "Gem",
+        "title": "Guildrun Gegenstände & Relikte",
+        "description": "Ausrüstungs-Tier-List nach Stärke, Flexibilität und Klasseneignung"
+      },
+      {
+        "icon": "Flame",
+        "title": "Guildrun Schwierigkeitsgrad & Endless",
+        "description": "Acht Schwierigkeitsstufen, Modifikatoren und Endless-Modus-Strategie"
+      },
+      {
+        "icon": "Clock",
+        "title": "Guildrun-Updates",
+        "description": "Wöchentliche Patches, Balance-Änderungen, neue Helden und Roadmap"
+      }
+    ]
+  },
+  "modules": {
+    "guildrunBeginnerGuide": {
+      "title": "Guildrun Einsteiger-Guide",
+      "intro": "Guildrun ist ein Einzelspieler-PvE-Roguelike-Autobattler, bei dem es darum geht, Helden zu rekrutieren, ein Team vorzubereiten und sich an zufällige Shop-Angebote anzupassen. Das vollständige Spiel soll 25 Helden, 75 Spezialisierungspfade, 180 Spezialisierungen, mehr als 100 Gegenstände und mehr als 300 Relikte enthalten.",
+      "steps": [
+        {
+          "title": "Rekrutiere ein ausgewogenes Startteam",
+          "description": "Beginne mit Helden, die drei Grundaufgaben abdecken: eine robuste Frontline, ein verlässlicher Schadensausteiler und eine Unterstützungs- oder Utility-Einheit. Vermeide es, jeden Platz mit zerbrechlichen Schadenshelden zu besetzen, da ungeschützte Carries besiegt werden können, bevor ihr Schaden zum Tragen kommt.",
+          "priority": "Erst Frontline, dann verlässlicher Schaden, zuletzt Utility",
+          "mistake": "Jeden angebotenen Helden kaufen, ohne die Teamrolle zu berücksichtigen"
+        },
+        {
+          "title": "Prüfe den Shop, bevor du dich festlegst",
+          "description": "Sichte das gesamte Shop-Angebot, bevor du Ressourcen ausgibst. Vergleiche neue Rekruten, Duplikat-Upgrades, Gegenstände und langfristige Spezialisierungsoptionen und wähle dann den Kauf, der das gesamte Team verbessert, anstatt nur eine einzelne schwache Einheit.",
+          "priority": "Kaufe sofortige Stärke vor spekulativen Upgrades",
+          "mistake": "Zu frühes Nutzen von wiederholten Rerolls, wodurch zu wenige Ressourcen für Upgrades übrig bleiben"
+        },
+        {
+          "title": "---",
+          "description": "Baue dein Team um die stärksten Angebote auf",
+          "priority": "Erzwinge nicht in jedem Run dieselbe Zusammenstellung. Nutze die Helden, Relikte und Gegenstände, die dir angeboten werden, und ändere deine Strategie, wenn der Shop bessere Klassenkombinationen oder Synergieeffekte bietet.",
+          "mistake": "Flexible Upgrades und gemeinsame Teameffekte"
+        },
+        {
+          "title": "Ressourcen für einen ganz bestimmten Helden, Gegenstand oder eine Spezialisierung aufsparen",
+          "description": "Wähle Spezialisierungen mit einem klaren Ziel",
+          "priority": "Guildrun-Helden können sich über mehrere Spezialisierungspfade entwickeln. Wähle Pfade, die die aktuelle Rolle des Helden stärken, wie Überlebensfähigkeit für Frontline-Einheiten, konstanter Schaden für einen Carry oder teamweiter Nutzen für einen Supporter.",
+          "mistake": "Vervollständige eine nützliche Rolle, bevor du Upgrades auf mehrere Rollen verteilst"
+        },
+        {
+          "title": "Unpassende Boni wählen, die weder die Position des Helden noch das Team unterstützen",
+          "description": "Rüste Gegenstände und Relikte vor dem Kampf aus",
+          "priority": "Gib defensives Equipment den Helden, die die ersten Angriffe abfangen, und offensives Equipment denen, die lange genug überleben, um es zu nutzen. Relikte sollten nach Möglichkeit die gesamte Zusammenstellung, die Ressourcenplanung oder die Spezialisierungsrichtung unterstützen.",
+          "mistake": "Überlebensfähigkeit für die Frontline und Skalierung für den Main-Carry"
+        },
+        {
+          "title": "Seltene Gegenstände einem Helden geben, der nicht von ihrem Effekt profitiert",
+          "description": "Bereite die Positionierung und Reserveeinheiten vor",
+          "priority": "Platziere widerstandsfähige Helden so, dass sie Druck abfangen und wichtige Schadens- oder Support-Helden schützen. Nutze Reserveeinheiten als Ersatz, zukünftige Spezialisierungsoptionen oder als Antwort auf Kämpfe, in denen die aktuelle Aufstellung schwächelt.",
+          "mistake": "Schütze die Hauptschadensquelle"
+        },
+        {
+          "title": "Dieselbe Formation gegen jeden Gegner verwenden",
+          "description": "Lerne aus dem ersten abgeschlossenen Run",
+          "priority": "Analysiere nach jedem Kampf, ob es dem Team an Schaden, Zähigkeit oder Synergie fehlte. Gib Splitter und andere Run-Ressourcen für Upgrades aus, die die Beständigkeit verbessern, und arbeite dich zu höheren Schwierigkeitsgraden und dem Endless-Modus vor, sobald der Spielablauf stabil wirkt.",
+          "mistake": "Beständiger Fortschritt vor riskanten Strategien"
+        }
+      ],
+      "quickTips": [
+        "Das gesamte Team nach einem schlechten Kampf austauschen, anstatt die schwächste Rolle zu verbessern",
+        "Stabilisiere die Frontline, bevor du teuren Schadens-Upgrades nachjagst.",
+        "Vergleiche jedes Shop-Angebot mit deinem gesamten Team, nicht nur mit einem einzelnen schwachen Helden.",
+        "Behalte genug Ressourcen für wichtige Rerolls, anstatt sie zu früh auszugeben."
+      ]
+    },
+    "guildrunDemoAndRelease": {
+      "title": "Nutze Reservehelden für schwierige Begegnungen, anstatt eine feste Formation zu erzwingen.",
+      "intro": "Guildrun Demo und Veröffentlichungsdatum",
+      "cards": [
+        {
+          "name": "Spieler können die eigenständige Guildrun Demo über Steam herunterladen und den Kern des Roguelike-Autobattler-Loops vor der Vollversion erleben. Die Vollversion soll den Kader, die Fortschrittssysteme, Schwierigkeitsgrade und Multiplayer-Features erweitern.",
+          "value": "Kostenlose Demo",
+          "description": "Verfügbar auf Steam",
+          "status": "Die Guildrun Demo ist ein kostenloser, eigenständiger Download, der die Heldenrekrutierung, Shop-Entscheidungen, Upgrades, Spezialisierungen, Gegenstände, Relikte und den automatischen Kampf einführt."
+        },
+        {
+          "name": "Verfügbar",
+          "value": "Veröffentlichungszeitraum der Vollversion",
+          "description": "2027",
+          "status": "Die Vollversion von Guildrun ist für eine Veröffentlichung im Jahr 2027 geplant. Die Hauptseite auf Steam kann für zukünftige Ankündigungen verfolgt oder auf die Wunschliste gesetzt werden."
+        },
+        {
+          "name": "Geplant",
+          "value": "Plattform",
+          "description": "PC über Steam",
+          "status": "Sowohl die Demo als auch der Store-Eintrag der Vollversion von Guildrun sind über Steam verfügbar."
+        },
+        {
+          "name": "Bestätigt",
+          "value": "Geplanter Heldenkader",
+          "description": "---",
+          "status": "Das fertige Spiel ist um eine Auswahl von 25 rekrutierbaren Helden herum geplant, die in verschiedene Teamrollen entwickelt werden können."
+        },
+        {
+          "name": "Vollversion",
+          "value": "Spezialisierungsinhalte",
+          "description": "75 Pfade / 180 Entscheidungen",
+          "status": "Helden können über 75 Spezialisierungspfade mit 180 Auswahlmöglichkeiten entwickelt werden, was es Teams ermöglicht, ihre Ausrichtung während eines Runs zu ändern."
+        },
+        {
+          "name": "Vollversion",
+          "value": "Gegenstände und Relikte",
+          "description": "100+ Gegenstände / 300+ Relikte",
+          "status": "Runs werden von mehr als 100 Gegenständen und über 300 Relikten geprägt, welche die Heldenleistung, Teameffekte und die Build-Ausrichtung modifizieren."
+        },
+        {
+          "name": "Vollversion",
+          "value": "Schwierigkeitsgrad und Endless-Modus",
+          "description": "8 Schwierigkeitsgrade",
+          "status": "Guildrun soll acht Schwierigkeitsstufen und einen Endless-Modus für Spieler enthalten, die längere und anspruchsvollere Runs suchen."
+        },
+        {
+          "name": "Vollversion",
+          "value": "Koop",
+          "description": "Geplantes Feature",
+          "status": "Koop ist im geplanten Entwicklungsumfang des Spiels enthalten und nicht Teil der aktuellen Einzelspieler-Demo."
+        }
+      ]
+    },
+    "guildrunHeroesTierList": {
+      "title": "In Entwicklung",
+      "intro": "Guildrun Helden-Tier-Liste",
+      "tiers": [
+        {
+          "tier": "Guildrun basiert auf 25 Helden und 75 Spezialisierungspfaden, weshalb der Wert eines Helden von mehr als nur dem Anfangsschaden abhängt. Diese Tier-Struktur hebt die Heldenprofile hervor, die die beständigsten Ergebnisse liefern, wenn sich Shop-Angebote, Relikte und Teamkombinationen zwischen den Runs ändern.",
+          "label": "S",
+          "profile": "Run-definierende Helden",
+          "reason": "Flexible Carries, robuste Frontline-Anker und Supporter mit starken teamweiten Effekten",
+          "paths": [
+            "Diese Helden tragen sofort zum Erfolg bei, skalieren über mehrere Spezialisierungspfade und bleiben nützlich, selbst wenn keine idealen Gegenstände erscheinen.",
+            "Flexible Schadensskalierung",
+            "Zuverlässige Frontline-Zähigkeit"
+          ],
+          "items": "Teamweite Utility",
+          "fit": "Gegenstände, die die bestehende Rolle des Helden verbessern, ohne eine spezifische Kombination zu erfordern"
+        },
+        {
+          "tier": "Kann in verschiedenen Zusammenstellungen zum Haupt-Carry, primären Tank oder zentralen Support werden",
+          "label": "A",
+          "profile": "Starke und konstante Helden",
+          "reason": "Zuverlässige Schadensausteiler, sekundäre Frontliner und spezialisierte Support-Helden",
+          "paths": [
+            "Diese Helden schneiden in den meisten Runs gut ab, benötigen jedoch meist eine passende Positionierung, einen starken Spezialisierungspfad oder eine kompatible Frontline.",
+            "Spezialisierung auf eine einzelne Rolle",
+            "Konsistenter Schaden oder Schutz"
+          ],
+          "items": "Support mit geteilten Effekten",
+          "fit": "Rollenspezifische Gegenstände, die Schadenskonsistenz, Überlebensfähigkeit oder Support-Uptime verbessern"
+        },
+        {
+          "tier": "Exzellent an der Seite eines S-Tier-Ankers oder als zweites wichtiges Element eines ausgewogenen Teams",
+          "label": "B",
+          "profile": "---",
+          "reason": "Helden, die mit den richtigen Relikten, Gegenständen, geteilten Effekten oder Spezialisierungssequenzen mächtig werden",
+          "paths": [
+            "Ihr Potenzial kann hoch sein, aber ihre Leistung zu Beginn ist weniger beständig und sie verbrauchen möglicherweise zu viele Ressourcen, bevor der Build stabil wird.",
+            "Synergie-fokussierte Spezialisierung",
+            "Relikt-abhängige Skalierung"
+          ],
+          "items": "Carry-Entwicklung für den späten Run",
+          "fit": "Spezifische Gegenstände, die die Haupt-Skalierungsmechanik des Helden aktivieren"
+        },
+        {
+          "tier": "Am besten geeignet, wenn der Shop wiederholt die gleiche Build-Richtung unterstützt",
+          "label": "C",
+          "profile": "Situative Helden",
+          "reason": "Spezifische Counter, fragile Spezialisten und Helden, die mehrere exakte Upgrades benötigen",
+          "paths": [
+            "Diese Helden können bestimmte Begegnungen meistern, sind aber in einem ersten Run schwieriger einzusetzen, da ihre Stärke von präziser Unterstützung abhängt.",
+            "Begegnungsspezifische Utility",
+            "High-Risk-Schaden"
+          ],
+          "items": "Spezifische Setups mit geteilten Effekten",
+          "fit": "Hochspezialisierte Ausrüstung, die eine große Schwäche behebt oder eine bestimmte Interaktion ermöglicht"
+        },
+        {
+          "tier": "Reserveeinheit, temporärer Spezialist oder das letzte Puzzleteil einer bereits bestehenden Zusammenstellung",
+          "label": "Score",
+          "profile": "Wie jeder Held bewertet wird",
+          "reason": "Jeder Held wird in denselben sechs Kategorien verglichen",
+          "paths": [
+            "Eine nützliche Tier-Liste misst die Leistung des gesamten Runs und nicht nur eines einzelnen erfolgreichen Kampfes.",
+            "Stärke im Early-Game",
+            "Skalierungspotenzial",
+            "Flexibilität",
+            "Überlebensfähigkeit",
+            "Schaden"
+          ],
+          "items": "Team-Utility",
+          "fit": "Gegenstandsabhängigkeit wird als Schwäche gewertet, wenn ein Held mehrere exakte Drops benötigt"
+        }
+      ]
+    },
+    "guildrunBestTeamBuilds": {
+      "title": "Helden werden höher eingestuft, wenn sie in mehreren Formationen und Spezialisierungswegen funktionieren",
+      "intro": "Guildrun – Beste Team-Builds",
+      "builds": [
+        {
+          "name": "Das Teambuilding in Guildrun kombiniert Heldenrollen, Spezialisierungswege, Gegenstände, Relikte, Positionierung und geteilte Effekte. Diese Zusammenstellungen konzentrieren sich auf wiederholbare Strukturen, anstatt einen exakten Satz an Shop-Optionen vorauszusetzen.",
+          "roles": [
+            "Ausgewogenes Team für den ersten Run",
+            "Primäre Frontline",
+            "Haupt-Damage-Carry",
+            "Support- oder Utility-Held"
+          ],
+          "positioning": "Flexible Reserveeinheit",
+          "items": "Platziere den widerstandsfähigsten Helden an der exponiertesten Stelle, schütze den Haupt-Carry und positioniere den Support so, dass er lange genug überlebt, um nützlich zu sein.",
+          "relics": "Defensive Gegenstände gehen an die Frontline, Gegenstände für konstanten Schaden an den Carry und Utility-Gegenstände an den Support.",
+          "upgrade": "Wähle Relikte, die das gesamte Team verbessern oder verlässliche Ressourcen zwischen den Kämpfen bieten.",
+          "alternatives": "Stabilisiere zuerst die Frontline, verbessere dann den Carry-Schaden und füge schließlich Utility hinzu."
+        },
+        {
+          "name": "---",
+          "roles": [
+            "Lovers-Build mit geteiltem Effekt",
+            "Zwei Helden, die Lovers aktivieren",
+            "Frontline-Beschützer"
+          ],
+          "positioning": "Sekundärer Schadens- oder Unterstützungsheld",
+          "items": "Halte das Lovers-Paar geschützt und vermeide es, beide verbundenen Helden demselben Anfangsdruck auszusetzen.",
+          "relics": "Gib dem verwundbareren Mitglied Überlebenswerkzeuge und dem Helden, der den Hauptschaden der Komposition verursacht, Skalierungsgegenstände.",
+          "upgrade": "Priorisiere Relikte, die geteilte Effekte, die Überlebensfähigkeit oder das gesamte aktive Team verbessern.",
+          "alternatives": "Aktiviere den geteilten Effekt, sichere eine Frontlinie und investiere dann in das stärker skalierende Mitglied des Paares."
+        },
+        {
+          "name": "Wechsle zu einem ausgeglichenen Team, falls das benötigte Paar oder unterstützende Upgrades nicht mehr erscheinen.",
+          "roles": [
+            "Single-Carry-Skalierungs-Build",
+            "Ein Haupt-Carry",
+            "Zwei schützende Frontline- oder Utility-Helden"
+          ],
+          "positioning": "Ersatz aus der Reserve",
+          "items": "Platziere jeden unterstützenden Helden so, dass Gegner verzögert werden und maximale Angriffszeit für den Carry entsteht.",
+          "relics": "Konzentriere die besten offensiven Gegenstände auf einen Helden, anstatt sie auf mehrere durchschnittliche Schadensverursacher aufzuteilen.",
+          "upgrade": "Nutze Relikte, die die Schadensskalierung, den Wert von Gegenständen oder das Überleben des Carry verbessern.",
+          "alternatives": "Werte den stärksten Spezialisierungspfad des Carry auf und gib nur so viele Ressourcen aus, wie nötig sind, um die Frontlinie stabil zu halten."
+        },
+        {
+          "name": "Befördere einen zweiten Carry, wenn der Shop keine nützlichen Upgrades mehr für den ursprünglichen anbietet.",
+          "roles": [
+            "Doppel-Frontline-Kontroll-Build",
+            "Primärer Tank",
+            "Sekundärer Frontline-Held",
+            "Backline-Schadensheld"
+          ],
+          "positioning": "Unterstützungs- oder Reserve-Spezialist",
+          "items": "Verteile den eingehenden Druck auf zwei widerstandsfähige Helden, während der Schadensverursacher dem ersten Angriff ferngehalten wird.",
+          "relics": "Verteile Verteidigungsgegenstände je nachdem, welcher Frontline-Held den meisten Druck abbekommt, und gib verbleibende Schadensgegenstände dem Backline-Carry.",
+          "upgrade": "Wähle Relikte, die längere Kämpfe, widerstandsfähige Helden oder wiederholte Teamaktionen belohnen.",
+          "alternatives": "Verbessere beide Frontline-Helden so weit, dass sie überleben, und skaliere dann den geschützten Schadenshelden."
+        },
+        {
+          "name": "Wandle den schwächeren Frontline-Platz in Unterstützung um, wenn keine zusätzliche Haltbarkeit mehr erforderlich ist.",
+          "roles": [
+            "Relikt-basierter Flex-Build",
+            "Helden, die zu den stärksten Relikt-Effekten passen",
+            "Eine stabile Frontlinie",
+            "Ein anpassungsfähiger Carry"
+          ],
+          "positioning": "Mehrere Reserve-Optionen",
+          "items": "Positioniere dich um die aktiven Relikt-Effekte herum, anstatt von Beginn des Runs an einer festen Formation zu folgen.",
+          "relics": "Nutze Gegenstände, um die Helden zu stärken, die bereits vom Relikt-Paket profitieren.",
+          "upgrade": "Baue auf wiederkehrenden Relikt-Themen auf, anstatt einzeln starke Relikte ohne Zusammenhang zu wählen.",
+          "alternatives": "Lege dich erst fest, wenn zwei oder mehr Relikte dieselbe Strategie unterstützen."
+        },
+        {
+          "name": "Kehre zu einem ausgeglichenen Team zurück, wenn die Relikt-Effekte verstreut bleiben.",
+          "roles": [
+            "Reserve- und Pivot-Build",
+            "Zwei oder mehr Reservekandidaten",
+            "Alternativer Carry",
+            "Alternativer Support oder Frontline"
+          ],
+          "positioning": "Halte die aktive Formation einfach und wechsle Reservehelden ein, wenn eine Begegnung oder ein Spezialisierungsangebot sie begünstigt.",
+          "items": "Vermeide es, wertvolle Gegenstände an temporäre Helden zu binden, bevor die endgültige Zusammenstellung feststeht.",
+          "relics": "Bevorzuge flexible Relikte, die auch nach einem Heldenwechsel nützlich bleiben.",
+          "upgrade": "Werte zuerst den stabilen Kern auf und verzögere teure Investitionen in die Reserve, bis ein klarer Strategiewechsel erkennbar ist.",
+          "alternatives": "Nutze Reservehelden, um Schwachstellen zu ersetzen, anstatt das gesamte Team neu aufzubauen."
+        }
+      ]
+    },
+    "guildrunSpecializationsAndClasses": {
+      "title": "Guildrun Spezialisierungen und Klassen",
+      "intro": "Rang-Upgrades können einen Helden von einem einfachen Rekruten in einen spezialisierten Tank, Heiler, Fernkämpfer, Duellanten, Assassin oder eine Hybrideinheit verwandeln. Die stärksten Gruppen nutzen sich ergänzende Spezialisierungen, anstatt jeden Helden auf die gleiche Schadensart aufzuwerten.",
+      "classes": [
+        {
+          "role": "Tank",
+          "job": "Halte die Frontlinie, absorbiere Druck und schütze zerbrechliche Verbündete.",
+          "focus": "Haltbarkeit, Schadensreduktion, Kontrolle und defensiver Team-Support.",
+          "multiclass": "Lässt sich gut mit Heilungs- oder Supportpfaden kombinieren, die das Überleben in langen Kämpfen verbessern.",
+          "upgrade": "Zuerst defensive Rang-Upgrades, gefolgt von Kontroll- oder Teamschutzeffekten.",
+          "respec": "Skillt um, wenn die Gruppe bereits genug Verteidigung hat oder wenn spätere Bosse mehr Schaden erfordern."
+        },
+        {
+          "role": "Heiler",
+          "job": "Regeneriere Gesundheit und halte die Gruppe in längeren Begegnungen stabil.",
+          "focus": "Heilkraft, Heilfrequenz, Schutz und Team-Sustain.",
+          "multiclass": "Lässt sich mit defensiven oder Schadens-Supportpfaden kombinieren, um zwischen Heilaktionen einen Mehrwert zu bieten.",
+          "upgrade": "Zuerst zuverlässige Heilung und Überleben, gefolgt von gruppenweiten Boni.",
+          "respec": "Skillt um, wenn die Heilung den Bedarf der Gruppe übersteigt oder wenn schnellere Kämpfe offensiven Support wertvoller machen."
+        },
+        {
+          "role": "Fernkämpfer",
+          "job": "Verursache beständigen Schaden aus einer sicheren Position hinter der Frontlinie.",
+          "focus": "Angriffsgeschwindigkeit, Fernkampfschaden, Zielabdeckung und dauerhafte Skalierung.",
+          "multiclass": "Funktioniert gut mit Klassenboni, Angriffsgeschwindigkeitseffekten und Pfaden, die wiederholte Angriffe verbessern.",
+          "upgrade": "Beständige Schadens-Upgrades vor speziellen Effekten, die nur gegen bestimmte Ziele wirken.",
+          "respec": "Skillt um, wenn dem Build Schutz fehlt oder wenn Einzelziel-Bossschaden wichtiger wird als allgemeiner Schaden."
+        },
+        {
+          "role": "Duellant",
+          "job": "Setze gefährliche einzelne Gegner durch starken Einzelzielkampf unter Druck.",
+          "focus": "Direkter Schaden, wiederholte Angriffe, Überlebensfähigkeit und anhaltender Druck im Eins-gegen-Eins.",
+          "multiclass": "Profitiert von defensiven Nebenpfaden, die es dem Helden ermöglichen, auch unter Druck weiter anzugreifen.",
+          "upgrade": "Zuerst Schadenskonsistenz, gefolgt von defensiven Upgrades, die unterbrochene Angriffe verhindern.",
+          "respec": "Skillt um, wenn Begegnungen große Gegnergruppen enthalten oder wenn die Gruppe eine stärkere Flächenabdeckung benötigt."
+        },
+        {
+          "role": "Assassin",
+          "job": "Eliminiere verwundbare Ziele oder Ziele mit hoher Priorität durch konzentrierten Burst-Schaden.",
+          "focus": "Burst-Schaden, Zielzugriff, Finishing-Power und offensive Skalierung.",
+          "multiclass": "Lässt sich mit flexiblen Schadens- oder Angriffsgeschwindigkeitspfaden kombinieren, die auch nach dem ersten Burst nützlich bleiben.",
+          "upgrade": "Zuverlässige Finishing-Power vor stark bedingten Schadensboni.",
+          "respec": "Skillt um, wenn Gegner den ersten Angriff überleben oder wenn längere Kämpfe dauerhaften Schaden belohnen."
+        },
+        {
+          "role": "Hybrid",
+          "job": "Erfülle zwei Gruppenbedürfnisse durch Multiklassen-Kombinationen und flexible Spezialisierungsentscheidungen.",
+          "focus": "Ausgeglichener Schaden, Unterstützung, Verteidigung oder Heilung, abgestimmt auf die aktuelle Gruppe.",
+          "multiclass": "Bietet die größte Flexibilität, wenn Shops und Rekrutierung keine perfekte Teamzusammensetzung ermöglichen.",
+          "upgrade": "Wähle Upgrades, die die größte Schwäche der Gruppe beheben, anstatt Ressourcen gleichmäßig zu verteilen.",
+          "respec": "Setze Punkte nach größeren Rekrutierungsänderungen zurück, damit der Held weiterhin eine nützliche Rolle erfüllt."
+        }
+      ]
+    },
+    "guildrunItemsAndRelicsTierList": {
+      "title": "Guildrun Item- und Relikt-Tier-Liste",
+      "intro": "Die beste Ausrüstung verbessert ein gesamtes Build, anstatt nur eine kleine isolierte Stat-Erhöhung zu bieten. Flexible Klassenboni, Angriffsgeschwindigkeits-Skalierung, verlässliche Verteidigung, Heilungsunterstützung und frühe Wirtschaftseffekte bleiben über mehr Helden und Schwierigkeitsgrade hinweg nützlich.",
+      "tiers": [
+        {
+          "tier": "S",
+          "category": "Klassenskalierende Relikte",
+          "power": "Sehr hoch",
+          "flexibility": "Hoch",
+          "bestWith": "Gruppen mit mehreren Helden, die dieselbe Klassenausrichtung teilen oder von ihr profitieren.",
+          "reason": "Klassenweite Skalierung kann mehrere Fähigkeiten verbessern und wird stärker, wenn die Gruppe Ränge und Spezialisierungen gewinnt."
+        },
+        {
+          "tier": "S",
+          "category": "Flexible Angriffsgeschwindigkeits-Effekte",
+          "power": "Sehr hoch",
+          "flexibility": "Sehr hoch",
+          "bestWith": "Fernkampfhelden, Duellanten, Mehrfachangreifer und Effekte, die durch häufige Angriffe ausgelöst werden.",
+          "reason": "Angriffsgeschwindigkeit erhöht den direkten Schaden und aktiviert gleichzeitig kompatible On-Attack-Effekte häufiger."
+        },
+        {
+          "tier": "S",
+          "category": "Frühe Wirtschaftsrelikte",
+          "power": "Hoch",
+          "flexibility": "Sehr hoch",
+          "bestWith": "Runs, in denen sie früh genug erworben werden, um von zusätzlichen Shops, Rerolls, Rekruten und Upgrades zu profitieren.",
+          "reason": "Frühe wirtschaftliche Vorteile summieren sich über den Run hinweg und schaffen mehr Möglichkeiten, mächtige Builds zu vervollständigen."
+        },
+        {
+          "tier": "S",
+          "category": "Universelle Überlebenseffekte",
+          "power": "Sehr hoch",
+          "flexibility": "Sehr hoch",
+          "bestWith": "Frontlinien-Helden und Gruppen, die höhere Schwierigkeitsgrade oder den Endless Modus bestreiten.",
+          "reason": "Verlässliche Verteidigung verhindert gescheiterte Runs und gibt schadensorientierten Helden mehr Zeit zum Skalieren."
+        },
+        {
+          "tier": "A",
+          "category": "Heilungsverstärkung",
+          "power": "Hoch",
+          "flexibility": "Mittel",
+          "bestWith": "Dedizierte Heiler, defensive Gruppen und lange Bosskämpfe.",
+          "reason": "Heilungsverbesserungen bieten starke Ausdauer, verlieren aber an Wert, wenn die Gruppe keine verlässliche Heilquelle hat."
+        },
+        {
+          "tier": "A",
+          "category": "Dedizierte Schadensboni",
+          "power": "Hoch",
+          "flexibility": "Mittel",
+          "bestWith": "Spezialisierte Fernkampf-, Duellanten- oder Assassin-Builds mit einem klaren primären Schadensausteiler.",
+          "reason": "Fokussierte Boni können hervorragende Carries hervorbringen, sind aber weniger nützlich, wenn die Rekrutierung eine andere Zusammenstellung erzwingt."
+        },
+        {
+          "tier": "B",
+          "category": "Rollenspezifische defensive Gegenstände",
+          "power": "Mittel",
+          "flexibility": "Niedrig",
+          "bestWith": "Tanks oder Helden, die regelmäßig gegnerischem Druck ausgesetzt sind.",
+          "reason": "Diese Effekte sind auf dem richtigen Helden nützlich, bieten jedoch nur begrenzten Wert, wenn sie auf geschützten Backline-Einheiten platziert werden."
+        },
+        {
+          "tier": "B",
+          "category": "Bedingte Kampfrelikte",
+          "power": "Mittel",
+          "flexibility": "Niedrig",
+          "bestWith": "Builds, die die Reliktbedingung konsistent aktivieren können.",
+          "reason": "Ihr maximales Potenzial kann stark sein, aber nicht erfüllte Bedingungen machen sie weniger konsistent als universelle Effekte."
+        },
+        {
+          "tier": "C",
+          "category": "Single-Stat-Items mit geringer Auswirkung",
+          "power": "Niedrig",
+          "flexibility": "Mittel",
+          "bestWith": "Temporäre Ausrüstungsplätze für das frühe Spiel, bevor stärkere Optionen erscheinen.",
+          "reason": "Kleine, isolierte Boni werden schnell ersetzt und beeinflussen selten die Spezialisierung im Late-Game oder die Skalierung im Endless-Modus."
+        }
+      ]
+    },
+    "guildrunDifficultyAndEndless": {
+      "title": "Guildrun-Schwierigkeitsgrade und Endless-Modus",
+      "intro": "Höhere Schwierigkeitsgrade belohnen effiziente Rekrutierung, kontrollierte Ausgaben, stärkere Spezialisierungssynergien und eine bessere Ausrüstungswahl. Der Endless-Modus verlängert den Run über den normalen Fortschritt hinaus und testet, wie lange die Gruppe überleben kann, während sie eine Ranglisten-Punktzahl aufbaut.",
+      "levels": [
+        {
+          "name": "Schwierigkeitsgrad 1",
+          "unlock": "Zu Beginn verfügbar.",
+          "challenge": "Nutzt die grundlegende Fortschrittsstruktur und führt den vollständigen Rekrutierungs-, Shop-, Upgrade- und Boss-Loop ein.",
+          "preparation": "Stelle eine ausgewogene Gruppe mit einer Frontline, verlässlichem Schaden und genügend Sustain zusammen, um den ersten Run zu beenden."
+        },
+        {
+          "name": "Schwierigkeitsgrad 2",
+          "unlock": "Freigeschaltet nach dem Abschluss von Schwierigkeitsgrad 1.",
+          "challenge": "Beginnt den Pfad des eskalierenden Schwierigkeitsgrads und erhöht den Druck auf den grundlegenden Gruppenaufbau.",
+          "preparation": "Vermeide unnötige Rerolls und investiere Ressourcen in Helden, die den Haupt-Build bereits unterstützen."
+        },
+        {
+          "name": "Schwierigkeitsgrad 3",
+          "unlock": "Freigeschaltet nach dem Abschluss von Schwierigkeitsgrad 2.",
+          "challenge": "Bestraft eine schwache Frontline und Gruppen, die sich auf nur eine Schadensquelle verlassen.",
+          "preparation": "Füge defensive Unterstützung hinzu und entwickle eine sekundäre Schadensoption vor späteren Bossen."
+        },
+        {
+          "name": "Schwierigkeitsgrad 4",
+          "unlock": "Freigeschaltet nach dem Abschluss von Schwierigkeitsgrad 3.",
+          "challenge": "Erfordert stärkere Rang-Upgrades, Spezialisierungssynergien und eine sorgfältigere Kampfvorbereitung.",
+          "preparation": "Priorisiere Upgrades, die die gesamte Gruppe verbessern, anstatt Ressourcen auf temporäre Rekruten zu verteilen."
+        },
+        {
+          "name": "Schwierigkeit 5",
+          "unlock": "Freigeschaltet nach Abschluss von Schwierigkeit 4.",
+          "challenge": "Verringert den Spielraum für ineffiziente Shops, schlecht abgestimmte Relikte und unvollständige Klassenkombinationen.",
+          "preparation": "Plane frühzeitig eine primäre Spezialisierungsrichtung und halte genügend Ressourcen für wichtige Rerolls bereit."
+        },
+        {
+          "name": "Schwierigkeit 6",
+          "unlock": "Freigeschaltet nach Abschluss von Schwierigkeit 5.",
+          "challenge": "Erfordert stärkere Antworten auf den Druck von Bossen und eine bessere Skalierung in der mittleren und späten Phase eines Runs.",
+          "preparation": "Kombiniere verlässliches Überleben mit Ausrüstung, die an Wert gewinnt, wenn Helden mehr Upgrades erhalten."
+        },
+        {
+          "name": "Schwierigkeit 7",
+          "unlock": "Freigeschaltet nach Abschluss von Schwierigkeit 6.",
+          "challenge": "Stellt optimierte Multiklassen-Kombinationen auf die Probe und deckt Schwächen von Gruppen mit einseitigen oder bedingten Strategien auf.",
+          "preparation": "Nutze flexible Gegenstände und Relikte, behalte mehr als eine Siegbedingung bei und respezialisiere Helden, wenn sich die Zusammenstellung ändert."
+        },
+        {
+          "name": "Schwierigkeit 8",
+          "unlock": "Freigeschaltet nach Abschluss von Schwierigkeit 7.",
+          "challenge": "Stellt den härtesten Standard-Schwierigkeitsgrad dar und erfordert einen effizienten Build von der Rekrutierung bis zum finalen Boss.",
+          "preparation": "Minimiere verschwendete Käufe, vervollständige Kern-Spezialisierungskombinationen und gehe mit voll entwickeltem Schaden und Sustain in späte Begegnungen."
+        },
+        {
+          "name": "Endless-Modus",
+          "unlock": "Erreicht durch erfolgreichen Fortschritt über die standardmäßige Run-Struktur hinaus.",
+          "challenge": "Setzt den Kampf nach dem normalen Boss-Fortschritt fort, während der Druck der Gegner und die Anforderungen eines langen Runs stetig steigen.",
+          "preparation": "Bevorzuge skalierbare Klassenboni, Mehrfachangriff-Effekte, starken Sustain und Reliktkombinationen, die während eines längeren Runs nützlich bleiben.",
+          "goal": "Überlebe so lange wie möglich und maximiere die Punktzahl auf der Run-Bestenliste."
+        }
+      ]
+    },
+    "guildrunUpdatesAndPatchNotes": {
+      "title": "Guildrun-Updates und Patchnotizen",
+      "intro": "Die Berichterstattung über Guildrun-Updates ist nach dem betroffenen Spielbereich organisiert. Spieler sollten Heldenbalance, Spezialisierungsänderungen, Ausrüstungsanpassungen, Modus-Updates und Fehlerbehebungen überprüfen, bevor sie einen älteren Build oder eine ältere Tier-List wiederverwenden.",
+      "updates": [
+        {
+          "date": "Wöchentlicher Update-Zyklus",
+          "title": "Heldenbalance-Updates",
+          "category": "Balance",
+          "changes": "Verfolgt Anpassungen der Heldenleistung, Kampfrollen, Rang-Upgrades und des Verhaltens von Fähigkeiten.",
+          "impact": "Schadens-, Tank-, Heiler- und Support-Ranglisten können sich ändern, wenn ein Held eine stärkere oder schwächere Skalierung erhält."
+        },
+        {
+          "date": "Wöchentlicher Update-Zyklus",
+          "title": "Spezialisierungs- und Klassenänderungen",
+          "category": "Builds",
+          "changes": "Verfolgt die Feinabstimmung von Spezialisierungen, Multiklassen-Interaktionen, Upgrade-Pfade, Fähigkeitsschlüsselwörter und Änderungen im Zusammenhang mit Respecs.",
+          "impact": "Bestehende Klassenkombinationen können neue Synergien erhalten oder eine andere Upgrade-Reihenfolge erfordern."
+        },
+        {
+          "date": "Wöchentlicher Update-Zyklus",
+          "title": "Gegenstands- und Reliktanpassungen",
+          "category": "Ausrüstung",
+          "changes": "Verfolgt Machtänderungen, Seltenheitsanpassungen, Effektrevisionen und die Kompatibilität mit verschiedenen Helden oder Klassen.",
+          "impact": "Tier-Platzierungen können sich verschieben, wenn universelle Effekte, Wirtschaftsrelikte oder klassenskalierende Ausrüstung neu ausbalanciert werden."
+        },
+        {
+          "date": "Inhalts-Update",
+          "title": "Neue Helden und Ausrüstung",
+          "category": "---",
+          "changes": "Neuer Inhalt",
+          "impact": "Umfasst neu hinzugefügte Helden, Spezialisierungsoptionen, Gegenstände, Relikte und zugehörige Gameplay-Systeme."
+        },
+        {
+          "date": "Neue Ergänzungen können stärkere Gruppenrollen, Multiklassen-Kombinationen und Late-Game-Strategien ermöglichen.",
+          "title": "Feature-Update",
+          "category": "Änderungen an Schwierigkeitsgrad und Endless-Modus",
+          "changes": "Spielmodi",
+          "impact": "Beinhaltet Schwierigkeitsmodifikatoren, Boss-Fortschritt, Endless-Skalierung, Punktzahlen und Anpassungen an den Bestenlisten."
+        },
+        {
+          "date": "Empfohlene Vorbereitungen und Ausrüstungsprioritäten können sich ändern, wenn die Skalierung für hohe Schwierigkeitsgrade oder Langzeit-Runs angepasst wird.",
+          "title": "Wartungs-Update",
+          "category": "Fehlerbehebungen und Stabilität",
+          "changes": "Fehlerbehebungen",
+          "impact": "Umfasst Kampffehler, Interaktionen von Fähigkeiten, Interface-Probleme, Fortschrittsfehler und allgemeine Stabilitätsverbesserungen."
+        },
+        {
+          "date": "Fehlerbehebungen können das vorgesehene Verhalten von Helden, Spezialisierungen, Gegenständen oder Relikten wiederherstellen und Ergebnisse früherer Builds verändern.",
+          "title": "Beta-Update",
+          "category": "Demo- und Beta-Entwicklung",
+          "changes": "Entwicklung",
+          "impact": "Beinhaltet experimentelle Features, auf Feedback basierende Überarbeitungen, Demo-Verbesserungen und Systeme, die für spätere Veröffentlichungen vorbereitet werden."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Beta-Änderungen können neue Mechaniken einführen, die Fortschrittsstrategien und zukünftige Tier-Listen beeinflussen.",
+    "titleHighlight": "Häufig gestellte",
+    "subtitle": "Fragen",
+    "questions": [
+      {
+        "question": "Alles, was du über Guildrun wissen musst",
+        "answer": "Was ist Guildrun?"
+      },
+      {
+        "question": "Guildrun ist ein Singleplayer-PvE-Roguelike-Autobattler von Leyline. Du rekrutierst Helden, entwickelst ihre Spezialisierungspfade, rüstest Gegenstände sowie Relikte aus und siehst zu, wie automatische Kämpfe immer schwierigere Rifts bezwingen.",
+        "answer": "Gibt es eine kostenlose Demo von Guildrun?"
+      },
+      {
+        "question": "Ja. Die Guildrun-Demo ist ein kostenloser, eigenständiger Download auf Steam, der Rekrutierung, Shop-Entscheidungen, Upgrades, Spezialisierungen, Gegenstände, Relikte und automatische Kämpfe vor der Vollversion abdeckt.",
+        "answer": "Wann ist das Veröffentlichungsdatum der Vollversion von Guildrun?"
+      },
+      {
+        "question": "Die Vollversion von Guildrun ist für eine Veröffentlichung im Jahr 2027 auf PC via Steam geplant. Du kannst der Hauptseite von Guildrun im Store folgen oder sie auf deine Wunschliste setzen, um Ankündigungen zur Veröffentlichung zu erhalten.",
+        "answer": "Wie viele Helden und Spezialisierungen hat Guildrun?"
+      },
+      {
+        "question": "Guildrun ist mit etwa 25 rekrutierbaren Helden, 75 Spezialisierungspfaden und 180 Spezialisierungsoptionen geplant, dazu kommen mehr als 100 Gegenstände und über 300 Relikte, die jeden Run prägen.",
+        "answer": "Unterstützt Guildrun Koop oder Multiplayer?"
+      },
+      {
+        "question": "Koop ist Teil des geplanten Entwicklungsumfangs für Guildrun. Die aktuelle kostenlose Demo ist eine Singleplayer-Erfahrung, wobei Multiplayer-Features für die Vollversion vorgesehen sind.",
+        "answer": "Was ist der Endless-Modus in Guildrun?"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Der Endless-Modus verlängert einen Guildrun-Run über den normalen Boss-Fortschritt hinaus, während der Druck durch Gegner stetig zunimmt. Er begünstigt skalierbare Klassenboni, Mehrfachangriff-Effekte und starken Sustain, um die Punktzahl auf der Bestenliste zu maximieren.",
+    "description": "Bereit, Guildrun zu spielen?",
+    "joinCommunity": "Tritt der Guildrun-Community auf Discord bei und meistere den PvE-Roguelike-Autobattler mit unseren Helden-Guides, Build-Tipps, Relikt-Tier-Listen und Spezialisierungs-Analysen.",
+    "joinGame": "Discord beitreten"
+  },
+  "footer": {
+    "title": "Kostenlose Demo auf Steam spielen",
+    "description": "Guildrun-Wiki",
+    "resources": "Dein umfassendes Ressourcen-Hub für Guildrun-Helden, Builds, Relikte, Gegenstände, Spezialisierungen und Guides für Teamsynergien.",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam Store",
+    "about": "Über uns",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Urheberrecht",
+    "copyright": "© 2026 Guildrun Wiki. Nicht verbunden mit Leyline oder den Entwicklern von Guildrun.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guildrun-Guides",
+      "description": "Vollständige Guildrun-Guides, die Grundlagen für Anfänger, Strategien für den ersten Run, Shop-Synergien, Reroll-Prioritäten und fortgeschrittene Teambuilding-Taktiken für den PvE-Roguelike-Autobattler abdecken.",
+      "metaTitle": "Guildrun-Guides – Strategien von Anfänger bis Fortgeschritten",
+      "metaDescription": "Meistere Guildrun mit vollständigen Guides zu Strategien für den ersten Run, Shop-Synergien, Reroll-Prioritäten, Heldenrekrutierung und Teambuilding-Taktiken für den PvE-Roguelike-Autobattler.",
+      "categoryLabel": "GUILD-GUIDES",
+      "whatIs": "Was sind Guildrun-Guides?",
+      "whatIsDescription": "Guildrun-Guides führen dich durch jede Phase eines Runs, von deiner ersten Heldenrekrutierung und Shop-Aktualisierungen bis hin zu spezialisierten Team-Builds, Reliktauswahl und Kampfvorbereitung in eskalierenden Rifts.",
+      "why": "Warum Guildrun-Guides lesen?",
+      "whySteps": {
+        "step1Title": "Meistere den ersten Run",
+        "step1Description": "Lerne den Kern-Loop aus Rekrutierung, Shop-Management, Positionierung auf dem Hex-Gitter und Kampfvorbereitung, damit deine ersten Runs eine starke Wirtschaft und ein lebensfähiges Team aufbauen.",
+        "step2Title": "Optimiere Shop und Ressourcen",
+        "step2Description": "Finde heraus, wann du den Shop aktualisieren solltest, wie du Shards effizient ausgibst und welche Auktionsauswahlen und frühen Gegenstände den höchsten Wert für deine Zusammenstellung bieten.",
+        "step3Title": "Entwickle eine Siegesstrategie",
+        "step3Description": "Kombiniere Spezialisierungspfade, Reliktskalierung und Heldensynergien zu flexiblen Strategien, die sich anpassen, während der Schwierigkeitsgrad in Richtung SSS und Endless-Modus steigt."
+      },
+      "featured": "Empfohlene Guides",
+      "all": "Alle Guides"
+    },
+    "tiers": {
+      "title": "Guildrun-Tier-Listen",
+      "description": "Aktualisierte Guildrun-Tier-Listen, die die besten Helden, Klassen, Gegenstände und Relikte nach Synergie, Skalierung und Leistung in jedem Schwierigkeitsgrad und Endless-Modus bewerten.",
+      "metaTitle": "Guildrun-Tier-Liste – Beste Helden, Klassen, Gegenstände & Relikte",
+      "metaDescription": "Vergleiche die besten Guildrun-Helden, Klassen, Gegenstände und Relikte mit aktualisierten Tier-Listen, die auf Synergie, Skalierung und Leistung in jedem Schwierigkeitsgrad basieren.",
+      "categoryLabel": "TIER-LISTEN",
+      "whatIs": "Was sind Guildrun-Tier-Listen?",
+      "whatIsDescription": "Guildrun-Tier-Listen bewerten Helden, Klassen, Gegenstände und Relikte nach ihrer Leistung, Synergie und Skalierung, damit du schnell die stärksten Optionen für dein Team und deinen Schwierigkeitsgrad identifizieren kannst.",
+      "why": "Warum Guildrun-Tier-Listen nutzen?",
+      "whySteps": {
+        "step1Title": "Wähle die besten Helden",
+        "step1Description": "Sieh dir an, welche der 25 Helden im S-Tier für Frontline-Tanking, Schaden, Heilung und Support stehen, mit Rankings basierend auf echten Synergie- und Skalierungsdaten.",
+        "step2Title": "Bewerte Klassen und Gegenstände",
+        "step2Description": "Vergleiche Spezialisierungsklassen, Gegenstände und Relikte direkt miteinander, um die wertvollsten Optionen für deinen gewählten Build und deine Teamzusammenstellung zu finden.",
+        "step3Title": "Plane basierend auf der Meta",
+        "step3Description": "Nutze die Ranglisten, um vorherzusehen, welche Comps und Reliktpakete am besten abschneiden, während sich das Balancing ändert und neue Helden vor der Vollversion zum Roster dazukommen."
+      },
+      "featured": "Highlight-Tier-Lists",
+      "all": "Alle Tier-Lists"
+    },
+    "release": {
+      "title": "Guildrun-Veröffentlichung",
+      "description": "Alles zum Guildrun Release: der Zeitraum für den Full Launch 2027, kostenloser Steam Demo-Zugang, Preise, Plattformen und wie der Demo-Fortschritt in das Hauptspiel übernommen wird.",
+      "metaTitle": "Guildrun Release-Datum, Demo, Preis & Fortschrittsübernahme",
+      "metaDescription": "Verfolge den Zeitraum für den Guildrun Full Release 2027, die kostenlose Steam Demo, Preise, unterstützte Plattformen und wie dein Demo-Fortschritt in die Launch-Version übernommen wird.",
+      "categoryLabel": "RELEASE-INFO",
+      "whatIs": "Was beinhaltet der Guildrun Release?",
+      "whatIsDescription": "Der Guildrun Release umfasst die aktuell verfügbare kostenlose Steam Demo, die Roadmap für den Launch 2027, Preise, unterstützte Plattformen und wie Helden, Meisterschaft und Meta-Fortschritt von der Demo ins Hauptspiel übernommen werden.",
+      "why": "Warum sollte man den Guildrun Release verfolgen?",
+      "whySteps": {
+        "step1Title": "Probiere die kostenlose Demo aus",
+        "step1Description": "Lade die kostenlose Steam Demo herunter, um Rekrutierung, Shop-Strategie und eskalierende Rifts zu erleben, bevor du dich für die Vollversion entscheidest.",
+        "step2Title": "Verfolge den Launch 2027",
+        "step2Description": "Bestätige, dass dein PC oder Steam Deck die Mindest- und empfohlenen Spezifikationen erfüllt",
+        "step3Title": "Nimm deinen Fortschritt mit",
+        "step3Description": "Erfahre genau, welcher Schwierigkeitsgrad-Fortschritt, welche Helden-Meisterschaft und welche Meta-Freischaltungen von der Demo ins Hauptspiel übertragen werden, damit nichts verloren geht."
+      },
+      "featured": "Highlight-Release-Guides",
+      "all": "Alle Release-Guides"
+    },
+    "builds": {
+      "title": "Guildrun Builds",
+      "description": "Vollständige Guildrun Build-Guides für jeden Spielstil, einschließlich Nyx, Kai, Berserker, Mage, Assassin, Rush und One-Shot Setups mit Spezialisierungen, Relikten und Items.",
+      "metaTitle": "Guildrun Builds – Die besten Helden-, Mage-, Assassin- & Tank-Setups",
+      "metaDescription": "Erstelle siegreiche Guildrun Teams mit vollständigen Guides für Nyx, Kai, Berserker, Mage, Assassin, Rush und One-Shot Setups, inklusive Spezialisierungen, Relikten und Items.",
+      "categoryLabel": "TEAM-BUILDS",
+      "whatIs": "Was sind Guildrun Builds?",
+      "whatIsDescription": "Guildrun Builds sind komplette Team-Setups, die Helden, Spezialisierungspfade, Items und Relikte zu synergetischen Comps kombinieren, um Rifts, den SSS Schwierigkeitsgrad und den Endless Modus zu meistern.",
+      "why": "Warum sollte man Guildrun Builds nutzen?",
+      "whySteps": {
+        "step1Title": "Wähle ein bewährtes Setup",
+        "step1Description": "Starte mit getesteten Builds wie dem unendlich skalierenden Rush-Krieger, der Schilde stapelnden Kai-Frontline oder dem One-Shot Assassin-Crit-Carry, statt nur zu raten.",
+        "step2Title": "Verstehe die Synergien",
+        "step2Description": "Lerne, warum jeder Build funktioniert, welche Spezialisierungspfade und Reliktpakete seine Stärke ausmachen und wie du mitten im Run umschwenkst, wenn der Shop bessere Optionen bietet.",
+        "step3Title": "Skaliere bis in den Endless Modus",
+        "step3Description": "Passe deinen Build an, wenn der Schwierigkeitsgrad steigt, und staple die richtigen Relikte und Items, damit deine Comp weiterhin eskalierende Rifts und Endless Wellen klärt."
+      },
+      "featured": "Highlight-Builds",
+      "all": "Alle Builds"
+    },
+    "combat": {
+      "title": "Guildrun Kämpfe",
+      "description": "Guildrun Kampf-Guides für Bosskämpfe, SSS Schwierigkeitsgrad, Endless Skalierung und die besten Team-Comps, um jede Begegnung zu meistern und hochstufige Rifts zu überleben.",
+      "metaTitle": "Guildrun Kämpfe – Boss-Guide, SSS, Endless & die besten Teams",
+      "metaDescription": "Bezwinge jede Guildrun Begegnung mit Kampf-Guides zu Boss-Taktiken, SSS Schwierigkeitsgrad, Endless Skalierung und den besten Team-Comps für hochstufige Rifts.",
+      "categoryLabel": "KAMPF-GUIDES",
+      "whatIs": "Was ist der Kampf in Guildrun?",
+      "whatIsDescription": "Der Kampf in Guildrun umfasst Boss-Mechaniken, die Skalierung des Schwierigkeitsgrads, SSS-Herausforderungen und Wellen im Endless-Modus sowie die Team-Zusammenstellungen und taktischen Anpassungen, die zum Meistern jeder Begegnung erforderlich sind.",
+      "why": "Warum den Kampf in Guildrun analysieren?",
+      "whySteps": {
+        "step1Title": "Boss-Mechaniken entschlüsseln",
+        "step1Description": "Lerne die Angriffsmuster, Schwächen und Phasenübergänge von Bossen wie dem Omega Plexus Sentinel kennen, um dich effektiv zu positionieren und zu kontern.",
+        "step2Title": "Bezwinge den SSS-Schwierigkeitsgrad",
+        "step2Description": "Bereite den richtigen Build, das Relikt-Paket und die Team-Zusammenstellung vor, um mit den extremen Statuswert-Modifikatoren und Gegner-Buffs umzugehen, die Runs auf dem SSS-Schwierigkeitsgrad bestimmen.",
+        "step3Title": "Überlebe den Endless-Modus",
+        "step3Description": "Meistere die Skalierungskurve des Endless-Modus mit unendlich skalierenden Builds, Defensivmechaniken und Ressourcenmanagement, die deinen Run Welle für Welle am Leben erhalten."
+      },
+      "featured": "Hervorgehobene Kampf-Guides",
+      "all": "Alle Kampf-Guides"
+    },
+    "mechanics": {
+      "title": "Guildrun-Mechaniken",
+      "description": "Tiefgehende Einblicke in die Guildrun-Mechaniken: das Autobattler-Kampfsystem, die Roguelike-Run-Struktur, der Rangaufstieg der Helden, das KI-Verhalten und die Meta-Fortschrittssysteme.",
+      "metaTitle": "Guildrun-Mechaniken – Autobattler, Roguelike, KI & Rangaufstieg",
+      "metaDescription": "Verstehe, wie Guildrun wirklich funktioniert, mit Mechanik-Guides zum Autobattler-Kampfsystem, zur Roguelike-Run-Struktur, zum Rangaufstieg der Helden, zum KI-Verhalten und zum Meta-Fortschritt.",
+      "categoryLabel": "SPIELMECHANIKEN",
+      "whatIs": "Was sind die Guildrun-Mechaniken?",
+      "whatIsDescription": "Die Guildrun-Mechaniken erklären die Systeme hinter dem Spiel: die automatische Kampfauflösung, die Roguelike-Run-Struktur, den Rangaufstieg der Helden, die KI-Entscheidungsfindung und den Meta-Fortschritt, der zwischen den Runs bestehen bleibt.",
+      "why": "Warum sollte man die Guildrun-Mechaniken lernen?",
+      "whySteps": {
+        "step1Title": "Verstehe den Autobattler",
+        "step1Description": "Erfahre, wie Positionierung, Zielauswahl und Fähigkeitspriorität den automatischen Kampf steuern, damit du Teams zusammenstellen kannst, die ohne manuelles Eingreifen gewinnen.",
+        "step2Title": "Meistere den Roguelike-Loop",
+        "step2Description": "Lerne, wie Rekrutierung, Shop-Rolls, Relikt-Drops und eskalierende Risse jeden Run strukturieren und wo du für den größten langfristigen Erfolg investieren solltest.",
+        "step3Title": "Helden effizient im Rang aufsteigen lassen",
+        "step3Description": "Folge dem Rangaufstiegspfad von C bis S, den Spezialisierungsoptionen und den Respec-Möglichkeiten, um deine Helden in all deinen Runs zu S-Tier-Performern zu entwickeln."
+      },
+      "featured": "Hervorgehobene Mechanik-Guides",
+      "all": "Alle Mechanik-Guides"
+    },
+    "steam": {
+      "title": "Guildrun Steam",
+      "description": "Guildrun auf Steam: Live-Spielerzahlen und -Charts, SteamDB-Tracking, Systemanforderungen für PC und Steam Deck sowie der Download der kostenlosen Demo.",
+      "metaTitle": "Guildrun Steam – Spielerzahlen, Charts, SteamDB & Systemanforderungen",
+      "metaDescription": "STEAM-HUB",
+      "categoryLabel": "Was ist Guildrun auf Steam?",
+      "whatIs": "Guildrun auf Steam ist die kostenlose Demo und die bevorstehende Vollversion, komplett mit Live-Spielerzahlen, Bewertungen, SteamDB-Tracking sowie Systemanforderungen für PC und Steam Deck.",
+      "whatIsDescription": "Warum sollte man Guildrun auf Steam verfolgen?",
+      "why": "Spielertrends beobachten",
+      "whySteps": {
+        "step1Title": "Verfolge die Anzahl der gleichzeitigen Live-Spieler, die Spitzen-CCU und die Stimmung der Bewertungen auf den Steam-Charts, um das Meta- und Community-Interesse im Zuge des Spielwachstums einzuschätzen.",
+        "step1Description": "Systemanforderungen prüfen",
+        "step2Title": "Stelle sicher, dass dein PC oder Steam Deck die Mindest- und empfohlenen Anforderungen erfüllt, damit die Demo und die Vollversion reibungslos auf deiner Hardware laufen.",
+        "step2Description": "Bestätige, dass dein PC oder Steam Deck die Mindest- und empfohlenen Systemanforderungen erfüllt",
+        "step3Title": "---",
+        "step3Description": "Hol dir die kostenlose Demo"
+      },
+      "featured": "Lade die kostenlose Steam-Demo direkt von der offiziellen Shopseite herunter und starte deine Rift-Runs noch vor dem Full Release 2027.",
+      "all": "Empfohlene Steam-Guides"
+    }
+  }
+}

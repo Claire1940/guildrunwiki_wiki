@@ -7,24 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://guildrunwiki.wiki'
 
-// 内容类型优先级配置（与 navigation.ts CONTENT_TYPES 同步；Part3 调整导航后此处一并更新）
+// 内容类型优先级配置（与 navigation.ts CONTENT_TYPES 同步）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'items': 0.8,
-	'biomes': 0.8,
-	'building': 0.7,
-	'support': 0.6,
+	'guide': 0.9,
+	'tiers': 0.9,
+	'builds': 0.8,
+	'combat': 0.8,
+	'mechanics': 0.8,
+	'release': 0.7,
+	'steam': 0.6,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'items': 'weekly',
-	'biomes': 'weekly',
-	'building': 'monthly',
-	'support': 'monthly',
+	'guide': 'weekly',
+	'tiers': 'weekly',
+	'builds': 'weekly',
+	'combat': 'weekly',
+	'mechanics': 'weekly',
+	'release': 'weekly',
+	'steam': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

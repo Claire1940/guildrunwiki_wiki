@@ -1,1 +1,830 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Guildrun Wiki - Heróis, Builds, Relíquias & Tier List",
+      "description": "A Guildrun Wiki cobre os melhores heróis, builds, relíquias, itens, especializações, sinergias de equipe, progressão de dificuldade, dicas da demo e atualizações semanais.",
+      "keywords": "Guildrun, Guildrun wiki, heróis, builds, relíquias, itens, tier list, demo, Steam",
+      "ogTitle": "Guildrun Wiki - Heróis, Builds, Relíquias & Tier List",
+      "ogDescription": "A Guildrun Wiki cobre os melhores heróis, builds, relíquias, itens, especializações, sinergias de equipe, progressão de dificuldade, dicas da demo e atualizações semanais para o autobattler roguelike PvE no Steam.",
+      "twitterTitle": "Guildrun Wiki - Heróis, Builds, Relíquias & Tier List",
+      "twitterDescription": "A Guildrun Wiki cobre os melhores heróis, builds, relíquias, itens, especializações e sinergias de equipe para o autobattler roguelike PvE no Steam."
+    }
+  },
+  "nav": {
+    "guide": "Guia",
+    "tiers": "Tiers",
+    "release": "Lançamento",
+    "builds": "Builds",
+    "combat": "Combate",
+    "mechanics": "Mecânicas",
+    "steam": "Steam"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Autobattler Roguelike PvE",
+    "title": "Guildrun Wiki",
+    "description": "Crie uma guilda flexível de heróis, combine especializações, itens e relíquias, adapte sua estratégia a cada partida, limpe fendas crescentes e desafie o modo Endless.",
+    "keywords": "Guildrun, Steam, autobattler PvE, roguelike, heróis, builds, relíquias, especializações, tier list",
+    "getFreeCodesCTA": "Baixar Demo Gratuita",
+    "playOnSteamCTA": "Jogue no Steam",
+    "stats": {
+      "stat1": {
+        "value": "7.184",
+        "label": "Jogadores Online"
+      },
+      "stat2": {
+        "value": "8.007",
+        "label": "Pico de CCU"
+      },
+      "stat3": {
+        "value": "96%",
+        "label": "Avaliações Positivas"
+      },
+      "stat4": {
+        "value": "25",
+        "label": "Heróis Disponíveis"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Guildrun",
+    "description": "Recrute heróis, desenvolva caminhos de especialização, combine itens e relíquias e vença fendas progressivas neste autobattler roguelike PvE para um jogador no Steam."
+  },
+  "tools": {
+    "title": "Guildrun",
+    "titleHighlight": "Wiki",
+    "subtitle": "Tudo o que você precisa para dominar Guildrun, da sua primeira partida ao Endless Mode",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guia de Guildrun para Iniciantes",
+        "description": "Recrutamento, loja, especializações e sua primeira partida de sucesso"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Guildrun Demo e Lançamento",
+        "description": "Demo gratuita no Steam, plataformas, janela de lançamento e progresso transferível"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Heróis de Guildrun",
+        "description": "Ranking de heróis por escalonamento, flexibilidade, sobrevivência e utilidade"
+      },
+      {
+        "icon": "Swords",
+        "title": "Melhores Builds de Time de Guildrun",
+        "description": "Composições, posicionamento, itens, relíquias e planos de transição"
+      },
+      {
+        "icon": "Shield",
+        "title": "Especializações de Guildrun",
+        "description": "Funções de classe, melhorias de ranque, caminhos, multiclasse e respec"
+      },
+      {
+        "icon": "Gem",
+        "title": "Itens e Relíquias de Guildrun",
+        "description": "Tier list de equipamentos por poder, flexibilidade e adequação à classe"
+      },
+      {
+        "icon": "Flame",
+        "title": "Dificuldade e Endless de Guildrun",
+        "description": "Oito níveis de dificuldade, modificadores e estratégia para o Endless Mode"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações de Guildrun",
+        "description": "Patches semanais, mudanças de balanceamento, novos heróis e roadmap"
+      }
+    ]
+  },
+  "modules": {
+    "guildrunBeginnerGuide": {
+      "title": "Guia de Guildrun para Iniciantes",
+      "intro": "Guildrun é um autobattler roguelike PvE para um jogador focado em recrutar heróis, preparar uma equipe e se adaptar às escolhas aleatórias da loja. O jogo completo planeja ter 25 heróis, 75 caminhos de especialização, 180 especializações, mais de 100 itens e mais de 300 relíquias.",
+      "steps": [
+        {
+          "title": "Recrute um Time Inicial Equilibrado",
+          "description": "Comece com heróis que cubram três funções básicas: uma linha de frente resistente, um causador de dano confiável e uma unidade de suporte ou utilidade. Evite preencher todos os espaços com heróis de dano frágeis, pois carries desprotegidos podem ser derrotados antes que seu dano se torne útil.",
+          "priority": "Linha de frente primeiro, dano confiável em segundo, utilidade em terceiro",
+          "mistake": "Comprar cada herói oferecido sem considerar a função que ele desempenha no time"
+        },
+        {
+          "title": "Verifique a Loja Antes de se Comprometer",
+          "description": "Analise a loja completa antes de gastar recursos. Compare novos recrutas, melhorias de duplicatas, itens e opções de especialização de longo prazo, então escolha a compra que melhore a equipe inteira em vez de uma única unidade fraca.",
+          "priority": "Compre poder imediato antes de melhorias especulativas",
+          "mistake": "Usar rerolls repetidos cedo e deixar poucos recursos para melhorias"
+        },
+        {
+          "title": "---",
+          "description": "Monte sua estratégia com base nas melhores ofertas",
+          "priority": "Não force a mesma composição em todas as partidas. Use os heróis, relíquias e itens que aparecerem naturalmente, e mude de rumo quando a loja oferecer repetidamente uma combinação de classe ou efeito compartilhado mais forte.",
+          "mistake": "Melhorias flexíveis e efeitos de equipe compartilhados"
+        },
+        {
+          "title": "Guardar recursos para um herói, item ou especialização específica",
+          "description": "Escolha Especializações com um propósito claro",
+          "priority": "Os heróis de Guildrun podem se desenvolver através de múltiplos caminhos de especialização. Selecione caminhos que fortaleçam a função atual do herói, como sobrevivência para uma unidade de linha de frente, dano consistente para um carry ou valor para toda a equipe para um suporte.",
+          "mistake": "Complete uma função útil antes de espalhar melhorias por várias funções"
+        },
+        {
+          "title": "Escolher bônus não relacionados que não ajudam o posicionamento do herói ou a equipe",
+          "description": "Equipe itens e relíquias antes do combate",
+          "priority": "Coloque equipamentos defensivos em heróis que absorvem os ataques iniciais e equipamentos ofensivos em heróis que permanecem vivos tempo suficiente para usá-los. As relíquias devem apoiar toda a composição, o plano de recursos ou a direção da especialização sempre que possível.",
+          "mistake": "Sobrevivência para a linha de frente e escalonamento para o carry principal"
+        },
+        {
+          "title": "Dar itens raros a um herói que não se beneficia de seu efeito",
+          "description": "Prepare o posicionamento e as unidades de reserva",
+          "priority": "Organize heróis resistentes onde possam interceptar a pressão e manter protegidos os heróis importantes de dano ou suporte. Use unidades de reserva como substitutos, futuras opções de especialização ou respostas para lutas onde a formação atual tenha um desempenho ruim.",
+          "mistake": "Proteja a principal fonte de dano"
+        },
+        {
+          "title": "Usar a mesma formação em todos os encontros",
+          "description": "Aprenda com a primeira partida concluída",
+          "priority": "Após cada batalha, identifique se a equipe careceu de dano, durabilidade ou sinergia. Gaste Fragmentos e outros recursos da partida em melhorias que aumentem a consistência futura, e então progrida para dificuldades maiores e para o modo Endless assim que o ciclo básico parecer estável.",
+          "mistake": "Progresso consistente antes de estratégias de alto risco"
+        }
+      ],
+      "quickTips": [
+        "Mudar toda a equipe após uma luta ruim em vez de ajustar sua função mais fraca",
+        "Estabilize a linha de frente antes de buscar melhorias de dano caras.",
+        "Compare cada oferta da loja com sua equipe inteira, não apenas com um herói fraco.",
+        "Guarde recursos suficientes para rerolls importantes em vez de gastar cedo demais."
+      ]
+    },
+    "guildrunDemoAndRelease": {
+      "title": "Use heróis da reserva para lidar com encontros difíceis em vez de forçar uma única formação.",
+      "intro": "Guildrun Demo e Data de Lançamento",
+      "cards": [
+        {
+          "name": "Os jogadores podem baixar a Guildrun Demo independente através do Steam e experimentar o ciclo principal do roguelike autobattler antes do lançamento completo. A versão completa planeja expandir o elenco, sistemas de progressão, opções de dificuldade e recursos multijogador.",
+          "value": "Demo Gratuita",
+          "description": "Disponível no Steam",
+          "status": "A Guildrun Demo é um download gratuito independente que apresenta recrutamento de heróis, decisões de loja, melhorias, especializações, itens, relíquias e combate automático."
+        },
+        {
+          "name": "Disponível",
+          "value": "Janela de Lançamento do Jogo Completo",
+          "description": "2027",
+          "status": "A versão completa de Guildrun tem lançamento previsto para 2027. A página principal do Steam pode ser seguida ou adicionada à lista de desejos para anúncios futuros."
+        },
+        {
+          "name": "Planejado",
+          "value": "Plataforma",
+          "description": "PC via Steam",
+          "status": "Tanto a demo quanto a página principal de Guildrun na loja estão disponíveis através do Steam."
+        },
+        {
+          "name": "Confirmado",
+          "value": "Elenco de Heróis Planejado",
+          "description": "O jogo completo está planejado em torno de um elenco de 25 heróis recrutáveis que podem ser desenvolvidos em diferentes funções de equipe.",
+          "status": "Jogo Completo"
+        },
+        {
+          "name": "Conteúdo de Especialização",
+          "value": "75 Caminhos / 180 Escolhas",
+          "description": "Os heróis podem ser desenvolvidos através de 75 caminhos de especialização contendo 180 escolhas de especialização, permitindo que as equipes mudem de direção durante uma partida.",
+          "status": "Jogo Completo"
+        },
+        {
+          "name": "Itens e Relíquias",
+          "value": "Mais de 100 Itens / Mais de 300 Relíquias",
+          "description": "As partidas são moldadas por mais de 100 itens e mais de 300 relíquias que modificam o desempenho dos heróis, efeitos de equipe e a direção da build.",
+          "status": "Jogo Completo"
+        },
+        {
+          "name": "Dificuldade e Modo Endless",
+          "value": "8 Dificuldades",
+          "description": "Guildrun planeja incluir oito níveis de dificuldade e um modo Endless para jogadores que desejam partidas mais longas e exigentes.",
+          "status": "Jogo Completo"
+        },
+        {
+          "name": "Co-op",
+          "value": "Recurso Planejado",
+          "description": "O Co-op está incluído no escopo de desenvolvimento planejado do jogo, em vez da atual experiência de demo para um jogador.",
+          "status": "Em Desenvolvimento"
+        }
+      ]
+    },
+    "guildrunHeroesTierList": {
+      "title": "Tier List de Heróis de Guildrun",
+      "intro": "Guildrun é projetado em torno de 25 heróis e 75 caminhos de especialização, portanto, o valor de um herói depende de mais do que o dano inicial. Esta estrutura de tier destaca os perfis de heróis que fornecem os resultados mais consistentes quando as ofertas da loja, relíquias e combinações de equipe mudam entre as partidas.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Heróis que Definem a Partida",
+          "profile": "Carries flexíveis, âncoras de linha de frente duráveis e suportes com fortes efeitos para toda a equipe",
+          "reason": "Estes heróis contribuem imediatamente, escalam através de vários caminhos de especialização e permanecem úteis mesmo quando os itens ideais não aparecem.",
+          "paths": [
+            "Escalonamento de dano flexível",
+            "Durabilidade confiável na linha de frente",
+            "Utilidade para toda a equipe"
+          ],
+          "items": "Itens que melhoram a função atual do herói sem exigir uma combinação restrita",
+          "fit": "Pode se tornar o carry principal, tanque primário ou suporte central em diversas composições"
+        },
+        {
+          "tier": "A",
+          "label": "Heróis Fortes e Consistentes",
+          "profile": "Causadores de dano confiáveis, linha de frente secundária e heróis de suporte focado",
+          "reason": "Estes heróis têm bom desempenho na maioria das partidas, mas geralmente precisam de posicionamento adequado, um caminho de especialização forte ou uma linha de frente compatível.",
+          "paths": [
+            "Especialização em função única",
+            "Dano ou proteção consistente",
+            "Suporte de efeito compartilhado"
+          ],
+          "items": "Itens específicos de função que melhoram a consistência de dano, sobrevivência ou tempo de atividade do suporte",
+          "fit": "Excelente ao lado de uma âncora de tier S ou como a segunda peça principal de uma equipe equilibrada"
+        },
+        {
+          "tier": "B",
+          "label": "Heróis Dependentes de Build",
+          "profile": "Heróis que se tornam poderosos com as relíquias, itens, efeitos compartilhados ou sequência de especialização corretos",
+          "reason": "O potencial máximo deles pode ser alto, mas o desempenho inicial é menos consistente e eles podem consumir recursos demais antes que a build se estabilize.",
+          "paths": [
+            "Especialização focada em sinergia",
+            "Escalamento dependente de relíquias",
+            "Desenvolvimento de carry para o fim da run"
+          ],
+          "items": "Itens específicos que ativam a principal mecânica de escalamento do herói",
+          "fit": "Melhor utilizado quando a loja apoia repetidamente a mesma direção de build"
+        },
+        {
+          "tier": "C",
+          "label": "Heróis Situacionais",
+          "profile": "Counters específicos, especialistas frágeis e heróis que exigem várias melhorias exatas",
+          "reason": "Esses heróis podem resolver confrontos específicos, mas são mais difíceis de usar durante uma primeira run porque sua força depende de suporte preciso.",
+          "paths": [
+            "Utilidade específica para confrontos",
+            "Dano de alto risco",
+            "Builds restritas de efeitos compartilhados"
+          ],
+          "items": "Equipamento altamente especializado que corrige uma grande fraqueza ou permite uma interação específica",
+          "fit": "Unidade de reserva, especialista temporário ou peça final de uma composição já estabelecida"
+        },
+        {
+          "tier": "Pontuação",
+          "label": "Como cada herói é avaliado",
+          "profile": "Cada herói é comparado nas mesmas seis categorias",
+          "reason": "Uma tier list útil mede o desempenho de uma run completa, em vez de apenas uma batalha bem-sucedida.",
+          "paths": [
+            "Força inicial",
+            "Potencial de escalamento",
+            "Flexibilidade",
+            "Sobrevivência",
+            "Dano",
+            "Utilidade para a equipe"
+          ],
+          "items": "A dependência de itens é tratada como uma fraqueza quando um herói precisa de vários drops exatos",
+          "fit": "Os heróis sobem de posição quando funcionam em múltiplas formações e rotas de especialização"
+        }
+      ]
+    },
+    "guildrunBestTeamBuilds": {
+      "title": "Melhores Builds de Equipe de Guildrun",
+      "intro": "A montagem de equipes em Guildrun combina funções de heróis, caminhos de especialização, itens, relíquias, posicionamento e efeitos compartilhados. Essas composições focam em estruturas repetíveis, em vez de exigir um conjunto exato de escolhas na loja.",
+      "builds": [
+        {
+          "name": "Equipe Equilibrada para a Primeira Run",
+          "roles": [
+            "Linha de frente primária",
+            "Carry de dano principal",
+            "Herói de suporte ou utilidade",
+            "Unidade de reserva flexível"
+          ],
+          "positioning": "Posicione o herói mais resistente na posição exposta, mantenha o carry principal protegido e posicione o suporte onde ele possa sobreviver o suficiente para agregar valor.",
+          "items": "Itens defensivos vão para a linha de frente, itens de dano consistente vão para o carry e itens de utilidade vão para o suporte.",
+          "relics": "Escolha relíquias que melhorem toda a equipe ou forneçam recursos confiáveis entre as batalhas.",
+          "upgrade": "Estabilize a linha de frente primeiro, depois melhore o dano do carry e, finalmente, adicione utilidade.",
+          "alternatives": "Substitua as funções ausentes por qualquer herói cuja especialização possa realizar o mesmo trabalho."
+        },
+        {
+          "name": "Build de Efeito Compartilhado de Lovers",
+          "roles": [
+            "Dois heróis ativando Lovers",
+            "Protetor da linha de frente",
+            "Herói de dano secundário ou suporte"
+          ],
+          "positioning": "Mantenha a dupla de Lovers protegida e evite expor ambos os heróis vinculados à mesma pressão inicial.",
+          "items": "Dê ferramentas de sobrevivência ao membro mais vulnerável e itens de escalonamento ao herói que provê o dano principal da composição.",
+          "relics": "Priorize relíquias que melhorem efeitos compartilhados, sobrevivência ou toda a equipe ativa.",
+          "upgrade": "Ative o efeito compartilhado, garanta uma linha de frente e então invista no membro da dupla com maior escalonamento.",
+          "alternatives": "Transicione para uma equipe equilibrada se a dupla necessária ou melhorias de suporte pararem de aparecer."
+        },
+        {
+          "name": "Build de Escalonamento de Carry Único",
+          "roles": [
+            "Um carry principal",
+            "Dois heróis utilitários ou de linha de frente protetores",
+            "Substituto da reserva"
+          ],
+          "positioning": "Posicione cada herói de suporte para atrasar inimigos e criar o máximo de tempo de ataque para o carry.",
+          "items": "Concentre os melhores itens ofensivos em um herói em vez de dividi-los entre vários causadores de dano medianos.",
+          "relics": "Use relíquias que melhorem o escalonamento de dano, o valor dos itens ou a sobrevivência do carry.",
+          "upgrade": "Melhore o caminho de especialização mais forte do carry enquanto gasta apenas recursos suficientes para manter a linha de frente estável.",
+          "alternatives": "Promova um segundo carry quando a loja parar de oferecer melhorias úteis para o original."
+        },
+        {
+          "name": "Build de Controle de Linha de Frente Dupla",
+          "roles": [
+            "Tanque principal",
+            "Herói de linha de frente secundário",
+            "Herói de dano da linha de trás",
+            "Especialista de suporte ou reserva"
+          ],
+          "positioning": "Divida a pressão recebida entre dois heróis resistentes enquanto mantém o causador de dano longe do ataque inicial.",
+          "items": "Distribua itens defensivos de acordo com qual herói da linha de frente recebe mais pressão, então coloque os itens de dano restantes no carry da linha de trás.",
+          "relics": "Selecione relíquias que recompensem batalhas mais longas, heróis resistentes ou ações repetidas da equipe.",
+          "upgrade": "Melhore ambos os heróis da linha de frente o suficiente para sobreviverem, então escale o herói de dano protegido.",
+          "alternatives": "Converta o espaço da linha de frente mais fraca em suporte quando durabilidade adicional não for mais necessária."
+        },
+        {
+          "name": "Build Flexível Baseada em Relíquias",
+          "roles": [
+            "Heróis que combinem com os efeitos de relíquia mais fortes",
+            "Uma linha de frente estável",
+            "Um carry adaptável",
+            "Múltiplas opções de reserva"
+          ],
+          "positioning": "Posicione-se em torno dos efeitos de relíquias ativas em vez de seguir uma formação fixa desde o início da run.",
+          "items": "Use itens para fortalecer os heróis que já estão se beneficiando do conjunto de relíquias.",
+          "relics": "Monte a build em torno de temas de relíquias repetidos em vez de selecionar relíquias individualmente fortes sem conexão.",
+          "upgrade": "Comprometa-se apenas após duas ou mais relíquias suportarem a mesma estratégia.",
+          "alternatives": "Retorne para uma equipe equilibrada quando os efeitos das relíquias continuarem dispersos."
+        },
+        {
+          "name": "Build de Reserva e Pivô",
+          "roles": [
+            "Núcleo estável de três heróis",
+            "Dois ou mais candidatos da reserva",
+            "Carry alternativo",
+            "Suporte ou linha de frente alternativo"
+          ],
+          "positioning": "Mantenha a formação ativa simples e coloque heróis da reserva quando um confronto ou oferta de especialização os favorecer.",
+          "items": "Evite equipar todos os itens valiosos em um herói temporário antes que a composição final esteja clara.",
+          "relics": "Prefira relíquias flexíveis que continuem úteis após mudar de heróis.",
+          "upgrade": "Melhore o núcleo estável primeiro e adie investimentos caros na reserva até que uma transição clara apareça.",
+          "alternatives": "Use heróis da reserva para substituir elos fracos em vez de reconstruir toda a equipe."
+        }
+      ]
+    },
+    "guildrunSpecializationsAndClasses": {
+      "title": "Especializações e Classes de Guildrun",
+      "intro": "As melhorias de ranque podem mudar um herói de um recruta básico para um tanque focado, curador, atacante à distância, duelista, Assassin ou unidade híbrida. Os grupos mais fortes usam especializações complementares em vez de melhorar todos os heróis para o mesmo tipo de dano.",
+      "classes": [
+        {
+          "role": "Tanque",
+          "job": "Segurar a linha de frente, absorver pressão e proteger aliados frágeis.",
+          "focus": "Durabilidade, redução de dano, controle e suporte defensivo para a equipe.",
+          "multiclass": "Combina bem com caminhos de cura ou suporte que melhoram a sobrevivência durante lutas longas.",
+          "upgrade": "Melhorias defensivas de ranque primeiro, seguidas por efeitos de controle ou proteção de equipe.",
+          "respec": "Respecialize quando o grupo já tiver defesa suficiente ou quando chefes posteriores exigirem mais dano."
+        },
+        {
+          "role": "Curador",
+          "job": "Restaurar a vida e manter o grupo estável ao longo de confrontos prolongados.",
+          "focus": "Poder de cura, frequência de cura, proteção e sustentação da equipe.",
+          "multiclass": "Combina com caminhos defensivos ou de suporte de dano para fornecer valor entre as ações de cura.",
+          "upgrade": "Cura confiável e sobrevivência primeiro, seguidas por bônus para todo o grupo.",
+          "respec": "Respecialize quando a cura exceder as necessidades do grupo ou quando batalhas mais rápidas tornarem o suporte ofensivo mais valioso."
+        },
+        {
+          "role": "À Distância",
+          "job": "Causar dano consistente de uma posição mais segura atrás da linha de frente.",
+          "focus": "Velocidade de ataque, dano à distância, cobertura de alvos e escalonamento sustentado.",
+          "multiclass": "Funciona bem com bônus de classe, efeitos de velocidade de ataque e caminhos que melhoram ataques repetidos.",
+          "upgrade": "Melhorias de dano consistente antes de efeitos situacionais que só funcionam contra alvos específicos.",
+          "respec": "Respecialize quando a build carecer de proteção ou quando o dano de alvo único a chefes se tornar mais importante do que o dano geral."
+        },
+        {
+          "role": "Duelista",
+          "job": "Pressionar inimigos individuais perigosos por meio de um forte combate de alvo único.",
+          "focus": "Dano direto, ataques repetidos, sobrevivência e pressão prolongada um contra um.",
+          "multiclass": "Beneficia-se de caminhos secundários defensivos que permitem ao herói continuar atacando sob pressão.",
+          "upgrade": "Consistência de dano primeiro, seguida por melhorias defensivas que evitam ataques interrompidos.",
+          "respec": "Respecialize quando os confrontos contiverem grandes grupos de inimigos ou quando o grupo precisar de uma cobertura de área mais forte."
+        },
+        {
+          "role": "Assassin",
+          "job": "Eliminar alvos vulneráveis ou de alta prioridade com dano de explosão concentrado.",
+          "focus": "Dano de explosão, acesso a alvos, poder de finalização e escalonamento ofensivo.",
+          "multiclass": "Combina com caminhos flexíveis de dano ou velocidade de ataque que continuam úteis após a explosão inicial.",
+          "upgrade": "Poder de finalização confiável antes de bônus de dano altamente condicionais.",
+          "respec": "Respecialize quando os inimigos sobreviverem ao ataque inicial ou quando lutas mais longas recompensarem o dano sustentado."
+        },
+        {
+          "role": "---",
+          "job": "Híbrido",
+          "focus": "Atenda a duas necessidades do grupo por meio de combinações multiclasse e escolhas flexíveis de especialização.",
+          "multiclass": "Dano, suporte, defesa ou cura equilibrados, selecionados com base no grupo atual.",
+          "upgrade": "Oferece a maior flexibilidade quando as lojas e o recrutamento não oferecem uma composição de equipe perfeita.",
+          "respec": "Escolha melhorias que resolvam a maior fraqueza do grupo em vez de dividir os recursos igualmente."
+        }
+      ]
+    },
+    "guildrunItemsAndRelicsTierList": {
+      "title": "Respec após mudanças importantes no recrutamento para que o herói continue a desempenhar um papel útil.",
+      "intro": "Tier List de Itens e Relíquias de Guildrun",
+      "tiers": [
+        {
+          "tier": "Os melhores equipamentos melhoram uma build inteira em vez de fornecer um pequeno aumento isolado de atributo. Bônus de classe flexíveis, escalonamento de velocidade de ataque, defesa confiável, suporte de cura e efeitos de economia inicial permanecem úteis em mais heróis e níveis de dificuldade.",
+          "category": "S",
+          "power": "Relíquias de Escalonamento de Classe",
+          "flexibility": "Muito alto",
+          "bestWith": "Alto",
+          "reason": "Grupos que contêm vários heróis que compartilham ou se beneficiam da mesma direção de classe."
+        },
+        {
+          "tier": "O escalonamento para toda a classe pode melhorar várias habilidades e se torna mais forte à medida que o grupo ganha patentes e especializações.",
+          "category": "S",
+          "power": "Efeitos Flexíveis de Velocidade de Ataque",
+          "flexibility": "Muito alto",
+          "bestWith": "Muito alto",
+          "reason": "Heróis à distância, duelistas, atacantes repetidos e efeitos ativados por ataques frequentes."
+        },
+        {
+          "tier": "A velocidade de ataque aumenta o dano direto e, ao mesmo tempo, ativa efeitos ao atacar compatíveis com mais frequência.",
+          "category": "S",
+          "power": "Relíquias de Economia Inicial",
+          "flexibility": "Alto",
+          "bestWith": "Muito alto",
+          "reason": "Partidas em que são obtidas cedo o suficiente para se beneficiar de lojas adicionais, rerolls, recrutas e melhorias."
+        },
+        {
+          "tier": "Vantagens econômicas iniciais se acumulam ao longo da partida e criam mais oportunidades para completar builds poderosas.",
+          "category": "S",
+          "power": "Efeitos de Sobrevivência Universais",
+          "flexibility": "Muito alto",
+          "bestWith": "Muito alto",
+          "reason": "Heróis de linha de frente e grupos que tentam dificuldades mais altas ou o Modo Endless."
+        },
+        {
+          "tier": "Uma defesa confiável evita derrotas e dá aos heróis focados em dano mais tempo para escalonar.",
+          "category": "A",
+          "power": "Amplificação de Cura",
+          "flexibility": "Alto",
+          "bestWith": "Médio",
+          "reason": "Curandeiros dedicados, grupos defensivos e encontros longos com chefes."
+        },
+        {
+          "tier": "Melhorias de cura proporcionam sustentação forte, mas perdem valor quando o grupo não tem uma fonte de cura confiável.",
+          "category": "A",
+          "power": "Alto",
+          "flexibility": "Médio",
+          "bestWith": "Builds especializadas de ataque à distância, duelist ou Assassin com um causador de dano primário claro.",
+          "reason": "Bônus focados podem criar excelentes carries, mas são menos úteis quando o recrutamento força uma composição diferente."
+        },
+        {
+          "tier": "B",
+          "category": "Itens Defensivos Específicos de Função",
+          "power": "Médio",
+          "flexibility": "Baixo",
+          "bestWith": "Tanks ou heróis regularmente expostos à pressão inimiga.",
+          "reason": "Esses efeitos são úteis no herói correto, mas oferecem valor limitado quando colocados em unidades protegidas da retaguarda."
+        },
+        {
+          "tier": "B",
+          "category": "Relíquias de Combate Condicionais",
+          "power": "Médio",
+          "flexibility": "Baixo",
+          "bestWith": "Builds que conseguem ativar a condição da relíquia de forma consistente.",
+          "reason": "Seu potencial máximo pode ser forte, mas condições não atendidas as tornam menos consistentes que efeitos universais."
+        },
+        {
+          "tier": "C",
+          "category": "Itens de Atributo Único de Baixo Impacto",
+          "power": "Baixo",
+          "flexibility": "Médio",
+          "bestWith": "Espaços de equipamento temporários para o início do jogo antes que opções mais fortes apareçam.",
+          "reason": "Pequenos bônus isolados são rapidamente substituídos e raramente influenciam a especialização de fim de jogo ou o escalonamento do Endless mode."
+        }
+      ]
+    },
+    "guildrunDifficultyAndEndless": {
+      "title": "Níveis de Dificuldade de Guildrun e Endless mode",
+      "intro": "Dificuldades mais altas recompensam recrutamento eficiente, gastos controlados, sinergia de especialização mais forte e melhores escolhas de equipamentos. O Endless mode estende a jornada além da progressão normal e testa quanto tempo o grupo consegue sobreviver enquanto constrói uma pontuação no ranking.",
+      "levels": [
+        {
+          "name": "Dificuldade 1",
+          "unlock": "Disponível desde o início.",
+          "challenge": "Utiliza a estrutura de progressão base e introduz o ciclo completo de recrutamento, loja, melhoria e chefes.",
+          "preparation": "Monte um grupo equilibrado com uma linha de frente, dano confiável e sustentação suficiente para terminar a primeira jornada."
+        },
+        {
+          "name": "Dificuldade 2",
+          "unlock": "Desbloqueada após completar a Dificuldade 1.",
+          "challenge": "Inicia o caminho de dificuldade crescente e coloca maior pressão na construção básica do grupo.",
+          "preparation": "Evite rerolls desnecessários e invista recursos em heróis que já deem suporte à build principal."
+        },
+        {
+          "name": "Dificuldade 3",
+          "unlock": "Desbloqueada após completar a Dificuldade 2.",
+          "challenge": "Pune linhas de frente fracas e grupos que dependem de apenas uma fonte de dano.",
+          "preparation": "Adicione suporte defensivo e desenvolva uma opção de dano secundária antes dos chefes finais."
+        },
+        {
+          "name": "Dificuldade 4",
+          "unlock": "Desbloqueada após completar a Dificuldade 3.",
+          "challenge": "Exige melhorias de ranque mais fortes, sinergia de especialização e preparação de combate mais cuidadosa.",
+          "preparation": "Priorize melhorias que aprimorem todo o grupo em vez de espalhar recursos em recrutas temporários."
+        },
+        {
+          "name": "Dificuldade 5",
+          "unlock": "Desbloqueada após concluir a Dificuldade 4.",
+          "challenge": "Reduz a margem para lojas ineficientes, relíquias mal combinadas e combinações de classes incompletas.",
+          "preparation": "Planeje uma direção de especialização primária cedo e mantenha recursos suficientes disponíveis para rerolls importantes."
+        },
+        {
+          "name": "Dificuldade 6",
+          "unlock": "Desbloqueada após concluir a Dificuldade 5.",
+          "challenge": "Exige respostas mais fortes à pressão dos chefes e melhor escalonamento ao longo das fases intermediária e final de uma run.",
+          "preparation": "Combine sobrevivência confiável com equipamentos que continuam ganhando valor à medida que os heróis recebem mais melhorias."
+        },
+        {
+          "name": "Dificuldade 7",
+          "unlock": "Desbloqueada após concluir a Dificuldade 6.",
+          "challenge": "Testa combinações multiclasse otimizadas e expõe grupos com estratégias limitadas ou condicionais.",
+          "preparation": "Use itens e relíquias flexíveis, mantenha mais de uma condição de vitória e redefina as especializações dos heróis quando a composição mudar."
+        },
+        {
+          "name": "Dificuldade 8",
+          "unlock": "Desbloqueada após concluir a Dificuldade 7.",
+          "challenge": "Representa a dificuldade padrão mais difícil e exige uma build eficiente desde o recrutamento até a progressão do chefe final.",
+          "preparation": "Minimize compras desperdiçadas, complete combinações essenciais de especialização e entre nos confrontos finais com dano e sustentação totalmente desenvolvidos."
+        },
+        {
+          "name": "Modo Endless",
+          "unlock": "Alcançado através da progressão bem-sucedida além da estrutura de run padrão.",
+          "challenge": "Continua o combate após a progressão normal de chefes, enquanto a pressão dos inimigos e as exigências de longo prazo continuam aumentando.",
+          "preparation": "Favoreça bônus de classe escaláveis, efeitos de ataques repetidos, sustentação forte e combinações de relíquias que continuem úteis ao longo de uma run prolongada.",
+          "goal": "Sobreviva o maior tempo possível e maximize a pontuação no placar de líderes da run."
+        }
+      ]
+    },
+    "guildrunUpdatesAndPatchNotes": {
+      "title": "Atualizações e Notas de Patch de Guildrun",
+      "intro": "A cobertura de atualizações de Guildrun é organizada pela parte do jogo afetada. Os jogadores devem revisar o equilíbrio de heróis, mudanças de especialização, ajustes de equipamentos, atualizações de modo e correções de bugs antes de reutilizar uma build ou tier list antiga.",
+      "updates": [
+        {
+          "date": "Ciclo de atualização semanal",
+          "title": "Atualizações de Balanceamento de Heróis",
+          "category": "Balanceamento",
+          "changes": "Rastreia ajustes no desempenho dos heróis, funções de combate, melhorias de ranque e comportamento das habilidades.",
+          "impact": "Os rankings de dano, tanque, curador e suporte podem mudar quando um herói recebe um escalonamento mais forte ou mais fraco."
+        },
+        {
+          "date": "Ciclo de atualização semanal",
+          "title": "Mudanças de Especialização e Classe",
+          "category": "Builds",
+          "changes": "Rastreia o ajuste de especialização, interações multiclasse, caminhos de melhoria, palavras-chave de habilidades e mudanças relacionadas a respec.",
+          "impact": "As combinações de classes existentes podem ganhar novas sinergias ou exigir uma ordem de melhoria diferente."
+        },
+        {
+          "date": "Ciclo de atualização semanal",
+          "title": "Ajustes de Itens e Relíquias",
+          "category": "Equipamento",
+          "changes": "Rastreia mudanças de poder, ajustes de raridade, revisões de efeitos e compatibilidade com diferentes heróis ou classes.",
+          "impact": "As posições na tier list podem mudar quando efeitos universais, relíquias de economia ou equipamentos com escalonamento de classe são rebalanceados."
+        },
+        {
+          "date": "Atualização de conteúdo",
+          "title": "Novos Heróis e Equipamentos",
+          "category": "---",
+          "changes": "Novo Conteúdo",
+          "impact": "Abrange heróis recém-adicionados, opções de especialização, itens, relíquias e sistemas de jogabilidade relacionados."
+        },
+        {
+          "date": "Novas adições podem criar funções de grupo mais fortes, combinações multiclasse e estratégias de late-game.",
+          "title": "Atualização de funcionalidades",
+          "category": "Mudanças na Dificuldade e no Modo Endless",
+          "changes": "Modos de Jogo",
+          "impact": "Acompanha modificadores de dificuldade, progressão de chefes, escalonamento do modo Endless, pontuação e ajustes relacionados ao placar de líderes."
+        },
+        {
+          "date": "Prioridades de preparação e equipamentos recomendados podem mudar quando o escalonamento de alta dificuldade ou de partidas longas é ajustado.",
+          "title": "Atualização de manutenção",
+          "category": "Correções de Bugs e Estabilidade",
+          "changes": "Correções",
+          "impact": "Abrange erros de combate, interações de habilidades, problemas de interface, questões de progressão e melhorias gerais de estabilidade."
+        },
+        {
+          "date": "As correções podem restaurar o comportamento pretendido de heróis, especializações, itens ou relíquias e alterar resultados de builds anteriores.",
+          "title": "Atualização Beta",
+          "category": "Desenvolvimento da Demo e do Beta",
+          "changes": "Desenvolvimento",
+          "impact": "Acompanha funcionalidades experimentais, revisões baseadas em feedback, melhorias na demo e sistemas sendo preparados para lançamentos futuros."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Mudanças no Beta podem introduzir novas mecânicas que afetam estratégias de progressão e futuras tier lists.",
+    "titleHighlight": "Perguntas",
+    "subtitle": "Frequentes",
+    "questions": [
+      {
+        "question": "Tudo o que você precisa saber sobre Guildrun",
+        "answer": "O que é Guildrun?"
+      },
+      {
+        "question": "Guildrun é um autobattler roguelike PvE single-player da Leyline. Você recruta heróis, desenvolve seus caminhos de especialização, equipa itens e relíquias e assiste ao combate automático limpar fendas progressivas.",
+        "answer": "Existe uma demo gratuita de Guildrun?"
+      },
+      {
+        "question": "Sim. A Demo de Guildrun é um download gratuito e independente no Steam que abrange recrutamento, decisões na loja, melhorias, especializações, itens, relíquias e combate automático antes do lançamento completo.",
+        "answer": "Quando é a data de lançamento completa de Guildrun?"
+      },
+      {
+        "question": "A versão completa de Guildrun está prevista para ser lançada em 2027 para PC via Steam. Você pode seguir ou adicionar à lista de desejos a página principal da loja de Guildrun para futuros anúncios de lançamento.",
+        "answer": "Quantos heróis e especializações o Guildrun possui?"
+      },
+      {
+        "question": "Guildrun está planejado para ter cerca de 25 heróis recrutáveis, 75 caminhos de especialização e 180 escolhas de especialização, além de mais de 100 itens e mais de 300 relíquias que moldam cada partida.",
+        "answer": "O Guildrun suporta co-op ou multijogador?"
+      },
+      {
+        "question": "O Co-op faz parte do escopo de desenvolvimento planejado para Guildrun. A demo gratuita atual é uma experiência single-player, com funcionalidades multijogador pretendidas para o lançamento completo.",
+        "answer": "O que é o modo Endless em Guildrun?"
+      }
+    ]
+  },
+  "cta": {
+    "title": "O modo Endless estende uma partida de Guildrun além da progressão normal de chefes enquanto a pressão dos inimigos continua aumentando. Ele favorece bônus de classe escalonáveis, efeitos de ataques repetidos e sustentação forte para maximizar a pontuação no placar de líderes.",
+    "description": "Pronto para jogar Guildrun?",
+    "joinCommunity": "Junte-se à comunidade de Guildrun no Discord e domine o autobattler roguelike PvE com nossos guias de heróis, dicas de builds, tier lists de relíquias e análises de especialização.",
+    "joinGame": "Entrar no Discord"
+  },
+  "footer": {
+    "title": "Jogue a Demo Gratuita no Steam",
+    "description": "Guildrun Wiki",
+    "resources": "Seu centro de recursos completo para heróis, builds, relíquias, itens, especializações e guias de sinergia de equipe de Guildrun.",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidade Steam",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Guildrun Wiki. Não afiliado à Leyline ou aos desenvolvedores de Guildrun.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de Guildrun",
+      "description": "Guias completos de Guildrun cobrindo o básico para iniciantes, estratégia de primeira partida, sinergia de loja, prioridades de reroll e táticas avançadas de montagem de equipe para o autobattler roguelike PvE.",
+      "metaTitle": "Guias de Guildrun - Estratégias do Iniciante ao Avançado",
+      "metaDescription": "Domine Guildrun com guias completos sobre estratégia de primeira partida, sinergia de loja, prioridades de reroll, recrutamento de heróis e táticas de montagem de equipe para o autobattler roguelike PvE.",
+      "categoryLabel": "GUIAS DE GUILDA",
+      "whatIs": "O que são os Guias de Guildrun?",
+      "whatIsDescription": "Os guias de Guildrun orientam você em cada etapa de uma partida, desde o recrutamento do seu primeiro herói e atualizações de loja até construções de equipe especializadas, escolhas de relíquias e preparação para o combate em fendas crescentes.",
+      "why": "Por que ler os guias de Guildrun?",
+      "whySteps": {
+        "step1Title": "Domine a Primeira Partida",
+        "step1Description": "Aprenda o ciclo principal de recrutamento, gerenciamento de loja, posicionamento em grade hexagonal e preparação de batalha para que suas partidas iniciais estabeleçam uma economia forte e uma equipe viável.",
+        "step2Title": "Otimize a Loja e os Recursos",
+        "step2Description": "Descubra quando atualizar a loja, como gastar Fragmentos de forma eficiente e quais escolhas de leilão e itens iniciais oferecem o maior valor para a sua composição.",
+        "step3Title": "Construa uma Estratégia Vencedora",
+        "step3Description": "Combine caminhos de especialização, escalonamento de relíquias e sinergias de heróis em estratégias flexíveis que se adaptam conforme a dificuldade aumenta em direção ao modo SSS e Endless."
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Guias"
+    },
+    "tiers": {
+      "title": "Tier Lists de Guildrun",
+      "description": "Tier lists atualizadas de Guildrun classificando os melhores heróis, classes, itens e relíquias por sinergia, escalonamento e desempenho em todas as dificuldades e no modo Endless.",
+      "metaTitle": "Tier List de Guildrun - Melhores Heróis, Classes, Itens e Relíquias",
+      "metaDescription": "Compare os melhores heróis, classes, itens e relíquias de Guildrun com tier lists atualizadas baseadas em sinergia, escalonamento e desempenho em todas as dificuldades.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "O que são as Tier Lists de Guildrun?",
+      "whatIsDescription": "Por que usar as tier lists de Guildrun?",
+      "why": "Escolha os Melhores Heróis",
+      "whySteps": {
+        "step1Title": "Veja quais dos 25 heróis estão no tier S para tanque de linha de frente, dano, cura e suporte, com classificações baseadas em dados reais de sinergia e escalonamento.",
+        "step1Description": "Classifique Classes e Itens",
+        "step2Title": "Compare classes de especialização, itens e relíquias lado a lado para encontrar as escolhas de maior valor que combinem com a sua build e composição de equipe escolhidas.",
+        "step2Description": "Compare classes de especialização, itens e relíquias lado a lado para encontrar as escolhas mais fortes para qualquer encontro.",
+        "step3Title": "Planeje em Torno do Meta",
+        "step3Description": "Use os rankings para antecipar quais composições e pacotes de relíquias têm o melhor desempenho à medida que o balanceamento muda e novos heróis entram no elenco antes do lançamento completo."
+      },
+      "featured": "Tier Lists em Destaque",
+      "all": "Todas as Tier Lists"
+    },
+    "release": {
+      "title": "Lançamento de Guildrun",
+      "description": "Tudo sobre o lançamento de Guildrun: a janela de lançamento completo em 2027, acesso à demo gratuita na Steam, preços, plataformas e como o progresso da demo é transferido para o jogo completo.",
+      "metaTitle": "Data de Lançamento, Demo, Preço e Transferência de Progresso de Guildrun",
+      "metaDescription": "Acompanhe a janela de lançamento completo de Guildrun em 2027, a demo gratuita na Steam, preços, plataformas suportadas e como o seu progresso da demo é transferido para a versão de lançamento.",
+      "categoryLabel": "INFORMAÇÕES DE LANÇAMENTO",
+      "whatIs": "O que é o lançamento de Guildrun?",
+      "whatIsDescription": "O lançamento de Guildrun abrange a demo gratuita na Steam atualmente disponível, o cronograma de lançamento completo para 2027, preços, plataformas suportadas e como o progresso de heróis, maestria e meta é transferido da demo para o jogo completo.",
+      "why": "Por que acompanhar o lançamento de Guildrun?",
+      "whySteps": {
+        "step1Title": "Experimente a Demo Gratuita",
+        "step1Description": "Baixe a demo gratuita na Steam para experimentar o recrutamento, a estratégia de loja e as fendas crescentes antes de se comprometer com o lançamento completo.",
+        "step2Title": "Acompanhe o Lançamento de 2027",
+        "step2Description": "Mantenha-se atualizado sobre a janela de lançamento completo, preço, suporte a plataformas e o planejado modo cooperativo enquanto a Leyline finaliza o cronograma de lançamento.",
+        "step3Title": "Transfira Seu Progresso",
+        "step3Description": "Entenda exatamente quais progressos de dificuldade, maestria de heróis e desbloqueios de meta são transferidos da demo para o jogo completo para que nada seja perdido."
+      },
+      "featured": "Guias de Lançamento em Destaque",
+      "all": "Todos os Guias de Lançamento"
+    },
+    "builds": {
+      "title": "Builds de Guildrun",
+      "description": "Guias completos de build de Guildrun para todos os estilos de jogo, incluindo configurações de Nyx, Kai, Berserker, Mage, Assassin, Rush e One-Shot com escolhas de especialização, relíquia e itens.",
+      "metaTitle": "Builds de Guildrun - Melhores Configurações de Herói, Mage, Assassin e Tank",
+      "metaDescription": "BUILDS DE EQUIPE",
+      "categoryLabel": "O que são Builds de Guildrun?",
+      "whatIs": "As builds de Guildrun são configurações completas de equipe que combinam heróis, caminhos de especialização, itens e relíquias em composições sinérgicas projetadas para superar fendas, a dificuldade SSS e o modo Endless.",
+      "whatIsDescription": "Por que usar builds de Guildrun?",
+      "why": "Escolha uma Configuração Comprovada",
+      "whySteps": {
+        "step1Title": "Comece a partir de builds testadas, como o guerreiro Rush de escalonamento infinito, a linha de frente de Kai focada em acúmulo de escudo ou o carry de crítico do Assassin One-Shot, em vez de adivinhar.",
+        "step1Description": "Entenda as Sinergias",
+        "step2Title": "Saiba por que cada build funciona, quais caminhos de especialização e pacotes de relíquias impulsionam seu poder e como mudar de estratégia no meio da partida quando a loja oferecer opções melhores.",
+        "step2Description": "Escalone para o Endless",
+        "step3Title": "Adapte sua build à medida que a dificuldade aumenta, acumulando as relíquias e itens certos para que sua composição continue superando fendas crescentes e ondas do modo Endless.",
+        "step3Description": "Builds em Destaque"
+      },
+      "featured": "Todas as Builds",
+      "all": "Combate em Guildrun"
+    },
+    "combat": {
+      "title": "Guias de combate de Guildrun para lutas de chefes, dificuldade SSS, escalonamento do modo Endless e as melhores composições de equipe para superar cada confronto e sobreviver a fendas de alta dificuldade.",
+      "description": "Combate em Guildrun - Guia de Chefes, SSS, Endless e Melhores Equipes",
+      "metaTitle": "Guildrun Combate - Guia de Chefes, SSS, Infinito e Melhores Equipes",
+      "metaDescription": "Vença todos os encontros do Guildrun com guias de combate sobre táticas de chefes, dificuldade SSS, modo infinito e as melhores composições de equipe.",
+      "categoryLabel": "GUIAS DE COMBATE",
+      "whatIs": "O que é o Combate de Guildrun?",
+      "whatIsDescription": "O combate de Guildrun abrange mecânicas de chefes, escalonamento de dificuldade, desafios SSS e ondas do modo Endless, além das composições de equipe e ajustes táticos necessários para vencer cada confronto.",
+      "why": "Por que estudar o combate de Guildrun?",
+      "whySteps": {
+        "step1Title": "Decifre as Mecânicas de Chefes",
+        "step1Description": "Aprenda os padrões de ataque, fraquezas e transições de fase de chefes como o Omega Plexus Sentinel para se posicionar e contra-atacar de forma eficaz.",
+        "step2Title": "Conquiste a Dificuldade SSS",
+        "step2Description": "Prepare a build correta, o pacote de relíquias e a composição de equipe para lidar com os modificadores de atributos acentuados e melhorias de inimigos que definem as partidas na dificuldade SSS.",
+        "step3Title": "Sobreviva ao Modo Endless",
+        "step3Description": "Domine a curva de escalonamento do modo Endless com builds de escalonamento infinito, camadas defensivas e gerenciamento de recursos que mantêm sua partida viva onda após onda."
+      },
+      "featured": "Guias de Combate em Destaque",
+      "all": "Todos os Guias de Combate"
+    },
+    "mechanics": {
+      "title": "Mecânicas de Guildrun",
+      "description": "Análises aprofundadas das mecânicas de Guildrun: o sistema de combate autobattler, a estrutura de partidas roguelike, a progressão de rank dos heróis, o comportamento da IA e os sistemas de metaprogressão.",
+      "metaTitle": "Mecânicas de Guildrun - Autobattler, Roguelike, IA e Rank Up",
+      "metaDescription": "Entenda como Guildrun realmente funciona com guias de mecânicas sobre o sistema de combate autobattler, estrutura de partidas roguelike, rank-up de heróis, comportamento da IA e metaprogressão.",
+      "categoryLabel": "MECÂNICAS DE JOGO",
+      "whatIs": "O que são as Mecânicas de Guildrun?",
+      "whatIsDescription": "As mecânicas de Guildrun explicam os sistemas por trás do jogo: a resolução de batalha automatizada, a estrutura de partidas roguelike, a progressão de rank de heróis, a tomada de decisões da IA e a metaprogressão que persiste entre as partidas.",
+      "why": "Por que aprender as mecânicas de Guildrun?",
+      "whySteps": {
+        "step1Title": "Entenda o Autobattler",
+        "step1Description": "Veja como o posicionamento, a seleção de alvos e a prioridade de habilidades direcionam o combate automatizado para que você possa montar equipes que vencem sem comando manual.",
+        "step2Title": "Domine o Loop Roguelike",
+        "step2Description": "Aprenda como o recrutamento, as rodadas da loja, os drops de relíquias e as fendas crescentes estruturam cada partida, e onde investir para obter o melhor retorno a longo prazo.",
+        "step3Title": "Suba o Rank dos Heróis com Eficiência",
+        "step3Description": "Siga o caminho de rank-up de C a S, as escolhas de especialização e as opções de Respec para transformar heróis em combatentes de nível S ao longo de suas partidas."
+      },
+      "featured": "Guias de Mecânicas em Destaque",
+      "all": "Todos os Guias de Mecânicas"
+    },
+    "steam": {
+      "title": "Guildrun Steam",
+      "description": "Guildrun no Steam: contagem de jogadores e gráficos em tempo real, rastreamento do SteamDB, requisitos de sistema para PC e Steam Deck, e onde baixar a demo gratuita.",
+      "metaTitle": "Guildrun Steam - Contagem de Jogadores, Gráficos, SteamDB e Requisitos do Sistema",
+      "metaDescription": "Acompanhe Guildrun no Steam com contagem de jogadores e gráficos em tempo real, estatísticas do SteamDB, requisitos de sistema para PC e Steam Deck, e a página de download da demo gratuita.",
+      "categoryLabel": "HUB DO STEAM",
+      "whatIs": "O que é Guildrun no Steam?",
+      "whatIsDescription": "Guildrun no Steam é a demo gratuita e o futuro lançamento completo, com contagem de jogadores em tempo real, notas de avaliações, rastreamento do SteamDB e requisitos de sistema para PC e Steam Deck.",
+      "why": "Por que acompanhar Guildrun no Steam?",
+      "whySteps": {
+        "step1Title": "Acompanhe as Tendências de Jogadores",
+        "step1Description": "Acompanhe os jogadores simultâneos em tempo real, o pico de CCU e o sentimento das avaliações no Steam Charts para avaliar o meta e o interesse da comunidade à medida que o jogo cresce.",
+        "step2Title": "Verifique os Requisitos de Sistema",
+        "step2Description": "Confirme se o seu PC ou Steam Deck atende às especificações mínimas e recomendadas para que a demo e o lançamento completo rodem sem problemas no seu hardware.",
+        "step3Title": "Baixe a Demo Gratuita",
+        "step3Description": "    Baixe a demo gratuita do Steam diretamente da página oficial da loja e comece a explorar fendas antes do lançamento completo em 2027."
+      },
+      "featured": "    Guias do Steam em Destaque",
+      "all": "    Todos os Guias do Steam"
+    }
+  }
+}

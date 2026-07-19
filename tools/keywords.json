@@ -1,47 +1,87 @@
 {
+  "topic_name": "guildrun",
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "guildrun beginner guide",
+        "guildrun strategy",
+        "guildrun first run guide",
+        "guildrun shop guide",
+        "guildrun reroll guide"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "tiers",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "guildrun tier list",
+        "guildrun hero tier list",
+        "guildrun class tier list",
+        "guildrun item tier list",
+        "guildrun relic tier list"
       ]
     },
     {
-      "category": "Items",
+      "category": "release",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "guildrun release date",
+        "guildrun demo",
+        "guildrun full release",
+        "guildrun price",
+        "guildrun progress carryover"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "builds",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "guildrun nyx build",
+        "guildrun kai build",
+        "guildrun berserker build",
+        "guildrun best builds",
+        "guildrun one shot build",
+        "guildrun rush build",
+        "guildrun magic build",
+        "guildrun assassin build"
       ]
     },
     {
-      "category": "Building",
+      "category": "combat",
       "keywords": [
-        "lucid blocks qualia"
+        "guildrun boss guide",
+        "guildrun sss difficulty",
+        "guildrun endless mode",
+        "guildrun best team",
+        "guildrun team comps"
       ]
     },
     {
-      "category": "Support",
+      "category": "mechanics",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "guildrun autobattler",
+        "guildrun roguelike",
+        "guildrun gameplay",
+        "guildrun ai",
+        "guildrun hero rank up"
+      ]
+    },
+    {
+      "category": "steam",
+      "keywords": [
+        "guildrun steam",
+        "guildrun steam charts",
+        "guildrun steamdb",
+        "guildrun system requirements"
+      ]
+    },
+    {
+      "category": "community",
+      "keywords": [
+        "guildrun reddit",
+        "guildrun discord",
+        "guildrun trailer"
       ]
     }
-  ]
+  ],
+  "contentCountAfterMerging": 40,
+  "content_count_after_merge": 40
 }
