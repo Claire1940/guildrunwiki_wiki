@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jogabilidade de Guildrun: Guia de Estratégia e Progressão de Meta 2026",
+  description: "Domine a jogabilidade de Guildrun com o nosso guia especializado. Aprenda as melhores builds de heróis, sinergia de relíquias e táticas de combate para dominar o auto-battler rogue-lite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Gameplay+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **jogabilidade de Guildrun** baseia-se no equilíbrio de classes de heróis como Vanguardas, Magos e Duelistas para obter a sinergia máxima.
+- O **gerenciamento de relíquias** é crucial; priorize relíquias ofensivas que ativam com acerto crítico ou avanço (rush) para escalonamento no final do jogo.
+- O **posicionamento importa**; use seus tanques para absorver o dano da linha de frente enquanto seus conjuradores da linha de trás acumulam poder.
+- O **controle da economia** por meio de atualizações da loja (rerolls) e acúmulo de fragmentos determina sua capacidade de melhorar heróis para o ranque S.
+- O **modo infinito** recompensa jogadores que focam no escalonamento permanente de atributos e na distribuição eficiente de itens.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas de Jogo Principais">
+
+Guildrun é um rogue-lite auto-battler profundo que desafia os jogadores a gerenciar unidades de heróis, sinergias de classes e efeitos de relíquias simultaneamente. O sucesso em uma partida depende da sua habilidade de adaptar a composição da sua equipe com base nas ofertas da loja e nas ameaças específicas encontradas em cada combate.
+
+**Destaques do Vídeo:**
+- Demonstrando o poder dos tanques de vanguarda focados em sobrevivência (stall).
+- Utilizando a sinergia de acerto crítico e dano mágico.
+- Gerenciando atualizações da loja para encontrar melhorias essenciais de heróis.
+
+<YouTubeEmbed videoId="HmeAJ5I4YEU" title="Nyx, Pequeno Monstro Implacável | Guildrun" />
+
+O fluxo do combate envolve posicionar seus heróis estrategicamente para ativar bônus de classe específicos. Vanguardas são essenciais para a sobrevivência, enquanto Magos e Assassinos fornecem a explosão de dano necessária para limpar as hordas. Entender a mecânica de "Avanço" (Rush) — onde as habilidades recarregam ou ganham poder sob condições específicas — é a chave para aumentar seu dano nas fases finais de uma partida.
+
+| Classe | Função Principal | Foco em Atributos Chave |
+| :--- | :--- | :--- |
+| Vanguarda | Tanque, Controle de Grupo | Vida Máx, Armadura |
+| Mago | Dano Mágico | Magia, Regen. de Mana |
+| Duelista | Velocidade de Ataque | Vel. de Ataque, Crítico |
+| Assassino | Dano de Explosão | Crítico, Ataque |
+
+<Callout type="tip" title="Posicionamento Estratégico">
+Sempre posicione seus Vanguardas na linha de frente para garantir que eles absorvam a agressão inicial dos inimigos. Isso protege seus frágeis Magos e Assassinos, permitindo que eles acumulem bônus de dano contínuo ou crítico com segurança.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sinergia de Heróis e Builds">
+
+Montar uma equipe coesa em Guildrun exige a seleção de unidades que compartilham marcas de classe ou que se beneficiam dos mesmos tipos de relíquias. Você deve buscar se especializar em um ou dois perfis de dano, como "Crítico-Gelo" ou "Avanço-Sobrevivência", em vez de dispersar demais seus atributos em múltiplos arquétipos conflitantes.
+
+<CardGrid cols={3}>
+  <Card title="Build de Crítico-Gelo">
+    - Focada em congelar inimigos
+    - Alto escalonamento de chance de crítico
+    - Reduz a armadura/velocidade do inimigo
+  </Card>
+  <Card title="Build de Vanguarda-Sobrevivência">
+    - Sobrevivência máxima
+    - Reflexão de dano baseada em Vida
+    - Ideal para lutas longas e demoradas
+  </Card>
+  <Card title="Build de Avanço-Explosão">
+    - Ativação rápida de habilidades
+    - Altos bônus de velocidade de ataque
+    - Melhor para derrotar chefes rapidamente
+  </Card>
+</CardGrid>
+
+| Tipo de Build | Dificuldade | Melhor Para |
+| :--- | :--- | :--- |
+| Crítico-Gelo | Intermediária | Controle de Grupo |
+| Vanguarda-Sobrevivência | Iniciante | Vitórias Consistentes |
+| Avanço-Explosão | Avançado | Speedruns |
+
+<Callout type="warning" title="Cuidado com a Sinergia">
+Evite investir demais em muitas classes ao mesmo tempo. Busque 2 a 3 sinergias principais para maximizar a eficiência das suas relíquias. Uma equipe com muitas classes diferentes terá dificuldade para obter bônus significativos das relíquias.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passos de Progressão">
+
+Uma progressão eficiente durante uma partida exige um gerenciamento cuidadoso dos seus fragmentos. Use os passos a seguir para otimizar suas fases de loja e preparação de combate.
+
+<Steps>
+  <Step num="1" title="Configuração Inicial da Equipe">
+    Escolha uma equipe equilibrada durante as fases iniciais. Priorize pelo menos um Vanguarda para atuar como tanque e um causador de dano para garantir que você sobreviva aos três primeiros combates.
+  </Step>
+  <Step num="2" title="Priorização de Relíquias">
+    Selecione relíquias que complementem as classes dos seus heróis atuais. Se você tiver vários Guerreiros, priorize relíquias que melhorem habilidades de "Crítico" ou "Avanço".
+  </Step>
+  <Step num="3" title="Gerenciamento Econômico">
+    Use as atualizações de loja (rerolls) com moderação. Tente manter uma reserva de fragmentos para maximizar os juros ou para garantir unidades de tier alto quando elas aparecerem na loja.
+  </Step>
+  <Step num="4" title="Otimização do Fim de Jogo">
+    Venda unidades de baixo impacto para melhorar seus carregadores principais para o ranque S. Certifique-se de que seus melhores itens estejam equipados nos heróis que mais se beneficiam de seus atributos específicos.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos e Objetivos Essenciais">
+
+Para alcançar dificuldades mais altas em Guildrun, você deve concluir objetivos específicos. Acompanhar essas metas ajuda a entender quais mecânicas priorizar durante sua sessão atual.
+
+<Checklist
+  id="guildrun-goals"
+  title="Lista de Verificação de Progressão da Partida:"
+  items={[
+    "Obter um herói de ranque S antes do chefe do ato",
+    "Ativar com sucesso um efeito de Avanço de 10 acúmulos",
+    "Concluir um encontro de desafio com menos de 50% de Vida",
+    "Manter mais de 100 fragmentos para o bônus de fim de partida"
+  ]}
+/>
+
+| Marco | Recompensa | Estratégia |
+| :--- | :--- | :--- |
+| Primeiro Chefe | Relíquia Rara | Foco no nível das unidades |
+| Reserva de 100 Fragmentos | Espaço Adicional de Herói | Economizar ouro cedo |
+| Unidade Ranque S | Multiplicador de Atributos | Fundir duplicatas |
+
+<Callout type="success" title="Estratégia Pro">
+Foque nos efeitos de "reserva" (backup) dos seus itens. Alguns itens fornecem bônus significativos para sua equipe mesmo estando apenas no seu inventário, especialmente se concederem cura passiva ou escudos defensivos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como posso melhorar a sobrevivência do meu tanque?",
+    answer: "Foque em itens que fornecem omnivamp (roubo de vida global) ou escudos baseados em Vida. Os Vanguardas se beneficiam mais ao acumular armadura e passivas de regeneração de vida durante o meio do jogo."
+  },
+  {
+    question: "É melhor atualizar a loja (reroll) ou economizar fragmentos?",
+    answer: "Atualize a loja apenas quando estiver com dificuldades para vencer os combates ou quando estiver a uma unidade de distância de uma melhoria para o ranque S. Caso contrário, acumule fragmentos para obter bônus de juros."
+  },
+  {
+    question: "Os bônus de classe se acumulam?",
+    answer: "Sim, os bônus de classe se acumulam com base no número de heróis daquela classe em combate. Verifique o painel de informações da sua equipe para ver os bônus ativos no momento."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "guildrun autobattler: Melhores Builds de Heróis e Estratégias de Stall",
+  description: "Domine o guildrun autobattler com nosso guia de classes de heróis, relíquias épicas e a imbatível meta de estratégia de Stall em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Autobattler+Guide",
+  date: "2026-07-19",
+  author: "Equipe Wiki da guildrun",
+  keywords: "guildrun autobattler, builds de heróis, estratégia de stall, relíquias, guia de jogo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Estratégia Principal**: O **guildrun autobattler** depende fortemente da execução de sinergias de classe precisas, focando especificamente em retardar o relógio (Stall) para ativar picos de poder no final do combate.
+- **Classe S-Tier**: **Tanques** e **Duelistas** formam o núcleo das composições mais fortes, equilibrando alta sobrevivência com escalonamento rápido de velocidade de ataque.
+- **Item Chave**: Priorize a obtenção da relíquia **Ampulheta** (Hourglass) cedo para acelerar seus cronômetros de Stall e ativar suas habilidades mais fortes instantaneamente.
+- **Gestão de Ouro**: Economize seus Shards para investir em melhorias de tamanho de equipe e atualizações da loja para garantir heróis de reserva de alto nível.
+</Callout>
+
+<Section icon={Map} title="Introdução à Meta Roguelike do Guildrun Autobattler">
+
+O **guildrun autobattler** é um roguelike de auto-chess altamente polido que desafia os jogadores a construir uma guilda imparável de heróis, gerenciar recursos e selecionar relíquias sinérgicas. O sucesso neste jogo exige uma compreensão profunda de posicionamento, mecânicas de classe e o delicado equilíbrio entre poder imediato e potencial de escalonamento. Este guia detalha os sistemas essenciais para ajudá-lo a dominar tanto as jornadas padrão quanto o modo infinito.
+
+**Destaques do Vídeo:**
+- Escolher um herói inicial como Pollen oferece benefícios imediatos de veneno e escudo.
+- Posicionar tanques como Scorn na linha de frente permite que eles absorvam dano e ativem efeitos de stall.
+- Gerenciar Shards de forma eficiente é crucial para comprar itens de alto nível e desbloquear espaços na equipe.
+- A transição para o modo infinito exige o acúmulo de relíquias defensivas para sobreviver a inimigos de alto dano.
+
+<YouTubeEmbed videoId="mWzn2y6Is1U" title="Este Roguelike Autobattler é Meu Novo Problema | Guildrun" />
+
+O ciclo de jogabilidade gira em torno de recrutar heróis, equipá-los com itens poderosos e posicioná-los estrategicamente em uma grade hexagonal. À medida que os heróis atacam, eles acumulam mana para lançar habilidades únicas que podem mudar o rumo da batalha. Navegar pelo mapa com eficiência e fazer as escolhas certas em fogueiras e lojas determinará até onde sua guilda pode progredir.
+
+<Callout type="tip" title="Polimento da Versão Demo">
+Mesmo em sua fase de demonstração em 2026, o jogo apresenta mecânicas incrivelmente profundas que recompensam o planejamento cuidadoso da composição e a disciplina econômica.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas Principais de Jogo e Classes de Heróis">
+
+Entender os atributos fundamentais e as funções das classes é essencial para a sobrevivência no **guildrun autobattler**. Os heróis utilizam três recursos principais: Shards (ouro), Mana e Onivampirismo (roubo de vida tanto em ataques físicos quanto em feitiços). Equilibrar a composição da sua equipe entre protetores da linha de frente e causadores de dano da linha de trás é a chave para superar chefes difíceis.
+
+A tabela abaixo descreve os principais arquétipos de classe e seu foco central em combate:
+
+| Classe | Foco Principal | Mecânica Chave | Atributos Sinérgicos |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | Mitigação na linha de frente | Ativadores de Stall, nuvens de veneno | Armadura, Defesa, Magia |
+| **Duelista** | DPS físico de alta velocidade | Escalonamento de vel. de ataque, crítico | Chance Crítica, Vel. de Ataque |
+| **Místico** | Suporte, cura, utilidade | Regeneração de mana, escudos | Regen. Mana, Poder Mágico |
+| **Vanguarda** | Híbrido ofensivo de linha de frente | Ativadores de Rush, dano explosivo | Ataque Físico, Onivampirismo |
+
+Cada herói traz uma habilidade passiva ou ativa única para o tabuleiro. Escolher a combinação certa de heróis pode desbloquear sinergias poderosas para toda a equipe.
+
+A tabela a seguir compara os heróis mais eficazes disponíveis na meta atual:
+
+| Herói | Classe | Ranque | Habilidade Primária | Melhor Função |
+| :--- | :--- | :--- | :--- | :--- |
+| **Scorn** | Tanque | Ranque B | Reflete dano de armadura e veneno | Tanque Solo de Linha de Frente |
+| **Pimenta** | Tanque | Ranque B | Cria nuvem tóxica, cura ao longo do tempo | Off-Tank / Debuffer |
+| **Irene** | Duelista | Ranque B | Splash de gelo e queimadura, escala magia | Carregador Mágico Principal |
+| **Raina** | Duelista | Ranque C | Ganha ataque e magia ao conjurar | DPS Físico Inicial |
+
+<Callout type="warning" title="Eficiência do Onivampirismo">
+O Onivampirismo fornece 10% de roubo de vida tanto em ataques quanto em feitiços, tornando-o excepcionalmente valioso para causadores de dano híbridos que dependem de ataques físicos e conjuração de habilidades.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="A Imbatível Estratégia de Stall do Guildrun Autobattler">
+
+A mecânica de Stall é uma das estratégias mais poderosas no **guildrun autobattler**. Ao contrário das builds agressivas de "Rush" que tentam derrubar os inimigos rapidamente, as builds de Stall focam em sobreviver aos segundos iniciais do combate para ativar um escalonamento massivo no final do jogo. As habilidades de Stall geralmente são ativadas após 10, 15, 20 ou 30 segundos de luta, concedendo escudos massivos, cura e dano de veneno.
+
+A tabela abaixo detalha as diferentes fases da mecânica de Stall e seu valor estratégico:
+
+| Fase | Tempo Necessário | Efeitos de Ativação Ativos | Valor Estratégico |
+| :--- | :--- | :--- | :--- |
+| **Stall Inicial** | 10 Segundos | Reflete dano mágico baseado na armadura | Transição da fase de sobrevivência |
+| **Stall Médio** | 15 Segundos | Cura heróis em campos de flores, bufa atributos | Pico de poder para duelistas |
+| **Stall Tardio** | 20 Segundos | Concede escudos massivos de HP máximo a todos | Contra-ataque pesado a dano explosivo |
+| **Stall Final** | 30 Segundos | Gera Shards extras, debuffs massivos de veneno | Escalonamento do modo infinito |
+
+Para tornar esta estratégia viável, os jogadores devem encontrar maneiras de reduzir o tempo necessário para ativar esses efeitos. Ao acumular relíquias específicas e utilizar passivas de heróis da reserva, você pode acelerar esses cronômetros significativamente.
+
+<CardGrid cols={3}>
+  <Card title="Build de Stall">
+    - **Alta Sobrevivência**: Foca em armadura e escudos.
+    - **Poder Atrasado**: Ativa dano massivo após 15 segundos.
+    - **Dependente de Relíquias**: Requer itens de redução de tempo.
+  </Card>
+  <Card title="Build de Rush">
+    - **Explosão Imediata**: Foca em crítico e velocidade de ataque.
+    - **Limpezas Rápidas**: Visa terminar lutas em menos de 10 segundos.
+    - **Unidades Frágeis**: Vulnerável a inimigos com alta armadura.
+  </Card>
+  <Card title="Build Híbrida">
+    - **Atributos Equilibrados**: Combina tanques defensivos com duelistas rápidos.
+    - **Táticas Flexíveis**: Adapta-se a várias mecânicas de chefes.
+    - **Investimento Moderado**: Mais fácil de montar durante jornadas padrão.
+  </Card>
+</CardGrid>
+
+Ao combinar vários Duelistas em combate e utilizar efeitos de reserva do seu banco, você pode reduzir os cronômetros de Stall em até 16 segundos. Isso permite que suas habilidades de Stall de 15 segundos sejam ativadas literalmente no início do combate, concedendo instantaneamente à sua equipe escudos massivos e campos de veneno.
+
+<Callout type="success" title="Ativação Instantânea de Stall">
+Acumular a relíquia Ampulheta com efeitos passivos de Duelistas na reserva pode reduzir seus cronômetros de Stall a zero, ativando todos os buffs de final de combate no exato momento em que a rodada começa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Dominar as Jornadas">
+
+Alcançar a vitória em uma jornada padrão exige um planejamento cuidadoso desde o primeiro nó. Siga estes passos para otimizar seu recrutamento de heróis, economia e posicionamento em combate.
+
+<Steps>
+  <Step num="1" title="Selecione Seu Herói Inicial">
+    Comece sua jornada escolhendo um herói com forte utilidade. Heróis como Pollen são excelentes escolhas, pois criam campos de flores que aplicam veneno e geram escudos baseados no seu poder mágico. Isso fornece uma base segura para suas lutas no início do jogo.
+  </Step>
+  <Step num="2" title="Estabeleça Sua Economia">
+    Foque em acumular Shards (ouro) durante os três primeiros combates. Evite atualizar a loja cedo. Procure por relíquias ou escolhas que concedam Shards bônus ou reduzam o custo de itens na loja. Uma economia forte permite que você compre heróis de alto nível mais tarde.
+  </Step>
+  <Step num="3" title="Monte Sua Sinergia Principal">
+    Ao passar pelo primeiro chefe, mude para o arquétipo escolhido. Se encontrar relíquias defensivas, comprometa-se com uma build de Stall recrutando tanques como Scorn e Pimenta. Se encontrar itens de velocidade de ataque, faça a transição para uma composição focada em Duelistas.
+  </Step>
+  <Step num="4" title="Otimize o Posicionamento no Tabuleiro">
+    Posicione seu tanque principal no hexágono central frontal para atrair a atenção do inimigo. Coloque seus causadores de dano dois hexágonos atrás para protegê-los de ataques de área (AoE). Certifique-se de que suas unidades de suporte estejam próximas o suficiente para aplicar escudos ao seu tanque.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecânicas de Heróis de Reserva">
+Lembre-se de que certas habilidades de heróis funcionam a partir do banco de reserva, o que significa que você pode se beneficiar de seus atributos e traços passivos sem colocá-los no tabuleiro ativo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Relíquias Essenciais e Sinergia de Itens">
+
+As relíquias são a espinha dorsal de qualquer jornada bem-sucedida no **guildrun autobattler**. Elas fornecem bônus passivos globais que podem transformar completamente o desempenho da sua equipe. Ao construir uma composição de Stall ou Duelista, procure por relíquias que sinergizem com alta defesa e velocidade de ataque rápida.
+
+A tabela abaixo lista as relíquias mais poderosas para essas builds e seus efeitos principais:
+
+| Nome da Relíquia | Nível | Portador Ideal | Aumento de Atributo Principal | Efeito Especial |
+| :--- | :--- | :--- | :--- | :--- |
+| **Trovão de Zeus** | Épico | Duelista | Vel. de ataque, Ataque | Dano AoE baseado na velocidade |
+| **Ampulheta** | Raro | Tanque / Suporte | Regen. Mana, Cooldown | Ativa stall 2s mais rápido |
+| **Santuário do Florescer** | Raro | Místico | Poder Mágico, Cura | Dobra cura e escudos |
+| **Transferência de Veneno** | Raro | Tanque / Ladino | Dano de Veneno | Transfere veneno ao morrer |
+
+Para garantir que seu esquadrão esteja preparado para o chefe final e o modo infinito, tente completar os marcos na lista de verificação abaixo.
+
+<Checklist
+  id="endgame-preparation"
+  title="Marcos do Fim de Jogo:"
+  items={[
+    "Desbloquear pelo menos 5 espaços de heróis ativos no seu tabuleiro",
+    "Equipar seu tanque principal com uma relíquia de escudo que escala com a defesa",
+    "Garantir uma fonte de transferência de veneno para lidar com grandes grupos de inimigos",
+    "Alcançar 150% de chance crítica no seu Duelista carregador principal",
+    "Acumular pelo menos dois efeitos de redução de Stall para ativar buffs cedo"
+  ]}
+/>
+
+<Callout type="warning" title="Penalidades de Relíquias">
+Algumas relíquias poderosas exigem que você sofra uma penalidade temporária de atributo por uma luta. Escolha-as apenas quando sua equipe estiver saudável o suficiente para sobreviver à desvantagem.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ do Guildrun Autobattler">
+
+Esta seção aborda as perguntas mais comuns que os jogadores têm sobre os sistemas principais e estratégias avançadas do jogo.
+
+<FAQ items={[
+  {
+    question: "Qual é o principal benefício da build de Stall no guildrun autobattler?",
+    answer: "A build de Stall permite que você sobreviva ao dano explosivo inicial do inimigo e ative efeitos massivos de cura, escudo e veneno conforme o cronômetro de combate avança, o que pode ser acelerado para ativar instantaneamente com as relíquias certas."
+  },
+  {
+    question: "Como funciona o sistema de banco de reserva?",
+    answer: "Certos heróis têm habilidades passivas marcadas como efeitos de 'reserva' (backup). Esses traços se aplicam às suas unidades de combate ativas mesmo se o herói de origem estiver no seu banco de reserva, permitindo que você acumule buffs globais."
+  },
+  {
+    question: "É melhor focar em dano físico ou mágico?",
+    answer: "Uma abordagem híbrida é melhor. Duelistas escalam incrivelmente bem com velocidade de ataque física, enquanto Místicos e Tanques usam poder mágico para aumentar seus escudos e dano de veneno."
+  },
+  {
+    question: "Como desbloqueio mais espaços de heróis para o meu tabuleiro ativo?",
+    answer: "Você pode aumentar o tamanho da sua equipe comprando melhorias na loja usando Shards ou completando missões específicas de relíquias durante sua jornada."
+  }
+]} />
+
+<Callout type="success" title="Dominando o Modo Infinito">
+No modo infinito, a vida e o dano dos inimigos escalam rapidamente. Foque em itens de conversão de defesa para dano para garantir que sua linha de frente não seja derrotada instantaneamente.
+</Callout>
+
+</Section>

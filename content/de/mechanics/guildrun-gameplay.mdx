@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun-Gameplay: Strategie-Leitfaden & Meta-Progression 2026",
+  description: "Meistere das Guildrun-Gameplay mit unserem Experten-Leitfaden. Erfahre alles über optimale Helden-Builds, Reliktsynergien und Kampftaktiken, um den Rogue-lite Auto-Battler zu dominieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Gameplay+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Guildrun-Gameplay** basiert auf der Balance von Heldenklassen wie Vorhut, Magiern und Duellanten für maximale Synergie.
+- **Reliktverwaltung** ist entscheidend; priorisiere offensive Relikte, die bei kritischen Treffern (Crit) oder Ansturm (Rush) auslösen, um im Late-Game zu skalieren.
+- **Die Positionierung ist wichtig**; nutze deine Tanks, um den Schaden an der Frontlinie zu absorbieren, während deine Zauberer in der hinteren Reihe an Stärke gewinnen.
+- **Wirtschaftskontrolle** durch Rerolls und das Ansammeln von Splittern bestimmt deine Fähigkeit, Helden auf den S-Rang aufzuwerten.
+- Der **Endlos-Modus** belohnt Spieler, die sich auf permanente Attributsskalierung und effiziente Gegenstandsverteilung konzentrieren.
+</Callout>
+
+<Section icon={Map} title="Die grundlegenden Gameplay-Mechaniken verstehen">
+
+Guildrun ist ein tiefgründiges Auto-Battler Rogue-lite, das Spieler herausfordert, gleichzeitig Heldeneinheiten, Klassensynergien und Relikteffekte zu verwalten. Der Erfolg eines Runs hängt von deiner Fähigkeit ab, deine Teamzusammenstellung basierend auf den Angeboten des Shops und den spezifischen Bedrohungen in den einzelnen Kämpfen anzupassen.
+
+**Video-Highlights:**
+- Demonstration der Stärke von auf Verzögerung (Stall) ausgerichteten Vorhut-Tanks.
+- Nutzung der Synergie aus kritischen Treffern und magischem Schaden.
+- Verwaltung von Shop-Rerolls, um essenzielle Helden-Upgrades zu finden.
+
+<YouTubeEmbed videoId="HmeAJ5I4YEU" title="Nyx, unerbittliches kleines Monster | Guildrun" />
+
+Der Kampfablauf erfordert das strategische Platzieren deiner Helden, um bestimmte Klassenboni auszulösen. Vorhuten sind essenziell für das Überleben, während Magier und Assassinen den nötigen Burst-Schaden liefern, um Wellen zu klären. Das Verständnis der „Ansturm“-Mechanik (Rush) – bei der Fähigkeiten unter bestimmten Bedingungen zurückgesetzt werden oder an Kraft gewinnen – ist der Schlüssel, um deinen Schadensausstoß in den späteren Phasen eines Runs zu skalieren.
+
+| Klasse | Hauptrolle | Fokus auf Schlüsselwerte |
+| :--- | :--- | :--- |
+| Vorhut | Tanken, CC | Max. LP, Rüstung |
+| Magier | Magischer Schaden | Magie, Manaregeneration |
+| Duellant | Angriffsgeschwindigkeit | Angriffsgeschwindigkeit, Krit |
+| Assassine | Burst-Schaden | Krit, Angriff |
+
+<Callout type="tip" title="Strategische Positionierung">
+Platziere deine Vorhuten immer in der vorderen Reihe, um sicherzustellen, dass sie die anfängliche gegnerische Aggression absorbieren. Dies schützt deine empfindlichen Magier und Assassinen und ermöglicht es ihnen, sicher Schaden-über-Zeit- oder Krit-Buffs aufzubauen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Heldensynergie und Builds">
+
+Der Aufbau eines stimmigen Teams in Guildrun erfordert die Auswahl von Einheiten, die dieselben Klassen-Tags teilen oder von denselben Relikttypen profitieren. Du solltest dich auf ein oder zwei Schadensprofile spezialisieren, wie z. B. „Krit-Frost“ oder „Ansturm-Verzögerung“ (Rush-Stall), anstatt deine Werte zu sehr auf mehrere widersprüchliche Archetypen zu verteilen.
+
+<CardGrid cols={3}>
+  <Card title="Krit-Frost-Build">
+    - Konzentriert sich darauf, Gegner einzufrieren
+    - Skalierung mit hoher kritischer Trefferchance
+    - Reduziert gegnerische Rüstung/Geschwindigkeit
+  </Card>
+  <Card title="Stall-Vorhut-Build">
+    - Maximale Überlebensfähigkeit
+    - LP-basierte Schadensreflexion
+    - Ideal für lange, in die Länge gezogene Kämpfe
+  </Card>
+  <Card title="Rush-Burst-Build">
+    - Schnelle Auslösung von Fähigkeiten
+    - Hohe Boni auf Angriffsgeschwindigkeit
+    - Am besten geeignet, um Bosse schnell zu besiegen
+  </Card>
+</CardGrid>
+
+| Build-Typ | Schwierigkeit | Am besten für |
+| :--- | :--- | :--- |
+| Krit-Frost | Mittelschwer | Crowd Control (Gegnerkontrolle) |
+| Stall-Vorhut | Anfänger | Konsistente Siege |
+| Rush-Burst | Fortgeschritten | Speedruns |
+
+<Callout type="warning" title="Achtung bei Synergien">
+Vermeide es, in zu viele Klassen gleichzeitig zu investieren. Strebe 2–3 Hauptsynergien an, um deine Relikteffizienz zu maximieren. Ein Team mit zu vielen verschiedenen Klassen wird Schwierigkeiten haben, nützliche Boni aus Relikten zu ziehen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fortschrittsschritte">
+
+Ein effizienter Fortschritt durch einen Run erfordert eine sorgfältige Verwaltung deiner Splitter. Nutze die folgenden Schritte, um deine Shop-Phasen und die Kampfvorbereitung zu optimieren.
+
+<Steps>
+  <Step num="1" title="Erstes Team-Setup">
+    Stelle in der Anfangsphase ein ausgewogenes Team zusammen. Priorisiere mindestens eine Vorhut zum Tanken und einen Schadensverursacher, um sicherzustellen, dass du die ersten drei Kämpfe überlebst.
+  </Step>
+  <Step num="2" title="Relikt-Priorisierung">
+    Wähle Relikte, die deine aktuellen Heldenklassen ergänzen. Wenn du mehrere Krieger hast, priorisiere Relikte, die „Krit“- oder „Ansturm“-Fähigkeiten verstärken.
+  </Step>
+  <Step num="3" title="Wirtschaftsmanagement">
+    Nutze Rerolls sparsam. Versuche, einen Puffer an Splittern zu behalten, um die Zinsen zu maximieren oder Einheiten hoher Stufen zu ergattern, wenn sie im Shop erscheinen.
+  </Step>
+  <Step num="4" title="Endgame-Optimierung">
+    Verkaufe Einheiten mit geringem Nutzen, um deine Haupt-Carrys auf den S-Rang aufzuwerten. Stelle sicher, dass deine besten Gegenstände bei den Helden ausgerüstet sind, die am meisten von ihren spezifischen Attributsboni profitieren.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Wichtige Meilensteine und Ziele">
+
+Um in Guildrun höhere Schwierigkeitsgrade zu erreichen, musst du bestimmte Ziele erreichen. Das Verfolgen dieser Ziele hilft dir zu verstehen, welche Mechaniken du in deiner aktuellen Spielsitzung priorisieren solltest.
+
+<Checklist
+  id="guildrun-goals"
+  title="Checkliste für den Run-Fortschritt:"
+  items={[
+    "Erhalte einen S-Rang-Helden vor dem Akt-Boss",
+    "Löse erfolgreich einen 10-fach gestapelten Ansturm-Effekt aus",
+    "Schließe eine Herausforderung mit weniger als 50% LP ab",
+    "Behalte 100+ Splitter für den Bonus am Ende des Runs"
+  ]}
+/>
+
+| Meilenstein | Belohnung | Strategie |
+| :--- | :--- | :--- |
+| Erster Boss | Seltenes Relikt | Konzentration auf Einheitenstufen |
+| 100-Splitter-Bank | Zusätzlicher Heldenplatz | Spare frühzeitig Gold |
+| S-Rang-Einheit | Attributs-Multiplikator | Klone/Duplikate verschmelzen |
+
+<Callout type="success" title="Profi-Strategie">
+Konzentriere dich auf die „Backup“-Effekte deiner Gegenstände. Einige Gegenstände bieten deinem Team erhebliche Boni, selbst wenn sie nur im Inventar liegen, insbesondere wenn sie passive Heilung oder defensive Schilde gewähren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie verbessere ich die Überlebensfähigkeit meines Tanks?",
+    answer: "Konzentriere dich auf Gegenstände, die Omnivampirismus oder LP-basierte Schilde bieten. Vorhuten profitieren in der Mitte des Spiels am meisten vom Stapeln von Rüstung und passiver Lebensregeneration."
+  },
+  {
+    question: "Ist es besser, Rerolls zu nutzen oder Splitter zu sparen?",
+    answer: "Nutze Rerolls nur, wenn du Schwierigkeiten hast, Kämpfe zu gewinnen, oder wenn dir nur noch eine Einheit für ein S-Rang-Upgrade fehlt. Horte andernfalls Splitter für Zinsboni."
+  },
+  {
+    question: "Stapeln sich Klassenboni?",
+    answer: "Ja, Klassenboni stapeln sich basierend auf der Anzahl der Helden dieser Klasse im Kampf. Sieh in deiner Team-Info-Übersicht nach, um die aktuell aktiven Boni zu sehen."
+  }
+]} />
+
+</Section>

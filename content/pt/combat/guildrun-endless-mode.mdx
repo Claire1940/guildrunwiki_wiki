@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Modo Infinito de Guildrun: Escalonamento de Alta Dificuldade e Melhores Estratégias de Build",
+  description: "Domine o modo infinito de Guildrun com nosso guia sobre escalonamento de alta dificuldade, especializações de heróis e as melhores builds de equipe para alcançar o topo do placar de líderes em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111a18/d5b65c?text=Endless+Mode+Guide",
+  date: "2026-07-19",
+  author: "Equipe Wiki do Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Modo infinito de Guildrun**: O teste definitivo de sinergia de equipe e gerenciamento de recursos além dos níveis de dificuldade padrão.
+- **Mecânica chave**: Escalonamento infinito de inimigos que exige **Caminhos de Especialização** e **combinações de Relíquias** otimizados.
+- **Melhor estratégia**: Priorize dano escalonável (velocidade de ataque) e sustentação de linha de frente confiável para sobreviver à pressão crescente das fendas.
+- **Dica crítica**: Use a mecânica de **Respec** (redefinição) para mudar a composição da sua equipe conforme a vida dos inimigos atinge níveis astronômicos.
+- **Melhor escolha**: Heróis com efeitos compartilhados de **Amantes (Lovers)** ou padrões de ataque de alta frequência costumam dominar o meta do final de jogo.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Modo Infinito de Guildrun e o Escalonamento de Dificuldade">
+
+O **modo infinito de Guildrun** representa o ápice da experiência de autobattler roguelike desenvolvida pela Leyline. Embora o jogo padrão apresente oito níveis de dificuldade crescentes, o Modo Infinito remove esse limite, permitindo que os jogadores testem suas builds contra o crescimento infinito dos inimigos. O sucesso neste modo não se trata apenas de ter heróis de nível alto; trata-se de entender como os 75 caminhos de especialização e as mais de 300 relíquias do jogo interagem quando o combate dura significativamente mais do que os encontros padrão.
+
+Neste ambiente, as estratégias tradicionais de "explosão de dano" (burst) costumam perder força. Em vez disso, os jogadores devem se concentrar em **combinações multiclasse** e **builds de efeito compartilhado** que ganham valor ao longo do tempo. O sistema de pontuação do placar de líderes recompensa não apenas a distância alcançada, mas também a eficiência da partida, tornando cada Fragmento (Shard) gasto na loja uma decisão crítica para sua sobrevivência a longo prazo.
+
+| Dificuldade | Requisito de Desbloqueio | Desafio Principal | Estratégia de Preparação |
+| :--- | :--- | :--- | :--- |
+| **Dificuldade 1-4** | Progressão Inicial | Domínio do ciclo básico | Monte equipes equilibradas com 1 tanque / 1 DPS |
+| **Dificuldade 5-7** | Concluir nível anterior | Eficiência da loja reduzida | Foque na sinergia de especialização específica |
+| **Dificuldade 8** | Concluir Dificuldade 7 | Pressão de chefe otimizada | Maximize melhorias de ranque e valor de relíquias |
+| **Modo Infinito** | Concluir partida padrão | Escalonamento infinito de inimigos | Priorize sustentação escalonável e dano em % |
+
+<Callout type="warning" title="Aviso de Escalonamento">
+A vida e o dano dos inimigos no Modo Infinito escalam exponencialmente. Após as primeiras fendas, itens de dano plano não escalonáveis tornam-se obsoletos. Sempre procure por relíquias que forneçam bônus baseados em porcentagem ou efeitos ativados pela frequência de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds de Equipe para Partidas Infinitas de Alta Dificuldade">
+
+Para sobreviver à pressão crescente do **modo infinito de Guildrun**, sua equipe deve mudar a mentalidade de "sobreviver à rodada" para "escalar o combate". O meta atual favorece composições que utilizam a mecânica de **Amantes (Lovers)** ou o escalonamento de um único carregador (hyper carry) protegido por uma utilidade massiva na linha de frente. Com 25 heróis disponíveis, as combinações são vastas, mas os resultados mais consistentes vêm destes três arquétipos.
+
+<CardGrid cols={3}>
+  <Card title="Efeito Compartilhado de Amantes (Lovers)">
+    - **Núcleo**: Dois heróis vinculados
+    - **Foco**: Escalonamento sincronizado
+    - **Força**: Alta sobrevivência
+    - **Valor Infinito**: Escalonamento de dupla ameaça
+  </Card>
+  <Card title="Hiper Carregador Único">
+    - **Núcleo**: Um DPS Tier S
+    - **Foco**: Proteger o carregador
+    - **Força**: Saída máxima de DPS
+    - **Valor Infinito**: Recursos concentrados
+  </Card>
+  <Card title="Muralha de Linha de Frente Dupla">
+    - **Núcleo**: Dois tanques duráveis
+    - **Foco**: Desgaste e controle
+    - **Força**: Extensão da duração da luta
+    - **Valor Infinito**: Progressão mais segura
+  </Card>
+</CardGrid>
+
+Ao montar essas equipes, lembre-se de que o posicionamento é dinâmico. Você deve ajustar sua formação com base nos modificadores específicos de fenda encontrados. Uma linha de frente que funciona na Fenda 10 pode ser contornada por assassinos na Fenda 20.
+
+| Tipo de Build | Heróis Chave | Relíquia Essencial | Melhor Especialização |
+| :--- | :--- | :--- | :--- |
+| **Build de Amantes** | Pares de Suporte/DPS | Amplificadores de Efeito Compartilhado | Sinergia Multiclasse |
+| **Hiper Carregador** | Especialistas à Distância | Escalonamento de Velocidade de Ataque | Ranque de Dano Focado |
+| **Muralha de Controle** | Tanques/Curadores | Sobrevivência Universal | Proteção Defensiva |
+
+<Callout type="success" title="Dica de Sinergia">
+Os grupos mais fortes no Modo Infinito usam especializações complementares. Em vez de aprimorar todos os heróis para dano, garanta que seu Tanque tenha a especialização de 'Redução de Dano' enquanto seu Curador se concentra em 'Frequência de Cura' para acompanhar os ataques rápidos dos inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preparação Passo a Passo para a Progressão Infinita">
+
+Entrar no **modo infinito de Guildrun** sem um plano é receita para uma eliminação rápida. Os jogadores devem tratar as fendas iniciais como uma "fase de preparação", onde o objetivo é construir uma base econômica e de equipamentos que possa sustentar a equipe assim que a dificuldade disparar. Siga estes passos para maximizar o potencial da sua partida.
+
+<Steps>
+  <Step num="1" title="Fundação Econômica">
+    Nas primeiras 5 fendas, priorize **Relíquias de Economia Inicial**. Elas permitem rolagens adicionais na loja e recrutamento mais barato, essenciais para encontrar as 180 especializações exatas necessárias para sua build final.
+  </Step>
+  <Step num="2" title="Estabilização de Funções">
+    Estabeleça um núcleo "Trio Estável": um tanque principal, um carregador principal e um suporte. Não distribua seus aprimoramentos de ranque de forma muito difusa; um único herói de Ranque S costuma ser mais valioso do que três heróis de Ranque C nas fases iniciais do Modo Infinito.
+  </Step>
+  <Step num="3" title="Transição de Especialização">
+    Perto do meio do jogo, avalie as ofertas da loja. Se o jogo oferecer itens de alto nível para combatentes **À Distância** ou **Duelistas**, use a mecânica de **Respec** para alinhar os caminhos de especialização dos seus heróis com seus melhores equipamentos.
+  </Step>
+  <Step num="4" title="Otimização Infinita">
+    Uma vez que sua build principal esteja definida, concentre-se inteiramente em **Bônus de Classe Escalonáveis**. Procure por relíquias que recompensem ataques repetidos ou combates de longa duração, pois as lutas naturalmente demorarão mais conforme você avança.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Unidades de Reserva">
+Não ignore seus espaços de reserva. No Modo Infinito, ter um herói especializado em "Matador de Chefes" ou "Controle de Grupo" na reserva pode salvar uma partida quando você encontrar um tipo específico de inimigo que anule sua formação ativa principal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Itens e Relíquias: A Tier List do Modo Infinito">
+
+O equipamento em Guildrun é dividido em mais de 100 itens e mais de 300 relíquias. No **modo infinito de Guildrun**, o valor de um item é determinado pelo seu potencial de escalonamento, e não pelo seu aumento imediato de atributos. Sobrevivência universal e escalonamento de velocidade de ataque são os reis indiscutíveis do meta de longo prazo.
+
+| Tier | Categoria | Por que se Destaca no Infinito | Recomendado Com |
+| :--- | :--- | :--- | :--- |
+| **S** | **Efeitos de Velocidade de Ataque** | Ativa efeitos ao contato mais rápido | À Distância, Duelistas |
+| **S** | **Relíquias de Economia** | Multiplica recursos ao longo do tempo | Aquisição no início do jogo |
+| **S** | **Sobrevivência Universal** | Evita mortes por acerto único (one-shot) | Âncoras de Linha de Frente |
+| **A** | **Relíquias de Escalonamento de Classe** | Fortalece toda a função da equipe | Builds multiclasse |
+| **A** | **Amplificadores de Cura** | Essencial para lutas de desgaste prolongadas | Curadores Dedicados |
+| **B** | **Itens de Atributos Planos** | Bom no início, perde força no final | Recrutas temporários |
+
+<Callout type="tip" title="Dica Pro de Equipamento">
+Itens que concedem **Redução de Dano** são significativamente mais valiosos do que aqueles que concedem apenas **Vida** bruta no Modo Infinito. À medida que o dano dos inimigos chega aos milhares, reduzir esse dano por uma porcentagem é a única maneira de manter sua linha de frente de pé.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos do Modo Infinito e Marcos do Placar de Líderes">
+
+O objetivo do **modo infinito de Guildrun** é a sobrevivência e a pontuação alta. Para subir nos placares de líderes de 2026, você precisa superar marcos específicos que provam a viabilidade da sua build contra os modificadores mais difíceis que o jogo pode gerar.
+
+<Checklist
+  id="endless-milestones"
+  title="Lista de Verificação de Sucesso no Modo Infinito:"
+  items={[
+    "Alcançar a Fenda 50 na Dificuldade 8",
+    "Desbloquear pelo menos 3 Especializações de Ranque S",
+    "Adquirir um conjunto completo de Relíquias de Escalonamento Tier S",
+    "Manter 100% de taxa de vitória nas primeiras 20 fendas",
+    "Mudar de build com sucesso usando a mecânica de Respec"
+  ]}
+/>
+
+| Marco | Recompensa/Impacto | Nível de Dificuldade |
+| :--- | :--- | :--- |
+| **Fenda 20** | Entrada no Placar de Líderes | Moderado |
+| **Fenda 50** | Faixa de Pontuação de Elite | Alta |
+| **Fenda 100+** | Ranque de Estrategista Mestre | Extremo |
+
+<Callout type="warning" title="Estratégia de Respec">
+Não tenha medo de fazer Respec. Se você chegar à Fenda 40 e perceber que sua cura é insuficiente, sacrificar uma pequena quantidade de dano para mudar para um caminho Híbrido de Curador/Suporte pode estender sua partida por dezenas de fendas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o modo infinito de Guildrun?",
+    answer: "O Modo Infinito é desbloqueado após concluir com sucesso uma partida padrão em qualquer nível de dificuldade. No entanto, é altamente recomendável praticar na Dificuldade 8 primeiro para entender as mecânicas dos inimigos de alto nível."
+  },
+  {
+    question: "Qual herói é o melhor para uma partida profunda no Modo Infinito?",
+    answer: "Não existe um único 'melhor' herói, mas aqueles com caminhos de especialização flexíveis, como as funções Híbrida ou Duelista, tendem a ter um desempenho melhor porque conseguem se adaptar aos itens e relíquias aleatórios oferecidos durante a partida."
+  },
+  {
+    question: "A Demo de Guildrun inclui o Modo Infinito?",
+    answer: "Sim, a atual Demo no Steam permite que os jogadores experimentem o ciclo principal de recrutamento e combate, incluindo uma versão introdutória do sistema de escalonamento de dificuldade que leva ao Modo Infinito."
+  },
+  {
+    question: "Qual é o atributo mais importante para a sobrevivência no final do jogo?",
+    answer: "Redução de Dano e Frequência de Cura são os atributos mais críticos. No Modo Infinito, os inimigos eventualmente causarão mais dano do que a sua vida máxima, então você precisa reduzir esse dano e curá-lo instantaneamente."
+  }
+]} />
+
+</Section>

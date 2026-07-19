@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Team-Comps: Beste Helden-Synergien & Strategie-Leitfaden",
+  description: "Meistern Sie die Meta mit den besten Guildrun Team-Comps. Erfahren Sie, wie Sie Krieger, Duellanten und Assassinen für maximale Synergie und Erfolg im Endgame kombinieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Team+Comps+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team",
+  keywords: "Guildrun Team-Comps, Helden-Synergien, Guildrun Strategie, Krieger Build, Duellanten Guide, Assassinen Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptfokus**: Der Aufbau effektiver **Guildrun Team-Comps** erfordert ein Gleichgewicht zwischen aktiven Kämpfern und strategischen Reserveeinheiten.
+- **Kernmechanik**: Synergien werden durch Heldenklassen und zeitgesteuerte Schlüsselwörter wie **Rush** und **Stall** bestimmt.
+- **Beste Strategie**: Konzentrieren Sie sich auf einen einzelnen Carry-Helden wie Logan oder Irani und bauen Sie Ihr gesamtes Relikt- und Item-Set um deren Skalierung auf.
+- **Wichtiger Tipp**: Die Manavorräte in Guildrun sind einzigartig; kleinere Balken oder eine höhere Manaregeneration führen zu häufigeren Fähigkeiten-Einsätzen.
+- **Top-Empfehlung**: Die **Scharfrichter-Reset**-Kombination ist derzeit die zuverlässigste Wahl, um Akt 2 abzuschließen und den Endlosmodus zu betreten.
+</Callout>
+
+<Section icon={Map} title="Kernmechaniken des Guildrun Team-Buildings">
+
+Das Verständnis für den Aufbau von **Guildrun Team-Comps** beginnt mit dem grundlegenden Spielfeld-Layout und der Heldenkategorisierung. Im Gegensatz zu traditionellen Auto-Battlern fungiert dieses Spiel als Roguelike, bei dem jede Entscheidung im Shop direkt Ihre Überlebenschancen in der nächsten Begegnung beeinflusst. Helden sind in Tiers von C bis S unterteilt, wobei jedes Tier-Upgrade signifikante Stat-Boosts sowie neue passive oder aktive Fähigkeiten gewährt.
+
+**Video-Highlights:**
+- **Hybrid-Gameplay**: Guildrun verbindet die strategische Positionierung von Teamfight Tactics mit dem Roguelike-Fortschritt von Slay the Spire.
+- **Ikonografie-System**: Charakterkarten zeigen spezifische Icons (Krit, Magie, Angriffsgeschwindigkeit), die angeben, welche Werte ihre einzigartigen Fähigkeiten skalieren.
+- **Reservebank**: Sie können bis zu drei Helden in Reserve halten; einige Helden besitzen "Backup"-Fähigkeiten, die auch dann ausgelöst werden, wenn sie nicht auf dem Feld stehen.
+- **Wirtschaftsmanagement**: Splitter sind die Hauptwährung für Rekrutierung, Level-Aufstiege und den Kauf spielverändernder Relikte.
+
+<YouTubeEmbed videoId="2vEHwKPfpic" title="Hör auf mit ALLEM und spiel das! | Guildrun" />
+
+<Callout type="tip" title="Positionierungsstrategie">
+Überprüfen Sie immer die Angriffsreichweite Ihrer Helden. Nahkampfcharaktere wie Yuna oder Logan sollten in der vorderen Reihe platziert werden, während Fernkämpfer wie Urania oder Nyx in der hinteren Reihe geschützt werden sollten, um ihre Einsatzzeit zu maximieren.
+</Callout>
+
+| Mechanik | Dauer | Effekt |
+| :--- | :--- | :--- |
+| **Rush** | Erste 12 Sekunden | Gewährt sofortige Buffs oder Debuffs zu Beginn des Kampfes. |
+| **Stall** | Nach X Sekunden | Löst mächtige Effekte erst nach Ablauf einer bestimmten Zeit aus. |
+| **Manaregen.** | Konstant | Füllt den Manabalken; Fähigkeiten werden automatisch gewirkt, sobald der Balken voll ist. |
+| **Rüstung/Def.** | Konstant | Reduziert erlittenen Schaden; entscheidend für "Vanguard"-Einheiten an der Front. |
+
+</Section>
+
+<Section icon={Swords} title="Top-Tier Synergien und Kompositionen">
+
+Die erfolgreichsten **Guildrun Team-Comps** in der aktuellen Meta von 2026 drehen sich um Hyper-Carry-Synergien. Indem Sie einen Helden mit hohem Skalierungspotenzial identifizieren, können Sie Ihre Splitter in spezifische Relikte investieren, die seine natürlichen Stärken verstärken.
+
+<CardGrid cols={3}>
+  <Card title="Der Scharfrichter-Reset">
+    - **Kernheld**: Logan (Krieger)
+    - **Hauptfähigkeit**: Hinrichtung (setzt Mana bei Kill zurück)
+    - **Synergie**: Hoher Angriff und Omnivamp
+  </Card>
+  <Card title="Blitz-Duellant">
+    - **Kernheld**: Irani (Duellant)
+    - **Hauptfähigkeit**: Zeus' Donner (Flächenschaden)
+    - **Synergie**: Massive Skalierung der Angriffsgeschwindigkeit
+  </Card>
+  <Card title="Schatten-Assassine">
+    - **Kernheld**: Yuna (Assassine)
+    - **Hauptfähigkeit**: Schattenschlag (Krit-basierter Burst)
+    - **Synergie**: Tarnung und Krit-Schaden
+  </Card>
+</CardGrid>
+
+Der "Scharfrichter"-Build setzt darauf, dass Logan Kills aneinanderreiht. Durch Ausrüsten von Relikten, die Mana bei einem Kill gewähren, kann Logan seine ultimative Fähigkeit wiederholt wirken und das Feld räumen, bevor der Gegner reagieren kann. Alternativ konzentriert sich der Duellanten-Build auf die "Zeus' Donner"-Quest, die hohe Angriffsgeschwindigkeit in bildschirmfüllenden Blitzschaden umwandelt.
+
+<Callout type="success" title="Synergie-Bonus">
+Wenn Sie mehrere Helden derselben Klasse einsetzen, wie zum Beispiel zwei Duellanten, werden bestimmte Relikte wie der "Duellanten-Momentum-Motor" doppelt so oft ausgelöst, was den Gesamt-DPS Ihres Teams massiv steigert.
+</Callout>
+
+| Held | Klasse | Primäre Skalierung | Rolle |
+| :--- | :--- | :--- | :--- |
+| **Logan** | Krieger | Angriff / Leben | Bruiser / Reset-Carry |
+| **Irani** | Duellant | Angriffsgeschwindigkeit | Kontinuierlicher DPS / AOE |
+| **Yuna** | Assassine | Krit-Chance | Einzelziel-Burst |
+| **Nyx** | Duellant | Angriffsgeschw. / Brand | Debuff / DPS |
+| **Urania** | Duellant | Angriffsgeschwindigkeit | Fernkampf-Support |
+
+</Section>
+
+<Section icon={Target} title="Heldenklassen und Stat-Skalierung">
+
+Jeder Held in Ihren **Guildrun Team-Comps** hat eine spezifische Klasse, die sein Wachstum bestimmt. Das Verständnis dieser Klassen ist entscheidend für die Auswahl der richtigen Gegenstände im Shop. Zum Beispiel gewinnt ein Krieger bei einem Level-Aufstieg an Leben und Angriff, während sich ein Duellant auf Leben und Angriffsgeschwindigkeit konzentriert.
+
+Die Ikonografie auf der linken Seite einer Heldenkarte ist nicht nur dekorativ. Wenn Sie ein lila Icon neben einer Schadenszahl sehen, skaliert diese Fähigkeit mit Magie. Wenn Sie ein rotes Shuriken-Icon sehen, skaliert sie mit Krit.
+
+<Callout type="warning" title="Die Manavorrat-Falle">
+Gehen Sie nicht davon aus, dass ein größerer Manavorrat besser ist. In Guildrun wird ein Held mit einem 30-Mana-Pool seine Fähigkeit viel häufiger wirken als ein Held mit einem 80-Mana-Pool, vorausgesetzt, die Manaregeneration ist gleich.
+</Callout>
+
+| Klasse | Basis-Stärken | Typische Skalierung | Beste Position |
+| :--- | :--- | :--- | :--- |
+| **Krieger** | Hohe HP, Schilde | Angriff, Verteidigung | Vordere Reihe |
+| **Duellant** | Angriffsgeschw., Multihit | Angriffsgeschw., Magie | Mitte/Hinten |
+| **Assassine** | Burst, Tarnung | Krit, Krit-Schaden | Flanke/Hinten |
+| **Magier** | AOE, Zauber | Magie, Manaregen. | Hintere Reihe |
+| **Vanguard** | Pures Tanking | Leben, Rüstung | Vordere Reihe |
+| **Mystiker** | Heilung, Schilde | Magie, Manaregen. | Reserve/Hinten |
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt Team-Aufbau">
+
+Der Aufbau eines wettbewerbsfähigen Teams ist ein iterativer Prozess. Sie können Ihr finales Team nicht einfach in Akt 1 auswählen; Sie müssen sich an die Helden und Relikte anpassen, die im Shop angeboten werden.
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihren Starter">
+    Wählen Sie einen Helden, der zu Ihrem bevorzugten Spielstil passt. Yuna ist großartig für frühen Burst-Schaden, während Logan durch Schilde mehr Nachhaltigkeit bietet.
+  </Step>
+  <Step num="2" title="Identifizieren Sie Ihren Carry">
+    Entscheiden Sie bis zum Ende von Akt 1, welcher Held Ihre besten Gegenstände erhält. Dieser Held sollte derjenige sein, den Sie zuerst auf A- oder S-Tier leveln.
+  </Step>
+  <Step num="3" title="Jagd nach Schlüssel-Relikten">
+    Besuchen Sie das Auktionshaus nach dem ersten Akt-Boss. Suchen Sie nach "Harmoniekristallen", um Ihre Teamgröße zu erhöhen, oder klassenspezifischen Bannern wie dem "Duellanten-Toxin-Banner".
+  </Step>
+  <Step num="4" title="Optimieren Sie die Reserve">
+    Rekrutieren Sie Helden mit passiven Backup-Fähigkeiten. Ein Mystiker in der Reserve kann Ihre aktive Gruppe heilen, ohne einen Kampfplatz zu belegen.
+  </Step>
+  <Step num="5" title="Finalisieren Sie Synergien">
+    Bevor Sie den Endlosmodus betreten, stellen Sie sicher, dass Ihr Carry seinen primären Stat maximiert hat (z. B. 100% Krit), um sekundäre Effekte wie Krit-Schadens-Skalierung auszulösen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Das Auktionshaus">
+Das Auktionshaus ist ein spezieller Shop, der nach Akt-Bossen erscheint. Er enthält höherwertige Relikte und die essenziellen Harmoniekristalle, die benötigt werden, um Ihre aktive Teamgröße von 3 auf 5 zu erweitern.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endgame-Überleben und Endlosmodus">
+
+Sobald Sie den Boss von Akt 2 besiegt haben, betreten Sie den Endlosmodus. Hier skaliert der Schwierigkeitsgrad unendlich, und Ihre **Guildrun Team-Comps** werden an ihre absoluten Grenzen getrieben. Überleben in diesem Modus erfordert mehr als nur Schaden; Sie benötigen defensive Schichten wie Lebensraub (Omnivamp) und Crowd Control (Betäubung/Frost).
+
+<Checklist
+  id="endgame-prep"
+  title="Endgame-Checkliste:"
+  items={[
+    "Maximale Teamgröße erreichen (5 aktive Slots)",
+    "Mindestens einen S-Tier Carry mit vollen Items ausrüsten",
+    "Eine Heilungsquelle sichern (Omnivamp oder Mystiker-Support)",
+    "Mindestens zwei Arten von Debuffs anwenden (Brand, Gift oder Frost)",
+    "Ein defensives Relikt für Ihren Frontline-Tank erhalten"
+  ]}
+/>
+
+<Callout type="success" title="Bedeutung von Omnivamp">
+Omnivamp ist der wertvollste Endgame-Stat, da er Ihre Helden basierend auf sowohl physischem als auch magischem Schaden heilt und so sicherstellt, dass Ihre "Glass Cannons" gesund bleiben.
+</Callout>
+
+| Überlebensebene | Quelle | Effekt |
+| :--- | :--- | :--- |
+| **Tarnung** | Assassinen-Passiv | Verhindert vorübergehend, dass Gegner den Helden anvisieren. |
+| **Schilde** | Krieger-Fähigkeiten | Bietet einen temporären Gesundheitspuffer, der Schaden absorbiert. |
+| **Frost** | Frost-Relikte | Reduziert die Angriffsgeschwindigkeit und Verteidigung der Gegner erheblich. |
+| **Betäubung** | Scharfrichter-Quest | Setzt Gegner für eine kurze Dauer komplett außer Gefecht. |
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie erhöhe ich meine Teamgröße in Guildrun?",
+    answer: "Sie müssen Harmoniekristalle kaufen oder spezifische Quests zur Teamvergrößerung im Auktionshaus abschließen, nachdem Sie Akt-Bosse besiegt haben. Dies ermöglicht es Ihnen, von 3 auf 5 aktive Helden zu expandieren."
+  },
+  {
+    question: "Was sind die besten Guildrun Team-Comps für Anfänger?",
+    answer: "Der Krieger-Duellant-Hybrid ist am einsteigerfreundlichsten. Krieger bieten eine stabile Frontlinie mit Schilden, während Duellanten durch hohe Angriffsgeschwindigkeit konstanten Schaden verursachen."
+  },
+  {
+    question: "Kann ich die Fähigkeit eines Helden ändern, nachdem ich sie gewählt habe?",
+    answer: "Ja, Sie können die Lagerfeuer-Standorte zwischen den Hauptschlachten nutzen, um eine Fähigkeit 'umzuschulen'. Dies ist nützlich, um Ihre Strategie anzupassen, wenn Sie ein legendäres Relikt finden, das nicht zu Ihrem aktuellen Build passt."
+  },
+  {
+    question: "Was ist der Unterschied zwischen Rush und Stall?",
+    answer: "Rush-Effekte treten sofort während der ersten 12 Sekunden eines Kampfes auf. Stall-Effekte werden erst nach einer festgelegten Zeit (z. B. 15 Sekunden) ausgelöst, halten dann aber meist für den Rest des Kampfes an."
+  }
+]} />
+
+<Callout type="info" title="Fazit">
+Das Meistern von **Guildrun Team-Comps** bedeutet, die Synergie zwischen den zeitgesteuerten Schlüsselwörtern Ihrer Helden und den gesammelten Relikten zu verstehen. Priorisieren Sie im frühen Spiel immer Ihre Wirtschaft, um sicherzustellen, dass Sie sich die S-Tier-Upgrades und Harmoniekristalle leisten können, die für einen tiefen Run im Endlosmodus erforderlich sind.
+</Callout>
+
+</Section>

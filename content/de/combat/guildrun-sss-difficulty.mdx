@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun SSS-Schwierigkeitsgrad: Build-Setup & Fortschritts-Guide",
+  description: "Meistere den Guildrun SSS-Schwierigkeitsgrad mit unserem vollständigen Assassinen-Splitter-Build-Setup, inklusive wichtiger Heldensynergien, Positionierung und Reliktstrategien.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=SSS+Difficulty+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Primäre Strategie**: Wechsle zu einem vollständigen **Assassinen-Tarnungs-Build**, um die hohe Skalierung von kritischem Schaden zu Giftschaden auszusetzen.
+- **Schlüsselmechanik**: Nutze **Splitter-Generierungsschleifen** in Kombination mit bestimmten Relikten, um massiven prozentualen Flächenschaden auszulösen.
+- **Bester Carry**: Skaliere **Tilly** mit Angriffsgeschwindigkeit, um kontinuierlich Bonusschaden basierend auf den während des Runs generierten Gesamtsplittern auszulösen.
+- **Wichtiger Tipp**: Positioniere alle primären Schadensausteiler in den **hinteren zwei Reihen**, um sofortige Tarnung zu erhalten und eine frühzeitige Zielerfassung durch Gegner zu vermeiden.
+- **Beste Wahl**: Priorisiere das Relikt **Splitter-Energieextraktor** (Shard Power Extractor), um die Verteidigungsskalierung von Bossen durch flachen Schaden basierend auf der maximalen Gesundheit zu umgehen.
+</Callout>
+
+<Section icon={Swords} title="Meisterung der Meta auf dem Guildrun SSS-Schwierigkeitsgrad">
+
+Das Bezwingen des **Guildrun SSS-Schwierigkeitsgrades** erfordert ein tiefes Verständnis der Synergieskalierung, präzise Positionierung der Einheiten und Ressourcenmanagement. Im Gegensatz zu niedrigeren Stufen, bei denen rohe Statuswerte dein Team tragen können, skaliert der SSS-Schwierigkeitsgrad die Lebenspunkte und den Schadensausstoß der Gegner in extreme Höhen. Um zu überleben, musst du eine hochspezialisierte Truppe zusammenstellen, die Tarnung, Gift und Splitter-Generierungsschleifen nutzt. 
+
+Die derzeit zuverlässigste Strategie dreht sich um einen Assassinen-Vorhut-Hybrid-Build. Dieses Setup nutzt hohe kritische Trefferraten aus, um Ziele zu eliminieren, bevor sie deine defensive Frontlinie durchbrechen können.
+
+**Video-Highlights:**
+- **Splitter-Ökonomie**: Wie Yuna die Splittergenerierung bei jedem einzelnen Kill dauerhaft skaliert.
+- **Tarnungsgift**: Umwandlung von kritischem Trefferwert in passiven Giftschaden während der ersten fünf Sekunden des Kampfes.
+- **Der Splitter-Extraktor-Wechsel**: Übergang von standardmäßigem physischem Schaden zu prozentualem Schaden basierend auf der maximalen Gesundheit.
+
+<YouTubeEmbed videoId="p2PPy5bGZ7A" title="Ich hatte KEINE Ahnung, dass ich das tun kann | Guildrun | SSS-Schwierigkeitsgrad" />
+
+Um diesen Build erfolgreich umzusetzen, musst du eine ausgewogene Auswahl an Helden rekrutieren, die direkt mit kritischen Treffern und der Splittergenerierung skalieren. Die folgende Tabelle zeigt die Kernhelden, die für diese SSS-Strategie erforderlich sind.
+
+| Held | Primäre Rolle | Kern-Skalierungswert | Wichtige Synergie |
+|---|---|---|---|
+| **Yuna** | Splitter-Generator | Kritischer Treffer | Assassine / Splitter-Carry |
+| **Tilly** | DPS-Carry | Angriffsgeschwindigkeit | Duellant / Krieger |
+| **Rip** | Vorhut-Tank | Maximale Gesundheit | Vorhut / Assassine |
+| **Dagamir** | Off-Tank / Assassine | Kritischer Treffer | Kingpin / Assassine |
+
+<Callout type="warning" title="Überlebens-Warnung">
+Auf dem SSS-Schwierigkeitsgrad ist Standard-Lebensentzug aufgrund der gegnerischen Verteidigungsskalierung äußerst ineffektiv. Priorisiere immer Omnivamp- oder Schild-generierende Relikte, um deine Frontlinien-Einheiten am Leben zu erhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kern-Setup für Assassinen- und Splitter-Builds">
+
+Das Rückgrat dieses Builds basiert auf der Synergie zwischen der Assassinen-Klasse und den Mechanismen der Splittergenerierung. Indem du dein gesamtes Team mithilfe von Klassen-Emblemen in Assassinen verwandelst, schaltest du massive Multiplikatoren für kritische Treffer und Tarnungsfenster frei. 
+
+Wenn deine Einheiten aus der Tarnung heraus angreifen, verursachen sie Gift basierend auf ihrer anfänglichen kritischen Trefferquote. In Kombination mit Gegenständen, die die flache kritische Trefferquote erhöhen, kann dein anfänglicher Burst Ziele mit hoher Bedrohung sofort ausschalten.
+
+| Mechanik | Skalierungsart | Beste Gegenstands-Kombination | Ziel-Schwellenwert |
+|---|---|---|---|
+| **Tarnungsgift** | 75 % des anfänglichen kritischen Treffers | Assassinen-Hinterhalt-Motor | 800+ Kritischer Trefferwert |
+| **Splitter-Bonusschaden** | Flacher Schaden pro Splitter | Duellanten-Andenken | 1.000+ generierte Splitter |
+| **AoE-Splitter-Explosion** | 10 % max. LP pro Splitter | Splitter-Energieextraktor | 10 Splitter-Auslöser |
+
+<CardGrid cols={3}>
+  <Card title="Gift-Hinterhalt">
+    - **Verursacht massives Gift** basierend auf der kritischen Trefferquote.
+    - Erfordert, dass Einheiten in den **hinteren zwei Reihen** platziert werden.
+    - Am besten geeignet, um Ziele mit vielen Lebenspunkten frühzeitig zu eliminieren.
+  </Card>
+  <Card title="Splitter-Extraktor-AoE">
+    - **Verursacht 10 % Schaden der maximalen Gesundheit** an allen Gegnern bei Splittergenerierung.
+    - Umgeht standardmäßige Rüstung und Magieresistenz vollständig.
+    - Erfordert eine kontinuierliche Schleife von Splitter-generierenden Fähigkeiten.
+  </Card>
+  <Card title="Vorhut-Hybrid">
+    - **Verwandelt Rip in einen Assassinen**, um Omnivamp zu erhalten.
+    - Skaliert die Zähigkeit durch große Lebenspunkte-Pools und Schilde.
+    - Stellt sicher, dass dein Team die ersten zehn Sekunden des Kampfes überlebt.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Synergie-Tipp">
+Wenn du ein Assassinen-Emblem erhältst, rüste Tilly damit aus. Ihre hohe Angriffsgeschwindigkeit ermöglicht es ihr, Splitter schnell zu generieren, was wiederum die AoE-Explosion des Splitter-Energieextraktors mehrmals pro Sekunde auslöst.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt-Fortschrittsroute für SSS">
+
+Das richtige Navigieren durch die Karten- und Shop-Phasen ist ebenso wichtig wie das Gewinnen einzelner Kämpfe. Folge diesem strukturierten Fortschrittspfad, um deine Ökonomie aufzubauen, Schlüsselgegenstände zu sichern und deine Kerneinheiten zu verbessern, bevor du den finalen Akt-Boss erreichst.
+
+<Steps>
+  <Step num="1" title="Etabliere die Splitter-Ökonomie">
+    Priorisiere im frühen Spiel das Aufstufen von Yuna und Dagamir. Stelle sicher, dass Yuna die Todesstöße versetzt, um ihre Splittergenerierung für den Rest des Runs dauerhaft zu skalieren. Aktualisiere den Shop in Akt 1 nicht übermäßig; spare stattdessen Gold, um die Zinsgrenzen zu erreichen.
+  </Step>
+  <Step num="2" title="Baue das Tarnungsgitter in der hinteren Reihe auf">
+    Sobald du das Relikt Assassinen-Hinterhalt-Motor (Assassin Ambush Engine) erhalten hast, verschiebe dein gesamtes Team in die hinteren zwei Reihen. Dies gewährt allen Einheiten zu Beginn des Kampfes fünf Sekunden Tarnung, sodass sie massive Giftstapel basierend auf ihren kritischen Trefferquoten anwenden können.
+  </Step>
+  <Step num="3" title="Sichere dir den Splitter-Energieextraktor">
+    Suche im Shop und bei den Belohnungen für Elite-Begegnungen nach dem Relikt Splitter-Energieextraktor (Shard Power Extractor). Dies ist deine primäre Siegesbedingung für die Spätphase des Spiels. Konzentriere dich nach dem Ausrüsten ganz auf die Generierung von Splittern durch Tillys automatische Angriffe und Yunas aktive Fähigkeiten.
+  </Step>
+  <Step num="4" title="Optimiere Tillys Angriffsgeschwindigkeit">
+    Rüste Tilly mit Gegenständen für Angriffsgeschwindigkeit wie dem Duellanten-Andenken (Duelist Momento) aus. Da sie für jeden im Laufe des Spiels generierten Splitter Bonusschaden verursacht, wird ihre Skalierung unendlich. Eine hohe Angriffsgeschwindigkeit stellt sicher, dass sie alle 25 Angriffe eine Splittergenerierung auslöst.
+  </Step>
+</Steps>
+
+In Akt 2 triffst du auf den Dämonenboss, der einen gefährlichen Phasenübergang besitzt. Nutze die folgende Strategietabelle, um diese Begegnung zu meistern.
+
+| Bossphase | Auslösebedingung | Bossverhalten | Konterstrategie des Spielers |
+|---|---|---|---|
+| **Phase 1** | 100 % bis 50 % Gesundheit | Standardmäßige physische Angriffe | Schilde stapeln und frühzeitig Gift anwenden |
+| **Phase 2** | Unter 50 % Gesundheit | Erhält Angriffsgeschwindigkeit, verursacht Verbrennung | Vorhut-Spott auslösen und schnell besiegen |
+
+<Callout type="success" title="Erfolgreicher Phasenübergang">
+Hebe dir deine aktiven Fähigkeiten mit hohem Schaden auf, bis die Gesundheit des Dämonenbosses unter 50 % fällt. Ihn in Phase 2 schnell zu besiegen, verhindert, dass der globale Verbrennungs-Debuff deine hintere Reihe vernichtet.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Positionierung und Überlebenstaktiken">
+
+Auf dem SSS-Schwierigkeitsgrad kann die Positionierung den Unterschied zwischen einem mühelosen Sieg und einer sofortigen Niederlage ausmachen. Da die Gegner extremen Schaden verursachen, kannst du dich nicht auf einen Standard-Tank in der ersten Reihe verlassen. Stattdessen musst du Tarnungsmechanismen nutzen, um das Zielverhalten der Gegner zu manipulieren.
+
+Indem du dein gesamtes Team in den hinteren zwei Reihen platzierst, zwingst du die gegnerische Frontlinie, nach vorne zu laufen, wodurch sie wertvolle Sekunden ihrer Kampf-Buffs verlieren.
+
+| Position | Einheit | Hauptzweck | Vorteil durch Tarnung |
+|---|---|---|---|
+| **Hintere Reihe links** | Yuna | Sicherer DPS & Splittergenerierung | Immun gegen frühzeitige Zielerfassung |
+| **Hintere Reihe rechts** | Tilly | Unendlich skalierender DPS-Carry | Ununterbrochene Skalierung der Angriffsgeschwindigkeit |
+| **Hintere Reihe Mitte** | Dagamir | Off-Tank / Burst-Assassine | Übergibt Aggro an den Haupt-Tank |
+| **Mittlere Reihe Mitte** | Rip | Haupt-Vorhut-Tank | Spottet Gegner nach 10 Sekunden |
+
+<Callout type="warning" title="Aggro-Management">
+Platziere deinen primären Carry niemals direkt neben deinem Haupt-Tank. Wenn der Gegner Flächenfähigkeiten einsetzt, erleidet dein Carry massiven Kollaterschaden und stirbt vorzeitig.
+</Callout>
+
+Halte deine Einheiten leicht zusammengezogen, um die Effizienz benachbarter Schild-Relikte zu maximieren, aber stelle sicher, dass deine empfindlichsten Schadensausteiler am weitesten von der primären Zielzone entfernt positioniert sind.
+
+</Section>
+
+<Section icon={Trophy} title="Meilensteine und Checkliste für die Spätphase">
+
+Wenn du die Endlos-Phasen des SSS-Schwierigkeitsgrads erreichst, musst du bestimmte Build-Meilensteine erreichen, damit dein Schaden nicht abfällt. Nutze diese Checkliste, um deinen Fortschritt zu verfolgen und sicherzustellen, dass dein Team für die letzte Etappe optimal aufgestellt ist.
+
+<Checklist
+  id="sss-progression-checklist"
+  title="Anforderungen für den Endlosmodus:"
+  items={[
+    "Sichere mindestens 900+ dauerhaft generierte Splitter vor Akt 3.",
+    "Rüste Tilly mit zwei hochrangigen Gegenständen für Angriffsgeschwindigkeit oder Duellanten-Gegenständen aus.",
+    "Verwandle Rip mithilfe von Klassen-Emblemen in einen Vorhut-Assassinen-Hybriden.",
+    "Erhalte das Relikt Splitter-Energieextraktor für prozentuale Skalierung.",
+    "Stufe alle primären Kampfeinheiten auf mindestens Rang B oder höher auf."
+  ]}
+/>
+
+<Callout type="info" title="Relikt-Priorität">
+Wenn du die Wahl zwischen Relikten mit flachen Werten und Utility-Relikten hast, wähle immer Utility-Relikte, die Debuffs, Schilde oder die Splittergenerierung beeinflussen. Flache Werte skalieren in den späten Endlos-Phasen nur schlecht.
+</Callout>
+
+Nutze diese kurze Relikt-Tier-List, um deine Einkäufe im Shop während der Spätphase des Spiels zu planen:
+
+| Reliktname | Tier | Kernfunktion | Bester Träger |
+|---|---|---|---|
+| **Splitter-Energieextraktor** | **S-Tier** | 10 % max. LP AoE-Schaden bei Splittererhalt | Globaler Team-Buff |
+| **Assassinen-Hinterhalt-Motor** | **S-Tier** | Wandelt kritische Treffer aus der Tarnung in Gift um | Einheiten in der hinteren Reihe |
+| **Vorhut-Glyphe** | **A-Tier** | Gewährt massiv Gesundheit und Rüstung | Rip (Haupt-Tank) |
+| **Scharfrichterklinge** | **A-Tier** | Richtet Ziele unter 15 % LP sofort hin | Tilly (Carry) |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ zum SSS-Schwierigkeitsgrad">
+
+Um dir bei der Feinabstimmung deiner Runs zu helfen, wir haben Antworten auf die häufigsten Fragen zum höchsten Schwierigkeitsgrad zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Wie gehe ich mit gegnerischer Heilung auf dem Guildrun SSS-Schwierigkeitsgrad um?",
+    answer: "Du musst früh im Kampf hochwertige Gift- oder Verbrennungs-Debuffs stapeln. Der Assassinen-Hinterhalt-Motor in Kombination mit hohen kritischen Trefferquoten verursacht genug kontinuierlichen Schaden, um jegliche Heilungsmechaniken von Bossen zu übertreffen."
+  },
+  {
+    question: "Warum hat meine Yuna in der Spätphase aufgehört, Splitter zu generieren?",
+    answer: "Yuna ist darauf angewiesen, den tatsächlichen Todesstoß zu versetzen, um dauerhafte Splitter zu generieren. Wenn deine anderen Einheiten oder Relikte (wie der Splitter-Energieextraktor) den letzten Schlag ausführen, löst sie ihre Skalierung bei Kills nicht aus. Positioniere sie so, dass sie Ziele mit geringer Gesundheit angreift."
+  },
+  {
+    question: "Lohnt es sich, einen reinen Tank auf dem SSS-Schwierigkeitsgrad zu spielen?",
+    answer: "Nein. Reine Tanks ohne Schadenskalierung werden schnell zu unnötigem Ballast. Es ist weitaus besser, einen Hybrid-Tank wie Rip einzusetzen, der seine Angriffskraft mit seinem maximalen Gesundheitspool skalieren und gleichzeitig den Omnivamp des Assassinen nutzen kann."
+  },
+  {
+    question: "Wie umgeht der Splitter-Energieextraktor die Bossverteidigung?",
+    answer: "Der Splitter-Energieextraktor verursacht flachen Schaden in Höhe von 10 % der maximalen Gesundheit des Ziels. Da dieser Schaden prozentual ist und direkt mit der Splittergenerierung zusammenhängt, ignoriert er standardmäßige Rüstungs- und Magieresistenzwerte vollständig."
+  }
+]} />
+
+<Callout type="success" title="Letzter Ratschlag">
+Behalte die Positionierung deiner Einheiten zwischen den Runden immer im Auge. Da sich die gegnerischen Formationen ändern, kann eine minimale Anpassung deiner Einheiten in der hinteren Reihe verhindern, dass sie sofort von Assassinen-Gegnern anvisiert werden.
+</Callout>
+
+</Section>

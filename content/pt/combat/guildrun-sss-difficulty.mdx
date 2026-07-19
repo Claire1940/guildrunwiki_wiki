@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dificuldade SSS de Guildrun: Guia de Configuração de Build e Progressão",
+  description: "Domine a dificuldade SSS de Guildrun com nossa configuração completa de build de Estilhaço de Assassino, cobrindo sinergias de heróis, posicionamento e estratégias de relíquias.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=SSS+Difficulty+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun",
+  keywords: "guildrun, dificuldade sss, build de assassino, guia de estilhaços, estratégia de jogo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Estratégia Principal**: Transição para uma **build completa de furtividade de Assassino** para abusar do alto escalonamento de dano de crítico para veneno.
+- **Mecânica Chave**: Utilize **loops de geração de estilhaços** combinados com relíquias específicas para acionar dano em área massivo baseado em porcentagem.
+- **Melhor Carregador**: Foque em **Tilly** com velocidade de ataque para acionar continuamente dano bônus baseado no total de estilhaços gerados durante a partida.
+- **Dica Crítica**: Posicione todos os causadores de dano principais nas **duas fileiras de trás** para ganhar furtividade imediata e evitar ser alvo no início do jogo.
+- **Escolha Principal**: Priorize a relíquia **Extrator de Poder de Estilhaço** para ignorar o escalonamento de defesa dos chefes, causando dano fixo de saúde máxima.
+</Callout>
+
+<Section icon={Swords} title="Dominando o Meta da Dificuldade SSS de Guildrun">
+
+Conquistar a **dificuldade SSS de Guildrun** exige uma compreensão profunda do escalonamento de sinergia, posicionamento preciso das unidades e gerenciamento de economia. Diferente dos níveis mais baixos, onde atributos de força bruta podem carregar sua equipe, a dificuldade SSS escala a vida dos inimigos e a saída de dano para níveis extremos. Para sobreviver, você deve construir um esquadrão altamente especializado que aproveite a furtividade, o veneno e os loops de geração de estilhaços.
+
+A estratégia mais confiável atualmente gira em torno de uma build híbrida de Assassino-Vanguarda. Esta configuração explora altas taxas de acerto crítico para derreter alvos antes que eles possam perfurar sua linha de frente defensiva.
+
+**Destaques do Vídeo:**
+- **Economia de Estilhaços**: Como Yuna escala permanentemente a geração de estilhaços a cada abate.
+- **Veneno Furtivo**: Convertendo o valor de acerto crítico em dano de veneno passivo durante os primeiros cinco segundos de combate.
+- **O Pivô do Extrator de Estilhaços**: Transição do dano físico padrão para dano baseado em porcentagem da saúde máxima.
+
+<YouTubeEmbed videoId="p2PPy5bGZ7A" title="Eu NÃO Tinha Ideia de Que Podia Fazer Isso | Guildrun | Dificuldade SSS" />
+
+Para executar esta build com sucesso, você deve recrutar um elenco equilibrado de heróis que escalam diretamente com acertos críticos e geração de estilhaços. A tabela abaixo descreve os heróis principais necessários para esta estratégia de tier SSS.
+
+| Herói | Função Principal | Atributo de Escalonamento | Sinergia Chave |
+|---|---|---|---|
+| **Yuna** | Geradora de Estilhaços | Acerto Crítico | Assassino / Carregador de Estilhaço |
+| **Tilly** | Carregador de DPS | Velocidade de Ataque | Duelista / Guerreiro |
+| **Rip** | Tanque de Vanguarda | Saúde Máxima | Vanguarda / Assassino |
+| **Dagamir** | Off-Tank / Assassino | Acerto Crítico | Líder / Assassino |
+
+<Callout type="warning" title="Aviso de Sustentação">
+Na dificuldade SSS, o roubo de vida padrão é altamente ineficaz devido ao escalonamento de defesa dos inimigos. Sempre priorize relíquias de onivampirismo ou de geração de escudo para sustentar suas unidades da linha de frente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração Principal da Build de Assassino e Estilhaço">
+
+A espinha dorsal desta build reside na sinergia entre a classe Assassino e as mecânicas de geração de estilhaços. Ao converter toda a sua equipe em Assassinos usando emblemas de classe, você desbloqueia multiplicadores massivos de acerto crítico e janelas de furtividade.
+
+Quando suas unidades atacam a partir da furtividade, elas infligem veneno com base em sua taxa de acerto crítico inicial. Quando combinado com itens que aumentam as taxas fixas de acerto crítico, seu surto inicial pode eliminar alvos de alta ameaça instantaneamente.
+
+| Mecânica | Como Escala | Melhor Combo de Itens | Limiar Alvo |
+|---|---|---|---|
+| **Veneno Furtivo** | 75% do Crítico inicial | Motor de Emboscada de Assassino | 800+ de Acerto Crítico |
+| **Dano Bônus de Estilhaço** | Dano fixo por Estilhaço | Momento do Duelista | 1.000+ Estilhaços Gerados |
+| **Explosão de Estilhaço em Área** | 10% de HP Máx por Estilhaço | Extrator de Poder de Estilhaço | 10 Ativações de Estilhaço |
+
+<CardGrid cols={3}>
+  <Card title="Emboscada de Veneno">
+    - **Inflige veneno massivo** com base na taxa de acerto crítico.
+    - Requer que as unidades sejam colocadas nas **duas fileiras de trás**.
+    - Ideal para derreter alvos de alta vida precocemente.
+  </Card>
+  <Card title="Dano em Área do Extrator">
+    - **Causa 10% de dano de saúde máxima** a todos os inimigos na geração de estilhaços.
+    - Ignora completamente a armadura padrão e a resistência mágica.
+    - Requer um loop contínuo de habilidades geradoras de estilhaços.
+  </Card>
+  <Card title="Híbrido de Vanguarda">
+    - **Converte Rip em um Assassino** para ganhar onivampirismo.
+    - Escala a resistência através de grandes reservas de vida e escudos.
+    - Garante que sua equipe sobreviva aos primeiros dez segundos de combate.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Sinergia">
+Se você adquirir um Emblema de Assassino, coloque-o na Tilly. Sua alta velocidade de ataque permite que ela gere estilhaços rapidamente, o que, por sua vez, aciona o surto em área do Extrator de Poder de Estilhaço várias vezes por segundo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rota de Progressão SSS Passo a Passo">
+
+Navegar pelas fases do mapa e da loja corretamente é tão importante quanto vencer batalhas individuais. Siga este caminho de progressão estruturado para construir sua economia, garantir itens-chave e subir o nível de suas unidades principais antes de chegar ao Chefe final do Ato.
+
+<Steps>
+  <Step num="1" title="Estabeleça a Economia de Estilhaços">
+    No início do jogo, priorize o nível de Yuna e Dagamir. Garanta que Yuna consiga os golpes fatais para escalar permanentemente sua geração de estilhaços pelo resto da partida. Não atualize a loja excessivamente no Ato 1; em vez disso, economize ouro para atingir os limiares de juros.
+  </Step>
+  <Step num="2" title="Monte a Grade de Furtividade na Fileira de Trás">
+    Assim que adquirir a relíquia Motor de Emboscada de Assassino, mova toda a sua equipe para as duas fileiras de trás. Isso concede a todas as unidades cinco segundos de furtividade no início do combate, permitindo que apliquem acúmulos massivos de veneno com base em suas taxas de acerto crítico.
+  </Step>
+  <Step num="3" title="Garanta o Extrator de Poder de Estilhaço">
+    Procure na loja e nas recompensas de encontros de elite pela relíquia Extrator de Poder de Estilhaço. Esta é sua principal condição de vitória para os estágios avançados. Uma vez equipado, foque inteiramente em gerar estilhaços através dos ataques automáticos da Tilly e das habilidades ativas da Yuna.
+  </Step>
+  <Step num="4" title="Otimize a Velocidade de Ataque da Tilly">
+    Equipe Tilly com itens de velocidade de ataque, como o Momento do Duelista. Como ela causa dano bônus para cada estilhaço gerado ao longo do jogo, seu escalonamento torna-se infinito. A alta velocidade de ataque garante que ela acione a geração de estilhaços a cada 25 ataques.
+  </Step>
+</Steps>
+
+Durante o Ato 2, você encontrará o Chefe Demônio, que apresenta uma transição de fase perigosa. Use a tabela de estratégia abaixo para gerenciar este encontro.
+
+| Fase do Chefe | Condição de Ativação | Comportamento do Chefe | Contra-estratégia do Jogador |
+|---|---|---|---|
+| **Fase 1** | 100% a 50% de Vida | Ataques físicos padrão | Acumule escudos e aplique veneno cedo |
+| **Fase 2** | Abaixo de 50% de Vida | Ganha vel. de ataque, inflige queimadura | Acione provocações de Vanguarda e use burst |
+
+<Callout type="success" title="Sucesso na Transição de Fase">
+Poupe suas habilidades ativas de alto dano até que o Chefe Demônio caia abaixo de 50% de vida. Eliminá-lo rapidamente na Fase 2 evita que o debuff de queimadura global destrua sua linha de trás.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas de Posicionamento e Sobrevivência">
+
+Na dificuldade SSS, o posicionamento pode significar a diferença entre uma vitória sem esforço e uma derrota instantânea. Como os inimigos causam dano extremo, você não pode confiar em um tanque padrão parado na primeira fileira. Em vez disso, você deve utilizar mecânicas de furtividade para manipular o comportamento de alvo dos inimigos.
+
+Ao colocar toda a sua equipe nas duas fileiras de trás, você força a linha de frente inimiga a caminhar para frente, desperdiçando segundos preciosos de seus buffs de combate.
+
+| Posição | Unidade | Propósito Principal | Benefício da Furtividade |
+|---|---|---|---|
+| **Fileira de Trás Esquerda** | Yuna | DPS Seguro e Geração de Estilhaços | Imune a bloqueios de alvo precoces |
+| **Fileira de Trás Direita** | Tilly | Carregador de DPS de Escalonamento Infinito | Escalonamento de vel. de ataque ininterrupto |
+| **Fileira de Trás Centro** | Dagamir | Off-Tank / Assassino de Burst | Transfere o aggro para o tanque principal |
+| **Fileira do Meio Centro** | Rip | Tanque de Vanguarda Principal | Provoca inimigos após 10 segundos |
+
+<Callout type="warning" title="Gerenciamento de Aggro">
+Nunca coloque seu carregador principal adjacente ao seu tanque principal. Se o inimigo usar habilidades de efeito em área, seu carregador sofrerá dano colateral massivo e morrerá prematuramente.
+</Callout>
+
+Mantenha suas unidades levemente agrupadas para maximizar a eficiência das relíquias de escudo adjacentes, mas garanta que seus causadores de dano mais frágeis estejam posicionados o mais longe possível da zona de alvo principal.
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Fim de Jogo e Checklist">
+
+Ao entrar nos estágios infinitos da dificuldade SSS, você deve atingir marcos específicos de build para evitar que seu dano caia. Use este checklist para acompanhar sua progressão e garantir que sua equipe esteja totalmente otimizada para a reta final.
+
+<Checklist
+  id="sss-progression-checklist"
+  title="Requisitos do Modo Infinito:"
+  items={[
+    "Garantir pelo menos 900+ estilhaços permanentes gerados antes do Ato 3.",
+    "Equipar Tilly com dois itens de velocidade de ataque ou de duelista de alto nível.",
+    "Converter Rip em um híbrido de Vanguarda-Assassino utilizando emblemas de classe.",
+    "Obter a relíquia Extrator de Poder de Estilhaço para escalonamento percentual.",
+    "Elevar todas as unidades de combate principais para pelo menos Grau B ou superior."
+  ]}
+/>
+
+<Callout type="info" title="Prioridade de Relíquias">
+Se tiver escolha entre relíquias de atributos fixos e relíquias de utilidade, escolha sempre as de utilidade que manipulam debuffs, escudos ou geração de estilhaços. Atributos fixos escalam mal nos estágios infinitos avançados.
+</Callout>
+
+Consulte esta lista rápida de tiers de relíquias para guiar suas compras na loja durante as fases finais:
+
+| Nome da Relíquia | Tier | Função Principal | Melhor Portador |
+|---|---|---|---|
+| **Extrator de Poder de Estilhaço** | **Tier S** | 10% HP Máx de dano em área ao ganhar estilhaço | Buff Global da Equipe |
+| **Motor de Emboscada de Assassino** | **Tier S** | Converte Crítico em Veneno a partir da furtividade | Unidades da Fileira de Trás |
+| **Glifo de Vanguarda** | **Tier A** | Concede vida e armadura massivas | Rip (Tanque Principal) |
+| **Lâmina do Executor** | **Tier A** | Executa instantaneamente alvos abaixo de 15% de HP | Tilly (Carregador) |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ da Dificuldade SSS">
+
+Para ajudar você a ajustar suas partidas, compilamos respostas para as perguntas mais comuns sobre o nível de dificuldade mais alto.
+
+<FAQ items={[
+  {
+    question: "Como lidar com a cura inimiga na dificuldade SSS de Guildrun?",
+    answer: "Você deve acumular debuffs de veneno ou queimadura de alto valor no início da luta. O Motor de Emboscada de Assassino combinado com altas taxas de acerto crítico aplica dano contínuo suficiente para superar qualquer mecânica de cura de chefe."
+  },
+  {
+    question: "Por que minha Yuna parou de gerar estilhaços no fim do jogo?",
+    answer: "Yuna depende de garantir o golpe fatal real para gerar estilhaços permanentes. Se suas outras unidades ou relíquias (como o Extrator de Poder de Estilhaço) estiverem desferindo o golpe final, ela não acionará seu escalonamento por abate. Posicione-a para focar em inimigos com pouca vida."
+  },
+  {
+    question: "Vale a pena usar um tanque puro na dificuldade SSS?",
+    answer: "Não. Tanques puros sem escalonamento de dano tornam-se rapidamente um peso morto. É muito melhor usar um tanque híbrido como Rip, que pode escalar seu poder de ataque com sua reserva de saúde máxima enquanto ainda utiliza o onivampirismo de Assassino."
+  },
+  {
+    question: "Como o Extrator de Poder de Estilhaço ignora as defesas dos chefes?",
+    answer: "O Extrator de Poder de Estilhaço causa dano fixo igual a 10% da saúde máxima do alvo. Como esse dano é baseado em porcentagem e está diretamente ligado à geração de estilhaços, ele ignora completamente os valores padrão de armadura e resistência mágica."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+Fique sempre de olho no posicionamento de suas unidades entre as rodadas. À medida que as formações inimigas mudam, microajustar suas unidades da fileira de trás pode evitar que elas se tornem alvos instantâneos de inimigos do tipo assassino.
+</Callout>
+
+</Section>

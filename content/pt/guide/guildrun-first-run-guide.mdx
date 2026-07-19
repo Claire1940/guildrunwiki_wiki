@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia da primeira run de Guildrun: Domine o Início do Jogo e Sinergias de Equipe",
+  description: "Aprenda a dominar seu primeiro contrato em Guildrun com nosso guia abrangente sobre seleção de heróis, sinergias de queimadura e gerenciamento de recursos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+First+Run+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun",
+  keywords: "guildrun, guia de início, sinergias, heróis, estratégia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia da primeira run de Guildrun**: Foque em construir sinergias de Mago com alto poder mágico para limpar os atos iniciais da demo com eficiência.
+- **Mecânicas de Queimadura (Burn)**: Utilize heróis como Funky para acumular debuffs de queimadura, que amplificam o dano através de relíquias específicas.
+- **Prioridade de Recursos**: Gaste fragmentos em duplicatas de heróis cedo para desbloquear habilidades Passivas e Ativas poderosas.
+- **Estratégia de Posicionamento**: Mantenha os Vanguardas na frente e os Magos atrás para maximizar a sobrevivência durante a janela de 20 segundos de Stall.
+- **Relíquia Chave**: O Catalisador de Queimadura (Burn Catalyst) é o item mais impactante do início do jogo para composições baseadas em fogo.
+</Callout>
+
+<Section icon={Map} title="Seleção de Heróis e Fundamentos de Combate">
+
+Começar sua jornada em Guildrun requer uma compreensão sólida do sistema "Breaker". Neste **guia da primeira run de Guildrun**, enfatizamos que sua escolha inicial de herói define toda a trajetória da sua partida. Atualmente, a demo oferece heróis como Funky, Yuna e Kai, cada um especializado em diferentes arquétipos elementais ou físicos. Funky, por exemplo, é uma escolha de Mago de elite devido à sua habilidade Wildfire, que se destaca em espalhar dano pelo campo de batalha automaticamente.
+
+**Destaques do Vídeo:**
+- **Arquétipos de Heróis**: Visão geral das habilidades iniciais como Wildfire.
+- **Sistemas de Auto-Batalha**: Entendendo o ganho de mana através de ataques automáticos.
+- **Mecânicas da Loja**: Como gastar Fragmentos em heróis, itens e relíquias.
+- **Construção de Sinergia**: Combinando as classes Mago e Vanguarda para uma equipe equilibrada.
+
+<YouTubeEmbed videoId="XGFvBmp-XTo" title="Guildrun | Incrível Roguelike Auto Battler!" />
+
+O combate em Guildrun é totalmente automatizado, o que significa que seu sucesso depende inteiramente da sua preparação e posicionamento. Os heróis geram mana através de ataques automáticos; quando a barra de mana está cheia, eles ativam sua habilidade ativa. Isso torna os atributos de regeneração de mana e velocidade de ataque cruciais para conjuradores que dependem de feitiços de alto impacto para limpar as ondas de inimigos.
+
+| Mecânica | Descrição | Impacto no Combate |
+| :--- | :--- | :--- |
+| **Ataque Automático** | Golpes padrão do herói | Gera mana para habilidades ativas |
+| **Habilidade Ativa** | Ativada com 100% de mana | Alto dano ou efeitos de utilidade |
+| **Regen. de Mana** | Ganho passivo de mana | Reduz o tempo entre o uso de habilidades |
+| **Posicionamento** | Colocação baseada em grade | Determina a prioridade de alvos e segurança |
+
+<Callout type="tip" title="Gerenciamento de Mana">
+Priorize itens que forneçam regeneração de mana para seus Magos. Um Mago que conjura sua habilidade duas vezes por luta é significativamente mais valioso do que um com alto poder mágico que conjura apenas uma vez.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Construindo Sinergias de Equipe e Arquétipos">
+
+O cerne de uma run bem-sucedida reside nas sinergias de classe e arquétipo. Quando você visita a loja, são apresentados três heróis. Comprar um herói que você já possui aumentará o rank dele, o que geralmente é melhor do que simplesmente adicionar um novo herói de rank baixo ao seu elenco. Subir de rank desbloqueia habilidades passivas que podem definir o nível de poder da sua equipe.
+
+<CardGrid cols={3}>
+  <Card title="O Núcleo de Queimadura">
+    - **Herói Principal**: Funky
+    - **Sinergia Chave**: Relíquia Catalisador de Queimadura
+    - **Efeito**: Dano massivo ao longo do tempo que escala com Magia.
+  </Card>
+  <Card title="O Controle de Gelo">
+    - **Herói Principal**: Magos de Gelo
+    - **Sinergia Chave**: Lentidão e Atordoamento
+    - **Efeito**: Reduz a frequência de ataque inimigo para proteger sua linha de frente.
+  </Card>
+  <Card title="A Muralha Vanguarda">
+    - **Herói Principal**: Ming ou outros Tanques
+    - **Sinergia Chave**: Itens de escalonamento de Defesa
+    - **Efeito**: Absorve dano para permitir que os Magos alcancem a fase de Stall.
+  </Card>
+</CardGrid>
+
+As sinergias são rastreadas via palavras-chave. Por exemplo, a classe "Mago" geralmente concede poder mágico bônus a todos os magos aliados. Se você acumular vários magos, o poder combinado deles pode derreter até os chefes mais resistentes. No entanto, negligenciar sua linha de frente levará a uma derrota rápida, pois magos frágeis não conseguem sobreviver ao contato direto com inimigos de alto dano como o Mushroom Guy ou a Armored Turtle.
+
+| Classe | Papel Principal | Atributo Chave | Sinergias Comuns |
+| :--- | :--- | :--- | :--- |
+| **Mago** | DPS à Distância | Magia | Queimadura, Gelo, Regen. Mana |
+| **Vanguarda** | Tanque | Defesa | Escudo, Rush, PV |
+| **Assassino** | Alvo Único | Ataque | Crítico, Velocidade, Furtividade |
+| **Suporte** | Utilidade | Regen | Cura, Buffs, Debuffs |
+
+<Callout type="warning" title="Heróis Duplicados">
+Não ignore as duplicatas na loja. Um herói de Rank A ou Rank S ganha aumentos massivos de atributos e etiquetas de classe adicionais que podem ser a diferença entre uma run fracassada e a vitória.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gerenciamento da Loja e Alocação de Recursos">
+
+Fragmentos são a força vital da sua guilda. Gerenciá-los efetivamente entre as lutas é o que separa os especialistas dos iniciantes. A loja oferece três categorias de melhorias: Heróis, Itens e Relíquias. Embora seja tentador comprar cada item brilhante, você deve priorizar os ranks dos heróis para desbloquear o potencial total da sua equipe.
+
+<Checklist
+  id="shop-priority-list"
+  title="Checklist da Loja para cada Visita:"
+  items={[
+    "Verifique se há duplicatas de heróis para subir o rank das unidades atuais",
+    "Identifique relíquias que combinem com seu arquétipo elemental atual",
+    "Equipe itens individuais nos heróis com base em seus atributos de escalonamento",
+    "Considere um reroll se nenhum dos heróis se encaixar na sua sinergia",
+    "Congele a loja se vir um herói vital, mas estiver sem fragmentos"
+  ]}
+/>
+
+As relíquias são únicas porque afetam toda a sua equipe. Por exemplo, o "Plated Codex" aumenta a defesa de todos após uma vitória, enquanto o "Burn Catalyst" amplifica todo o dano de queimadura. Itens, por outro lado, são equipados em heróis individuais. Colocar um "Patient Ring" em um Vanguarda é uma jogada inteligente, pois fornece vida e utilidade que beneficiam uma unidade que permanece na luta por uma longa duração.
+
+| Tipo de Item | Alvo | Custo | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Herói** | Elenco da Equipe | Baixo/Médio | Foque em subir o rank das unidades principais |
+| **Relíquia** | Buff Global | Alto | Compre apenas se combinar com sua sinergia |
+| **Item** | Individual | Médio | Preencha os slots do seu herói principal primeiro |
+| **Reroll** | Atualizar Loja | Escalonável | Use com moderação no início do jogo |
+
+<Callout type="success" title="Sinergia de Relíquia">
+Se você estiver usando uma equipe focada em fogo, o Catalisador de Queimadura é uma compra obrigatória. Ele pode frequentemente representar 30% ou mais do seu dano total em lutas contra chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia da primeira run de Guildrun: Navegando no Mapa e Desafios">
+
+O mapa em Guildrun oferece caminhos ramificados, incluindo mineração de fragmentos, busca de itens ou treinamento de heróis. Escolher o caminho certo depende da força atual da sua equipe. Se você estiver saudável e vencendo lutas facilmente, vá para os encontros de "Desafio" para ganhar fragmentos extras. Se sua equipe estiver com dificuldades, procure uma Fogueira para subir o rank de um herói gratuitamente ou uma Loja para encontrar equipamentos melhores.
+
+<Steps>
+  <Step num="1" title="Agressividade Inicial">
+    Nos primeiros nós, priorize encontrar um terceiro herói para preencher seus slots ativos. Não se preocupe com a sinergia perfeita ainda; números brutos importam mais no Ato 1.
+  </Step>
+  <Step num="2" title="Especialização de Arquétipo">
+    Até o meio da run, você deve ter um tema claro (ex: Magos de Fogo). Comece a vender itens ou heróis que não contribuem para este objetivo.
+  </Step>
+  <Step num="3" title="Preparação para o Chefe">
+    Antes do chefe do Ato, garanta que seu tanque tenha pelo menos um item defensivo e seu causador de dano primário seja pelo menos Rank A.
+  </Step>
+  <Step num="4" title="Transição para o Modo Infinito">
+    Após derrotar o chefe da demo, você entra no Modo Infinito. Aqui, a palavra-chave "Stall" torna-se vital, pois as lutas duram muito mais tempo.
+  </Step>
+</Steps>
+
+Encontros especiais como a "Tartaruga Blindada" exigem alto dano de explosão (burst). Esses desafios de "Inimigo Durável" recompensam você com uma pilha massiva de fragmentos se você conseguir quebrar a carapaça deles dentro do limite de tempo. Se sua equipe for construída para "Stall" (poder no final da luta), você pode ter dificuldades com esses desafios sensíveis ao tempo.
+
+| Tipo de Encontro | Dificuldade | Recompensa Principal | Melhor Abordagem |
+| :--- | :--- | :--- | :--- |
+| **Luta Padrão** | Fácil | Fragmentos | Testar posicionamento |
+| **Elite/Desafio** | Média | Itens Raros | Usar habilidades de Rush |
+| **Inimigo Durável** | Difícil | Fragmentos Massivos | Foco em alto DPS |
+| **Luta de Chefe** | Muito Difícil | Relíquias Épicas | Sinergia total necessária |
+
+<Callout type="info" title="A Mecânica de Retrocesso">
+Guildrun apresenta um sistema de "Retrocesso de Emergência". Se você perder um combate, ganha uma chance extra e um bônus de fragmentos para se fortalecer. Use este bônus com sabedoria para corrigir as fraquezas que levaram à sua derrota.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Palavras-chave Avançadas: Rush, Stall e Backup">
+
+Para dominar o final do jogo, você deve entender as palavras-chave baseadas em tempo que ditam quando certas habilidades são ativadas. Essas palavras-chave permitem que você construa equipes que se destacam em diferentes fases de uma batalha.
+
+- **Rush**: Estes efeitos só ficam ativos durante os primeiros 15 segundos da batalha. São perfeitos para equipes rápidas e agressivas que buscam terminar as lutas rapidamente.
+- **Stall**: Estes efeitos ativam apenas após 20 segundos terem passado. Este é o domínio dos tanques e curandeiros que conseguem resistir mais que o inimigo.
+- **Backup**: Estes efeitos funcionam mesmo se o herói estiver em seus slots de reserva. Isso permite que você ganhe buffs para toda a equipe sem ocupar um lugar valioso no campo de batalha.
+
+Entender a mecânica de "Stall" é particularmente importante para o chefe da demo. O chefe tem muita vida, o que significa que a luta inevitavelmente durará mais de 20 segundos. Equipar itens ou escolher melhorias passivas que disparam durante a fase de Stall lhe dará uma vantagem massiva quando o chefe estiver com metade da vida.
+
+| Palavra-chave | Tempo | Melhor Classe de Herói | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Rush** | 0-15s | Assassino / Mago de Burst | Terminar lutas antes de sofrer dano |
+| **Padrão** | 15-20s | Todos | O pico das rotações de habilidades |
+| **Stall** | 20s+ | Vanguarda / Suporte | Sobreviver mais que o oponente |
+| **Backup** | Passiva | Qualquer | Aumentos globais de atributos para a equipe |
+
+<Callout type="tip" title="Estratégia de Backup">
+Mesmo que você encontre um herói que não se encaixe na sua grade de combate ativa, verifique se ele possui a palavra-chave "Backup". Um herói na reserva fornecendo +10 de Magia para todos os Magos geralmente vale a pena ser mantido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão e FAQ">
+
+Dominar sua primeira run em Guildrun é uma jornada de tentativa e erro, mas focar nos ranks dos heróis e sinergias elementais colocará você à frente. Quer você escolha o caminho do mago flamejante ou do vanguarda robusto, lembre-se de que cada escolha de item e relíquia conta para sua vitória final contra os monstros da fenda.
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor herói para começar em Guildrun?",
+    answer: "Para iniciantes, Funky é altamente recomendado. Sua habilidade Wildfire fornece dano em área consistente, e as sinergias de fogo são atualmente muito fortes na versão demo."
+  },
+  {
+    question: "Como faço para aumentar o tamanho máximo da minha equipe?",
+    answer: "O tamanho da equipe pode ser aumentado através de relíquias específicas de alta raridade ou melhorias encontradas na Casa de Leilões após derrotar um chefe. Sempre priorize o tamanho da equipe se você tiver uma reserva forte."
+  },
+  {
+    question: "O que acontece se eu perder uma luta em Guildrun?",
+    answer: "O jogo possui um sistema de Retrocesso de Emergência. Você ganha uma chance de reiniciar a luta com fragmentos extras para fortalecer sua equipe. Se perder novamente, a run termina."
+  },
+  {
+    question: "Os itens são permanentes depois de equipados?",
+    answer: "Não, os itens podem ser removidos ou movidos entre heróis a qualquer momento na loja ou na tela do mapa, permitindo que você adapte sua estratégia conforme recruta unidades melhores."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+Sempre fique de olho no rastreador de combate após uma luta. Ele mostra exatamente quanto dano cada herói e relíquia contribuiu, ajudando você a identificar quais partes da sua equipe estão abaixo do esperado.
+</Callout>
+
+</Section>

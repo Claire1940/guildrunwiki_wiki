@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun AI: Ranking de Heróis e Guia de Build Apelona",
+  description: "Domine o Guildrun AI com nosso guia abrangente sobre ranking de heróis, builds de veneno-crítico e estratégias para o modo infinito em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+AI+Build+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun",
+  keywords: "Guildrun AI, guia de heróis, build de veneno, modo infinito, estratégias"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O ciclo principal do **Guildrun AI** gira em torno do gerenciamento de **fragmentos** (shards) para subir o ranking dos heróis do Rank-C ao Rank-S.
+- **Yuna** é a principal escolha de DPS, especializada em uma sinergia devastadora de **Veneno-Crítico**.
+- O **gerenciamento de fragmentos** é crítico; congelar a loja para relíquias de alto valor como o **Capuz do Assassino** é uma estratégia profissional.
+- O **Acúmulo de Veneno** escala exponencialmente no final do jogo, permitindo causar milhões de dano no **Modo Infinito**.
+- O **Posicionamento do Tanque** é vital para sobreviver aos chefes do Ato 2, como o Dragão de Gelo.
+</Callout>
+
+<Section icon={Map} title="Introdução à Progressão no Guildrun AI">
+
+A jornada no **Guildrun AI** começa com uma única escolha: seu herói inicial. Seja escolhendo Sal, Hoyoung ou Yuna, seu objetivo principal é navegar pela fenda, coletar fragmentos e construir uma equipe capaz de lidar com encontros cada vez mais "apelões". O jogo recompensa o escalonamento agressivo e riscos calculados na loja.
+
+**Destaques do Vídeo:**
+- Demonstrando o poder de uma **Yuna Rank S** no final do jogo.
+- Como usar efetivamente a mecânica de **Reroll da Loja** para encontrar fragmentos de heróis específicos.
+- Estratégia para derrotar os chefes **Hidra** e **Dragão de Gelo**.
+- Análise da pontuação e do potencial de dano no **Modo Infinito**.
+
+<YouTubeEmbed videoId="GLIHLwgmrBU" title="Subi o Rank dos Heróis para Níveis Apelões no Guildrun" />
+
+Para ter sucesso, os jogadores devem entender que o **Guildrun AI** não trata apenas de poder bruto, mas da sinergia entre as classes de heróis e as relíquias adquiridas. Os fragmentos são seu recurso mais valioso, usados para contratar novos heróis, comprar itens ou subir o ranking do seu elenco atual. Subir o rank de um herói não apenas aumenta os atributos; desbloqueia habilidades transformadoras que podem definir toda a sua partida.
+
+| Recurso | Descrição | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **Fragmentos** | Moeda primária ganha em combate | Usada para compras na loja e subida de rank |
+| **Rank do Herói** | Progressão do Rank C ao S | Desbloqueia habilidades ativas e passivas |
+| **Relíquias** | Buffs permanentes para toda a equipe | Ditam a viabilidade de builds específicas |
+| **Itens** | Equipamentos específicos para heróis | Melhoram atributos individuais como Crítico ou Vamp |
+| **Reroll** | Atualização do inventário da loja | Essencial para encontrar fragmentos de heróis específicos |
+
+<Callout type="tip" title="Dica de Economia">
+No início do jogo, priorize o **Kit Inicial de Fragmentos** ou relíquias que aumentam o ganho de fragmentos por herói sobrevivente. Isso estabelece uma vantagem econômica massiva para o Ato 2 e além.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List de Heróis e Sinergia de Classes">
+
+No meta atual do **Guildrun AI**, os heróis são categorizados por sua utilidade e potencial de escalonamento. Embora qualquer herói possa ser viável com as relíquias certas, certos personagens como **Yuna** oferecem um teto mais alto para a saída de dano devido aos seus bônus inatos de classe.
+
+<CardGrid cols={3}>
+  <Card title="Yuna (Assassino)">
+    - **Atributo Principal**: Crítico / Veneno
+    - **Melhor Função**: DPS Principal
+    - **Habilidade Chave**: Golpe de Sombra Shuriken
+  </Card>
+  <Card title="Pollen (Místico)">
+    - **Atributo Principal**: Magia / Debuff
+    - **Melhor Função**: Suporte / Curandeiro
+    - **Habilidade Chave**: Campo de Flores Venenosas
+  </Card>
+  <Card title="Yuria (Tanque)">
+    - **Atributo Principal**: Defesa / HP
+    - **Melhor Função**: Linha de Frente
+    - **Habilidade Chave**: Atordoamento Petrificante
+  </Card>
+</CardGrid>
+
+Construir uma equipe equilibrada é essencial. Um erro comum é focar inteiramente no DPS, deixando sua linha de trás vulnerável a inimigos que flanqueiam ou ataques em área (AOE) de chefes. Uma Vanguarda robusta como **Jury** ou **Yuria** garante que seus Assassinos tenham o tempo necessário para acumular veneno e ativar acertos críticos.
+
+| Herói | Classe | Sinergia Chave | Itens Recomendados |
+| :--- | :--- | :--- | :--- |
+| **Yuna** | Assassino | Veneno-Crítico | Aljava, Capuz do Assassino |
+| **Pollen** | Místico | Cura em Área | Frasco de Mana, Foco do Mago |
+| **Jury** | Tanque | Acúmulo de Defesa | Colete Pesado, Acumulador de Escudo |
+| **Sal** | Assassino | Roubo de Vida | Lâmina de Omni-Vamp |
+| **Hoyoung** | Assassino | Crítico Puro | Runa, Anel da Pressa |
+
+<Callout type="warning" title="Aviso de Posicionamento">
+Sempre verifique os padrões de movimento dos inimigos. Se um inimigo tiver uma habilidade de "Pular para a Linha de Trás", coloque seu tanque um pouco mais atrás para interceptá-lo antes que ele alcance seus Místicos frágeis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="O Guia Definitivo da Build de Veneno-Crítico">
+
+A build mais "apelona" disponível atualmente no **Guildrun AI** é a configuração de Assassino de Veneno-Crítico. Esta build depende da interação onde acertos críticos aplicam veneno, e inimigos envenenados recebem dano aumentado de golpes críticos.
+
+<Steps>
+  <Step num="1" title="Garanta a Yuna Cedo">
+    Escolha a Yuna como inicial ou encontre-a na primeira loja. Seu **Golpe de Sombra Shuriken** é a base desta build.
+  </Step>
+  <Step num="2" title="Foque no Upgrade para Rank A">
+    Alcance o Rank A o mais rápido possível para desbloquear **Furtividade ao Abater**. Isso mantém a Yuna impossível de ser alvo enquanto ela destrói a linha de trás.
+  </Step>
+  <Step num="3" title="Acumule Relíquias de Veneno">
+    Procure pela relíquia **Ascendência de Veneno**. Isso faz com que os inimigos percam uma porcentagem do HP máximo sempre que receberem dano de veneno.
+  </Step>
+  <Step num="4" title="Alcance a Maestria Rank S">
+    No Rank S, a Yuna ganha **Omni-Vamp** massivo e críticos garantidos. Isso permite que ela solar a maioria dos encontros se o resto da guilda cair.
+  </Step>
+</Steps>
+
+Esta build escala para milhões de pontos de dano porque o veneno ignora os valores tradicionais de armadura. Quando combinada com a amplificação de debuff da **Pollen**, os acúmulos podem passar de 500 em um único alvo, derretendo até os chefes mais difíceis do Ato 2 em segundos.
+
+| Componente da Build | Prioridade | Melhor Fonte | Efeito |
+| :--- | :--- | :--- | :--- |
+| **Chance de Crítico** | Alta | Itens / Relíquias | Ativa a aplicação de veneno |
+| **Acúmulos de Veneno** | Alta | Pollen / Upgrades | DOT massivo e destruição de HP máx |
+| **Omni-Vamp** | Média | Passiva Rank S | Sustentabilidade no Modo Infinito |
+| **Velocidade de Ataque** | Média | Item Aljava | Aplicação de acúmulos mais rápida |
+
+<Callout type="success" title="Sinergia da Build">
+Combinar a Yuna com uma Pollen Rank A é o "ingrediente secreto". A habilidade da Pollen de aumentar a quantidade de cada debuff nos inimigos em 100% dobra efetivamente o dano da Yuna instantaneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégia de Itens e Relíquias">
+
+Os itens no **Guildrun AI** fornecem os atributos brutos necessários para sobreviver, enquanto as Relíquias fornecem mecânicas que mudam o jogo. Entender quais itens vender e quais manter é a marca de um jogador especialista.
+
+| Item/Relíquia | Tipo | Melhor Para | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Colete Pesado** | Item | Tanques | Bônus massivo de HP para o Ato 2 |
+| **Capuz do Assassino** | Item | Yuna / Sal | Essencial para escalonamento baseado em crítico |
+| **Cristal da Harmonia** | Relíquia | Todos | Aumenta o tamanho da equipe para 4 heróis |
+| **Prisma de Veneno** | Relíquia | Todos | Chance de crítico escala com fragmentos no banco |
+| **Frasco de Mana** | Item | Místicos | Garante ativação precoce do Campo de Flores |
+
+O **Guildrun AI** também apresenta um sistema de "Missão" para itens. Alguns itens, como o **Acumulador de Escudo**, exigem que você sobreviva a um certo número de combates para desbloquear seu potencial total. Sempre priorize completar essas missões cedo em um Ato, quando os inimigos são mais fracos.
+
+<Checklist
+  id="relic-priority"
+  title="Relíquias Obrigatórias para Runs de 2026:"
+  items={[
+    "Ascendência de Veneno para destruição baseada em HP",
+    "Ganância do Assassino para escalonamento de ataque permanente",
+    "Barricada de Linha de Frente para aumentar o tamanho do tanque",
+    "Prisma de Precisão de Fragmentos para atingir o limite de crítico no late-game",
+    "Ampulheta de Retardo para bônus de atributos base"
+  ]}
+/>
+
+<Callout type="info" title="Gerenciamento de Itens">
+Não tenha medo de vender itens de rank baixo como a **Égide** para conseguir um upgrade de Rank alto. Um herói Rank A é quase sempre melhor que um herói Rank C com itens completos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conquistando Chefes de Ato e o Modo Infinito">
+
+A Hidra do Ato 1 e o Dragão de Gelo do Ato 2 são os principais testes de equipamento no **Guildrun AI**. A Hidra requer alto dano em área para lidar com várias cabeças, enquanto o Dragão de Gelo exige posicionamento cuidadoso para evitar seu sopro congelante que atinge heróis adjacentes.
+
+| Chefe | Ameaça Principal | Estratégia de Contra-ataque |
+| :--- | :--- | :--- |
+| **Hidra** | Múltiplos ataques | Altos acúmulos de veneno no corpo principal |
+| **Dragão de Gelo** | Sopro de gelo (AOE) | Espalhe os heróis; use Yuria para provocar |
+| **Mobs Infinitos** | Alto escalonamento de HP | Confie no Prisma de Veneno e dano de % de HP |
+
+Depois de derrotar o Dragão de Gelo, você entra no **Modo Infinito**. Aqui, a dificuldade sobe exponencialmente. A chave para subir no ranking global é o **Prisma de Precisão de Fragmentos**. Ao acumular fragmentos em vez de gastá-los, você pode elevar a chance de crítico do seu herói para mais de 700%, resultando em múltiplos shurikens ou ataques por ação.
+
+<Steps>
+  <Step num="1" title="Preparação para o Chefe">
+    Antes do Dragão de Gelo, garanta que seu Tanque tenha pelo menos 1.500 HP e seu DPS tenha Omni-Vamp.
+  </Step>
+  <Step num="2" title="A Formação Espalhada">
+    Posicione seu tanque de um lado e seu DPS do outro. Nunca agrupe heróis contra dragões.
+  </Step>
+  <Step num="3" title="Escalonamento Infinito">
+    Pare de gastar fragmentos assim que sua equipe principal for Rank S. Deixe os fragmentos acumularem para fortalecer suas relíquias.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Segredo do Infinito">
+Nos estágios avançados do Modo Infinito, os números de dano podem chegar a 1,4 milhão por golpe. Neste ponto, a defesa é menos importante do que a cura "ao atingir" e mecânicas de furtividade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes do Guildrun AI">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio heróis Rank S no Guildrun AI?",
+    answer: "O Rank S é alcançado coletando várias duplicatas do mesmo herói na loja ou usando tokens raros de subida de rank encontrados em fogueiras. O Rank S desbloqueia um terceiro slot de item e uma poderosa passiva de maestria."
+  },
+  {
+    question: "Qual é a melhor maneira de farmar fragmentos?",
+    answer: "Priorize 'Encontros Desafiadores' logo no início. Embora tenham atributos 150% maiores, eles oferecem recompensas de fragmentos significativamente mais altas e relíquias épicas que aceleram sua progressão."
+  },
+  {
+    question: "Posso combinar relíquias duplicadas?",
+    answer: "Atualmente, relíquias duplicadas não se combinam. No entanto, ter duas da mesma relíquia (se permitido pela loja) acumulará seus efeitos, o que é incrivelmente potente para builds de veneno ou crítico."
+  },
+  {
+    question: "Por que meu herói morreu instantaneamente no Modo Infinito?",
+    answer: "No Modo Infinito, os inimigos eventualmente ganham dano suficiente para matar heróis com um único golpe. Você deve confiar em Furtividade (Yuna), Petrificação (Yuria) ou cura massiva (Pollen) para sobreviver além das ondas iniciais."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+O meta do **Guildrun AI** favorece aqueles que conseguem equilibrar uma economia gananciosa com uma build de equipe especializada. Foque na Yuna, domine as mecânicas de veneno e veja seus números de dano subirem aos milhões.
+</Callout>
+
+</Section>

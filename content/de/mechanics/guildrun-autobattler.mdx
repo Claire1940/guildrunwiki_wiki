@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Autobattler: Die besten Helden-Builds & Stall-Strategien",
+  description: "Meistere den Guildrun Autobattler mit unserem Leitfaden zu Heldenklassen, epischen Relikten und der unschlagbaren Stall-Strategie-Meta im Jahr 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Autobattler+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptstrategie**: Der **Guildrun Autobattler** verlässt sich stark auf die Ausführung präziser Klassensynergien, wobei der Fokus insbesondere darauf liegt, den Kampf hinauszuzögern (**Stall**), um späte Kraftspitzen im Kampf auszulösen.
+- **S-Tier-Klasse**: **Tanks** und **Duellanten** bilden den Kern der stärksten Zusammenstellungen und bieten eine ausgewogene Balance zwischen hoher Überlebensfähigkeit und schneller Skalierung der Angriffsgeschwindigkeit.
+- **Schlüsselgegenstand**: Priorisiere den frühen Erhalt des Relikts **Sanduhr** (Hourglass), um deine Stall-Timer zu beschleunigen und deine stärksten Fähigkeiten sofort zu aktivieren.
+- **Goldmanagement**: Spare deine Splitter (Shards), um in Upgrades für die Teamgröße und Shop-Rerolls zu investieren, um dir hochrangige Backup-Helden zu sichern.
+</Callout>
+
+<Section icon={Map} title="Einführung in die Guildrun Autobattler Roguelike-Meta">
+
+Der **Guildrun Autobattler** ist ein hochpoliertes Auto-Chess-Roguelike, das Spieler herausfordert, eine unaufhaltsame Gilde von Helden aufzubauen, Ressourcen zu verwalten und synergetische Relikte auszuwählen. Erfolg in diesem Spiel erfordert ein tiefes Verständnis von Positionierung, Klassenmechaniken und der feinen Balance zwischen sofortiger Stärke und Skalierungspotenzial. Dieser Leitfaden schlüsselt die wesentlichen Systeme auf, um dir zu herlfen, sowohl Standard-Runs als auch den Endlosmodus zu dominieren.
+
+**Video-Highlights:**
+- Die Wahl eines Starthelden wie Pollen bietet sofortige Gift- und Schildvorteile.
+- Die Positionierung von Tanks wie Scorn an der Frontlinie ermöglicht es ihnen, Schaden zu absorbieren und Stall-Effekte auszulösen.
+- Eine effiziente Verwaltung der Splitter (Shards) ist entscheidend für den Kauf hochrangiger Gegenstände und das Freischalten von Teamplätzen.
+- Der Übergang in den Endlosmodus erfordert das Stapeln defensiver Relikte, um gegen Gegner mit hohem Schaden zu überleben.
+
+<YouTubeEmbed videoId="mWzn2y6Is1U" title="Dieses Autobattler-Roguelike ist mein neues Problem | Guildrun" />
+
+Die Gameplay-Schleife dreht sich darum, Helden zu rekrutieren, sie mit mächtigen Gegenständen auszurüsten und sie strategisch auf einem sechseckigen Raster zu positionieren. Wenn Helden angreifen, bauen sie Mana auf, um einzigartige Fähigkeiten einzusetzen, die das Blatt im Kampf wenden können. Das effiziente Navigieren auf der Karte und das Treffen der richtigen Entscheidungen an Lagerfeuern und in Läden bestimmen, wie weit deine Gilde voranschreiten kann.
+
+<Callout type="tip" title="Feinschliff der Demoversion">
+Selbst in der Demo-Phase im Jahr 2026 bietet das Spiel unglaublich tiefgründige Mechaniken, die eine sorgfältige Planung der Zusammenstellung und wirtschaftliche Disziplin belohnen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Grundlegende Gameplay-Mechaniken & Heldenklassen">
+
+Das Verständnis der grundlegenden Werte und Klassenrollen ist für das Überleben im **Guildrun Autobattler** unerlässlich. Helden nutzen drei primäre Ressourcen: Splitter (Gold), Mana und Omnivamp (Lebensentzug bei physischen Angriffen und Zaubern). Die Balance deines Teams zwischen Frontlinien-Beschützern und Schadensverursachern in der hinteren Reihe ist der Schlüssel zur Bewältigung schwieriger Bosse.
+
+Die folgende Tabelle skizziert die primären Klassen-Archetypen und ihren Kernfokus im Kampf:
+
+| Klasse | Kernfokus | Schlüsselmechanik | Synergetische Werte |
+| :--- | :--- | :--- | :--- |
+| **Tank** | Schadensminderung an der Front | Stall-Auslöser, Giftwolken | Rüstung, Verteidigung, Magie |
+| **Duellant** | Physischer DPS mit hoher Geschwindigkeit | Skalierung der Angriffsgeschwindigkeit, Krit | Kritische Trefferchance, Angriffsgeschwindigkeit |
+| **Mystiker** | Unterstützung, Heilung, Nutzen | Manaregeneration, Schilde | Manaregeneration, Magiekraft |
+| **Vorhut** | Offensiver Frontlinien-Hybrid | Rush-Auslöser, Berstschaden | Physischer Angriff, Omnivamp |
+
+Jeder Held bringt eine einzigartige passive oder aktive Fähigkeit auf das Spielfeld. Die Wahl der richtigen Kombination von Helden kann mächtige gildenweite Synergien freischalten.
+
+Die folgende Tabelle vergleicht die effektivsten Helden, die in der aktuellen Meta verfügbar sind:
+
+| Held | Klasse | Rang | Primäre Fähigkeit | Beste Rolle |
+| :--- | :--- | :--- | :--- | :--- |
+| **Scorn** | Tank | B-Rang | Reflektiert Rüstungsschaden & Gift | Solo-Frontlinien-Tank |
+| **Pimenta** | Tank | B-Rang | Erzeugt Giftwolke, heilt über Zeit | Off-Tank / Debuffer |
+| **Irene** | Duellant | B-Rang | Frost- & Brand-Flächenschaden, skaliert mit Magie | Haupt-Magie-Carry |
+| **Raina** | Duellant | C-Rang | Erhält Angriff & Magie beim Wirken | Früher physischer DPS |
+
+<Callout type="warning" title="Omnivamp-Effizienz">
+Omnivamp bietet 10% Lebensentzug sowohl auf Angriffe als auch auf Zauber, was es für hybride Schadensverursacher, die sich sowohl auf physische Schläge als auch auf das Wirken von Fähigkeiten verlassen, außergewöhnlich wertvoll macht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die unaufhaltsame Guildrun Autobattler Stall-Strategie">
+
+Die Stall-Mechanik ist eine der mächtigsten Strategien im **Guildrun Autobattler**. Im Gegensatz zu aggressiven „Rush“-Builds, die versuchen, Gegner schnell zu bezwingen, konzentrieren sich Stall-Builds darauf, die ersten Sekunden des Kampfes zu überleben, um eine massive Skalierung im späten Spielverlauf auszulösen. Stall-Fähigkeiten werden normalerweise nach 10, 15, 20 oder 30 Sekunden eines Kampfes aktiviert und gewähren massive Schilde, Heilung und Giftschaden.
+
+Die folgende Tabelle beschreibt die verschiedenen Phasen der Stall-Mechanik und ihren strategischen Wert im Detail:
+
+| Phase | Benötigte Zeit | Aktive Auslöseeffekte | Strategischer Wert |
+| :--- | :--- | :--- | :--- |
+| **Früher Stall** | 10 Sekunden | Reflektiert Magieschaden basierend auf Rüstung | Übergang zur Überlebensphase |
+| **Mittlerer Stall** | 15 Sekunden | Heilt Helden in Blumenfeldern, erhöht Werte | Kraftspitze für Duellanten |
+| **Später Stall** | 20 Sekunden | Gewährt allen massive Schilde basierend auf maximalen LP | Harter Konter gegen Berstschaden |
+| **End-Stall** | 30 Sekunden | Erzeugt zusätzliche Splitter, massive Gift-Debuffs | Skalierung im Endlosmodus |
+
+Um diese Strategie tragfähig zu machen, müssen Spieler Wege finden, die Zeit zu verkürzen, die zum Auslösen dieser Effekte benötigt wird. Durch das Stapeln bestimmter Relikte und die Nutzung passiver Effekte von Backup-Helden kannst du diese Timer erheblich beschleunigen.
+
+<CardGrid cols={3}>
+  <Card title="Stall-Build">
+    - **Hohe Überlebensfähigkeit**: Konzentriert sich auf Rüstung und Schilde.
+    - **Verzögerte Stärke**: Löst nach 15 Sekunden massiven Schaden aus.
+    - **Relikt-abhängig**: Erfordert Gegenstände zur Timer-Reduzierung.
+  </Card>
+  <Card title="Rush-Build">
+    - **Sofortiger Berstschaden**: Konzentriert sich auf Krit und Angriffsgeschwindigkeit.
+    - **Schnelle Siege**: Zielt darauf ab, Kämpfe in unter 10 Sekunden zu beenden.
+    - **Empfindliche Einheiten**: Anfällig für Gegner mit hoher Rüstung.
+  </Card>
+  <Card title="Hybrid-Build">
+    - **Ausgewogene Werte**: Kombiniert defensive Tanks mit schnellen Duellanten.
+    - **Flexible Taktiken**: Passt sich an verschiedene Boss-Mechaniken an.
+    - **Moderate Investition**: Leichter während Standard-Runs zusammenzustellen.
+  </Card>
+</CardGrid>
+
+Durch die Kombination mehrerer Duellanten im Kampf und die Nutzung von Backup-Effekten von deiner Bank kannst du die Stall-Timer um bis zu 16 Sekunden verkürzen. Dadurch können deine 15-Sekunden-Stall-Fähigkeiten von Beginn des Kampfes an ausgelöst werden, was deinem Team sofort massive Schilde und Giftfelder gewährt.
+
+<Callout type="success" title="Sofortiger Stall-Auslöser">
+Das Stapeln des Sanduhr-Relikts mit den passiven Effekten von Backup-Duellanten kann deine Stall-Timer auf Null reduzieren, wodurch alle Buffs für den späten Kampf genau in dem Moment aktiviert werden, in dem die Runde beginnt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Leitfaden zur Meisterung von Runs">
+
+Der Sieg in einem Standard-Run erfordert eine sorgfältige Planung vom allerersten Knotenpunkt an. Befolge diese Schritte, um deine Heldenrekrutierung, deine Wirtschaft und deine Kampfpositionierung zu optimieren.
+
+<Steps>
+  <Step num="1" title="Wähle deinen Starthelden">
+    Beginne deinen Run, indem du einen Helden mit hohem Nutzen wählst. Helden wie Pollen sind eine hervorragende Wahl, da sie Blumenfelder erschaffen, die Gift auftragen und Schilde basierend auf deiner Magiekraft erzeugen. Dies bietet eine sichere Grundlage für deine Kämpfe im frühen Spiel.
+  </Step>
+  <Step num="2" title="Baue deine Wirtschaft auf">
+    Konzentriere dich darauf, in den ersten drei Kämpfen Splitter (Gold) anzuhäufen. Vermeide es, den Shop frühzeitig neu zuwürfeln (reroll). Suche nach Relikten oder Entscheidungen, die Bonus-Splitter gewähren oder die Kosten für Gegenstände im Shop senken. Eine starke Wirtschaft ermöglicht es dir, später hochrangige Helden zu kaufen.
+  </Step>
+  <Step num="3" title="Stelle deine Kernsynergie zusammen">
+    Sobald du den ersten Boss besiegt hast, wechsle zu deinem gewählten Archetyp. Wenn du defensive Relikte findest, entscheide dich für einen Stall-Build, indem du Tanks wie Scorn und Pimenta rekrutierst. Wenn du Gegenstände für Angriffsgeschwindigkeit findest, wechsle zu einer Duellanten-lastigen Zusammenstellung.
+  </Step>
+  <Step num="4" title="Optimiere die Positionierung auf dem Spielfeld">
+    Positioniere deinen Haupt-Tank auf dem vorderen, mittleren Sechseck, um die gegnerische Aggro auf sich zu ziehen. Platziere deine Schadensverursacher zwei Sechsecke dahinter, um sie vor Flächenangriffen (AoE) zu schützen. Stelle sicher, dass deine Unterstützungseinheiten nah genug sind, um Schilde auf deinen Tank anzuwenden.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mechanik der Backup-Helden">
+Denke daran, dass bestimmte Heldenfähigkeiten von der Backup-Bank aus funktionieren. Das bedeutet, dass du von ihren Werten und passiven Eigenschaften profitieren kannst, ohne sie auf dem aktiven Spielfeld platzieren zu müssen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essenzielle Relikte und Gegenstandssynergien">
+
+Relikte sind das Rückgrat jedes erfolgreichen Runs im **Guildrun Autobattler**. Sie bieten globale passive Boni, die die Leistung deines Teams komplett verändern können. Wenn du eine Stall- oder Duellanten-Zusammenstellung aufbaust, suche nach Relikten, die mit hoher Verteidigung und schneller Angriffsgeschwindigkeit synergieren.
+
+Die folgende Tabelle listet die mächtigsten Relikte für diese Builds und ihre primären Effekte auf:
+
+| Reliktname | Seltenheit | Idealer Träger | Primärer Wert-Boost | Spezialeffekt |
+| :--- | :--- | :--- | :--- | :--- |
+| **Zeus' Blitz** | Episch | Duellant | Angriffsgeschwindigkeit, Angriff | AoE-Schaden basierend auf Geschwindigkeit |
+| **Sanduhr** | Selten | Tank / Unterstützung | Manaregeneration, Abklingzeit | Löst Stall 2 Sek. schneller aus |
+| **Heiligtum der Blüte** | Selten | Mystiker | Magiekraft, Heilung | Verdoppelt Heilung & Schilde |
+| **Giftübertragung** | Selten | Tank / Schurke | Giftschaden | Überträgt Gift bei Tod |
+
+Um sicherzustellen, dass dein Team auf den Endboss und den Endlosmodus vorbereitet ist, versuche, die Meilensteine in der folgenden Checkliste zu erreichen.
+
+<Checklist
+  id="endgame-preparation"
+  title="Endgame-Meilensteine:"
+  items={[
+    "Schalte mindestens 5 aktive Heldenplätze auf deinem Spielfeld frei",
+    "Rüste deinen Haupt-Tank mit einem Schild-Relikt aus, das mit der Verteidigung skaliert",
+    "Sichere dir eine Quelle für Giftübertragung, um mit großen Gegnergruppen fertig zu werden",
+    "Erreiche 150% kritische Trefferchance auf deinem primären Duellanten-Carry",
+    "Staple mindestens zwei Stall-Reduzierungseffekte, um Buffs frühzeitig auszulösen"
+  ]}
+/>
+
+<Callout type="warning" title="Relikt-Nachteile">
+Einige mächtige Relikte erfordern, dass du für einen Kampf einen vorübergehenden Wert-Nachteil in Kauf nimmst. Wähle diese nur, wenn dein Team gesund genug ist, um das Handicap zu überleben.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guildrun Autobattler FAQ">
+
+Dieser Abschnitt beantwortet die am häufigsten gestellten Fragen zu den Kernsystemen und fortgeschrittenen Strategien im Spiel.
+
+<FAQ items={[
+  {
+    question: "Was ist der Hauptvorteil des Guildrun Autobattler Stall-Builds?",
+    answer: "Der Stall-Build ermöglicht es dir, frühen gegnerischen Berstschaden zu überleben und massive Heilungs-, Schild- und Gifteffekte zu aktivieren, sobald der Kampftimer fortschreitet, was mit den richtigen Relikten so beschleunigt werden kann, dass es sofort ausgelöst wird."
+  },
+  {
+    question: "Wie funktioniert das Backup-Bank-System?",
+    answer: "Bestimmte Helden haben passive Fähigkeiten, die als „Backup“-Effekte gekennzeichnet sind. Diese Eigenschaften gelten für deine aktiven Kampfeinheiten, selbst wenn der Quellheld auf deiner Reservebank sitzt, sodass du globale Buffs stapeln kannst."
+  },
+  {
+    question: "Ist es besser, sich auf physischen oder magischen Schaden zu konzentrieren?",
+    answer: "Ein hybrider Ansatz ist am besten. Duellanten skalieren unglaublich gut mit physischer Angriffsgeschwindigkeit, während Mystiker und Tanks Magiekraft nutzen, um ihre Schilde und ihren Giftschaden zu verstärken."
+  },
+  {
+    question: "Wie schalte ich mehr Heldenplätze für mein aktives Spielfeld frei?",
+    answer: "Du kannst deine Teamgröße erhöhen, indem du im Shop Upgrades mit Splittern kaufst oder bestimmte Reliktquests während deines Runs abschließt."
+  }
+]} />
+
+<Callout type="success" title="Meisterung des Endlosmodus">
+Im Endlosmodus skalieren die Gesundheit und der Schaden der Gegner rasant. Konzentriere dich auf Gegenstände zur Umwandlung von Verteidigung in Schaden, um sicherzustellen, dass deine Frontlinie nicht sofort besiegt wird.
+</Callout>
+
+</Section>

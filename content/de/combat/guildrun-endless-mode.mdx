@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guildrun Endlos-Modus: Skalierung hoher Schwierigkeitsgrade & beste Build-Strategien",
+  description: "Meistern Sie den Guildrun Endlos-Modus mit unserem Leitfaden zur Skalierung hoher Schwierigkeitsgrade, Heldenspezialisierungen und den besten Team-Builds für den Erfolg in der Rangliste 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/111a18/d5b65c?text=Endless+Mode+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki-Team",
+  keywords: "Guildrun, Endlos-Modus, Skalierung, Strategie, Build-Leitfaden, Spezialisierungen, Relikte"
+}
+
+<Callout type="info" title="Schnellleitfaden">
+- **Guildrun Endlos-Modus**: Der ultimative Test für Teamsynergie und Ressourcenmanagement jenseits der Standard-Schwierigkeitsgrade.
+- **Kernmechanik**: Unendliche Gegnerskalierung, die optimierte **Spezialisierungspfade** und **Reliktkombinationen** erfordert.
+- **Beste Strategie**: Priorisieren Sie skalierbaren Schaden (Angriffstempo) und zuverlässiges Durchhaltevermögen an der Frontlinie, um den eskalierenden Riss-Druck zu überstehen.
+- **Wichtiger Tipp**: Nutzen Sie die **Respec-Mechanik**, um Ihre Teamzusammensetzung anzupassen, wenn die Lebenspunkte der Gegner astronomische Höhen erreichen.
+- **Top-Wahl**: Helden mit **Lovers**-Geteilte-Effekten oder hochfrequenten Angriffsmustern dominieren oft das Late-Game-Meta.
+</Callout>
+
+<Section icon={Map} title="Den Guildrun Endlos-Modus und die Schwierigkeitsskalierung verstehen">
+
+Der **Guildrun Endlos-Modus** stellt den Höhepunkt der von Leyline entwickelten Roguelike-Autobattler-Erfahrung dar. Während das Standardspiel acht eskalierende Schwierigkeitsstufen bietet, entfernt der Endlos-Modus die Obergrenze und ermöglicht es den Spielern, ihre Builds gegen unendliches Gegnerwachstum zu testen. Erfolg in diesem Modus hängt nicht nur von hochstufigen Helden ab; es geht darum zu verstehen, wie die 75 Spezialisierungspfade und über 300 Relikte des Spiels interagieren, wenn Kämpfe deutlich länger dauern als Standardbegegnungen.
+
+In dieser Umgebung verlieren traditionelle "Burst"-Strategien oft an Wirkung. Stattdessen müssen sich Spieler auf **Multi-Klassen-Kombinationen** und **Geteilte-Effekt-Builds** konzentrieren, die im Laufe der Zeit an Wert gewinnen. Das Ranglisten-Punktesystem belohnt nicht nur die erreichte Distanz, sondern auch die Effizienz des Durchlaufs, wodurch jeder im Shop ausgegebene Splitter zu einer kritischen Entscheidung für Ihr langfristiges Überleben wird.
+
+| Schwierigkeit | Freischaltbedingung | Primäre Herausforderung | Vorbereitungsstrategie |
+| :--- | :--- | :--- | :--- |
+| **Schwierigkeit 1-4** | Initialer Fortschritt | Beherrschung des Basis-Loops | Ausgewogene Teams mit 1 Tank/1 DPS bauen |
+| **Schwierigkeit 5-7** | Vorheriges Level klären | Reduzierte Shop-Effizienz | Fokus auf spezifische Spezialisierungssynergien |
+| **Schwierigkeit 8** | Schwierigkeit 7 klären | Optimierter Boss-Druck | Rang-Upgrades und Reliktwert maximieren |
+| **Endlos-Modus** | Standard-Run abschließen | Unendliche Gegnerskalierung | Skalierbares Sustain und %-Schaden priorisieren |
+
+<Callout type="warning" title="Skalierungswarnung">
+Die Gesundheit und der Schaden der Gegner im Endlos-Modus skalieren exponentiell. Nach den ersten Rissen werden nicht-skalierbare Gegenstände mit flachem Schaden nutzlos. Suchen Sie immer nach Relikten, die prozentuale Buffs oder Effekte bieten, die durch die Angriffsfrequenz ausgelöst werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Team-Builds für Endlos-Runs auf hohem Schwierigkeitsgrad">
+
+Um dem eskalierenden Druck des **Guildrun Endlos-Modus** standzuhalten, muss Ihr Team von einer "Überlebe die Runde"-Mentalität zu einer "Skaliere den Kampf"-Mentalität übergehen. Das aktuelle Meta bevorzugt Zusammensetzungen, die die **Lovers**-Mechanik nutzen oder eine Single-Carry-Skalierung, die durch massiven Frontlinien-Nutzen geschützt wird. Mit 25 verfügbaren Helden sind die Kombinationen vielfältig, aber die beständigsten Ergebnisse erzielen diese drei Archetypen.
+
+<CardGrid cols={3}>
+  <Card title="Lovers Geteilter-Effekt">
+    - **Kern**: Zwei verknüpfte Helden
+    - **Fokus**: Synchronisierte Skalierung
+    - **Stärke**: Hohe Überlebensfähigkeit
+    - **Endlos-Wert**: Doppelte Bedrohungs-Skalierung
+  </Card>
+  <Card title="Einzel-Carry Hyper">
+    - **Kern**: Ein S-Tier DPS
+    - **Fokus**: Schutz des Carrys
+    - **Stärke**: Maximaler DPS-Ausstoß
+    - **Endless-Wert**: Konzentrierte Ressourcen
+  </Card>
+  <Card title="Doppel-Frontline-Wall">
+    - **Kern**: Zwei robuste Tanks
+    - **Fokus**: Zermürbung und Kontrolle
+    - **Stärke**: Kampfverlängerung
+    - **Endless-Wert**: Sicherster Fortschritt
+  </Card>
+</CardGrid>
+
+Denken Sie beim Aufbau dieser Teams daran, dass die Positionierung dynamisch ist. Sie müssen Ihre Formation basierend auf den spezifischen Riss-Modifikatoren anpassen. Eine Frontlinie, die in Riss 10 funktioniert, könnte in Riss 20 von Assassinen umgangen werden.
+
+| Build-Typ | Schlüsselhelden | Essenzielles Relikt | Beste Spezialisierung |
+| :--- | :--- | :--- | :--- |
+| **Lovers-Build** | Support/DPS-Paare | Geteilte-Effekt-Booster | Multiklassen-Synergie |
+| **Hyper-Carry** | Fernkampfspezialisten | Angriffstempo-Skalierung | Fokussierter Schadensrang |
+| **Kontroll-Wall** | Tanks/Heiler | Universelles Überleben | Defensiver Schutz |
+
+<Callout type="success" title="Synergie-Tipp">
+Die stärksten Gruppen im Endlos-Modus nutzen komplementäre Spezialisierungen. Anstatt jeden Helden auf Schaden aufzurüsten, stellen Sie sicher, dass Ihr Tank die Spezialisierung 'Schadensreduzierung' hat, während Ihr Heiler sich auf 'Heilungsfrequenz' konzentriert, um den schnellen Gegnerangriffen standzuhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Vorbereitung für den Endlos-Fortschritt">
+
+Den **Guildrun Endlos-Modus** ohne Plan zu betreten, ist ein Rezept für ein schnelles Ende. Spieler sollten die ersten Risse als "Aufbauphase" betrachten, in der das Ziel darin besteht, ein wirtschaftliches und ausrüstungstechnisches Fundament zu schaffen, das das Team unterstützen kann, sobald die Schwierigkeit sprunghaft ansteigt. Folgen Sie diesen Schritten, um Ihr Run-Potenzial zu maximieren.
+
+<Steps>
+  <Step num="1" title="Wirtschaftliches Fundament">
+    Priorisieren Sie in den ersten 5 Rissen **Frühe Wirtschafts-Relikte**. Diese ermöglichen zusätzliche Shop-Rerolls und günstigere Rekrutierungen, die essenziell sind, um genau die 180 Spezialisierungen zu finden, die für Ihren finalen Build benötigt werden.
+  </Step>
+  <Step num="2" title="Rollenstabilisierung">
+    Etablieren Sie einen "Stabiler Dreier"-Kern: einen primären Tank, einen primären Carry und einen Support. Verteilen Sie Ihre Rang-Upgrades nicht zu dünn; ein einzelner S-Rang-Held ist in frühen Endlos-Phasen oft wertvoller als drei C-Rang-Helden.
+  </Step>
+  <Step num="3" title="Spezialisierungs-Wechsel">
+    Bewerten Sie um das Mid-Game herum Ihre Shop-Angebote. Wenn das Spiel hochstufige **Fernkampf**- oder **Duellant**-Gegenstände bietet, nutzen Sie die **Respec**-Mechanik, um die Spezialisierungspfade Ihrer Helden an Ihre beste Ausrüstung anzupassen.
+  </Step>
+  <Step num="4" title="Endlos-Optimierung">
+    Sobald Ihr Kern-Build steht, konzentrieren Sie sich vollständig auf **Skalierbare Klassenboni**. Suchen Sie nach Relikten, die wiederholte Angriffe oder lange Kampfdauer belohnen, da Kämpfe im weiteren Verlauf natürlich länger dauern werden.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Reserveeinheiten">
+Ignorieren Sie Ihre Reserveplätze nicht. Im Endlos-Modus kann ein spezialisierter "Boss-Killer" oder "Crowd Control"-Held in der Reserve einen Run retten, wenn Sie auf einen spezifischen Gegnertyp treffen, der Ihre aktive Hauptformation kontert.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gegenstände und Relikte: Die Endlos-Modus Tier List">
+
+Die Ausrüstung in Guildrun ist in über 100 Gegenstände und 300+ Relikte unterteilt. Im **Guildrun Endlos-Modus** wird der Wert eines Gegenstands durch sein Skalierungspotenzial bestimmt und nicht durch seinen unmittelbaren Stat-Boost. Universelles Überleben und Angriffstempo-Skalierung sind die unangefochtenen Könige des Langzeit-Metas.
+
+| Tier | Kategorie | Warum es im Endlos-Modus glänzt | Empfohlen mit |
+| :--- | :--- | :--- | :--- |
+| **S** | **Angriffstempo-Effekte** | Aktiviert On-Hit-Procs schneller | Fernkämpfer, Duellanten |
+| **S** | **Wirtschafts-Relikte** | Kumuliert Ressourcen über Zeit | Erwerb im Early-Game |
+| **S** | **Universelles Überleben** | Verhindert One-Shot-Tode | Frontlinien-Anker |
+| **A** | **Klassen-Skalierungs-Relikte** | Bufft die gesamte Teamrolle | Multiklassen-Builds |
+| **A** | **Heilungsverstärker** | Essenziell für Zermürbungskämpfe | Dedizierte Heiler |
+| **B** | **Flache Stat-Gegenstände** | Gut am Anfang, fällt später ab | Temporäre Rekruten |
+
+<Callout type="tip" title="Pro-Ausrüstungstipp">
+Gegenstände, die **Schadensreduzierung** gewähren, sind im Endlos-Modus deutlich wertvoller als solche, die rohe **Lebenspunkte** liefern. Wenn der Gegnerschaden Tausende erreicht, ist die prozentuale Reduzierung dieses Schadens der einzige Weg, um Ihre Frontlinie am Leben zu halten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endlos-Modus Ziele und Ranglisten-Meilensteine">
+
+Das Ziel des **Guildrun Endlos-Modus** ist Überleben und eine hohe Punktzahl. Um die Ranglisten von 2026 zu erklimmen, müssen Sie spezifische Meilensteine erreichen, die die Lebensfähigkeit Ihres Builds gegen die schwierigsten Modifikatoren beweisen, die das Spiel generieren kann.
+
+<Checklist
+  id="endless-milestones"
+  title="Endlos-Modus Erfolgs-Checkliste:"
+  items={[
+    "Erreiche Riss 50 auf Schwierigkeitsgrad 8",
+    "Schalte mindestens 3 S-Rang-Spezialisierungen frei",
+    "Erwirb ein komplettes Set von S-Tier Skalierungs-Relikten",
+    "Behalte eine 100%ige Siegquote in den ersten 20 Rissen bei",
+    "Wechsle erfolgreich einen Build mit der Respec-Mechanik"
+  ]}
+/>
+
+| Meilenstein | Belohnung/Auswirkung | Schwierigkeitsgrad |
+| :--- | :--- | :--- |
+| **Riss 20** | Ranglisteneintrag | Moderat |
+| **Riss 50** | Elite-Punktzahl-Tier | Hoch |
+| **Riss 100+** | Meisterstratege-Rang | Extrem |
+
+<Callout type="warning" title="Respec-Strategie">
+Scheuen Sie sich nicht vor dem Respec. Wenn Sie Riss 40 erreichen und feststellen, dass Ihre Heilung nicht ausreicht, kann das Opfern eines kleinen Teils Ihres Schadens für einen Wechsel zu einem Hybrid-Heiler/Support-Pfad Ihren Run um Dutzende Risse verlängern.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich den Guildrun Endlos-Modus frei?",
+    answer: "Der Endlos-Modus wird nach dem erfolgreichen Abschluss eines Standard-Runs auf einem beliebigen Schwierigkeitsgrad freigeschaltet. Es wird jedoch dringend empfohlen, zuerst auf Schwierigkeitsgrad 8 zu üben, um die High-Level-Gegnermechaniken zu verstehen."
+  },
+  {
+    question: "Welcher Held ist am besten für einen tiefen Endlos-Run?",
+    answer: "Es gibt keinen einzelnen 'besten' Helden, aber solche mit flexiblen Spezialisierungspfaden wie Hybrid- oder Duellanten-Rollen tendieren dazu, besser abzuschneiden, da sie sich an die zufälligen Gegenstände und Relikte anpassen können, die während des Runs angeboten werden."
+  },
+  {
+    question: "Enthält die Guildrun-Demo den Endlos-Modus?",
+    answer: "Ja, die aktuelle Steam-Demo ermöglicht es den Spielern, den Kern-Loop aus Rekrutierung und Kampf zu erleben, einschließlich einer Einführungsversion des Schwierigkeitsskalierungssystems, das in den Endlos-Modus führt."
+  },
+  {
+    question: "Was ist der wichtigste Stat für das Überleben im Late-Game?",
+    answer: "Schadensreduzierung und Heilungsfrequenz sind die kritischsten Stats. Im Endlos-Modus werden die Gegner schließlich mehr Schaden verursachen, als Ihre maximalen Lebenspunkte betragen, daher müssen Sie diesen Schaden reduzieren und ihn sofort wieder gegenheilen."
+  }
+]} />
+
+</Section>

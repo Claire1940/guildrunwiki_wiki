@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Composições de Time em Guildrun: Melhores Sinergias de Heróis e Guia de Estratégia",
+  description: "Domine o meta com as melhores composições de time em Guildrun. Aprenda a combinar Guerreiros, Duelistas e Assassinos para sinergia máxima e sucesso no endgame.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Team+Comps+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Construir **composições de time em guildrun** eficazes exige equilibrar os combatentes ativos com unidades de reserva estratégicas.
+- **Mecânica principal**: As sinergias são determinadas pelas classes de heróis e por palavras-chave temporais como **Rush** e **Stall**.
+- **Melhor estratégia**: Foque em um único herói carregador (carry), como Logan ou Irani, e construa todo o seu conjunto de relíquias e itens em torno do escalonamento dele.
+- **Dica crítica**: As reservas de mana em Guildrun são únicas; barras menores ou maior regeneração de mana resultam em conjurações de habilidades mais frequentes.
+- **Melhor escolha**: A composição **Reset do Carrasco (Executioner Reset)** é atualmente a mais confiável para passar do Ato 2 e entrar no modo infinito.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais da Criação de Times em Guildrun">
+
+Compreender como construir **composições de time em guildrun** começa com o layout fundamental do tabuleiro e a categorização dos heróis. Ao contrário dos auto-battlers tradicionais, este jogo funciona como um roguelike onde cada decisão na loja afeta diretamente a sua sobrevivência no próximo confronto. Os heróis são divididos em tiers que variam de C a S, com cada melhoria de tier fornecendo aumentos significativos de atributos e novas habilidades passivas ou ativas.
+
+**Destaques do Vídeo:**
+- **Jogabilidade Híbrida**: Guildrun mistura o posicionamento estratégico de tabuleiro de Teamfight Tactics com a progressão roguelike de Slay the Spire.
+- **Sistema de Iconografia**: As cartas de personagem exibem ícones específicos (Crítico, Magia, Velocidade de Ataque) que indicam quais atributos escalam suas habilidades únicas.
+- **Banco de Reserva**: Você pode manter até três heróis na reserva; alguns heróis possuem habilidades de \"Suporte\" (Backup) que são ativadas mesmo quando eles não estão no campo.
+- **Gestão Econômica**: Fragmentos (Shards) são a principal moeda usada para recrutar, subir de nível e comprar relíquias que mudam o rumo do jogo.
+
+<YouTubeEmbed videoId="2vEHwKPfpic" title="Pare TUDO e Jogue Isso! | Guildrun" />
+
+<Callout type="tip" title="Estratégia de Posicionamento">
+Sempre verifique o alcance de ataque dos seus heróis. Personagens de curto alcance (corpo a corpo) como Yuna ou Logan devem ser colocados na linha de frente, enquanto personagens de longo alcance como Urania ou Nyx devem ser protegidos na linha de trás para maximizar seu tempo de atividade.
+</Callout>
+
+| Mecânica | Duração | Efeito |
+| :--- | :--- | :--- |
+| **Rush** | Primeiros 12 segundos | Fornece bônus (buffs) ou penalidades (debuffs) imediatos no início do combate. |
+| **Stall** | Após X segundos | Ativa efeitos poderosos apenas depois que uma quantidade específica de tempo se passou. |
+| **Regeneração de Mana** | Constante | Preenche a barra de mana; as habilidades são conjuradas automaticamente assim que a barra estiver cheia. |
+| **Armadura/Defesa** | Constante | Reduz o dano recebido; crucial para unidades de linha de frente \"Vanguarda\" (Vanguard). |
+
+</Section>
+
+<Section icon={Swords} title="Sinergias e Composições de Alto Nível">
+
+As **composições de time em guildrun** mais bem-sucedidas no meta atual de 2026 giram em torno de sinergias de hipercarregadores (hyper-carries). Ao identificar um herói com alto potencial de escalonamento, você pode investir seus fragmentos em relíquias específicas que amplificam suas forças naturais.
+
+<CardGrid cols={3}>
+  <Card title="O Reset do Carrasco">
+    - **Herói Central**: Logan (Guerreiro)
+    - **Habilidade Chave**: Execução (reseta a mana ao eliminar)
+    - **Sinergia**: Ataque Alto e Omnivamp
+  </Card>
+  <Card title="Duelista do Trovão">
+    - **Herói Central**: Irani (Duelista)
+    - **Habilidade Chave**: Trovão de Zeus (dano em área - AOE)
+    - **Sinergia**: Escalonamento massivo de Velocidade de Ataque
+  </Card>
+  <Card title="Assassino das Sombras">
+    - **Herói Central**: Yuna (Assassina)
+    - **Habilidade Chave**: Golpe das Sombras (explosão baseada em Crítico)
+    - **Sinergia**: Furtividade e Dano Crítico
+  </Card>
+</CardGrid>
+
+A build de \"Carrasco\" depende da capacidade de Logan de encadear eliminações. Ao equipar relíquias que fornecem mana ao eliminar, Logan pode conjurar sua habilidade suprema repetidamente, limpando efetivamente o tabuleiro antes que o inimigo possa reagir. Alternativamente, a build de Duelista foca na missão \"Trovão de Zeus\", que converte alta velocidade de ataque em dano de raio que limpa a tela.
+
+<Callout type="success" title="Bônus de Sinergia">
+Se você utilizar vários heróis da mesma classe, como dois Duelistas, certas relíquias como o \"Motor de Momento do Duelista\" (Duelist Momentum Engine) serão ativadas com o dobro de frequência, proporcionando um aumento massivo no DPS total do seu time.
+</Callout>
+
+| Herói | Classe | Escalonamento Principal | Função |
+| :--- | :--- | :--- | :--- |
+| **Logan** | Guerreiro | Ataque / Vida | Lutador / Carregador de Reset |
+| **Irani** | Duelista | Velocidade de Ataque | DPS Sustentado / AOE |
+| **Yuna** | Assassina | Chance de Crítico | Explosão de Alvo Único |
+| **Nyx** | Duelista | Velocidade de Ataque / Queimadura | Penalidade (Debuff) / DPS |
+| **Urania** | Duelista | Velocidade de Ataque | Suporte de Longo Alcance |
+
+</Section>
+
+<Section icon={Target} title="Classes de Heróis e Escalonamento de Atributos">
+
+Cada herói em suas **composições de time em guildrun** tem uma classe específica que dita seu crescimento. Compreender essas classes é vital para escolher os itens certos na loja. Por exemplo, um Guerreiro ganha vida e ataque ao subir de nível, enquanto um Duelista se concentra em vida e velocidade de ataque.
+
+A iconografia no lado esquerdo de uma carta de herói não é apenas decorativa. Se você vir um ícone roxo ao lado de um número de dano, essa habilidade escala com Magia. Se vir um ícone de Shuriken vermelho, ela escala com Crítico.
+
+<Callout type="warning" title="Armadilha da Reserva de Mana">
+Não assuma que uma reserva de mana maior é melhor. Em Guildrun, um herói com uma reserva de 30 de mana conjurará sua habilidade com muito mais frequência do que um herói com uma reserva de 80 de mana, assumindo a mesma regeneração de mana.
+</Callout>
+
+| Classe | Forças Básicas | Escalonamento Típico | Melhor Posição |
+| :--- | :--- | :--- | :--- |
+| **Guerreiro** | Vida Alta, Escudos | Ataque, Defesa | Linha de Frente |
+| **Duelista** | Velocidade de Ataque, Golpes Múltiplos | Velocidade de Ataque, Magia | Meio/Atrás |
+| **Assassino** | Explosão, Furtividade | Crítico, Dano Crítico | Flanco/Atrás |
+| **Mago** | AOE, Feitiços | Magia, Reg. de Mana | Linha de Trás |
+| **Vanguarda** | Tanque Puro | Vida, Armadura | Linha de Frente |
+| **Místico** | Cura, Escudos | Magia, Reg. de Mana | Reserva/Atrás |
+
+</Section>
+
+<Section icon={Sparkles} title="Construção do Time Passo a Passo">
+
+Construir um time competitivo é um processo de iteração. Você não pode simplesmente escolher seu time final no Ato 1; você deve se adaptar aos heróis e relíquias oferecidos na loja.
+
+<Steps>
+  <Step num="1" title="Selecione seu Inicial">
+    Escolha um herói que se adapte ao seu estilo de jogo preferido. Yuna é ótima para explosão de dano inicial, enquanto Logan oferece mais sustentabilidade através de escudos.
+  </Step>
+  <Step num="2" title="Identifique seu Carregador (Carry)">
+    Até o final do Ato 1, decida qual herói receberá seus melhores itens. Este herói deve ser aquele que você subirá para o tier A ou S primeiro.
+  </Step>
+  <Step num="3" title="Cace Relíquias Chave">
+    Visite a Casa de Leilões (Auction House) após o primeiro chefe de Ato. Procure por \"Cristais de Harmonia\" (Harmony Crystals) para aumentar o tamanho do seu time ou estandartes específicos de classe, como o \"Estandarte de Toxina do Duelista\" (Duelist Toxin Banner).
+  </Step>
+  <Step num="4" title="Otimize a Reserva">
+    Recrute heróis com habilidades passivas de suporte (backup). Um Místico na reserva pode fornecer cura para o seu grupo ativo sem ocupar uma vaga de combate.
+  </Step>
+  <Step num="5" title="Finalize as Sinergias">
+    Antes de entrar no Modo Infinito, certifique-se de que seu carregador atingiu o limite do seu atributo principal (como 100% de Crítico) para ativar efeitos secundários, como o escalonamento de Dano Crítico.
+  </Step>
+</Steps>
+
+<Callout type="info" title="A Casa de Leilões">
+A Casa de Leilões é uma loja especial que aparece após os chefes de Ato. Ela contém relíquias de tier mais alto e os essenciais Cristais de Harmonia necessários para expandir o tamanho do seu time ativo de 3 para 5 heróis.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência no Endgame e Modo Infinito">
+
+Assim que derrotar o chefe do Ato 2, você entrará no Modo Infinito. Aqui, a dificuldade escala infinitamente, e suas **composições de time em guildrun** serão levadas ao limite absoluto. A sobrevivência neste modo exige mais do que apenas dano; você precisa de camadas defensivas como roubo de vida (Omnivamp) e controle de grupo (Atordoamentos/Congelamento).
+
+<Checklist
+  id="endgame-prep"
+  title="Lista de Verificação do Endgame:"
+  items={[
+    "Alcançar o tamanho máximo do time (5 vagas ativas)",
+    "Equipar pelo menos um carregador de tier S com itens completos",
+    "Garantir uma fonte de cura (Omnivamp ou suporte Místico)",
+    "Aplicar pelo menos dois tipos de penalidades (Queimadura, Veneno ou Congelamento)",
+    "Obter uma relíquia defensiva para o seu tanque da linha de frente"
+  ]}
+/>
+
+<Callout type="success" title="Importância do Omnivamp">
+O Omnivamp (Vampirismo Global) é o atributo mais valioso do endgame porque cura seus heróis com base no dano físico e mágico causado, garantindo que seus causadores de dano frágeis (glass cannons) permaneçam vivos.
+</Callout>
+
+| Camada de Sobrevivência | Fonte | Efeito |
+| :--- | :--- | :--- |
+| **Furtividade** | Passivas de Assassino | Impede temporariamente que os inimigos mirem no herói. |
+| **Escudos** | Habilidades de Guerreiro | Fornece um escudo de vida temporário que absorve dano. |
+| **Congelamento** | Relíquias de Gelo | Reduz significativamente a velocidade de ataque e a defesa dos inimigos. |
+| **Atordoamentos** | Missão do Carrasco | Desabilita completamente os inimigos por uma curta duração. |
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para aumentar o tamanho do meu time em Guildrun?",
+    answer: "Você deve comprar Cristais de Harmonia ou completar missões específicas de tamanho de time encontradas na Casa de Leilões após derrotar os chefes de Ato. Isso permite expandir de 3 para 5 heróis ativos."
+  },
+  {
+    question: "Quais são as melhores composições de time em Guildrun para iniciantes?",
+    answer: "O híbrido de Guerreiro e Duelista é o mais amigável para iniciantes. Os Guerreiros fornecem uma linha de frente resistente com escudos, enquanto os Duelistas causam dano consistente através de alta velocidade de ataque."
+  },
+  {
+    question: "Posso mudar a habilidade de um herói depois de escolhê-la?",
+    answer: "Sim, você pode usar os acampamentos (Campfire) encontrados entre as batalhas principais para 'Treinar Novamente' uma habilidade. Isso é útil para mudar sua estratégia se encontrar uma relíquia lendária que não se encaixa na sua build atual."
+  },
+  {
+    question: "Qual é a diferença entre Rush e Stall?",
+    answer: "Efeitos de Rush (Ímpeto) acontecem imediatamente nos primeiros 12 segundos de uma luta. Efeitos de Stall (Prolongar) só são ativados após um determinado período de tempo (ex: 15 segundos), mas geralmente duram pelo resto da batalha."
+  }
+]} />
+
+<Callout type="info" title="Veredito Final">
+Dominar as **composições de time em guildrun** consiste em entender a sinergia entre as palavras-chave temporais dos seus heróis e as relíquias que você coleta. Sempre priorize sua economia no início do jogo para garantir que possa pagar pelas melhorias de tier S e pelos Cristais de Harmonia necessários para uma longa jornada no Modo Infinito.
+</Callout>
+
+</Section>

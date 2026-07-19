@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Chefe Guildrun: Táticas para a Sentinela Omega Plexus",
+  description: "Domine a Sentinela Omega Plexus em Guildrun. Aprenda transições de fase, posicionamento de tanque e estratégias de blink na parede da morte.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Omega+Plexus+Sentinel+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco do guia de chefe Guildrun**: Derrotar a Sentinela Omega Plexus exige posicionamento rígido e tempos de reação rápidos.
+- **Poças de atordoamento** devem ser colocadas nas bordas da sala para manter o centro limpo.
+- **Salva Erradicadora** exige que toda a raide se agrupe no corpo a corpo (melee) durante a dificuldade normal.
+- **Fase da Parede da Morte** exige o uso do Botão de Ação Extra para dar um blink através da barreira de laser com segurança.
+- **Mecânicas de troca de tanque** exigem correr para longe da raide para minimizar o dano de dispersão.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Chefe e Mecânicas Principais">
+
+A Sentinela Omega Plexus serve como um grande teste de coordenação para grupos de raide. Derrotar este chefe requer movimento disciplinado, consciência espacial precisa e reações rápidas às transições de fase. O encontro ocorre em uma grande câmara circular onde o posicionamento determina o sucesso. Gerenciar o espaço do chão é o desafio principal, já que várias mecânicas deixam perigos persistentes que limitam o movimento.
+
+O encontro alterna entre duas fases distintas baseadas no nível de energia do chefe. Entender os pontos de transição permite que os líderes de raide coordenem habilidades de movimento e cooldowns defensivos nos momentos corretos.
+
+| Fase | Gatilho de Energia | Objetivo Principal | Nível de Perigo |
+| :--- | :--- | :--- | :--- |
+| Fase 1 | 0 a 99 de Energia | Gerenciar debuffs e agrupar para dano em grupo | Moderado |
+| Transição | 100 de Energia | Navegar por perigos e quebrar o escudo do chefe | Alto |
+| Fase 2 | Pós-Escudo | Interromper o chefe e repetir mecânicas da Fase 1 | Moderado |
+
+Durante a Fase 1, a raide deve lidar com marcadores de alvos individuais, mecânicas de divisão de dano em grupo e busters específicos para tanques. Quando o chefe atinge 100 de energia, o encontro muda para uma fase de transição de alta intensidade onde os jogadores são empurrados para longe e devem lutar para voltar.
+
+<Callout type="info" title="Chave de Posicionamento">
+Manter o centro da sala livre de perigos é crítico. Se os jogadores deixarem poças de atordoamento no meio, a fase de transição torna-se significativamente mais difícil de navegar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas e Posicionamento da Fase 1">
+
+A Fase 1 exige que a raide mantenha uma formação fechada enquanto lida com mecânicas de alvos individuais. O objetivo principal é maximizar a saída de dano mantendo o chão da arena limpo.
+
+<CardGrid cols={3}>
+  <Card title="Manifestar Matrizes">
+    - **Jogadores marcados** devem correr para as bordas externas da sala.
+    - Largar este debuff cria uma poça de atordoamento persistente.
+    - Retornar a estas poças causa dano pesado e atordoa o jogador.
+  </Card>
+  <Card title="Salva Erradicadora">
+    - Mecânica de **divisão de dano (soak)** em toda a raide que causa dano dividido.
+    - Todos os jogadores devem se agrupar firmemente no alcance corpo a corpo.
+    - Espalhe-se imediatamente após o registro do dano no modo Heroico.
+  </Card>
+  <Card title="Explosão de Esterilização">
+    - **Mecânica de tanque** que causa dano físico pesado.
+    - O tanque ativo deve correr para longe do grupo.
+    - O dano de dispersão diminui com base na distância do alvo.
+  </Card>
+</CardGrid>
+
+A mecânica de tanque requer uma rotação de troca confiável. O tanque ativo marcado pela Esterilização deve se mover para a zona de segurança designada, enquanto o off-tank provoca (taunt) o chefe para manter sua posição.
+
+| Nome da Habilidade | Alvo | Mecânicas e Contra-medidas |
+| :--- | :--- | :--- |
+| Manifestar Matrizes | Jogadores Aleatórios | Deixa poças de stun. Corra para as bordas da sala imediatamente. |
+| Salva Erradicadora | Grupo da Raide | Divisão de dano. Agrupar no melee (Normal) ou espalhar (Heroico). |
+| Esterilização | Tanque Ativo | Tank buster. Corra para fora para minimizar o dano de dispersão na raide. |
+
+Jogadores de corpo a corpo e à distância devem permanecer agrupados atrás do chefe para consolidar o dano da Salva Erradicadora. Apenas os jogadores marcados por Manifestar Matrizes devem sair do grupo, movendo-se para fora em linha reta para depositar suas poças.
+
+<Callout type="warning" title="Posicionamento de Poças">
+Não solte poças de atordoamento perto da entrada ou do caminho direto de volta ao chefe. Estas áreas devem permanecer limpas para a fase de transição.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Transição da Fase 2 e Sobrevivência na Parede da Morte">
+
+Ao atingir 100 de energia, a Sentinela inicia o Expurgo de Protocolo. Esta ação empurra toda a raide de volta para a entrada da câmara. O chefe então canaliza um escudo massivo que deve ser quebrado para interromper a sequência de expurgo.
+
+<Steps>
+  <Step num="1" title="Aguarde o Expurgo de Protocolo">
+    Deixe o empurrão inicial terminar. Não use habilidades de movimento durante o empurrão, pois elas serão desperdiçadas contra a força do vento.
+  </Step>
+  <Step num="2" title="Navegue pelos Perigos">
+    Corra de volta em direção ao chefe enquanto desvia de fios, armadilhas de solo e bolhas de repulsão móveis. Evite quaisquer poças de stun deixadas durante a Fase 1.
+  </Step>
+  <Step num="3" title="Blink na Parede da Morte">
+    Conforme a barreira de laser vermelha se aproxima, use o Botão de Ação Extra para dar um blink através da parede. O tempo é crítico para evitar morte instantânea.
+  </Step>
+  <Step num="4" title="Quebre o Escudo">
+    Agrupe-se dentro do hitbox do chefe para minimizar a exposição a lasers residuais. Use cooldowns de alto dano para quebrar o escudo e interromper a canalização.
+  </Step>
+</Steps>
+
+O Botão de Ação Extra torna-se ativo apenas durante esta transição. Usá-lo muito cedo ou muito tarde resultará em jogadores atingindo a parede de laser, o que tipicamente resulta em uma derrota (wipe).
+
+<Callout type="success" title="Tempo do Blink">
+Espere até que a Parede da Morte esteja a aproximadamente cinco metros de distância antes de pressionar o Botão de Ação Extra. Dar o blink cedo demais deixará você antes da barreira, fazendo você correr diretamente para ela.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ajustes e Preparação para o Modo Heroico">
+
+A dificuldade Heroica introduz requisitos de execução mais rigorosos e modifica como a raide lida com mecânicas-chave. A mudança mais significativa afeta a coordenação da Salva Erradicadora.
+
+| Mecânica | Modo Normal | Modo Heroico |
+| :--- | :--- | :--- |
+| Salva Erradicadora | Grupo agrupa no melee para dividir o dano | Grupo deve se separar para evitar dano de dispersão sobreposto |
+| Fios (Tripwires) | Dano baixo, breve efeito de lentidão | Dano fatal ou atordoamento de longa duração ao contato |
+| Barreiras de Laser | Movimento lento, fácil de navegar | Velocidade de movimento mais rápida com espaços mais apertados |
+
+A preparação da raide é essencial antes de iniciar o chefe. Garantir que cada jogador entenda suas atribuições de posicionamento evita o caos durante as fases de transição.
+
+<Checklist
+  id="pre-pull-checklist"
+  title="Checklist de Preparação da Raide"
+  items={[
+    "Equipar frascos de atributos e buffs de comida apropriados.",
+    "Atribuir marcadores de raide específicos para as bordas esquerda e direita.",
+    "Configurar um portal de Bruxo (Warlock) apontando para a plataforma do chefe.",
+    "Verificar se todos os jogadores têm o Botão de Ação Extra configurado."
+  ]}
+/>
+
+Posicionar um portal de Bruxo pode ajudar jogadores que não possuem ferramentas nativas de mobilidade. No entanto, os jogadores ainda devem navegar manualmente pelos fios e usar sua ação de blink no momento correto.
+
+<Callout type="tip" title="Posicionamento do Portal">
+Coloque o portal de entrada perto da parede de entrada e o portal de saída logo antes da primeira linha de fios. Isso permite que classes de movimento lento ignorem o percurso de obstáculos inicial com segurança.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é o foco principal do guia de chefe Guildrun para a Sentinela Omega Plexus?",
+    answer: "O foco principal é gerenciar o espaço da arena colocando poças de stun nas bordas e executar o blink do Botão de Ação Extra durante a fase de transição."
+  },
+  {
+    question: "Quando devo usar minhas habilidades de movimento durante a fase de empurrão?",
+    answer: "Espere até que o chefe termine de conjurar o Expurgo de Protocolo. Usar habilidades de movimento cedo demais irá desperdiçá-las devido ao efeito de empurrão contínuo."
+  },
+  {
+    question: "Como a Salva Erradicadora muda na dificuldade Heroica?",
+    answer: "Na dificuldade Heroica, os jogadores devem se separar e se espalhar em vez de se agrupar no corpo a corpo, para evitar danos de dispersão sobrepostos."
+  },
+  {
+    question: "O que acontece se eu falhar em dar o blink através da Parede da Morte?",
+    answer: "Falhar em dar o blink através da Parede da Morte resultará em morte instantânea ou dano extremo que causará a derrota do grupo."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Pratique o tempo do blink durante suas primeiras tentativas. Assim que o grupo de raide dominar a fase de transição, o chefe torna-se um teste simples de DPS.
+</Callout>
+
+</Section>

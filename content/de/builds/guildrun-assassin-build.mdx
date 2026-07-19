@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Assassinen-Build: Stealth-Krit & Gift-Carry-Setup",
+  description: "Meistern Sie den schadensintensiven Guildrun Assassinen-Build. Erfahren Sie, wie Sie Nyx und Yuna mit Stealth, Gift-Relikten und hoher Skalierung der kritischen Treffer optimieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Assassin+Build",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team",
+  keywords: "Guildrun, Assassinen-Build, Nyx, Yuna, Stealth, Gift, Leitfaden"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Primärer Build**: Konzentriert sich auf eine hohe kritische Trefferchance, Stealth-Uptime und schnelle Gift-Anwendung.
+- **Haupt-Carry**: Nyx fungiert als primärer Dealer und nutzt eine Exekutionsmechanik bei niedrigen HP.
+- **Essentielles Relikt**: Der Assassin's Ambush Engine bietet einen massiven Schadensboost gegen vergiftete Ziele.
+- **Frontline-Unterstützung**: Draamir dient als Hybrid-Vanguard, um Schaden zu absorbieren und Debuffs zu verteilen.
+- **Ökonomie-Strategie**: Sparen Sie frühzeitig Scherben, um im Auktionshaus nach dem Boss auf S-Rang-Upgrades zu rollen.
+</Callout>
+
+<Section icon={Map} title="Meisterung des Guildrun Assassinen-Builds: Kernmechaniken">
+
+Der **Guildrun Assassinen-Build** basiert auf einem risikoreichen, aber lohnenden Spielstil, der Burst-Schaden, Skalierung kritischer Treffer und Stealth-Mechaniken zur Gegnerumgehung priorisiert. Durch den Einsatz schnell schlagender Helden, die in die gegnerische Backline schlüpfen können, umgeht dieses Setup schwer gepanzerte Frontline-Tanks, um zuerst die gefährlichsten Schadensverursacher auszuschalten.
+
+Um die Effektivität dieser Komposition zu maximieren, müssen Spieler rein offensive Werte mit lebenswichtigen Überlebensmechaniken wie Omnivamp und Notfall-Stealth-Triggern ausbalancieren. Wenn sie richtig optimiert sind, werden Ihre Assassinen Exekutionen aneinanderreihen, zusätzliche Scherben pro Kill generieren und Bosse mit hohen HP durch schnelle Gift-Stacks dahinschmelzen lassen.
+
+**Video-Highlights:**
+- **Stealth-Synergie**: Wie Nyx verlängerte Stealth-Zeitfenster nutzt, um wertvolle Ziele in der Backline sicher zu eliminieren.
+- **Scherben-Generierung**: Nutzung passiver Fähigkeiten, um Ihr Goldeinkommen nach jeder erfolgreichen Kampfbegegnung zu maximieren.
+- **Gift-Skalierung**: Kombination von Gift-Relikten mit hoher Angriffsgeschwindigkeit, um Late-Game-Bosse wie den Giftdrachen zu besiegen.
+
+<YouTubeEmbed videoId="QQ767NR6ZSQ" title="Guildrun *DEMO* - Stealthy Crit Assassins Nyx Carry!" />
+
+<Callout type="tip" title="Positionierungs-Tipp">
+Positionieren Sie Ihre Haupt-Assassinen während des Setups immer in der hinteren Reihe. Dies garantiert ihnen einen Bonus von 100% auf die kritische Trefferchance und sofortigen Stealth für die ersten 5 Sekunden des Kampfes, sodass sie sicher zuschlagen können, ohne sofortige gegnerische Aggro zu ziehen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Heldenauswahl & Upgrade-Pfade">
+
+Ein erfolgreicher Run erfordert einen ausgewogenen Kader aus spezialisierten Assassinen und mindestens einem kompetenten Frontline-Anker. Während reiner Schaden verlockend ist, sorgt eine Hybrideinheit, die Treffer einstecken und gleichzeitig Debuffs verteilen kann, dafür, dass Ihre zerbrechlichen Carries die nötige Zeit haben, um ihren Schaden zu steigern.
+
+Die folgende Tabelle skizziert die Kernhelden, die für diesen Build benötigt werden, ihre primären Rollen auf dem Schlachtfeld und ihre empfohlenen Upgrade-Prioritäten.
+
+| Held | Klasse/Rolle | Schlüsselfähigkeit | Upgrade-Priorität |
+| :--- | :--- | :--- | :--- |
+| Nyx | Assassinen-Carry | Stealth-Krit, exekutiert Gegner unter 30% HP | S-Rang (Hoch) |
+| Yuna | Krit-Assassine | Shuriken-Schattenschlag, Multi-Ziel-Burst | A-Rang (Mittel) |
+| Logan | Scherben-Assassine | Bufft Angriffsschaden des Carrys, generiert Gold | B-Rang (Niedrig) |
+| Draamir | Vanguard-Tank | Hoher Omnivamp, verteilt Gift und Frost | S-Rang (Hoch) |
+
+Jeder Held muss systematisch verbessert werden. Nyx dient als Ihre primäre Siegesbedingung aufgrund ihrer Fähigkeit, Ziele mit niedrigen HP sofort zu exekutieren, was verhindert, dass sich tanky Gegner wieder hochheilen. Yuna bietet exzellenten sekundären Flächenschaden mit ihrem Shuriken-Schattenschlag, der die Gegner mit den niedrigsten HP anvisiert, um sie für Nyx' Exekutionsschwelle vorzubereiten.
+
+<CardGrid cols={3}>
+  <Card title="Nyx (Der Carry)">
+    - **Exekutions-Spezialistin**: Tötet Gegner unter 30% maximalen HP sofort.
+    - **Wahnsinniges Angriffstempo**: Skaliert schnell mit Auto-Attack-Items.
+    - **Stealth-abhängig**: Erfordert Platzierung in der Backline für Sicherheit.
+  </Card>
+  <Card title="Yuna (Die Enablerin)">
+    - **Hoher Burst-Schaden**: Shuriken-Schlag trifft mehrere Ziele.
+    - **Stat-Skalierung**: Erhält permanent kritische Trefferchance beim Aufsteigen.
+    - **Backup-Gift**: Fügt bei kritischen Treffern Gift zu, wenn sie auf der Bank sitzt.
+  </Card>
+  <Card title="Draamir (Der Anker)">
+    - **Vanguard-Hybrid**: Kombiniert hohe Verteidigung mit Assassinen-ähnlicher Skalierung.
+    - **Omnivamp-König**: Heilt enorme Mengen des verursachten Schadens zurück.
+    - **Debuff-Verteiler**: Wendet mühelos Gift, Frost und Verbrennung an.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Vermeiden Sie Überinvestitionen">
+Verteilen Sie Ihre Scherben nicht gleichmäßig auf alle Charaktere. Priorisieren Sie es, Nyx zuerst auf S-Rang zu bringen, dicht gefolgt von Draamir, um sicherzustellen, dass Ihre Frontline in hochstufigen Begegnungen nicht sofort zusammenbricht.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Relikt- und Itemisierungs-Strategie">
+
+In Guildrun definieren Items und Relikte das Skalierungspotenzial Ihres Teams. Für den Assassinen-Archetyp sollten Sie sich stark auf Gegenstände konzentrieren, die flache kritische Trefferchance, physischen und magischen Omnivamp sowie Gift-Anwendung gewähren. Da Assassinen schnell zuschlagen, skaliert jeder On-Hit-Debuff exponentiell.
+
+| Ausrüstungsname | Typ | Schlüsseleffekte | Build-Synergie |
+| :--- | :--- | :--- | :--- |
+| Assassin's Ambush Engine | Relikt | Fügt Gift zu, +50% Krit gegen vergiftete Ziele | Kern-Schadensmotor für das gesamte Team |
+| Assassin Smoke Screen | Relikt | Stealth für 3s, wenn HP unter 33% fallen | Kritische Überlebensfähigkeit für fragile Carries |
+| Assassin's Glyph | Item | Gewährt +75 kritische Trefferchance | Flache Skalierung, um Krit über 100% zu treiben |
+| Large Power Crystal | Item | Enorme Primärstats nach 2 überlebten Kämpfen | Massiver Mid-Game-Power-Spike für Ihren Carry |
+| Searing Contract | Item | Exekutiert Ziele nach 25 kritischen Treffern | Synergiert perfekt mit Nyx' hohem Angriffstempo |
+
+Priorisieren Sie beim Kauf von Gegenständen im Shop flache Stat-Erhöhungen, die keine wertvollen Item-Slots belegen, wie z. B. permanentes Stat-Training. Wenn es Ihnen gelingt, einen Large Power Crystal zu erwerben, platzieren Sie ihn auf einem Helden mit zwei Klassen wie Draamir, um die doppelten Stat-Boni zu erhalten, sobald der Kristall gereift ist.
+
+<Callout type="success" title="Krit-Überlauf-Mechanik">
+Sobald die kritische Trefferchance eines Helden 100% übersteigt, wird jede überschüssige kritische Trefferchance automatisch in kritischen Trefferschaden umgewandelt. Hören Sie nie auf, Krit zu stapeln, da dies direkt Ihr Burst-Potenzial im Late-Game steigert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Build-Fortschritt">
+
+Der Aufbau eines schlagkräftigen Teams erfordert eine sorgfältige Planung über die verschiedenen Phasen eines Runs hinweg. Sie können S-Rang-Einheiten nicht einfach von Anfang an erzwingen; stattdessen müssen Sie Ihre Ökonomie verwalten, temporäre Platzhalter nutzen und fließend in Ihre finale Komposition übergehen.
+
+<Steps>
+  <Step num="1" title="Scherben-Farming im Early Game">
+    Beginnen Sie Ihren Run mit Yuna und konzentrieren Sie sich auf ihren Upgrade-Pfad zur Scherben-Generierung. Platzieren Sie sie so, dass sie sicher Last-Hits erzielen kann. Vermeiden Sie es, den Shop in den ersten Runden übermäßig neu zu rollen; sammeln Sie stattdessen Scherben, um Zinsen aufzubauen und hochwertige Items zu kaufen, wenn sie natürlich erscheinen.
+  </Step>
+  <Step num="2" title="Sicherung der Frontline">
+    Führen Sie einen Vanguard oder Krieger wie Draamir oder Kai ein, der als Ihr primärer Tank fungiert. Geben Sie ihnen Verteidigungs-Items wie Squire's Helm oder Gegenstände, die Omnivamp gewähren. Dies stellt sicher, dass Ihre Backline-Assassinen genug Zeit haben, ihre Manabalken aufzuladen und ihre aktiven Fähigkeiten zu entfesseln.
+  </Step>
+  <Step num="3" title="Übergang zum Nyx-Carry">
+    Suchen Sie Nyx im Shop und beginnen Sie damit, Ihre Items mit hoher Angriffsgeschwindigkeit auf sie zu übertragen. Verbessern Sie sie auf B-Rang und wählen Sie das Exekutions-Passiv. Ändern Sie Ihre Positionierung so, dass Nyx in der hinteren Reihe startet, um von den sofortigen Stealth- und Krit-Buffs zu profitieren.
+  </Step>
+  <Step num="4" title="Relikt-Optimierung im Late Game">
+    Geben Sie Ihre angesammelten Scherben in den Auktionshäusern nach den Bossen aus, um nach epischen Relikten wie dem Assassin's Ambush Engine oder Assassin Smoke Screen zu suchen. Verkaufen Sie alle Platzhalter-Items aus dem Early Game, um Plätze für hochstufige Stat-Modifikatoren wie den Searing Contract freizumachen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Ökonomie-Management">
+Behalten Sie die Kosten für Shop-Rerolls im Auge. Wenn Sie nur wenige Scherben haben, sparen Sie Ihre Währung für die Lagerfeuer-Events auf, bei denen Sie Upgrades umschulen oder kostenlose Stat-Boosts erhalten können, ohne wertvolle Scherben auszugeben.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rush- vs. Stall-Mechaniken in Assassinen-Builds">
+
+Guildrun bietet zwei gegensätzliche Kampftempi: **Rush** und **Stall**. Zu verstehen, wie man diese beiden Mechaniken ausbalanciert, ist entscheidend, um Ihren Assassinen-Build an verschiedene Gegnerkompositionen anzupassen.
+
+| Kampfphase | Aktivierungsbedingung | Primäre Stat-Boni | Ideale Build-Anwendung |
+| :--- | :--- | :--- | :--- |
+| Rush | Erste 6 bis 10 Sekunden des Kampfes | Erhöhtes Angriffs- & Bewegungstempo, Angriffskraft | Schnelle Burst-Setups zum sofortigen Ausschalten der Backline |
+| Stall | Nach 15 bis 20 Sekunden des Kampfes | Hohe Verteidigung, prozentuale Stat-Skalierung, Schilde | Defensive Setups oder Gift-Builds, die auf Überleben setzen |
+
+Für einen Assassinen-Build ist **Rush** im Allgemeinen die überlegene Wahl. Da Ihre Einheiten mit Stealth und garantierten kritischen Treffern starten, wollen Sie in den ersten Sekunden des Kampfes so viel Schaden wie möglich anrichten. Items, welche die Dauer von Rush-Fähigkeiten verlängern, ermöglichen es Ihren Assassinen, das Schlachtfeld zu säubern, bevor der Gegner zurückschlagen kann.
+
+Wenn Sie jedoch auf extrem defensive Tanks oder Bosse mit massiven HP-Pools treffen, kann die Integration einiger **Stall**-Mechaniken Ihren Run retten. Relikte, die nach 20 Sekunden teamweite Schilde oder massive Verteidigungsboosts gewähren, stellen sicher, dass Ihre Gift-Stacks genug Zeit haben, um den Kill zu sichern.
+
+<Callout type="warning" title="Betäubungsgefahr">
+Hüten Sie sich vor Gegnern mit schweren Flächenbetäubungen (AoE-Stuns). Wenn Ihre Assassinen während der initialen Rush-Phase betäubt werden, verlieren sie ihr Stealth-Zeitfenster und können leicht vom gegnerischen Backline-Schaden ausgeschaltet werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame-Verifizierung und Checkliste">
+
+Bevor Sie die finale Boss-Arena betreten oder in den Endlos-Modus wechseln, nutzen Sie diese Checkliste, um sicherzustellen, dass Ihre Komposition die notwendigen Werkzeuge für den Erfolg besitzt.
+
+<Checklist
+  id="endgame-assassin-checklist"
+  title="Erforderliche Meilensteine für den Endlos-Modus:"
+  items={[
+    "Nyx ist auf mindestens A-Rang (S-Rang dringend empfohlen) mit aktiviertem Low-HP-Exekutions-Passiv",
+    "Mindestens ein Frontrow-Vanguard (wie Draamir) hat über 15% Omnivamp, um gegen schwere Flächenangriffe zu bestehen",
+    "Das Team hat das Relikt 'Assassin Smoke Screen' erworben, um zu verhindern, dass Carries sofort getötet werden, wenn Stealth bricht",
+    "Die gesamte kritische Trefferchance auf Ihrem Haupt-Carry übersteigt 150%, um den Krit-Schadensüberlauf zu maximieren",
+    "Eine zuverlässige Quelle für Gift-Anwendung ist aktiv, um defensivstarke Bosse in langen Kämpfen stetig zu zermürben"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Was ist das wichtigste Einzelitem für den Guildrun Assassinen-Build?",
+    answer: "Die 'Assassin's Ambush Engine' ist das kritischste Relikt. Es ermöglicht Ihren Assassinen, bei kritischen Treffern Gift zuzufügen, und gewährt einen massiven Bonus von 50% auf kritischen Trefferschaden gegen vergiftete Gegner, was eine hocheffektive Schadensschleife erzeugt."
+  },
+  {
+    question: "Wie gehe ich mit schweren Tank-Kompositionen um, die meine Assassinen blockieren?",
+    answer: "Nutzen Sie die Platzierung in der Backline, um Ihren Assassinen zu Kampfbeginn Stealth zu gewähren. Dies führt dazu, dass sie die Frontline-Tanks ignorieren und direkt zur gegnerischen Backline laufen, um zuerst die fragileren Schadensverursacher auszuschalten."
+  },
+  {
+    question: "Sollte ich im Late Game C-Rang-Helden kaufen?",
+    answer: "Im Allgemeinen nein. Im Late Game sollten Sie Ihre Scherben darauf konzentrieren, Ihre vorhandenen Carries auf S-Rang zu bringen oder hochwertige Relikte im Auktionshaus zu kaufen. Kaufen Sie Helden niedrigerer Ränge nur, wenn sie eine mächtige Backup-Fähigkeit von der Reservebank aus bieten."
+  },
+  {
+    question: "Was soll ich tun, wenn mein Frontline-Tank zu schnell stirbt?",
+    answer: "Rüsten Sie Ihren Tank mit Items aus, die hohen Omnivamp und Max-HP-Schilde gewähren. Suchen Sie zusätzlich nach dem Relikt 'Assassin Smoke Screen', das Ihren Assassinen temporären Stealth verleiht, wenn ihre Gesundheit niedrig ist, wodurch der gegnerische Fokus von ihnen weggelenkt wird."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guildrun Boss-Guide: Omega Plexus Sentinel Taktiken",
+  description: "Meistere den Omega Plexus Sentinel in Guildrun. Lerne Phasenübergänge, Tank-Positionierung und Taktiken zum Blinken durch die Todeswand.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Omega+Plexus+Sentinel+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Guildrun Boss-Guide**-Fokus: Das Besiegen des Omega Plexus Sentinel erfordert eine strikte Positionierung und schnelle Reaktionszeiten.
+- **Betäubungsflächen** müssen an den Rändern des Raumes abgelegt werden, um die Mitte freizuhalten.
+- **Auslöschende Salve** erfordert, dass sich der gesamte Schlachtzug im normalen Schwierigkeitsgrad im Nahkampf sammelt.
+- Die **Todeswand**-Phase erfordert die Nutzung des Extra-Aktionsknopfs, um sicher durch die Laserbarriere zu blinken.
+- **Tankwechsel**-Mechaniken erfordern, dass man weit vom Schlachtzug wegläuft, um den abfallenden Schaden zu minimieren.
+</Callout>
+
+<Section icon={Map} title="Boss-Übersicht & Kernmechaniken">
+
+Der Omega Plexus Sentinel dient als großer Koordinationstest für Schlachtzugsgruppen. Das Besiegen dieses Bosses erfordert disziplinierte Bewegung, präzises räumliches Bewusstsein und schnelle Reaktionen bei Phasenübergängen. Der Kampf findet in einer großen kreisförmigen Kammer statt, in der die Positionierung über den Erfolg entscheidet. Die Verwaltung der Bodenfläche ist die größte Herausforderung, da mehrere Mechaniken dauerhafte Gefahren hinterlassen, die die Bewegung einschränken.
+
+Der Kampf durchläuft zwei verschiedene Phasen, basierend auf dem Energieniveau des Bosses. Das Verständnis der Übergangspunkte ermöglicht es Schlachtzugsleitern, Bewegungsfähigkeiten und defensive Cooldowns zum richtigen Zeitpunkt anzusagen.
+
+| Phase | Energie-Auslöser | Kernziel | Gefahrenstufe |
+| :--- | :--- | :--- | :--- |
+| Phase 1 | 0 bis 99 Energie | Debuffs verwalten und für Gruppenschaden sammeln | Moderat |
+| Übergang | 100 Energie | Gefahren umgehen und Boss-Schild brechen | Hoch |
+| Phase 2 | Nach dem Schild | Boss unterbrechen und Mechaniken aus Phase 1 wiederholen | Moderat |
+
+Während Phase 1 muss sich der Schlachtzug mit einzelnen Zielmarkierungen, Gruppen-Abfangmechaniken und tankspezifischen Busters auseinandersetzen. Wenn der Boss 100 Energie erreicht, wechselt der Kampf in eine hochintensive Übergangsphase, in der die Spieler zurückgestoßen werden und sich ihren Weg zurück erkämpfen müssen.
+
+<Callout type="info" title="Positionierungsschlüssel">
+Es ist entscheidend, die Mitte des Raumes frei von Gefahren zu halten. Wenn Spieler Betäubungsflächen in der Mitte ablegen, wird die Übergangsphase erheblich schwieriger zu bewältigen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mechaniken & Positionierung in Phase 1">
+
+Phase 1 erfordert, dass der Schlachtzug eine enge Formation beibehält, während er mit einzelnen gezielten Mechaniken umgeht. Das Hauptziel ist es, den Schaden zu maximieren und gleichzeitig den Arenaboden sauber zu halten.
+
+<CardGrid cols={3}>
+  <Card title="Matrizen manifestieren">
+    - **Gezielte Spieler** müssen an die äußeren Ränder des Raumes laufen.
+    - Das Ablegen dieses Debuffs erzeugt eine dauerhafte Betäubungsfläche.
+    - Das Zurückkehren in diese Flächen verursacht schweren Schaden und betäubt den Spieler.
+  </Card>
+  <Card title="Auslöschende Salve">
+    - **Schlachtzugsweite Abfangmechanik**, die geteilten Schaden verursacht.
+    - Alle Spieler sollten sich eng in Nahkampf-Reichweite sammeln.
+    - Auf Heroisch sofort nach dem Schadenseintritt verteilen.
+  </Card>
+  <Card title="Sterilisationsbrecher">
+    - **Tank-Mechanik**, die schweren physischen Schaden verursacht.
+    - Der aktive Tank muss weit weg von der Gruppe laufen.
+    - Der abfallende Schaden verringert sich basierend auf der Entfernung zum Ziel.
+  </Card>
+</CardGrid>
+
+Die Tank-Mechanik erfordert eine zuverlässige Wechselrotation. Der aktive Tank, der von Sterilisation betroffen ist, muss in die zugewiesene Sicherheitszone laufen, während der Off-Tank den Boss spottet, um seine Position beizubehalten.
+
+| Fähigkeitsname | Ziel | Mechaniken & Gegenmaßnahmen |
+| :--- | :--- | :--- |
+| Matrizen manifestieren | Zufällige Spieler | Legt Betäubungsflächen ab. Sofort an die Ränder des Raumes laufen. |
+| Auslöschende Salve | Schlachtzugsgruppe | Gruppen-Abfangen. Im Nahkampf sammeln (Normal) oder verteilen (Heroisch). |
+| Sterilisation | Aktiver Tank | Tank-Buster. Rauslaufen, um den schlachtzugsweiten abfallenden Schaden zu minimieren. |
+
+Nah- und Fernkämpfer sollten hinter dem Boss gesammelt bleiben, um den Schaden der Auslöschenden Salve zu konsolidieren. Nur Spieler, die von "Matrizen manifestieren" betroffen sind, sollten den Stack verlassen und sich in einer geraden Linie nach außen bewegen, um ihre Flächen abzulegen.
+
+<Callout type="warning" title="Flächenplatzierung">
+Lege keine Betäubungsflächen in der Nähe des Eingangs oder auf dem direkten Weg zurück zum Boss ab. Diese Bereiche müssen für die Übergangsphase frei bleiben.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Übergang zu Phase 2 & Überleben der Todeswand">
+
+Nach Erreichen von 100 Energie leitet der Sentinel die Protokollreinigung ein. Diese Aktion stößt den gesamten Schlachtzug zurück zum Eingang der Kammer. Der Boss kanalisiert dann einen massiven Schild, der gebrochen werden muss, um die Reinigungssequenz zu unterbrechen.
+
+<Steps>
+  <Step num="1" title="Auf Protokollreinigung warten">
+    Lass den anfänglichen Rückstoß abschließen. Verwende während des Rückstoßes keine Bewegungsfähigkeiten, da diese gegen die Kraft des Windes verschwendet wären.
+  </Step>
+  <Step num="2" title="Durch Gefahren navigieren">
+    Laufe zurück zum Boss, während du Stolperdrähten, Bodenfallen und sich bewegenden Rückstoßblasen ausweichst. Vermeide alle Betäubungsflächen, die in Phase 1 abgelegt wurden.
+  </Step>
+  <Step num="3" title="Durch die Todeswand blinken">
+    Wenn sich die rote Laserbarriere nähert, benutze den Extra-Aktionsknopf, um durch die Wand zu blinken. Das Timing ist entscheidend, um den sofortigen Tod zu vermeiden.
+  </Step>
+  <Step num="4" title="Den Schild brechen">
+    Sammle dich in der Hitbox des Bosses, um die Belastung durch verbleibende Laser zu minimieren. Entfessle Cooldowns mit hohem Schaden, um den Schild zu brechen und das Kanalisieren zu unterbrechen.
+  </Step>
+</Steps>
+
+Der Extra-Aktionsknopf wird nur während dieses Übergangs aktiv. Wenn man ihn zu früh oder zu spät drückt, prallt man gegen die Laserwand, was normalerweise zu einem Wipe führt.
+
+<Callout type="success" title="Blink-Timing">
+Warte, bis die Todeswand etwa fünf Meter entfernt ist, bevor du den Extra-Aktionsknopf drückst. Zu frühes Blinken führt dazu, dass du vor der Barriere landest und direkt hineinläufst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Anpassungen & Vorbereitung für den heroischen Modus">
+
+Der heroische Schwierigkeitsgrad führt strengere Ausführungsanforderungen ein und modifiziert, wie der Schlachtzug mit Schlüsselmechaniken umgeht. Die wichtigste Änderung betrifft die Koordination der Auslöschenden Salve.
+
+| Mechanik | Normaler Modus | Heroischer Modus |
+| :--- | :--- | :--- |
+| Auslöschende Salve | Gruppe sammelt sich im Nahkampf, um Schaden zu teilen | Gruppe muss sich aufteilen, um überlappenden Spritzschaden zu vermeiden |
+| Stolperdrähte | Geringer Schaden, kurzer Verlangsamungseffekt | Tödlicher Schaden oder lang anhaltende Betäubung bei Kontakt |
+| Laserbarrieren | Langsam bewegend, leicht zu umgehen | Schnellere Bewegungsgeschwindigkeit mit engeren Lücken |
+
+Die Vorbereitung des Schlachtzugs ist vor dem Pull des Bosses unerlässlich. Sicherzustellen, dass jeder Spieler seine Positionierungsaufgaben versteht, verhindert Chaos während der Übergangsphasen.
+
+<Checklist
+  id="pre-pull-checklist"
+  title="Checkliste zur Schlachtzugsvorbereitung"
+  items={[
+    "Rüste entsprechende Fläschchen und Essensbuffs aus.",
+    "Weise spezifische Schlachtzugsmarkierungen für die linken und rechten Ränder zu.",
+    "Stelle ein Hexenmeister-Portal auf, das in Richtung der Boss-Plattform zeigt.",
+    "Stelle sicher, dass alle Spieler ihren Extra-Aktionsknopf zugewiesen haben."
+  ]}
+/>
+
+Das Platzieren eines Hexenmeister-Portals kann Spielern helfen, die keine eigenen Mobilitätswerkzeuge haben. Die Spieler müssen jedoch immer noch manuell durch die Stolperdrähte navigieren und ihre Blink-Aktion im richtigen Moment nutzen.
+
+<Callout type="tip" title="Portal-Platzierung">
+Platziere das Eingangsportal in der Nähe des Eingangs und das Ausgangsportal kurz vor der ersten Stolperdrahtlinie. Dies ermöglicht es langsameren Klassen, den anfänglichen Hindernisparcours sicher zu umgehen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist der Hauptfokus des Guildrun Boss-Guides für den Omega Plexus Sentinel?",
+    answer: "Der Hauptfokus liegt auf der Verwaltung des Arenabereichs, indem Betäubungsflächen an den Rändern abgelegt werden und das Blinken über den Extra-Aktionsknopf während der Übergangsphase ausgeführt wird."
+  },
+  {
+    question: "Wann sollte ich meine Bewegungsfähigkeiten während der Rückstoßphase einsetzen?",
+    answer: "Warte, bis der Boss das Wirken der Protokollreinigung beendet hat. Wenn du Bewegungsfähigkeiten zu früh einsetzt, werden sie aufgrund des kontinuierlichen Rückstoßeffekts verschwendet."
+  },
+  {
+    question: "Wie ändert sich die Auslöschende Salve im heroischen Schwierigkeitsgrad?",
+    answer: "Im heroischen Schwierigkeitsgrad müssen sich die Spieler aufteilen und verteilen, anstatt sich im Nahkampf zu sammeln, um überlappenden Spritzschaden zu vermeiden."
+  },
+  {
+    question: "Was passiert, wenn ich es nicht schaffe, durch die Todeswand zu blinken?",
+    answer: "Wenn du nicht durch die Todeswand blinkst, führt dies zum sofortigen Tod oder zu extremem Schaden, der zum Wipe des Versuchs führt."
+  }
+]} />
+
+<Callout type="info" title="Schlussbemerkung">
+Übe das Blink-Timing bei deinen ersten Pulls. Sobald die Schlachtzugsgruppe die Übergangsphase meistert, wird der Boss zu einer einfachen DPS-Prüfung.
+</Callout>
+
+</Section>

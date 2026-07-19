@@ -2,6 +2,10 @@
   "de": {
     "builds": [
       {
+        "slug": "guildrun-assassin-build",
+        "file": "guildrun-assassin-build"
+      },
+      {
         "slug": "guildrun-berserker-build",
         "file": "guildrun-berserker-build"
       },
@@ -28,6 +32,28 @@
       {
         "slug": "guildrun-rush-build",
         "file": "guildrun-rush-build"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "guildrun-best-team",
+        "file": "guildrun-best-team"
+      },
+      {
+        "slug": "guildrun-boss-guide",
+        "file": "guildrun-boss-guide"
+      },
+      {
+        "slug": "guildrun-endless-mode",
+        "file": "guildrun-endless-mode"
+      },
+      {
+        "slug": "guildrun-sss-difficulty",
+        "file": "guildrun-sss-difficulty"
+      },
+      {
+        "slug": "guildrun-team-comps",
+        "file": "guildrun-team-comps"
       }
     ],
     "guide": [
@@ -58,12 +84,42 @@
         "file": "guildrun-ai"
       },
       {
+        "slug": "guildrun-autobattler",
+        "file": "guildrun-autobattler"
+      },
+      {
+        "slug": "guildrun-gameplay",
+        "file": "guildrun-gameplay"
+      },
+      {
         "slug": "guildrun-hero-rank-up",
         "file": "guildrun-hero-rank-up"
       },
       {
         "slug": "guildrun-roguelike",
         "file": "guildrun-roguelike"
+      }
+    ],
+    "release": [
+      {
+        "slug": "guildrun-demo",
+        "file": "guildrun-demo"
+      },
+      {
+        "slug": "guildrun-full-release",
+        "file": "guildrun-full-release"
+      },
+      {
+        "slug": "guildrun-price",
+        "file": "guildrun-price"
+      },
+      {
+        "slug": "guildrun-progress-carryover",
+        "file": "guildrun-progress-carryover"
+      },
+      {
+        "slug": "guildrun-release-date",
+        "file": "guildrun-release-date"
       }
     ],
     "steam": [
@@ -306,10 +362,36 @@
         "file": "guildrun-rush-build"
       }
     ],
+    "combat": [
+      {
+        "slug": "guildrun-best-team",
+        "file": "guildrun-best-team"
+      },
+      {
+        "slug": "guildrun-boss-guide",
+        "file": "guildrun-boss-guide"
+      },
+      {
+        "slug": "guildrun-endless-mode",
+        "file": "guildrun-endless-mode"
+      },
+      {
+        "slug": "guildrun-sss-difficulty",
+        "file": "guildrun-sss-difficulty"
+      },
+      {
+        "slug": "guildrun-team-comps",
+        "file": "guildrun-team-comps"
+      }
+    ],
     "guide": [
       {
         "slug": "guildrun-beginner-guide",
         "file": "guildrun-beginner-guide"
+      },
+      {
+        "slug": "guildrun-first-run-guide",
+        "file": "guildrun-first-run-guide"
       },
       {
         "slug": "guildrun-reroll-guide",
@@ -326,12 +408,46 @@
     ],
     "mechanics": [
       {
+        "slug": "guildrun-ai",
+        "file": "guildrun-ai"
+      },
+      {
+        "slug": "guildrun-autobattler",
+        "file": "guildrun-autobattler"
+      },
+      {
+        "slug": "guildrun-gameplay",
+        "file": "guildrun-gameplay"
+      },
+      {
         "slug": "guildrun-hero-rank-up",
         "file": "guildrun-hero-rank-up"
       },
       {
         "slug": "guildrun-roguelike",
         "file": "guildrun-roguelike"
+      }
+    ],
+    "release": [
+      {
+        "slug": "guildrun-demo",
+        "file": "guildrun-demo"
+      },
+      {
+        "slug": "guildrun-full-release",
+        "file": "guildrun-full-release"
+      },
+      {
+        "slug": "guildrun-price",
+        "file": "guildrun-price"
+      },
+      {
+        "slug": "guildrun-progress-carryover",
+        "file": "guildrun-progress-carryover"
+      },
+      {
+        "slug": "guildrun-release-date",
+        "file": "guildrun-release-date"
       }
     ],
     "steam": [
@@ -402,14 +518,44 @@
         "file": "guildrun-nyx-build"
       },
       {
+        "slug": "guildrun-one-shot-build",
+        "file": "guildrun-one-shot-build"
+      },
+      {
         "slug": "guildrun-rush-build",
         "file": "guildrun-rush-build"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "guildrun-best-team",
+        "file": "guildrun-best-team"
+      },
+      {
+        "slug": "guildrun-boss-guide",
+        "file": "guildrun-boss-guide"
+      },
+      {
+        "slug": "guildrun-endless-mode",
+        "file": "guildrun-endless-mode"
+      },
+      {
+        "slug": "guildrun-sss-difficulty",
+        "file": "guildrun-sss-difficulty"
+      },
+      {
+        "slug": "guildrun-team-comps",
+        "file": "guildrun-team-comps"
       }
     ],
     "guide": [
       {
         "slug": "guildrun-beginner-guide",
         "file": "guildrun-beginner-guide"
+      },
+      {
+        "slug": "guildrun-first-run-guide",
+        "file": "guildrun-first-run-guide"
       },
       {
         "slug": "guildrun-reroll-guide",
@@ -426,14 +572,56 @@
     ],
     "mechanics": [
       {
+        "slug": "guildrun-ai",
+        "file": "guildrun-ai"
+      },
+      {
+        "slug": "guildrun-autobattler",
+        "file": "guildrun-autobattler"
+      },
+      {
+        "slug": "guildrun-gameplay",
+        "file": "guildrun-gameplay"
+      },
+      {
         "slug": "guildrun-hero-rank-up",
         "file": "guildrun-hero-rank-up"
+      },
+      {
+        "slug": "guildrun-roguelike",
+        "file": "guildrun-roguelike"
+      }
+    ],
+    "release": [
+      {
+        "slug": "guildrun-demo",
+        "file": "guildrun-demo"
+      },
+      {
+        "slug": "guildrun-full-release",
+        "file": "guildrun-full-release"
+      },
+      {
+        "slug": "guildrun-price",
+        "file": "guildrun-price"
+      },
+      {
+        "slug": "guildrun-progress-carryover",
+        "file": "guildrun-progress-carryover"
+      },
+      {
+        "slug": "guildrun-release-date",
+        "file": "guildrun-release-date"
       }
     ],
     "steam": [
       {
         "slug": "guildrun-steam-charts",
         "file": "guildrun-steam-charts"
+      },
+      {
+        "slug": "guildrun-steam",
+        "file": "guildrun-steam"
       },
       {
         "slug": "guildrun-steamdb",
