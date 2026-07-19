@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "guildrun sss difficulty: Build Setup & Progression Guide",
+  description: "Master the Guildrun SSS difficulty with our complete Assassin Shard build setup, covering key hero synergies, positioning, and relic strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=SSS+Difficulty+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Strategy**: Transition into a full **Assassin-stealth build** to abuse high crit-to-poison damage scaling.
+- **Key Mechanic**: Utilize **shard-generation loops** coupled with specific relics to trigger massive percentage-based area damage.
+- **Best Carry**: Scale **Tilly** with attack speed to continuously trigger bonus damage based on total shards generated during the run.
+- **Critical Tip**: Position all primary damage dealers in the **back two rows** to gain immediate stealth and avoid early-game targeting.
+- **Top Choice**: Prioritize the **Shard Power Extractor** relic to bypass boss defense scaling by dealing flat maximum health damage.
+</Callout>
+
+<Section icon={Swords} title="Mastering the guildrun sss difficulty Meta">
+
+Conquering the **guildrun sss difficulty** requires a deep understanding of synergy scaling, precise unit positioning, and economy management. Unlike lower tiers where brute-force stats can carry your team, SSS difficulty scales enemy health pools and damage output to extreme levels. To survive, you must build a highly specialized squad that leverages stealth, poison, and shard-generation loops. 
+
+The most reliable strategy currently revolves around an Assassin-Vanguard hybrid build. This setup exploits high critical strike rates to melt targets before they can pierce your defensive front line.
+
+**Video Highlights:**
+- **Shard Economy**: How Yuna permanently scales shard generation on every single kill.
+- **Stealth Poison**: Converting critical strike value into passive poison damage during the initial five seconds of combat.
+- **The Shard Extractor Pivot**: Transitioning from standard physical damage to percentage-based maximum health damage.
+
+<YouTubeEmbed videoId="p2PPy5bGZ7A" title="I Had NO Idea I Could Do This | Guildrun | SSS Difficulty" />
+
+To execute this build successfully, you must recruit a balanced roster of heroes who directly scale with critical strikes and shard generation. The table below outlines the core heroes required for this SSS-tier strategy.
+
+| Hero | Primary Role | Core Scaling Stat | Key Synergy |
+|---|---|---|---|
+| **Yuna** | Shard Generator | Critical Strike | Assassin / Shard Carry |
+| **Tilly** | DPS Carry | Attack Speed | Duelist / Warrior |
+| **Rip** | Vanguard Tank | Max Health | Vanguard / Assassin |
+| **Dagamir** | Off-Tank / Assassin | Critical Strike | Kingpin / Assassin |
+
+<Callout type="warning" title="Sustain Warning">
+In SSS difficulty, standard life steal is highly ineffective due to enemy defense scaling. Always prioritize omnivamp or shield-generating relics to sustain your frontline units.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Assassin and Shard Build Setup">
+
+The backbone of this build relies on the synergy between the Assassin class and shard-generation mechanics. By converting your entire team into Assassins using class emblems, you unlock massive critical strike multipliers and stealth windows. 
+
+When your units attack from stealth, they inflict poison based on their starting critical strike rating. When paired with items that boost flat critical strike rates, your initial burst can eliminate high-threat targets instantly.
+
+| Mechanic | How It Scales | Best Item Combo | Target Threshold |
+|---|---|---|---|
+| **Stealth Poison** | 75% of starting Crit | Assassin Ambush Engine | 800+ Critical Strike |
+| **Shard Bonus Damage** | Flat damage per Shard | Duelist Momento | 1,000+ Shards Generated |
+| **AoE Shard Burst** | 10% Max HP per Shard | Shard Power Extractor | 10 Shard Triggers |
+
+<CardGrid cols={3}>
+  <Card title="Poison Ambush">
+    - **Infilcts massive poison** based on critical strike rating.
+    - Requires units to be placed in the **back two rows**.
+    - Best for melting high-health targets early.
+  </Card>
+  <Card title="Shard Extractor AoE">
+    - **Deals 10% max health damage** to all enemies on shard generation.
+    - Completely bypasses standard armor and magic resistance.
+    - Requires a continuous loop of shard-generating abilities.
+  </Card>
+  <Card title="Vanguard Hybrid">
+    - **Converts Rip into an Assassin** to gain omnivamp.
+    - Scales tankiness through high health pools and shields.
+    - Ensures your team survives the first ten seconds of combat.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Synergy Tip">
+If you acquire an Assassin Emblem, equip it on Tilly. Her high attack speed allows her to generate shards rapidly, which in turn triggers the Shard Power Extractor AoE burst multiple times per second.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step SSS Progression Route">
+
+Navigating the map and shop phases correctly is just as important as winning individual battles. Follow this structured progression path to build your economy, secure key items, and level up your core units before reaching the final Act Boss.
+
+<Steps>
+  <Step num="1" title="Establish the Shard Economy">
+    In the early game, prioritize leveling Yuna and Dagamir. Ensure Yuna secures the killing blows to permanently scale her shard generation for the rest of the run. Do not roll the shop excessively in Act 1; instead, save gold to reach interest thresholds.
+  </Step>
+  <Step num="2" title="Assemble the Back-Row Stealth Grid">
+    Once you acquire the Assassin Ambush Engine relic, transition your entire team to the back two rows. This grants all units five seconds of stealth at the start of combat, allowing them to apply massive poison stacks based on their critical strike ratings.
+  </Step>
+  <Step num="3" title="Secure the Shard Power Extractor">
+    Search the shop and elite encounter rewards for the Shard Power Extractor relic. This is your primary win condition for the late-game stages. Once equipped, focus entirely on generating shards through Tilly's auto-attacks and Yuna's active abilities.
+  </Step>
+  <Step num="4" title="Optimize Tilly's Attack Speed">
+    Equip Tilly with attack speed items like the Duelist Momento. Because she deals bonus damage for every shard generated throughout the game, her scaling becomes infinite. High attack speed ensures she triggers shard generation every 25 attacks.
+  </Step>
+</Steps>
+
+During Act 2, you will encounter the Demon Boss, which features a dangerous phase transition. Use the strategy table below to manage this encounter.
+
+| Boss Phase | Trigger Condition | Boss Behavior | Player Counter-Strategy |
+|---|---|---|---|
+| **Phase 1** | 100% to 50% Health | Standard physical attacks | Stack shields and apply early poison |
+| **Phase 2** | Below 50% Health | Gains attack speed, inflicts burn | Trigger Vanguard taunts and burst down |
+
+<Callout type="success" title="Phase Transition Success">
+Save your high-damage active abilities until the Demon Boss drops below 50% health. Bursting him down quickly in Phase 2 prevents the global burn debuff from wiping your backline.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Positioning and Survival Tactics">
+
+In SSS difficulty, positioning can mean the difference between an effortless victory and an instant defeat. Since enemies deal extreme damage, you cannot rely on a standard tank standing in the front row. Instead, you must utilize stealth mechanics to manipulate enemy targeting behaviors.
+
+By placing your entire team in the back two rows, you force the enemy frontline to walk forward, wasting precious seconds of their combat buffs.
+
+| Position | Unit | Primary Purpose | Stealth Benefit |
+|---|---|---|---|
+| **Back Row Left** | Yuna | Safe DPS & Shard Generation | Immune to early target locks |
+| **Back Row Right** | Tilly | Infinite Scaling DPS Carry | Uninterrupted attack speed scaling |
+| **Back Row Center** | Dagamir | Off-Tank / Burst Assassin | Drops aggro to main tank |
+| **Mid Row Center** | Rip | Main Vanguard Tank | Taunts enemies after 10 seconds |
+
+<Callout type="warning" title="Aggro Management">
+Never place your primary carry adjacent to your main tank. If the enemy uses area-of-effect abilities, your carry will take massive splash damage and die prematurely.
+</Callout>
+
+Keep your units clustered slightly to maximize the efficiency of adjacent shield relics, but ensure your squishiest damage dealers are positioned furthest from the primary target zone.
+
+</Section>
+
+<Section icon={Trophy} title="Late-Game Milestones and Checklist">
+
+As you enter the endless stages of SSS difficulty, you must hit specific build milestones to prevent your damage from falling off. Use this checklist to track your progression and ensure your team is fully optimized for the final stretch.
+
+<Checklist
+  id="sss-progression-checklist"
+  title="Endless Mode Requirements:"
+  items={[
+    "Secure at least 900+ permanent shards generated before Act 3.",
+    "Equip Tilly with two high-tier attack speed or duelist items.",
+    "Convert Rip into a Vanguard-Assassin hybrid utilizing class emblems.",
+    "Obtain the Shard Power Extractor relic for percentage-based scaling.",
+    "Level all primary combat units to at least Grade B or higher."
+  ]}
+/>
+
+<Callout type="info" title="Relic Priority">
+If given the choice between flat stat relics and utility relics, always choose utility relics that manipulate debuffs, shields, or shard generation. Flat stats scale poorly in the late endless stages.
+</Callout>
+
+Refer to this quick relic tier list to guide your shop purchases during the late-game stages:
+
+| Relic Name | Tier | Core Function | Best Holder |
+|---|---|---|---|
+| **Shard Power Extractor** | **S-Tier** | 10% Max HP AoE damage on shard gain | Global Team Buff |
+| **Assassin Ambush Engine** | **S-Tier** | Converts Crit to Poison from stealth | Back-Row Units |
+| **Vanguard Glyph** | **A-Tier** | Grants massive health and armor | Rip (Main Tank) |
+| **Executioner Blade** | **A-Tier** | Instantly executes targets below 15% HP | Tilly (Carry) |
+
+</Section>
+
+<Section icon={Sparkles} title="SSS Difficulty FAQ">
+
+To help you fine-tune your runs, we have compiled answers to the most common questions regarding the highest difficulty tier.
+
+<FAQ items={[
+  {
+    question: "How do I deal with enemy healing on guildrun sss difficulty?",
+    answer: "You must stack high-value poison or burn debuffs early in the fight. The Assassin Ambush Engine combined with high critical strike ratings applies enough continuous damage to outpace any boss healing mechanics."
+  },
+  {
+    question: "Why did my Yuna stop generating shards in the late game?",
+    answer: "Yuna relies on securing the actual killing blow to generate permanent shards. If your other units or relics (like the Shard Power Extractor) are dealing the final blow, she will not trigger her on-kill scaling. Position her to target low-health enemies."
+  },
+  {
+    question: "Is it worth running a pure tank on SSS difficulty?",
+    answer: "No. Pure tanks without damage scaling quickly become dead weight. It is much better to run a hybrid tank like Rip, who can scale his attack power with his maximum health pool while still utilizing Assassin omnivamp."
+  },
+  {
+    question: "How does the Shard Power Extractor bypass boss defenses?",
+    answer: "The Shard Power Extractor deals flat damage equal to 10% of the target's maximum health. Because this damage is percentage-based and directly tied to shard generation, it completely ignores standard armor and magic resistance values."
+  }
+]} />
+
+<Callout type="success" title="Final Advice">
+Always keep an eye on your unit positioning between rounds. As enemy formations change, micro-adjusting your back-row units can prevent them from getting instantly targeted by assassin-type enemies.
+</Callout>
+
+</Section>

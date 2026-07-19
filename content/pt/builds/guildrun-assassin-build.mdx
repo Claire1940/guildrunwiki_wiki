@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Assassino em Guildrun: Setup Furtivo de Crítico e Veneno",
+  description: "Domine a build de assassino de alto dano em Guildrun. Aprenda a otimizar Nyx e Yuna com furtividade, relíquias de veneno e alta escala de acerto crítico.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Assassin+Build",
+  date: "2026-07-19",
+  author: "Equipe Wiki de Guildrun",
+  keywords: "guildrun, build de assassino, nyx, yuna, crítico, veneno, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Build Principal**: Foca em alta chance de acerto crítico, tempo de atividade (uptime) de furtividade e aplicação rápida de veneno.
+- **Carregador Principal**: Nyx atua como a causadora de dano principal, utilizando uma mecânica de execução de vida baixa.
+- **Relíquia Essencial**: O Motor de Emboscada do Assassino (Assassin's Ambush Engine) fornece um aumento massivo de dano contra alvos envenenados.
+- **Suporte de Linha de Frente**: Draamir atua como um Vanguarda híbrido para absorver dano e aplicar penalidades (debuffs).
+- **Estratégia de Economia**: Economize estilhaços cedo para roletar por melhorias de Rank-S na Casa de Leilões pós-chefe.
+</Callout>
+
+<Section icon={Map} title="Dominando a Build de Assassino em Guildrun: Mecânicas Principais">
+
+A **build de assassino em guildrun** baseia-se em um estilo de jogo de alto risco e alta recompensa que prioriza dano de explosão (burst), escala de acerto crítico e mecânicas de furtividade para evitar multidões. Ao utilizar heróis de ataque rápido que conseguem se infiltrar na linha de retaguarda inimiga, esta composição ignora tanques pesadamente blindados da linha de frente para eliminar primeiro os causadores de dano de alta ameaça.
+
+Para maximizar a eficácia desta composição, os jogadores devem equilibrar atributos puramente ofensivos com mecânicas vitais de sobrevivência, como vampirismo universal (omnivamp) e gatilhos de furtividade de emergência. Quando devidamente otimizados, seus assassinos encadearão execuções, gerarão estilhaços extras ao abater e derreterão chefes de vida alta usando acúmulos rápidos de veneno.
+
+**Destaques do Vídeo:**
+- **Sinergia de Furtividade**: Como Nyx utiliza janelas estendidas de furtividade para retalhar com segurança alvos valiosos na retaguarda.
+- **Geração de Estilhaços**: Aproveitando habilidades passivas para maximizar sua renda de ouro após cada encontro de combate bem-sucedido.
+- **Escala de Veneno**: Combinando relíquias de veneno com velocidades de ataque rápidas para derrotar chefes de fim de jogo, como o Dragão de Veneno.
+
+<YouTubeEmbed videoId="QQ767NR6ZSQ" title="Guildrun *DEMO* - Assassinos Críticos Furtivos Nyx Carregador!" />
+
+<Callout type="tip" title="Dica de Posicionamento">
+Sempre posicione seus assassinos principais na fileira de trás durante a preparação. Isso garante que eles ganhem um bônus de 100% de chance de acerto crítico e furtividade instantânea nos primeiros 5 segundos de combate, permitindo que ataquem com segurança sem atrair a atenção imediata dos inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Seleção de Heróis e Caminhos de Melhoria">
+
+Uma jornada de sucesso requer uma lista equilibrada de assassinos especializados e pelo menos uma âncora competente na linha de frente. Embora o dano puro seja tentador, uma unidade híbrida capaz de aguentar golpes enquanto espalha penalidades garante que seus carregadores frágeis tenham o tempo necessário para escalar seu dano.
+
+A tabela abaixo descreve os heróis principais necessários para esta build, suas funções primárias no campo de batalha e suas prioridades recomendadas de melhoria.
+
+| Herói | Classe/Função | Habilidade Chave | Prioridade de Melhoria |
+| --- | --- | --- | --- |
+| Nyx | Carregador Assassino | Crítico furtivo, executa inimigos abaixo de 30% de Vida | Rank-S (Alta) |
+| Yuna | Assassino de Crítico | Golpe de Sombra de Shuriken, explosão multi-alvo | Rank-A (Média) |
+| Logan | Assassino de Estilhaços | Concede bônus de dano de ataque ao carregador, gera ouro | Rank-B (Baixa) |
+| Draamir | Tanque Vanguarda | Alto vampirismo universal, espalha veneno e gelo | Rank-S (Alta) |
+
+Cada herói deve ser melhorado sistematicamente. Nyx serve como sua principal condição de vitória devido à sua habilidade de executar alvos com pouca vida instantaneamente, o que impede que inimigos tanques se curem de volta. Yuna fornece um excelente dano secundário em área de efeito com seu Golpe de Sombra de Shuriken, que visa os inimigos com menor vida para suavizá-los para o limiar de execução de Nyx.
+
+<CardGrid cols={3}>
+  <Card title="Nyx (A Carregadora)">
+    - **Especialista em Execução**: Mata instantaneamente inimigos abaixo de 30% da vida máxima.
+    - **Velocidade de Ataque Insana**: Escala rapidamente com itens de ataque básico.
+    - **Dependente de Furtividade**: Requer posicionamento na retaguarda para segurança.
+  </Card>
+  <Card title="Yuna (A Facilitadora)">
+    - **Alto Dano de Explosão**: O golpe de Shuriken atinge múltiplos alvos.
+    - **Escala de Atributos**: Ganha chance de acerto crítico permanente à medida que sobe de rank.
+    - **Veneno de Reserva**: Aplica veneno em acertos críticos quando está na reserva.
+  </Card>
+  <Card title="Draamir (A Âncora)">
+    - **Vanguarda Híbrido**: Combina alta defesa com escala semelhante à de um assassino.
+    - **Rei do Vampirismo**: Cura de volta grandes porções do dano causado.
+    - **Espalhador de Penalidades**: Aplica facilmente veneno, gelo e queimadura.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evite Investir Demais">
+Não espalhe seus estilhaços uniformemente entre todos os personagens. Priorize levar Nyx ao Rank-S primeiro, seguida de perto por Draamir para garantir que sua linha de frente não desmorone instantaneamente em encontros de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégia de Relíquias e Itens">
+
+Em Guildrun, itens e relíquias definem o potencial de escala da sua equipe. Para o arquétipo de assassino, você deve focar fortemente em itens que concedem chance de acerto crítico plana, vampirismo universal físico e mágico, e aplicação de veneno. Como os assassinos atacam rapidamente, qualquer penalidade ao atingir escala exponencialmente.
+
+| Nome do Equipamento | Tipo | Efeitos Chave | Sinergia da Build |
+| --- | --- | --- | --- |
+| Assassin's Ambush Engine | Relíquia | Aplica veneno, +50% de crítico contra alvos envenenados | Mecanismo de dano principal para toda a equipe |
+| Assassin Smoke Screen | Relíquia | Furtividade por 3s ao cair abaixo de 33% de Vida | Sobrevivência crítica para carregadores frágeis |
+| Assassin's Glyph | Item | Concede +75 de chance de acerto crítico | Escala plana para empurrar o crítico além de 100% |
+| Large Power Crystal | Item | Atributos primários massivos após sobreviver a 2 combates | Pico de poder massivo no meio do jogo para seu carregador |
+| Searing Contract | Item | Executa alvos após realizar 25 acertos críticos | Sinergiza perfeitamente com a alta velocidade de ataque de Nyx |
+
+Ao escolher itens na loja, priorize aumentos de atributos planos que não ocupem espaços valiosos de itens, como o treinamento permanente de atributos. Se você conseguir adquirir um Grande Cristal de Poder (Large Power Crystal), coloque-o em um herói com classe dupla como Draamir para receber o dobro dos bônus de atributos assim que o cristal amadurecer.
+
+<Callout type="success" title="Mecânica de Transbordo de Crítico">
+Assim que a chance de acerto crítico de um herói excede 100%, any excesso de chance de acerto crítico é convertido automaticamente em dano de acerto crítico. Nunca pare de acumular crítico, pois isso aumenta diretamente seu potencial de explosão no fim do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão Passo a Passo da Build">
+
+Construir uma equipe poderosa requer planejamento cuidadoso ao longo das diferentes fases de uma jornada. Você não pode simplesmente forçar unidades de Rank-S desde o início; em vez disso, deve gerenciar sua economia, utilizar substitutos temporários e fazer a transição suavemente para sua composição final.
+
+<Steps>
+  <Step num="1" title="Fazenda de Estilhaços no Início do Jogo">
+    Comece sua jornada com Yuna e foque em seu caminho de melhoria de geração de estilhaços. Posicione-a de forma que ela possa garantir golpes finais (last hits) com segurança. Evite roletar excessivamente a loja nos primeiros rounds; em vez disso, acumule estilhaços para render juros e comprar itens de alto nível quando eles aparecerem naturalmente.
+  </Step>
+  <Step num="2" title="Garantindo a Linha de Frente">
+    Introduza um Vanguarda ou Guerreiro como Draamir ou Kai para atuar como seu tanque principal. Dê a eles itens defensivos como o Elmo do Escudeiro (Squire's Helm) ou itens que concedam vampirismo universal. Isso garante que seus assassinos da retaguarda tenham tempo suficiente para carregar suas barras de mana e liberar suas habilidades ativas.
+  </Step>
+  <Step num="3" title="Transição para Nyx Carregadora">
+    Localize Nyx na loja e comece a transferir seus itens de alta velocidade de ataque para ela. Melhore-a para o Rank-B e selecione a passiva de execução. Mude seu posicionamento para que Nyx comece na fileira de trás para se beneficiar dos bônus imediatos de furtividade e crítico.
+  </Step>
+  <Step num="4" title="Otimização de Relíquias no Fim do Jogo">
+    Gaste seus estilhaços acumulados nas Casas de Leilão pós-chefe para caçar relíquias épicas como o Motor de Emboscada do Assassino (Assassin's Ambush Engine) ou a Cortina de Fumaça do Assassino (Assassin Smoke Screen). Venda quaisquer itens substitutos do início do jogo para liberar espaço para modificadores de atributos de alto nível, como o Contrato Chamuscante (Searing Contract).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gestão de Economia">
+Fique de olho nos custos de nova rolagem da loja. Se você estiver com poucos estilhaços, economize sua moeda para os eventos de fogueira, onde você pode treinar novamente melhorias ou obter aumentos gratuitos de atributos sem gastar estilhaços preciosos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Ímpeto (Rush) vs. Desgaste (Stall) em Builds de Assassino">
+
+Guildrun apresenta dois tempos de combate opostos: **Ímpeto** (Rush) e **Desgaste** (Stall). Entender como equilibrar essas duas mecânicas é crucial para adaptar sua build de assassino a diferentes composições de inimigos.
+
+| Fase de Combate | Condição de Ativação | Bônus de Atributos Primários | Aplicação Ideal da Build |
+| --- | --- | --- | --- |
+| Ímpeto | Primeiros 6 a 10 segundos de combate | Aumento de velocidade de ataque, velocidade de movimento e poder de ataque | Configurações de explosão rápida projetadas para varrer a retaguarda instantaneamente |
+| Desgaste | Após 15 a 20 segundos de combate | Alta defesa, escala percentual de atributos e escudos | Configurações defensivas ou builds de veneno que dependem de sobrevivência |
+
+Para uma build de assassino, o **Ímpeto** é geralmente a melhor escolha. Como suas unidades começam em furtividade com acertos críticos garantidos, você quer causar o máximo de dano possível nos primeiros segundos da luta. Itens que estendem a duração das habilidades de Ímpeto permitem que seus assassinos limpem o campo de batalha antes que o inimigo possa contra-atacar.
+
+No entanto, se você estiver enfrentando tanques altamente defensivos ou chefes com barras de vida massivas, integrar algumas mecânicas de **Desgaste** pode salvar sua jornada. Relíquias que concedem escudos para toda a equipe ou bônus defensivos massivos após 20 segundos garantem que seus acúmulos de veneno tenham tempo suficiente para agir e garantir o abate.
+
+<Callout type="warning" title="Perigo de Atordoamento">
+Cuidado com inimigos com fortes atordoamentos em área de efeito. Se seus assassinos forem atordoados durante a fase inicial de Ímpeto, eles perderão sua janela de furtividade e poderão ser facilmente eliminados pelo dano da retaguarda inimiga.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Verificação e Lista de Controle de Fim de Jogo">
+
+Antes de seguir para a arena do chefe final ou entrar no modo de escala infinita, use esta lista de controle para verificar se sua composição possui as ferramentas necessárias para vencer.
+
+<Checklist
+  id="endgame-assassin-checklist"
+  title="Marcos Necessários para o Modo Infinito:"
+  items={[
+    "Nyx está melhorada para pelo menos Rank-A (Rank-S altamente recomendado) com a passiva de execução de pouca vida ativada",
+    "Pelo menos um Vanguarda da linha de frente (como Draamir) tem mais de 15% de vampirismo universal para sustentar contra ataques pesados em área de efeito",
+    "A equipe adquiriu a relíquia Cortina de Fumaça do Assassino (Assassin Smoke Screen) para evitar que os carregadores morram instantaneamente quando a furtividade acabar",
+    "A chance total de acerto crítico da equipe no seu carregador principal excede 150% para maximizar o transbordo de dano de acerto crítico",
+    "Uma fonte confiável de aplicação de veneno está ativa para derreter constantemente chefes de alta defesa durante confrontos prolongados"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual é o item mais importante para a build de assassino em guildrun?",
+    answer: "O Motor de Emboscada do Assassino (Assassin's Ambush Engine) é a relíquia mais crítica. Ele permite que seus assassinos apliquem veneno em acertos críticos e concede um bônus massivo de 50% de dano de acerto crítico contra inimigos envenenados, criando um ciclo de dano altamente eficaz."
+  },
+  {
+    question: "Como lidar com composições de tanques pesados que bloqueiam meus assassinos?",
+    answer: "Utilize o posicionamento na retaguarda para conceder furtividade aos seus assassinos no início do combate. Isso faz com que eles ignorem os tanques da linha de frente e corram diretamente para a retaguarda inimiga para eliminar primeiro os causadores de dano mais frágeis."
+  },
+  {
+    question: "Devo comprar heróis de Rank-C no fim do jogo?",
+    answer: "Geralmente, não. No fim do jogo, você deve focar seus estilhaços em melhorar seus carregadores existentes para o Rank-S ou comprar relíquias de alto nível na Casa de Leilões. Só compre heróis de rank inferior se eles oferecerem uma habilidade de reserva poderosa a partir do banco de reservas."
+  },
+  {
+    question: "O que devo fazer se meu tanque da linha de frente morrer rápido demais?",
+    answer: "Equipe seu tanque com itens que concedem alto vampirismo universal e escudos baseados na vida máxima. Além disso, procure pela relíquia Cortina de Fumaça do Assassino (Assassin Smoke Screen), que dá aos seus assassinos furtividade temporária quando estão com pouca vida, redirecionando o foco do inimigo para longe deles."
+  }
+]} />
+
+</Section>

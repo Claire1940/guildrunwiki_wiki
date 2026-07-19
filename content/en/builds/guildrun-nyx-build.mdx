@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Nyx Build: Stealth Assassin Setup Guide",
+  description: "Master the stealthy crit assassin Nyx carry setup in Guildrun. Learn the best items, relics, and team comps for this high-damage build.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Nyx+Stealth+Crit+Build",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Setup**: This **guildrun nyx build** relies on backline stealth to guarantee a 100% critical strike rate.
+- **Core Carry**: Nyx scales exponentially using high attack speed items and the Spark execute retraining upgrade.
+- **Frontline Solo**: Dragamir acts as the sole Vanguard tank, scaling team-wide omnivamp through shard generation.
+- **Relic Priority**: Prioritize Assassin's Smokescreen and Poison Catalyst to survive and melt high-HP enemies.
+- **Endless Viability**: Transition into poison-scaling items to bypass late-game defense scaling on boss fights.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics of the Guildrun Nyx Build">
+
+Guildrun combines fast-paced auto-battler mechanics with deep roguelike progression. To succeed in the higher difficulty tiers and endless mode, understanding class synergy is vital. The Assassin archetype is highly favored for its explosive burst damage, but it requires a dedicated setup to survive long-drawn fights. This guide focuses on the high-velocity stealth assassin setup, commonly referred to as the premier **guildrun nyx build**.
+
+This setup revolves around positioning your primary damage dealers in the back row to trigger immediate stealth at the start of combat. While stealthed, assassins gain 100% critical strike chance and are completely untargetable, allowing them to shred the enemy backline without taking early damage. By pairing Nyx with high-utility support units and a robust frontline tank, you can easily clear the game's toughest rifts.
+
+**Video Highlights:**
+- **High-speed auto attacks** scaling Nyx's attack speed to over 3.63 attacks per second.
+- **Stealth-based crit scaling** that boosts crit rates over 250% for massive burst damage.
+- **Shard-based economy** leveraging Dragamir's Devour to scale magic power and buy high-tier relics.
+- **Endless mode viability** reaching deep rounds and high global leaderboard rankings.
+
+<YouTubeEmbed videoId="QQ767NR6ZSQ" title="Guildrun Stealthy Crit Assassins Nyx Carry" />
+
+<Callout type="info" title="Build Concept">
+The strength of this build lies in its dual-scaling nature. While Nyx deals rapid physical and magical damage through high attack speed, her critical strikes trigger poison applications that melt high-HP bosses over time.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hero Upgrades and Class Synergy">
+
+To run this build effectively, you need to draft a specific composition of Breakers. While Nyx acts as your primary hyper-carry, she requires the support of other assassins to activate class-wide synergies, alongside a sturdy Vanguard to absorb initial enemy aggro.
+
+| Hero | Class | Core Role | Key Skill Upgrade | Synergy Rating |
+| Nyx | Assassin | Primary Hyper-Carry | Spark Retraining (Execute < 30% HP) | ★★★★★ |
+| Yuna | Assassin | Crit/Poison Enabler | Shadow Strike (Shard Generation) | ★★★★☆ |
+| Logan | Assassin | Buffer & Sub-Carry | Ambush Engine (AD scaling for Nyx) | ★★★★☆ |
+| Dragamir | Vanguard | Frontline Solo Tank | Devour (Omnivamp & Shard Scaling) | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Nyx (The Carry)">
+    Focuses on rapid attack speed, high critical strike scaling, and executing low-health targets instantly.
+  </Card>
+  <Card title="Dragamir (The Wall)">
+    Absorbs frontline pressure, consumes shards to scale omnivamp, and keeps the team alive.
+  </Card>
+  <Card title="Logan (The Enabler)">
+    Provides extended stealth durations and passive attack damage buffs to adjacent allies.
+  </Card>
+</CardGrid>
+
+Upgrading your heroes at the campfire is crucial. For Nyx, prioritizing the Spark retraining upgrade is highly recommended. This skill allows her to instantly execute any enemy whose health drops below 30%, completely bypassing high-defense tanks in the late game. Meanwhile, Dragamir should focus on upgrades that consume shards to permanently increase his max HP and defense.
+
+<Callout type="success" title="Synergy Tip">
+Always look for opportunities to draft Logan alongside Nyx. Logan's passive ability grants adjacent assassins permanent attack damage whenever they survive a combat round while stealthed, creating an infinite scaling loop.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Relics, Items, and Scaling Progression">
+
+Items and relics in Guildrun dictate your team's scaling potential. Since assassins are inherently squishy, your itemization must balance raw damage output with defensive utility like omnivamp and emergency stealth triggers.
+
+| Relic | Rarity | Core Effect | Build Impact | Rating |
+| Assassin's Smokescreen | Epic | Stealth for 3s when below 33% HP | Critical survivability for squishy carries | ★★★★★ |
+| Large Power Crystal | Rare | Massive stat boost after 2 combats | Permanent scaling for dual-class units | ★★★★☆ |
+| Poison Catalyst | Epic | Multiplies poison damage over time | Melts high-HP tanks in endless mode | ★★★★★ |
+| Warrior's Emblem | Rare | Enhances warrior stats at a minor cost | Buffs Dragamir's frontline capability | ★★★☆☆ |
+
+For Nyx's personal item slots, prioritize items that offer attack speed, critical strike chance, and on-hit debuffs. The Ring of Virality is highly effective here, as it inflicts massive poison stacks with every rapid auto attack.
+
+| Item | Slot | Primary Stats | Unique Effect | Target Hero |
+| Ring of Virality | Weapon/Accessory | Omnivamp, Crit | Inflicts 175 poison on target | Nyx |
+| Searing Contract | Weapon | Attack Speed, Crit | Executes enemies on multiple crits | Nyx / Yuna |
+| Guardian's Lantern | Armor | Max HP, Defense | Shields adjacent allies at combat start | Dragamir |
+| Quiver of Swiftness | Weapon | Attack Speed | Accelerates mana gain & auto attacks | Yuna |
+
+To transition this build from the early game to endless mode, follow this specific progression path:
+
+<Steps>
+  <Step num="1" title="Establish Shard Economy">
+    Draft Dragamir early and select upgrades that generate extra shards on kill. This allows you to aggressively reroll the shop for key relics.
+  </Step>
+  <Step num="2" title="Secure Backline Stealth">
+    Acquire the Assassin's Smokescreen relic and position Nyx and Logan in the back row to guarantee early critical strikes.
+  </Step>
+  <Step num="3" title="Unlock Spark Retraining">
+    Visit the campfire in Act 2 to retrain Nyx's active skill into the Spark execute, allowing her to shred elite monsters.
+  </Step>
+  <Step num="4" title="Transition to Poison Scaling">
+    Equip Nyx with the Ring of Virality and grab the Poison Catalyst relic to scale your damage exponentially in endless mode.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Risk Factor">
+Beware of relics that reduce your team's attack speed or stun your heroes at the start of combat. Assassins rely heavily on immediate stealth and fast attack cycles to survive.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Positioning and Combat Strategy">
+
+Proper positioning is what separates a successful run from an early defeat. Since assassins rely on stealth to avoid direct confrontation, your frontline must be positioned to draw all initial enemy aggro.
+
+| Row | Hero | Primary Duty | Positioning Logic |
+| Front Row | Dragamir | Solo Tanking | Draws initial melee aggro, activates Devour |
+| Back Row | Nyx | Safe DPS | Gains 100% crit and 5s stealth immediately |
+| Back Row | Logan | Buffing Nyx | Placed adjacent to Nyx to share passive AD buffs |
+| Reserve | Yuna | Backup Poison | Triggers backup assassin poison buffs from the bench |
+
+When facing bosses with heavy area-of-effect (AoE) attacks, space your backline assassins apart. Keeping Nyx and Logan on opposite sides of the back row prevents them from being hit by the same sweeping spells, ensuring at least one carry remains healthy throughout the fight.
+
+<Checklist
+  id="combat-readiness"
+  title="Pre-Combat Checklist:"
+  items={[
+    "Verify Dragamir is in the sole frontline tile to draw immediate aggro.",
+    "Ensure Nyx is adjacent to Logan to receive the passive attack damage buffs.",
+    "Check that all backline assassins have active stealth items equipped.",
+    "Confirm that your reserve bench is populated with assassins to trigger backup synergies."
+  ]}
+/>
+
+<Callout type="tip" title="Tactical Advice">
+If you encounter enemies with high dodge rates, swap one of Nyx's attack speed items for an accuracy-boosting relic. Missing attacks halts your mana generation and prevents your execute skills from triggering.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Why is Nyx preferred over Yuna as the primary carry in this build?",
+    answer: "While Yuna is excellent for early-game shard generation, Nyx possesses superior attack speed scaling and can be retrained to execute targets below 30% health, making her far more effective against late-game bosses."
+  },
+  {
+    question: "How do I deal with heavy crowd control (CC) teams using the guildrun nyx build?",
+    answer: "Prioritize acquiring relics that grant CC immunity during the first few seconds of combat (Rush triggers). This ensures your assassins can utilize their full stealth duration without being interrupted."
+  },
+  {
+    question: "Can I run this build without Dragamir as the frontline tank?",
+    answer: "It is highly discouraged. Dragamir's unique ability to scale omnivamp and generate shards is vital for funding your expensive relic upgrades. Replacing him will severely limit your team's scaling potential."
+  },
+  {
+    question: "What is the ideal attack speed cap for Nyx in endless mode?",
+    answer: "There is no hard cap, but aiming for at least 3.5 attacks per second is recommended. This allows Nyx to trigger the Ring of Virality and poison catalysts multiple times per second."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Keep experimenting with different relic combinations at the auction house. The beauty of this build is its flexibility in accommodating various high-tier offensive relics as long as your core stealth engine remains intact.
+</Callout>
+
+</Section>of

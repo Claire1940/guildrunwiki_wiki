@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "guildrun team comps: Best Hero Synergies & Strategy Guide",
+  description: "Master the meta with the best guildrun team comps. Learn how to combine Warriors, Duelists, and Assassins for maximum synergy and endgame success.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Team+Comps+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Building effective **guildrun team comps** requires balancing active combatants with strategic reserve units.
+- **Core mechanic**: Synergies are determined by hero classes and timed keywords like **Rush** and **Stall**.
+- **Best strategy**: Focus on a single carry hero, such as Logan or Irani, and build your entire relic and item set around their scaling.
+- **Critical tip**: Mana pools in Guildrun are unique; smaller bars or higher mana regen lead to more frequent ability casts.
+- **Top choice**: The **Executioner Reset** comp is currently the most reliable for clearing Act 2 and entering endless mode.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics of Guildrun Team Building">
+
+Understanding how to construct **guildrun team comps** begins with the fundamental board layout and hero categorization. Unlike traditional auto-battlers, this game functions as a roguelike where every decision in the shop directly impacts your survivability in the next encounter. Heroes are divided into tiers ranging from C to S, with each tier upgrade providing significant stat boosts and new passive or active abilities. 
+
+**Video Highlights:**
+- **Hybrid Gameplay**: Guildrun blends the strategic board positioning of Teamfight Tactics with the roguelike progression of Slay the Spire.
+- **Iconography System**: Character cards display specific icons (Crit, Magic, Attack Speed) that indicate which stats scale their unique abilities.
+- **Reserve Bench**: You can hold up to three heroes in reserve; some heroes have "Backup" abilities that trigger even when they aren't on the field.
+- **Economic Management**: Shards are the primary currency used for recruiting, leveling, and purchasing game-changing relics.
+
+<YouTubeEmbed videoId="2vEHwKPfpic" title="Stop EVERYTHING And Play This! | Guildrun" />
+
+<Callout type="tip" title="Positioning Strategy">
+Always check the attack range of your heroes. Melee characters like Yuna or Logan should be placed in the front row, while ranged characters like Urania or Nyx should be protected in the back row to maximize their uptime.
+</Callout>
+
+| Mechanic | Duration | Effect |
+| :--- | :--- | :--- |
+| **Rush** | First 12 seconds | Provides immediate buffs or debuffs at the start of combat. |
+| **Stall** | After X seconds | Triggers powerful effects only after a specific amount of time has passed. |
+| **Mana Regen** | Constant | Fills the mana bar; abilities cast automatically once the bar is full. |
+| **Armor/Defense** | Constant | Reduces incoming damage; crucial for front-line "Vanguard" units. |
+
+</Section>
+
+<Section icon={Swords} title="Top Tier Synergies and Compositions">
+
+The most successful **guildrun team comps** in the current 2026 meta revolve around hyper-carry synergies. By identifying a hero with high scaling potential, you can invest your shards into specific relics that amplify their natural strengths.
+
+<CardGrid cols={3}>
+  <Card title="The Executioner Reset">
+    - **Core Hero**: Logan (Warrior)
+    - **Key Ability**: Execution (resets mana on kill)
+    - **Synergy**: High Attack and Omnivamp
+  </Card>
+  <Card title="Lightning Duelist">
+    - **Core Hero**: Irani (Duelist)
+    - **Key Ability**: Zeus's Thunder (AOE damage)
+    - **Synergy**: Massive Attack Speed scaling
+  </Card>
+  <Card title="Shadow Assassin">
+    - **Core Hero**: Yuna (Assassin)
+    - **Key Ability**: Shadow Strike (Crit-based burst)
+    - **Synergy**: Stealth and Crit Damage
+  </Card>
+</CardGrid>
+
+The "Executioner" build relies on Logan's ability to chain kills. By equipping relics that provide mana on kill, Logan can cast his ultimate repeatedly, effectively clearing the board before the enemy can react. Alternatively, the Duelist build focuses on the "Zeus's Thunder" quest, which converts high attack speed into screen-clearing lightning damage.
+
+<Callout type="success" title="Synergy Bonus">
+If you run multiple heroes of the same class, such as two Duelists, certain relics like the "Duelist Momentum Engine" will trigger twice as often, providing a massive boost to your team's total DPS.
+</Callout>
+
+| Hero | Class | Primary Scaling | Role |
+| :--- | :--- | :--- | :--- |
+| **Logan** | Warrior | Attack / Health | Bruiser / Reset Carry |
+| **Irani** | Duelist | Attack Speed | Sustained DPS / AOE |
+| **Yuna** | Assassin | Crit Chance | Single Target Burst |
+| **Nyx** | Duelist | Attack Speed / Burn | Debuff / DPS |
+| **Urania** | Duelist | Attack Speed | Ranged Support |
+
+</Section>
+
+<Section icon={Target} title="Hero Classes and Stat Scaling">
+
+Every hero in your **guildrun team comps** has a specific class that dictates their growth. Understanding these classes is vital for choosing the right items in the shop. For example, a Warrior gains health and attack upon leveling up, while a Duelist focuses on health and attack speed.
+
+The iconography on the left side of a hero card is not just flavor text. If you see a purple icon next to a damage number, that ability scales with Magic. If you see a red Shuriken icon, it scales with Crit. 
+
+<Callout type="warning" title="Mana Pool Trap">
+Do not assume a larger mana pool is better. In Guildrun, a hero with a 30-mana pool will cast their ability much more frequently than a hero with an 80-mana pool, assuming equal mana regeneration.
+</Callout>
+
+| Class | Base Strengths | Typical Scaling | Best Position |
+| :--- | :--- | :--- | :--- |
+| **Warrior** | High HP, Shielding | Attack, Defense | Front Row |
+| **Duelist** | Attack Speed, Multi-hit | Attack Speed, Magic | Middle/Back |
+| **Assassin** | Burst, Stealth | Crit, Crit Damage | Flank/Back |
+| **Mage** | AOE, Spells | Magic, Mana Regen | Back Row |
+| **Vanguard** | Pure Tanking | Health, Armor | Front Row |
+| **Mystic** | Healing, Shielding | Magic, Mana Regen | Reserve/Back |
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Team Construction">
+
+Building a competitive team is a process of iteration. You cannot simply pick your final team in Act 1; you must adapt to the heroes and relics offered in the shop.
+
+<Steps>
+  <Step num="1" title="Select Your Starter">
+    Choose a hero that fits your preferred playstyle. Yuna is great for early burst, while Logan offers more sustainability through shields.
+  </Step>
+  <Step num="2" title="Identify Your Carry">
+    By the end of Act 1, decide which hero will receive your best items. This hero should be the one you level to A or S tier first.
+  </Step>
+  <Step num="3" title="Hunt for Key Relics">
+    Visit the Auction House after the first Act boss. Look for "Harmony Crystals" to increase your team size or class-specific banners like the "Duelist Toxin Banner."
+  </Step>
+  <Step num="4" title="Optimize the Reserve">
+    Recruit heroes with passive backup abilities. A Mystic in the reserve can provide healing to your active party without taking up a combat slot.
+  </Step>
+  <Step num="5" title="Finalize Synergies">
+    Before entering Endless Mode, ensure your carry has capped their primary stat (like 100% Crit) to trigger secondary effects like Crit Damage scaling.
+  </Step>
+</Steps>
+
+<Callout type="info" title="The Auction House">
+The Auction House is a special shop that appears after Act bosses. It contains higher-tier relics and the essential Harmony Crystals needed to expand your active team size from 3 to 5.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endgame Survival and Endless Mode">
+
+Once you clear the Act 2 boss, you enter Endless Mode. Here, the difficulty scales infinitely, and your **guildrun team comps** will be pushed to their absolute limits. Survival in this mode requires more than just damage; you need defensive layers like lifesteal (Omnivamp) and crowd control (Stuns/Frost).
+
+<Checklist
+  id="endgame-prep"
+  title="Endgame Checklist:"
+  items={[
+    "Reach maximum team size (5 active slots)",
+    "Equip at least one S-tier carry with full items",
+    "Secure a source of healing (Omnivamp or Mystic support)",
+    "Apply at least two types of debuffs (Burn, Poison, or Frost)",
+    "Obtain a defensive relic for your front-line tank"
+  ]}
+/>
+
+<Callout type="success" title="Omnivamp Importance">
+Omnivamp is the most valuable endgame stat because it heals your heroes based on both physical and magic damage dealt, ensuring your glass cannons can stay healthy.
+</Callout>
+
+| Survival Layer | Source | Effect |
+| :--- | :--- | :--- |
+| **Stealth** | Assassin Passives | Prevents enemies from targeting the hero temporarily. |
+| **Shields** | Warrior Abilities | Provides a temporary health buffer that absorbs damage. |
+| **Frost** | Frost Relics | Reduces enemy attack speed and defense significantly. |
+| **Stuns** | Executioner Quest | Completely disables enemies for a short duration. |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I increase my team size in Guildrun?",
+    answer: "You must purchase Harmony Crystals or complete specific team-size quests found in the Auction House after defeating Act bosses. This allows you to expand from 3 to 5 active heroes."
+  },
+  {
+    question: "What are the best guildrun team comps for beginners?",
+    answer: "The Warrior-Duelist hybrid is the most beginner-friendly. Warriors provide a sturdy front line with shields, while Duelists deal consistent damage through high attack speed."
+  },
+  {
+    question: "Can I change a hero's ability after I've picked it?",
+    answer: "Yes, you can use the Campfire locations found between major battles to 'Retrain' an ability. This is useful for pivoting your strategy if you find a legendary relic that doesn't fit your current build."
+  },
+  {
+    question: "What is the difference between Rush and Stall?",
+    answer: "Rush effects happen immediately for the first 12 seconds of a fight. Stall effects only trigger after a set amount of time (e.g., 15 seconds) but usually last for the remainder of the battle."
+  }
+]} />
+
+<Callout type="info" title="Final Verdict">
+Mastering **guildrun team comps** is about understanding the synergy between your heroes' timed keywords and the relics you collect. Always prioritize your economy in the early game to ensure you can afford the S-tier upgrades and Harmony Crystals required for a deep Endless Mode run.
+</Callout>
+
+</Section>

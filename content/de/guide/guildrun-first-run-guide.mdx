@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Einsteiger-Guide: Meistere das Early Game & Team-Synergien",
+  description: "Erfahre, wie du deinen ersten Vertrag in Guildrun dominierst – mit unserem umfassenden Guide zu Heldenwahl, Verbrennungs-Synergien und Ressourcenmanagement.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+First+Run+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki Team"
+}
+
+<Callout type="info" title="Kurz-Guide">
+- **Guildrun Einsteiger-Guide**: Konzentriere dich auf den Aufbau von Magier-Synergien mit hoher Magiekraft, um die ersten Demo-Akte effizient abzuschließen.
+- **Verbrennungs-Mechanik**: Nutze Helden wie Funky, um Verbrennungs-Debuffs zu stapeln, die durch bestimmte Relikte massiv verstärkt werden.
+- **Ressourcen-Priorität**: Gib Splitter frühzeitig für Helden-Duplikate aus, um mächtige passive und aktive Fähigkeiten freizuschalten.
+- **Positionierungs-Strategie**: Platziere Vanguards (Vorhut) vorne und Magier hinten, um die Überlebensfähigkeit während des 20-sekündigen „Stall“-Zeitfensters zu maximieren.
+- **Wichtiges Relikt**: Der Verbrennungskatalysator (Burn Catalyst) ist das einflussreichste Item für Feuer-Kompositionen im frühen Spiel.
+</Callout>
+
+<Section icon={Map} title="Heldenwahl und Kampf-Grundlagen">
+
+Der Start deiner Reise in Guildrun erfordert ein solides Verständnis des „Breaker“-Systems. In diesem **Guildrun Einsteiger-Guide** betonen wir, dass deine erste Heldenwahl den gesamten Verlauf deines Runs bestimmt. Aktuell bietet die Demo Helden wie Funky, Yuna und Kai, die sich auf verschiedene elementare oder physische Archetypen spezialisieren. Funky ist beispielsweise eine erstklassige Wahl als Magier aufgrund seiner „Wildfire“-Fähigkeit, die sich hervorragend eignet, um Schaden automatisch über das Schlachtfeld zu verteilen.
+
+**Video-Highlights:**
+- **Helden-Archetypen**: Überblick über Startfähigkeiten wie Wildfire.
+- **Auto-Battle-Systeme**: Verständnis des Managewinns durch automatische Angriffe.
+- **Shop-Mechaniken**: Wie man Splitter für Helden, Items und Relikte ausgibt.
+- **Synergie-Aufbau**: Kombination von Magier- und Vanguard-Klassen für ein ausgewogenes Team.
+
+<YouTubeEmbed videoId="XGFvBmp-XTo" title="Guildrun | Awesome Auto Battler Roguelike!" />
+
+Der Kampf in Guildrun ist voll automatisiert, was bedeutet, dass dein Erfolg vollständig von deiner Vorbereitung und Positionierung abhängt. Helden generieren Mana durch automatische Angriffe; sobald die Manaleiste voll ist, lösen sie ihre aktive Fähigkeit aus. Das macht Manaregenerations-Werte und Angriffsgeschwindigkeit entscheidend für Zauberer, die auf wirkungsvolle Zauber angewiesen sind, um Wellen zu beseitigen.
+
+| Mechanik | Beschreibung | Auswirkung auf den Kampf |
+| :--- | :--- | :--- |
+| **Auto-Angriff** | Standard-Heldenangriffe | Generiert Mana für aktive Fähigkeiten |
+| **Aktive Fähigkeit** | Wird bei 100% Mana ausgelöst | Hoher Schaden oder Utility-Effekte |
+| **Manareg** | Passive Managewinnung | Verkürzt die Zeit zwischen den Zaubern |
+| **Positionierung** | Rasterbasierte Platzierung | Bestimmt Zielpriorität und Sicherheit |
+
+<Callout type="tip" title="Manamanagement">
+Priorisiere Items, die Manaregeneration für deine Magier bieten. Ein Magier, der seine Fähigkeit zweimal pro Kampf einsetzt, ist deutlich wertvoller als einer mit hoher Magiekraft, der nur einmal zum Zug kommt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Team-Synergien und Archetypen aufbauen">
+
+Der Kern eines erfolgreichen Runs liegt in den Synergien von Klassen und Archetypen. Wenn du den Shop besuchst, werden dir drei Helden präsentiert. Einen Helden zu kaufen, den du bereits besitzt, erhöht seinen Rang, was oft besser ist, als einfach einen neuen Helden mit niedrigem Rang in dein Team aufzunehmen. Das Aufsteigen im Rang schaltet passive Fähigkeiten frei, die die Stärke deines Teams maßgeblich definieren.
+
+<CardGrid cols={3}>
+  <Card title="Der Verbrennungskern">
+    - **Primärer Held**: Funky
+    - **Schlüssel-Synergie**: Verbrennungskatalysator-Relikt
+    - **Effekt**: Massiver Schaden über Zeit, der mit Magie skaliert.
+  </Card>
+  <Card title="Die Frost-Kontrolle">
+    - **Primärer Held**: Frost-Magier
+    - **Schlüssel-Synergie**: Verlangsamung und Betäubung
+    - **Effekt**: Reduziert die Angriffsfrequenz der Gegner, um deine Frontline zu schützen.
+  </Card>
+  <Card title="Die Vanguard-Mauer">
+    - **Primärer Held**: Ming oder andere Tanks
+    - **Schlüssel-Synergie**: Verteidigungsskalierende Items
+    - **Effekt**: Absorbiert Schaden, damit Magier die Stall-Phase erreichen können.
+  </Card>
+</CardGrid>
+
+Synergien werden über Schlüsselwörter verfolgt. Die Klasse „Magier“ gewährt beispielsweise oft Bonus-Magiekraft für alle verbündeten Magier. Wenn du mehrere Magier stapelst, kann ihre kombinierte Kraft selbst die stärksten Bosse schmelzen lassen. Wenn du jedoch deine Frontline vernachlässigst, führt dies zu einer schnellen Niederlage, da schwache Magier keinen direkten Kontakt mit schadensstarken Gegnern wie dem Pilz-Typ oder der gepanzerten Schildkröte überleben.
+
+| Klasse | Primäre Rolle | Schlüsselwert | Häufige Synergien |
+| :--- | :--- | :--- | :--- |
+| **Magier** | Fernkampf-DPS | Magie | Verbrennung, Frost, Manareg |
+| **Vanguard** | Tank | Verteidigung | Schilde, Rush, HP |
+| **Assassine** | Einzelziel | Angriff | Krit, Tempo, Tarnung |
+| **Support** | Utility | Regeneration | Heilung, Buffs, Debuffs |
+
+<Callout type="warning" title="Helden-Duplikate">
+Ignoriere keine Duplikate im Shop. Ein Held auf Rang A oder S erhält massive Status-Boosts und zusätzliche Klassentags, die den Unterschied zwischen einem gescheiterten Run und einem Sieg ausmachen können.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Shop-Management und Ressourcenallokation">
+
+Splitter sind das Lebenselixier deiner Gilde. Sie effektiv zwischen den Kämpfen zu verwalten, unterscheidet Experten von Anfängern. Der Shop bietet drei Kategorien von Upgrades: Helden, Items und Relikte. Auch wenn es verlockend ist, jedes glänzende Item zu kaufen, musst du Heldenränge priorisieren, um das volle Potenzial deines Teams freizuschalten.
+
+<Checklist
+  id="shop-priority-list"
+  title="Shop-Checkliste für jeden Besuch:"
+  items={[
+    "Suche nach Helden-Duplikaten, um bestehende Einheiten aufzuwerten",
+    "Identifiziere Relikte, die zu deinem aktuellen Elementar-Archetyp passen",
+    "Rüste individuelle Items basierend auf den skalierenden Werten der Helden aus",
+    "Erwäge einen Reroll, wenn kein Held in deine Synergie passt",
+    "Friere den Shop ein, wenn du einen wichtigen Helden siehst, aber keine Splitter hast"
+  ]}
+/>
+
+Relikte sind einzigartig, da sie dein gesamtes Team beeinflussen. Zum Beispiel erhöht der „Plated Codex“ die Verteidigung für alle nach einem Sieg, während der „Verbrennungskatalysator“ allen Verbrennungsschaden verstärkt. Items hingegen werden einzelnen Helden ausgerüstet. Einen „Patient Ring“ einem Vanguard zu geben, ist ein kluger Schachzug, da er Gesundheit und Utility bietet, was einer Einheit zugutekommt, die lange im Kampf bleibt.
+
+| Item-Typ | Ziel | Kosten | Strategie |
+| :--- | :--- | :--- | :--- |
+| **Held** | Team-Roster | Niedrig/Mittel | Konzentration auf Rangaufstieg der Kern-Einheiten |
+| **Relikt** | Globaler Buff | Hoch | Nur kaufen, wenn es zur Synergie passt |
+| **Item** | Individuell | Mittel | Slots zuerst bei deinem Carry-Helden füllen |
+| **Reroll** | Shop-Refresh | Skalierend | Im frühen Spiel sparsam einsetzen |
+
+<Callout type="success" title="Relikt-Synergie">
+Wenn du ein feuerlastiges Team spielst, ist der Verbrennungskatalysator ein Pflichtkauf. Er kann bei Bosskämpfen oft 30 % oder mehr deines Gesamtschadens ausmachen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guildrun Einsteiger-Guide: Navigation auf der Karte und Herausforderungen">
+
+Die Karte in Guildrun bietet verzweigte Pfade, darunter das Minen von Splittern, das Finden von Items oder das Trainieren von Helden. Den richtigen Weg zu wählen, hängt von der aktuellen Stärke deines Teams ab. Wenn du gesund bist und Kämpfe leicht gewinnst, gehe zu „Herausforderungs“-Begegnungen, um zusätzliche Splitter zu verdienen. Wenn dein Team zu kämpfen hat, suche nach einem Lagerfeuer, um einen Helden kostenlos aufzuwerten, oder einem Shop, um bessere Ausrüstung zu finden.
+
+<Steps>
+  <Step num="1" title="Frühe Aggression">
+    Priorisiere in den ersten Knoten das Finden eines dritten Helden, um deine aktiven Slots zu füllen. Mache dir noch keine Sorgen um perfekte Synergien; in Akt 1 zählen rohe Zahlen mehr.
+  </Step>
+  <Step num="2" title="Archetyp-Spezialisierung">
+    Mitte des Runs solltest du ein klares Thema haben (z. B. Feuermagier). Beginne, Items oder Helden zu verkaufen, die nicht zu diesem Ziel beitragen.
+  </Step>
+  <Step num="3" title="Boss-Vorbereitung">
+    Stelle vor dem Akt-Boss sicher, dass dein Tank mindestens ein Verteidigungs-Item hat und dein primärer Schadensausteiler mindestens Rang A ist.
+  </Step>
+  <Step num="4" title="Übergang zum Endlos-Modus">
+    Nach dem Besiegen des Demo-Bosses betrittst du den Endlos-Modus. Hier wird das Schlüsselwort „Stall“ lebenswichtig, da Kämpfe wesentlich länger dauern.
+  </Step>
+</Steps>
+
+Spezielle Begegnungen wie die „Gepanzerte Schildkröte“ erfordern hohen Burst-Schaden. Diese „Haltbare Gegner“-Herausforderungen belohnen dich mit einem riesigen Haufen Splitter, wenn du ihren Panzer innerhalb des Zeitlimits durchbrechen kannst. Wenn dein Team auf „Stall“ (späte Kampfkraft) ausgelegt ist, könntest du bei diesen zeitkritischen Herausforderungen Schwierigkeiten haben.
+
+| Begegnungs-Typ | Schwierigkeit | Hauptbelohnung | Beste Strategie |
+| :--- | :--- | :--- | :--- |
+| **Standard-Kampf** | Einfach | Splitter | Positionierung testen |
+| **Elite/Herausforderung** | Mittel | Seltene Items | Rush-Fähigkeiten nutzen |
+| **Haltbarer Gegner** | Schwer | Massive Splitter | Fokus auf hohen DPS |
+| **Boss-Kampf** | Sehr schwer | Epische Relikte | Volle Synergie erforderlich |
+
+<Callout type="info" title="Die Rückspul-Mechanik">
+Guildrun verfügt über ein „Notfall-Rückspul“-System. Wenn du einen Kampf verlierst, erhältst du eine zusätzliche Chance und einen Splitter-Bonus, um dein Team zu stärken. Nutze diesen Bonus weise, um die Schwächen zu beheben, die zu deiner Niederlage geführt haben.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fortgeschrittene Schlüsselwörter: Rush, Stall und Backup">
+
+Um das späte Spiel zu meistern, musst du die zeitbasierten Schlüsselwörter verstehen, die bestimmen, wann bestimmte Fähigkeiten aktiviert werden. Diese Schlüsselwörter erlauben es dir, Teams zu bauen, die in verschiedenen Phasen eines Kampfes glänzen.
+
+- **Rush**: Diese Effekte sind nur während der ersten 15 Sekunden des Kampfes aktiv. Sie sind perfekt für schnelle, aggressive Teams, die Kämpfe zügig beenden wollen.
+- **Stall**: Diese Effekte aktivieren sich erst nach 20 Sekunden. Dies ist das Reich der Tanks und Heiler, die den Gegner überdauern können.
+- **Backup**: Diese Effekte funktionieren selbst dann, wenn der Held in deinen Reserve-Slots steht. Dies erlaubt dir, teamweite Buffs zu erhalten, ohne einen wertvollen Platz auf dem Schlachtfeld zu belegen.
+
+Das Verständnis der „Stall“-Mechanik ist besonders wichtig für den Demo-Boss. Der Boss hat viel Gesundheit, was bedeutet, dass der Kampf zwangsläufig länger als 20 Sekunden dauern wird. Das Ausrüsten von Items oder die Wahl passiver Upgrades, die während der Stall-Phase auslösen, geben dir einen massiven Vorteil, wenn der Boss bei halber Gesundheit ist.
+
+| Schlüsselwort | Timing | Beste Heldenklasse | Strategie |
+| :--- | :--- | :--- | :--- |
+| **Rush** | 0-15s | Assassine / Burst-Magier | Kämpfe beenden, bevor Schaden genommen wird |
+| **Standard** | 15-20s | Alle | Der Höhepunkt der Fähigkeits-Rotationen |
+| **Stall** | 20s+ | Vanguard / Support | Den Gegner ausstallen |
+| **Backup** | Passiv | Beliebig | Globale Status-Boosts für das Team |
+
+<Callout type="tip" title="Backup-Strategie">
+Selbst wenn du einen Helden findest, der nicht in dein aktives Kampf-Raster passt, prüfe, ob er ein „Backup“-Schlüsselwort besitzt. Ein Held in Reserve, der +10 Magie für alle Magier gewährt, ist oft wertvoll genug, um ihn zu behalten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fazit und FAQ">
+
+Deinen ersten Run in Guildrun zu meistern, ist ein Prozess von Versuch und Irrtum, aber die Konzentration auf Heldenränge und Elementar-Synergien bringt dich an die Spitze. Egal, ob du den Weg des flammenden Magiers oder des stabilen Vanguards wählst, denke daran, dass jede Item- und Reliktwahl zu deinem endgültigen Sieg gegen die Monster des Risses beiträgt.
+
+<FAQ items={[
+  {
+    question: "Welcher Held ist der beste für den Start in Guildrun?",
+    answer: "Für Anfänger ist Funky sehr zu empfehlen. Seine Wildfire-Fähigkeit bietet konsistenten Flächenschaden, und Feuer-Synergien sind in der Demo-Version aktuell sehr stark."
+  },
+  {
+    question: "Wie erhöhe ich meine maximale Teamgröße?",
+    answer: "Die Teamgröße kann durch spezifische, hochstufige Relikte oder Upgrades erhöht werden, die nach dem Besiegen eines Bosses im Auktionshaus zu finden sind. Priorisiere immer die Teamgröße, wenn du ein starkes Reserve-Roster hast."
+  },
+  {
+    question: "Was passiert, wenn ich einen Kampf in Guildrun verliere?",
+    answer: "Das Spiel verfügt über ein Notfall-Rückspul-System. Du erhältst eine Chance, den Kampf mit zusätzlichen Splittern neu zu starten, um dein Team zu verstärken. Wenn du erneut verlierst, endet der Run."
+  },
+  {
+    question: "Sind Items nach dem Ausrüsten permanent?",
+    answer: "Nein, Items können jederzeit im Shop oder auf dem Kartenbildschirm abgelegt oder zwischen Helden verschoben werden, was es dir erlaubt, deine Strategie anzupassen, während du bessere Einheiten rekrutierst."
+  }
+]} />
+
+<Callout type="success" title="Abschließender Rat">
+Behalte nach einem Kampf immer den Kampf-Tracker im Auge. Er zeigt genau an, wie viel Schaden jeder Held und jedes Relikt beigetragen hat, was dir hilft zu identifizieren, welche Teile deines Teams unterdurchschnittlich abschneiden.
+</Callout>
+
+</Section>

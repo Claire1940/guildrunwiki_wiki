@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Berserker em Guildrun: Guia de Configuração e Passo a Passo de Combate",
+  description: "Domine a build de Berserker em Guildrun. Aprenda as melhores configurações de itens, sinergias da classe Guerreiro e estratégias de posicionamento para dominar o Modo Infinito.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Berserker+Build+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Dominar a **build de berserker em guildrun** exige focar nas mecânicas de fúria de Rip e nos resets de habilidades de ímpeto (rush).
+- Priorize itens de **velocidade de ataque** e **Onivampirismo** para garantir alta sobrevivência durante confrontos prolongados no Modo Infinito.
+- Utilize **Rowan** como um tanque de Vanguarda na linha de frente para absorver o dano explosivo inicial e proteger seu carregador principal.
+- Acumule **taxa de acerto crítico** além de 100 por cento para converter o excesso em um escalonamento massivo de dano crítico.
+</Callout>
+
+<Section icon={Swords} title="Mecânicas Principais da Build de Berserker em Guildrun">
+
+A base da **build de berserker em guildrun** gira em torno de maximizar o escalonamento corpo a corpo de alto risco e alta recompensa. Em Guildrun, a principal unidade para este estilo de jogo é Rip, um Guerreiro de ritmo acelerado que se destaca em transformar o dano recebido em poder ofensivo bruto. Ao contrário dos tanques tradicionais que dependem exclusivamente da mitigação de dano, um Berserker prospera ao manter uma barra de vida baixa para ativar multiplicadores de atributos devastadores.
+
+Rip utiliza uma mecânica única de Fúria que é ativada quando ele entra em combate. Ao conjurar sua habilidade ativa, ele entra em um estado de frenesi, ganhando bônus massivos em sua vida máxima, velocidade de ataque e Onivampirismo. Isso o torna incrivelmente difícil de derrubar assim que começa a atacar, pois seu roubo de vida escala diretamente com sua produção de dano. Além disso, sempre que Rip ou um aliado adjacente cai abaixo do limite de 50% de vida, todas as suas habilidades de Ímpeto (Rush) são reiniciadas instantaneamente, e ele ganha um aumento fixo de 25% na velocidade de ataque. Essa mecânica de reset permite que ele encadeie habilidades de alto impacto uma após a outra, destruindo as linhas de frente inimigas antes que possam reagir.
+
+**Destaques do Vídeo:**
+- **Gerenciamento de Fúria**: Aprenda a equilibrar a vida de Rip para maximizar seus resets passivos de velocidade de ataque.
+- **Escolha de Sinergias**: Descubra os melhores heróis de suporte para complementar um carregador focado em combate corpo a corpo.
+- **Escolhas de Itens**: Entenda por que o escalonamento de Onivampirismo e o acúmulo de vida bruta superam a armadura de defesa pura.
+
+<YouTubeEmbed videoId="HmeAJ5I4YEU" title="Nyx, Pequeno Monstro Implacável | Guildrun" />
+
+Para fazer essa build funcionar de forma eficaz, você precisa entender o sistema de "Ímpeto" (Rush). As habilidades de Ímpeto são bônus de alto impacto que são ativados sob condições específicas, como o início do combate ou durante a conjuração de habilidades ativas. Ao acumular itens que estendem a duração desses estados de Ímpeto, você pode manter Rip no auge de sua eficiência de combate durante toda a rodada, evitando o tempo de inatividade padrão que prejudica outras builds corpo a corpo.
+
+<Callout type="success" title="Dica de Sinergia">
+Sempre combine Rip com heróis que se beneficiam de flutuações rápidas de vida. Como a passiva de Rip é ativada quando aliados adjacentes caem abaixo de 50% de HP, posicionar um tanque secundário ao lado dele pode forçar resets de Ímpeto precoces sem colocar Rip em perigo letal imediato.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergias de Classe e Variantes de Combate">
+
+Desbloquear o potencial máximo desta build requer uma compreensão profunda do sistema de sinergia de classes de Guildrun. Ao combinar a classe Guerreiro com funções complementares como Duelista, Vanguarda e Místico, você pode construir um esquadrão altamente resiliente, capaz de enfrentar confrontos de alta dificuldade e longas jornadas no Modo Infinito.
+
+Quando Rip ganha a sinergia da classe Guerreiro, suas capacidades ofensivas básicas disparam. Os Guerreiros ganham um bônus fixo de 50 de ataque, e seu dano de Permafrost ganha a capacidade de realizar acertos críticos. Isso abre caminho para uma build híbrida de crítico e gelo altamente eficaz. Se você combinar Rip com um mago aplicador de gelo como Sal, cada acerto crítico que Rip desferir aplicará congelamento, o que por sua vez reduz a armadura e a velocidade de ataque do inimigo. Isso cria um poderoso ciclo de controle de grupo que mantém os inimigos permanentemente desacelerados, enquanto maximiza a produção de dano físico de Rip.
+
+| Classe | Função | Classificação de Sinergia | Principal Benefício |
+| :--- | :--- | :--- | :--- |
+| Guerreiro | DPS Principal | ★★★★★ | **50 de ataque bônus** e crítico em Permafrost |
+| Vanguarda | Tanque | ★★★★☆ | Reservas massivas de **HP** e compartilhamento de escudo |
+| Assassino | Executor | ★★★★☆ | Mata instantaneamente alvos abaixo de **25% de HP** |
+| Místico | Utilidade | ★★★☆☆ | Aumenta a **regeneração de mana** e o spam de habilidades ativas |
+
+Para personalizar seu estilo de jogo, considere estas três variantes de composição de Berserker:
+
+<CardGrid cols={3}>
+  <Card title="O Resetador de Ímpeto">
+    Foca inteiramente em estender a **duração do Ímpeto** e ativar bônus rápidos de velocidade de ataque. Melhor combinado com o Olho da Pressa (Eye of Haste).
+  </Card>
+  <Card title="O Protelador com Onivampirismo">
+    Prioriza **cura sustentada** e escudos defensivos. Extremamente viável para sobreviver a picos de dano em área (AoE) massivos no Modo Infinito.
+  </Card>
+  <Card title="O Crítico de Permafrost">
+    Converte o excesso de **taxa de acerto crítico** em dano físico bruto. Depende de magos para aplicar penalidades de gelo antes dos ataques de Rip.
+  </Card>
+</CardGrid>
+
+Para jogadores que buscam maximizar o dano bruto, a mecânica de conversão de acerto crítico é essencial. Em Guildrun, a taxa de acerto crítico não é limitada a 100%. Qualquer excesso de taxa de crítico acumulado através de relíquias e itens é automaticamente convertido em dano crítico bônus. Quando combinado com a rápida velocidade de ataque de Rip, isso permite que seus ataques básicos causem números astronômicos durante sua janela de Fúria.
+
+<Callout type="tip" title="Dica Pro">
+Se você adquirir um item de Brasão (Crest) que conceda a Rip uma classe adicional, foque na classe Assassino. Isso permite que Rip execute instantaneamente qualquer inimigo que ele danifique e que caia abaixo de 25% de sua vida máxima, acelerando drasticamente o tempo de limpeza da linha de frente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamentos e Relíquias Ideais">
+
+A escolha dos itens pode definir o sucesso ou o fracasso da sua partida. Como o Berserker depende de manter um equilíbrio entre receber dano e se curar, suas escolhas de itens devem apoiar tanto a sobrevivência quanto a conjuração de habilidades em alta frequência. Acumular itens puramente defensivos, como armadura, reduzirá o dano que Rip recebe, o que pode atrasar sua transição para o estado de Fúria. Em vez disso, foque em reservas de vida, escudos e velocidade de ataque.
+
+A relíquia ofensiva mais crítica para esta build é a Coroa da Pressa (Crown of Haste), que concede um bônus massivo de 40% na velocidade de ataque durante os primeiros 8 segundos de combate. Isso garante que Rip possa acumular suas cargas de Fúria imediatamente no início da rodada. Para utilidade defensiva, procure por Escudos Vingativos (Vindictive Shields). Esta relíquia concede um escudo duradouro no início do combate e causa dano aos inimigos adjacentes igual a uma porcentagem do valor restante do escudo, transformando a mitigação defensiva em poder ofensivo passivo.
+
+| Nome da Relíquia | Raridade | Tier | Efeito Principal |
+| :--- | :--- | :--- | :--- |
+| Coroa da Pressa | Épico | Tier S | Aumenta a **velocidade de ataque** em 40% durante o Ímpeto |
+| Escudos Vingativos | Raro | Tier A | Causa dano com base nos **escudos restantes** |
+| Amuleto do Mistério | Raro | Tier B | Concede uma **relíquia ofensiva rara** aleatória |
+| Ímã de Fragmentos | Comum | Tier C | Aumenta a **geração de fragmentos** ao vencer combates |
+
+Ao gerenciar seu inventário, sempre compare como os itens escalam com as habilidades ativas de Rip. Itens que oferecem aumentos de vida fixos são altamente valiosos porque a habilidade de Fúria de Rip escala sua vida máxima por uma porcentagem. Uma reserva de vida base maior resulta em bônus de escalonamento significativamente maiores, o que por sua vez impulsiona suas mecânicas passivas de regeneração de vida.
+
+| Nome do Item | Tipo | Tipo de Escalonamento | Melhor Usado Para |
+| :--- | :--- | :--- | :--- |
+| Emblema de Vanguarda | Defensivo | % de HP Máximo | Aumentar os **valores de escudo** em Rip |
+| Olho da Pressa | Ofensivo | Velocidade de Ataque | Estender a **duração do Ímpeto** em 3 segundos |
+| Fragmento de Permafrost | Ofensivo | Taxa de Crítico | Permitir que o **dano de Permafrost** cause acertos críticos |
+| Pergaminho da Salvação | Defensivo | Regen. de Vida | Reviver **aliados caídos** após 20 segundos |
+
+<Callout type="warning" title="Cuidado com os Equipamentos">
+Evite equipar itens que concedam armadura fixa sem escalonamento de vida. Valores altos de armadura impedem que a vida de Rip caia rapidamente para o limite de 50%, o que pode atrasar seus resets cruciais de Ímpeto e deixar sua linha de retaguarda vulnerável.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Progressão Passo a Passo">
+
+Construir um esquadrão de Berserker bem-sucedido requer um planejamento cuidadoso desde a primeira rodada de combate. Você não pode simplesmente forçar essa build sem gerenciar sua economia e as atualizações da loja com eficiência. Siga esta rota de progressão passo a passo para transitar com segurança do início do jogo para o escalonamento profundo do Modo Infinito.
+
+<Steps>
+  <Step num="1" title="Adquira Rip Cedo">
+    Procure por Rip na loja durante as três primeiras rodadas de combate. Suba-o para o Rank B o mais rápido possível para desbloquear suas mecânicas principais de Fúria e o escalonamento básico de Onivampirismo.
+  </Step>
+  <Step num="2" title="Estabeleça uma Linha de Frente">
+    Recrute Rowan ou um tanque de Vanguarda semelhante. Posicione-o na fileira da frente para atrair a atenção inicial dos inimigos, permitindo que Rip acumule mana e velocidade de ataque com segurança a partir de um bloco adjacente.
+  </Step>
+  <Step num="3" title="Garanta Relíquias de Ímpeto">
+    Priorize compras na loja e recompensas de combate que ofereçam velocidade de ataque ou estendam a duração do Ímpeto. Bloqueie a loja se vir a Coroa da Pressa ou o Olho da Pressa, mas não tiver fragmentos para comprá-los imediatamente.
+  </Step>
+  <Step num="4" title="Otimize Crítico e Gelo">
+    Introduza uma unidade que aplique gelo, como Sal, no tabuleiro. Equipe Rip com itens de acerto crítico para ativar a sinergia da classe Guerreiro, permitindo que seus ataques físicos estilhacem alvos congelados.
+  </Step>
+  <Step num="5" title="Transição para o Modo Infinito">
+    Equipe Rip com relíquias de Onivampirismo de alto nível e amplificadores de vida máxima para suportar o massivo dano em área (AoE) escalonável presente na fase 10 do Modo Infinito e além.
+  </Step>
+</Steps>
+
+Para manter sua progressão nos trilhos, use esta lista de metas essenciais durante a sua partida. Se você perder muitas dessas metas até o meio do jogo, seu carregador principal pode perder desempenho na produção de dano.
+
+<Checklist
+  id="berserker-progression"
+  title="Metas de Progressão e Marcos:"
+  items={[
+    "Subir Rip para pelo menos Rank A antes do Chefe do Ato 1",
+    "Garantir pelo menos uma relíquia que estenda a duração do Ímpeto em 3 segundos",
+    "Alcançar um mínimo de 15% de Onivampirismo no seu carregador principal",
+    "Combinar Rip com um tanque de Vanguarda que possua mais de 600 de vida bônus",
+    "Desbloquear o bônus de sinergia de classe de Guerreiro de 3 unidades"
+  ]}
+/>
+
+<Callout type="info" title="Dica de Economia">
+Não hesite em bloquear a loja se ela contiver relíquias de alto valor, como o Emblema de Vanguarda, mesmo que isso atrase a melhoria de suas unidades. Obter a configuração correta de itens costuma ser mais impactante do que uma simples melhoria de rank.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Posicionamento de Combate e Composição de Equipe">
+
+O posicionamento é um aspecto crítico da jogabilidade tática de Guildrun. Como Rip é uma unidade de combate corpo a corpo, posicioná-lo incorretamente pode fazer com que ele seja focado por inimigos de ataque à distância ou encurralado por tanques inimigos de alta defesa antes de conseguir ativar seu estado de Fúria.
+
+Sua composição de equipe ideal deve apresentar uma mistura sólida de defesa na linha de frente, dano físico rápido e controle de grupo utilitário. Rowan deve sempre ocupar o bloco principal da linha de frente para atrair a onda inicial de ataques. Posicione Rip diretamente adjacente a Rowan, ligeiramente deslocado para a esquerda ou para a direita. Esse posicionamento garante que, quando a vida de Rowan cair abaixo de 50%, as habilidades de Ímpeto de Rip sejam reiniciadas instantaneamente, enquanto mantém Rip protegido contra ataques explosivos diretos de alvo único.
+
+| Nome do Herói | Rank | Tipo de Sinergia | Prioridade de Combate |
+| :--- | :--- | :--- | :--- |
+| Rip | Rank S | Carregador de Ímpeto | Alvejar o inimigo com **maior HP** e ativar fúria |
+| Rowan | Rank A | Tanque Protelador | Segurar a **linha de frente** e curar com base na armadura |
+| Nyx | Rank S | DPS de Combo | Finalizar alvos com **vida baixa** usando múltiplos golpes |
+| Sal | Rank B | Mago de Crítico | Aplicar **Permafrost** e penalidades de queimadura nos alvos |
+
+Ao enfrentar inimigos com ataques em linha perfurantes ou feitiços de área (AoE) amplos, evite agrupar suas unidades em uma linha vertical ou horizontal reta. Em vez disso, utilize uma formação dividida. Posicione seu tanque principal em um lado do tabuleiro para atrair os ataques lineares, enquanto Rip e seus causadores de dano secundários, como Nyx, flanqueiam pelo lado oposto para desmantelar a linha de retaguarda inimiga.
+
+<Callout type="success" title="Sucesso de Posicionamento">
+Usar um layout diagonal impede que magos inimigos acertem feitiços de área (AoE) de alto dano em Rowan e Rip simultaneamente. Isso mantém a vida do seu Berserker estável o suficiente para se sustentar através do roubo de vida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que o Rip é a unidade ideal para uma build de berserker em Guildrun?",
+    answer: "O Rip é a escolha perfeita porque sua habilidade ativa escala sua vida máxima, velocidade de ataque e Onivampirismo simultaneamente. Sua passiva única também reinicia suas habilidades de Ímpeto sempre que ele ou um aliado adjacente cai abaixo de 50% de HP, permitindo que ele mantenha um alto ritmo de combate."
+  },
+  {
+    question: "Como a taxa de acerto crítico escala além de 100% nesta build?",
+    answer: "Em Guildrun, qualquer taxa de acerto crítico acumulada além de 100% é convertida diretamente em dano crítico bônus. Acumular relíquias focadas em crítico no Rip permite que seus ataques básicos causem danos massivos durante suas janelas de Fúria."
+  },
+  {
+    question: "Qual é a melhor maneira de lidar com o escalonamento de dano em área (AoE) no Modo Infinito?",
+    answer: "Para sobreviver a longas jornadas no Modo Infinito, você deve mudar seu foco para o escalonamento da vida máxima e Onivampirismo de alto nível. Itens como o Emblema de Vanguarda e Escudos Vingativos fornecem as reservas de vida necessárias e escudos duradouros para sobreviver a picos de dano elevado."
+  },
+  {
+    question: "Devo usar uma configuração de carregador solo ou uma composição de equipe completa?",
+    answer: "Embora o Rip seja um carregador solo poderoso, combiná-lo com um tanque de Vanguarda dedicado como Rowan e um executor secundário como Nyx é altamente recomendado. Isso evita que o Rip seja focado e eliminado logo no início do combate, antes de conseguir acumular suas cargas de Fúria."
+  }
+]} />
+
+</Section>

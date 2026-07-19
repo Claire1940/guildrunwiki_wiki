@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Hero Rank Up: The Complete S-Tier Progression Guide",
+  description: "Master the guildrun hero rank up system. Learn how to evolve heroes from C-Rank to S-Rank, optimize shard economies, and build overpowered poison-crit teams.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hero+Rank+Up+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Execute a **guildrun hero rank up** by purchasing duplicates in the shop or using campfires.
+- **Rank Thresholds**: Heroes progress from C-Rank up to S-Rank, unlocking massive stat multipliers and game-breaking passive abilities.
+- **The Crit Cap Loop**: Extra critical strike rating past 100% does not go to waste; it scales specific hero abilities like Yuna's shurikens.
+- **Resource Management**: Always balance spending shards on hero upgrades versus saving them to scale shard-dependent relics.
+- **Reserve Synergy**: Utilize backup bench slots to trigger global passive buffs without cluttering your active combat grid.
+</Callout>
+
+<Section icon={Sparkles} title="The Core Mechanics of Hero Ranking">
+
+To succeed in Guildrun, understanding how to execute a **guildrun hero rank up** is the single most important factor between a failed run and reaching Endless Mode. Every hero starts at C-Rank, possessing basic stats and a singular active ability. By combining duplicates or utilizing campfires, you can elevate these units to B-Rank, A-Rank, and ultimately the coveted S-Rank. 
+
+Each rank tier provides a massive boost to primary attributes like attack, magic, and maximum health, while also unlocking game-changing passive nodes and expanding item slots. 
+
+**Video Highlights:**
+- **Hero Evolution**: Witness a C-Rank Yuna progress all the way to an S-Rank powerhouse.
+- **Crit Scaling Exploit**: How overcapped critical strike rating scales shuriken output exponentially.
+- **Endless Mode Transition**: Strategies for shifting from Act bosses to scaling high-difficulty endless stages.
+
+<YouTubeEmbed videoId="GLIHLwgmrBU" title="I Ranked Up Heroes to Overpowered Levels in Guildrun" />
+
+The progression system requires careful economic planning. While it is tempting to purchase every hero duplicate immediately, managing your shards—the primary currency—is essential to keep your items and relics scaled alongside your team's rank.
+
+| Hero Rank | Shard Cost (Approx) | Stat Multiplier | Item Slots | Key Unlocks |
+| :--- | :--- | :--- | :--- | :--- |
+| **C-Rank** | Base Cost | 1.0x | 1 Slot | Base Active Ability |
+| **B-Rank** | 15 - 20 Shards | 1.5x | 2 Slots | First Major Passive Upgrade |
+| **A-Rank** | 30 - 40 Shards | 2.2x | 2 Slots | Advanced Class Synergy/Stealth |
+| **S-Rank** | 60+ Shards | 3.5x | 3 Slots | Ultimate Passive & Omnivamp |
+
+<Callout type="success" title="Economic Tip">
+Do not neglect the shop's freeze mechanic. If a crucial hero duplicate appears but you lack the shards, freeze the shop to secure the rank-up after your next combat victory.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Guildrun Hero Rank Up Process">
+
+Achieving S-Rank requires a systematic approach to drafting and economy management. Randomly buying units will dilute your pool and leave your team under-leveled. Follow this structured progression path to consistently rank up your primary carry units.
+
+<Steps>
+  <Step num="1" title="Establish Your Core Carry">
+    Select a starter hero (such as Yuna) and focus your initial shard purchases entirely on their duplicates. Do not buy secondary units until your main damage dealer reaches at least B-Rank.
+  </Step>
+  <Step num="2" title="Manage Shop Rerolls and Freezes">
+    Reroll the shop sparingly in Act 1. If you find a duplicate of your carry, purchase it immediately. If you are short on shards, use the freeze option to lock the shop state for the next round.
+  </Step>
+  <Step num="3" title="Maximize Campfire Events">
+    Campfires are rare nodes that allow you to upgrade a hero's rank for free or at a highly discounted shard rate. Always path toward campfires when your primary carry is close to a rank threshold.
+  </Step>
+  <Step num="4" title="Unlock S-Rank and Item Synergy">
+    Once your carry hits S-Rank, equip them with items that scale with their newly unlocked passives. For example, S-Rank Yuna gains massive omnivamp, making high-attack-speed items incredibly potent.
+  </Step>
+</Steps>
+
+Campfires provide unique utility depending on the current rank of your target hero. Knowing when to use them is key to saving precious shard resources.
+
+| Campfire Tier | Allowed Target Rank | Shard Savings | Bonus Effect |
+| :--- | :--- | :--- | :--- |
+| **Standard Camp** | C-Rank to B-Rank | ~15 Shards | +10% Base Magic/Attack |
+| **Refined Camp** | B-Rank to A-Rank | ~35 Shards | +15% Base Health |
+| **Exalted Camp** | A-Rank to S-Rank | ~60 Shards | +20% All Primary Stats |
+
+<Callout type="warning" title="Reroll Trap">
+Avoid aggressively rerolling the shop in the early game. Every reroll costs shards that could otherwise be saved to secure a guaranteed rank-up or purchase high-tier relics.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="S-Tier Build Showcase: The Poison-Crit Assassin Strategy">
+
+One of the most powerful team compositions leveraging the **guildrun hero rank up** mechanic is the Poison-Crit Assassin build. This setup utilizes high-frequency critical strikes to rapidly stack poison on enemies, melting bosses in seconds.
+
+<CardGrid cols={3}>
+  <Card title="Yuna (S-Rank Carry)">
+    - **Shuriken Shadow Strike**: Launches multiple projectiles scaling with critical strike rating.
+    - **Stealth Mechanics**: Gains stealth on combat start and on-kill, making her untargetable.
+    - **S-Rank Passive**: Grants +60% crit chance and permanent omnivamp for self-healing.
+  </Card>
+  <Card title="Pollen (A-Rank Support)">
+    - **Flower Field**: Inflicts continuous poison while shielding allies standing inside.
+    - **Debuff Amplification**: Boosts all active debuffs on enemies by 100% at Rank A.
+    - **Mana Scaling**: High mana regen allows constant field uptime.
+  </Card>
+  <Card title="Juri (A-Rank Vanguard)">
+    - **Dual Class**: Functions as both a sturdy front-line tank and a crit assassin.
+    - **Petrification**: Stuns all targeting enemies for 4 seconds upon triggering stone skin.
+    - **Defense on Crit**: Permanently gains physical defense whenever she lands a critical hit.
+  </Card>
+</CardGrid>
+
+To make this composition truly unstoppable, you must hunt for specific items and relics that synergize with poison application and critical strike multipliers.
+
+| Item / Relic Name | Primary Attribute | Best Holder | Tactical Value |
+| :--- | :--- | :--- | :--- |
+| **Assassin's Glyph** | +50% Crit Rating | Yuna | Adds 1 extra shuriken per 50% crit over the 100% cap. |
+| **Poison Ascendancy** | Debuff Execution | Pollen | Executes or severely weakens enemies reaching 50 poison stacks. |
+| **Shard Precision Prism** | Scaling Crit | Yuna | Converts banked shards directly into critical strike chance. |
+| **Tranquil Eye** | Attack Speed & Mana | Juri | Speeds up vanguard ability activation to peel for backline. |
+
+<Callout type="tip" title="Overcap Mechanic">
+If Yuna's crit chance exceeds 100%, she throws one additional shuriken for every 50% crit over the cap. With relics like Shard Precision Prism, she can reach over 700% crit, throwing 8+ shurikens per cast!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced End-Game Progression & Endless Mode Tactics">
+
+Once your main team consists of S-Rank and A-Rank units, the standard act bosses like the Hydra and Frost Dragon will pose little threat. However, transitioning into Endless Mode introduces scaling penalties to your base stats, requiring precise positioning and reserve bench management.
+
+Before entering the final portal, ensure you have completed the following preparation steps to maximize your survival odds.
+
+<Checklist
+  id="endless-prep"
+  title="Endless Mode Readiness Checklist:"
+  items={[
+    "Secure at least one S-Rank primary damage dealer with omnivamp.",
+    "Upgrade your front-line tank to A-Rank to unlock crowd control passives.",
+    "Equip your reserve bench units with global passive items (e.g., shard generators).",
+    "Accumulate at least 100 shards in the bank to maximize scaling relics.",
+    "Optimize unit placement to avoid dragon cleave attacks."
+  ]}
+/>
+
+During late-game combat, boss mechanics become increasingly punishing. Positioning your ranked-up heroes correctly determines whether your run continues or ends abruptly.
+
+| Boss Encounter | Key Threat | Counter Strategy | Recommended Rank |
+| :--- | :--- | :--- | :--- |
+| **The Hydra** | Multi-head Cleave | Single-target burst carry in the flank. | A-Rank Carry |
+| **Frost Dragon** | Adjacent Frost Blast | Spread out vanguard and support units. | S-Rank Carry / A-Rank Tank |
+| **Endless Elites** | Infinite Scaling HP | High-stack poison and execute relics. | Full S-Tier Team |
+
+<Callout type="info" title="Emergency Rewind">
+If you suffer a defeat before reaching Endless Mode, your Emergency Rewind mechanic acts as an extra life. If you reach the final boss without using it, it converts into a massive shard payout.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guildrun FAQ">
+
+To help you optimize your progression runs, we have compiled the most common questions regarding hero progression and shard management.
+
+<FAQ items={[
+  {
+    question: "How does the guildrun hero rank up system affect item slots?",
+    answer: "Every time a hero ranks up, they gain access to additional item slots. C-Rank units are limited to one slot, B-Rank and A-Rank units have two slots, and S-Rank units unlock a third slot, allowing for complex item builds."
+  },
+  {
+    question: "Can I combine duplicate relics in the shop?",
+    answer: "No, duplicate relics cannot be combined. However, running multiple copies of compatible relics can stack their passive effects, such as double poison application or extra critical strike multipliers."
+  },
+  {
+    question: "What is the benefit of putting a hero in the backup/reserve slot?",
+    answer: "Backup units do not participate directly in active combat but trigger global passive buffs from the bench. For example, certain reserve units grant starting shields or generate extra shards at the start of each round."
+  },
+  {
+    question: "Should I choose the Assassin, Mystic, or Tank banner design?",
+    answer: "For crit-heavy setups, always choose the Assassin banner. It unlocks the Assassin's Greed passive, which permanently increases your units' attack and magic power every time they land a critical hit."
+  }
+]} />
+
+<Callout type="success" title="Final Verdict">
+Prioritize ranking up a single carry to S-Rank over maintaining a balanced team of B-Rank units. A single over-leveled carry with high omnivamp can easily solo late-game content.
+</Callout>
+
+</Section>

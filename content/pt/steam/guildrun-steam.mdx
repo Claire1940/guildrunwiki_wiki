@@ -1,0 +1,222 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Info, HelpCircle, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Steam: Guia de Iniciante 2026 e Melhores Builds de Heróis",
+  description: "Domine Guildrun no Steam com nosso guia de 2026. Explore listas de heróis, caminhos de especialização e estratégias para a demo gratuita e o lançamento completo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111A18/D5B65C?text=Guildrun+Steam+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun",
+  keywords: "Guildrun, Steam, guia, builds de heróis, roguelike, autobattler, estratégia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guildrun Steam**: O jogo é um autobattler roguelike PvE para um jogador desenvolvido pela Leyline, com uma demo gratuita disponível no momento.
+- **Loop Principal**: Recrute uma equipe equilibrada entre os 25 heróis disponíveis e adapte-se às ofertas aleatórias da loja através de fendas de dificuldade crescente.
+- **Estratégia de Build**: Foque em **efeitos compartilhados** (como Lovers) e caminhos de especialização que se alinhem com a durabilidade da sua linha de frente.
+- **Progressão**: Navegue por 8 níveis de dificuldade e mire no **Modo Infinito** para maximizar sua pontuação no ranking.
+- **Gestão de Recursos**: Priorize o poder imediato em vez de atualizações especulativas para sobreviver às fendas do início do jogo.
+</Callout>
+
+<Section icon={Activity} title="Guildrun Steam: Acesso à Demo e Roteiro para 2027">
+
+**Guildrun Steam** rapidamente se tornou um título de destaque no gênero autobattler roguelike PvE. Desenvolvido pela Leyline, o jogo enfatiza o recrutamento tático e a especialização profunda. Em julho de 2026, a comunidade viu um aumento significativo na atividade, com mais de 7.184 jogadores online e uma taxa de avaliação positiva de 96% para a demo independente. Embora a versão completa esteja prevista para 2027, a demo atual oferece uma visão robusta das mecânicas principais, apresentando um subconjunto dos 25 heróis planejados e mais de 300 relíquias.
+
+**Destaques em Vídeo:**
+- **Trailer de Anúncio**: Visão geral visual do combate em fendas e recrutamento de heróis.
+- **Estilo Visual**: Estética de fantasia sombria com fendas azul-turquesa brilhantes e detalhes em ouro antigo.
+- **Mecânicas de Combate**: Demonstração do sistema de batalha automática onde o posicionamento é a chave para a vitória.
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun – Official Announcement Trailer" />
+
+A transição da demo para o jogo completo promete uma expansão massiva de conteúdo. Os jogadores que estão testando a versão Steam devem focar em dominar as mecânicas de recrutamento e atualização da loja, pois esses fundamentos serão transferidos para os sistemas mais complexos planejados para a versão final.
+
+| Recurso | Versão Demo (2026) | Lançamento Completo (2027) |
+| :--- | :--- | :--- |
+| **Elenco de Heróis** | Seleção Limitada | 25 Heróis Únicos |
+| **Caminhos de Especialização** | Apenas Caminhos Principais | 75 Caminhos / 180 Especializações |
+| **Contagem de Relíquias** | ~50 Relíquias | 300+ Relíquias |
+| **Modos de Jogo** | Partidas Básicas / Início do Infinito | 8 Dificuldades / Modo Infinito Completo / Co-op |
+| **Plataforma** | Steam (PC) | Steam / Suporte Planejado para Steam Deck |
+
+<Callout type="tip" title="Dica Profissional: Transferência de Progresso">
+Embora a demo seja uma experiência independente, os desenvolvedores sugeriram que certos elementos de meta-progressão, como a familiaridade com heróis e desbloqueios de dificuldade, podem influenciar sua experiência inicial no lançamento completo de 2027.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia Passo a Passo para Iniciantes">
+
+Ter sucesso em **Guildrun Steam** requer uma mudança do pensamento tradicional de RPG para uma mentalidade de "recursos primeiro". Você não está apenas montando uma equipe; você está gerenciando uma economia volátil. As primeiras fendas determinam a trajetória de toda a sua partida. Seguir uma abordagem estruturada para recrutamento e itemização é essencial para chegar ao chefe final.
+
+<Steps>
+  <Step num="1" title="Recrute uma Base Equilibrada">
+    Seu ouro inicial deve ser investido em um herói de linha de frente (Tanque), um causador de dano confiável (À Distância ou Duelista) e uma unidade de suporte. Evite a tentação de comprar três causadores de dano; sem um tanque para absorver a pressão inicial da fenda, seus carries cairão antes de conseguirem usar suas habilidades.
+  </Step>
+  <Step num="2" title="Analise o Layout da Loja">
+    Antes de clicar em 'Reroll' (Atualizar), observe cada item e herói oferecido. Às vezes, vale a pena comprar um herói subótimo se ele vier com um efeito compartilhado ou uma especialização que contra-ataque o tipo de inimigo da fenda atual. Os rerolls devem ser guardados para o meio do jogo, quando você estiver buscando relíquias específicas de nível S.
+  </Step>
+  <Step num="3" title="Comprometa-se com uma Direção de Build">
+    Na terceira fenda, você deve ter uma ideia clara da sua "condição de vitória". Isso pode ser uma build de escalonamento com um único carry ou uma composição de efeitos compartilhados como a sinergia **Lovers**. Uma vez que você se comprometer, compre apenas heróis e itens que amplifiquem essa estratégia específica.
+  </Step>
+  <Step num="4" title="Execute Ranks de Especialização">
+    À medida que os heróis ganham ranks, eles desbloqueiam caminhos de especialização. Escolha caminhos que resolvam a fraqueza atual da sua equipe. Se a sua linha de frente estiver derretendo, escolha especializações defensivas. Se você estiver perdendo por tempo nas lutas contra chefes, mude seu carry para um Assassino de alto dano explosivo ou um caminho À Distância sustentado.
+  </Step>
+  <Step num="5" title="Otimize o Posicionamento">
+    O posicionamento é dinâmico. Em **Guildrun Steam**, os inimigos frequentemente atacam a unidade mais próxima ou a unidade com a maior vida. Coloque seu tanque na "zona quente" e esconda seus suportes nos cantos traseiros. Use unidades de reserva para trocar quando uma formação inimiga específica ameaçar sua retaguarda.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum de Iniciante">
+Não espalhe seus itens demais. Um único herói equipado com três itens sinérgicos é significativamente mais poderoso do que três heróis segurando cada um um item aleatório. Concentre seu poder no seu carry principal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List de Heróis e Funções no Campo de Batalha">
+
+Com 25 heróis planejados para o jogo completo, entender a hierarquia de poder é vital para partidas de alta dificuldade. No meta atual, os heróis são classificados com base em sua flexibilidade em diferentes caminhos de especialização e sua dependência de itens específicos.
+
+<CardGrid cols={3}>
+  <Card title="Nível S: Âncoras da Partida">
+    - **Alta Flexibilidade**: Funciona em qualquer equipe.
+    - **Potencial de Escalonamento**: Permanece forte no Modo Infinito.
+    - **Heróis Principais**: Tanques duráveis e suportes com muita utilidade.
+  </Card>
+  <Card title="Nível A: Carries Consistentes">
+    - **Dano Confiável**: Piso de DPS alto.
+    - **Dependente de Caminho**: Precisa de uma especialização específica.
+    - **Heróis Principais**: Unidades à distância e Duelistas focados.
+  </Card>
+  <Card title="Nível B: Especialistas em Sinergia">
+    - **Teto Alto**: Pode ser nível S com as relíquias certas.
+    - **Fraqueza Inicial**: Sofre nas três primeiras fendas.
+    - **Heróis Principais**: Assassinos e curandeiros híbridos.
+  </Card>
+</CardGrid>
+
+Para ajudá-lo a escolher o recruta certo, categorizamos as principais funções que você encontrará na versão Steam do jogo.
+
+| Função | Trabalho Principal | Melhor Foco de Especialização | Prioridade de Respec |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | Absorver pressão / Proteger | Durabilidade / Redução de Dano | Alta (se a defesa for excessiva) |
+| **Curandeiro** | Sustentação / Estabilidade | Frequência de Cura / Proteção | Média (mudar para suporte) |
+| **À Distância** | DPS consistente na retaguarda | Velocidade de Ataque / Multi-alvo | Baixa (manter escalonamento) |
+| **Duelista** | Pressão em alvo único | Combate 1v1 / Roubo de Vida | Média (se precisar de área) |
+| **Assassino** | Explodir alvos prioritários | Poder de Finalização / Furtividade | Alta (se o chefe for muito tanque) |
+| **Híbrido** | Preencher lacunas da equipe | Versatilidade / Buffs | Muito Alta (adaptar à loja) |
+
+<Callout type="success" title="O Poder dos Híbridos">
+Os híbridos são a arma secreta dos jogadores profissionais. Embora careçam dos atributos brutos de um Tanque ou Assassino dedicado, sua capacidade de mudar de especialização para o que a equipe precisa no meio da partida os torna inestimáveis para as dificuldades de nível 8.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Melhores Builds de Equipe e Sinergias">
+
+Montar uma equipe em **Guildrun Steam** é mais do que apenas escolher heróis fortes; trata-se de criar uma máquina onde as peças se amplificam. Abaixo estão os arquétipos mais bem-sucedidos descobertos pela comunidade durante a fase demo de 2026.
+
+### A Build Equilibrada para Primeira Partida
+Esta é a maneira mais segura de completar sua primeira partida completa. Ela se baseia em uma estrutura de "Trindade Sagrada" que lida com a maioria das formações inimigas com o mínimo de microgerenciamento.
+- **Linha de Frente**: Um Tanque de vida alta com especializações de redução de dano.
+- **Carry**: Um herói À Distância focado em velocidade de ataque.
+- **Suporte**: Um Curandeiro com buffs para toda a equipe.
+- **Reserva**: Um Duelista para trocar em lutas contra chefes.
+
+### A Build de Efeito Compartilhado Lovers
+Esta build de alto risco e alta recompensa foca na mecânica única "Lovers", onde dois heróis compartilham atributos e efeitos.
+- **Núcleo**: Dois heróis com a tag Lovers.
+- **Estratégia**: Proteja a dupla a todo custo. Dê itens defensivos ao membro mais vulnerável enquanto o outro membro carrega relíquias ofensivas.
+- **Fraqueza**: Se um membro da dupla morrer cedo, o outro perde bônus significativos.
+
+| Nome da Build | Força Principal | Prioridade de Itens | Classificação de Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Equilibrada** | Alta estabilidade, baixo risco | Defesa no Tanque, DPS no Carry | 1/5 (Iniciante) |
+| **Lovers** | Compartilhamento massivo | Relíquias de efeito compartilhado | 3/5 (Intermediário) |
+| **Single-Carry** | Poder concentrado | Toda a ofensiva em um Herói | 4/5 (Avançado) |
+| **Double-Tank** | Sobreviver ao inimigo | Acúmulo de Vida e Armadura | 2/5 (Seguro) |
+
+<Callout type="info" title="Sinergia de Relíquias">
+Sempre verifique suas relíquias antes de escolher uma build. Se você encontrar uma "Relíquia de Economia" cedo, pode se dar ao luxo de jogar com uma composição de heróis mais cara e de alta raridade. Se encontrar "Relíquias de Velocidade de Ataque", incline-se para uma build focada em unidades À Distância.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tier List de Itens e Relíquias">
+
+Itens e Relíquias são os "modificadores" que transformam uma equipe padrão em uma força imparável. Com mais de 300 relíquias planejadas, o meta atual foca em efeitos universais que fornecem valor independentemente de suas escolhas específicas de heróis.
+
+### Equipamentos Nível S (Escolha Obrigatória)
+1. **Relíquias de Escalonamento de Classe**: Estas melhoram cada herói de uma classe específica (ex: todos os Tanques ganham 20% de Vida). Estes são os itens mais poderosos do final do jogo.
+2. **Efeitos de Velocidade de Ataque**: Em um autobattler, mais ataques significam mais ativações de habilidades. Estes são universalmente bons em qualquer causador de dano.
+3. **Relíquias de Economia Inicial**: Itens que dão ouro extra ou rerolls gratuitos. Pegar estes na Fenda 1 ou 2 pode dobrar seu poder total até o final da partida.
+4. **Sobrevivência Universal**: Redução de dano fixa ou escudos que ativam no início do combate. Essencial para níveis de dificuldade mais altos.
+
+### Tabela de Compatibilidade de Itens
+| Categoria | Melhor Combinação de Herói | Nível de Poder | Razão |
+| :--- | :--- | :--- | :--- |
+| **Roubo de Vida** | Duelistas / Assassinos | Alto | Mantém os carries da linha de frente vivos |
+| **Regen de Mana** | Curandeiros / Magos | Médio | Ciclos de habilidade mais rápidos |
+| **Penetração de Armadura** | À Distância / Duelistas | Alto | Essencial para chefes de final de jogo |
+| **Vida Máxima** | Tanques | Muito Alto | Escalonamento direto com a sobrevivência |
+
+<Callout type="tip" title="Gestão de Inventário">
+Você pode mover itens entre heróis na fase de loja. Se estiver prestes a enfrentar um chefe com alto dano na retaguarda, mova seus itens defensivos do seu tanque para o seu carry temporariamente para garantir que ele sobreviva à explosão inicial.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Níveis de Dificuldade e Modo Infinito">
+
+A progressão em **Guildrun Steam** é medida pelos oito níveis de dificuldade. Cada nível adiciona modificadores que testam partes específicas da sua estratégia. Uma vez que você domine a Dificuldade 8, o verdadeiro desafio começa no Modo Infinito.
+
+<Checklist
+  id="difficulty-progression"
+  title="Caminho para a Dificuldade 8:"
+  items={[
+    "Domine o básico nas Dificuldades 1-2 montando equipes equilibradas.",
+    "Aprenda a gerenciar ouro limitado nas Dificuldades 3-4, onde as lojas são mais caras.",
+    "Otimize os caminhos de especialização nas Dificuldades 5-6 para contra-atacar buffs de inimigos elite.",
+    "Aperfeiçoe seu posicionamento para as Dificuldades 7-8, onde um erro encerra a partida.",
+    "Entre no Modo Infinito com uma composição totalmente otimizada e rica em relíquias."
+  ]}
+/>
+
+### Estratégia para o Modo Infinito
+No Modo Infinito, os inimigos escalam infinitamente. Os números de dano padrão eventualmente se tornarão irrelevantes. Para subir nos rankings, você deve focar em **dano baseado em porcentagem**, **relíquias de escalonamento infinito** e **controle de grupo**. Uma equipe que pode atordoar ou congelar inimigos é frequentemente melhor do que uma equipe que causa apenas dano bruto nos estágios avançados do Modo Infinito.
+
+<Callout type="warning" title="Aviso do Modo Infinito">
+Não negligencie o desempenho do seu computador! À medida que as fendas do Modo Infinito ficam cheias de centenas de projéteis e efeitos, certifique-se de que suas configurações do Steam estejam otimizadas para estabilidade para evitar travamentos durante uma partida recorde.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A demo de Guildrun Steam será gratuita para sempre?",
+    answer: "Sim, a demo independente é uma experiência gratuita projetada para apresentar as mecânicas aos jogadores. No entanto, o progresso pode não ser totalmente transferido para o lançamento pago de 2027."
+  },
+  {
+    question: "Como desbloqueio mais heróis na demo?",
+    answer: "Os heróis são normalmente desbloqueados ao atingir fendas específicas ou completar partidas com diferentes combinações de classes. Verifique o menu 'Heroes' no hub principal para requisitos específicos."
+  },
+  {
+    question: "Qual é o melhor herói para um iniciante?",
+    answer: "O Tanque básico e o Arqueiro À Distância são os mais confiáveis. Eles possuem caminhos de especialização diretos que fornecem aumentos de poder imediatos e visíveis."
+  },
+  {
+    question: "Posso jogar Guildrun com amigos?",
+    answer: "Atualmente, Guildrun é uma experiência PvE para um jogador. Um modo co-op está planejado como parte do roteiro de desenvolvimento para 2027."
+  }
+]} />
+
+</Section>

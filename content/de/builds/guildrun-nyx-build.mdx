@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Nyx Build: Guide für das Stealth-Assassinen-Setup",
+  description: "Meistere das Stealth-Crit-Assassinen-Setup mit Nyx als Carry in Guildrun. Erfahre alles über die besten Gegenstände, Relikte und Team-Zusammenstellungen für diesen High-Damage-Build.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Nyx+Stealth+Crit+Build",
+  date: "2026-07-19",
+  author: "guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primäres Setup**: Dieser **Guildrun Nyx Build** setzt auf Stealth in der hinteren Reihe, um eine kritische Trefferquote von 100 % zu garantieren.
+- **Haupt-Carry**: Nyx skaliert exponentiell durch Gegenstände mit hoher Angriffsgeschwindigkeit und das Spark-Exekutions-Upgrade.
+- **Frontline-Solo**: Dragamir fungiert als einziger Vanguard-Tank und skaliert teamweiten Omnivamp durch Splitter-Generierung.
+- **Relikt-Priorität**: Priorisiere „Assassin's Smokescreen“ und „Poison Catalyst“, um zu überleben und Gegner mit hohen TP zu bezwingen.
+- **Endless-Tauglichkeit**: Wechsel im späteren Spielverlauf auf Gift-skalierende Gegenstände, um die hohe Verteidigung von Bossen zu umgehen.
+</Callout>
+
+<Section icon={Map} title="Kernmechaniken des Guildrun Nyx Builds">
+
+Guildrun kombiniert rasante Auto-Battler-Mechaniken mit tiefgreifender Roguelike-Progression. Um in den höheren Schwierigkeitsgraden und im Endless-Modus erfolgreich zu sein, ist das Verständnis von Klassensynergien entscheidend. Der Assassinen-Archetyp ist aufgrund seines explosiven Burst-Schadens sehr beliebt, erfordert jedoch ein spezielles Setup, um langwierige Kämpfe zu überstehen. Dieser Guide konzentriert sich auf das Hochgeschwindigkeits-Stealth-Assassinen-Setup, allgemein bekannt als der führende **Guildrun Nyx Build**.
+
+Dieses Setup basiert darauf, deine primären Schadensausteiler in der hinteren Reihe zu positionieren, um zu Kampfbeginn sofort Stealth (Tarnung) auszulösen. Während sie getarnt sind, erhalten Assassinen eine kritische Trefferchance von 100 % und können nicht anvisiert werden. So können sie die gegnerische Hinterreihe ausschalten, ohne frühzeitig Schaden zu nehmen. Indem du Nyx mit nützlichen Support-Einheiten und einem robusten Frontline-Tank kombinierst, kannst du selbst die schwierigsten Rifts des Spiels meistern.
+
+**Video-Highlights:**
+- **Hochgeschwindigkeits-Autonangriffe**, die Nyx' Angriffsgeschwindigkeit auf über 3,63 Angriffe pro Sekunde skalieren.
+- **Stealth-basierte Crit-Skalierung**, die die Crit-Raten für massiven Burst-Schaden auf über 250 % steigert.
+- **Splitter-basierte Ökonomie**, die Dragamirs „Devour“ nutzt, um Magiekraft zu skalieren und hochrangige Relikte zu kaufen.
+- **Endless-Modus-Tauglichkeit**, mit der tiefe Runden und hohe Platzierungen in der globalen Rangliste erreicht werden.
+
+<YouTubeEmbed videoId="QQ767NR6ZSQ" title="Guildrun Stealthy Crit Assassins Nyx Carry" />
+
+<Callout type="info" title="Build-Konzept">
+Die Stärke dieses Builds liegt in seiner dualen Skalierung. Während Nyx durch hohe Angriffsgeschwindigkeit schnellen physischen und magischen Schaden verursacht, lösen ihre kritischen Treffer Gift-Effekte aus, die Bosse mit hohen TP über Zeit zermürben.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Helden-Upgrades und Klassensynergie">
+
+Um diesen Build effektiv zu spielen, musst du eine spezifische Zusammensetzung von Breakers wählen. Während Nyx dein primärer Hyper-Carry ist, benötigt sie die Unterstützung anderer Assassinen, um klassenweite Synergien zu aktivieren, sowie einen stabilen Vanguard, um die anfängliche gegnerische Aggro abzufangen.
+
+| Held | Klasse | Kernrolle | Wichtigstes Skill-Upgrade | Synergie-Bewertung |
+| :--- | :--- | :--- | :--- | :--- |
+| Nyx | Assassine | Primärer Hyper-Carry | Spark-Umschulung (Exekution < 30% TP) | ★★★★★ |
+| Yuna | Assassine | Crit/Gift-Enabler | Shadow Strike (Splitter-Generierung) | ★★★★☆ |
+| Logan | Assassine | Buffer & Sub-Carry | Ambush Engine (AD-Skalierung für Nyx) | ★★★★☆ |
+| Dragamir | Vanguard | Frontline-Solo-Tank | Devour (Omnivamp & Splitter-Skalierung) | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Nyx (Der Carry)">
+    Fokussiert sich auf schnelle Angriffsgeschwindigkeit, hohe Crit-Skalierung und das sofortige Exekutieren von Zielen mit wenig Leben.
+  </Card>
+  <Card title="Dragamir (Der Wall)">
+    Absorbiert den Druck an der Front, verbraucht Splitter zur Omnivamp-Skalierung und hält das Team am Leben.
+  </Card>
+  <Card title="Logan (Der Enabler)">
+    Bietet verlängerte Stealth-Dauer und passive Angriffsschadens-Buffs für angrenzende Verbündete.
+  </Card>
+</CardGrid>
+
+Das Upgrade deiner Helden am Lagerfeuer ist entscheidend. Für Nyx wird dringend empfohlen, dem Spark-Umschulungs-Upgrade Priorität einzuräumen. Diese Fertigkeit ermöglicht es ihr, jeden Gegner sofort zu exekutieren, dessen Gesundheit unter 30 % fällt, wodurch Tanks mit hoher Verteidigung im Late-Game komplett umgangen werden. Dragamir hingegen sollte sich auf Upgrades konzentrieren, die Splitter verbrauchen, um seine maximalen TP und Verteidigung permanent zu erhöhen.
+
+<Callout type="success" title="Synergie-Tipp">
+Suche immer nach Möglichkeiten, Logan zusammen mit Nyx einzusetzen. Logans passive Fähigkeit gewährt angrenzenden Assassinen permanenten Angriffsschaden, wenn sie eine Kampfrunde getarnt überleben, was eine unendliche Skalierungsschleife erzeugt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Relikte, Gegenstände und Skalierungsverlauf">
+
+Gegenstände und Relikte bestimmen in Guildrun das Skalierungspotenzial deines Teams. Da Assassinen von Natur aus zerbrechlich sind, muss deine Itemisierung rohen Schaden mit defensiver Nützlichkeit wie Omnivamp und Notfall-Stealth-Auslösern ausbalancieren.
+
+| Relikt | Seltenheit | Kerneffekt | Auswirkung auf den Build | Bewertung |
+| :--- | :--- | :--- | :--- | :--- |
+| Assassin's Smokescreen | Episch | Stealth für 3s bei unter 33% TP | Überlebenswichtig für squishy Carries | ★★★★★ |
+| Large Power Crystal | Selten | Massiver Stat-Boost nach 2 Kämpfen | Permanente Skalierung für Dual-Class-Einheiten | ★★★★☆ |
+| Poison Catalyst | Episch | Multipliziert Giftschaden über Zeit | Zermürbt High-HP-Tanks im Endless-Modus | ★★★★★ |
+| Warrior's Emblem | Selten | Verbessert Krieger-Stats bei geringen Kosten | Stärkt Dragamirs Frontline-Fähigkeiten | ★★★☆☆ |
+
+Bevorzuge für Nyx' Gegenstandsplätze Items, die Angriffsgeschwindigkeit, kritische Trefferchance und On-Hit-Debuffs bieten. Der „Ring of Virality“ ist hier äußerst effektiv, da er mit jedem schnellen Autonangriff massive Giftstapel verursacht.
+
+| Gegenstand | Slot | Primäre Stats | Einzigartiger Effekt | Zielheld |
+| :--- | :--- | :--- | :--- | :--- |
+| Ring of Virality | Waffe/Accessoire | Omnivamp, Crit | Verursacht 175 Gift am Ziel | Nyx |
+| Searing Contract | Waffe | Angriffsgeschw., Crit | Exekutiert Gegner bei mehreren Crits | Nyx / Yuna |
+| Guardian's Lantern | Rüstung | Max TP, Verteidigung | Schildet angrenzende Verbündete bei Kampfbeginn | Dragamir |
+| Quiver of Swiftness | Waffe | Angriffsgeschw. | Beschleunigt Managewinn & Autonangriffe | Yuna |
+
+Um diesen Build vom Early-Game in den Endless-Modus zu überführen, folge diesem spezifischen Pfad:
+
+<Steps>
+  <Step num="1" title="Splitter-Ökonomie etablieren">
+    Wähle Dragamir frühzeitig und nimm Upgrades, die zusätzliche Splitter bei Kills generieren. Dies erlaubt es dir, aggressiv im Shop nach wichtigen Relikten zu suchen.
+  </Step>
+  <Step num="2" title="Hinterreihen-Stealth sichern">
+    Erwirb das Relikt „Assassin's Smokescreen“ und positioniere Nyx und Logan in der hinteren Reihe, um frühe kritische Treffer zu garantieren.
+  </Step>
+  <Step num="3" title="Spark-Umschulung freischalten">
+    Besuche das Lagerfeuer in Akt 2, um Nyx' aktive Fertigkeit in die Spark-Exekution umzuschulen, damit sie Elite-Monster schnell ausschalten kann.
+  </Step>
+  <Step num="4" title="Übergang zur Gift-Skalierung">
+    Rüste Nyx mit dem „Ring of Virality“ aus und hol dir das Relikt „Poison Catalyst“, um deinen Schaden im Endless-Modus exponentiell zu steigern.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Risikofaktor">
+Hüte dich vor Relikten, die die Angriffsgeschwindigkeit deines Teams verringern oder deine Helden zu Kampfbeginn betäuben. Assassinen sind stark auf sofortigen Stealth und schnelle Angriffszyklen angewiesen, um zu überleben.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Positionierung und Kampfstrategie">
+
+Die richtige Positionierung entscheidet über Erfolg oder eine vorzeitige Niederlage. Da Assassinen auf Stealth setzen, um direkte Konfrontationen zu vermeiden, muss deine Frontline so positioniert sein, dass sie die gesamte anfängliche gegnerische Aggro auf sich zieht.
+
+| Reihe | Held | Hauptaufgabe | Positionierungslogik |
+| :--- | :--- | :--- | :--- |
+| Vordere Reihe | Dragamir | Solo-Tanking | Zieht Nahkampf-Aggro, aktiviert Devour |
+| Hintere Reihe | Nyx | Sicherer DPS | Erhält sofort 100% Crit und 5s Stealth |
+| Hintere Reihe | Logan | Nyx buffen | Neben Nyx platziert, um passive AD-Buffs zu teilen |
+| Reserve | Yuna | Backup-Gift | Löst von der Bank aus Backup-Assassinen-Giftbuffs aus |
+
+Wenn du Bossen mit schweren Flächenangriffen (AoE) gegenüberstehst, solltest du deine Assassinen in der Hinterreihe mit Abstand positionieren. Wenn Nyx und Logan auf gegenüberliegenden Seiten der hinteren Reihe stehen, wird verhindert, dass beide von denselben Zaubern getroffen werden, was sicherstellt, dass mindestens ein Carry gesund bleibt.
+
+<Checklist
+  id="combat-readiness"
+  title="Checkliste vor dem Kampf:"
+  items={[
+    "Überprüfe, ob Dragamir auf dem einzigen Frontline-Feld steht, um die Aggro zu ziehen.",
+    "Stelle sicher, dass Nyx neben Logan steht, um die passiven Angriffsschadens-Buffs zu erhalten.",
+    "Prüfe, ob alle Assassinen in der Hinterreihe aktive Stealth-Gegenstände ausgerüstet haben.",
+    "Bestätige, dass deine Reservebank mit Assassinen besetzt ist, um Backup-Synergien auszulösen."
+  ]}
+/>
+
+<Callout type="tip" title="Taktischer Rat">
+Wenn du auf Gegner mit hohen Ausweichraten triffst, tausche eines von Nyx' Angriffsgeschwindigkeits-Items gegen ein Relikt aus, das die Genauigkeit erhöht. Verfehlte Angriffe stoppen deine Managenerierung und verhindern das Auslösen deiner Exekutions-Skills.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Warum wird Nyx in diesem Build gegenüber Yuna als Haupt-Carry bevorzugt?",
+    answer: "Während Yuna exzellent für die Splitter-Generierung im Early-Game ist, besitzt Nyx eine überlegene Skalierung der Angriffsgeschwindigkeit und kann umgeschult werden, um Ziele unter 30 % Gesundheit zu exekutieren, was sie gegen Late-Game-Bosse weitaus effektiver macht."
+  },
+  {
+    question: "Wie gehe ich mit Teams um, die viel Crowd Control (CC) einsetzen?",
+    answer: "Priorisiere den Erwerb von Relikten, die in den ersten Sekunden des Kampfes CC-Immunität gewähren (Rush-Trigger). Dies stellt sicher, dass deine Assassinen ihre volle Stealth-Dauer ohne Unterbrechung nutzen können."
+  },
+  {
+    question: "Kann ich diesen Build auch ohne Dragamir als Frontline-Tank spielen?",
+    answer: "Davon wird dringend abgeraten. Dragamirs einzigartige Fähigkeit, Omnivamp zu skalieren und Splitter zu generieren, ist lebenswichtig, um deine teuren Relikt-Upgrades zu finanzieren. Ihn zu ersetzen, wird das Skalierungspotenzial deines Teams massiv einschränken."
+  },
+  {
+    question: "Was ist das ideale Cap für die Angriffsgeschwindigkeit von Nyx im Endless-Modus?",
+    answer: "Es gibt kein hartes Cap, aber es wird empfohlen, mindestens 3,5 Angriffe pro Sekunde anzustreben. Dies ermöglicht es Nyx, den Ring of Virality und Gift-Katalysatoren mehrmals pro Sekunde auszulösen."
+  }
+]} />
+
+<Callout type="info" title="Schlusswort">
+Experimentiere weiter mit verschiedenen Relikt-Kombinationen im Auktionshaus. Die Schönheit dieses Builds liegt in seiner Flexibilität, verschiedene hochrangige offensive Relikte aufzunehmen, solange dein Kern-Stealth-Motor intakt bleibt.
+</Callout>
+
+</Section>

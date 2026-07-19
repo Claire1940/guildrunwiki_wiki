@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Lista de Níveis de Relíquias de Guildrun: Rankings S-Tier 2026 e Melhores Builds de Itens",
+  description: "Domine a lista de níveis de relíquias de Guildrun para otimizar suas partidas roguelike. Descubra as melhores relíquias de escalonamento de classe, impulsionadores de economia e itens de sobrevivência S-tier.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111A18/D5B65C?text=Relic+Tier+List",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun",
+  keywords: "guildrun, lista de níveis de relíquias, tier list, guia de itens, builds de heróis, roguelike"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Lista de níveis de relíquias de Guildrun**: O S-tier foca em **Escalonamento de Classe**, **Velocidade de Ataque** e **Economia Inicial** para garantir a viabilidade no fim de jogo.
+- **Relíquias que Definem a Partida**: Priorize itens que melhoram a **equipe inteira** em vez de impulsionadores de atributos de um único herói.
+- **Estratégia de Economia**: Pegue relíquias de **Fragmentos** e **Reroll da Loja** cedo (Dificuldade 1-3) para acumular recursos para a Dificuldade 8.
+- **Prioridade de Sobrevivência**: Relíquias de defesa universal são obrigatórias para o **Modo Infinito** para evitar mecânicas de morte instantânea de fendas de elite.
+- **Foco em Sinergia**: Combine suas escolhas de relíquias com seus **75 caminhos de especialização** para multiplicação máxima de dano.
+</Callout>
+
+<Section icon={Sparkles} title="Entendendo o Sistema de Relíquias de Guildrun">
+
+No ecossistema complexo de Guildrun, as relíquias representam o principal método de escalonar o poder da sua guilda além dos simples níveis de heróis. Com mais de 300 relíquias e 100 itens disponíveis no meta de 2026, distinguir entre um item "isca" e um artefato que define a partida é a diferença entre uma fenda fracassada e uma conclusão bem-sucedida na Dificuldade 8. Ao contrário de itens padrão que fornecem atributos fixos a um único herói, as relíquias frequentemente aplicam modificadores globais que remodelam toda a sua abordagem tática.
+
+A atual **lista de níveis de relíquias de Guildrun** categoriza esses artefatos com base em quatro métricas principais: **Flexibilidade**, **Potencial de Escalonamento**, **Impacto no Início do Jogo** e **Viabilidade no Modo Infinito**. Uma relíquia que é excelente nas três primeiras fendas, mas inútil contra o chefe final, cai para o nível B, enquanto aquelas que fornecem valor cumulativo são cimentadas no nível S.
+
+| Tipo de Relíquia | Função Principal | Fase Alvo | Impacto no Meta |
+| :--- | :--- | :--- | :--- |
+| **Relíquias Globais** | Afeta todos os 25 heróis | Todos os Estágios | **Mais Alto** |
+| **Relíquias de Classe** | Melhora especializações específicas | Meio-Fim | **Alto** |
+| **Relíquias de Economia** | Aumenta Fragmentos/Rerolls | Início | **Crítico** |
+| **Relíquias de Ativação** | Ativa ao matar/atingir/conjurar | Combate | **Moderado** |
+
+<Callout type="tip" title="Flexibilidade Estratégica">
+Não force uma build específica antes de ver suas duas primeiras ofertas de relíquias. Guildrun recompensa jogadores que adaptam seu recrutamento de heróis aos pontos fortes das relíquias obtidas no início.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Nível S: As Relíquias que Definem a Partida">
+
+As relíquias de Nível S são aquelas que fornecem valor universal, independentemente da composição da sua equipe. Esses artefatos normalmente oferecem escalonamento que se torna mais poderoso à medida que você investe em patentes de heróis e especializações. No cenário competitivo de 2026, a economia e a velocidade de ataque dominam o meta de alta dificuldade.
+
+<CardGrid cols={2}>
+  <Card title="Relíquias de Escalonamento de Classe">
+    - **Poder**: Muito Alto
+    - **Efeito**: Melhora múltiplas habilidades dentro de uma classe
+    - **Por que Vence**: Escala exponencialmente com as patentes de especialização
+  </Card>
+  <Card title="Velocidade de Ataque Flexível">
+    - **Poder**: Muito Alto
+    - **Efeito**: Aumenta a frequência de ação global
+    - **Por que Vence**: Ativa efeitos ao atingir e aumenta DPS/Cura
+  </Card>
+  <Card title="Impulsionadores de Economia Inicial">
+    - **Poder**: Alto (Início)
+    - **Efeito**: Fragmentos extras ou atualizações de loja gratuitas
+    - **Por que Vence**: Permite o recrutamento perfeito da equipe até a Fenda 4
+  </Card>
+  <Card title="Sobrevivência Universal">
+    - **Poder**: Muito Alto
+    - **Efeito**: Redução de dano fixa ou mecânicas de renascimento
+    - **Por que Vence**: Evita perdas baseadas em RNG na alta dificuldade
+  </Card>
+</CardGrid>
+
+Essas relíquias são a base de qualquer partida bem-sucedida. Por exemplo, uma **Relíquia de Economia Inicial** adquirida na primeira loja pode resultar em 30% mais recursos ao final da partida, permitindo que você melhore totalmente sua lista de 25 heróis e garanta especializações de rank S.
+
+| Categoria da Relíquia | Melhor Sinergia de Herói | Tipo de Escalonamento | Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Velocidade de Ataque** | Longa Distância, Duelistas, Assassinos | Multiplicativo | **1ª** |
+| **Economia** | Todos (Foco em Rerolls da Loja) | Cumulativo | **1ª (Início)** |
+| **Defesa Global** | Tanks, Âncoras de Linha de Frente | Aditivo | **2ª** |
+| **Poder de Habilidade** | Curandeiros, Conjuradores Híbridos | Multiplicativo | **2ª** |
+
+<Callout type="success" title="Visão do Meta">
+Em 2026, o meta de "Reroll da Loja" é a maneira mais consistente de vencer a Dificuldade 8. Relíquias que concedem atualizações gratuitas são atualmente mais valorizadas do que impulsionadores de dano direto porque garantem que você encontre os heróis específicos necessários para sua sinergia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Níveis A e B: Poder Situacional e Específico por Função">
+
+As relíquias de Nível A e Nível B são poderosas, mas exigem condições específicas para brilhar. Se você estiver usando uma build de efeito compartilhado "Lovers" ou uma composição de escalonamento de carry único, essas relíquias podem frequentemente superar as opções de nível S. No entanto, elas carecem da flexibilidade para serem escolhidas em todas as partidas.
+
+**Nível A: Especialistas Consistentes**
+Essas relíquias focam em amplificar funções específicas, como Cura ou Dano Dedicado. Elas são excelentes quando você já se comprometeu com um caminho de especialização, como um Curandeiro dedicado ou um Assassino de dano explosivo.
+
+**Nível B: As Apostas Condicionais**
+As relíquias de Nível B incluem itens defensivos específicos para funções ou relíquias que só ativam sob condições estritas (ex: "quando um herói está com menos de 20% de vida"). Embora possam salvar uma partida, muitas vezes são "peso morto" se sua equipe estiver indo bem.
+
+| Nível | Categoria | Melhor Caso de Uso | Nível de Risco |
+| :--- | :--- | :--- | :--- |
+| **A** | Amplificação de Cura | Equipes defensivas, Encontros com chefes | **Baixo** |
+| **A** | Dano Dedicado | Builds de linha de retaguarda com carry único | **Baixo** |
+| **B** | Defesa de Função | Tanks expostos a forte pressão | **Médio** |
+| **B** | Combate Condicional | Builds de explosão de alto risco e alta recompensa | **Alto** |
+
+<Callout type="warning" title="Evite Iscas de Nível C">
+Itens de atributo único de baixo impacto (Nível C) fornecem pequenos bônus fixos como +5 de Vida. Eles raramente valem o custo de Fragmentos no meio do jogo, pois não escalam com o crescimento ou as especializações do seu herói.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Como Combinar Relíquias com Especializações de Heróis">
+
+Com 75 caminhos de especialização disponíveis em Guildrun, combinar suas relíquias com a função evoluída do seu herói é crítico. Um herói Tank especializado em "Redução de Dano" ganha significativamente mais valor de uma relíquia de "Sobrevivência Universal" do que de uma de "Amplificação de Cura".
+
+<Steps>
+  <Step num="1" title="Identifique seu Carry Principal">
+    Determine qual herói causará a maior parte do seu dano. Se for um herói de Longa Distância, priorize relíquias de Velocidade de Ataque. Se for um Assassino, procure por Explosão ou Poder de Finalização.
+  </Step>
+  <Step num="2" title="Verifique a Sinergia de Classe">
+    Revise suas especializações ativas. Se você tiver vários heróis na classe "Suporte" ou "Curandeiro", uma relíquia de Escalonamento de Classe fornecerá 3x ou 4x mais valor em comparação com um item de alvo único.
+  </Step>
+  <Step num="3" title="Equilibre Defesa e Utilidade">
+    Certifique-se de que sua linha de frente tenha relíquias de sobrevivência suficientes para durar pelo menos 15 segundos. Se eles morrerem rápido demais, suas relíquias de dano da linha de retaguarda nunca terão a chance de ativar.
+  </Step>
+  <Step num="4" title="Mude a Estratégia se Necessário">
+    Se a loja oferecer uma relíquia lendária de nível S que não se encaixa na sua equipe atual, considere usar a mecânica de "Respec" para mudar os caminhos de especialização dos seus heróis para corresponder à nova fonte de poder.
+  </Step>
+</Steps>
+
+| Função do Herói | Sinergia de Relíquia Recomendada | Atributo Prioritário |
+| :--- | :--- | :--- |
+| **Tank** | Redução de Dano, Vida Global | **Defesa** |
+| **Curandeiro** | Amplificação de Cura, Aceleração de Habilidade | **Sustentação** |
+| **Longa Distância** | Velocidade de Ataque, Tiro Múltiplo | **DPS** |
+| **Assassino** | Dano Crítico, Pen. de Armadura | **Explosão** |
+
+<Callout type="info" title="A Estratégia de Respec">
+Não tenha medo de resetar suas especializações. Se encontrar uma relíquia que concede bônus massivos para "Duelistas", mas você tem "Assassinos" no momento, o custo de recursos para trocar as especializações geralmente vale o enorme salto de poder.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progressão e Escalonamento de Dificuldade">
+
+À medida que você avança da Dificuldade 1 para a Dificuldade 8, sua dependência da **lista de níveis de relíquias de Guildrun** aumentará. Em dificuldades mais baixas, você pode vencer com quase qualquer combinação. Na Dificuldade 8 e no Modo Infinito, escolhas ineficientes de relíquias levarão a uma derrota imediata.
+
+<Checklist
+  id="relic-progression"
+  title="Checklist de Sucesso da Partida:"
+  items={[
+    "Adquira pelo menos uma relíquia de Economia antes da Fenda 3",
+    "Garanta uma relíquia de Escalonamento de Classe para seu tipo de dano principal",
+    "Equipe uma relíquia de sobrevivência global na sua âncora de linha de frente",
+    "Sincronize os efeitos dos itens com as palavras-chave de especialização",
+    "Economize Fragmentos suficientes para uma Relíquia Lendária de fim de jogo"
+  ]}
+/>
+
+No Modo Infinito, o dano do inimigo escala mais rápido que a sua vida. Isso torna as relíquias de "Esquiva" e "Redução de Dano" significativamente mais valiosas do que as relíquias de "Vida" fixa. Você deve focar em mecânicas que anulem o dano inteiramente ou forneçam escalonamento baseado em porcentagem.
+
+| Dificuldade | Estratégia de Relíquia | Objetivo Principal |
+| :--- | :--- | :--- |
+| **1-3** | Experimentação | Aprender interações entre relíquias e heróis |
+| **4-6** | Otimização | Focar em sinergias de toda a classe |
+| **7-8** | Eficiência | Minimizar desperdícios, maximizar economia |
+| **Infinito** | Escalonamento de Sobrevivência | Priorizar redução de dano baseada em % |
+
+<Callout type="tip" title="Segredo do Modo Infinito">
+A categoria S-tier de "Velocidade de Ataque" torna-se ainda mais vital no Modo Infinito porque permite que seus heróis ativem especializações de "Atordoamento" ou "Congelamento" com mais frequência, efetivamente paralisando os inimigos que escalam.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso acumular várias relíquias da mesma categoria?",
+    answer: "Sim, a maioria dos efeitos de relíquias em Guildrun são aditivos. Por exemplo, duas relíquias de 10% de Velocidade de Ataque concederão um bônus total de 20%. No entanto, relíquias Lendárias únicas não podem ser duplicadas."
+  },
+  {
+    question: "Devo comprar itens ou relíquias primeiro na loja?",
+    answer: "Geralmente, as relíquias têm prioridade maior no início do jogo porque fornecem benefícios globais. Os itens são melhores no final do jogo para corrigir a fraqueza de um herói específico ou maximizar o dano de um carry."
+  },
+  {
+    question: "Qual relíquia é melhor para uma primeira vitória?",
+    answer: "Qualquer relíquia de Economia de nível S é melhor para iniciantes. Ela fornece mais 'tentativas' para encontrar os heróis e especializações certos, tornando a partida muito mais tolerante."
+  },
+  {
+    question: "Como a lista de níveis de relíquias muda no modo Co-op?",
+    answer: "No modo Co-op planejado para 2027, as relíquias de utilidade para 'Toda a Equipe' provavelmente subirão para o topo do nível S, pois beneficiarão as guildas de ambos os jogadores simultaneamente."
+  }
+]} />
+
+</Section>

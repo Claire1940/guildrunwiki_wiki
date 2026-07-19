@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Magia em Guildrun: Especializações de Alto Dano e Sinergias",
+  description: "Domine a melhor build de magia em Guildrun com nosso guia de 2026. Aprenda sinergias de heróis, caminhos de especialização e combinações de relíquias para dano máximo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111A18/D5B65C?text=Magic+Build+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun",
+  keywords: "guildrun magic build, build de magia, especializações, sinergias de heróis"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: A **build de magia em Guildrun** foca em escalar o dano de habilidade através de especializações à Distância (Ranged) e Híbridas (Hybrid).
+- **Mecânica central**: Priorize **Velocidade de Ataque** e **Palavras-chave de Habilidade** para acionar efeitos mágicos de alta frequência.
+- **Melhor estratégia**: Fixe sua equipe com uma linha de frente durável enquanto direciona itens ofensivos para um único carry à Distância.
+- **Dica crítica**: Use a mecânica de **Respec** (Redistribuição) se o seu escalonamento mágico perder força contra chefes de alta dificuldade.
+- **Melhor escolha**: Heróis com alto **Potencial de Escalonamento** e caminhos multiclasse flexíveis são essenciais para o sucesso no late-game.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Arquétipo Mágico em Guildrun">
+
+No meta de 2026 de Guildrun, uma estratégia focada em magia é definida por um alto teto de dano de habilidade e sinergias complexas entre relíquias e especializações de heróis. Diferente das builds físicas que dependem de força bruta, uma **build de magia em Guildrun** prospera na frequência de habilidades e cobertura de dano em área (AoE). Com 25 heróis e 75 caminhos de especialização disponíveis na versão atual, identificar o núcleo "mágico" correto é o primeiro passo para superar a Dificuldade 8 e dominar o Modo Infinito.
+
+| Tipo de Função | Eficiência Mágica | Contribuição Principal | Prioridade de Escalonamento |
+| :--- | :--- | :--- | :--- |
+| **À Distância** | **Excelente** | Dano de habilidade consistente na retaguarda | Velocidade de Ataque / PA |
+| **Híbrido** | **Alta** | Utilidade flexível e dano secundário | Sinergia de Especialização |
+| **Suporte** | **Moderada** | Buff de saída mágica e sustentação | Aceleração de Habilidade / Mana |
+| **Tanque** | **Baixa** | Criar espaço para os carries mágicos | Redução de Dano |
+
+<Callout type="tip" title="Visão do Editor">
+Builds de magia são inerentemente frágeis. Seu sucesso depende inteiramente da sua capacidade de proteger seus carries à Distância. Nunca negligencie a durabilidade da sua linha de frente em favor de atualizações puras de dano.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores Heróis para Sinergias Mágicas">
+
+Selecionar os heróis certos para sua **build de magia em Guildrun** requer olhar além dos atributos base. Você precisa de heróis que possam transicionar para especializações de tier S. Os carries mágicos mais fortes são aqueles que se beneficiam de efeitos de equipe compartilhados e relíquias de alta raridade.
+
+<CardGrid cols={3}>
+  <Card title="O Carry à Distância">
+    - **Alto Potencial de Escalonamento**
+    - Focado em velocidade de ataque
+    - Beneficia-se de itens de PA
+  </Card>
+  <Card title="O Utilitário Híbrido">
+    - **Multiclasse Flexível**
+    - Oferece controle de grupo
+    - Preenche lacunas de dano
+  </Card>
+  <Card title="O Suporte Mágico">
+    - **Sustentação e Buffs**
+    - Aumenta a aceleração de habilidade
+    - Essencial para o Modo Infinito
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Regra de Seleção de Heróis">
+Sempre verifique a loja cedo por atualizações duplicadas. Um herói de Rank B com múltiplas atualizações frequentemente supera um herói de tier S preso no rank base durante a transição do mid-game.
+</Callout>
+
+| Tier do Herói | Função | Sinergia Mágica | Por Que Funciona |
+| :--- | :--- | :--- | :--- |
+| **Tier S** | À Distância | ★★★★★ | Maior escalonamento de habilidade na demo. |
+| **Tier A** | Híbrido | ★★★★☆ | Excelente transição para caminhos mágicos. |
+| **Tier A** | Suporte | ★★★★☆ | Essencial para regeneração de mana/energia. |
+| **Tier B** | À Distância | ★★★☆☆ | Forte, mas requer relíquias específicas para escalar. |
+
+</Section>
+
+<Section icon={Swords} title="Caminhos de Especialização e Multiclasse">
+
+O coração de qualquer **build de magia em Guildrun** reside nas 180 escolhas de especialização. Para usuários de magia, a progressão das especializações de rank C para rank S deve focar em "Palavras-chave de Habilidade" e gatilhos de "Ataque Repetido". A multiclasse permite que um herói pegue emprestado traços defensivos de caminhos de tanque ou utilidade de caminhos de suporte sem sacrificar sua saída mágica primária.
+
+| Foco da Especialização | Melhor Para | Trabalho de Combate | Vantagem Principal |
+| :--- | :--- | :--- | :--- |
+| **Aceleração de Habilidade** | Conjuradores | Gatilhos frequentes de skill | Pressão constante |
+| **Eficiência de Mana** | Híbridos | Uso sustentado de habilidades | Estabilidade em lutas longas |
+| **Dano de Explosão** | Assassinos | Remover alvos de alta prioridade | Limpeza rápida de encontros |
+| **Cobertura AoE** | À Distância | Limpar grupos de inimigos | Alto DPS total |
+
+<Callout type="warning" title="Estratégia de Respec">
+Se você perceber que seu dano mágico está sendo mitigado pelas resistências dos chefes em fendas avançadas, não hesite em usar a mecânica de **Respec**. Transicionar para um caminho de maior penetração pode salvar uma run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Itens e Relíquias Essenciais para Builds de Magia">
+
+Com mais de 300 relíquias e 100 itens, o equipamento que você escolher determinará se sua **build de magia em Guildrun** conseguirá sobreviver à Fenda Vermelha. Foque em relíquias que ofereçam "Escalonamento de Classe" ou "Sobrevivência Universal" para garantir que seus magos "canhão de vidro" não sejam eliminados nos segundos iniciais de uma batalha.
+
+**Principais Prioridades de Equipamento Mágico:**
+- **Relíquias de Escalonamento de Classe**: Estas melhoram múltiplos heróis se eles compartilharem uma especialização mágica.
+- **Efeitos de Velocidade de Ataque**: Ataques mais rápidos ativam procs mágicos "Ao Contato" com mais frequência.
+- **Relíquias de Economia Precoce**: Colocar sua build de magia em funcionamento requer um investimento significativo de Estilhaços; relíquias de economia tornam isso possível.
+
+| Tipo de Equipamento | Tier | Foco do Efeito | Compatibilidade |
+| :--- | :--- | :--- | :--- |
+| **Cajado de PA** | **S** | Bônus massivo de Poder de Habilidade | Carries à Distância |
+| **Capa de Aceleração** | **A** | Reduz tempos de recarga em 20% | Todos os Usuários de Magia |
+| **Bateria de Mana** | **A** | Regeneração constante de energia | Suporte/Híbrido |
+| **Anel de Escudo** | **B** | Vida temporária ao usar skill | Linha de Frente/Híbrido |
+
+<Callout type="success" title="Bônus de Sinergia">
+Combinar relíquias de **Velocidade de Ataque** com itens de **Poder de Habilidade** cria um ciclo recursivo onde seus heróis conjuram feitiços mais rápido e com mais força, frequentemente sobrecarregando os curandeiros inimigos antes que possam reagir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração Passo a Passo para uma Build de Magia">
+
+Executar uma **build de magia em Guildrun** perfeita requer planejamento cuidadoso desde a primeira visita à loja. Siga estes passos para garantir que sua equipe escale corretamente através dos oito níveis de dificuldade.
+
+<Steps>
+  <Step num="1" title="Recrute seu Núcleo Mágico">
+    Comece com um herói à Distância confiável e um Tanque robusto. Não recrute causadores de dano em excesso cedo; você precisa de uma base equilibrada para sobreviver às três primeiras fendas.
+  </Step>
+  <Step num="2" title="Priorize o Escalonamento de Habilidade">
+    Nas primeiras lojas, procure por itens que aumentem o Poder de Habilidade ou a Velocidade de Ataque. Se uma relíquia de "Escalonamento de Classe" aparecer, comprometa-se com esse caminho mágico específico imediatamente.
+  </Step>
+  <Step num="3" title="Desbloqueie Especializações de Tier Médio">
+    Ao atingir o Rank B, selecione especializações que ofereçam dano AoE ou controle de grupo. Isso ajudará você a limpar grandes grupos de inimigos nos estágios intermediários da run.
+  </Step>
+  <Step num="4" title="Otimize a Linha de Frente">
+    Conforme seu dano mágico aumenta, os inimigos viverão por mais tempo. Invista nas especializações defensivas do seu Tanque para garantir que eles segurem a linha enquanto seus magos conjuram.
+  </Step>
+  <Step num="5" title="Finalize a Transição para o Rank S">
+    No late-game, use seus Estilhaços para buscar especializações de rank S que ofereçam "Escalonamento Infinito" ou mecânicas de "Execução" para lidar com os chefes da Dificuldade 8.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Posicionamento">
+Sempre coloque seu carry mágico no slot "Protegido". Mesmo a build de magia mais forte falhará se a fonte principal de dano for alvo de um assassino nos primeiros dois segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist e FAQ">
+
+Para garantir que sua **build de magia em Guildrun** esteja pronta para o desafio final, use a seguinte checklist antes de entrar no encontro com o chefe final.
+
+<Checklist
+  id="magic-build-ready"
+  title="Checklist de Prontidão para o End-game:"
+  items={[
+    "O carry principal tem pelo menos dois itens mágicos de Tier S",
+    "O tanque da linha de frente tem 50%+ de redução de dano",
+    "Pelo menos um herói fornece sustentação de mana ou energia",
+    "As especializações estão sincronizadas para efeitos compartilhados",
+    "Unidades de reserva estão equipadas com counters situacionais"
+  ]}
+/>
+
+<Callout type="info" title="Resumo Final">
+O arquétipo mágico em Guildrun foca em sinergia sobre atributos brutos. Ao focar em velocidade de ataque, poder de habilidade e posicionamento protetor, você pode conquistar qualquer fenda que a demo apresentar.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual herói é o melhor iniciante para uma build de magia em Guildrun?",
+    answer: "A classe à Distância (Ranged) é o iniciante mais confiável. Ela oferece dano consistente na retaguarda e possui os caminhos de especialização mais diretos para escalonamento mágico."
+  },
+  {
+    question: "Posso rodar uma build de magia sem um curandeiro dedicado?",
+    answer: "É possível, mas arriscado. Você precisará de relíquias defensivas de alto nível ou especializações de roubo de vida para compensar a falta de cura ativa."
+  },
+  {
+    question: "O que devo fazer se a loja não oferecer itens mágicos?",
+    answer: "Mude para uma build Híbrida. Use a mecânica de 'Respec' para ajustar seus heróis de acordo com os itens que você realmente possui, e então retorne à build mágica assim que o RNG da loja melhorar."
+  },
+  {
+    question: "Como a Dificuldade 8 afeta as builds de magia?",
+    answer: "A Dificuldade 8 aumenta as resistências dos inimigos e o dano de explosão. Você deve priorizar especializações de penetração mágica e garantir que sua linha de frente suporte a pressão aumentada."
+  }
+]} />
+
+</Section>

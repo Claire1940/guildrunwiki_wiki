@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guildrun Boss Guide: Omega Plexus Sentinel Tactics",
+  description: "Master the Omega Plexus Sentinel in Guildrun. Learn phase transitions, tank positioning, and death wall blink strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Omega+Plexus+Sentinel+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Guildrun boss guide** focus: Defeating the Omega Plexus Sentinel requires strict positioning and fast reaction times.
+- **Stun puddles** must be placed at the edges of the room to keep the center clear.
+- **Eradicating Salvo** requires the entire raid to stack in melee during normal difficulty.
+- **Death Wall** phase requires using the Extra Action Button to blink through the laser barrier safely.
+- **Tank swap** mechanics require running far away from the raid to minimize fall-off damage.
+</Callout>
+
+<Section icon={Map} title="Boss Overview & Core Mechanics">
+
+The Omega Plexus Sentinel serves as a major coordination test for raiding groups. Defeating this boss requires disciplined movement, precise spatial awareness, and quick reactions to transition phases. The encounter takes place in a large circular chamber where positioning determines success. Managing the floor space is the primary challenge, as several mechanics leave persistent hazards that limit movement.
+
+The encounter cycles through two distinct phases based on the boss's energy level. Understanding the transition points allows raid leaders to call out movement abilities and defensive cooldowns at the correct times.
+
+| Phase | Energy Trigger | Core Objective | Danger Level |
+| :--- | :--- | :--- | :--- |
+| Phase 1 | 0 to 99 Energy | Manage debuffs and stack for group damage | Moderate |
+| Transition | 100 Energy | Navigate hazards and break the boss shield | High |
+| Phase 2 | Post-Shield | Interrupt boss and repeat Phase 1 mechanics | Moderate |
+
+During Phase 1, the raid must deal with individual target markers, group soak mechanics, and tank-specific busters. When the boss reaches 100 energy, the encounter shifts into a high-intensity transition phase where players are pushed away and must fight their way back.
+
+<Callout type="info" title="Positioning Key">
+Keeping the center of the room clear of hazards is critical. If players drop stun puddles in the middle, the transition phase becomes significantly more difficult to navigate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Phase 1 Mechanics & Positioning">
+
+Phase 1 requires the raid to maintain a tight formation while handling individual targeted mechanics. The primary goal is to maximize damage output while keeping the arena floor clean.
+
+<CardGrid cols={3}>
+  <Card title="Manifest Matrices">
+    - **Targeted players** must run to the outer edges of the room.
+    - Dropping this debuff creates a persistent stun puddle.
+    - Returning to these puddles inflicts heavy damage and stuns the player.
+  </Card>
+  <Card title="Eradicating Salvo">
+    - **Raid-wide soak** mechanic that deals split damage.
+    - All players should stack tightly in melee range.
+    - Spread out immediately after the damage registration on Heroic.
+  </Card>
+  <Card title="Sterilization Buster">
+    - **Tank mechanic** that inflicts heavy physical damage.
+    - Active tank must run far away from the group.
+    - Fall-off damage decreases based on distance from the target.
+  </Card>
+</CardGrid>
+
+The tank mechanic requires a reliable swap rotation. The active tank targeted by Sterilization must move to the designated safety zone, while the off-tank taunts the boss to maintain its position.
+
+| Ability Name | Target | Mechanics & Countermeasures |
+| :--- | :--- | :--- |
+| Manifest Matrices | Random Players | Drops stun puddles. Run to room edges immediately. |
+| Eradicating Salvo | Raid Group | Group soak. Stack in melee (Normal) or spread (Heroic). |
+| Sterilization | Active Tank | Tank buster. Run out to minimize raid-wide fall-off damage. |
+
+Melee and ranged players should remain stacked behind the boss to consolidate the Eradicating Salvo damage. Only players targeted by Manifest Matrices should leave the stack, moving outward in a straight line to deposit their puddles.
+
+<Callout type="warning" title="Puddle Placement">
+Do not drop stun puddles near the entrance or the direct path leading back to the boss. These areas must remain clear for the transition phase.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Phase 2 Transition & Death Wall Survival">
+
+Upon reaching 100 energy, the Sentinel initiates Protocol Purge. This action pushes the entire raid back to the entrance of the chamber. The boss then channels a massive shield that must be broken to interrupt the purge sequence.
+
+<Steps>
+  <Step num="1" title="Wait for Protocol Purge">
+    Allow the initial knockback to complete. Do not use movement abilities during the pushback, as they will be wasted against the force of the wind.
+  </Step>
+  <Step num="2" title="Navigate the Hazards">
+    Run back toward the boss while dodging tripwires, ground traps, and moving knockback bubbles. Avoid any stun puddles dropped during Phase 1.
+  </Step>
+  <Step num="3" title="Blink the Death Wall">
+    As the red laser barrier approaches, use the Extra Action Button to blink through the wall. Timing is critical to avoid instant death.
+  </Step>
+  <Step num="4" title="Break the Shield">
+    Stack inside the boss's hitbox to minimize exposure to residual lasers. Unleash high-damage cooldowns to break the shield and interrupt the channel.
+  </Step>
+</Steps>
+
+The Extra Action Button becomes active only during this transition. Using it too early or too late will result in players hitting the laser wall, which typically results in a wipe.
+
+<Callout type="success" title="Blink Timing">
+Wait until the Death Wall is roughly five yards away before pressing the Extra Action Button. Blinking too early will leave you short of the barrier, causing you to run directly into it.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Heroic Mode Adjustments & Preparation">
+
+Heroic difficulty introduces stricter execution requirements and modifies how the raid handles key mechanics. The most significant change affects the Eradicating Salvo coordination.
+
+| Mechanic | Normal Mode | Heroic Mode |
+| :--- | :--- | :--- |
+| Eradicating Salvo | Group stacks in melee to share damage | Group must split up to avoid overlapping splash damage |
+| Tripwires | Low damage, brief slow effect | Fatal damage or long-duration stun on contact |
+| Laser Barriers | Slow moving, easy to navigate | Faster movement speed with tighter gaps |
+
+Raid preparation is essential before pulling the boss. Ensuring every player understands their positioning assignments prevents chaos during the transition phases.
+
+<Checklist
+  id="pre-pull-checklist"
+  title="Raid Preparation Checklist"
+  items={[
+    "Equip appropriate stat flasks and food buffs.",
+    "Assign specific raid markers for the left and right edges.",
+    "Set up a Warlock gateway pointing towards the boss platform.",
+    "Verify all players have their Extra Action Button bound."
+  ]}
+/>
+
+Positioning a Warlock gateway can assist players who lack native mobility tools. However, players must still manually navigate the tripwires and use their blink action at the correct moment.
+
+<Callout type="tip" title="Gateway Placement">
+Place the entry portal near the entrance wall and the exit portal just before the first tripwire line. This allows slow-moving classes to bypass the initial obstacle course safely.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the primary focus of the Guildrun boss guide for Omega Plexus Sentinel?",
+    answer: "The primary focus is managing the arena space by placing stun puddles on the edges and executing the Extra Action Button blink during the transition phase."
+  },
+  {
+    question: "When should I use my movement abilities during the pushback phase?",
+    answer: "Wait until the boss finishes casting Protocol Purge. Using movement abilities too early will waste them due to the continuous knockback effect."
+  },
+  {
+    question: "How does Eradicating Salvo change on Heroic difficulty?",
+    answer: "On Heroic difficulty, players must split up and spread out rather than stacking in melee, to avoid overlapping splash damage."
+  },
+  {
+    question: "What happens if I fail to blink through the Death Wall?",
+    answer: "Failing to blink through the Death Wall will result in instant death or extreme damage that wipes the attempt."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Practice the blink timing during your first few pulls. Once the raid group master the transition phase, the boss becomes a straightforward DPS check.
+</Callout>
+
+</Section>

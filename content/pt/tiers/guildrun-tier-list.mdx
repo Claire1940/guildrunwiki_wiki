@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tier List de Guildrun: Melhores Heróis e Composições de Equipe",
+  description: "Domine a tier list de Guildrun para criar a equipe definitiva. Classifique todos os 25 heróis, compare 75 caminhos de especialização e otimize itens para a demo da Steam.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111a18/e8eeeb?text=Guildrun+Tier+List",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Tier list de Guildrun**: Avalie os heróis com base na força no início do jogo, escalonamento no final da partida e flexibilidade de multiclasse.
+- **Mecânica principal**: Adapte-se a ofertas aleatórias da loja, relíquias e itens, em vez de forçar uma única build estática.
+- **Melhor estratégia**: Mantenha uma formação equilibrada com uma linha de frente resistente, carries protegidos e suportes utilitários ativos.
+- **Dica crítica**: Priorize relíquias de escalonamento de classe e itens de velocidade de ataque para maximizar a eficiência de combate da sua equipe.
+- **Melhor escolha**: Invista recursos iniciais em âncoras de tier S que possam fazer a transição entre vários caminhos de especialização.
+</Callout>
+
+<Section icon={Trophy} title="Tier List de Guildrun: Visão Geral do Ranking de Heróis">
+
+Estabelecer uma jornada de sucesso em Guildrun, o autobattler roguelike PvE single-player desenvolvido pela Leyline, exige uma compreensão profunda de como os personagens individuais se comportam em diferentes fases do jogo. Com a [Demo de Guildrun na Steam](https://store.steampowered.com/app/4425970/Guildrun_Demo/) independente oferecendo uma visão robusta das mecânicas principais, os jogadores devem avaliar a lista de heróis disponíveis para otimizar suas escolhas de recrutamento. Esta **tier list de Guildrun** classifica os heróis por sua utilidade básica, potencial de escalonamento e flexibilidade geral ao se adaptarem a melhorias aleatórias da loja e sinergias de relíquias.
+
+A posição de um herói na tier list não é determinada apenas pelo dano bruto causado. Em vez disso, as classificações levam em consideração o desempenho de um herói sem a necessidade de itens raros e altamente específicos, e a facilidade com que ele se integra a várias composições de equipe. Os heróis de Tier S são âncoras altamente versáteis que se encaixam em quase qualquer grupo, enquanto as escolhas de Tier C são especialistas altamente situacionais que exigem preparações precisas para ter sucesso.
+
+| Tier | Perfil do Herói | Forças Principais | Composições Ideais |
+|------|-----------------|-------------------|--------------------|
+| Tier S | Âncoras que Definem a Partida | Dano flexível, alta durabilidade, utilidade para toda a equipe | Carry principal, tanque primário, suporte central |
+| Tier A | Fortes e Consistentes | Especialização em função única, desempenho consistente | Âncora de linha de frente, carry secundário, suporte focado |
+| Tier B | Dependente de Build | Alto escalonamento de sinergia, poder dependente de relíquias | Equipes específicas de efeito compartilhado ou transição |
+| Tier C | Escolhas Situacionais | Counters específicos, especialistas frágeis, necessidades exatas | Especialista reserva, counter temporário |
+
+<Callout type="success" title="Visão Geral do Meta">
+O meta atual prioriza heróis que conseguem lidar com as dificuldades crescentes das fendas sem depender de rolagens perfeitas na loja. Foque seu recrutamento no início do jogo em unidades de Tier S e Tier A para garantir uma base estável antes de experimentar sinergias complexas.
+</Callout>
+
+Selecionar os heróis certos durante a fase de recrutamento inicial define a trajetória de toda a sua partida. Embora heróis de tier mais baixo ainda possam alcançar a vitória sob as circunstâncias certas, as opções de tier mais alto oferecem uma margem de erro muito maior, especialmente ao fazer a transição pelas lojas no meio do jogo e enfrentar encontros difíceis com chefes.
+
+</Section>
+
+<Section icon={Swords} title="Análise de Heróis de Tier S e Tier A">
+
+Os heróis mais fortes na versão atual do jogo são aqueles que permanecem altamente eficazes, independentemente de quais relíquias ou itens apareçam na loja. Os heróis de Tier S definem a partida, oferecendo flexibilidade e escalonamento incomparáveis. Eles podem se adaptar facilmente a diferentes caminhos de classe, tornando-os incrivelmente valiosos quando você precisa mudar sua estratégia no meio do caminho.
+
+Os heróis de Tier A também são excepcionalmente fortes, mas geralmente exigem um foco claro. Eles se destacam quando colocados em suas funções ideais e apoiados por uma linha de frente compatível ou por um carry secundário. Ao recrutar sua equipe, emparelhar uma âncora de Tier S com um ou dois especialistas de Tier A cria um núcleo altamente resiliente, capaz de lidar com os desafios mais difíceis do jogo.
+
+<CardGrid cols={2}>
+  <Card title="Heróis Carries">
+    - **Alto dano a alvo único**
+    - Excelente escalonamento com velocidade de ataque
+    - Requer forte proteção da linha de frente
+    - Melhor combinado com relíquias ofensivas
+  </Card>
+  <Card title="Âncoras de Linha de Frente">
+    - **Sobrevivência incomparável**
+    - Controle de grupo ou escudos integrados
+    - Absorve a pressão inicial do inimigo
+    - Essencial para proteger unidades da retaguarda
+  </Card>
+  <Card title="Suportes Utilitários">
+    - **Cura e buffs para toda a equipe**
+    - Melhora a velocidade de ataque e a defesa dos aliados
+    - Reduz a dependência de itens consumíveis
+    - Encaixa-se em qualquer composição de equipe
+  </Card>
+  <Card title="Adaptadores Híbridos">
+    - **Opções flexíveis de multiclasse**
+    - Pode fazer a transição entre dano e defesa
+    - Resolve fraquezas repentinas de composição
+    - Altamente dependente de escolhas de especialização
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Prioridade de Recrutamento">
+Sempre garanta uma âncora de linha de frente confiável nas duas primeiras rodadas. Até mesmo o carry de Tier S mais poderoso cairá rapidamente se não houver um tanque resistente para absorver os ataques iniciais de um combate.
+</Callout>
+
+Para maximizar o potencial dos seus heróis de alto escalão, você deve equipá-los com itens e relíquias que complementem seus caminhos de especialização. Carries ofensivos se beneficiam imensamente de multiplicadores de velocidade de ataque, enquanto seus tanques primários exigem redução de dano fixa e escalonamento de vida para sobreviver a fendas de alta dificuldade.
+
+| Categoria de Equipamento | Nível de Poder | Melhores Arquétipos de Herói | Mecânicas Principais de Escalonamento |
+|--------------------------|----------------|------------------------------|---------------------------------------|
+| Relíquias de Escalonamento de Classe | Tier S | Composições de classe compartilhada | Melhoria de múltiplas habilidades, escalonamento de ranque |
+| Efeitos de Velocidade de Ataque | Tier S | Carries à distância, duelistas de alvo único | Frequência de ataque, ativação de efeitos ao atingir |
+| Sobrevivência Universal | Tier S | Tanques de linha de frente, suportes defensivos | Redução de dano, escalonamento de vida, estabilidade da partida |
+| Amplificação de Cura | Tier A | Curandeiros dedicados, suportes de sustentação | Frequência de cura, recuperação para toda a equipe |
+| Dano Dedicado | Tier A | Builds especializadas à distância ou de assassino | Escalonamento de dano concentrado a alvo único ou explosivo |
+
+</Section>
+
+<Section icon={Target} title="Especializações de Classe e Prioridades de Melhoria">
+
+À medida que você avança em uma partida, seus heróis ganham acesso a vários caminhos de especialização. Guildrun apresenta 75 caminhos de especialização e 180 especializações exclusivas, permitindo que você transforme recrutas básicos em classes altamente especializadas. Entender quando e como melhorar essas classes é tão importante quanto recrutar os heróis corretos.
+
+Melhorar o ranque de um herói desbloqueia novas habilidades e aumentos de atributos que definem sua função no campo de batalha. Por exemplo, um recruta corpo a corpo básico pode ser desenvolvido em um Tanque resistente, um Duelista de alta pressão ou um Assassino furtivo. Escolher o caminho de especialização correto garante que sua equipe mantenha uma distribuição equilibrada de dano, defesa e utilidade.
+
+| Função | Função no Campo de Batalha | Foco da Especialização | Valor de Multiclasse |
+|--------|----------------------------|------------------------|----------------------|
+| Tanque | Manter a linha de frente, absorver pressão | Durabilidade, redução de dano, controle | Combina com cura ou suporte defensivo |
+| Curandeiro | Restaurar vida, estabilidade do grupo | Força de cura, frequência, sustentação | Combina com caminhos defensivos ou utilitários |
+| À Distância | Dano consistente na retaguarda | Velocidade de ataque, cobertura de alvos, escalonamento | Funciona com bônus de velocidade de ataque |
+| Duelista | Pressão em alvo único | Dano direto, acertos repetidos, sobrevivência | Beneficia-se de caminhos secundários defensivos |
+| Assassino | Eliminar alvos prioritários rapidamente | Dano explosivo, acesso a alvos, finalização | Combina com caminhos de dano ou velocidade |
+| Híbrido | Preencher várias necessidades do grupo | Dano, suporte ou defesa equilibrados | Resolve fraquezas inesperadas do grupo |
+
+<Callout type="info" title="Regras de Especialização">
+Não distribua suas melhorias de forma muito fragmentada por todo o seu elenco. É muito mais eficaz especializar totalmente seu carry principal e seu tanque primário antes de gastar recursos em melhorias menores para suas unidades de reserva.
+</Callout>
+
+Se a sua configuração atual estiver com dificuldades contra composições inimigas específicas, não hesite em utilizar a mecânica de redefinição (respec). Redefinir permite realocar os pontos de especialização de um herói, tornando possível a transição de um híbrido defensivo para um carry de alto dano se sua equipe não tiver o poder ofensivo necessário para derrotar os chefes do final do jogo.
+
+</Section>
+
+<Section icon={Shield} title="Melhores Composições de Equipe e Sinergia de Build">
+
+Criar uma equipe vencedora em Guildrun é uma questão de sinergia. Embora a força individual do herói seja importante, a forma como esses heróis interagem entre si no campo de batalha determina o seu sucesso final. As melhores composições utilizam efeitos compartilhados, bônus de classe e posicionamento estratégico para dominar o inimigo.
+
+Uma das estratégias mais eficazes é a Build de Escalonamento de Carry Único, que concentra a maior parte dos seus itens ofensivos e melhorias em um único causador de dano altamente protegido. Essa abordagem permite que seu carry escale exponencialmente, enquanto o restante da sua equipe se concentra inteiramente em mantê-lo vivo.
+
+| Modelo de Composição | Linha de Frente Principal | Carry Primário | Suporte / Utilitário | Opções de Reserva |
+|----------------------|---------------------------|----------------|----------------------|-------------------|
+| Equilibrada para Primeira Partida | Tanque Resistente | Carry à Distância | Curandeiro Dedicado | Híbrido Flexível |
+| Efeito Compartilhado de Amantes | Tanque Protetor | Carry Vinculado | Especialista em Buffs | Carry Alternativo |
+| Escalonamento de Carry Único | Dois Tanques Defensivos | Carry de Alto Escalonamento | Suporte de Sustentação | Especialista em Controle |
+| Linha de Frente Dupla | Tanque Primário e Secundário | Carry à Distância | Suporte Utilitário | Tanque Reserva |
+
+<Callout type="warning" title="Armadilha de Sinergia">
+Evite a tentação de ativar muitas sinergias de efeitos compartilhados diferentes ao mesmo tempo. Forçar combinações de classes incompatíveis geralmente resulta em uma equipe frágil, que carece de defesa suficiente e de uma produção de dano consistente.
+</Callout>
+
+O posicionamento é outro fator crítico na sinergia da equipe. Sempre coloque seus heróis de linha de frente mais resistentes em posições onde interceptarão a onda inicial de pressão inimiga. Mantenha seus carries à distância e curandeiros frágeis em segurança atrás do tanque, e use unidades de reserva para substituir quando enfrentar composições de contra-ataque específicas.
+
+</Section>
+
+<Section icon={Sparkles} title="Guia de Recrutamento e Melhoria Passo a Passo">
+
+Para concluir partidas de sucesso de forma consistente e se preparar para o lançamento do jogo completo, planejado pela Leyline para 2027, você deve seguir uma abordagem estruturada para recrutar e melhorar sua guilda. Este guia passo a passo descreve o caminho de progressão ideal para gerenciar seus recursos e criar uma equipe poderosa desde a sua primeira seleção na loja.
+
+<Steps>
+  <Step num="1" title="Estabeleça seu Trio Principal">
+    Comece sua partida recrutando uma equipe inicial equilibrada, composta por um tanque de linha de frente dedicado, um carry de dano confiável e uma unidade de suporte ou utilitária. Evite comprar funções duplicadas no início, pois isso desperdiça fragmentos valiosos e limita suas opções táticas.
+  </Step>
+  <Step num="2" title="Analise as Ofertas da Loja e Relíquias">
+    Antes de gastar seus recursos em melhorias, analise toda a seleção da loja. Procure por sinergias entre seus heróis atuais e os itens ou relíquias disponíveis. Priorize relíquias de economia iniciais que aumentem seu ouro ou a eficiência de novas rolagens, pois esses benefícios se acumulam com o tempo.
+  </Step>
+  <Step num="3" title="Comprometa-se com os Caminhos de Especialização">
+    Depois de garantir um núcleo estável, comece a investir em caminhos de especialização que reforcem as funções principais dos seus heróis. Foque em melhorar o escalonamento de dano do seu carry principal e a sobrevivência do seu tanque. Não desperdice recursos em melhorias menores para recrutas temporários.
+  </Step>
+  <Step num="4" title="Otimize o Posicionamento e os Itens">
+    Antes de entrar em combate, organize seus heróis para maximizar a eficácia deles. Equipe itens defensivos na sua linha de frente para absorver a pressão e coloque itens ofensivos de velocidade de ataque no seu carry protegido. Mantenha suas unidades de reserva prontas para se adaptarem a encontros difíceis com chefes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiência de Melhoria">
+Um único herói de Tier S totalmente melhorado costuma ser mais valioso do que três heróis de Tier B parcialmente melhorados. Concentre seus recursos em suas âncoras principais para garantir que eles possam carregar sua equipe pelas fendas finais.
+</Callout>
+
+Ao seguir essa progressão estruturada, você minimizará compras desperdiçadas e garantirá que sua equipe permaneça forte o suficiente para lidar com os modificadores de dificuldade crescentes de fendas mais altas.
+
+</Section>
+
+<Section icon={Map} title="Lista de Verificação de Progressão e Perguntas Frequentes">
+
+À medida que domina os sistemas principais da demo, você pode começar a se preparar para os desafios de alta dificuldade e para o Modo Infinito. Use esta lista de verificação de progressão para acompanhar seus marcos e garantir que sua equipe esteja totalmente otimizada para o teste definitivo de sobrevivência.
+
+<Checklist
+  id="guildrun-milestones"
+  title="Marcos de Conclusão de Partida:"
+  items={[
+    "Concluir a Dificuldade de Fenda 1 com uma equipe equilibrada básica",
+    "Executar com sucesso uma Build de Escalonamento de Carry Único",
+    "Desbloquear e experimentar pelo menos 15 especializações de heróis diferentes",
+    "Alcançar e sobreviver às fases iniciais do Modo Infinito",
+    "Otimizar a distribuição de itens para concluir fendas sem perder nenhum herói"
+  ]}
+/>
+
+<Callout type="tip" title="Progresso da Demo">
+Embora a versão completa de Guildrun esteja prevista para ser lançada em 2027, jogar a demo independente atual é a melhor maneira de se familiarizar com a lista de heróis e dominar os complexos caminhos de especialização. Fique de olho na [Página Oficial de Guildrun na Steam](https://store.steampowered.com/app/3669200/Guildrun/) para atualizações futuras.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como escolho os melhores heróis da tier list de Guildrun?",
+    answer: "Concentre-se em recrutar heróis de Tier S e Tier A que cubram as três funções essenciais: um tanque de linha de frente resistente, um carry de dano de alto escalonamento e um suporte utilitário. Evite recrutar muitos causadores de dano frágeis no início de sua partida."
+  },
+  {
+    question: "Posso redefinir as escolhas de especialização de um herói durante uma partida?",
+    answer: "Sim, você pode utilizar a mecânica de redefinição (respec) para realocar os pontos de especialização de um herói. Isso é altamente útil quando você precisa adaptar a estratégia da sua equipe para combater mecânicas específicas de chefes no final do jogo ou fazer a transição para uma build diferente."
+  },
+  {
+    question: "Quais são os itens mais importantes para priorizar na loja?",
+    answer: "Priorize relíquias de escalonamento de classe, itens de velocidade de ataque e equipamentos de sobrevivência universal. Relíquias de economia iniciais também são altamente valiosas, pois fornecem recursos adicionais para lojas, novas rolagens e melhorias ao longo de sua partida."
+  },
+  {
+    question: "O progresso da demo de Guildrun é transferido para o jogo completo?",
+    answer: "O jogo completo está planejado para apresentar sistemas de progressão expandidos, opções de dificuldade e um modo cooperativo. Embora as transferências diretas de salvamento possam ser limitadas, dominar as mecânicas principais na demo lhe dará uma vantagem significativa no lançamento."
+  }
+]} />
+
+</Section>

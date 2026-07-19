@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guildrun Einsteiger-Leitfaden: Schritt-für-Schritt-Strategie für den Start",
+  description: "Meistern Sie die Kernrekrutierung, Shop-Mechaniken, Helden-Spezialisierungen und Item-Builds in Guildrun mit diesem Schritt-für-Schritt-Einsteiger-Leitfaden.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/111a18/d5b65c?text=Guildrun+Beginner+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team",
+  keywords: "Guildrun, Einsteiger Guide, Strategie, Helden, Spezialisierung, Shop Management, Roguelike"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernschleife**: Rekrutieren Sie Helden, verwalten Sie Shop-Ressourcen und verbessern Sie Spezialisierungen, um eskalierende Risse zu klären.
+- **Ressourcenmanagement**: Vermeiden Sie frühe Shop-Rerolls, um Splitter für garantierte Helden-Rang-Upgrades zu sparen.
+- **Team-Balance**: Setzen Sie immer einen dedizierten Frontline-Tank, einen zuverlässigen Carry und einen Utility-Support ein.
+- **Anpassungsfähigkeit**: Bauen Sie um die Relikte und Gegenstände herum, die Sie erhalten, anstatt eine einzige Komposition zu erzwingen.
+</Callout>
+
+<Section icon={Map} title="Kernmechaniken und Team-Rekrutierung">
+
+Guildrun ist ein taktischer Singleplayer-PvE-Roguelike-Autobattler, der von Leyline entwickelt wurde. Die Spieler müssen eine flexible Gilde von Helden aufbauen, einzigartige Spezialisierungen kombinieren und mächtige Relikte ausrüsten, um eskalierende Risse zu überleben. Das Verständnis der Rekrutierungsphase ist der erste Schritt zum Abschluss Ihres ersten Durchlaufs. Jeder Run beginnt mit einem begrenzten Pool an Splittern, der primären Währung, die zum Entwerfen von Helden, zum Kauf von Ausrüstung und zum Aktualisieren des Shops verwendet wird.
+
+Ein ausgewogenes Startteam ist entscheidend für das frühe Überleben. Der aktive Kader hat begrenzten Platz, was bedeutet, dass jede Einheit einen bestimmten Zweck erfüllen muss. Der Einsatz von zu vielen Schadensverursachern ohne angemessenen Schutz führt zu einer schnellen Niederlage, da zerbrechliche Carries nicht lange genug überleben können, um ihre Fähigkeiten einzusetzen. Umgekehrt wird ein Team mit zu viel Verteidigung daran scheitern, Feinde zu besiegen, bevor diese an Stärke gewinnen.
+
+| Rolle | Hauptaufgabe | Empfohlene Position | Schlüsselattribut |
+|---|---|---|---|
+| Tank | Eingehende Angriffe absorbieren und Verbündete schützen | Vorderste Reihe | Hohe Lebenspunkte, Verteidigung |
+| Carry | Konstanten physischen oder magischen Schaden verursachen | Hintere Reihe | Angriffsgeschwindigkeit, Schaden |
+| Support | Heilung, Schilde oder Massenkontrolle bieten | Mittlere Reihe | Manaregeneration, Utility |
+| Hybrid | Lücken in Verteidigung oder Schaden nach Bedarf füllen | Flexibel | Anpassungsfähigkeit, Multiklasse |
+
+### Das Kaderlimit verstehen
+
+Priorisieren Sie zu Beginn eines Durchlaufs die Sicherung einer zuverlässigen Frontline-Einheit. Sobald Ihre Verteidigung stabil ist, suchen Sie nach einem primären Schadensverursacher, der über die Kampfrunden hinweg skalieren kann. Die verbleibenden Plätze sollten mit Utility-Einheiten gefüllt werden, die Ihr Kern-Duo verstärken. Es wird auch dringend empfohlen, eine Reserveeinheit auf der Bank zu behalten, da dies den Strategiewechsel bei bestimmten Boss-Modifikatoren ermöglicht.
+
+<Callout type="warning" title="Rekrutierungswarnung">
+Kaufen Sie nicht jeden Helden, der in den frühen Shops angeboten wird. Der Kauf unnötiger Einheiten verschwendet Ihre Splitter und verhindert, dass Sie Ihre Kern-Teammitglieder auf höhere Ränge upgraden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Shop-Management und Ressourcen-Optimierung">
+
+Der Shop ist der zentrale Knotenpunkt Ihres Guildrun-Fortschritts. Hier geben Sie Splitter aus, um neue Helden zu erwerben, Einheiten für Rang-Upgrades zu duplizieren sowie Gegenstände und spielverändernde Relikte zu kaufen. Die effiziente Verwaltung Ihrer Splitter zwischen den Kampfrunden entscheidet darüber, ob Ihr Team mit dem steigenden Schwierigkeitsgrad der Risse mithalten kann.
+
+Das Rerollen des Shops kostet Splitter und macht süchtig, ist aber im frühen Spiel mathematisch ineffizient. Arbeiten Sie in den ersten Runden mit den natürlichen Angeboten, die Ihnen präsentiert werden. Das Erzwingen eines bestimmten Builds durch wiederholtes Rerollen wird Ihre Ressourcen schnell erschöpfen und Sie schwach zurücklassen, sodass Sie entscheidende Upgrades nicht kaufen können, wenn sie schließlich erscheinen.
+
+| Priorität | Aktion | Kosten | Strategische Auswirkung |
+|---|---|---|---|
+| Hoch | Kauf von Helden-Duplikaten für Rang-Upgrades | Moderat | Erhöht Basiswerte und schaltet Spezialisierungspfade frei |
+| Hoch | Erwerb von Kern-Items für Ihren primären Carry | Variabel | Bietet sofortige Skalierung und Multiplikator-Boni |
+| Mittel | Kauf von frühen Wirtschafts-Relikten | Hoch | Akkumuliert Ressourcen über den gesamten Durchlauf |
+| Niedrig | Reroll des Shops für spezifische Helden | Niedrig | Stark zufallsabhängig und verbraucht früh Splitter |
+
+### Die Auktionsphase verwalten
+
+In bestimmten Abständen nehmen Sie an Shop-Phasen teil, die seltene Relikte und Gegenstände anbieten. Konzentrieren Sie sich darauf, Gegenstände zu sichern, die Ihre aktiven Spezialisierungen direkt ergänzen. Wenn ein Gegenstand nicht zu Ihrer aktuellen Strategie passt, sparen Sie Ihre Splitter. Reichtum anzuhäufen ist eine valide Strategie, da es Ihnen in späteren, gefährlicheren Rissen mehr Kaufkraft verleiht.
+
+<Callout type="tip" title="Profi-Tipp zur Wirtschaft">
+Rerollen Sie den Shop nur, wenn Ihnen nur noch ein Duplikat für ein wichtiges Rang-Upgrade fehlt, das einen entscheidenden Spezialisierungspfad freischaltet. Sparen Sie ansonsten Ihre Splitter, um hochwertige Ausrüstung zu kaufen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Heldenklassen und Spezialisierungspfade">
+
+Mit 25 Helden, 75 Spezialisierungspfaden und 180 einzigartigen Spezialisierungen, die für das vollständige Spiel geplant sind, bietet Guildrun eine immense Build-Vielfalt. Wenn Ihre Helden Ränge aufsteigen, durchlaufen sie Spezialisierungspfade, die ihre aktiven Fähigkeiten, passiven Boni und Kampfrollen komplett verändern. Ein einfacher Rekrut kann zu einem dedizierten Tank, einem flinken Assassinen oder einer unterstützenden Hybrid-Einheit entwickelt werden.
+
+Das Upgrade des Heldenrangs ist unerlässlich, um diese Pfade freizuschalten. Wenn ein Held einen neuen Rang erreicht, müssen Sie zwischen verschiedenen Pfaden wählen. Es ist wichtig, Pfade zu wählen, die mit dem Rest Ihres Teams harmonieren. Wenn Ihr Frontline-Tank beispielsweise auf Selbstheilung spezialisiert ist, sollte sich Ihre Support-Einheit auf Utility oder Massenkontrolle konzentrieren, anstatt auf zusätzliche Heilung.
+
+| Klassenrolle | Spezialisierungsfokus | Multiklassen-Wert | Respec-Priorität |
+|---|---|---|---|
+| Tank | Haltbarkeit, Schadensreduktion und Kontrolle | Passt gut zu Heilung und defensivem Support | Mittel |
+| Heiler | Heilstärke, Frequenz und Schutz | Kombiniert mit defensiven Utility-Pfaden | Hoch |
+| Fernkampf | Angriffsgeschwindigkeit, konstanter Schaden | Funktioniert am besten mit Angriffs-Speed-Relikten | Niedrig |
+| Duellant | Einziel-Druck und Sustain | Profitiert von defensiven Sekundärpfaden | Mittel |
+| Assassine | Burst-Schaden, Zielzugriff und Finisher | Kombiniert mit hoher offensiver Skalierung | Hoch |
+| Hybrid | Ausgewogene Utility, Verteidigung und Schaden | Hochgradig flexibel über mehrere Teams hinweg | Niedrig |
+
+### Nutzung der Respec-Mechanik
+
+Scheuen Sie sich nicht, mit verschiedenen Spezialisierungen zu experimentieren. Guildrun enthält eine Respec-Mechanik, mit der Sie den Pfad eines Helden zurücksetzen können. Dies ist besonders nützlich, wenn Sie von einem ausgewogenen Early-Game-Team zu einer hochspezialisierten Late-Game-Komposition wechseln oder wenn Sie ein mächtiges Relikt erwerben, das einen anderen Spielstil begünstigt.
+
+<Callout type="info" title="Spezialisierungsstrategie">
+Überprüfen Sie immer die aktiven Spezialisierungen Ihres gesamten Teams, bevor Sie einen neuen Pfad festlegen. Die Synergie der passiven Effekte Ihres Teams ist weitaus wertvoller als die Wahl des höchsten individuellen Schadens-Upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung für den Start">
+
+Um Ihnen zu helfen, Ihren ersten erfolgreichen Durchlauf in der Steam-Demo abzuschließen, folgen Sie dieser Schritt-für-Schritt-Progressionsstrategie. Diese Route konzentriert sich auf Stabilität, Ressourcenschonung und schrittweise Team-Skalierung.
+
+<Steps>
+  <Step num="1" title="Rekrutieren Sie einen ausgewogenen Kern">
+    Starten Sie den Run, indem Sie einen Frontline-Helden und einen zuverlässigen Schadensverursacher sichern. Vermeiden Sie es, frühzeitig Duplikate von Support-Einheiten zu kaufen. Konzentrieren Sie sich darauf, die ersten Kämpfe durch kluge Positionierung zu klären, um Ihren Schadensverursacher zu schützen.
+  </Step>
+  <Step num="2" title="Shop-Angebote bewerten und Splitter horten">
+    Kaufen Sie in den Runden drei und vier nur notwendige Duplikate, die Ihr aktives Duo direkt verbessern. Geben Sie keine Splitter für Rerolls aus. Lassen Sie Ihr Gold akkumulieren, um von potenziellen Wirtschaftsmechaniken und hochwertigen Shop-Angeboten zu profitieren.
+  </Step>
+  <Step num="3" title="Komplementäre Spezialisierungen wählen">
+    Sobald Ihre Kerneinheiten die Schwelle für ein Rang-Upgrade erreichen, wählen Sie Spezialisierungen, die unmittelbare Bedürfnisse erfüllen. Wenn Ihre Frontline ums Überleben kämpft, wählen Sie defensive Pfade. Wenn Kämpfe zu lange dauern, investieren Sie in die Schadensskalierung Ihres Carrys.
+  </Step>
+  <Step num="4" title="Relikte ausrüsten und Positionierung anpassen">
+    Rüsten Sie defensive Gegenstände auf Ihrem Tank und offensive Gegenstände auf Ihrem Haupt-Carry aus. Platzieren Sie Ihren Tank in der vordersten Reihe, um die feindliche Aggression auf sich zu ziehen, und positionieren Sie Ihren Carry sicher in der hinteren Ecke, um dessen Angriffszeit zu maximieren.
+  </Step>
+  <Step num="5" title="Pivotieren und für Bosskämpfe optimieren">
+    Bevor Sie den finalen Riss betreten, bewerten Sie die Leistung Ihres Teams. Nutzen Sie die Respec-Mechanik, wenn es Ihrem Build an Synergie mangelt, und geben Sie alle verbleibenden Splitter für Upgrades, Items oder Relikte aus, um Ihre Kampfkraft zu maximieren.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Erfolg durch Kampfpositionierung">
+Die richtige Platzierung der Einheiten kann die Bedrohung durch feindliche Assassinen komplett neutralisieren. Wenn Feinde Ihre Backline angreifen, platzieren Sie einen sekundären Off-Tank neben Ihrem Haupt-Carry, um eingehenden Schaden abzufangen.
+</Callout>
+
+### Meilensteine für den ersten Durchlauf
+
+Um sicherzustellen, dass Sie bei Ihren ersten Durchläufen auf dem richtigen Weg sind, versuchen Sie, die folgenden Ziele zu erreichen. Diese Meilensteine helfen Ihnen, die grundlegende Progressionsschleife zu meistern, bevor Sie zu höheren Schwierigkeitsgraden übergehen.
+
+<Checklist
+  id="beginner-milestones"
+  title="Checkliste für den ersten Run:"
+  items={[
+    "Einsatz eines stabilen Drei-Helden-Kerns mit klaren Rollen",
+    "Upgrade von mindestens einem Helden auf den maximal verfügbaren Spezialisierungsrang",
+    "Erwerb eines Relikts, das den Schadenstyp Ihres primären Carrys direkt skaliert",
+    "Abschluss eines vollen Demo-Runs ohne unnötige frühe Splitter-Ausgaben für Rerolls",
+    "Erfolgreiche Nutzung der Respec-Mechanik zur Optimierung eines Builds vor einem Bosskampf"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Beste Team-Builds und Synergien">
+
+Das Erstellen mächtiger Team-Builds in Guildrun basiert auf der Kombination von Heldenrollen, Spezialisierungspfaden, Gegenständen und Relikten. Die stärksten Kompositionen konzentrieren sich auf wiederholbare Strukturen, anstatt auf eine exakte Kombination glücklicher Shop-Entscheidungen angewiesen zu sein.
+
+<CardGrid cols={3}>
+  <Card title="Ausgewogener Starter-Kern">
+    - **Primäre Frontline**: Tank mit hoher Verteidigung, um den Anfangsdruck zu absorbieren.
+    - **Haupt-Schadens-Carry**: Geschützte Backline-Einheit mit konsistenter Skalierung.
+    - **Support-Utility**: Heiler oder Controller, um das Team am Leben zu erhalten.
+  </Card>
+  <Card title="Lovers Shared-Effect-Build">
+    - **Lovers-Duo**: Zwei verbundene Helden, die gemeinsame Kampfboni aktivieren.
+    - **Frontline-Protektor**: Robuster Tank, um das verbundene Paar zu schützen.
+    - **Flexibler Support**: Konzentriert sich darauf, die aktiven Effekte des Duos zu verstärken.
+  </Card>
+  <Card title="Single-Carry-Scaling-Build">
+    - **Hyper-Carry**: Ein Haupt-Schadensverursacher, der alle offensiven Items erhält.
+    - **Doppel-Frontline**: Zwei extrem robuste Tanks, um den Gegner aufzuhalten.
+    - **Utility-Buffer**: Support-Held, der die Angriffsgeschwindigkeit des Carrys erhöht.
+  </Card>
+</CardGrid>
+
+### Analyse von Early-Game-Synergien
+
+Suchen Sie beim Aufbau Ihres Teams nach Klassenkombinationen, die passive Vorteile teilen. Beispielsweise wird die Kombination mehrerer physischer Schadensverursacher mit Spezialisierungen zur Reduzierung der physischen Verteidigung Ihren Gesamtschaden drastisch erhöhen.
+
+| Synergie-Name | Kernhelden | Hauptvorteil | Alternative Wahl |
+|---|---|---|---|
+| Ausgewogener Kern | Tank, Carry, Support | Hohe Stabilität und geringer Ressourcenbedarf | Support gegen Hybrid-Off-Tank tauschen |
+| Lovers Shared | Verbundenes Lovers-Paar | Verstärkte Werte und geteilte Heilungseffekte | Wechsel zum ausgewogenen Kern, falls Paar fehlt |
+| Single-Carry | Ein Carry, zwei Tanks | Konzentriert Items auf einen hocheffizienten Carry | Übergang zu Double-Carry, falls Items geteilt werden |
+| Doppel-Frontline | Zwei Tanks, ein Carry | Maximiert Kampfdauer für skalierenden Schaden | Einen Tank durch einen Crowd-Controller ersetzen |
+
+<Callout type="tip" title="Reliktsynergie-Tipp">
+Wählen Sie immer Relikte, die Ihrem gesamten aktiven Team zugutekommen. Ein Relikt, das allen Einheiten einen kleinen Bonus gewährt, ist oft besser als ein hochspezialisiertes Relikt, das nur einem einzigen, nicht verbesserten Helden nützt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+Um Ihnen den Einstieg in Ihre Reise zu erleichtern, finden Sie hier Antworten auf die häufigsten Fragen zum Guildrun-Einsteigerleitfaden und den allgemeinen Spielmechaniken.
+
+<FAQ items={[
+  {
+    question: "Wie lade ich die Guildrun-Demo herunter und wird mein Fortschritt übernommen?",
+    answer: "Die eigenständige Guildrun-Demo kann kostenlos auf Steam heruntergeladen werden. Während Meta-Progression wie freigeschaltete Schwierigkeitsgrade und Masteries in zukünftige Tests übernommen werden können, werden aktive Durchläufe und Speicherstände mitten im Run nicht in das vollständige Spiel übertragen."
+  },
+  {
+    question: "Wann ist das Veröffentlichungsdatum und für welche Plattformen erscheint Guildrun?",
+    answer: "Guildrun wird von Leyline entwickelt und strebt derzeit eine vollständige Veröffentlichung im Jahr 2027 auf dem PC via Steam an. Die Entwickler planen außerdem Unterstützung für Steam Deck, Controller sowie einen Koop-Multiplayer-Modus in der finalen Version."
+  },
+  {
+    question: "Wann sollte ich die Respec-Mechanik bei meinen Helden anwenden?",
+    answer: "Sie sollten Ihre Helden respecen, wenn Sie ein mächtiges Relikt erwerben, das mit einem anderen Spezialisierungspfad synergiert, oder wenn Ihre aktuelle Teamzusammensetzung nicht über den nötigen Schaden oder die Verteidigung verfügt, um den nächsten Riss zu klären."
+  },
+  {
+    question: "Gibt es ein Codes-System in Guildrun, um kostenlose Items zu erhalten?",
+    answer: "Nein, Guildrun ist ein Premium-Singleplayer-PvE-Roguelike-Autobattler. Es verfügt über kein Einlöse-Code-System oder Mikrotransaktionen. Alle Gegenstände, Relikte und Helden werden rein durch das Gameplay freigeschaltet."
+  }
+]} />
+
+<Callout type="info" title="Community und Updates">
+Um über wöchentliche Patches, Balance-Änderungen und die Roadmap bis zum Release 2027 auf dem Laufenden zu bleiben, treten Sie dem offiziellen Guildrun Discord bei oder folgen Sie der Steam-Community-Seite.
+</Callout>
+
+</Section>

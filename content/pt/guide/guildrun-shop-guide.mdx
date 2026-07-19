@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia da Loja Guildrun: Sinergia S-Tier e Gestão de Recursos",
+  description: "Domine o guia da loja Guildrun para otimizar o gasto de fragmentos, elevar heróis ao nível S e criar sinergias imparáveis de mago ou queimadura em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Shop+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki Guildrun",
+  keywords: "guildrun, loja, guia, sinergia, fragmentos, relíquias, heróis"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Moeda Principal**: Use **Fragmentos** (Shards) ganhos em combate para comprar heróis, itens e relíquias para toda a equipe.
+- **Ranking de Heróis**: Compre heróis duplicados para elevá-los do ranking **B ao S**, desbloqueando poderosas habilidades passivas e ativas.
+- **Foco em Sinergia**: Priorize heróis que compartilham uma **Classe** (ex: Mago) ou **Arquétipo** (ex: Queimadura) para bônus massivos de atributos.
+- **Estratégia de Relíquias**: Invista em **Relíquias** cedo, pois elas fornecem bônus permanentes para toda a guilda, em vez de unidades individuais.
+- **Utilidade da Loja**: Utilize a função **Congelar** (Freeze) para salvar heróis de alto valor para a próxima visita se estiver com poucos fragmentos.
+</Callout>
+
+<Section icon={Map} title="Fundamentos do guia da loja Guildrun">
+
+No mundo de Guildrun, a loja é o coração da sua progressão. O sucesso não se trata apenas de vencer batalhas; trata-se de quão eficazmente você navega pelo **guia da loja Guildrun** para construir uma equipe coesa. Após cada encontro de combate, você recebe uma seleção de heróis, equipamentos e relíquias. Entender a economia de Fragmentos é a diferença entre uma jornada fracassada e alcançar o modo infinito.
+
+**Destaques do Vídeo:**
+- **Recrutamento de Heróis**: Como escolher heróis iniciais como Funky ou Kai com base em suas habilidades iniciais.
+- **Layout da Loja**: Navegando pelos três slots de heróis, slots de itens e ofertas de relíquias.
+- **Construção de Sinergia**: Identificando magos e vanguardas para ativar bônus de atributos baseados em classe.
+- **Gestão de Recursos**: Equilibrando gastos em atualizações imediatas de heróis versus relíquias de longo prazo.
+
+<YouTubeEmbed videoId="XGFvBmp-XTo" title="Guildrun | Awesome Auto Battler Roguelike!" />
+
+A loja oferece uma seleção aleatória, mas você tem ferramentas para influenciar o resultado. Você pode gastar fragmentos para **Rolar Novamente** (Reroll) a seleção ou **Congelar** (Freeze) a loja para manter itens específicos disponíveis para sua próxima visita. Isso é crucial quando você vê um herói de alto nível, mas não tem fundos para recrutá-lo imediatamente.
+
+| Ação da Loja | Custo | Benefício Principal |
+| :--- | :--- | :--- |
+| **Recrutar Herói** | Variável | Adiciona uma nova unidade ou sobe o rank de uma existente |
+| **Comprar Item** | Variável | Fornece bônus de atributos individuais (Magia, PV, Defesa) |
+| **Comprar Relíquia** | Variável | Concede bônus passivos permanentes para toda a equipe |
+| **Rolar Novamente** | 2-5 Fragmentos | Atualiza a seleção atual de heróis e itens |
+| **Congelar** | Grátis | Bloqueia a loja atual para a próxima visita |
+
+<Callout type="tip" title="Dica de Economia">
+No início da jornada, priorize expandir o tamanho da sua equipe e adquirir pelo menos uma **Relíquia**. Relíquias como as "Vestes de Mago" fornecem um bônus fixo para todos os magos, o que é mais econômico do que comprar itens individuais para cada unidade.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Ranking de Heróis e Evolução de Habilidades">
+
+Um dos aspectos mais críticos do **guia da loja Guildrun** é o sistema de ranking. Ao contrário dos RPGs tradicionais, onde os heróis sobem de nível através de XP, em Guildrun você precisa comprar duplicatas na loja para aumentar o rank deles. Subir o rank de um herói aumenta significativamente seus atributos base e, mais importante, desbloqueia novos níveis de habilidades.
+
+<CardGrid cols={3}>
+  <Card title="Rank B (Base)">
+    - **Atributos Iniciais**
+    - Habilidade Ativa Inicial
+    - Regeneração de Mana Padrão
+  </Card>
+  <Card title="Rank A (Avançado)">
+    - **Multiplicador de Atributos**
+    - Nova Passiva Desbloqueada
+    - Aumento no Escalonamento de Habilidade
+  </Card>
+  <Card title="Rank S (Superior)">
+    - **Crescimento Máximo de Atributos**
+    - Habilidade Suprema Desbloqueada
+    - Potencial Evolução de Classe
+  </Card>
+</CardGrid>
+
+Quando você atinge o Rank A ou S, geralmente recebe uma escolha entre diferentes melhorias. Por exemplo, um Mago pode escolher entre "Chamas Ardentes" (foco em Queimadura) ou "Toque Glacial" (foco em Gelo). Essas escolhas devem estar alinhadas com suas Relíquias existentes. Se você tem a relíquia **Catalisador de Queimadura**, sempre escolha a melhoria baseada em fogo para maximizar o dano.
+
+| Nível de Rank | Aumento de Atributos | Mudanças de Habilidade |
+| :--- | :--- | :--- |
+| **B → A** | +25% Atributos Base | Desbloqueia o primeiro traço passivo |
+| **A → S** | +50% Atributos Base | Desbloqueia suprema/classe secundária |
+| **S+ (Infinito)** | Incremental | Escalonamento baseado no tipo de herói |
+
+<Callout type="success" title="Bônus de Sinergia">
+Subir o rank de um herói que compartilha a mesma classe que seu líder (como um líder Mago com recrutas Magos) ativa o bônus de **Sinergia de Classe**, fornecendo atributos gratuitos de Magia ou Defesa para todos nessa classe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Otimizar sua Visita à Loja">
+
+Para maximizar sua eficiência, você deve seguir um fluxo de trabalho específico toda vez que entrar na loja. Comprar cegamente o herói mais caro é um erro comum que leva à falta de sinergia.
+
+<Steps>
+  <Step num="1" title="Verifique as Sinergias Primeiro">
+    Analise os três heróis disponíveis em busca de ícones que correspondam às classes da sua equipe atual. Procure pelas etiquetas "Mago", "Vanguarda" ou "Assassino".
+  </Step>
+  <Step num="2" title="Avalie as Relíquias">
+    Verifique o slot de Relíquia. Se houver uma relíquia que bufa seu tipo de dano principal (ex: Queimadura ou Gelo), compre-a imediatamente. Relíquias são raras e muitas vezes mais valiosas do que um único rank de herói.
+  </Step>
+  <Step num="3" title="Gerencie o Inventário">
+    Arraste itens da loja para heróis específicos. Dê itens de PV para seus Vanguardas e itens de Magia para seus Magos. Você pode desequipar e trocar itens a qualquer momento sem custo.
+  </Step>
+  <Step num="4" title="Role Novamente ou Congele">
+    Se você tiver fragmentos excedentes e não encontrou um herói duplicado, role uma vez. Se um herói vital aparecer, mas você estiver sem dinheiro, aperte o botão **Congelar**.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestão de Inventário">
+Tenha cuidado para não vender itens ou heróis acidentalmente. Embora a venda forneça um pequeno reembolso de fragmentos, raramente vale a pena perder uma unidade de rank alto, a menos que você esteja mudando completamente sua estratégia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Itens, Relíquias e Palavras-chave">
+
+A loja não serve apenas para heróis; é onde você define sua "build" através de equipamentos especializados. Entender palavras-chave como **Rush**, **Stall** e **Backup** é essencial para o jogo de alto nível.
+
+- **Rush (Ímpeto)**: Efeitos que ativam nos primeiros 15 segundos de batalha. Ideal para equipes agressivas de alto dano.
+- **Stall (Retardamento)**: Efeitos que ativam apenas após 20 segundos. Perfeito para composições resistentes que sobrevivem mais que o inimigo.
+- **Backup (Reserva)**: Esses itens ou habilidades funcionam mesmo se o herói estiver nos seus slots de reserva, permitindo que você bufe sua equipe ativa a partir do banco.
+
+| Nome do Item/Relíquia | Tipo | Efeito Chave | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Anel do Paciente** | Item | +100 PV Máx, +12 Magia | Magos de linha de frente |
+| **Catalisador de Queimadura** | Relíquia | +33% Dano de Queimadura | Equipes baseadas em fogo |
+| **Vestes de Mago** | Relíquia | +25 Magia para todos os Magos | Composições focadas em magia |
+| **Códice Blindado** | Relíquia | +10 Defesa por vitória | Escalonamento de longo prazo |
+| **Rede de Fragmentos** | Relíquia | Aumenta o ganho de Fragmentos | Economia de início de jogo |
+
+<Callout type="tip" title="A Casa de Leilões">
+Após derrotar um chefe, você entrará na **Casa de Leilões**. Esta é uma versão especial da loja que oferece itens de maior raridade e a rara capacidade de **Aumentar o Tamanho da Equipe**. Sempre economize pelo menos 20-30 fragmentos antes de uma luta contra chefe para poder pagar por essas melhorias de elite.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Loja para o Final do Jogo">
+
+Ao se aproximar dos atos finais e se preparar para o Modo Infinito, as prioridades da sua loja devem mudar do recrutamento para a perfeição. Use este checklist para garantir que sua guilda esteja pronta para o desafio final.
+
+<Checklist
+  id="endgame-shop-goals"
+  title="Checklist de Prontidão para o Final do Jogo:"
+  items={[
+    "Alcançar o Tamanho Máximo da Equipe (geralmente 5-6 slots via Casa de Leilões)",
+    "Elevar pelo menos dois heróis principais ao Rank S",
+    "Equipar todos os heróis ativos com pelo menos um item Raro",
+    "Garantir uma Relíquia específica de classe (ex: Essência do Vazio para Assassinos)",
+    "Identificar e travar uma sinergia secundária (ex: Queimadura + Gelo)"
+  ]}
+/>
+
+<CardGrid cols={2}>
+  <Card title="A Estratégia de Queimadura">
+    Foque em heróis como **Funky** e relíquias como **Catalisador de Queimadura**. Esta build depende de dano ao longo do tempo que escalona com a vida do inimigo, tornando-a perfeita para lutas contra chefes.
+  </Card>
+  <Card title="A Estratégia de Stall de Mago">
+    Foque em atributos altos de Magia e na palavra-chave **Stall**. Ao sobreviver aos primeiros 20 segundos, seus magos ganham picos massivos de poder que podem limpar todo o tabuleiro em uma conjuração.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Conselho Final">
+Não tenha medo de experimentar a opção "Treinar Novamente" (Retrain) nas fogueiras se a loja não tiver sido gentil com sua build atual. Uma mudança de estratégia no momento certo pode salvar uma jornada que parece fraca.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Maestria na Loja Guildrun">
+
+<FAQ items={[
+  {
+    question: "Como consigo mais fragmentos para a loja?",
+    answer: "Os fragmentos são obtidos principalmente ao vencer combates. Você pode aumentar seu rendimento escolhendo caminhos de 'Minerar Fragmentos' no mapa ou equipando a relíquia Rede de Fragmentos cedo na sua jornada."
+  },
+  {
+    question: "Devo comprar todos os heróis que vejo no guia da loja Guildrun?",
+    answer: "Não. Comprar muitos heróis diferentes impede que você suba o rank de suas unidades principais. Foque em 3-4 heróis específicos e compre apenas suas duplicatas para atingir o Rank S rapidamente."
+  },
+  {
+    question: "Qual o benefício de congelar a loja?",
+    answer: "Congelar permite que você mantenha um herói ou relíquia de alto valor na loja para a próxima visita. Isso é essencial quando você encontra uma duplicata para subir de rank, mas gastou seus fragmentos em um item necessário anteriormente na mesma visita."
+  },
+  {
+    question: "Posso usar itens em heróis na reserva?",
+    answer: "Sim, e você deve! Itens com a palavra-chave 'Backup' fornecem seus bônus para a equipe ativa mesmo que o herói que os segura não esteja atualmente no campo de batalha."
+  }
+]} />
+
+</Section>

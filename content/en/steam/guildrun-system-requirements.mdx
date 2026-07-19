@@ -1,0 +1,190 @@
+import { Cpu, HardDrive, Monitor, ShieldAlert, Sparkles, Swords, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guildrun System Requirements: PC Specs & Steam Deck Guide",
+  description: "Check the official Guildrun system requirements. Read our optimization guide, Steam Deck compatibility details, and hardware recommendations for the demo.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111a18/fff?text=System+Requirements",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Specs Check**: Review the official **guildrun system requirements** to ensure your hardware runs the game smoothly.
+- **Steam Deck**: The game runs exceptionally well on portable devices with minor controller adjustments.
+- **Demo Size**: You only need a small amount of disk space to download the free Steam demo.
+- **Performance Tip**: Lowering advanced shadow settings provides the biggest frame rate boost on budget laptops.
+</Callout>
+
+<Section icon={Cpu} title="Guildrun System Requirements: PC Specifications">
+
+Before diving into the strategic depth of this single-player PvE roguelike autobattler, verifying that your PC hardware aligns with the official **guildrun system requirements** is the first step toward a seamless gaming experience. Developed by Leyline, the game features complex combat calculations, status tracking, and vibrant visual effects that require stable hardware to prevent late-game slowdowns. 
+
+Because autobattlers process hundreds of calculations simultaneously—such as active relic effects, stat scaling, and individual hero specializations—having a capable processor is just as important as your graphics card. Below are the minimum and recommended hardware specifications to run the game efficiently.
+
+### Minimum System Requirements
+
+The minimum specifications are designed to target 1080p resolution at 30 to 45 frames per second during standard combat encounters. This configuration is ideal for budget-friendly setups, older desktop PCs, and work laptops utilizing integrated graphics.
+
+| Component | Minimum Specification |
+| :--- | :--- |
+| **OS** | Windows 10 64-bit |
+| **Processor** | Intel Core i3-6100 / AMD FX-4350 |
+| **Memory** | 4 GB RAM |
+| **Graphics** | NVIDIA GeForce GTX 660 / AMD Radeon HD 7850 |
+| **DirectX** | Version 11 |
+| **Storage** | 2 GB available space |
+
+### Recommended System Requirements
+
+To enjoy the game at a locked 60 frames per second with high-quality particle effects, fast loading times, and zero stuttering during intense late-game Endless Mode runs, aiming for the recommended specifications is highly advised.
+
+| Component | Recommended Specification |
+| :--- | :--- |
+| **OS** | Windows 10/11 64-bit |
+| **Processor** | Intel Core i5-4460 / AMD Ryzen 3 1200 |
+| **Memory** | 8 GB RAM |
+| **Graphics** | NVIDIA GeForce GTX 960 / AMD Radeon RX 470 |
+| **DirectX** | Version 11 |
+| **Storage** | 4 GB available space |
+
+<Callout type="warning" title="64-Bit OS Required">
+The game cannot launch on 32-bit versions of Windows. Ensure your operating system is fully updated to a 64-bit architecture before attempting to install the game client.
+</Callout>
+
+</Section>
+
+<Section icon={Monitor} title="Steam Deck Support & Portable Performance">
+
+For players who prefer drafting their hero lineups on the go, portable compatibility is a major highlight. The game functions exceptionally well on handheld PCs, offering intuitive controls and scalable performance that preserves battery life during extended play sessions.
+
+The interface, including text boxes, relic descriptions, and hero specialization trees, scales dynamically to remain legible on smaller seven-inch displays. While the game is highly optimized out of the box, adjusting a few native Steam Deck settings can dramatically improve your overall experience.
+
+<CardGrid cols={3}>
+  <Card title="Handheld Optimization">
+    - **Native resolution** support at 1280x800
+    - Clear UI text scaling for high readability
+    - Low power draw on default settings
+  </Card>
+  <Card title="Battery Management">
+    - Limit refresh rate to **45Hz/45FPS**
+    - Set the TDP limit to **8 Watts**
+    - Extend battery life up to four hours
+  </Card>
+  <Card title="Control Schemes">
+    - Full gamepad integration
+    - Touchscreen drag-and-drop enabled
+    - Trackpad mouse emulation support
+  </Card>
+</CardGrid>
+
+To ensure smooth navigation through the shop, recruitment screen, and active battlefields, players can choose between multiple input methods. The table below outlines how different control schemes perform.
+
+| Input Type | Compatibility Status | Recommended Configuration |
+| :--- | :--- | :--- |
+| **Keyboard & Mouse** | Native Support | Best for rapid shop refreshes and precise positioning |
+| **Xbox Controller** | Full Support | Plug-and-play compatibility with standard layouts |
+| **PlayStation Controller**| Full Support | Dynamic UI prompt switching for DualShock/DualSense |
+| **Steam Deck Controls** | Excellent | Uses official layout with trackpad mapping |
+
+<Callout type="tip" title="Touchscreen Shortcuts">
+You can double-tap any hero card on the Steam Deck touchscreen to quickly view their current specialization paths and equipped items without navigating submenus.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Graphics Optimization & Performance Tips">
+
+If your PC sits closer to the minimum hardware specifications, you may experience minor frame drops when multiple high-tier specializations trigger their visual effects simultaneously. Fortunately, the in-game settings menu offers several toggles to recover lost performance without sacrificing visual clarity.
+
+By systematically adjusting resource-heavy settings, you can maintain a stable frame rate even during chaotic late-game rounds where screen space is crowded with summons, status indicators, and area-of-effect spells.
+
+<Steps>
+  <Step num="1" title="Configure Display Mode">
+    Switch from Exclusive Fullscreen to Windowed Borderless. This reduces input latency and prevents stuttering if you frequently alt-tab to check hero tier lists or build guides.
+  </Step>
+  <Step num="2" title="Lower Shadow Resolution">
+    Shadows represent the single largest GPU tax in the game. Lowering shadow quality from High to Medium or Low can boost your average frame rate by up to 15% on older graphics cards.
+  </Step>
+  <Step num="3" title="Limit Maximum Frame Rate">
+    Match your frame rate cap directly to your monitor's refresh rate. If you are playing on a standard 60Hz screen, capping the game at 60 FPS prevents unnecessary GPU strain and thermal throttling.
+  </Step>
+  <Step num="4" title="Disable Screen Shake">
+    Turn off the screen shake toggle in the accessibility menu. This not only improves performance during rapid attack sequences but also makes it much easier to track unit health bars during combat.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Integrated Graphics Performance">
+Following these optimization steps allows modern integrated graphics chips, such as AMD Radeon 680M or Intel Iris Xe, to easily maintain a locked 60 FPS at 1080p resolution.
+</Callout>
+
+</Section>
+
+<Section icon={HardDrive} title="Guildrun Demo Access and Storage Requirements">
+
+The developers have made a free standalone demo available on Steam, allowing players to experience the core gameplay loop before the full version releases in 2027. The demo includes a substantial slice of content, featuring core hero recruitment, shop mechanics, item combinations, and early difficulty tiers.
+
+Because the demo is a condensed version of the final product, its storage footprint is significantly smaller. However, preparing your storage drive is still recommended to avoid installation issues or slow asset loading during transitions.
+
+<Checklist
+  id="pre-install-checklist"
+  title="Installation Checklist:"
+  items={[
+    "Verify you have at least 2 GB of free space on your preferred storage drive",
+    "Install the game on an SSD to minimize loading times between combat and shops",
+    "Ensure your Steam client is updated to the latest stable build",
+    "Update your graphics drivers to prevent potential launch crashes"
+  ]}
+/>
+
+As development progresses toward the 2027 launch window, the overall scope of the game will expand. The table below compares the current demo build's requirements with the projected specifications for the full release.
+
+| Feature / Spec | Free Steam Demo | Full Game (2027 Target) |
+| :--- | :--- | :--- |
+| **Storage Space** | Approx. 1.5 GB | Estimated 4.0 to 6.0 GB |
+| **System RAM** | 4 GB Minimum | 8 GB Recommended for Co-op |
+| **Hero Roster** | Limited selection | 25 playable heroes |
+| **Specializations** | Core upgrade paths | 75 paths / 180 choices |
+| **Game Modes** | Early difficulty tiers | 8 difficulties + Endless Mode |
+| **Multiplayer** | Single-player only | Planned online co-op mode |
+
+<Callout type="info" title="Progress Carryover">
+While core system requirements will remain highly consistent, certain meta-progression elements, unlocked difficulties, and hero masteries earned in the demo are planned to carry over to the full release.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldAlert} title="Guildrun Performance & Hardware FAQ">
+
+To help resolve common installation and hardware questions, we have compiled the most frequent inquiries from the community regarding performance, compatibility, and software requirements.
+
+<FAQ items={[
+  {
+    question: "What are the minimum guildrun system requirements for PC?",
+    answer: "The minimum requirements include Windows 10 (64-bit), an Intel Core i3-6100 or AMD FX-4350 processor, 4 GB of system RAM, and an NVIDIA GeForce GTX 660 or AMD Radeon HD 7850 graphics card with DirectX 11 support."
+  },
+  {
+    question: "Can I run Guildrun on a laptop with integrated graphics?",
+    answer: "Yes. Modern integrated graphics solutions like Intel UHD, Intel Iris Xe, or AMD Radeon Vega can run the game smoothly, provided you lower the shadow settings and set the resolution to 1080p."
+  },
+  {
+    question: "Does the game support high-refresh-rate monitors?",
+    answer: "Yes, the game engine supports unlocked frame rates and high-refresh-rate monitors (120Hz, 144Hz, and higher). You can adjust these limits directly within the in-game graphics settings menu."
+  },
+  {
+    question: "Will the system requirements increase when the full game launches in 2027?",
+    answer: "The core specifications will remain very similar. However, the planned online co-op mode and late-game Endless Mode scaling may require a slightly stronger CPU and 8 GB of RAM to maintain optimal performance during multiplayer sessions."
+  }
+]} />
+
+<Callout type="tip" title="Report Bugs Directly">
+If you experience unusual crash-to-desktop errors or severe frame rate drops, submit a detailed hardware report along with your system specs to the official Guildrun Steam Community hub or Discord channel.
+</Callout>
+
+</Section>

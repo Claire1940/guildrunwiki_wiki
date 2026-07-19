@@ -1,0 +1,141 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Progress Carryover: Official Demo to Full Game Guide",
+  description: "Learn how Guildrun progress carryover works from the free demo to the 2027 full release. Master your hero progression and meta-unlocks.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111A18/D5B65C?text=Guildrun+Progress+Carryover",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Guildrun progress carryover** is a key focus for players optimizing their current demo run.
+- **Meta-progression** includes hero unlocks, difficulty levels, and accumulated account-wide resources.
+- **Strategic planning** in the demo allows you to enter the 2027 launch with a strong foundation.
+- **Endless mode** experience gained now will translate directly to your performance in the full release.
+</Callout>
+
+<Section icon={Target} title="Understanding Progress Carryover">
+
+Players often ask how their time in the [Guildrun Demo](https://store.steampowered.com/app/4425970/Guildrun_Demo/) translates to the 2027 full release. While the game is an evolving roguelike, the development team has prioritized meta-progression systems that ensure your efforts in the demo provide a head start.
+
+**Video Highlights:**
+- Core gameplay loop explanation
+- Early-game resource management strategies
+- Hero specialization and synergy tips
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun – Official Announcement Trailer" />
+
+<Callout type="tip" title="Strategic Focus">
+Focus on unlocking all 25 heroes during your demo sessions, as these character rosters are designed to carry over into the full game's meta-progression.
+</Callout>
+
+| Feature | Carryover Status | Impact on Full Game |
+| :--- | :--- | :--- |
+| Hero Unlocks | Confirmed | Provides immediate roster variety |
+| Difficulty Tiers | Progression Data | Unlocks higher challenges faster |
+| Account Shards | Meta-Currency | Speeds up initial shop upgrades |
+| Endless Scores | Leaderboard Data | Establishes your early-game ranking |
+
+</Section>
+
+<Section icon={Swords} title="Optimizing Your Current Run">
+
+To make the most of your time, you should focus on building a robust team that can tackle the eight planned difficulty levels. Understanding which heroes provide the best scaling potential is essential for long-term consistency.
+
+<CardGrid cols={3}>
+  <Card title="Frontline Anchors">
+    - **High durability**
+    - Essential for protecting carries
+    - Core to all difficulty tiers
+  </Card>
+  <Card title="Scaling Carries">
+    - **Damage output**
+    - Requires proper itemization
+    - Vital for Endless mode
+  </Card>
+  <Card title="Utility Supports">
+    - **Team synergy**
+    - Enables complex builds
+    - Increases run flexibility
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta Tip">
+Always prioritize relics that offer account-wide bonuses, as these are the most likely to retain their value across different game versions.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progression Steps">
+
+Follow these steps to ensure you have maximized your account standing before the full game launches.
+
+<Steps>
+  <Step num="1" title="Master the Basics">
+    Focus on the core recruitment and shop mechanics to ensure you can clear Difficulty 1 consistently.
+  </Step>
+  <Step num="2" title="Unlock Difficulty Tiers">
+    Progress through the eight difficulty levels to familiarize yourself with the modifiers that will be present in the full release.
+  </Step>
+  <Step num="3" title="Experiment with Builds">
+    Use the 75 specialization paths to identify which playstyles suit your preferences for the 2027 launch.
+  </Step>
+  <Step num="4" title="Endless Mode Preparation">
+    Test your best team compositions in Endless Mode to refine your positioning and item usage.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Milestone Checklist">
+
+Use this checklist to track your preparation for the transition to the full version of Guildrun.
+
+<Checklist
+  id="carryover-goals"
+  title="Preparation Milestones:"
+  items={[
+    "Unlock all 25 available heroes",
+    "Complete Difficulty 8 at least once",
+    "Record optimal item-hero combinations",
+    "Reach top-tier Endless mode scores"
+  ]}
+/>
+
+<Callout type="warning" title="Important Note">
+While hero unlocks are planned to carry over, always check the [Official Steam Community](https://steamcommunity.com/app/3669200) for the latest patch notes regarding specific save-file compatibility.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Will all my items carry over to the full game?",
+    answer: "Most meta-progression elements like hero unlocks and difficulty progress are prioritized for carryover, while specific run-based items are reset to ensure a fresh start for the full game economy."
+  },
+  {
+    question: "How do I ensure my progress is saved?",
+    answer: "Ensure you are logged into your Steam account while playing the demo. Progress is synced with your Steam Cloud to facilitate potential carryover."
+  },
+  {
+    question: "Is there a benefit to playing the demo now?",
+    answer: "Yes, playing the demo allows you to master the 25 heroes and 300+ relics, giving you a massive tactical advantage when the full game launches in 2027."
+  },
+  {
+    question: "Does Guildrun support controller play?",
+    answer: "The current demo focuses on PC mouse and keyboard, but controller support is a planned feature for the full release."
+  }
+]} />
+
+</Section>

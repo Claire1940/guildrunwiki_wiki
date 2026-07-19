@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aumento de Rank de Heróis em Guildrun: O Guia Completo de Progressão Nível S",
+  description: "Domine o sistema de aumento de rank de heróis em Guildrun. Aprenda a evoluir heróis do Rank C ao Rank S, otimizar a economia de fragmentos e criar equipes poderosas de veneno e crítico.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hero+Rank+Up+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Execute um **aumento de rank de herói em Guildrun** comprando duplicatas na loja ou usando fogueiras.
+- **Limites de Rank**: Os heróis progridem do Rank C ao Rank S, desbloqueando multiplicadores de atributos massivos e habilidades passivas que mudam o jogo.
+- **Loop de Limite de Crítico**: O excedente de chance de acerto crítico acima de 100% não é desperdiçado; ele escala habilidades específicas de heróis, como as shurikens da Yuna.
+- **Gestão de Recursos**: Sempre equilibre os gastos de fragmentos em melhorias de heróis versus a economia para escalar relíquias dependentes de fragmentos.
+- **Sinergia de Reserva**: Utilize os slots do banco de reserva para ativar bônus passivos globais sem sobrecarregar sua grade de combate ativa.
+</Callout>
+
+<Section icon={Sparkles} title="As Mecânicas Principais do Rank de Heróis">
+
+Para ter sucesso em Guildrun, entender como executar um **aumento de rank de herói em Guildrun** é o fator mais importante entre uma partida fracassada e chegar ao Modo Infinito. Todo herói começa no Rank C, possuindo atributos básicos e uma única habilidade ativa. Ao combinar duplicatas ou utilizar fogueiras, você pode elevar essas unidades ao Rank B, Rank A e, finalmente, ao cobiçado Rank S.
+
+Cada nível de rank oferece um aumento massivo nos atributos primários como ataque, magia e saúde máxima, ao mesmo tempo que desbloqueia nós passivos que mudam o jogo e expande os slots de itens.
+
+**Destaques do Vídeo:**
+- **Evolução de Herói**: Veja uma Yuna Rank C progredir até se tornar uma potência Rank S.
+- **Exploit de Escalonamento de Crítico**: Como o excesso de chance de acerto crítico escala a produção de shurikens exponencialmente.
+- **Transição para o Modo Infinito**: Estratégias para mudar de chefes de Ato para estágios infinitos de alta dificuldade.
+
+<YouTubeEmbed videoId="GLIHLwgmrBU" title="I Ranked Up Heroes to Overpowered Levels in Guildrun" />
+
+O sistema de progressão exige um planejamento econômico cuidadoso. Embora seja tentador comprar todas as duplicatas de heróis imediatamente, gerenciar seus fragmentos — a moeda principal — é essencial para manter seus itens e relíquias escalados junto com o rank da sua equipe.
+
+| Rank do Herói | Custo em Fragmentos (Aprox.) | Multiplicador de Atributos | Slots de Item | Principais Desbloqueios |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rank C** | Custo Base | 1.0x | 1 Slot | Habilidade Ativa Base |
+| **Rank B** | 15 - 20 Fragmentos | 1.5x | 2 Slots | Primeira Grande Melhoria Passiva |
+| **Rank A** | 30 - 40 Fragmentos | 2.2x | 2 Slots | Sinergia de Classe Avançada/Furtividade |
+| **Rank S** | 60+ Fragmentos | 3.5x | 3 Slots | Passiva Suprema & Omnivamp |
+
+<Callout type="success" title="Dica Econômica">
+Não negligencie a mecânica de congelamento da loja. Se uma duplicata de herói crucial aparecer, mas você não tiver fragmentos suficientes, congele a loja para garantir o aumento de rank após sua próxima vitória em combate.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Processo Passo a Passo de Aumento de Rank em Guildrun">
+
+Alcançar o Rank S exige uma abordagem sistemática para a seleção de unidades e gestão econômica. Comprar unidades aleatoriamente diluirá sua reserva e deixará sua equipe com nível baixo. Siga este caminho de progressão estruturado para aumentar consistentemente o rank das suas unidades principais de dano.
+
+<Steps>
+  <Step num="1" title="Estabeleça seu Carregador Principal">
+    Selecione um herói inicial (como a Yuna) e foque suas compras iniciais de fragmentos inteiramente em suas duplicatas. Não compre unidades secundárias até que seu principal causador de dano alcance pelo menos o Rank B.
+  </Step>
+  <Step num="2" title="Gerencie Rerolls e Congelamentos da Loja">
+    Use o reroll da loja com moderação no Ato 1. Se encontrar uma duplicata do seu carregador, compre-a imediatamente. Se estiver com poucos fragmentos, use a opção de congelamento para travar o estado da loja para a próxima rodada.
+  </Step>
+  <Step num="3" title="Maximize Eventos de Fogueira">
+    Fogueiras são nós raros que permitem melhorar o rank de um herói gratuitamente ou por uma taxa de fragmentos altamente reduzida. Sempre siga o caminho das fogueiras quando seu carregador principal estiver perto de um limite de rank.
+  </Step>
+  <Step num="4" title="Desbloqueie o Rank S e Sinergia de Itens">
+    Assim que seu carregador atingir o Rank S, equipe-o com itens que escalam com suas passivas recém-desbloqueadas. Por exemplo, a Yuna Rank S ganha um enorme omnivamp, tornando itens de alta velocidade de ataque incrivelmente potentes.
+  </Step>
+</Steps>
+
+As fogueiras fornecem utilidade única dependendo do rank atual do seu herói alvo. Saber quando usá-las é a chave para economizar preciosos recursos de fragmentos.
+
+| Nível da Fogueira | Rank Alvo Permitido | Economia de Fragmentos | Efeito Bônus |
+| :--- | :--- | :--- | :--- |
+| **Fogueira Padrão** | Rank C para Rank B | ~15 Fragmentos | +10% Magia/Ataque Base |
+| **Fogueira Refinada** | Rank B para Rank A | ~35 Fragmentos | +15% Saúde Base |
+| **Fogueira Exaltada** | Rank A para Rank S | ~60 Fragmentos | +20% Todos Atributos Primários |
+
+<Callout type="warning" title="Armadilha do Reroll">
+Evite fazer reroll na loja agressivamente no início do jogo. Cada reroll custa fragmentos que poderiam ser economizados para garantir um aumento de rank ou comprar relíquias de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Apresentação de Build Nível S: A Estratégia de Assassino com Veneno e Crítico">
+
+Uma das composições de equipe mais poderosas que utiliza a mecânica de **aumento de rank de herói em Guildrun** é a build de Assassino com Veneno e Crítico. Essa configuração utiliza ataques críticos de alta frequência para acumular veneno rapidamente nos inimigos, derretendo chefes em segundos.
+
+<CardGrid cols={3}>
+  <Card title="Yuna (Carregador Rank S)">
+    - **Ataque das Sombras de Shuriken**: Lança múltiplos projéteis que escalam com a chance de acerto crítico.
+    - **Mecânicas de Furtividade**: Ganha furtividade ao iniciar o combate e ao abater inimigos, tornando-a inalvejável.
+    - **Passiva Rank S**: Concede +60% de chance de crítico e omnivamp permanente para autocura.
+  </Card>
+  <Card title="Pollen (Suporte Rank A)">
+    - **Campo de Flores**: Inflige veneno contínuo enquanto protege aliados que estão dentro dele.
+    - **Amplificação de Debuff**: Aumenta todos os debuffs ativos nos inimigos em 100% no Rank A.
+    - **Escalonamento de Mana**: A alta regeneração de mana permite manter o campo ativo constantemente.
+  </Card>
+  <Card title="Juri (Vanguarda Rank A)">
+    - **Classe Dupla**: Funciona tanto como um tanque de linha de frente resistente quanto como um assassino crítico.
+    - **Petrificação**: Atordoa todos os inimigos que a atacam por 4 segundos ao ativar a pele de pedra.
+    - **Defesa no Crítico**: Ganha defesa física permanentemente sempre que desfere um acerto crítico.
+  </Card>
+</CardGrid>
+
+Para tornar esta composição verdadeiramente imparável, você deve buscar itens e relíquias específicos que tenham sinergia com a aplicação de veneno e multiplicadores de acerto crítico.
+
+| Nome do Item / Relíquia | Atributo Primário | Melhor Portador | Valor Tático |
+| :--- | :--- | :--- | :--- |
+| **Glifo do Assassino** | +50% Chance de Crítico | Yuna | Adiciona 1 shuriken extra a cada 50% de crítico acima do limite de 100%. |
+| **Ascendência do Veneno** | Execução de Debuff | Pollen | Executa ou enfraquece severamente inimigos que atingem 50 acúmulos de veneno. |
+| **Prisma de Precisão de Fragmentos** | Crítico Escalonado | Yuna | Converte fragmentos guardados diretamente em chance de acerto crítico. |
+| **Olho Tranquilo** | Velocidade de Ataque & Mana | Juri | Acelera a ativação da habilidade de vanguarda para proteger a retaguarda. |
+
+<Callout type="tip" title="Mecânica de Excesso">
+Se a chance de crítico da Yuna exceder 100%, ela lança uma shuriken adicional para cada 50% de crítico acima do limite. Com relíquias como o Prisma de Precisão de Fragmentos, ela pode atingir mais de 700% de crítico, lançando 8+ shurikens por conjuração!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão Avançada de Fim de Jogo e Táticas para o Modo Infinito">
+
+Uma vez que sua equipe principal consiste em unidades Rank S e Rank A, os chefes de ato padrão como a Hydra e o Dragão de Gelo representarão pouca ameaça. No entanto, a transição para o Modo Infinito introduz penalidades de escalonamento aos seus atributos base, exigindo um posicionamento preciso e gestão do banco de reserva.
+
+Antes de entrar no portal final, certifique-se de ter completado as etapas de preparação a seguir para maximizar suas chances de sobrevivência.
+
+<Checklist
+  id="endless-prep"
+  title="Lista de Verificação para o Modo Infinito:"
+  items={[
+    "Garanta pelo menos um causador de dano principal Rank S com omnivamp.",
+    "Melhore seu tanque de linha de frente para Rank A para desbloquear passivas de controle de grupo.",
+    "Equipe suas unidades do banco de reserva com itens passivos globais (ex: geradores de fragmentos).",
+    "Acumule pelo menos 100 fragmentos no banco para maximizar relíquias de escalonamento.",
+    "Otimize o posicionamento das unidades para evitar ataques de cleave de dragões."
+  ]}
+/>
+
+Durante o combate no final do jogo, as mecânicas dos chefes tornam-se cada vez mais punitivas. Posicionar seus heróis de rank alto corretamente determina se sua jornada continua ou termina abruptamente.
+
+| Encontro com Chefe | Ameaça Principal | Estratégia de Contra-ataque | Rank Recomendado |
+| :--- | :--- | :--- | :--- |
+| **A Hydra** | Cleave de múltiplas cabeças | Carregador de dano em alvo único no flanco. | Carregador Rank A |
+| **Dragão de Gelo** | Explosão de Gelo Adjacente | Espalhe unidades de vanguarda e suporte. | Carregador Rank S / Tanque Rank A |
+| **Elites Infinitos** | HP de Escalonamento Infinito | Veneno de alto acúmulo e relíquias de execução. | Equipe Totalmente Rank S |
+
+<Callout type="info" title="Rebobinar de Emergência">
+Se você sofrer uma derrota antes de chegar ao Modo Infinito, sua mecânica de Rebobinar de Emergência atua como uma vida extra. Se você chegar ao chefe final sem usá-la, ela se converte em um pagamento massivo de fragmentos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ de Guildrun">
+
+Para ajudá-lo a otimizar suas rodadas de progressão, compilamos as perguntas mais comuns sobre a progressão de heróis e gestão de fragmentos.
+
+<FAQ items={[
+  {
+    question: "Como o sistema de aumento de rank de herói em Guildrun afeta os slots de itens?",
+    answer: "Toda vez que um herói sobe de rank, ele ganha acesso a slots de itens adicionais. Unidades Rank C são limitadas a um slot, unidades Rank B e Rank A têm dois slots, e unidades Rank S desbloqueiam um terceiro slot, permitindo builds de itens complexas."
+  },
+  {
+    question: "Posso combinar relíquias duplicadas na loja?",
+    answer: "Não, relíquias duplicadas não podem ser combinadas. No entanto, usar várias cópias de relíquias compatíveis pode empilhar seus efeitos passivos, como dupla aplicação de veneno ou multiplicadores extras de acerto crítico."
+  },
+  {
+    question: "Qual é o benefício de colocar um herói no slot de reserva?",
+    answer: "Unidades de reserva não participam diretamente do combate ativo, mas ativam bônus passivos globais do banco. Por exemplo, certas unidades de reserva concedem escudos iniciais ou geram fragmentos extras no início de cada rodada."
+  },
+  {
+    question: "Devo escolher o design de estandarte de Assassino, Místico ou Tanque?",
+    answer: "Para builds focadas em crítico, escolha sempre o estandarte de Assassino. Ele desbloqueia a passiva Ganância do Assassino, que aumenta permanentemente o ataque e poder mágico de suas unidades sempre que elas desferem um acerto crítico."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+Priorize aumentar o rank de um único carregador para o Rank S em vez de manter uma equipe equilibrada de unidades Rank B. Um único carregador de nível alto com muito omnivamp pode facilmente solar o conteúdo do final do jogo.
+</Callout>
+
+</Section>

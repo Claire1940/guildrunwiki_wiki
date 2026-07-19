@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Nyx no Guildrun: Guia de Configuração de Assassino Furtivo",
+  description: "Domine a configuração de Nyx carry de assassino crítico furtivo no Guildrun. Aprenda os melhores itens, relíquias e composições de equipe para esta build de alto dano.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Nyx+Stealth+Crit+Build",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Configuração Principal**: Esta **build de nyx no guildrun** depende da furtividade na linha de trás para garantir uma taxa de acerto crítico de 100%.
+- **Carregador Principal**: Nyx escala exponencialmente usando itens de alta velocidade de ataque e a melhoria de retreinamento de execução Faísca (Spark).
+- **Solo de Linha de Frente**: Dragamir atua como o único tanque Vanguarda, escalando o vampirismo global da equipe através da geração de estilhaços.
+- **Prioridade de Relíquias**: Priorize a Cortina de Fumaça do Assassino (Assassin's Smokescreen) e o Catalisador de Veneno (Poison Catalyst) para sobreviver e derreter inimigos com muita vida.
+- **Viabilidade para Modo Infinito**: Transicione para itens que escalam com veneno para contornar o escalonamento de defesa de fim de jogo em lutas contra chefes.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais da Build de Nyx no Guildrun">
+
+O Guildrun combina mecânicas aceleradas de auto-battler com uma progressão profunda de roguelike. Para ter sucesso nos níveis de dificuldade mais altos e no modo infinito, entender a sinergia de classes é vital. O arquétipo de Assassino é altamente favorecido por seu dano de explosão massivo, mas requer uma configuração dedicada para sobreviver a lutas prolongadas. Este guia se concentra na configuração de assassino furtivo de alta velocidade, comumente referida como a principal **build de nyx no guildrun**.
+
+Esta configuração gira em torno de posicionar seus causadores de dano primários na linha de trás para ativar a furtividade imediata no início do combate. Enquanto estão camuflados, os assassinos ganham 100% de chance de acerto crítico e ficam completamente inalvejáveis, permitindo que destruam a linha de trás inimiga sem sofrer dano precoce. Ao emparelhar Nyx com unidades de suporte de alta utilidade e um tanque robusto na linha de frente, você pode facilmente limpar as fendas mais difíceis do jogo.
+
+**Destaques do Vídeo:**
+- **Ataques básicos de alta velocidade** escalando a velocidade de ataque de Nyx para mais de 3,63 ataques por segundo.
+- **Escalonamento de crítico baseado em furtividade** que aumenta as taxas de crítico para mais de 250% para um dano de explosão massivo.
+- **Economia baseada em estilhaços** aproveitando o Devorar de Dragamir para escalar o poder mágico e comprar relíquias de alto nível.
+- **Viabilidade no modo infinito** alcançando rodadas avançadas e posições elevadas na classificação global.
+
+<YouTubeEmbed videoId="QQ767NR6ZSQ" title="Guildrun Assassinos Críticos Furtivos Nyx Carry" />
+
+<Callout type="info" title="Conceito da Build">
+A força desta build reside em sua natureza de escalonamento duplo. Enquanto Nyx causa dano físico e mágico rápido através de alta velocidade de ataque, seus acertos críticos ativam aplicações de veneno que derretem chefes com muita vida ao longo do tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhorias de Heróis e Sinergia de Classes">
+
+Para rodar esta build de forma eficaz, você precisa recrutar uma composição específica de Breakers. Embora Nyx atue como sua principal hipercarregadora, ela precisa do suporte de outros assassinos para ativar sinergias de toda a classe, além de um Vanguarda resistente para absorver a agressividade inicial do inimigo.
+
+| Herói | Classe | Função Principal | Melhoria de Habilidade Chave | Avaliação de Sinergia |
+| :--- | :--- | :--- | :--- | :--- |
+| Nyx | Assassino | Hipercarregador Principal | Retreinamento de Faísca (Executar < 30% HP) | ★★★★★ |
+| Yuna | Assassino | Ativadora de Crítico/Veneno | Golpe Sombrio (Geração de Estilhaços) | ★★★★☆ |
+| Logan | Assassino | Buffer e Subcarregador | Motor de Emboscada (Escalonamento de AD para Nyx) | ★★★★☆ |
+| Dragamir | Vanguarda | Tanque Solo de Linha de Frente | Devorar (Vampirismo e Escalonamento de Estilhaços) | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Nyx (O Carregador)">
+    Foca em velocidade de ataque rápida, alto escalonamento de acerto crítico e em executar alvos com pouca vida instantaneamente.
+  </Card>
+  <Card title="Dragamir (A Muralha)">
+    Absorve a pressão da linha de frente, consome estilhaços para escalar o vampirismo e mantém a equipe viva.
+  </Card>
+  <Card title="Logan (O Facilitador)">
+    Fornece durações estendidas de furtividade e bônus passivos de dano de ataque para aliados adjacentes.
+  </Card>
+</CardGrid>
+
+Melhorar seus heróis na fogueira é crucial. Para Nyx, priorizar a melhoria de retreinamento de Faísca (Spark) é altamente recomendado. Esta habilidade permite que ela execute instantaneamente qualquer inimigo cuja vida caia abaixo de 30%, ignorando completamente tanques de alta defesa no fim do jogo. Enquanto isso, Dragamir deve se concentrar em melhorias que consomem estilhaços para aumentar permanentemente sua vida máxima e defesa.
+
+<Callout type="success" title="Dica de Sinergia">
+Sempre procure oportunidades para recrutar Logan ao lado de Nyx. A habilidade passiva de Logan concede dano de ataque permanente aos assassinos adjacentes sempre que eles sobrevivem a uma rodada de combate enquanto camuflados, criando um ciclo de escalonamento infinito.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Relíquias, Itens e Progressão de Escalonamento">
+
+Itens e relíquias no Guildrun ditam o potencial de escalonamento da sua equipe. Como os assassinos são inerentemente frágeis, sua escolha de itens deve equilibrar a saída de dano bruto com utilidade defensiva, como vampirismo e gatilhos de furtividade de emergência.
+
+| Relíquia | Raridade | Efeito Principal | Impacto na Build | Avaliação |
+| :--- | :--- | :--- | :--- | :--- |
+| Cortina de Fumaça do Assassino | Épico | Furtividade por 3s quando abaixo de 33% de Vida | Sobrevivência crítica para carregadores frágeis | ★★★★★ |
+| Grande Cristal de Poder | Raro | Aumento massivo de atributos após 2 combates | Escalonamento permanente para unidades de classe dupla | ★★★★☆ |
+| Catalisador de Veneno | Épico | Multiplica o dano de veneno ao longo do tempo | Derrete tanques com muita vida no modo infinito | ★★★★★ |
+| Emblema do Guerreiro | Raro | Melhora atributos de guerreiro a um custo menor | Melhora a capacidade de linha de frente de Dragamir | ★★★☆☆ |
+
+Para os slots de itens pessoais de Nyx, priorize itens que ofereçam velocidade de ataque, chance de acerto crítico e penalidades ao atingir. O Anel da Viralidade (Ring of Virality) é altamente eficaz aqui, pois aplica acúmulos massivos de veneno a cada ataque básico rápido.
+
+| Item | Slot | Atributos Principais | Efeito Único | Herói Alvo |
+| :--- | :--- | :--- | :--- | :--- |
+| Anel da Viralidade | Arma/Acessório | Vampirismo, Crítico | Aplica 175 de veneno no alvo | Nyx |
+| Contrato Ardente | Arma | Velocidade de Ataque, Crítico | Executa inimigos em múltiplos críticos | Nyx / Yuna |
+| Lanterna do Guardião | Armadura | Vida Máxima, Defesa | Concede escudo a aliados adjacentes no início do combate | Dragamir |
+| Aljava da Celeridade | Arma | Velocidade de Ataque | Acelera o ganho de mana e ataques básicos | Yuna |
+
+Para transicionar esta build do início do jogo para o modo infinito, siga este caminho de progressão específico:
+
+<Steps>
+  <Step num="1" title="Estabeleça a Economia de Estilhaços">
+    Recrute Dragamir cedo e selecione melhorias que gerem estilhaços extras ao abater. Isso permite que você atualize agressivamente a loja em busca de relíquias importantes.
+  </Step>
+  <Step num="2" title="Garanta a Furtividade na Linha de Trás">
+    Adquira a relíquia Cortina de Fumaça do Assassino e posicione Nyx e Logan na linha de trás para garantir acertos críticos precoces.
+  </Step>
+  <Step num="3" title="Desbloqueie o Retreinamento de Faísca">
+    Visite a fogueira no Ato 2 para realizar o retreinamento da habilidade ativa de Nyx para a execução de Faísca, permitindo que ela destrua monstros de elite.
+  </Step>
+  <Step num="4" title="Transicione para o Escalonamento de Veneno">
+    Equipe Nyx com o Anel da Viralidade e pegue a relíquia Catalisador de Veneno para escalar seu dano exponencialmente no modo infinito.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Fator de Risco">
+Cuidado com relíquias que reduzem a velocidade de ataque da sua equipe ou atordoam seus heróis no início do combate. Os assassinos dependem fortemente de furtividade imediata e ciclos de ataque rápidos para sobreviver.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Posicionamento e Estratégia de Combate">
+
+O posicionamento adequado é o que separa uma corrida bem-sucedida de uma derrota precoce. Como os assassinos dependem da furtividade para evitar o confronto direto, sua linha de frente deve ser posicionada para atrair toda a agressividade inicial do inimigo.
+
+| Fileira | Herói | Função Principal | Lógica de Posicionamento |
+| :--- | :--- | :--- | :--- |
+| Fileira da Frente | Dragamir | Tanque Solo | Atrai a agressividade corpo a corpo inicial, ativa o Devorar |
+| Fileira de Trás | Nyx | DPS Seguro | Ganha 100% de crítico e 5s de furtividade imediatamente |
+| Fileira de Trás | Logan | Buffar Nyx | Posicionado adjacente a Nyx para compartilhar bônus passivos de AD |
+| Reserva | Yuna | Veneno de Suporte | Ativa bônus de veneno de assassinos reservas a partir do banco |
+
+Ao enfrentar chefes com ataques pesados de área de efeito (AoE), afaste os assassinos da sua linha de trás. Manter Nyx e Logan em lados opostos da linha de trás evita que sejam atingidos pelos mesmos feitiços de varredura, garantindo que pelo menos um carregador permaneça saudável durante a luta.
+
+<Checklist
+  id="combat-readiness"
+  title="Lista de Verificação Pré-Combate:"
+  items={[
+    "Verifique se Dragamir está no único espaço da linha de frente para atrair a agressividade imediata.",
+    "Garanta que Nyx esteja adjacente a Logan para receber os bônus passivos de dano de ataque.",
+    "Verifique se todos os assassinos da linha de trás têm itens de furtividade ativos equipados.",
+    "Confirme se o seu banco de reservas está preenchido com assassinos para ativar sinergias de suporte."
+  ]}
+/>
+
+<Callout type="tip" title="Conselho Tático">
+Se você encontrar inimigos com altas taxas de esquiva, troque um dos itens de velocidade de ataque de Nyx por uma relíquia que aumente a precisão. Errar ataques interrompe a geração de mana e impede que suas habilidades de execução sejam ativadas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Por que Nyx é preferida em relação a Yuna como a carregadora principal nesta build?",
+    answer: "Embora Yuna seja excelente para a geração de estilhaços no início do jogo, Nyx possui um escalonamento de velocidade de ataque superior e pode ser retreinada para executar alvos abaixo de 30% de vida, tornando-a muito mais eficaz contra chefes no fim do jogo."
+  },
+  {
+    question: "Como lidar com equipes de muito controle de grupo (CC) usando a build de Nyx no Guildrun?",
+    answer: "Priorize a aquisição de relíquias que concedam imunidade a CC durante os primeiros segundos de combate (gatilhos de Ímpeto). Isso garante que seus assassinos possam utilizar toda a duração de sua furtividade sem serem interrompidos."
+  },
+  {
+    question: "Posso rodar esta build sem Dragamir como o tanque da linha de frente?",
+    answer: "Isso é altamente desaconselhável. A habilidade única de Dragamir de escalar o vampirismo e gerar estilhaços é vital para financiar suas melhorias caras de relíquias. Substituí-lo limitará severamente o potencial de escalonamento da sua equipe."
+  },
+  {
+    question: "Qual é o limite ideal de velocidade de ataque para Nyx no modo infinito?",
+    answer: "Não há um limite fixo, mas é recomendável buscar pelo menos 3,5 ataques por segundo. Isso permite que Nyx ative o Anel da Viralidade e os catalisadores de veneno várias vezes por segundo."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Continue experimentando diferentes combinações de relíquias na casa de leilões. A beleza desta build é sua flexibilidade em acomodar várias relíquias ofensivas de alto nível, desde que seu mecanismo central de furtividade permaneça intacto.
+</Callout>
+
+</Section>

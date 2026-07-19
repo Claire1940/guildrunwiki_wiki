@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "guildrun first run guide: Master the Early Game & Team Synergies",
+  description: "Learn how to dominate your first contract in Guildrun with our comprehensive guide to hero selection, burn synergies, and resource management.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+First+Run+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **guildrun first run guide**: Focus on building high-magic Mage synergies to clear the initial demo acts efficiently.
+- **Burn Mechanics**: Utilize heroes like Funky to stack burn debuffs, which amplify damage through specific relics.
+- **Resource Priority**: Spend shards on hero duplicates early to unlock powerful Passive and Active abilities.
+- **Positioning Strategy**: Keep Vanguards in the front and Mages in the back to maximize survivability during the 20-second Stall window.
+- **Key Relic**: The Burn Catalyst is the most impactful early-game item for fire-based compositions.
+</Callout>
+
+<Section icon={Map} title="Hero Selection and Combat Fundamentals">
+
+Starting your journey in Guildrun requires a solid understanding of the "Breaker" system. In this **guildrun first run guide**, we emphasize that your initial hero choice defines your entire run's trajectory. Currently, the demo offers heroes like Funky, Yuna, and Kai, each specializing in different elemental or physical archetypes. Funky, for instance, is a premier Mage choice due to his Wildfire ability, which excels at spreading damage across the battlefield automatically.
+
+**Video Highlights:**
+- **Hero Archetypes**: Overview of starting abilities like Wildfire.
+- **Auto-Battle Systems**: Understanding mana gain through auto-attacks.
+- **Shop Mechanics**: How to spend Shards on heroes, items, and relics.
+- **Synergy Building**: Combining Mage and Vanguard classes for a balanced team.
+
+<YouTubeEmbed videoId="XGFvBmp-XTo" title="Guildrun | Awesome Auto Battler Roguelike!" />
+
+Combat in Guildrun is fully automated, meaning your success depends entirely on your preparation and positioning. Heroes generate mana through auto-attacks; once the mana bar is full, they trigger their active ability. This makes mana regeneration stats and attack speed crucial for casters who rely on high-impact spells to clear waves.
+
+| Mechanic | Description | Impact on Combat |
+| :--- | :--- | :--- |
+| **Auto-Attack** | Standard hero strikes | Generates mana for active abilities |
+| **Active Ability** | Triggered at 100% mana | High damage or utility effects |
+| **Mana Regen** | Passive mana gain | Reduces time between ability casts |
+| **Positioning** | Grid-based placement | Determines target priority and safety |
+
+<Callout type="tip" title="Mana Management">
+Prioritize items that provide mana regeneration for your Mages. A Mage who casts their ability twice per fight is significantly more valuable than one with high magic power who only casts once.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Building Team Synergies and Archetypes">
+
+The core of a successful run lies in class and archetype synergies. When you visit the shop, you are presented with three heroes. Buying a hero you already own will rank them up, which is often better than simply adding a new, low-rank hero to your roster. Ranking up unlocks passive abilities that can define your team's power level.
+
+<CardGrid cols={3}>
+  <Card title="The Burn Core">
+    - **Primary Hero**: Funky
+    - **Key Synergy**: Burn Catalyst Relic
+    - **Effect**: Massive damage over time that scales with Magic.
+  </Card>
+  <Card title="The Frost Control">
+    - **Primary Hero**: Frost Mages
+    - **Key Synergy**: Slows and Stuns
+    - **Effect**: Reduces enemy attack frequency to protect your frontline.
+  </Card>
+  <Card title="The Vanguard Wall">
+    - **Primary Hero**: Ming or other Tanks
+    - **Key Synergy**: Defense-scaling items
+    - **Effect**: Absorbs damage to allow Mages to reach the Stall phase.
+  </Card>
+</CardGrid>
+
+Synergies are tracked via keywords. For example, the "Mage" class often grants bonus magic power to all allied mages. If you stack multiple mages, their combined power can melt even the sturdiest bosses. However, neglecting your frontline will lead to a quick defeat, as squishy mages cannot survive direct contact with high-damage enemies like the Mushroom Guy or the Armored Turtle.
+
+| Class | Primary Role | Key Stat | Common Synergies |
+| :--- | :--- | :--- | :--- |
+| **Mage** | Ranged DPS | Magic | Burn, Frost, Mana Regen |
+| **Vanguard** | Tank | Defense | Shielding, Rush, HP |
+| **Assassin** | Single Target | Attack | Crit, Speed, Stealth |
+| **Support** | Utility | Regen | Healing, Buffing, Debuffing |
+
+<Callout type="warning" title="Duplicate Heroes">
+Do not ignore duplicates in the shop. A Rank A or Rank S hero gains massive stat boosts and additional class tags that can bridge the gap between a failed run and a victory.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Shop Management and Resource Allocation">
+
+Shards are the lifeblood of your guild. Managing them effectively between fights is what separates experts from beginners. The shop offers three categories of upgrades: Heroes, Items, and Relics. While it is tempting to buy every shiny item, you must prioritize hero ranks to unlock the full potential of your team.
+
+<Checklist
+  id="shop-priority-list"
+  title="Shop Checklist for Every Visit:"
+  items={[
+    "Check for hero duplicates to rank up existing units",
+    "Identify relics that match your current elemental archetype",
+    "Equip individual items to heroes based on their scaling stats",
+    "Consider a reroll if none of the heroes fit your synergy",
+    "Freeze the shop if you see a vital hero but lack shards"
+  ]}
+/>
+
+Relics are unique because they affect your entire team. For example, the "Plated Codex" increases defense for everyone after a victory, while "Burn Catalyst" amplifies all burn damage. Items, on the other hand, are equipped to individual heroes. Dragging a "Patient Ring" onto a Vanguard is a smart move, as it provides health and utility that benefits a unit staying in the fight for a long duration.
+
+| Item Type | Target | Cost | Strategy |
+| :--- | :--- | :--- | :--- |
+| **Hero** | Team Roster | Low/Medium | Focus on ranking up core units |
+| **Relic** | Global Buff | High | Buy only if it matches your synergy |
+| **Item** | Individual | Medium | Fill slots on your carry hero first |
+| **Reroll** | Shop Refresh | Scaling | Use sparingly in the early game |
+
+<Callout type="success" title="Relic Synergy">
+If you are running a fire-heavy team, the Burn Catalyst is a must-buy. It can often account for 30% or more of your total damage output in boss fights.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="guildrun first run guide: Navigating the Map and Challenges">
+
+The map in Guildrun offers branching paths, including mining shards, finding items, or training heroes. Choosing the right path depends on your current team strength. If you are healthy and winning fights easily, go for the "Challenge" encounters to earn extra shards. If your team is struggling, look for a Campfire to rank up a hero for free or a Shop to find better gear.
+
+<Steps>
+  <Step num="1" title="Early Aggression">
+    In the first few nodes, prioritize finding a third hero to fill your active slots. Don't worry about perfect synergy yet; raw numbers matter more in Act 1.
+  </Step>
+  <Step num="2" title="Archetype Specialization">
+    By the middle of the run, you should have a clear theme (e.g., Fire Mages). Start selling items or heroes that don't contribute to this goal.
+  </Step>
+  <Step num="3" title="The Boss Prep">
+    Before the Act boss, ensure your tank has at least one defensive item and your primary damage dealer is at least Rank A.
+  </Step>
+  <Step num="4" title="Endless Mode Transition">
+    After defeating the demo boss, you enter Endless Mode. Here, the "Stall" keyword becomes vital as fights last much longer.
+  </Step>
+</Steps>
+
+Special encounters like the "Armored Turtle" require high burst damage. These "Durable Enemy" challenges reward you with a massive pile of shards if you can break through their shell within the time limit. If your team is built for "Stall" (late-fight power), you might struggle with these time-sensitive challenges.
+
+| Encounter Type | Difficulty | Main Reward | Best Approach |
+| :--- | :--- | :--- | :--- |
+| **Standard Fight** | Easy | Shards | Test positioning |
+| **Elite/Challenge** | Medium | Rare Items | Use Rush abilities |
+| **Durable Enemy** | Hard | Massive Shards | High DPS focus |
+| **Boss Fight** | Very Hard | Epic Relics | Full synergy required |
+
+<Callout type="info" title="The Rewind Mechanic">
+Guildrun features an "Emergency Rewind" system. If you lose a combat, you get one extra chance and a shard bonus to power up. Use this bonus wisely to fix the weaknesses that led to your defeat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Keywords: Rush, Stall, and Backup">
+
+To master the late game, you must understand the timing-based keywords that dictate when certain abilities activate. These keywords allow you to build teams that excel at different phases of a battle.
+
+- **Rush**: These effects are only active during the first 15 seconds of battle. They are perfect for fast, aggressive teams looking to end fights quickly.
+- **Stall**: These effects activate only after 20 seconds have passed. This is the realm of tanks and healers who can outlast the enemy.
+- **Backup**: These effects work even if the hero is in your reserve slots. This allows you to gain team-wide buffs without taking up a valuable spot on the battlefield.
+
+Understanding the "Stall" mechanic is particularly important for the demo boss. The boss has high health, meaning the fight will inevitably last longer than 20 seconds. Equipping items or choosing passive upgrades that trigger during the Stall phase will give you a massive advantage when the boss is at half health.
+
+| Keyword | Timing | Best Hero Class | Strategy |
+| :--- | :--- | :--- | :--- |
+| **Rush** | 0-15s | Assassin / Burst Mage | End fights before taking damage |
+| **Standard** | 15-20s | All | The peak of ability rotations |
+| **Stall** | 20s+ | Vanguard / Support | Out-sustain the opponent |
+| **Backup** | Passive | Any | Global stat boosts for the team |
+
+<Callout type="tip" title="Backup Strategy">
+Even if you find a hero that doesn't fit your active combat grid, check if they have a "Backup" keyword. A hero in reserve providing +10 Magic to all Mages is often worth keeping.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion and FAQ">
+
+Mastering your first run in Guildrun is a journey of trial and error, but focusing on hero ranks and elemental synergies will put you ahead of the curve. Whether you choose the path of the flaming mage or the sturdy vanguard, remember that every item and relic choice counts toward your final victory against the rift's monsters.
+
+<FAQ items={[
+  {
+    question: "What is the best hero to start with in Guildrun?",
+    answer: "For beginners, Funky is highly recommended. His Wildfire ability provides consistent area-of-effect damage, and fire synergies are currently very strong in the demo version."
+  },
+  {
+    question: "How do I increase my maximum team size?",
+    answer: "Team size can be increased through specific high-rarity relics or upgrades found in the Auction House after defeating a boss. Always prioritize team size if you have a strong reserve roster."
+  },
+  {
+    question: "What happens if I lose a fight in Guildrun?",
+    answer: "The game features an Emergency Rewind system. You get one chance to restart the fight with extra shards to power up your team. If you lose again, the run ends."
+  },
+  {
+    question: "Are items permanent once equipped?",
+    answer: "No, items can be unequipped or moved between heroes at any time in the shop or map screen, allowing you to adapt your strategy as you recruit better units."
+  }
+]} />
+
+<Callout type="success" title="Final Advice">
+Always keep an eye on the combat tracker after a fight. It shows exactly how much damage each hero and relic contributed, helping you identify which parts of your team are underperforming.
+</Callout>
+
+</Section>

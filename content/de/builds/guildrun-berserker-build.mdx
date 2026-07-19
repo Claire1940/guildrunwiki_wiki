@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Berserker Build: Setup-Leitfaden & Kampf-Walkthrough",
+  description: "Meistere den Guildrun Berserker-Build. Lerne optimale Item-Setups, Synergien der Krieger-Klasse und Positionierungsstrategien, um den Endlos-Modus zu dominieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Berserker+Build+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Anleitung">
+- Das Meistern des **Guildrun-Berserker-Builds** erfordert eine Konzentration auf Rips Zorn-Mechaniken und die Resets seiner Ansturm-Fähigkeiten.
+- Setze Prioritäten auf Items mit **Angriffstempo** und **Omnivamp** (Lebensraub), um eine hohe Überlebensfähigkeit in langen Kämpfen des Endlos-Modus zu gewährleisten.
+- Setze **Rowan** as Vanguard-Tank an der Frontlinie ein, um anfänglichen Berstschaden abzufangen und deinen primären Carry zu schützen.
+- Staple die **kritische Trefferchance** über 100 Prozent hinaus, um überschüssige Werte in eine massive kritische Schadensskalierung umzuwandeln.
+</Callout>
+
+<Section icon={Swords} title="Kernmechaniken des Guildrun-Berserker-Builds">
+
+Der Eckpfeiler des **Guildrun-Berserker-Builds** dreht sich um die Maximierung einer risikoreichen Nahkampf-Skalierung mit hohen Belohnungen. In Guildrun ist die erstklassige Einheit für diesen Spielstil Rip, ein temporeicher Krieger (Warrior), der sich darin auszeichnet, erlittenen Schaden in rohe Offensivkraft umzuwandeln. Im Gegensatz zu traditionellen Tanks, die sich ausschließlich auf Schadensminderung verlassen, blüht ein Berserker auf, wenn er seinen Lebenspunkte-Pool niedrig hält, um verheerende Statuswert-Multiplikatoren auszulösen.
+
+Rip nutzt eine einzigartige Zorn-Mechanik (Rage), die aktiviert wird, sobald er den Kampf betritt. Nach dem Wirken seiner aktiven Fähigkeit verfällt er in einen Rauschzustand und erhält massive Boni auf seine maximalen Lebenspunkte, sein Angriffstempo und Omnivamp. Dies macht es unglaublich schwierig, ihn zu bezwingen, sobald er mit dem Angreifen beginnt, da sein Lebensraub direkt mit seinem ausgeteilten Schaden skaliert. Darüber hinaus werden alle seine Ansturm-Fähigkeiten (Rush) sofort zurückgesetzt, wann immer Rip oder ein angrenzender Verbündeter unter die 50%-Lebenspunkte-Marke fällt, und er erhält einen flachen Bonus von 25% auf sein Angriffstempo. Diese Reset-Mechanik ermöglicht es ihm, wirkungsvolle Fähigkeiten direkt nacheinander zu verketten und die gegnerische Frontlinie zu zerschmettern, bevor diese reagieren kann.
+
+**Video-Highlights:**
+- **Zorn-Management**: Lerne, wie du Rips Lebenspunkte-Pool ausbalancierst, um seine passiven Resets des Angriffstempos zu maximieren.
+- **Synergie-Drafting**: Entdecke die besten unterstützenden Helden, die einen auf Nahkampf ausgerichteten Carry ergänzen.
+- **Item-Auswahl**: Verstehe, warum die Skalierung von Omnivamp und ein hoher Lebenspunkte-Pool die reine defensive Rüstung übertreffen.
+
+<YouTubeEmbed videoId="HmeAJ5I4YEU" title="Nyx, unerbittliches kleines Monster | Guildrun" />
+
+Damit dieser Build effektiv funktioniert, musst du das „Ansturm“-System (Rush) verstehen. Ansturm-Fähigkeiten sind wirkungsvolle Buffs, die unter bestimmten Bedingungen ausgelöst werden, wie zu Beginn des Kampfes oder während des Wirkens aktiver Fähigkeiten. Durch das Stapeln von Gegenständen, die die Dauer dieser Ansturm-Zustände verlängern, kannst du Rip während der gesamten Runde auf maximaler Kampfeffizienz halten und die üblichen Ausfallzeiten umgehen, die andere Nahkampf-Builds plagen.
+
+<Callout type="success" title="Synergie-Tipp">
+Kombiniere Rip immer mit Helden, die von schnellen Lebenspunkteschwankungen profitieren. Da Rips Passive ausgelöst wird, wenn angrenzende Verbündete unter 50% HP fallen, kann das Platzieren eines sekundären Off-Tanks neben ihm frühzeitige Ansturm-Resets erzwingen, ohne Rip in sofortige Lebensgefahr zu bringen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Klassensynergien & Kampfvarianten">
+
+Um das volle Potenzial dieses Builds freizuschalten, ist ein tiefes Verständnis des Klassensynergiesystems von Guildrun erforderlich. Durch die Kombination der Krieger-Klasse (Warrior) mit komplementären Rollen wie Duellant (Duelist), Vanguard und Mystiker (Mystic) kannst du eine hochgradig widerstandsfähige Truppe aufbauen, die in der Lage ist, schwere Begegnungen und tiefe Runs im Endlos-Modus zu meistern.
+
+Wenn Rip die Synergie der Krieger-Klasse erhält, schießen seine grundlegenden offensiven Fähigkeiten in die Höhe. Krieger erhalten einen flachen Bonus von 50 Angriff, und ihr Dauerfrost-Schaden (Permafrost) kann kritische Treffer landen. Dies eröffnet einen äußerst effektiven Frost-Krit-Hybrid-Build. Wenn du Rip mit einem frostverursachenden Magier wie Sal kombinierst, verursacht jeder kritische Treffer, den Rip landet, Frost, was wiederum die Rüstung und das Angriffstempo des Gegners verringert. Dadurch entsteht eine mächtige Crowd-Control-Schleife, die Feinde dauerhaft verlangsamt, während Rips physischer Schaden maximiert wird.
+
+| Klasse | Rolle | Synergie-Bewertung | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| Krieger (Warrior) | Haupt-DPS | ★★★★★ | **50 Bonus-Angriff** und Krit auf Dauerfrost |
+| Vanguard | Tank | ★★★★☆ | Massive **HP-Pools** und Schild-Sharing |
+| Assassine (Assassin) | Finisher | ★★★★☆ | Tötet Ziele unter **25% HP** sofort |
+| Mystiker (Mystic) | Utility | ★★★☆☆ | Erhöht **Manaregeneration** und Spam aktiver Fähigkeiten |
+
+Um deinen Spielstil anzupassen, ziehe diese drei verschiedenen Varianten der Berserker-Aufstellung in Betracht:
+
+<CardGrid cols={3}>
+  <Card title="Der Ansturm-Resetter">
+    Konzentriert sich vollständig auf die Verlängerung der **Ansturm-Dauer** und das Auslösen schneller Angriffstempo-Buffs. Am besten kombiniert mit dem Eye of Haste.
+  </Card>
+  <Card title="Der Omnivamp-Stall">
+    Priorisiert **kontinuierliche Heilung** und defensive Schilde. Äußerst nützlich, um hohen AoE-Schadensspitzen im Endlos-Modus zu widerstehen.
+  </Card>
+  <Card title="Der Dauerfrost-Krit">
+    Wandelt überschüssige **kritische Trefferchance** in rohen physischen Schaden um. Verlässt sich auf Magier, die Frost-Debuffs applizieren, bevor Rip zuschlägt.
+  </Card>
+</CardGrid>
+
+Für Spieler, die den rohen Schaden maximieren möchten, ist die Mechanik zur Umwandlung kritischer Treffer unerlässlich. In Guildrun ist die kritische Trefferchance nicht auf 100 % begrenzt. Jede überschüssige kritische Trefferchance, die du durch Relikte und Gegenstände anhäufst, wird automatisch in zusätzlichen kritischen Schaden umgewandelt. In Kombination mit Rips schnellem Angriffstempo ermöglicht dies seinen Standardangriffen, während seines Zorn-Fensters astronomisch hohe Zahlen zu erreichen.
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn du ein Wappen-Item (Crest) erhältst, das Rip eine zusätzliche Klasse verleiht, strebe die Assassinen-Klasse (Assassin) an. Dies ermöglicht es Rip, jeden von ihm beschädigten Gegner sofort hinzurichten, dessen Lebenspunkte unter 25 % des Maximums fallen, was die Räumungszeit der gegnerischen Frontlinie dramatisch verkürzt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimale Ausrüstung & Relikt-Setup">
+
+Die Item-Auswahl kann über Erfolg oder Misserfolg deines Runs entscheiden. Da der Berserker darauf angewiesen ist, ein Gleichgewicht zwischen erlittenem Schaden und anschließender Heilung zu halten, müssen deine Gegenstände sowohl das Überleben als auch das häufige Wirken von Fähigkeiten unterstützen. Das Stapeln rein defensiver Gegenstände wie Rüstung verringert den Schaden, den Rip erleidet, was seinen Zorn-Übergang tatsächlich verlangsamen kann. Konzentriere dich stattdessen auf Lebenspunkte-Pools, Schilde und Angriffstempo.
+
+Das wichtigste offensive Relikt für diesen Build ist die Crown of Haste, die in den ersten 8 Sekunden des Kampfes einen massiven Bonus von 40 % auf das Angriffstempo gewährt. Dies stellt sicher, dass Rip seine Zorn-Stapel direkt zu Beginn der Runde aufbauen kann. Für den defensiven Nutzen solltest du nach Vindictive Shields Ausschau halten. Dieses Relikt gewährt zu Beginn des Kampfes einen dauerhaften Schild und fügt angrenzenden Gegnern Schaden in Höhe eines Prozentsatzes des verbleibenden Schildwerts zu, was defensive Schadensminderung in passiven Offensivschaden verwandelt.
+
+| Reliktname | Seltenheit | Tier | Primärer Effekt |
+| :--- | :--- | :--- | :--- |
+| Crown of Haste | Episch | S-Tier | Erhöht das **Angriffstempo** während des Ansturms um 40% |
+| Vindictive Shields | Selten | A-Tier | Verursacht Schaden basierend auf **verbleibenden Schilden** |
+| Mystery Charm | Selten | B-Tier | Gewährt ein zufälliges **seltenes offensives Relikt** |
+| Shard Magnet | Gewöhnlich | C-Tier | Erhöht die **Scherben-Generierung** bei einem Kampfsieg |
+
+Vergleiche bei der Verwaltung deines Inventars immer, wie Gegenstände mit Rips aktiven Fähigkeiten skalieren. Gegenstände, die flache Lebenspunkte-Boni bieten, sind äußerst wertvoll, da Rips Zorn-Fähigkeit seine maximalen Lebenspunkte um einen Prozentsatz skaliert. Ein größerer Basis-Lebenspunkte-Pool führt zu deutlich größeren Skalierungsboni, was wiederum seine passiven Lebensregeneration-Mechaniken verstärkt.
+
+| Gegenstandsname | Typ | Skalierungstyp | Am besten geeignet für |
+| :--- | :--- | :--- | :--- |
+| Vanguard Emblem | Defensiv | Max HP % | Erhöhung der **Schildwerte** bei Rip |
+| Eye of Haste | Offensiv | Angriffstempo | Verlängerung der **Ansturm-Dauer** um 3 Sekunden |
+| Permafrost Shard | Offensiv | Kritische Trefferchance | Ermöglicht es **Frostschaden**, kritische Treffer zu landen |
+| Salvation Scroll | Defensiv | Lebensregeneration | Wiederbelebung **gefallener Verbündeter** nach 20 Sekunden |
+
+<Callout type="warning" title="Ausrüstungswarnung">
+Vermeide es, Gegenstände auszurüsten, die flache Rüstung ohne Lebenspunkte-Skalierung gewähren. Hohe Rüstungswerte verhindern, dass Rips Lebenspunkte schnell unter die 50%-Marke fallen, was seine entscheidenden Ansturm-Resets verzögern und deine Hinterlinie verwundbar machen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Fortschrittsleitfaden">
+
+Der Aufbau einer erfolgreichen Berserker-Truppe erfordert eine sorgfältige Planung ab der allerersten Kampfrunde. Du kannst diesen Build nicht einfach erzwingen, ohne deine Ökonomie und deine Shop-Rolls effizient zu verwalten. Folge dieser Schritt-für-Schritt-Fortschrittsroute, um sicher vom frühen Spiel in die tiefe Skalierung des Endlos-Modus überzugehen.
+
+<Steps>
+  <Step num="1" title="Sichere dir Rip frühzeitig">
+    Suche in den ersten drei Kampfrunden im Shop nach Rip. Werte ihn so schnell wie möglich auf B-Rang auf, um seine Kern-Zorn-Mechaniken und die grundlegende Omnivamp-Skalierung freizuschalten.
+  </Step>
+  <Step num="2" title="Errichte eine Frontlinie">
+    Rekrutiere Rowan oder einen ähnlichen Vanguard-Tank. Platziere sie in der vorderen Reihe, um die anfängliche gegnerische Aggro auf sich zu ziehen, sodass Rip von einem angrenzenden Feld aus sicher sein Mana und sein Angriffstempo aufbauen kann.
+  </Step>
+  <Step num="3" title="Sichere dir Ansturm-Relikte">
+    Priorisiere Shop-Einkäufe und Kampfbelohnungen, die Angriffstempo bieten oder die Ansturm-Dauer verlängern. Sperre den Shop, wenn du die Crown of Haste oder das Eye of Haste siehst, dir aber die Scherben fehlen, um sie sofort zu kaufen.
+  </Step>
+  <Step num="4" title="Optimiere Krit und Frost">
+    Bringe eine frostverursachende Einheit wie Sal auf das Feld. Rüste Rip mit Gegenständen für kritische Treffer aus, um die Synergie der Krieger-Klasse auszulösen, sodass seine physischen Angriffe gefrorene Ziele zerschmettern.
+  </Step>
+  <Step num="5" title="Übergang in den Endlos-Modus">
+    Rüste Rip mit hochrangigen Omnivamp-Relikten und maximalen Lebenspunkte-Boostern aus, um dem massiven, skalierenden AoE-Schaden im Endlos-Modus ab Stufe 10 und darüber hinaus standzuhalten.
+  </Step>
+</Steps>
+
+Um deinen Fortschritt auf Kurs zu halten, nutze diese Checkliste der wichtigsten Meilensteine während deines Runs. Wenn du bis zum Mid-Game zu viele dieser Ziele verfehlst, könnte dein Carry an Schadenswirkung verlieren.
+
+<Checklist
+  id="berserker-progression"
+  title="Fortschrittsziele & Meilensteine:"
+  items={[
+    "Werte Rip vor dem Boss von Akt 1 auf mindestens A-Rang auf",
+    "Sichere dir mindestens ein Relikt, das die Ansturm-Dauer um 3 Sekunden verlängert",
+    "Erreiche mindestens 15 % Omnivamp auf deinem primären Carry",
+    "Kombiniere Rip mit einem Vanguard-Tank, der über 600 Bonus-Lebenspunkte besitzt",
+    "Schalte den Synergiebonus der Krieger-Klasse für 3 Einheiten frei"
+  ]}
+/>
+
+<Callout type="info" title="Ökonomie-Tipp">
+Zögere nicht, den Shop zu sperren, wenn er wertvolle Relikte wie das Vanguard Emblem enthält, selbst wenn dies deine Einheiten-Upgrades verzögert. Das richtige Gegenstands-Setup ist oft wirkungsvoller als ein einfaches Rang-Upgrade.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Kampfpositionierung & Teamzusammensetzung">
+
+Die Positionierung ist ein entscheidender Aspekt des taktischen Gameplays von Guildrun. Da Rip eine Nahkampfeinheit ist, kann eine falsche Platzierung dazu führen, dass er von Fernkampfgegnern fokussiert oder von gegnerischen Tanks mit hoher Verteidigung eingekesselt wird, bevor er seinen Zorn-Zustand aktivieren kann.
+
+Deine ideale Teamzusammensetzung sollte eine solide Mischung aus Frontlinien-Verteidigung, schnellem physischem Schaden und nützlicher Crowd Control bieten. Rowan sollte immer das primäre Frontlinien-Feld besetzen, um die erste Angriffswelle auf sich zu ziehen. Platziere Rip direkt neben Rowan, leicht nach links oder rechts versetzt. Diese Positionierung stellt sicher, dass Rips Ansturm-Fähigkeiten sofort zurückgesetzt werden, wenn Rowans Lebenspunkte unter 50 % fallen, während Rip vor direkten Einzelziel-Berstangriffen geschützt bleibt.
+
+| Heldenname | Rang | Synergietyp | Kampf-Priorität |
+| :--- | :--- | :--- | :--- |
+| Rip | S-Rang | Ansturm-Carry | Visierte den Gegner mit den **höchsten HP** an und aktiviere Zorn |
+| Rowan | A-Rang | Stall-Tank | Halte die **Frontlinie** und heile basierend auf Rüstung |
+| Nyx | S-Rang | Combo-DPS | Räume Ziele mit **niedrigen Lebenspunkten** durch Mehrfachtreffer auf |
+| Sal | B-Rang | Krit-Magier | Appliziere **Dauerfrost** und Brand-Debuffs auf Ziele |
+
+Wenn du Gegnern mit durchschlagenden Linienangriffen oder breiten AoE-Zaubern gegenüberstehst, vermeide es, deine Einheiten in einer geraden vertikalen oder horizontalen Linie zu gruppieren. Nutze stattdessen eine geteilte Formation. Platziere deinen Haupttank auf einer Seite des Spielfelds, um die linearen Angriffe auf sich zu ziehen, während Rip und deine Backup-Schadensausteiler wie Nyx von der gegenüberliegenden Seite flankieren, um die gegnerische Hinterlinie zu zerlegen.
+
+<Callout type="success" title="Positionierungs-Erfolg">
+Die Verwendung eines diagonalen Layouts verhindert, dass gegnerische Magier gleichzeitig Rowan und Rip mit AoE-Zaubern mit hohem Schaden treffen. Dies hält den Lebenspunkte-Pool deines Berserkers stabil genug, um sich durch Lebensraub aufrechtzuerhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Warum ist Rip die ideale Einheit für einen Guildrun-Berserker-Build?",
+    answer: "Rip ist die perfekte Besetzung, da seine aktive Fähigkeit gleichzeitig seine maximalen Lebenspunkte, sein Angriffstempo und Omnivamp skaliert. Seine einzigartige Passive setzt zudem seine Ansturm-Fähigkeiten zurück, wann immer er oder ein angrenzender Verbündeter unter 50 % HP fällt, was ihm ermöglicht, eine hohe Kampfdynamik aufrechterzuerhalten."
+  },
+  {
+    question: "Wie skaliert die kritische Trefferchance über 100 % hinaus in diesem Build?",
+    answer: "In Guildrun wird jede kritische Trefferchance, die über 100 % hinaus angehäuft wird, direkt in zusätzlichen kritischen Schaden umgewandelt. Das Stapeln von auf kritische Treffer ausgerichteten Relikten auf Rip ermöglicht es seinen Standardangriffen, während seiner Zorn-Fenster massiven Schaden zu verursachen."
+  },
+  {
+    question: "Wie lässt sich der skalierende AoE-Schaden im Endlos-Modus am besten bewältigen?",
+    answer: "Um tiefe Runs im Endlos-Modus zu überleben, musst du deinen Fokus auf die Skalierung des maximalen Lebenspunkte-Pools und hochrangiges Omnivamp verlagern. Gegenstände wie das Vanguard Emblem und Vindictive Shields bieten die notwendigen Lebenspunkte-Puffer und dauerhaften Schilde, um Schadensspitzen mit hohem Schaden zu überstehen."
+  },
+  {
+    question: "Sollte ich ein Solo-Carry-Setup oder eine vollständige Teamzusammensetzung spielen?",
+    answer: "Obwohl Rip ein mächtiger Solo-Carry ist, wird dringend empfohlen, ihn mit einem dedizierten Vanguard-Tank wie Rowan und einem Backup-Finisher wie Nyx zu kombinieren. Dies verhindert, dass Rip früh im Kampf fokussiert wird, bevor er seine Zorn-Stapel aufbauen kann."
+  }
+]} />
+
+</Section>

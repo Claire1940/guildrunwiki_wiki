@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Helden-Aufstieg: Der ultimative Leitfaden für S-Tier-Progression",
+  description: "Meistere das Guildrun Helden-Aufstiegssystem. Lerne, wie du Helden von Rang C auf Rang S entwickelst, die Splitter-Ökonomie optimierst und übermächtige Gift-Krit-Teams aufbaust.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hero+Rank+Up+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptmechanik**: Führe einen **Guildrun Helden-Aufstieg** durch, indem du Duplikate im Shop kaufst oder Lagerfeuer nutzt.
+- **Rang-Schwellenwerte**: Helden entwickeln sich von Rang C bis Rang S, wodurch massive Stat-Multiplikatoren und bahnbrechende passive Fähigkeiten freigeschaltet werden.
+- **Der Krit-Cap-Loop**: Zusätzliche kritische Trefferrate über 100 % geht nicht verloren; sie skaliert spezifische Heldenfähigkeiten wie Yunas Shuriken.
+- **Ressourcenmanagement**: Balance immer zwischen dem Ausgeben von Splittern für Helden-Upgrades und dem Sparen für Splitter-abhängige Relikte.
+- **Reserve-Synergie**: Nutze die Reserveplätze auf der Bank, um globale passive Buffs auszulösen, ohne dein aktives Kampfgitter zu überladen.
+</Callout>
+
+<Section icon={Sparkles} title="Die Kernmechaniken des Helden-Aufstiegs">
+
+Um in Guildrun erfolgreich zu sein, ist das Verständnis darüber, wie man einen **Guildrun Helden-Aufstieg** durchführt, der wichtigste Faktor zwischen einem gescheiterten Run und dem Erreichen des Endlos-Modus. Jeder Held beginnt auf Rang C, verfügt über Basiswerte und eine einzelne aktive Fähigkeit. Durch das Kombinieren von Duplikaten oder die Nutzung von Lagerfeuern kannst du diese Einheiten auf Rang B, Rang A und schließlich den begehrten Rang S heben.
+
+Jede Rangstufe bietet einen massiven Schub für Primärattribute wie Angriff, Magie und maximale Gesundheit, während gleichzeitig spielverändernde passive Knoten freigeschaltet und Item-Slots erweitert werden.
+
+**Video-Highlights:**
+- **Helden-Evolution**: Erlebe, wie eine Rang-C-Yuna zu einem S-Rang-Kraftpaket wird.
+- **Krit-Skalierungs-Exploit**: Wie übersteuerte kritische Trefferrate den Shuriken-Ausstoß exponentiell skaliert.
+- **Übergang zum Endlos-Modus**: Strategien für den Wechsel von Akt-Bossen zu skalierenden Endlos-Stufen mit hohem Schwierigkeitsgrad.
+
+<YouTubeEmbed videoId="GLIHLwgmrBU" title="I Ranked Up Heroes to Overpowered Levels in Guildrun" />
+
+Das Progressionssystem erfordert eine sorgfältige wirtschaftliche Planung. Obwohl es verlockend ist, sofort jedes Helden-Duplikat zu kaufen, ist die Verwaltung deiner Splitter – der Hauptwährung – unerlässlich, um deine Items und Relikte parallel zum Rang deines Teams zu skalieren.
+
+| Helden-Rang | Splitter-Kosten (ca.) | Stat-Multiplikator | Item-Slots | Wichtige Freischaltungen |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rang C** | Basiskosten | 1,0x | 1 Slot | Basis-Aktivfähigkeit |
+| **Rang B** | 15 - 20 Splitter | 1,5x | 2 Slots | Erstes großes passives Upgrade |
+| **Rang A** | 30 - 40 Splitter | 2,2x | 2 Slots | Fortgeschrittene Klassensynergie/Tarnung |
+| **Rang S** | 60+ Splitter | 3,5x | 3 Slots | Ultimative Passive & Omnivamp |
+
+<Callout type="success" title="Wirtschafts-Tipp">
+Vernachlässige nicht die Einfrier-Mechanik des Shops. Wenn ein wichtiges Helden-Duplikat erscheint, dir aber die Splitter fehlen, friere den Shop ein, um den Aufstieg nach deinem nächsten Kampfsieg zu sichern.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt-Prozess zum Guildrun Helden-Aufstieg">
+
+Das Erreichen von Rang S erfordert einen systematischen Ansatz beim Drafting und Management der Wirtschaft. Willkürliches Kaufen von Einheiten verwässert deinen Pool und lässt dein Team unterlevelt zurück. Folge diesem strukturierten Progressionspfad, um deine primären Carry-Einheiten konsequent aufzusteigen.
+
+<Steps>
+  <Step num="1" title="Etabliere deinen Kern-Carry">
+    Wähle einen Starter-Helden (wie Yuna) und konzentriere deine anfänglichen Splitter-Käufe vollständig auf dessen Duplikate. Kaufe keine sekundären Einheiten, bis dein Haupt-Schadensausteiler mindestens Rang B erreicht hat.
+  </Step>
+  <Step num="2" title="Verwalte Shop-Rerolls und Einfrierungen">
+    Verwende Rerolls im Shop in Akt 1 sparsam. Wenn du ein Duplikat deines Carrys findest, kaufe es sofort. Wenn du zu wenig Splitter hast, nutze die Einfrier-Option, um den Shop-Zustand für die nächste Runde zu sperren.
+  </Step>
+  <Step num="3" title="Maximiere Lagerfeuer-Events">
+    Lagerfeuer sind seltene Knotenpunkte, die es dir erlauben, den Rang eines Helden kostenlos oder zu stark reduzierten Splitterkosten zu verbessern. Plane deinen Weg immer zu Lagerfeuern, wenn dein primärer Carry kurz vor einer Rang-Schwelle steht.
+  </Step>
+  <Step num="4" title="Schalte Rang S und Item-Synergie frei">
+    Sobald dein Carry Rang S erreicht hat, rüste ihn mit Items aus, die mit seinen neu freigeschalteten Passiven skalieren. Eine Rang-S-Yuna erhält beispielsweise massiven Omnivamp, was Items mit hoher Angriffsgeschwindigkeit unglaublich potent macht.
+  </Step>
+</Steps>
+
+Lagerfeuer bieten je nach aktuellem Rang deines Ziel-Helden einzigartigen Nutzen. Zu wissen, wann man sie einsetzt, ist der Schlüssel zum Sparen wertvoller Splitter-Ressourcen.
+
+| Lagerfeuer-Stufe | Erlaubter Ziel-Rang | Splitter-Ersparnis | Bonus-Effekt |
+| :--- | :--- | :--- | :--- |
+| **Standard-Lager** | Rang C bis B | ~15 Splitter | +10 % Basis-Magie/Angriff |
+| **Verfeinertes Lager** | Rang B bis A | ~35 Splitter | +15 % Basis-Gesundheit |
+| **Exaltiertes Lager** | Rang A bis S | ~60 Splitter | +20 % alle Primärwerte |
+
+<Callout type="warning" title="Reroll-Falle">
+Vermeide es, den Shop im frühen Spiel aggressiv neu zu würfeln. Jeder Reroll kostet Splitter, die sonst gespart werden könnten, um einen garantierten Aufstieg zu sichern oder hochwertige Relikte zu kaufen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="S-Tier Build-Showcase: Die Gift-Krit-Assassinen-Strategie">
+
+Eine der stärksten Team-Kompositionen, die die **Guildrun Helden-Aufstieg**-Mechanik nutzt, ist der Gift-Krit-Assassinen-Build. Dieses Setup verwendet hochfrequente kritische Treffer, um Gegner schnell mit Gift zu belegen und Bosse in Sekunden zu schmelzen.
+
+<CardGrid cols={3}>
+  <Card title="Yuna (S-Rang Carry)">
+    - **Shuriken-Schattenstoß**: Feuert mehrere Projektile ab, die mit der kritischen Trefferrate skalieren.
+    - **Tarnungs-Mechanik**: Erhält Tarnung bei Kampfbeginn und nach Kills, was sie unangreifbar macht.
+    - **S-Rang Passiv**: Gewährt +60 % Krit-Chance und permanenten Omnivamp zur Selbstheilung.
+  </Card>
+  <Card title="Pollen (A-Rang Support)">
+    - **Blumenfeld**: Verursacht kontinuierliches Gift, während Verbündete darin geschützt werden.
+    - **Debuff-Verstärkung**: Verstärkt alle aktiven Debuffs auf Gegnern um 100 % auf Rang A.
+    - **Mana-Skalierung**: Hohe Mana-Regeneration ermöglicht konstante Feld-Uptime.
+  </Card>
+  <Card title="Juri (A-Rang Vanguard)">
+    - **Doppelklasse**: Fungiert sowohl als robuster Front-Line-Tank als auch als Krit-Assassine.
+    - **Versteinerung**: Betäubt alle zielenden Gegner für 4 Sekunden nach Auslösung von Steinhaut.
+    - **Verteidigung bei Krit**: Erhält permanent physische Verteidigung, wann immer sie einen kritischen Treffer landet.
+  </Card>
+</CardGrid>
+
+Um diese Komposition wirklich unaufhaltsam zu machen, musst du nach spezifischen Items und Relikten suchen, die mit Gift-Anwendung und kritischen Treffermultiplikatoren synergieren.
+
+| Item / Relikt-Name | Primärattribut | Bester Träger | Taktischer Wert |
+| :--- | :--- | :--- | :--- |
+| **Assassinen-Glyphe** | +50 % Krit-Rate | Yuna | Fügt 1 zusätzlichen Shuriken pro 50 % Krit über dem 100 % Cap hinzu. |
+| **Gift-Aufstieg** | Debuff-Hinrichtung | Pollen | Richtet Gegner hin oder schwächt sie massiv, wenn sie 50 Giftstapel erreichen. |
+| **Splitter-Präzisionsprisma** | Skalierender Krit | Yuna | Wandelt gespeicherte Splitter direkt in kritische Trefferchance um. |
+| **Ruhiges Auge** | Angriffsgeschwindigkeit & Mana | Juri | Beschleunigt die Aktivierung der Vanguard-Fähigkeit zum Schutz der Backline. |
+
+<Callout type="tip" title="Overcap-Mechanik">
+Wenn Yunas Krit-Chance 100 % übersteigt, wirft sie für jede 50 % Krit über dem Cap einen zusätzlichen Shuriken. Mit Relikten wie dem Splitter-Präzisionsprisma kann sie über 700 % Krit erreichen und 8+ Shuriken pro Zauber werfen!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortgeschrittene Endgame-Progression & Endlos-Modus-Taktiken">
+
+Sobald dein Hauptteam aus S-Rang- und A-Rang-Einheiten besteht, werden die Standard-Akt-Bosse wie die Hydra und der Frostdrache kaum eine Bedrohung darstellen. Der Übergang in den Endlos-Modus führt jedoch Skalierungs-Strafen auf deine Basiswerte ein, was präzise Positionierung und Reserve-Bank-Management erfordert.
+
+Bevor du das letzte Portal betrittst, stelle sicher, dass du die folgenden Vorbereitungsschritte abgeschlossen hast, um deine Überlebenschancen zu maximieren.
+
+<Checklist
+  id="endless-prep"
+  title="Checkliste für den Endlos-Modus:"
+  items={[
+    "Sichere dir mindestens einen S-Rang-Haupt-Schadensausteiler mit Omnivamp.",
+    "Verbessere deinen Front-Line-Tank auf Rang A, um Crowd-Control-Passive freizuschalten.",
+    "Rüste deine Reserve-Bank-Einheiten mit globalen passiven Items aus (z. B. Splitter-Generatoren).",
+    "Sammle mindestens 100 Splitter auf der Bank, um skalierende Relikte zu maximieren.",
+    "Optimiere die Einheitenplatzierung, um Drachen-Cleave-Angriffe zu vermeiden."
+  ]}
+/>
+
+Während der Kämpfe im späten Spiel werden Boss-Mechaniken zunehmend bestrafender. Die korrekte Positionierung deiner aufgestiegenen Helden bestimmt, ob dein Run fortgesetzt wird oder abrupt endet.
+
+| Boss-Begegnung | Hauptbedrohung | Konter-Strategie | Empfohlener Rang |
+| :--- | :--- | :--- | :--- |
+| **Die Hydra** | Multi-Kopf-Cleave | Einzelziel-Burst-Carry in der Flanke. | Rang-A-Carry |
+| **Frostdrache** | Angrenzender Frostschlag | Vanguard- und Support-Einheiten verteilen. | Rang-S-Carry / Rang-A-Tank |
+| **Endlose Eliten** | Unendlich skalierende HP | Hohe Giftstapel und Hinrichtungs-Relikte. | Vollständiges S-Tier-Team |
+
+<Callout type="info" title="Notfall-Rücklauf">
+Wenn du vor Erreichen des Endlos-Modus eine Niederlage erleidest, fungiert deine Notfall-Rücklauf-Mechanik als zusätzliches Leben. Wenn du den Endboss erreichst, ohne sie zu verbrauchen, wird sie in eine massive Splitter-Auszahlung umgewandelt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guildrun FAQ">
+
+Um dir bei der Optimierung deiner Progressions-Runs zu helfen, haben wir die häufigsten Fragen zur Helden-Progression und zum Splitter-Management zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Wie beeinflusst das Guildrun Helden-Aufstiegssystem die Item-Slots?",
+    answer: "Jedes Mal, wenn ein Held aufsteigt, erhält er Zugriff auf zusätzliche Item-Slots. Einheiten auf Rang C sind auf einen Slot begrenzt, Einheiten auf Rang B und A haben zwei Slots und Einheiten auf Rang S schalten einen dritten Slot frei, was komplexe Item-Builds ermöglicht."
+  },
+  {
+    question: "Kann ich doppelte Relikte im Shop kombinieren?",
+    answer: "Nein, doppelte Relikte können nicht kombiniert werden. Jedoch kann das Ausrüsten mehrerer Kopien kompatibler Relikte deren passive Effekte stapeln, wie z. B. doppelte Gift-Anwendung oder zusätzliche kritische Treffermultiplikatoren."
+  },
+  {
+    question: "Was ist der Vorteil, einen Helden auf den Backup/Reserve-Platz zu setzen?",
+    answer: "Reserve-Einheiten nehmen nicht direkt am aktiven Kampf teil, lösen aber globale passive Buffs von der Bank aus. Zum Beispiel gewähren bestimmte Reserve-Einheiten Start-Schilde oder generieren zu Beginn jeder Runde zusätzliche Splitter."
+  },
+  {
+    question: "Sollte ich das Assassinen-, Mystiker- oder Tank-Banner-Design wählen?",
+    answer: "Für Krit-lastige Setups wähle immer das Assassinen-Banner. Es schaltet das passive 'Gier des Assassinen' frei, das den Angriffs- und Magieschaden deiner Einheiten jedes Mal permanent erhöht, wenn sie einen kritischen Treffer landen."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Priorisiere das Aufsteigen eines einzelnen Carrys auf Rang S, anstatt ein ausgeglichenes Team aus Rang-B-Einheiten zu unterhalten. Ein einzelner überlevelter Carry mit hohem Omnivamp kann Endgame-Inhalte leicht im Alleingang bewältigen.
+</Callout>
+
+</Section>

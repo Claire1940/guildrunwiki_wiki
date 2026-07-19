@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guildrun Relikt-Rangliste: 2026 S-Tier Rankings & Beste Item-Builds",
+  description: "Meistern Sie die Guildrun Relikt-Rangliste, um Ihre Roguelike-Runs zu optimieren. Entdecken Sie die besten klassenskalierenden Relikte, Wirtschafts-Booster und S-Tier Überlebensgegenstände.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/111A18/D5B65C?text=Relic+Tier+List",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team",
+  keywords: "Guildrun, Relikte, Rangliste, Tier List, Guide, Roguelike, Builds"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Guildrun Relikt-Rangliste**: S-Tier konzentriert sich auf **Klassenskalierung**, **Angriffsgeschwindigkeit** und **frühe Wirtschaft**, um die Lebensfähigkeit im Late-Game zu gewährleisten.
+- **Run-entscheidende Relikte**: Priorisieren Sie Gegenstände, die das **gesamte Team** verbessern, anstatt Status-Booster für einzelne Helden.
+- **Wirtschaftsstrategie**: Sichern Sie sich frühzeitig (Schwierigkeitsgrad 1-3) **Scherben** und **Shop-Reroll**-Relikte, um Ressourcen für Schwierigkeitsgrad 8 zu maximieren.
+- **Überlebenspriorität**: Universelle Verteidigungsrelikte sind für den **Endlosmodus** obligatorisch, um One-Shot-Mechaniken von Elite-Rissen zu verhindern.
+- **Synergiefokus**: Stimmen Sie Ihre Reliktauswahl auf Ihre **75 Spezialisierungspfade** ab, um eine maximale Schadensmultiplikation zu erreichen.
+</Callout>
+
+<Section icon={Sparkles} title="Das Guildrun-Reliktsystem verstehen">
+
+Im komplexen Ökosystem von Guildrun stellen Relikte die primäre Methode dar, um die Macht Ihrer Gilde über einfache Heldenlevel hinaus zu steigern. Mit mehr als 300 Relikten und 100 Gegenständen, die in der Meta von 2026 verfügbar sind, entscheidet die Unterscheidung zwischen einem „Köder-Item“ und einem run-entscheidenden Artefakt über den Erfolg oder Misserfolg in Schwierigkeitsgrad 8. Im Gegensatz zu Standardgegenständen, die einem einzelnen Helden flache Werte verleihen, wenden Relikte oft globale Modifikatoren an, die Ihren gesamten taktischen Ansatz verändern.
+
+Die aktuelle **Guildrun Relikt-Rangliste** kategorisiert diese Artefakte basierend auf vier primären Metriken: **Flexibilität**, **Skalierungspotenzial**, **Auswirkung im Early-Game** und **Lebensfähigkeit im Endlosmodus**. Ein Relikt, das in den ersten drei Rissen exzellent, aber gegen den Endboss nutzlos ist, fällt in das B-Tier, während solche, die einen kumulativen Wert bieten, im S-Tier fest verankert sind.
+
+| Relikttyp | Hauptfunktion | Zielphase | Meta-Einfluss |
+| :--- | :--- | :--- | :--- |
+| **Globale Relikte** | Betrifft alle 25 Helden | Alle Phasen | **Höchster** |
+| **Klassen-Relikte** | Bufft spezifische Spezialisierungen | Mitte-Spät | **Hoch** |
+| **Wirtschafts-Relikte** | Erhöht Scherben/Rerolls | Früh | **Kritisch** |
+| **Trigger-Relikte** | Aktiviert bei Kill/Treffer/Cast | Kampf | **Moderat** |
+
+<Callout type="tip" title="Strategische Flexibilität">
+Erzwingen Sie keinen spezifischen Build, bevor Sie Ihre ersten beiden Reliktangebote gesehen haben. Guildrun belohnt Spieler, die ihre Heldenrekrutierung an die Stärken ihrer frühen Relikt-Drops anpassen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="S-Tier: Die run-entscheidenden Relikte">
+
+S-Tier-Relikte sind jene, die unabhängig von Ihrer Teamzusammensetzung universellen Wert bieten. Diese Artefakte bieten in der Regel eine Skalierung, die mächtiger wird, je mehr Sie in Heldenränge und Spezialisierungen investieren. In der Wettbewerbslandschaft von 2026 dominieren Wirtschaft und Angriffsgeschwindigkeit die Meta der hohen Schwierigkeitsgrade.
+
+<CardGrid cols={2}>
+  <Card title="Klassenskalierende Relikte">
+    - **Macht**: Sehr hoch
+    - **Effekt**: Verbessert mehrere Fähigkeiten innerhalb einer Klasse
+    - **Warum es gewinnt**: Skaliert exponentiell mit Spezialisierungsrängen
+  </Card>
+  <Card title="Flexible Angriffsgeschwindigkeit">
+    - **Macht**: Sehr hoch
+    - **Effekt**: Erhöht die globale Aktionsfrequenz
+    - **Warum es gewinnt**: Löst Treffereffekte aus und erhöht DPS/Heilung
+  </Card>
+  <Card title="Frühe Wirtschafts-Booster">
+    - **Macht**: Hoch (Früh)
+    - **Effekt**: Zusätzliche Scherben oder kostenlose Shop-Aktualisierungen
+    - **Warum es gewinnt**: Ermöglicht perfekte Teamrekrutierung bis Riss 4
+  </Card>
+  <Card title="Universelles Überleben">
+    - **Macht**: Sehr hoch
+    - **Effekt**: Flache Schadensreduzierung oder Wiederbelebungsmechaniken
+    - **Warum es gewinnt**: Verhindert RNG-basierte Verluste in hohen Schwierigkeitsgraden
+  </Card>
+</CardGrid>
+
+Diese Relikte sind das Fundament jedes erfolgreichen Runs. Zum Beispiel kann ein **frühes Wirtschafts-Relikt**, das im ersten Shop erworben wird, bis zum Ende des Runs zu 30 % mehr Ressourcen führen, was es Ihnen ermöglicht, Ihren 25-Helden-Kader vollständig aufzuwerten und S-Rang-Spezialisierungen zu sichern.
+
+| Relikt-Kategorie | Beste Helden-Synergie | Skalierungstyp | Priorität |
+| :--- | :--- | :--- | :--- |
+| **Angriffsgeschwindigkeit** | Fernkämpfer, Duellanten, Assassinen | Multiplikativ | **1.** |
+| **Wirtschaft** | Alle (Fokus auf Shop-Rerolls) | Kumulativ | **1. (Früh)** |
+| **Globale Verteidigung** | Tanks, Frontline-Anker | Additiv | **2.** |
+| **Fähigkeitsstärke** | Heiler, Hybrid-Magier | Multiplikativ | **2.** |
+
+<Callout type="success" title="Meta-Einblick">
+Im Jahr 2026 ist die „Shop-Reroll“-Meta der konsistenteste Weg, Schwierigkeitsgrad 8 zu schlagen. Relikte, die kostenlose Aktualisierungen gewähren, werden derzeit höher bewertet als direkte Schadensbooster, da sie garantieren, dass Sie die spezifischen Helden finden, die für Ihre Synergie benötigt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="A & B Tier: Situative und rollenspezifische Macht">
+
+A-Tier- und B-Tier-Relikte sind mächtig, erfordern aber spezifische Bedingungen, um zu glänzen. Wenn Sie einen „Lovers“-Build mit geteilten Effekten oder eine Komposition mit Fokus auf einen einzelnen Carry spielen, können diese Relikte oft S-Tier-Optionen übertreffen. Es fehlt ihnen jedoch die Flexibilität, um in jedem Run gewählt zu werden.
+
+**A-Tier: Konsistente Spezialisten**
+Diese Relikte konzentrieren sich darauf, spezifische Rollen wie Heilung oder dedizierten Schaden zu verstärken. Sie sind exzellent, wenn Sie sich bereits auf einen Spezialisierungspfad festgelegt haben, wie etwa einen dedizierten Heiler oder einen Burst-Schaden-Assassinen.
+
+**B-Tier: Die bedingten Wagnisse**
+B-Tier-Relikte umfassen rollenspezifische Verteidigungsgegenstände oder Relikte, die nur unter strengen Bedingungen ausgelöst werden (z. B. „wenn ein Held unter 20 % Gesundheit ist“). Sie können zwar einen Run retten, sind aber oft „Ballast“, wenn Ihr Team gut abschneidet.
+
+| Tier | Kategorie | Bester Anwendungsfall | Risikostufe |
+| :--- | :--- | :--- | :--- |
+| **A** | Heilungsverstärkung | Defensive Teams, Bossbegegnungen | **Niedrig** |
+| **A** | Dedizierter Schaden | Single-Carry Backline-Builds | **Niedrig** |
+| **B** | Rollenverteidigung | Tanks unter starkem Druck | **Mittel** |
+| **B** | Bedingter Kampf | High-Risk, High-Reward Burst-Builds | **Hoch** |
+
+<Callout type="warning" title="C-Tier-Köder vermeiden">
+Gegenstände mit geringer Auswirkung auf einzelne Werte (C-Tier) bieten kleine flache Boni wie +5 Gesundheit. Diese sind die Scherbenkosten im Mid-Game selten wert, da sie nicht mit dem Wachstum oder den Spezialisierungen Ihres Helden skalieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Wie man Relikte mit Heldenspezialisierungen kombiniert">
+
+Bei 75 verfügbaren Spezialisierungspfaden in Guildrun ist die Abstimmung Ihrer Relikte auf die entwickelte Rolle Ihres Helden entscheidend. Ein Tank-Held, der auf „Schadensreduzierung“ spezialisiert ist, zieht deutlich mehr Nutzen aus einem „Universellen Überlebens“-Relikt als aus einer „Heilungsverstärkung“.
+
+<Steps>
+  <Step num="1" title="Kern-Carry identifizieren">
+    Bestimmen Sie, welcher Held den Großteil Ihres Schadens verursachen wird. Wenn es ein Fernkämpfer ist, priorisieren Sie Angriffsgeschwindigkeits-Relikte. Wenn es ein Assassine ist, suchen Sie nach Burst oder Finishing-Power.
+  </Step>
+  <Step num="2" title="Klassensynergie prüfen">
+    Überprüfen Sie Ihre aktiven Spezialisierungen. Wenn Sie mehrere Helden in der Klasse „Unterstützer“ oder „Heiler“ haben, bietet ein klassenskalierendes Relikt den 3- oder 4-fachen Wert im Vergleich zu einem Einzelziel-Gegenstand.
+  </Step>
+  <Step num="3" title="Verteidigung und Nutzen ausbalancieren">
+    Stellen Sie sicher, dass Ihre Frontline genug Überlebensrelikte hat, um mindestens 15 Sekunden durchzuhalten. Wenn sie zu schnell sterben, erhalten Ihre Backline-Schadensrelikte nie die Chance, aktiviert zu werden.
+  </Step>
+  <Step num="4" title="Bei Bedarf umschwenken">
+    Wenn der Shop ein legendäres S-Tier-Relikt anbietet, das nicht zu Ihrem aktuellen Team passt, ziehen Sie die „Respec“-Mechanik in Betracht, um die Spezialisierungspfade Ihrer Helden an die neue Machtquelle anzupassen.
+  </Step>
+</Steps>
+
+| Heldenrolle | Empfohlene Relikt-Synergie | Prioritätswert |
+| :--- | :--- | :--- |
+| **Tank** | Schadensreduzierung, Globale Gesundheit | **Verteidigung** |
+| **Heiler** | Heilungsverstärkung, Fähigkeitshast | **Sustain** |
+| **Fernkämpfer** | Angriffsgeschwindigkeit, Mehrfachschuss | **DPS** |
+| **Assassine** | Krit-Schaden, Rüstungsdurchdringung | **Burst** |
+
+<Callout type="info" title="Die Respec-Strategie">
+Haben Sie keine Angst vor einem Respec. Wenn Sie ein Relikt finden, das massive Boni für „Duellanten“ gewährt, Sie aber aktuell „Assassinen“ haben, sind die Ressourcenkosten für den Wechsel der Spezialisierungen oft den massiven Machtschub wert.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progression und Schwierigkeitsskalierung">
+
+Während Sie sich von Schwierigkeitsgrad 1 zu Schwierigkeitsgrad 8 bewegen, wird Ihre Abhängigkeit von der **Guildrun Relikt-Rangliste** zunehmen. In niedrigeren Schwierigkeitsgraden können Sie mit fast jeder Kombination gewinnen. In Schwierigkeitsgrad 8 und im Endlosmodus führen ineffiziente Reliktauswahlen zu einem sofortigen Wipe.
+
+<Checklist
+  id="relic-progression"
+  title="Checkliste für einen erfolgreichen Run:"
+  items={[
+    "Erwerben Sie mindestens ein Wirtschafts-Relikt vor Riss 3",
+    "Sichern Sie sich ein klassenskalierendes Relikt für Ihren Hauptschadenstyp",
+    "Rüsten Sie Ihren Frontline-Anker mit einem globalen Überlebensrelikt aus",
+    "Synchronisieren Sie Item-Effekte mit Spezialisierungsschlüsselwörtern",
+    "Sparen Sie genug Scherben für ein legendäres Relikt im Late-Game"
+  ]}
+/>
+
+Im Endlosmodus skaliert der Schaden der Gegner schneller als Ihre Gesundheit. Dies macht „Ausweichen“- und „Schadensreduzierungs“-Relikte deutlich wertvoller als flache „Gesundheits“-Relikte. Sie müssen sich auf Mechaniken konzentrieren, die Schaden gänzlich negieren oder eine prozentuale Skalierung bieten.
+
+| Schwierigkeitsgrad | Relikt-Strategie | Hauptziel |
+| :--- | :--- | :--- |
+| **1-3** | Experimentieren | Relikt/Helden-Interaktionen lernen |
+| **4-6** | Optimierung | Fokus auf klassenweite Synergien |
+| **7-8** | Effizienz | Verschwendung minimieren, Wirtschaft maximieren |
+| **Endlos** | Überlebensskalierung | Priorisierung von %-basierter Schadensreduzierung |
+
+<Callout type="tip" title="Geheimnis des Endlosmodus">
+Die S-Tier-Kategorie „Angriffsgeschwindigkeit“ wird im Endlosmodus noch wichtiger, da sie es Ihren Helden ermöglicht, Spezialisierungen wie „Betäubung“ oder „Einfrieren“ häufiger auszulösen und so die skalierenden Gegner effektiv zu kontrollieren.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann ich mehrere Relikte derselben Kategorie stapeln?",
+    answer: "Ja, die meisten Relikteffekte in Guildrun sind additiv. Zum Beispiel gewähren zwei 10 % Angriffsgeschwindigkeits-Relikte insgesamt 20 % Bonus. Einzigartige legendäre Relikte können jedoch nicht dupliziert werden."
+  },
+  {
+    question: "Sollte ich im Shop zuerst Gegenstände oder Relikte kaufen?",
+    answer: "Generell haben Relikte im Early-Game eine höhere Priorität, da sie globale Vorteile bieten. Gegenstände sind im Late-Game besser, um die Schwäche eines spezifischen Helden zu beheben oder den Schaden eines Carrys zu maximieren."
+  },
+  {
+    question: "Welches Relikt ist am besten für den ersten Sieg?",
+    answer: "Jedes S-Tier Wirtschafts-Relikt ist am besten für Anfänger geeignet. Es bietet mehr „Versuche“, die richtigen Helden und Spezialisierungen zu finden, was den Run deutlich verzeihender macht."
+  },
+  {
+    question: "Wie ändert sich die Guildrun Relikt-Rangliste im Koop-Modus?",
+    answer: "Im geplanten Koop-Modus für 2027 werden „teamweite“ Utility-Relikte wahrscheinlich an die Spitze des S-Tiers rücken, da sie den Gilden beider Spieler gleichzeitig zugutekommen."
+  }
+]} />
+
+</Section>

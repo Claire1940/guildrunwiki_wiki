@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "guildrun kai build: Shield Stacking & Ramping Guide",
+  description: "Master the shield stacking strategy for Kai in Guildrun. Learn the best items, backup relics, and team synergies for high-difficulty runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kai+Shield+Build",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Build Focus**: The **guildrun kai build** centers on scaling massive shields that convert directly into explosive AoE damage.
+- **Core Synergy**: Pair Kai with Mystics and Vanguards to continuously generate shields and stack flat defense.
+- **Bench Strategy**: Keep high-rank tanks on the bench with backup relics to pass down over 300 flat armor to active units.
+- **Key Item**: Seek out the Tank Glyph to enable defense-to-attack scaling and massive stall-trigger bonuses.
+- **Endless Mode Tip**: Prioritize sandstorm immunity and frost-inflicting relics to slow down fast-attacking enemies.
+</Callout>
+
+<Section icon={Swords} title="Core Mechanics of the guildrun kai build">
+
+Kai operates as a premier scaling carry in *Guildrun*. His primary mechanic revolves around charging a mighty attack that grants a massive temporary shield, which then explodes to deal bonus damage directly proportional to his current shield value. This creates a unique defensive-offensive feedback loop where survival stats directly boost your offensive output.
+
+**Video Highlights:**
+- Demonstrates how to stack exponential shields using active support and bench buffs.
+- Highlights the power of the Tank Glyph combined with the Vanguard class.
+- Showcases endless mode survival tactics up to Day 5 and beyond.
+
+<YouTubeEmbed videoId="GimB7p3ZEVQ" title="Kai, Stacking Frankly Stupid Amounts of Shield | Guildrun" />
+
+During his active ability's 2-second charge time, Kai is highly vulnerable. Securing early shield generation or high flat defense is crucial to surviving this window. Once the charge completes, Kai gains a massive shield and releases a spin attack. The spin attack deals base damage plus bonus damage equal to his current shield. If he has 2,000 shield, he deals massive AoE damage. This makes shield scaling the absolute priority for this build.
+
+Furthermore, shields in *Guildrun* last for 10 seconds unless specified as "lasting shields". This means you must continuously cycle active abilities and leverage passive triggers to maintain your defensive buffer. When enemies attack Kai's shields, specific relics can reflect that damage back, turning his defense into a passive weapon.
+
+<Callout type="tip" title="Ramping Shield Power">
+Kai gains attack power whenever he is shielded or when his shields take damage. Focus on rapid shield application rather than single large shields to maximize this attack-stacking passive.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Items and Relics for Kai">
+
+To optimize the **guildrun kai build**, you must balance active combat items on Kai with powerful backup relics placed on your benched heroes. Kai himself needs a mix of survivability, shield amplification, and raw stats. Items like the Harmony Crystal, Vanguard emblems, and defense-stacking glyphs are crucial.
+
+| Item | Type | Effect | Rating |
+|------|------|--------|--------|
+| **Tank Glyph** | Class Emblem | Grants Tank class, +90 Defense, enables defense-to-attack scaling | ★★★★★ |
+| **Harmony Crystal** | Stat Relic | Increases primary stats based on active classes | ★★★★☆ |
+| **Squire's Sword** | Weapon | Increases basic attack speed and grants reliable omnivamp | ★★★★☆ |
+| **Blizzard Ward** | Utility | Spawns a blizzard every second, applying frost to lower enemy attack speed | ★★★★☆ |
+
+While active items keep Kai alive on the front lines, your bench setup dictates your late-game scaling. Backup-only relics allow benched heroes to pass massive flat defensive values directly to Kai without clogging up your active board space.
+
+| Relic | Placement | Team Benefit | Rating |
+|------|------|--------|--------|
+| **Backup Shield Emblem** | Bench Only | Start of combat: Gives all active heroes 1,500 lasting shields | ★★★★★ |
+| **Vanguard Reserve** | Bench Only | Grants 200 Max HP per rank of Vanguard units in reserves | ★★★★☆ |
+| **Tank Reserve** | Bench Only | Grants 30 Defense per rank of Tank units in reserves | ★★★★★ |
+| **Investment Shard** | Bench Only | Generates mana regen and shards over time through passive investment | ★★★★☆ |
+
+<Callout type="warning" title="Backup Relic Placement">
+Backup-only relics do nothing if the holder is on the active board. Always ensure these units are placed in your reserve slots to activate their team-wide defensive buffs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Team Composition and Synergy">
+
+A successful run requires a highly specialized support squad. You do not want a full board of active units if you can instead power up Kai. A smaller, highly-buffed squad is often superior. Run Rowan as an active support to apply frost and stuns, while Mystics generate mana and cast spells that trigger shield generation on the lowest-health ally.
+
+| Class | Synergy Effect | Role in Build |
+|------|------|--------|
+| **Mystic** | Shields lowest HP hero by 500% of mana regen upon casting | Active Support |
+| **Vanguard** | Auto attacks grant permanent max HP, scaling Kai's survivability | Frontline Tank |
+| **Warrior** | Grants 2,000 lasting shield at start of combat to all warriors | Carry Synergy |
+| **Mage** | Deals 300% magic damage to lowest health target on cast | Backline DPS |
+
+To better understand how to allocate your resources, consider the distinct roles within this composition:
+
+<CardGrid cols={3}>
+  <Card title="The Main Carry (Kai)">
+    - **Focuses on stacking shields** to scale AoE damage.
+    - Requires high defense to mitigate incoming shield damage.
+    - Benefits immensely from omnivamp to sustain through chip damage.
+  </Card>
+  <Card title="The Active Support">
+    - **Generates continuous shields** and mana for the team.
+    - Applies crowd control like frost and stun to slow down enemy DPS.
+    - Triggers shield damage feedback loops to punish attackers.
+  </Card>
+  <Card title="The Bench Buffer">
+    - **Remains on the bench** to activate backup-only relics.
+    - Passes down massive flat armor to active units.
+    - Generates passive gold and shards to fund late-game transitions.
+  </Card>
+</CardGrid>
+
+By benching high-rank units, you can accumulate massive flat defense. For example, an A-rank tank in reserves passes down 90 defense to everyone. If you have multiple high-rank tanks on the bench, you can easily stack over 300 flat defense, making your active team virtually unkillable.
+
+<Callout type="success" title="Feedback Loops">
+Whenever a Mystic shields a hero, certain relics allow you to deal damage back to the nearest enemy equal to 50% of the shield applied. This turns passive shielding into an active offensive tool.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Progression Guide">
+
+Building this setup requires careful planning across the different acts of a run. Follow these steps to transition smoothly from an early-game carry to an unstoppable endless-mode tank.
+
+<Steps>
+  <Step num="1" title="Early Game Setup">
+    Acquire Kai and focus on basic attack speed and omnivamp. Do not rush a full team; focus resources on hyper-carrying Kai through the first few acts.
+  </Step>
+  <Step num="2" title="Transitioning to Shield Stacking">
+    Pick up Mystic and Vanguard supports. Look for items that grant shields on cast or spawn protective flower fields to keep Kai healthy during his active ability charge.
+  </Step>
+  <Step num="3" title="Optimizing the Bench">
+    Purchase high-rank units (A-rank or S-rank) and place them on the bench with backup-only relics. This passes massive passive defense to Kai, allowing him to tank high-damage bosses.
+  </Step>
+  <Step num="4" title="Endless Mode Scaling">
+    Acquire sandstorm protection and frost-inflicting relics to neutralize backline damage dealers (like mushroom snipers) in high-tier endless runs.
+  </Step>
+</Steps>
+
+As you progress, keep an eye out for stall triggers. Relics that grant defense and magic for every stall trigger will scale your team's survivability exponentially during prolonged boss fights.
+
+<Callout type="info" title="Stall Triggers">
+Stall triggers activate when a combat round lasts longer than a specified duration. These are highly beneficial for shield builds, as they reward defensive playstyles with permanent stat growth.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Checklist">
+
+Before heading into the final encounters or attempting endless mode, use this checklist to ensure your build has all the necessary components to survive.
+
+<Checklist
+  id="kai-build-milestones"
+  title="Essential Build Milestones:"
+  items={[
+    "Reach 300+ flat armor passed down from your benched reserve units.",
+    "Equip Kai with the Tank Glyph to enable defense-to-attack scaling.",
+    "Secure at least two active Mystic supports on the active board.",
+    "Obtain a backup-only shield relic for instant combat-start protection."
+  ]}
+/>
+
+In endless mode, enemy damage scales exponentially. Use the following guidelines to gauge if your defensive stats are high enough to survive the scaling modifiers.
+
+| Endless Day | Enemy HP Modifier | Target Armor | Survival Priority |
+|-------------|-------------------|--------------|-------------------|
+| **Day 1-2** | +50% HP | 150 Armor | Maintain high DPS to clear waves |
+| **Day 3-4** | +100% HP | 250 Armor | Establish passive shield generation |
+| **Day 5+** | +150% HP | 310+ Armor | Sandstorm immunity and backline protection |
+
+If your armor is below these targets, focus on upgrading your benched units to increase the flat defense passed down to your active squad.
+
+<Callout type="tip" title="Mushroom Countermeasures">
+Mushroom snipers are the most dangerous enemies in endless mode due to their high backline damage. Counter them by stacking flat team-wide defense from the bench and using frost relics to slow their attack speed.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the guildrun kai build scale damage?",
+    answer: "Kai's active ability charges up a powerful attack that scales directly with his current shield value. By stacking items that amplify shielding and defense, his damage scales exponentially."
+  },
+  {
+    question: "Why should I put high-rank heroes on the bench?",
+    answer: "Certain backup-only relics grant massive stat bonuses to active heroes based on the rank of units in your reserves. Benching an A-rank or S-rank tank can pass down over 90+ flat defense per unit to your active squad."
+  },
+  {
+    question: "What is the best counter to backline snipers in Endless Mode?",
+    answer: "Mushroom snipers can devastate your backline. Counter them by stacking flat team-wide defense from the bench, using frost relics to slow their attack speed, and securing sandstorm immunity."
+  }
+]} />
+
+<Callout type="success" title="Build Summary">
+The shield stacking build for Kai offers unparalleled survivability and scaling damage. By utilizing backup-only relics and active Mystic supports, you can comfortably clear high-difficulty runs and push deep into endless mode.
+</Callout>
+
+</Section>

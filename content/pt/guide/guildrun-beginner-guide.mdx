@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia para Iniciantes em Guildrun: Estratégia Passo a Passo",
+  description: "Domine o recrutamento, mecânicas de loja, especializações de heróis e builds de itens em Guildrun com este guia passo a passo para iniciantes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111a18/d5b65c?text=Guildrun+Beginner+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ciclo Principal**: Recrute heróis, gerencie recursos da loja e melhore especializações para superar as fendas (rifts) cada vez mais difíceis.
+- **Gestão de Recursos**: Evite atualizar a loja (reroll) no início para preservar Fragmentos para melhorias garantidas de nível dos heróis.
+- **Equilíbrio da Equipe**: Sempre posicione um tanque dedicado na linha de frente, um carregador (carry) confiável e um suporte utilitário.
+- **Adaptabilidade**: Construa sua equipe com base nas relíquias e itens que você recebe, em vez de forçar uma composição única.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais e Recrutamento de Equipe">
+
+Guildrun é um jogo tático roguelike de batalha automática (autobattler) PvE para um jogador, desenvolvido pela Leyline. Os jogadores devem construir uma guilda flexível de heróis, combinar especializações únicas e equipar relíquias poderosas para sobreviver às fendas escalonáveis. Entender a fase de recrutamento é o primeiro passo para completar sua primeira partida. Cada partida começa com um estoque limitado de Fragmentos, a moeda principal usada para recrutar heróis, comprar equipamentos e atualizar a loja.
+
+Uma equipe inicial equilibrada é fundamental para a sobrevivência precoce. O elenco ativo tem espaço limitado, o que significa que cada unidade deve servir a um propósito distinto. Posicionar muitos causadores de dano sem proteção adequada resultará em uma derrota rápida, já que carregadores frágeis não sobrevivem o suficiente para utilizar suas habilidades. Por outro lado, uma equipe com defesa excessiva falhará em derrotar os inimigos antes que eles aumentem sua força.
+
+| Função | Trabalho Principal | Posição Recomendada | Atributo Chave |
+|---|---|---|---|
+| Tanque | Absorver ataques e proteger aliados | Linha da Frente | Vida Alta, Defesa |
+| Carregador | Causar dano físico ou mágico consistente | Linha de Trás | Velocidade de Ataque, Dano |
+| Suporte | Fornecer cura, escudos ou controle de grupo | Linha do Meio | Regeneração de Mana, Utilidade |
+| Híbrido | Preencher lacunas de defesa ou dano conforme necessário | Flexível | Adaptabilidade, Multiclasse |
+
+### Entendendo o Limite do Elenco
+
+No início de uma partida, priorize garantir uma unidade de linha de frente confiável. Uma vez que sua defesa esteja estável, procure por um causador de dano principal que possa escalar ao longo das rodadas de combate. Os espaços restantes devem ser preenchidos com unidades utilitárias que aprimorem sua dupla principal. Manter uma unidade reserva no banco também é altamente recomendado, pois permite trocar estratégias ao enfrentar modificadores de chefe específicos.
+
+<Callout type="warning" title="Aviso de Recrutamento">
+Não compre todos os heróis oferecidos nas lojas iniciais. Comprar unidades desnecessárias desperdiça seus Fragmentos e impede que você melhore os membros da sua equipe principal para níveis mais altos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestão da Loja e Otimização de Recursos">
+
+A loja é o centro da sua progressão em Guildrun. Nela, você gastará Fragmentos para adquirir novos heróis, duplicatas para melhorias de nível, itens e relíquias que mudam o jogo. Gerenciar seus Fragmentos de forma eficiente entre as rodadas de combate determina se sua equipe conseguirá acompanhar a dificuldade crescente das fendas.
+
+Atualizar a loja (reroll) custa Fragmentos e é altamente viciante, mas matematicamente ineficiente no início do jogo. Durante as primeiras rodadas, trabalhe com as ofertas naturais apresentadas a você. Forçar uma build específica através de atualizações constantes esgotará rapidamente seus recursos, deixando você fraco e incapaz de comprar melhorias cruciais quando elas finalmente aparecerem.
+
+| Prioridade | Ação | Custo | Impacto Estratégico |
+|---|---|---|---|
+| Alta | Comprar duplicatas de heróis para melhorias de nível | Moderado | Aumenta atributos base e desbloqueia caminhos de especialização |
+| Alta | Adquirir itens principais para seu carregador | Variável | Fornece escala imediata e bônus multiplicadores |
+| Média | Comprar relíquias econômicas iniciais | Alto | Compõe recursos ao longo de toda a partida |
+| Baixa | Atualizar a loja por heróis específicos | Baixo | Altamente aleatório e drena Fragmentos precocemente |
+
+### Gerenciando a Fase de Leilão
+
+Durante intervalos específicos, você participará de fases de loja que oferecem relíquias e itens raros. Foque em garantir itens que complementem diretamente suas especializações ativas. Se um item não se encaixa na sua estratégia atual, economize seus Fragmentos. Acumular riqueza é uma estratégia válida, pois lhe dá mais poder de compra em fendas posteriores e mais perigosas.
+
+<Callout type="tip" title="Dica Profissional sobre Economia">
+Atualize a loja apenas quando estiver a uma duplicata de uma melhoria de nível importante que desbloqueará um caminho de especialização crucial. Caso contrário, economize seus Fragmentos para comprar equipamentos de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Classes de Heróis e Caminhos de Especialização">
+
+Com 25 heróis, 75 caminhos de especialização e 180 especializações únicas planejadas para o jogo completo, Guildrun oferece uma imensa variedade de builds. À medida que seus heróis ganham níveis, eles progridem através de caminhos de especialização que alteram completamente suas habilidades ativas, bônus passivos e funções de combate. Um recruta básico pode ser desenvolvido em um tanque dedicado, um assassino veloz ou uma unidade híbrida de suporte.
+
+Melhorar o nível de um herói é essencial para desbloquear esses caminhos. Quando um herói atinge um novo nível, você deve escolher entre caminhos divergentes. É vital selecionar caminhos que harmonizem com o restante da sua equipe. Por exemplo, se seu tanque da linha de frente se especializa em autocura, sua unidade de suporte deve focar em utilidade ou controle de grupo, em vez de cura adicional.
+
+| Função da Classe | Foco da Especialização | Valor Multiclasse | Prioridade de Respec |
+|---|---|---|---|
+| Tanque | Durabilidade, redução de dano e controle | Combina bem com cura e suporte defensivo | Média |
+| Curandeiro | Força de cura, frequência e proteção | Combina com caminhos de utilidade defensiva | Alta |
+| À Distância | Velocidade de ataque, dano consistente e escala | Funciona melhor com relíquias de velocidade de ataque | Baixa |
+| Duelista | Pressão em alvo único e sustentação | Beneficia-se de caminhos secundários defensivos | Média |
+| Assassino | Dano explosivo, acesso a alvos e finalização | Combina com alta escala ofensiva | Alta |
+| Híbrido | Utilidade equilibrada, defesa e dano | Altamente flexível em várias equipes | Baixa |
+
+### Utilizando a Mecânica de Respec
+
+Não tenha medo de experimentar diferentes especializações. Guildrun inclui uma mecânica de respec que permite redefinir o caminho de um herói. Isso é particularmente útil se você fizer a transição de uma equipe equilibrada de início de jogo para uma composição altamente especializada de fim de jogo, ou se adquirir uma relíquia poderosa que favorece um estilo de jogo diferente.
+
+<Callout type="info" title="Estratégia de Especialização">
+Sempre verifique as especializações ativas de toda a sua equipe antes de confirmar um novo caminho. Sinergizar os efeitos passivos da sua equipe é muito mais valioso do que escolher o maior bônus de dano individual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo para Iniciantes">
+
+Para ajudá-lo a completar sua primeira partida bem-sucedida na Demo da Steam, siga esta estratégia de progressão passo a passo. Esta rota foca em estabilidade, conservação de recursos e escala gradual da equipe.
+
+<Steps>
+  <Step num="1" title="Recrute um Núcleo Equilibrado">
+    Comece a partida garantindo um herói de linha de frente e um causador de dano confiável. Evite comprar unidades de suporte duplicadas no início. Foque em limpar os primeiros encontros de combate usando o posicionamento para manter seu causador de dano seguro.
+  </Step>
+  <Step num="2" title="Avalie Ofertas da Loja e Acumule Fragmentos">
+    Durante as rodadas três e quatro, compre apenas as duplicatas necessárias que melhoram diretamente sua dupla ativa. Não gaste Fragmentos em atualizações. Deixe seu ouro acumular para se beneficiar de possíveis mecânicas de economia e ofertas de alto valor na loja.
+  </Step>
+  <Step num="3" title="Selecione Especializações Complementares">
+    Assim que suas unidades principais atingirem o limite de melhoria de nível, selecione especializações que preencham necessidades imediatas. Se sua linha de frente está lutando para sobreviver, escolha caminhos defensivos. Se os combates estão durando muito tempo, invista na escala de dano do seu carregador.
+  </Step>
+  <Step num="4" title="Equipe Relíquias e Ajuste o Posicionamento">
+    Equipe itens defensivos em seu tanque e itens ofensivos em seu carregador principal. Coloque seu tanque na linha de frente para atrair a agressão inimiga e coloque seu carregador com segurança no canto de trás para maximizar seu tempo de ataque.
+  </Step>
+  <Step num="5" title="Pivote e Otimize para Lutas contra Chefes">
+    Antes de entrar no encontro final da fenda, avalie o desempenho da sua equipe. Use a mecânica de respec se sua build carecer de sinergia e gaste todos os Fragmentos restantes em melhorias, itens ou relíquias para maximizar seu poder de combate.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso no Posicionamento de Combate">
+O posicionamento correto das unidades pode anular completamente as ameaças de assassinos inimigos. Se os inimigos estiverem visando sua linha de trás, coloque um tanque secundário ao lado do seu carregador principal para interceptar o dano recebido.
+</Callout>
+
+### Marcos da Primeira Partida
+
+Para garantir que você esteja no caminho certo durante suas partidas iniciais, tente completar os seguintes objetivos. Esses marcos o ajudarão a dominar o ciclo básico de progressão antes de passar para dificuldades maiores.
+
+<Checklist
+  id="beginner-milestones"
+  title="Checklist da Primeira Partida:"
+  items={[
+    "Posicione um núcleo estável de três heróis com funções claras",
+    "Melhore pelo menos um herói para seu nível máximo de especialização disponível",
+    "Adquira uma relíquia que escale diretamente o tipo de dano do seu carregador principal",
+    "Complete uma partida completa da demo sem gastar Fragmentos em atualizações iniciais desnecessárias",
+    "Utilize com sucesso a mecânica de respec para otimizar uma build antes de uma luta contra um chefe"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds e Sinergias de Equipe">
+
+Criar builds de equipe poderosas em Guildrun depende da combinação de funções de heróis, caminhos de especialização, itens e relíquias. As composições mais fortes focam em estruturas repetíveis em vez de exigir um conjunto exato de escolhas de sorte na loja.
+
+<CardGrid cols={3}>
+  <Card title="Núcleo Inicial Equilibrado">
+    - **Linha de Frente Principal**: Tanque de alta defesa para absorver a pressão inicial.
+    - **Carregador de Dano Principal**: Unidade protegida na linha de trás com escala consistente.
+    - **Suporte Utilitário**: Curandeiro ou controlador para sustentar a equipe.
+  </Card>
+  <Card title="Build de Efeito Compartilhado de Amantes">
+    - **Dupla de Amantes**: Dois heróis vinculados que ativam bônus de combate compartilhados.
+    - **Protetor de Linha de Frente**: Tanque durável para manter o par vinculado seguro.
+    - **Suporte Flexível**: Foca em amplificar os efeitos ativos da dupla.
+  </Card>
+  <Card title="Build de Escala de Carregador Único">
+    - **Hiper Carregador**: Um causador de dano principal que recebe todos os itens ofensivos.
+    - **Linha de Frente Dupla**: Dois tanques altamente duráveis para atrasar o inimigo.
+    - **Buff de Utilidade**: Herói de suporte que aumenta a velocidade de ataque do carregador.
+  </Card>
+</CardGrid>
+
+### Analisando Sinergias de Início de Jogo
+
+Ao construir sua equipe, procure por combinações de classes que compartilhem benefícios passivos. Por exemplo, combinar múltiplos causadores de dano físico com especializações de redução de defesa física aumentará drasticamente seu dano total.
+
+| Nome da Sinergia | Heróis Principais | Benefício Principal | Escolha Alternativa |
+|---|---|---|---|
+| Núcleo Equilibrado | Tanque, Carregador, Suporte | Alta estabilidade e baixo requisito de recursos | Troque o suporte por um tanque híbrido |
+| Amantes Compartilhados | Par de Amantes Vinculados | Atributos amplificados e efeitos de cura compartilhados | Pivote para Núcleo Equilibrado se o par estiver faltando |
+| Carregador Único | Um Carregador, Dois Tanques | Concentra itens em um causador de dano de alto rendimento | Transição para Carregador Duplo se os itens forem divididos |
+| Linha de Frente Dupla | Dois Tanques, Um Carregador | Maximiza a duração do combate para dano de escala | Substitua um tanque por um controlador de grupo |
+
+<Callout type="tip" title="Dica de Sinergia de Relíquia">
+Sempre selecione relíquias que beneficiem toda a sua equipe ativa. Uma relíquia que concede um pequeno bônus a todas as unidades é frequentemente superior a uma relíquia altamente especializada que beneficia apenas um herói não melhorado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para ajudá-lo a navegar pelas primeiras horas da sua jornada, aqui estão as respostas para as perguntas mais comuns sobre o guia para iniciantes de Guildrun e mecânicas gerais de jogabilidade.
+
+<FAQ items={[
+  {
+    question: "Como faço para baixar a Demo de Guildrun e meu progresso será transferido?",
+    answer: "A Demo autônoma de Guildrun é gratuita para baixar na Steam. Embora a metaprogressão, como dificuldades desbloqueadas e maestrias, possa ser transferida para testes futuros, partidas ativas e estados de salvamento durante a partida não são transferidos para o jogo completo."
+  },
+  {
+    question: "Qual é a data de lançamento e as plataformas alvo para Guildrun?",
+    answer: "Desenvolvido pela Leyline, Guildrun está atualmente visando um lançamento completo em 2027 para PC via Steam. Os desenvolvedores também planejam incluir suporte para Steam Deck, suporte a controle e um modo cooperativo multijogador na versão final."
+  },
+  {
+    question: "Quando devo usar a mecânica de respec nos meus heróis?",
+    answer: "Você deve redefinir seus heróis quando adquirir uma relíquia poderosa que sinergiza com um caminho de especialização diferente, ou se a composição atual da sua equipe carecer do dano ou defesa necessários para limpar a próxima fenda."
+  },
+  {
+    question: "Existe um sistema de códigos em Guildrun para obter itens gratuitos?",
+    answer: "Não, Guildrun é um jogo roguelike de batalha automática PvE premium para um jogador. Ele não possui um sistema de código de resgate ou microtransações. Todos os itens, relíquias e heróis são desbloqueados puramente através da jogabilidade."
+  }
+]} />
+
+<Callout type="info" title="Comunidade e Atualizações">
+Para se manter atualizado sobre patches semanais, mudanças de balanceamento e o roteiro de desenvolvimento até o lançamento de 2027, considere entrar no Discord oficial de Guildrun ou seguir a página da Comunidade na Steam.
+</Callout>
+
+</Section>

@@ -1,0 +1,221 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Info, HelpCircle, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Steam: 2026 Beginner Guide & Best Hero Builds",
+  description: "Master Guildrun on Steam with our 2026 guide. Explore hero tier lists, specialization paths, and strategies for the free demo and full release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111A18/D5B65C?text=Guildrun+Steam+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Guildrun Steam**: The game is a single-player PvE roguelike autobattler developed by Leyline with a free demo currently available.
+- **Core Loop**: Recruit a balanced team of 25 available heroes and adapt to random shop offers across escalating rifts.
+- **Build Strategy**: Focus on **shared effects** (like Lovers) and specialization paths that align with your frontline's durability.
+- **Progression**: Navigate 8 difficulty levels and aim for **Endless Mode** to maximize your leaderboard score.
+- **Resource Management**: Prioritize immediate power over speculative upgrades to survive early-game rifts.
+</Callout>
+
+<Section icon={Activity} title="Guildrun Steam: Demo Access and 2027 Roadmap">
+
+**Guildrun Steam** has quickly become a standout title in the PvE roguelike autobattler genre. Developed by Leyline, the game emphasizes tactical recruitment and deep specialization. As of July 2026, the community has seen a significant surge in activity, with over 7,184 players online and a 96% positive review rating for the standalone demo. While the full version is targeted for a 2027 release, the current demo provides a robust look at the core mechanics, featuring a subset of the planned 25 heroes and 300+ relics.
+
+**Video Highlights:**
+- **Announcement Trailer**: Visual overview of the rift-clearing combat and hero recruitment.
+- **Visual Style**: Dark fantasy aesthetic featuring glowing teal rifts and antique gold accents.
+- **Combat Mechanics**: Showcasing the automatic battle system where positioning is the key to victory.
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun – Official Announcement Trailer" />
+
+The transition from the demo to the full game promises a massive expansion in content. Players currently testing the Steam version should focus on mastering the recruitment and shop refresh mechanics, as these fundamentals will carry over to the more complex systems planned for the final release.
+
+| Feature | Demo Version (2026) | Full Release (2027) |
+| :--- | :--- | :--- |
+| **Hero Roster** | Limited Selection | 25 Unique Heroes |
+| **Specialization Paths** | Core Paths Only | 75 Paths / 180 Specs |
+| **Relic Count** | ~50 Relics | 300+ Relics |
+| **Game Modes** | Basic Runs / Early Endless | 8 Difficulties / Full Endless / Co-op |
+| **Platform** | Steam (PC) | Steam / Planned Steam Deck Support |
+
+<Callout type="tip" title="Pro Tip: Progress Carryover">
+While the demo is a standalone experience, the developers have hinted that certain meta-progression elements, such as hero familiarity and difficulty unlocks, may influence your starting experience in the full 2027 release.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Beginner Strategy">
+
+Succeeding in **Guildrun Steam** requires a shift from traditional RPG thinking to a "resource-first" mindset. You aren't just building a team; you are managing a shifting economy. The first few rifts determine the trajectory of your entire run. Following a structured approach to recruitment and itemization is essential for reaching the final boss.
+
+<Steps>
+  <Step num="1" title="Recruit a Balanced Foundation">
+    Your starting gold should go toward a frontline hero (Tank), a reliable damage dealer (Ranged or Duelist), and a support unit. Avoid the temptation to buy three damage dealers; without a tank to absorb the opening rift pressure, your carries will fall before they can cycle their abilities.
+  </Step>
+  <Step num="2" title="Analyze the Shop Layout">
+    Before clicking 'Reroll,' look at every item and hero offered. Sometimes a sub-optimal hero is worth buying if they come with a shared effect or a specialization that counters the current rift's enemy type. Rerolls should be saved for the mid-game when you are fishing for specific S-tier relics.
+  </Step>
+  <Step num="3" title="Commit to a Build Direction">
+    By the third rift, you should have a clear idea of your "win condition." This might be a single-carry scaling build or a shared-effect composition like the **Lovers** synergy. Once you commit, only buy heroes and items that amplify this specific strategy.
+  </Step>
+  <Step num="4" title="Execute Specialization Ranks">
+    As heroes gain ranks, they unlock specialization paths. Choose paths that solve your team's current weakness. If your frontline is melting, pick defensive specs. If you are timing out on boss fights, pivot your carry into a high-burst Assassin or sustained Ranged path.
+  </Step>
+  <Step num="5" title="Optimize Positioning">
+    Positioning is dynamic. In **Guildrun Steam**, enemies often target the closest unit or the unit with the highest health. Place your tank in the "hot zone" and tuck your supports in the back corners. Use reserve units to swap in when a specific enemy formation threatens your backline.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Common Beginner Mistake">
+Do not spread your items too thin. A single hero equipped with three synergistic items is significantly more powerful than three heroes each holding one random item. Concentrate your power on your primary carry.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hero Tier List and Battlefield Roles">
+
+With 25 heroes planned for the full game, understanding the hierarchy of power is vital for high-difficulty runs. In the current meta, heroes are ranked based on their flexibility across different specialization paths and their reliance on specific items.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Run Anchors">
+    - **High Flexibility**: Works in any team.
+    - **Scaling Potential**: Remains strong in Endless Mode.
+    - **Core Heroes**: Durable tanks and utility-heavy supports.
+  </Card>
+  <Card title="A-Tier: Consistent Carries">
+    - **Reliable Damage**: High DPS floor.
+    - **Path Dependent**: Needs a specific specialization.
+    - **Core Heroes**: Ranged units and focused Duelists.
+  </Card>
+  <Card title="B-Tier: Synergy Specialists">
+    - **High Ceiling**: Can be S-tier with the right relics.
+    - **Early Weakness**: Struggles in the first three rifts.
+    - **Core Heroes**: Assassins and hybrid healers.
+  </Card>
+</CardGrid>
+
+To help you choose the right recruit, we have categorized the primary roles you will encounter in the Steam version of the game.
+
+| Role | Primary Job | Best Specialization Focus | Respec Priority |
+| :--- | :--- | :--- | :--- |
+| **Tank** | Absorb pressure / Protect | Durability / Damage Reduction | High (if defense is overkill) |
+| **Healer** | Sustain / Party stability | Healing Frequency / Protection | Medium (pivot to support) |
+| **Ranged** | Consistent backline DPS | Attack Speed / Multi-target | Low (keep scaling) |
+| **Duelist** | Single-target pressure | 1v1 Combat / Lifesteal | Medium (if AOE is needed) |
+| **Assassin** | Burst high-priority targets | Finishing Power / Stealth | High (if boss is too tanky) |
+| **Hybrid** | Fill party gaps | Versatility / Buffs | Very High (adapt to shop) |
+
+<Callout type="success" title="The Power of Hybrids">
+Hybrids are the secret weapon of pro players. While they lack the raw stats of a dedicated Tank or Assassin, their ability to respec into what the team lacks mid-run makes them invaluable for Difficulty 8 runs.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Best Team Builds and Synergies">
+
+Building a team in **Guildrun Steam** is about more than just picking strong heroes; it's about creating a machine where the parts amplify each other. Below are the most successful archetypes discovered by the community during the 2026 demo phase.
+
+### The Balanced First-Run Build
+This is the safest way to complete your first full run. It relies on a "Holy Trinity" structure that handles most enemy formations with minimal micro-management.
+- **Frontline**: A high-health Tank with damage reduction specializations.
+- **Carry**: A Ranged hero focused on attack speed.
+- **Support**: A Healer with party-wide buffs.
+- **Reserve**: A Duelist to swap in for boss fights.
+
+### The Lovers Shared-Effect Build
+This high-risk, high-reward build focuses on the unique "Lovers" mechanic where two heroes share stats and effects.
+- **Core**: Two heroes with the Lovers tag.
+- **Strategy**: Protect the pair at all costs. Give the most vulnerable member defensive items while the other member carries offensive relics.
+- **Weakness**: If one member of the pair dies early, the other loses significant bonuses.
+
+| Build Name | Core Strength | Item Priority | Difficulty Rating |
+| :--- | :--- | :--- | :--- |
+| **Balanced** | High stability, low risk | Defense on Tank, DPS on Carry | 1/5 (Beginner) |
+| **Lovers** | Massive stat sharing | Shared-effect Relics | 3/5 (Intermediate) |
+| **Single-Carry** | Concentrated power | All offense on one Hero | 4/5 (Advanced) |
+| **Double-Tank** | Outlasting the enemy | HP and Armor stacking | 2/5 (Safe) |
+
+<Callout type="info" title="Relic Synergy">
+Always check your relics before choosing a build. If you find an early "Economy Relic," you can afford to play a more expensive, high-rarity hero composition. If you find "Attack Speed Relics," lean into a Ranged-heavy build.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Items and Relics Tier List">
+
+Items and Relics are the "modifiers" that turn a standard team into an unstoppable force. With over 300 relics planned, the current meta focuses on universal effects that provide value regardless of your specific hero choices.
+
+### S-Tier Equipment (Must-Pick)
+1. **Class-Scaling Relics**: These improve every hero of a specific class (e.g., all Tanks gain 20% HP). These are the most powerful late-game items.
+2. **Attack-Speed Effects**: In an autobattler, more attacks mean more ability procs. These are universally good on any damage dealer.
+3. **Early Economy Relics**: Items that give extra gold or free rerolls. Picking these in Rift 1 or 2 can double your total power by the end of the run.
+4. **Universal Survival**: Flat damage reduction or shields that trigger at the start of combat. Essential for higher difficulty tiers.
+
+### Item Compatibility Table
+| Category | Best Hero Match | Power Level | Reason |
+| :--- | :--- | :--- | :--- |
+| **Lifesteal** | Duelists / Assassins | High | Keeps front-line carries alive |
+| **Mana Regen** | Healers / Mages | Medium | Faster ability cycles |
+| **Armor Pen** | Ranged / Duelists | High | Essential for late-game bosses |
+| **Max HP** | Tanks | Very High | Direct scaling with survival |
+
+<Callout type="tip" title="Inventory Management">
+You can move items between heroes in the shop phase. If you are about to face a boss with heavy backline damage, move your defensive items from your tank to your carry temporarily to ensure they survive the initial burst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Difficulty Levels and Endless Mode">
+
+Progression in **Guildrun Steam** is measured by the eight difficulty levels. Each level adds modifiers that test specific parts of your strategy. Once you master Difficulty 8, the true challenge begins in Endless Mode.
+
+<Checklist
+  id="difficulty-progression"
+  title="Road to Difficulty 8:"
+  items={[
+    "Master the basics on Difficulty 1-2 by building balanced teams.",
+    "Learn to manage limited gold on Difficulty 3-4 where shops are more expensive.",
+    "Optimize specialization paths on Difficulty 5-6 to counter elite enemy buffs.",
+    "Perfect your positioning for Difficulty 7-8 where one mistake ends the run.",
+    "Enter Endless Mode with a fully optimized, relic-heavy composition."
+  ]}
+/>
+
+### Endless Mode Strategy
+In Endless Mode, the enemies scale infinitely. Standard damage numbers will eventually become irrelevant. To climb the leaderboards, you must focus on **percentage-based damage**, **infinite scaling relics**, and **crowd control**. A team that can stun or freeze enemies is often better than a team that deals raw damage in the deep stages of Endless Mode.
+
+<Callout type="warning" title="Endless Mode Warning">
+Do not neglect your computer's performance! As Endless Mode rifts become filled with hundreds of projectiles and effects, ensure your Steam settings are optimized for stability to avoid crashes during a record-breaking run.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Guildrun Steam demo free forever?",
+    answer: "Yes, the standalone demo is a free experience designed to introduce players to the mechanics. However, progress might not fully transfer to the paid 2027 release."
+  },
+  {
+    question: "How do I unlock more heroes in the demo?",
+    answer: "Heroes are typically unlocked by reaching specific rifts or completing runs with different class combinations. Check the 'Heroes' menu in the main hub for specific requirements."
+  },
+  {
+    question: "What is the best hero for a beginner?",
+    answer: "The basic Tank and Ranged Archer are the most reliable. They have straightforward specialization paths that provide immediate, visible power increases."
+  },
+  {
+    question: "Can I play Guildrun with friends?",
+    answer: "Currently, Guildrun is a single-player PvE experience. A co-op mode is planned as part of the 2027 development roadmap."
+  }
+]} />
+
+</Section>

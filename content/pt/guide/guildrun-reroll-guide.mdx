@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, RefreshCw, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Reroll de Guildrun: Melhores Heróis e Estratégia Inicial",
+  description: "Domine o guia de reroll de Guildrun para garantir os melhores heróis iniciais como Funky e Kai. Aprenda gestão de loja, sinergias de queimadura e táticas de relíquias de elite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Reroll+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de reroll de Guildrun**: Foque em garantir um Mago inicial de alto nível como **Funky** para aproveitar as sinergias de Queimadura (Burn) iniciais.
+- **Gestão da Loja**: Use a mecânica de **Congelar (Freeze)** para salvar duplicatas essenciais; faça reroll apenas quando tiver um excedente de 10+ estilhaços.
+- **Sinergia de Classe**: Priorize combinações de **Mago** e **Vanguarda** para equilibrar alto dano mágico com sobrevivência na linha de frente.
+- **Prioridade de Relíquias**: Busque o **Catalisador de Queimadura (Burn Catalyst)** ou o **Códice Blindado (Plated Codex)** cedo para escalar atributos de toda a equipe permanentemente.
+- **Rebobinar de Emergência**: Utilize a proteção de derrota única para ganhar estilhaços extras e estabilizar uma partida difícil.
+</Callout>
+
+<Section icon={Map} title="Seleção de Herói Inicial e Mecânicas de Reroll">
+
+Neste **guia de reroll de Guildrun**, entender a seleção inicial de heróis é a base de uma jornada bem-sucedida. Diferente de jogos gacha tradicionais onde você faz o reroll de uma conta inteira, *Guildrun* funciona como um auto-battler roguelike. Sua estratégia de "reroll" envolve reiniciar a partida inicial até que lhe seja oferecido um herói que se alinhe com as sinergias atuais do meta, especificamente os arquétipos de alto dano de Queimadura (Burn) ou Gelo (Frost).
+
+**Destaques do Vídeo:**
+- Noções básicas de seleção de heróis com Funky, Kai e Yuna.
+- Mecânicas de combate automático e regeneração de mana.
+- Como navegar na loja inicial e recrutar seus primeiros breakers.
+- A importância das classes de heróis e compartilhamento de arquétipos.
+
+<YouTubeEmbed videoId="XGFvBmp-XTo" title="Guildrun | Awesome Auto Battler Roguelike!" />
+
+Quando você inicia um novo contrato com o Departamento de Assuntos de Guilda, são apresentados três líderes potenciais. Se a seleção não incluir um mago de alto escalonamento ou um vanguarda resistente, os jogadores frequentemente reiniciam a partida para fazer o "reroll" de suas possibilidades iniciais.
+
+| Herói | Classe Inicial | Habilidade Chave | Estilo de Jogo |
+| :--- | :--- | :--- | :--- |
+| **Funky** | Mago | Fogo Selvagem | Alto dano de Queimadura em área, escala com Magia |
+| **Kai** | Vanguarda | Pancada de Escudo | Tanque de linha de frente, foco em defesa física |
+| **Yuna** | Assassino | Golpe Rápido | Explosão de alvo único, alta mobilidade |
+| **Arya** | Mago | Seta de Gelo | Controle de grupo e aplicação de debuffs |
+
+<Callout type="tip" title="Recomendação de Especialista">
+Para um início de jogo mais consistente, faça reroll até encontrar **Funky**. Sua habilidade Fogo Selvagem fornece um dano massivo em área que pode limpar as ondas iniciais mesmo com investimento mínimo em itens.
+</Callout>
+
+</Section>
+
+<Section icon={RefreshCw} title="Otimizando a Estratégia de Reroll na Loja">
+
+Uma vez que sua partida começou, o uso primário da mecânica de "reroll" muda para a loja do jogo. Gerenciar seus Estilhaços (a moeda local) é um ato de equilíbrio entre melhorar heróis existentes e buscar novas sinergias. O **guia de reroll de Guildrun** dita que você raramente deve fazer reroll nas duas primeiras lojas; em vez disso, compre qualquer herói que corresponda à classe do seu herói inicial para ativar bônus precoces.
+
+<CardGrid cols={2}>
+  <Card title="O Reroll Agressivo">
+    - Gaste estilhaços cedo para encontrar duplicatas.
+    - Foque em um herói Rank A antes do primeiro chefe.
+    - Alto risco de ficar sem estilhaços para itens.
+  </Card>
+  <Card title="O Reroll Econômico">
+    - Economize estilhaços até a Casa de Leilões.
+    - Faça reroll apenas quando tiver 15+ estilhaços.
+    - Foque em comprar relíquias em vez de atualizar heróis.
+  </Card>
+</CardGrid>
+
+A loja oferece três heróis por visita. Comprar um herói que você já possui aumentará o rank dele, desbloqueando novas habilidades ativas e passivas. Por exemplo, subir o rank de um Mago pode conceder a classe secundária "Místico", aumentando significativamente a regeneração de mana.
+
+| Ação | Custo de Estilhaços | Valor Estratégico | Quando Usar |
+| :--- | :--- | :--- | :--- |
+| **Reroll Único** | 2 Estilhaços | Moderado | Ao procurar um rank-up específico |
+| **Congelar Loja** | 0 Estilhaços | Alto | Quando vir um herói que ainda não pode pagar |
+| **Vender Herói** | + Variável | Baixo | Apenas para atingir um marco de estilhaços para uma Relíquia |
+| **Subir de Rank** | Variável | Essencial | Sempre priorize subir o rank do seu carry principal |
+
+<Callout type="warning" title="Conservação de Estilhaços">
+Não persiga um herói específico através de múltiplos rerolls nos primeiros atos. O RNG pode ser punitivo, e muitas vezes é melhor aceitar um herói abaixo do ideal que compartilhe uma classe do que desperdiçar 10 estilhaços em atualizações vazias.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Sinergias de Classe e Escalonamento de Habilidades">
+
+O sucesso em *Guildrun* é determinado por quão bem seus heróis interagem. Um componente central de qualquer **guia de reroll de Guildrun** é identificar quais classes acumular. Magos, por exemplo, ganham um poder massivo quando combinados com outros Magos, especialmente se você encontrar relíquias que amplificam debuffs como Queimadura ou Gelo.
+
+<Steps>
+  <Step num="1" title="Identificar Sinergia Principal">
+    Escolha um tipo de dano primário (ex: Queimadura). Procure por heróis como Funky que aplicam este status automaticamente.
+  </Step>
+  <Step num="2" title="Adquirir Classes de Suporte">
+    Recrute Vanguardas para manter a linha de frente. Sem um tanque, seus Magos serão interrompidos antes de conseguirem conjurar suas habilidades ativas.
+  </Step>
+  <Step num="3" title="Caçar Relíquias de Escalonamento">
+    Visite a loja especificamente para itens como o **Catalisador de Queimadura**, que aumenta o dano de queimadura em 33% para toda a equipe.
+  </Step>
+  <Step num="4" title="Atualizar para Nível S">
+    Nos Ranks A e S, os heróis ganham bônus massivos de atributos. Foque seus rerolls em encontrar as duplicatas finais para o seu carry principal.
+  </Step>
+</Steps>
+
+| Classe | Atributo Principal | Efeito de Sinergia | Melhor Combinado Com |
+| :--- | :--- | :--- | :--- |
+| **Mago** | Magia | Aumento de Dano de Habilidade | Outros Magos / Místicos |
+| **Vanguarda** | Defesa | Aumento de Sobrevivência | Assassinos / Patrulheiros |
+| **Assassino** | Ataque | Chance de Acerto Crítico | Vanguardas (para distração) |
+| **Místico** | Regen | Regeneração de Mana | Conjuradores de Habilidades de alto custo |
+
+<Callout type="success" title="Bônus de Sinergia">
+Se você conseguir montar um time com 3+ Magos, eles frequentemente ganharão um efeito passivo de "Stall" (Retardo) ou "Rush" (Ímpeto), dependendo de suas subclasses específicas, permitindo que dominem o campo de batalha após a marca de 20 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Itemização e Gestão de Relíquias">
+
+Itens fortalecem heróis individuais, enquanto Relíquias afetam toda a guilda. No contexto de um **guia de reroll de Guildrun**, você deve priorizar Relíquias que forneçam escalonamento permanente. O "Códice Blindado", por exemplo, aumenta a defesa permanentemente após cada vitória, tornando-o um achado de alto nível para o início do jogo.
+
+**Relíquias de Nível Superior para Prioridade de Reroll:**
+1. **Catalisador de Queimadura**: Essencial para equipes baseadas em fogo; amplifica todos os tiques de queimadura.
+2. **Robes de Mago**: Fornece Magia bruta e Regeneração de Mana para todos os conjuradores.
+3. **Rebobinar de Emergência**: Uma relíquia de rede de segurança que concede estilhaços após uma derrota.
+4. **Rede de Estilhaços**: Aumenta o ganho de estilhaços em combate, permitindo rerolls mais frequentes.
+
+| Nome do Item | Atributos Fornecidos | Melhor para o Herói | Raridade |
+| :--- | :--- | :--- | :--- |
+| **Anel Paciente** | +100 HP Máx, +12 Magia | Conjuradores Tanques (Kai/Funky) | Raro |
+| **Robes Flamejantes** | +15 Magia, +4 Regen | Carry Mago Principal | Épico |
+| **Broquel de Ferro** | +20 Defesa, +5% Bloqueio | Vanguarda de Linha de Frente | Comum |
+| **Lâmina do Vazio** | +25 Ataque, Queimadura ao Atingir | Assassinos | Lendário |
+
+<Callout type="info" title="Posicionamento de Itens">
+Itens podem ser desequipados a qualquer momento. Se você encontrar um herói melhor durante um reroll na loja, não hesite em mover seu melhor equipamento para a unidade de rank mais alto para maximizar seu escalonamento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Progressão e Checklist">
+
+Para garantir que sua partida não termine prematuramente, siga esta lista de progressão. Isso garante que você está utilizando seus estilhaços e rerolls nos intervalos mais eficientes ao longo dos Atos.
+
+<Checklist
+  id="guildrun-progression"
+  title="Marcos para o Sucesso da Partida:"
+  items={[
+    "Garantir um Mago Rank B antes do primeiro encontro Elite",
+    "Obter pelo menos uma Relíquia para toda a equipe até o fim do Ato 1",
+    "Alcançar um tamanho de equipe de 4 heróis usando as melhorias da Casa de Leilões",
+    "Acumular pelo menos duas sinergias de classe correspondentes (ex: 2 Magos, 2 Vanguardas)",
+    "Derrotar o Chefe da Demo e desbloquear o Modo Infinito"
+  ]}
+/>
+
+<Callout type="tip" title="Estratégia de Posicionamento">
+Sempre coloque seus Vanguardas na parte frontal central da grade. Isso força os inimigos a irem em direção a eles, dando aos seus Magos da linha de trás tempo suficiente para gerar mana para sua primeira conjuração em área.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes sobre o Reroll em Guildrun">
+
+<FAQ items={[
+  {
+    question: "Como faço um hard reroll em Guildrun?",
+    answer: "Para fazer um hard reroll do seu herói inicial, simplesmente pause o jogo durante a tela inicial de seleção de heróis e escolha 'Abandonar Partida'. Isso o levará de volta ao menu principal, onde você pode iniciar um novo contrato com um novo conjunto de escolhas de heróis."
+  },
+  {
+    question: "O que é a palavra-chave 'Stall' mencionada na loja?",
+    answer: "Efeitos de Stall (Retardo) são habilidades passivas poderosas que só ativam após os primeiros 20 segundos de combate. Eles são projetados para equipes tanques que conseguem sobreviver à fase inicial de 'Rush' (Ímpeto) de um ataque inimigo."
+  },
+  {
+    question: "Devo gastar todos os meus estilhaços em rerolls para heróis Nível S?",
+    answer: "Não. Embora heróis Nível S sejam poderosos, o custo em estilhaços para encontrá-los pode ser astronômico. Geralmente é melhor construir uma equipe equilibrada de heróis Rank A com boa itemização do que ter um único herói Nível S sem suporte."
+  },
+  {
+    question: "Posso vender itens que não preciso de volta para a loja?",
+    answer: "Sim, você pode arrastar itens ou heróis indesejados para o ícone de venda no menu da loja. Esta é uma parte vital do guia de reroll de Guildrun para ajudá-lo a pagar por Relíquias caras ou aquela duplicata final de um herói."
+  }
+]} />
+
+</Section>

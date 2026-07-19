@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Rush de Guildrun: Escalonamento Infinito e Estratégia de Guerreiro Tier-S",
+  description: "Domine a build rush de Guildrun com nosso guia sobre escalonamento infinito, sinergias de heróis de dificuldade S e as melhores relíquias de guerreiro para o modo infinito.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=GuildRun+Rush+Build+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **build rush de Guildrun**: Foca em \"Ativadores de Rush\" para fornecer escalonamento de atributos permanente e infinito para heróis da classe Guerreiro.
+- **Mecânica Central**: Utilize heróis como Nicl e Raina, que ganham bônus massivos de ataque e defesa toda vez que uma habilidade de Rush é ativada.
+- **Viabilidade na Dificuldade S**: Esta build se destaca em níveis de alta dificuldade onde os slots de itens são restritos, dependendo em vez disso do escalonamento interno do herói.
+- **Relíquia Essencial**: A Bandeira do Guerreiro é obrigatória para maximizar a cura baseada em acertos críticos e os bônus de velocidade de ataque.
+- **Objetivo de Fim de Jogo**: Alcançar mais de 2.000 de atributo de ataque no Modo Infinito ao acumular debuffs como Veneno e Queimadura.
+</Callout>
+
+<Section icon={Map} title="Os Fundamentos de uma Build Rush de Guildrun">
+
+A **build rush de Guildrun** é atualmente uma das estratégias mais poderosas para enfrentar a dificuldade S e os modos Infinitos. Ao contrário das builds padrão que dependem fortemente de atributos estáticos de itens, o mecanismo de Rush foca em um escalonamento dinâmico. Cada vez que um herói ativa uma habilidade de Rush, toda a equipe (especificamente os Guerreiros) ganha bônus ofensivos e defensivos permanentes que duram até o final da partida. Isso permite que seu esquadrão supere os inimigos em escala, mesmo quando eles se tornam mais \"mortais\" em estágios avançados.
+
+**Destaques do Vídeo:**
+- **Escalonamento Infinito**: Demonstrando como os atributos sobem para mais de 2.000 em uma única partida.
+- **Mecânicas da Dificuldade S**: Gerenciando de forma eficaz a restrição de um item por ranque.
+- **Apresentação de Heróis**: Análise aprofundada da mecânica reformulada de consumo de itens do Nicl.
+- **Sobrevivência no Modo Infinito**: Estratégias para passar do andar 17 em diante.
+
+<YouTubeEmbed videoId="j2lLHYpvpNs" title="O Escalonamento Nesta Build Rush É Absolutamente Insano (Dif. S) | GuildRun" />
+
+Para ter sucesso com esta build, você deve priorizar heróis que possuam a marcação \"Rush\". Essas habilidades geralmente envolvem golpes de alta velocidade, escudos gerados com base na frequência de ataque ou dano massivo em área (AOE) que ativa efeitos secundários adicionais. Na dificuldade S, onde você é limitado pelo número de itens que pode equipar, o ganho bruto de atributos da mecânica de Rush compensa a falta de equipamentos.
+
+| Mecânica | Efeito na Build Rush | Importância |
+| :--- | :--- | :--- |
+| **Ativador de Rush** | Concede +2 de Ataque por ativação durante o jogo | **Crítico** |
+| **Sinergia de Guerreiro** | Aumenta a defesa por ativação de Rush | **Alta** |
+| **Acúmulo de Debuffs** | O dano de Queimadura e Veneno escala com o HP Máximo | **Média** |
+| **Consumo de Itens** | Absorve permanentemente os atributos do item para o herói | **Alta** |
+
+<Callout type="tip" title="Dica de Mestre">
+Foque no modificador \"Dois ataques por ativador de rush\" logo no início. Isso garante que até mesmo seus heróis de tier baixo contribuam para a reserva total de atributos antes de você chegar ao chefe final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Heróis para Sinergia de Rush">
+
+Selecionar a escalação certa é a diferença entre uma partida fracassada e uma vitória bem-sucedida no Modo Infinito. A **build rush de Guildrun** depende de um núcleo de Guerreiros e Vanguardas que conseguem se sustentar enquanto geram ativadores. Raina e Nicl são a base desta estratégia devido à sua habilidade única de preencher a lacuna entre a função de tanque e o alto DPS.
+
+<CardGrid cols={3}>
+  <Card title="Raina (Guerreiro)">
+    - **Alto Potencial de Crítico**
+    - Reduz a defesa do inimigo no crítico
+    - Excelente para rushar no início do jogo
+  </Card>
+  <Card title="Nicl (Tanque/Guerreiro)">
+    - **Devorador de Atributos**: Consome itens para obter atributos
+    - Geração massiva de escudo
+    - Linha de frente principal para a dificuldade S
+  </Card>
+  <Card title="Logan (Assassino/Guerreiro)">
+    - **Taxa de Ativação Rápida**
+    - Alta sinergia com velocidade de ataque
+    - Atordoa inimigos no crítico
+  </Card>
+</CardGrid>
+
+No meta atual, o \"Chief\" (Chefe) também fornece uma camada secundária de proteção. Embora ele possa ser apenas um herói de ranque B em algumas composições, sua capacidade de gerar itens aleatórios e escudos massivos o torna um recurso inestimável para o gerenciamento de recursos. Quando combinados com a Bandeira do Guerreiro, esses heróis se tornam quase imortais devido ao roubo de vida (lifesteal) gerado por acertos críticos.
+
+| Herói | Classe Principal | Função na Build Rush | Classificação de Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Raina** | Guerreiro | DPS Principal / Debuffer | ★★★★★ |
+| **Nicl** | Tanque | Tanque de Escalonamento / Consumidor de Itens | ★★★★★ |
+| **Logan** | Guerreiro/Assassino | Gerador de Ativadores | ★★★★☆ |
+| **Chief** | Vanguarda | Suporte de Escudo / Fazendeiro de Itens | ★★★★☆ |
+| **Tilly** | Duelista | Especialista em Velocidade de Ataque | ★★★☆☆ |
+
+<Callout type="success" title="Estratégia de Sucesso">
+Se você encontrar um item de \"Melhoria de Classe Guerreiro\", use-o em um herói com alta velocidade de ataque, como Tilly. Isso permite que ela se beneficie dos bônus de Rush específicos de Guerreiro, efetivamente dobrando sua produção de dano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Progressão Passo a Passo">
+
+Montar uma **build rush de Guildrun** bem-sucedida exige uma abordagem disciplinada em relação à loja e aos confrontos de combate. Você não pode simplesmente escolher itens de alta raridade; você deve escolher itens que facilitem mais ativações ou forneçam utilidade que falta aos Guerreiros, como resistência mágica ou omnivamp (roubo de vida global).
+
+<Steps>
+  <Step num="1" title="Configuração Inicial">
+    Foque em recrutar pelo menos dois Guerreiros com a marcação Rush. Não se preocupe com a raridade dos itens ainda; priorize a sobrevivência e ative a mecânica de Rush o mais frequentemente possível para iniciar o processo de escalonamento.
+  </Step>
+  <Step num="2" title="Otimização do Meio do Jogo">
+    Procure pela Bandeira do Guerreiro na loja da Guilda. Esta é a relíquia mais importante para a build. Comece a focar na missão de \"Consumo de Itens\" do Nicl para liberar espaço no inventário enquanto retém o poder.
+  </Step>
+  <Step num="3" title="Escalonamento no Fim do Jogo">
+    Transicione para itens de debuff. Itens que aplicam Queimadura ou Veneno ao atingir são essenciais porque escalam com os atributos massivos de ataque que você acumulou. Foque em alcançar mais de 100 ativações de Rush antes do chefe final.
+  </Step>
+  <Step num="4" title="Transição para o Modo Infinito">
+    No modo Infinito, foque inteiramente em relíquias de \"Escalonamento Infinito\". Escolha recompensas que aumentem seus atributos principais por fragmento ou por vitória em combate. Nesta fase, seus escudos devem estar na casa das dezenas de milhares.
+  </Step>
+</Steps>
+
+| Fase | Foco Prioritário | Marco Principal |
+| :--- | :--- | :--- |
+| **Inicial** | Recrutamento | 2+ Guerreiros no esquadrão |
+| **Meio do Jogo** | Relíquias | Bandeira do Guerreiro adquirida |
+| **Fim do Jogo** | Escalonamento | 1.000+ de Ataque no DPS principal |
+| **Infinito** | Sobrevivência | Andar 15+ concluído |
+
+<Callout type="warning" title="Aviso Importante">
+Na dificuldade S, lembre-se de que os heróis só podem equipar um item por ranque. Não desperdice seus slots limitados com itens de vida fixa; priorize itens com efeitos \"por ativação\" ou \"por crítico\".
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Itens e Relíquias Essenciais">
+
+A eficácia de uma **build rush de Guildrun** é fortemente influenciada pela sua escolha de relíquias. Enquanto os heróis fornece a base, as relíquias fornecem os multiplicadores. Especificamente, você deve procurar por qualquer coisa que interaja com \"Guerreiro\", \"Crítico\" ou \"Rush\".
+
+**Níveis de Relíquias Principais:**
+- **Tier-S**: Bandeira do Guerreiro, Espelho de Raios, Catalisador de Veneno.
+- **Tier-A**: Fragmentos de Omnivamp, Botas de Velocidade de Ataque, Refletores de Escudo.
+- **Tier-B**: Resistência Mágica Fixa, Itens de Geração de Ouro (venda-os no fim do jogo).
+
+| Nome do Item | Efeito | Melhor Para |
+| :--- | :--- | :--- |
+| **Bandeira do Guerreiro** | Cura no crítico / +50 de Ataque | Todos os Guerreiros |
+| **Espelho de Raios** | Dano mágico massivo ao conjurar | Heróis com muita mana |
+| **Adaga de Veneno** | Aplica veneno no ataque básico | Logan / Tilly |
+| **Escudo do Valor** | Ganha escudo igual a 400% da Defesa | Nicl / Chief |
+
+<Callout type="info" title="Visão da Mecânica">
+O Espelho de Raios tem um alto requisito de magia (75), mas para heróis como o Chief, que geram escudos com base em atributos mágicos, ele fornece tanto poder ofensivo quanto um aumento massivo na sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas Avançadas de Combate">
+
+Assim que sua **build rush de Guildrun** estiver estabelecida, o posicionamento e o gerenciamento de debuffs se tornam o foco principal. Você quer que seus Guerreiros fiquem adjacentes ao maior número possível de inimigos para maximizar as ativações de Rush em área (AOE), mas você também deve proteger seus \"Geradores de Ativadores\" de serem eliminados rapidamente por unidades de elite.
+
+<Checklist
+  id="combat-prep"
+  title="Lista de Verificação Pré-Combate:"
+  items={[
+    "Verifique se Nicl tem um item em seu slot mais à esquerda para consumo",
+    "Certifique-se de que a Bandeira do Guerreiro está equipada no herói com a maior taxa de crítico",
+    "Posicione as Vanguardas para absorver o dano explosivo inicial",
+    "Verifique se todos os heróis têm pelo menos uma habilidade de Rush ativa",
+    "Verifique as sinergias de debuffs (acúmulo de Queimadura + Veneno)"
+  ]}
+/>
+
+No modo Infinito, os inimigos eventualmente ganharão modificadores \"Mortais\". Para contra-atacar isso, você deve depender de \"Escudos Duradouros\". Ao contrário dos escudos padrão que decaem com o tempo, os Escudos Duradouros persistem até serem quebrados. Isso é crucial para sobreviver aos 10 segundos iniciais de uma luta em andares altos do Modo Infinito, onde o dano do inimigo está no auge.
+
+| Tipo de Debuff | Sinergia com Build Rush | Potencial de Escalonamento |
+| :--- | :--- | :--- |
+| **Queimadura** | Escala com o HP Máximo / +1 de Magia por acúmulo | Alto |
+| **Veneno** | Causa % de dano ao longo do tempo / Aumenta com o Rush | Extremo |
+| **Congelamento** | Reduz a velocidade de ataque / Reduz ativações do inimigo | Médio |
+| **Atordoamento** | Ativado em Críticos de Guerreiros | Alto |
+
+<Callout type="tip" title="Dica de Estratégia">
+Se você se deparar com uma escolha entre ataque fixo e omnivamp no fim do jogo, escolha sempre omnivamp. Com mais de 2.000 de ataque, uma pequena porcentagem de roubo de vida manterá seus heróis com a vida cheia, independentemente do dano do inimigo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que a Bandeira do Guerreiro é considerada obrigatória para uma build rush de Guildrun?",
+    answer: "A Bandeira do Guerreiro fornece dois efeitos críticos: permite que os Guerreiros se curem com base em seus acertos críticos e concede um bônus de ataque massivo por ativação de Rush. Sem ela, a build carece do sustento necessário para o modo Infinito."
+  },
+  {
+    question: "Como funciona a mecânica de consumo de itens do Nicl na dificuldade S?",
+    answer: "Nicl consome o item em seu slot mais à esquerda após um combate bem-sucedido. Ele ganha permanentemente 100% dos atributos desse item e reembolsa uma parte do custo em fragmentos. Isso permite que você 'acumule' atributos sem gastar seus slots de itens limitados."
+  },
+  {
+    question: "Posso rodar uma build de Rush com Magos em vez de Guerreiros?",
+    answer: "Embora os Magos tenham suas próprias sinergias, a mecânica de Rush é projetada especificamente para escalar com atributos de Guerreiro e Vanguarda. Uma build focada em Magos geralmente depende de ativadores de 'Retardo' ou 'Mana'."
+  },
+  {
+    question: "Qual é a melhor maneira de lidar com o chefe do andar 17 no modo Infinito?",
+    answer: "A chave é o acúmulo de debuffs. No andar 17, seu dano bruto pode ter dificuldades contra a barra de vida do chefe, mas milhares de acúmulos de Veneno e Queimadura (fortalecidos pelo seu escalonamento de Rush) derreterão o HP do chefe rapidamente."
+  }
+]} />
+
+</Section>

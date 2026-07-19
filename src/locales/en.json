@@ -1,802 +1,830 @@
 {
-  "seo": {
-    "home": {
-      "title": "Guildrun Wiki - Heroes, Builds, Relics & Tier List",
-      "description": "Guildrun Wiki covers the best heroes, builds, relics, items, specializations, team synergies, difficulty progression, demo tips, and weekly updates.",
-      "keywords": "Guildrun, Guildrun wiki, heroes, builds, relics, items, tier list, demo, Steam",
-      "ogTitle": "Guildrun Wiki - Heroes, Builds, Relics & Tier List",
-      "ogDescription": "Guildrun Wiki covers the best heroes, builds, relics, items, specializations, team synergies, difficulty progression, demo tips, and weekly updates for the PvE roguelike autobattler on Steam.",
-      "twitterTitle": "Guildrun Wiki - Heroes, Builds, Relics & Tier List",
-      "twitterDescription": "Guildrun Wiki covers the best heroes, builds, relics, items, specializations, and team synergies for the PvE roguelike autobattler on Steam."
-    }
-  },
-  "nav": {},
-  "common": {
-    "home": "Home",
-    "more": "More",
-    "playNow": "Play on Steam",
-    "switchLanguage": "Switch Language",
-    "switchTheme": "Switch Theme",
-    "lightMode": "Light Mode",
-    "darkMode": "Dark Mode",
-    "notFound": "Page Not Found",
-    "notFoundDescription": "The page you are looking for does not exist.",
-    "backToHome": "Back to Home",
-    "relatedArticles": "Related Articles",
-    "readMore": "Read More",
-    "articlesComingSoon": "Articles coming soon"
-  },
-  "hero": {
-    "badge": "PvE Roguelike Autobattler",
-    "title": "Guildrun Wiki",
-    "description": "Build a flexible guild of heroes, combine specializations, items and relics, adapt your strategy during every run, clear escalating rifts and challenge Endless mode.",
-    "keywords": "Guildrun, Steam, PvE autobattler, roguelike, heroes, builds, relics, specializations, tier list",
-    "getFreeCodesCTA": "Download Free Demo",
-    "playOnSteamCTA": "Play on Steam",
-    "stats": {
-      "stat1": {
-        "value": "7,184",
-        "label": "Players Online"
-      },
-      "stat2": {
-        "value": "8,007",
-        "label": "Peak CCU"
-      },
-      "stat3": {
-        "value": "96%",
-        "label": "Positive Reviews"
-      },
-      "stat4": {
-        "value": "25",
-        "label": "Heroes Available"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Guildrun Gameplay",
-    "description": "Recruit heroes, develop specialization paths, combine items and relics, and clear escalating rifts in this single-player PvE roguelike autobattler on Steam."
-  },
-  "tools": {
-    "title": "Guildrun",
-    "titleHighlight": "Wiki",
-    "subtitle": "Everything you need to master Guildrun, from your first run to Endless Mode",
-    "cards": [
-      {
-        "icon": "BookOpen",
-        "title": "Guildrun Beginner Guide",
-        "description": "Recruitment, shop, specializations and your first successful run"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Guildrun Demo & Release",
-        "description": "Free Steam demo, platforms, full release window and carryover"
-      },
-      {
-        "icon": "Trophy",
-        "title": "Guildrun Heroes Tier List",
-        "description": "Hero rankings by scaling, flexibility, survivability and utility"
-      },
-      {
-        "icon": "Swords",
-        "title": "Guildrun Best Team Builds",
-        "description": "Compositions, positioning, items, relics and pivot plans"
-      },
-      {
-        "icon": "Shield",
-        "title": "Guildrun Specializations",
-        "description": "Class roles, rank upgrades, paths, multiclass and respec"
-      },
-      {
-        "icon": "Gem",
-        "title": "Guildrun Items & Relics",
-        "description": "Equipment tier list by power, flexibility and class fit"
-      },
-      {
-        "icon": "Flame",
-        "title": "Guildrun Difficulty & Endless",
-        "description": "Eight difficulty levels, modifiers and Endless Mode strategy"
-      },
-      {
-        "icon": "Clock",
-        "title": "Guildrun Updates",
-        "description": "Weekly patches, balance changes, new heroes and roadmap"
-      }
-    ]
-  },
-  "modules": {
-    "guildrunBeginnerGuide": {
-      "title": "Guildrun Beginner Guide",
-      "intro": "Guildrun is a single-player PvE roguelike autobattler built around recruiting heroes, preparing a team and adapting to random shop choices. The full game is planned to feature 25 heroes, 75 specialization paths, 180 specializations, more than 100 items and more than 300 relics.",
-      "steps": [
-        {
-          "title": "Recruit a Balanced Starting Team",
-          "description": "Begin with heroes that cover three basic jobs: a durable frontline, a dependable damage dealer and a support or utility unit. Avoid filling every slot with fragile damage heroes, because unprotected carries can be defeated before their damage becomes useful.",
-          "priority": "Frontline first, dependable damage second, utility third",
-          "mistake": "Buying every hero offered without considering the team role it fills"
-        },
-        {
-          "title": "Check the Shop Before Committing",
-          "description": "Review the full shop before spending resources. Compare new recruits, duplicate upgrades, items and long-term specialization options, then choose the purchase that improves the entire team rather than a single weak unit.",
-          "priority": "Buy immediate power before speculative upgrades",
-          "mistake": "Using repeated rerolls early and leaving too few resources for upgrades"
-        },
-        {
-          "title": "Build Around the Strongest Offers",
-          "description": "Do not force the same composition every run. Use the heroes, relics and items that appear naturally, then change direction when the shop repeatedly offers a stronger class combination or shared effect.",
-          "priority": "Flexible upgrades and shared team effects",
-          "mistake": "Holding resources for one exact hero, item or specialization"
-        },
-        {
-          "title": "Choose Specializations With a Clear Purpose",
-          "description": "Guildrun heroes can develop through multiple specialization paths. Select paths that strengthen the hero current job, such as survivability for a frontline unit, consistent damage for a carry or team-wide value for a support.",
-          "priority": "Complete one useful role before spreading upgrades across several roles",
-          "mistake": "Choosing unrelated bonuses that do not support the hero position or team"
-        },
-        {
-          "title": "Equip Items and Relics Before Combat",
-          "description": "Place defensive equipment on heroes that absorb the opening attacks and offensive equipment on heroes that remain alive long enough to use it. Relics should support the whole composition, resource plan or specialization direction whenever possible.",
-          "priority": "Survival for the frontline and scaling for the main carry",
-          "mistake": "Giving rare items to a hero that does not benefit from their effect"
-        },
-        {
-          "title": "Prepare Positioning and Reserve Units",
-          "description": "Arrange durable heroes where they can intercept pressure and keep important damage or support heroes protected. Use reserve units as replacements, future specialization options or answers to fights where the current lineup performs poorly.",
-          "priority": "Protect the main damage source",
-          "mistake": "Using the same formation against every encounter"
-        },
-        {
-          "title": "Learn From the First Completed Run",
-          "description": "After each battle, identify whether the team lacked damage, durability or synergy. Spend Shards and other run resources on upgrades that improve future consistency, then progress toward higher difficulties and Endless mode after the basic loop feels stable.",
-          "priority": "Consistent progress before high-risk strategies",
-          "mistake": "Changing the entire team after one bad fight instead of fixing its weakest role"
-        }
-      ],
-      "quickTips": [
-        "Stabilize a frontline before chasing expensive damage upgrades.",
-        "Compare every shop offer against your whole team, not just one weak hero.",
-        "Keep enough resources for important rerolls instead of spending early.",
-        "Use reserve heroes to answer difficult encounters instead of forcing one formation."
-      ]
-    },
-    "guildrunDemoAndRelease": {
-      "title": "Guildrun Demo and Release Date",
-      "intro": "Players can download the standalone Guildrun Demo through Steam and experience the core roguelike autobattler loop before the full release. The complete version is planned to expand the roster, progression systems, difficulty options and multiplayer features.",
-      "cards": [
-        {
-          "name": "Free Demo",
-          "value": "Available on Steam",
-          "description": "The Guildrun Demo is a free standalone download that introduces hero recruitment, shop decisions, upgrades, specializations, items, relics and automatic combat.",
-          "status": "Available"
-        },
-        {
-          "name": "Full-Game Release Window",
-          "value": "2027",
-          "description": "The full version of Guildrun is targeting a 2027 release. The main Steam page can be followed or wishlisted for future release announcements.",
-          "status": "Planned"
-        },
-        {
-          "name": "Platform",
-          "value": "PC via Steam",
-          "description": "Both the demo and the main Guildrun store listing are available through Steam.",
-          "status": "Confirmed"
-        },
-        {
-          "name": "Planned Hero Roster",
-          "value": "25 Heroes",
-          "description": "The full game is planned around a roster of 25 recruitable heroes that can be developed into different team roles.",
-          "status": "Full Game"
-        },
-        {
-          "name": "Specialization Content",
-          "value": "75 Paths / 180 Choices",
-          "description": "Heroes can be developed through 75 specialization paths containing 180 specialization choices, allowing teams to change direction during a run.",
-          "status": "Full Game"
-        },
-        {
-          "name": "Items and Relics",
-          "value": "100+ Items / 300+ Relics",
-          "description": "Runs are shaped by more than 100 items and more than 300 relics that modify hero performance, team effects and build direction.",
-          "status": "Full Game"
-        },
-        {
-          "name": "Difficulty and Endless Mode",
-          "value": "8 Difficulties",
-          "description": "Guildrun is planned to include eight difficulty levels and an Endless mode for players who want longer and more demanding runs.",
-          "status": "Full Game"
-        },
-        {
-          "name": "Co-op",
-          "value": "Planned Feature",
-          "description": "Co-op is included in the game planned development scope rather than the current single-player demo experience.",
-          "status": "In Development"
-        }
-      ]
-    },
-    "guildrunHeroesTierList": {
-      "title": "Guildrun Heroes Tier List",
-      "intro": "Guildrun is designed around 25 heroes and 75 specialization paths, so a hero value depends on more than starting damage. This tier structure highlights the hero profiles that provide the most consistent results when shop offers, relics and team combinations change between runs.",
-      "tiers": [
-        {
-          "tier": "S",
-          "label": "Run-Defining Heroes",
-          "profile": "Flexible carries, durable frontline anchors and supports with strong team-wide effects",
-          "reason": "These heroes contribute immediately, scale through several specialization paths and remain useful even when ideal items do not appear.",
-          "paths": [
-            "Flexible damage scaling",
-            "Reliable frontline durability",
-            "Team-wide utility"
-          ],
-          "items": "Items that improve the hero existing role without requiring a narrow combination",
-          "fit": "Can become the main carry, primary tank or central support in several compositions"
-        },
-        {
-          "tier": "A",
-          "label": "Strong and Consistent Heroes",
-          "profile": "Dependable damage dealers, secondary frontliners and focused support heroes",
-          "reason": "These heroes perform well in most runs but usually need suitable positioning, one strong specialization path or a compatible frontline.",
-          "paths": [
-            "Single-role specialization",
-            "Consistent damage or protection",
-            "Shared-effect support"
-          ],
-          "items": "Role-specific items that improve damage consistency, survivability or support uptime",
-          "fit": "Excellent alongside an S-tier anchor or as the second major piece of a balanced team"
-        },
-        {
-          "tier": "B",
-          "label": "Build-Dependent Heroes",
-          "profile": "Heroes that become powerful with the correct relics, items, shared effects or specialization sequence",
-          "reason": "Their ceiling can be high, but their early performance is less consistent and they may consume too many resources before the build becomes stable.",
-          "paths": [
-            "Synergy-focused specialization",
-            "Relic-dependent scaling",
-            "Late-run carry development"
-          ],
-          "items": "Specific items that activate the hero main scaling mechanic",
-          "fit": "Best used when the shop repeatedly supports the same build direction"
-        },
-        {
-          "tier": "C",
-          "label": "Situational Heroes",
-          "profile": "Narrow counters, fragile specialists and heroes that require several exact upgrades",
-          "reason": "These heroes can solve particular encounters but are harder to use during a first run because their strength depends on precise support.",
-          "paths": [
-            "Encounter-specific utility",
-            "High-risk damage",
-            "Narrow shared-effect builds"
-          ],
-          "items": "Highly specialized equipment that fixes a major weakness or enables a specific interaction",
-          "fit": "Reserve unit, temporary specialist or final piece of an already established composition"
-        },
-        {
-          "tier": "Score",
-          "label": "How Each Hero Is Scored",
-          "profile": "Every hero is compared across the same six categories",
-          "reason": "A useful tier list measures complete run performance rather than one successful battle.",
-          "paths": [
-            "Early strength",
-            "Scaling potential",
-            "Flexibility",
-            "Survivability",
-            "Damage",
-            "Team utility"
-          ],
-          "items": "Item dependence is treated as a weakness when a hero needs several exact drops",
-          "fit": "Heroes rank higher when they work in multiple formations and specialization routes"
-        }
-      ]
-    },
-    "guildrunBestTeamBuilds": {
-      "title": "Guildrun Best Team Builds",
-      "intro": "Guildrun team building combines hero roles, specialization paths, items, relics, positioning and shared effects. These compositions focus on repeatable structures rather than requiring one exact set of shop choices.",
-      "builds": [
-        {
-          "name": "Balanced First-Run Team",
-          "roles": [
-            "Primary frontline",
-            "Main damage carry",
-            "Support or utility hero",
-            "Flexible reserve unit"
-          ],
-          "positioning": "Place the most durable hero in the exposed position, keep the main carry protected and position the support where it can survive long enough to provide value.",
-          "items": "Defensive items go to the frontline, consistent damage items go to the carry and utility items go to the support.",
-          "relics": "Choose relics that improve the whole team or provide dependable resources between battles.",
-          "upgrade": "Stabilize the frontline first, then improve carry damage and finally add utility.",
-          "alternatives": "Replace missing roles with any hero whose specialization can perform the same job."
-        },
-        {
-          "name": "Lovers Shared-Effect Build",
-          "roles": [
-            "Two heroes activating Lovers",
-            "Frontline protector",
-            "Secondary damage or support hero"
-          ],
-          "positioning": "Keep the Lovers pair protected and avoid exposing both linked heroes to the same opening pressure.",
-          "items": "Give survival tools to the more vulnerable member and scaling items to the hero providing the composition main damage.",
-          "relics": "Prioritize relics that improve shared effects, survivability or the entire active team.",
-          "upgrade": "Activate the shared effect, secure a frontline and then invest in the stronger scaling member of the pair.",
-          "alternatives": "Transition into a balanced team if the required pair or supporting upgrades stop appearing."
-        },
-        {
-          "name": "Single-Carry Scaling Build",
-          "roles": [
-            "One main carry",
-            "Two protective frontline or utility heroes",
-            "Reserve replacement"
-          ],
-          "positioning": "Place every supporting hero to delay enemies and create maximum attack time for the carry.",
-          "items": "Concentrate the best offensive items on one hero instead of dividing them between several average damage dealers.",
-          "relics": "Use relics that improve damage scaling, item value or the carry survival.",
-          "upgrade": "Upgrade the carry strongest specialization path while spending only enough resources to keep the frontline stable.",
-          "alternatives": "Promote a second carry when the shop stops offering useful upgrades for the original one."
-        },
-        {
-          "name": "Double-Frontline Control Build",
-          "roles": [
-            "Primary tank",
-            "Secondary frontline hero",
-            "Backline damage hero",
-            "Support or reserve specialist"
-          ],
-          "positioning": "Split incoming pressure between two durable heroes while keeping the damage dealer away from the initial attack.",
-          "items": "Distribute defensive items according to which frontline hero takes the most pressure, then place remaining damage items on the backline carry.",
-          "relics": "Select relics that reward longer battles, durable heroes or repeated team action.",
-          "upgrade": "Improve both frontline heroes enough to survive, then scale the protected damage hero.",
-          "alternatives": "Convert the weaker frontline slot into support when additional durability is no longer required."
-        },
-        {
-          "name": "Relic-Driven Flex Build",
-          "roles": [
-            "Heroes matching the strongest relic effects",
-            "One stable frontline",
-            "One adaptable carry",
-            "Multiple reserve options"
-          ],
-          "positioning": "Position around the active relic effects rather than following a fixed formation from the beginning of the run.",
-          "items": "Use items to strengthen the heroes already benefiting from the relic package.",
-          "relics": "Build around repeated relic themes instead of selecting individually strong relics with no connection.",
-          "upgrade": "Commit only after two or more relics support the same strategy.",
-          "alternatives": "Return to a balanced team when relic effects remain scattered."
-        },
-        {
-          "name": "Reserve and Pivot Build",
-          "roles": [
-            "Stable three-hero core",
-            "Two or more reserve candidates",
-            "Alternative carry",
-            "Alternative support or frontline"
-          ],
-          "positioning": "Keep the active formation simple and swap reserve heroes in when an encounter or specialization offer favors them.",
-          "items": "Avoid locking every valuable item onto a temporary hero before the final composition is clear.",
-          "relics": "Prefer flexible relics that remain useful after changing heroes.",
-          "upgrade": "Upgrade the stable core first and delay expensive reserve investments until a clear pivot appears.",
-          "alternatives": "Use reserve heroes to replace weak links instead of rebuilding the entire team."
-        }
-      ]
-    },
-    "guildrunSpecializationsAndClasses": {
-      "title": "Guildrun Specializations and Classes",
-      "intro": "Rank upgrades can change a hero from a basic recruit into a focused tank, healer, ranged attacker, duelist, assassin, or hybrid unit. The strongest parties use complementary specializations rather than upgrading every hero toward the same type of damage.",
-      "classes": [
-        {
-          "role": "Tank",
-          "job": "Hold the front line, absorb pressure, and protect fragile allies.",
-          "focus": "Durability, damage reduction, control, and defensive team support.",
-          "multiclass": "Combines well with healing or support paths that improve survival during long fights.",
-          "upgrade": "Defensive rank upgrades first, followed by control or team-protection effects.",
-          "respec": "Respec when the party already has enough defense or when later bosses require more damage."
-        },
-        {
-          "role": "Healer",
-          "job": "Restore health and keep the party stable through extended encounters.",
-          "focus": "Healing strength, healing frequency, protection, and team sustain.",
-          "multiclass": "Pairs with defensive or damage-support paths to provide value between healing actions.",
-          "upgrade": "Dependable healing and survival first, followed by party-wide bonuses.",
-          "respec": "Respec when healing exceeds the party needs or when faster battles make offensive support more valuable."
-        },
-        {
-          "role": "Ranged",
-          "job": "Deal consistent damage from a safer position behind the front line.",
-          "focus": "Attack speed, ranged damage, target coverage, and sustained scaling.",
-          "multiclass": "Works well with class bonuses, attack-speed effects, and paths that improve repeated attacks.",
-          "upgrade": "Consistent damage upgrades before narrow effects that only work against specific targets.",
-          "respec": "Respec when the build lacks protection or when single-target boss damage becomes more important than general damage."
-        },
-        {
-          "role": "Duelist",
-          "job": "Pressure dangerous individual enemies through strong single-target combat.",
-          "focus": "Direct damage, repeated attacks, survivability, and extended one-on-one pressure.",
-          "multiclass": "Benefits from defensive secondary paths that allow the hero to continue attacking under pressure.",
-          "upgrade": "Damage consistency first, followed by defensive upgrades that prevent interrupted attacks.",
-          "respec": "Respec when encounters contain large enemy groups or when the party needs stronger area coverage."
-        },
-        {
-          "role": "Assassin",
-          "job": "Remove vulnerable or high-priority targets with concentrated burst damage.",
-          "focus": "Burst damage, target access, finishing power, and offensive scaling.",
-          "multiclass": "Pairs with flexible damage or attack-speed paths that remain useful after the opening burst.",
-          "upgrade": "Dependable finishing power before highly conditional damage bonuses.",
-          "respec": "Respec when enemies survive the opening attack or when longer fights reward sustained damage."
-        },
-        {
-          "role": "Hybrid",
-          "job": "Fill two party needs through multiclass combinations and flexible specialization choices.",
-          "focus": "Balanced damage, support, defense, or healing selected around the current party.",
-          "multiclass": "Provides the greatest flexibility when shops and recruitment do not offer a perfect team composition.",
-          "upgrade": "Choose upgrades that solve the party biggest weakness instead of splitting resources evenly.",
-          "respec": "Respec after major recruitment changes so the hero continues to fill a useful role."
-        }
-      ]
-    },
-    "guildrunItemsAndRelicsTierList": {
-      "title": "Guildrun Items and Relics Tier List",
-      "intro": "The best equipment improves an entire build instead of providing a small isolated stat increase. Flexible class bonuses, attack-speed scaling, dependable defense, healing support, and early economy effects remain useful across more heroes and difficulty levels.",
-      "tiers": [
-        {
-          "tier": "S",
-          "category": "Class-Scaling Relics",
-          "power": "Very high",
-          "flexibility": "High",
-          "bestWith": "Parties containing several heroes that share or benefit from the same class direction.",
-          "reason": "Class-wide scaling can improve multiple abilities and becomes stronger as the party gains ranks and specializations."
-        },
-        {
-          "tier": "S",
-          "category": "Flexible Attack-Speed Effects",
-          "power": "Very high",
-          "flexibility": "Very high",
-          "bestWith": "Ranged heroes, duelists, repeated attackers, and effects triggered by frequent attacks.",
-          "reason": "Attack speed increases direct damage while also activating compatible on-attack effects more often."
-        },
-        {
-          "tier": "S",
-          "category": "Early Economy Relics",
-          "power": "High",
-          "flexibility": "Very high",
-          "bestWith": "Runs acquired early enough to benefit from additional shops, rerolls, recruits, and upgrades.",
-          "reason": "Early economic advantages compound across the run and create more opportunities to complete powerful builds."
-        },
-        {
-          "tier": "S",
-          "category": "Universal Survival Effects",
-          "power": "Very high",
-          "flexibility": "Very high",
-          "bestWith": "Front-line heroes and parties attempting higher difficulties or Endless Mode.",
-          "reason": "Dependable defense prevents failed runs and gives damage-focused heroes more time to scale."
-        },
-        {
-          "tier": "A",
-          "category": "Healing Amplification",
-          "power": "High",
-          "flexibility": "Medium",
-          "bestWith": "Dedicated healers, defensive parties, and long boss encounters.",
-          "reason": "Healing improvements provide strong sustain but lose value when the party has no dependable healing source."
-        },
-        {
-          "tier": "A",
-          "category": "Dedicated Damage Bonuses",
-          "power": "High",
-          "flexibility": "Medium",
-          "bestWith": "Specialized ranged, duelist, or assassin builds with a clear primary damage dealer.",
-          "reason": "Focused bonuses can create excellent carries but are less useful when recruitment forces a different composition."
-        },
-        {
-          "tier": "B",
-          "category": "Role-Specific Defensive Items",
-          "power": "Medium",
-          "flexibility": "Low",
-          "bestWith": "Tanks or heroes regularly exposed to enemy pressure.",
-          "reason": "These effects are useful on the correct hero but provide limited value when placed on protected back-line units."
-        },
-        {
-          "tier": "B",
-          "category": "Conditional Combat Relics",
-          "power": "Medium",
-          "flexibility": "Low",
-          "bestWith": "Builds that can activate the relic condition consistently.",
-          "reason": "Their maximum output can be strong, but missed conditions make them less consistent than universal effects."
-        },
-        {
-          "tier": "C",
-          "category": "Low-Impact Single-Stat Items",
-          "power": "Low",
-          "flexibility": "Medium",
-          "bestWith": "Temporary early-game equipment slots before stronger options appear.",
-          "reason": "Small isolated bonuses are quickly replaced and rarely influence late-game specialization or Endless Mode scaling."
-        }
-      ]
-    },
-    "guildrunDifficultyAndEndless": {
-      "title": "Guildrun Difficulty Levels and Endless Mode",
-      "intro": "Higher difficulties reward efficient recruitment, controlled spending, stronger specialization synergy, and better equipment choices. Endless Mode extends the run beyond normal progression and tests how long the party can survive while building a leaderboard score.",
-      "levels": [
-        {
-          "name": "Difficulty 1",
-          "unlock": "Available at the beginning.",
-          "challenge": "Uses the base progression structure and introduces the complete recruitment, shop, upgrade, and boss loop.",
-          "preparation": "Build a balanced party with a front line, dependable damage, and enough sustain to finish the first run."
-        },
-        {
-          "name": "Difficulty 2",
-          "unlock": "Unlocked after completing Difficulty 1.",
-          "challenge": "Begins the escalating difficulty path and places greater pressure on basic party construction.",
-          "preparation": "Avoid unnecessary rerolls and invest resources in heroes that already support the main build."
-        },
-        {
-          "name": "Difficulty 3",
-          "unlock": "Unlocked after completing Difficulty 2.",
-          "challenge": "Punishes weak front lines and parties that rely on only one source of damage.",
-          "preparation": "Add defensive support and develop a secondary damage option before later bosses."
-        },
-        {
-          "name": "Difficulty 4",
-          "unlock": "Unlocked after completing Difficulty 3.",
-          "challenge": "Requires stronger rank upgrades, specialization synergy, and more careful combat preparation.",
-          "preparation": "Prioritize upgrades that improve the whole party instead of spreading resources across temporary recruits."
-        },
-        {
-          "name": "Difficulty 5",
-          "unlock": "Unlocked after completing Difficulty 4.",
-          "challenge": "Reduces the margin for inefficient shops, poorly matched relics, and incomplete class combinations.",
-          "preparation": "Plan a primary specialization direction early and keep enough resources available for important rerolls."
-        },
-        {
-          "name": "Difficulty 6",
-          "unlock": "Unlocked after completing Difficulty 5.",
-          "challenge": "Demands stronger answers to boss pressure and better scaling through the middle and late stages of a run.",
-          "preparation": "Combine dependable survival with equipment that continues gaining value as heroes receive more upgrades."
-        },
-        {
-          "name": "Difficulty 7",
-          "unlock": "Unlocked after completing Difficulty 6.",
-          "challenge": "Tests optimized multiclass combinations and exposes parties with narrow or conditional strategies.",
-          "preparation": "Use flexible items and relics, maintain more than one win condition, and respec heroes when the composition changes."
-        },
-        {
-          "name": "Difficulty 8",
-          "unlock": "Unlocked after completing Difficulty 7.",
-          "challenge": "Represents the hardest standard difficulty and requires an efficient build from recruitment through the final boss progression.",
-          "preparation": "Minimize wasted purchases, complete core specialization combinations, and enter late encounters with both damage and sustain fully developed."
-        },
-        {
-          "name": "Endless Mode",
-          "unlock": "Reached through successful progression beyond the standard run structure.",
-          "challenge": "Continues combat after normal boss progression while enemy pressure and long-run demands keep increasing.",
-          "preparation": "Favor scalable class bonuses, repeated-attack effects, strong sustain, and relic combinations that remain useful throughout an extended run.",
-          "goal": "Survive as long as possible and maximize the run leaderboard score."
-        }
-      ]
-    },
-    "guildrunUpdatesAndPatchNotes": {
-      "title": "Guildrun Updates and Patch Notes",
-      "intro": "Guildrun update coverage is organized by the part of the game affected. Players should review hero balance, specialization changes, equipment adjustments, mode updates, and bug fixes before reusing an older build or tier list.",
-      "updates": [
-        {
-          "date": "Weekly update cycle",
-          "title": "Hero Balance Updates",
-          "category": "Balance",
-          "changes": "Tracks adjustments to hero performance, combat roles, rank upgrades, and ability behavior.",
-          "impact": "Damage, tank, healer, and support rankings may change when a hero receives stronger or weaker scaling."
-        },
-        {
-          "date": "Weekly update cycle",
-          "title": "Specialization and Class Changes",
-          "category": "Builds",
-          "changes": "Tracks specialization tuning, multiclass interactions, upgrade paths, ability keywords, and respec-related changes.",
-          "impact": "Existing class combinations may gain new synergies or require a different upgrade order."
-        },
-        {
-          "date": "Weekly update cycle",
-          "title": "Item and Relic Adjustments",
-          "category": "Equipment",
-          "changes": "Tracks power changes, rarity adjustments, effect revisions, and compatibility with different heroes or classes.",
-          "impact": "Tier placements can move when universal effects, economy relics, or class-scaling equipment are rebalanced."
-        },
-        {
-          "date": "Content update",
-          "title": "New Heroes and Equipment",
-          "category": "New Content",
-          "changes": "Covers newly added heroes, specialization options, items, relics, and related gameplay systems.",
-          "impact": "New additions can create stronger party roles, multiclass combinations, and late-game strategies."
-        },
-        {
-          "date": "Feature update",
-          "title": "Difficulty and Endless Mode Changes",
-          "category": "Game Modes",
-          "changes": "Tracks difficulty modifiers, boss progression, Endless Mode scaling, scoring, and leaderboard-related adjustments.",
-          "impact": "Recommended preparation and equipment priorities may change when high-difficulty or long-run scaling is adjusted."
-        },
-        {
-          "date": "Maintenance update",
-          "title": "Bug Fixes and Stability",
-          "category": "Fixes",
-          "changes": "Covers combat errors, ability interactions, interface problems, progression issues, and general stability improvements.",
-          "impact": "Fixes can restore intended hero, specialization, item, or relic behavior and change results from previous builds."
-        },
-        {
-          "date": "Beta update",
-          "title": "Demo and Beta Development",
-          "category": "Development",
-          "changes": "Tracks experimental features, feedback-driven revisions, demo improvements, and systems being prepared for later releases.",
-          "impact": "Beta changes may introduce new mechanics that affect progression strategies and future tier lists."
-        }
-      ]
-    }
-  },
-  "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Guildrun",
-    "questions": [
-      {
-        "question": "What is Guildrun?",
-        "answer": "Guildrun is a single-player PvE roguelike autobattler from Leyline. You recruit heroes, develop their specialization paths, equip items and relics, then watch automatic combat clear escalating rifts."
-      },
-      {
-        "question": "Is there a free Guildrun demo?",
-        "answer": "Yes. The Guildrun Demo is a free standalone download on Steam that covers recruitment, shop decisions, upgrades, specializations, items, relics and automatic combat before the full release."
-      },
-      {
-        "question": "When is the full Guildrun release date?",
-        "answer": "The full version of Guildrun is targeting a 2027 release on PC via Steam. You can follow or wishlist the main Guildrun store page for future release announcements."
-      },
-      {
-        "question": "How many heroes and specializations does Guildrun have?",
-        "answer": "Guildrun is planned around 25 recruitable heroes, 75 specialization paths and 180 specialization choices, plus more than 100 items and more than 300 relics that shape every run."
-      },
-      {
-        "question": "Does Guildrun support co-op or multiplayer?",
-        "answer": "Co-op is part of the planned development scope for Guildrun. The current free demo is a single-player experience, with multiplayer features intended for the full release."
-      },
-      {
-        "question": "What is Endless Mode in Guildrun?",
-        "answer": "Endless Mode extends a Guildrun run beyond normal boss progression while enemy pressure keeps increasing. It favors scalable class bonuses, repeated-attack effects and strong sustain to maximize the leaderboard score."
-      }
-    ]
-  },
-  "cta": {
-    "title": "Ready to Play Guildrun?",
-    "description": "Join the Guildrun community on Discord and master the PvE roguelike autobattler with our hero guides, build tips, relic tier lists, and specialization breakdowns.",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play Free Demo on Steam"
-  },
-  "footer": {
-    "title": "Guildrun Wiki",
-    "description": "Your complete resource hub for Guildrun heroes, builds, relics, items, specializations, and team synergy guides.",
-    "resources": "Resources",
-    "community": "Community",
-    "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
-    "about": "About",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Guildrun Wiki. Not affiliated with Leyline or the developers of Guildrun.",
-    "disclaimer": "Unofficial fan-made resource website."
-  },
-  "pages": {
-    "guides": {
-      "title": "Guildrun Guides",
-      "description": "Complete Guildrun guides from beginner basics to advanced team builds, specialization paths, relic choices and Endless Mode strategies.",
-      "metaTitle": "Guildrun Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Guildrun guides covering beginner tips, hero recruitment, team builds, specialization paths and Endless Mode tactics for the PvE roguelike autobattler.",
-      "categoryLabel": "GUILD GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering recruitment, shop strategy, specialization paths, item and relic choices, and combat preparation for every stage of a Guildrun run.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand recruitment, the shop, specializations and the autobattle loop to avoid early mistakes",
-        "step2Title": "Build Better Teams",
-        "step2Description": "Follow proven compositions that adapt to random shop offers and relic drops",
-        "step3Title": "Master Higher Difficulties",
-        "step3Description": "Develop advanced strategies for the eight difficulty levels and Endless Mode"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Guildrun Team Builds",
-      "description": "Build strong Guildrun teams around class combinations, shared effects, protected carries and reserve pivots for every difficulty.",
-      "metaTitle": "Guildrun Best Team Builds - Compositions & Synergies",
-      "metaDescription": "Master Guildrun team building with proven compositions, positioning, item and relic plans, upgrade paths and pivot strategies for every run.",
-      "categoryLabel": "TEAM BUILDS",
-      "whatIs": "What are Team Builds?",
-      "whatIsDescription": "Team builds combine hero roles, specialization paths, items, relics, positioning and shared effects into repeatable structures that adapt to random shop offers.",
-      "why": "Why plan team builds?",
-      "whySteps": {
-        "step1Title": "Combine Hero Roles",
-        "step1Description": "Pair frontline, carry and support heroes into balanced compositions",
-        "step2Title": "Use Shared Effects",
-        "step2Description": "Activate class bonuses and effects that improve the entire party",
-        "step3Title": "Plan Pivots",
-        "step3Description": "Keep reserve heroes ready so the team can adapt mid-run"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Team Builds"
-    },
-    "items": {
-      "title": "Guildrun Items and Relics",
-      "description": "Detailed Guildrun equipment guides covering items, relics, rarity, scaling and the best picks for each hero and class.",
-      "metaTitle": "Guildrun Items & Relics - Equipment Tier List & Guide",
-      "metaDescription": "Complete Guildrun equipment database including items and relics ranked by power, flexibility, scaling and class compatibility for every build.",
-      "categoryLabel": "ITEMS & RELICS",
-      "whatIs": "What are Items and Relics?",
-      "whatIsDescription": "Comprehensive guides for the more than 100 items and more than 300 relics that modify hero performance, team effects and build direction across a run.",
-      "why": "Why check equipment guides?",
-      "whySteps": {
-        "step1Title": "Pick the Right Effects",
-        "step1Description": "Choose items and relics that support the whole team, not isolated stats",
-        "step2Title": "Match Your Class",
-        "step2Description": "Select equipment that scales with your specialization direction",
-        "step3Title": "Plan Late-Game Scaling",
-        "step3Description": "Build toward effects that stay useful in Endless Mode"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items & Relics"
-    },
-    "biomes": {
-      "title": "Guildrun Heroes",
-      "description": "Explore the Guildrun hero roster, starting roles, specialization paths, ideal items and team fit for every recruitable hero.",
-      "metaTitle": "Guildrun Heroes - Roles, Specializations & Tier List",
-      "metaDescription": "Explore all Guildrun heroes with starting roles, strongest specialization paths, ideal items and team fit ranked in a complete hero tier list.",
-      "categoryLabel": "HEROES",
-      "whatIs": "What are Heroes?",
-      "whatIsDescription": "Guides to the 25 recruitable Guildrun heroes, their starting roles, specialization paths, ideal items and the team compositions where each hero performs best.",
-      "why": "Why study heroes?",
-      "whySteps": {
-        "step1Title": "Understand Roles",
-        "step1Description": "Learn the frontline, damage, support and utility jobs each hero fills",
-        "step2Title": "Choose Specializations",
-        "step2Description": "Pick specialization paths that strengthen the hero main job",
-        "step3Title": "Build Around Strengths",
-        "step3Description": "Match heroes to items, relics and formations that amplify them"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Heroes"
-    },
-    "building": {
-      "title": "Guildrun Specializations",
-      "description": "Master Guildrun classes, rank upgrades, specialization paths, multiclass combinations and respec priorities for every hero role.",
-      "metaTitle": "Guildrun Specializations - Classes, Paths & Respec Guide",
-      "metaDescription": "Master Guildrun specializations with class roles, rank upgrades, specialization paths, multiclass combinations and respec priorities for every party.",
-      "categoryLabel": "SPECIALIZATIONS",
-      "whatIs": "What are Specializations?",
-      "whatIsDescription": "Guides to the 75 specialization paths and 180 specialization choices that turn recruits into tanks, healers, ranged attackers, duelists, assassins and hybrids.",
-      "why": "Why plan specializations?",
-      "whySteps": {
-        "step1Title": "Define Hero Roles",
-        "step1Description": "Use rank upgrades to focus each hero on a clear job",
-        "step2Title": "Combine Classes",
-        "step2Description": "Build multiclass heroes that fill two party needs",
-        "step3Title": "Respec Smartly",
-        "step3Description": "Adjust specialization choices when the party or bosses change"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Specializations"
-    },
-    "support": {
-      "title": "Guildrun Difficulty and Endless",
-      "description": "Guildrun difficulty guides, modifiers, boss progression and Endless Mode strategy for players pushing the hardest content.",
-      "metaTitle": "Guildrun Difficulty & Endless Mode - Challenge Guide",
-      "metaDescription": "Complete Guildrun challenge guide covering the eight difficulty levels, unlock requirements, modifiers, boss progression and Endless Mode strategy.",
-      "categoryLabel": "DIFFICULTY",
-      "whatIs": "What are Difficulty Levels?",
-      "whatIsDescription": "Guides to the eight escalating difficulty levels, their unlock requirements, added modifiers and boss progression, plus Endless Mode strategy and leaderboard scoring.",
-      "why": "Why push difficulty?",
-      "whySteps": {
-        "step1Title": "Unlock Higher Levels",
-        "step1Description": "Complete each difficulty to unlock the next challenge tier",
-        "step2Title": "Handle Modifiers",
-        "step2Description": "Prepare for stronger enemies and stricter resource limits",
-        "step3Title": "Conquer Endless Mode",
-        "step3Description": "Build scalable parties that survive the longest possible runs"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Difficulty Guides"
-    }
-  }
+	"seo": {
+		"home": {
+			"title": "Guildrun Wiki - Heroes, Builds, Relics & Tier List",
+			"description": "Guildrun Wiki covers the best heroes, builds, relics, items, specializations, team synergies, difficulty progression, demo tips, and weekly updates.",
+			"keywords": "Guildrun, Guildrun wiki, heroes, builds, relics, items, tier list, demo, Steam",
+			"ogTitle": "Guildrun Wiki - Heroes, Builds, Relics & Tier List",
+			"ogDescription": "Guildrun Wiki covers the best heroes, builds, relics, items, specializations, team synergies, difficulty progression, demo tips, and weekly updates for the PvE roguelike autobattler on Steam.",
+			"twitterTitle": "Guildrun Wiki - Heroes, Builds, Relics & Tier List",
+			"twitterDescription": "Guildrun Wiki covers the best heroes, builds, relics, items, specializations, and team synergies for the PvE roguelike autobattler on Steam."
+		}
+	},
+	"nav": {
+		"guide": "Guide",
+		"tiers": "Tiers",
+		"release": "Release",
+		"builds": "Builds",
+		"combat": "Combat",
+		"mechanics": "Mechanics",
+		"steam": "Steam"
+	},
+	"common": {
+		"home": "Home",
+		"more": "More",
+		"playNow": "Play on Steam",
+		"switchLanguage": "Switch Language",
+		"switchTheme": "Switch Theme",
+		"lightMode": "Light Mode",
+		"darkMode": "Dark Mode",
+		"notFound": "Page Not Found",
+		"notFoundDescription": "The page you are looking for does not exist.",
+		"backToHome": "Back to Home",
+		"relatedArticles": "Related Articles",
+		"readMore": "Read More",
+		"articlesComingSoon": "Articles coming soon"
+	},
+	"hero": {
+		"badge": "PvE Roguelike Autobattler",
+		"title": "Guildrun Wiki",
+		"description": "Build a flexible guild of heroes, combine specializations, items and relics, adapt your strategy during every run, clear escalating rifts and challenge Endless mode.",
+		"keywords": "Guildrun, Steam, PvE autobattler, roguelike, heroes, builds, relics, specializations, tier list",
+		"getFreeCodesCTA": "Download Free Demo",
+		"playOnSteamCTA": "Play on Steam",
+		"stats": {
+			"stat1": {
+				"value": "7,184",
+				"label": "Players Online"
+			},
+			"stat2": {
+				"value": "8,007",
+				"label": "Peak CCU"
+			},
+			"stat3": {
+				"value": "96%",
+				"label": "Positive Reviews"
+			},
+			"stat4": {
+				"value": "25",
+				"label": "Heroes Available"
+			}
+		}
+	},
+	"gameFeature": {
+		"title": "Guildrun Gameplay",
+		"description": "Recruit heroes, develop specialization paths, combine items and relics, and clear escalating rifts in this single-player PvE roguelike autobattler on Steam."
+	},
+	"tools": {
+		"title": "Guildrun",
+		"titleHighlight": "Wiki",
+		"subtitle": "Everything you need to master Guildrun, from your first run to Endless Mode",
+		"cards": [
+			{
+				"icon": "BookOpen",
+				"title": "Guildrun Beginner Guide",
+				"description": "Recruitment, shop, specializations and your first successful run"
+			},
+			{
+				"icon": "Gamepad2",
+				"title": "Guildrun Demo & Release",
+				"description": "Free Steam demo, platforms, full release window and carryover"
+			},
+			{
+				"icon": "Trophy",
+				"title": "Guildrun Heroes Tier List",
+				"description": "Hero rankings by scaling, flexibility, survivability and utility"
+			},
+			{
+				"icon": "Swords",
+				"title": "Guildrun Best Team Builds",
+				"description": "Compositions, positioning, items, relics and pivot plans"
+			},
+			{
+				"icon": "Shield",
+				"title": "Guildrun Specializations",
+				"description": "Class roles, rank upgrades, paths, multiclass and respec"
+			},
+			{
+				"icon": "Gem",
+				"title": "Guildrun Items & Relics",
+				"description": "Equipment tier list by power, flexibility and class fit"
+			},
+			{
+				"icon": "Flame",
+				"title": "Guildrun Difficulty & Endless",
+				"description": "Eight difficulty levels, modifiers and Endless Mode strategy"
+			},
+			{
+				"icon": "Clock",
+				"title": "Guildrun Updates",
+				"description": "Weekly patches, balance changes, new heroes and roadmap"
+			}
+		]
+	},
+	"modules": {
+		"guildrunBeginnerGuide": {
+			"title": "Guildrun Beginner Guide",
+			"intro": "Guildrun is a single-player PvE roguelike autobattler built around recruiting heroes, preparing a team and adapting to random shop choices. The full game is planned to feature 25 heroes, 75 specialization paths, 180 specializations, more than 100 items and more than 300 relics.",
+			"steps": [
+				{
+					"title": "Recruit a Balanced Starting Team",
+					"description": "Begin with heroes that cover three basic jobs: a durable frontline, a dependable damage dealer and a support or utility unit. Avoid filling every slot with fragile damage heroes, because unprotected carries can be defeated before their damage becomes useful.",
+					"priority": "Frontline first, dependable damage second, utility third",
+					"mistake": "Buying every hero offered without considering the team role it fills"
+				},
+				{
+					"title": "Check the Shop Before Committing",
+					"description": "Review the full shop before spending resources. Compare new recruits, duplicate upgrades, items and long-term specialization options, then choose the purchase that improves the entire team rather than a single weak unit.",
+					"priority": "Buy immediate power before speculative upgrades",
+					"mistake": "Using repeated rerolls early and leaving too few resources for upgrades"
+				},
+				{
+					"title": "Build Around the Strongest Offers",
+					"description": "Do not force the same composition every run. Use the heroes, relics and items that appear naturally, then change direction when the shop repeatedly offers a stronger class combination or shared effect.",
+					"priority": "Flexible upgrades and shared team effects",
+					"mistake": "Holding resources for one exact hero, item or specialization"
+				},
+				{
+					"title": "Choose Specializations With a Clear Purpose",
+					"description": "Guildrun heroes can develop through multiple specialization paths. Select paths that strengthen the hero current job, such as survivability for a frontline unit, consistent damage for a carry or team-wide value for a support.",
+					"priority": "Complete one useful role before spreading upgrades across several roles",
+					"mistake": "Choosing unrelated bonuses that do not support the hero position or team"
+				},
+				{
+					"title": "Equip Items and Relics Before Combat",
+					"description": "Place defensive equipment on heroes that absorb the opening attacks and offensive equipment on heroes that remain alive long enough to use it. Relics should support the whole composition, resource plan or specialization direction whenever possible.",
+					"priority": "Survival for the frontline and scaling for the main carry",
+					"mistake": "Giving rare items to a hero that does not benefit from their effect"
+				},
+				{
+					"title": "Prepare Positioning and Reserve Units",
+					"description": "Arrange durable heroes where they can intercept pressure and keep important damage or support heroes protected. Use reserve units as replacements, future specialization options or answers to fights where the current lineup performs poorly.",
+					"priority": "Protect the main damage source",
+					"mistake": "Using the same formation against every encounter"
+				},
+				{
+					"title": "Learn From the First Completed Run",
+					"description": "After each battle, identify whether the team lacked damage, durability or synergy. Spend Shards and other run resources on upgrades that improve future consistency, then progress toward higher difficulties and Endless mode after the basic loop feels stable.",
+					"priority": "Consistent progress before high-risk strategies",
+					"mistake": "Changing the entire team after one bad fight instead of fixing its weakest role"
+				}
+			],
+			"quickTips": [
+				"Stabilize a frontline before chasing expensive damage upgrades.",
+				"Compare every shop offer against your whole team, not just one weak hero.",
+				"Keep enough resources for important rerolls instead of spending early.",
+				"Use reserve heroes to answer difficult encounters instead of forcing one formation."
+			]
+		},
+		"guildrunDemoAndRelease": {
+			"title": "Guildrun Demo and Release Date",
+			"intro": "Players can download the standalone Guildrun Demo through Steam and experience the core roguelike autobattler loop before the full release. The complete version is planned to expand the roster, progression systems, difficulty options and multiplayer features.",
+			"cards": [
+				{
+					"name": "Free Demo",
+					"value": "Available on Steam",
+					"description": "The Guildrun Demo is a free standalone download that introduces hero recruitment, shop decisions, upgrades, specializations, items, relics and automatic combat.",
+					"status": "Available"
+				},
+				{
+					"name": "Full-Game Release Window",
+					"value": "2027",
+					"description": "The full version of Guildrun is targeting a 2027 release. The main Steam page can be followed or wishlisted for future release announcements.",
+					"status": "Planned"
+				},
+				{
+					"name": "Platform",
+					"value": "PC via Steam",
+					"description": "Both the demo and the main Guildrun store listing are available through Steam.",
+					"status": "Confirmed"
+				},
+				{
+					"name": "Planned Hero Roster",
+					"value": "25 Heroes",
+					"description": "The full game is planned around a roster of 25 recruitable heroes that can be developed into different team roles.",
+					"status": "Full Game"
+				},
+				{
+					"name": "Specialization Content",
+					"value": "75 Paths / 180 Choices",
+					"description": "Heroes can be developed through 75 specialization paths containing 180 specialization choices, allowing teams to change direction during a run.",
+					"status": "Full Game"
+				},
+				{
+					"name": "Items and Relics",
+					"value": "100+ Items / 300+ Relics",
+					"description": "Runs are shaped by more than 100 items and more than 300 relics that modify hero performance, team effects and build direction.",
+					"status": "Full Game"
+				},
+				{
+					"name": "Difficulty and Endless Mode",
+					"value": "8 Difficulties",
+					"description": "Guildrun is planned to include eight difficulty levels and an Endless mode for players who want longer and more demanding runs.",
+					"status": "Full Game"
+				},
+				{
+					"name": "Co-op",
+					"value": "Planned Feature",
+					"description": "Co-op is included in the game planned development scope rather than the current single-player demo experience.",
+					"status": "In Development"
+				}
+			]
+		},
+		"guildrunHeroesTierList": {
+			"title": "Guildrun Heroes Tier List",
+			"intro": "Guildrun is designed around 25 heroes and 75 specialization paths, so a hero value depends on more than starting damage. This tier structure highlights the hero profiles that provide the most consistent results when shop offers, relics and team combinations change between runs.",
+			"tiers": [
+				{
+					"tier": "S",
+					"label": "Run-Defining Heroes",
+					"profile": "Flexible carries, durable frontline anchors and supports with strong team-wide effects",
+					"reason": "These heroes contribute immediately, scale through several specialization paths and remain useful even when ideal items do not appear.",
+					"paths": [
+						"Flexible damage scaling",
+						"Reliable frontline durability",
+						"Team-wide utility"
+					],
+					"items": "Items that improve the hero existing role without requiring a narrow combination",
+					"fit": "Can become the main carry, primary tank or central support in several compositions"
+				},
+				{
+					"tier": "A",
+					"label": "Strong and Consistent Heroes",
+					"profile": "Dependable damage dealers, secondary frontliners and focused support heroes",
+					"reason": "These heroes perform well in most runs but usually need suitable positioning, one strong specialization path or a compatible frontline.",
+					"paths": [
+						"Single-role specialization",
+						"Consistent damage or protection",
+						"Shared-effect support"
+					],
+					"items": "Role-specific items that improve damage consistency, survivability or support uptime",
+					"fit": "Excellent alongside an S-tier anchor or as the second major piece of a balanced team"
+				},
+				{
+					"tier": "B",
+					"label": "Build-Dependent Heroes",
+					"profile": "Heroes that become powerful with the correct relics, items, shared effects or specialization sequence",
+					"reason": "Their ceiling can be high, but their early performance is less consistent and they may consume too many resources before the build becomes stable.",
+					"paths": [
+						"Synergy-focused specialization",
+						"Relic-dependent scaling",
+						"Late-run carry development"
+					],
+					"items": "Specific items that activate the hero main scaling mechanic",
+					"fit": "Best used when the shop repeatedly supports the same build direction"
+				},
+				{
+					"tier": "C",
+					"label": "Situational Heroes",
+					"profile": "Narrow counters, fragile specialists and heroes that require several exact upgrades",
+					"reason": "These heroes can solve particular encounters but are harder to use during a first run because their strength depends on precise support.",
+					"paths": [
+						"Encounter-specific utility",
+						"High-risk damage",
+						"Narrow shared-effect builds"
+					],
+					"items": "Highly specialized equipment that fixes a major weakness or enables a specific interaction",
+					"fit": "Reserve unit, temporary specialist or final piece of an already established composition"
+				},
+				{
+					"tier": "Score",
+					"label": "How Each Hero Is Scored",
+					"profile": "Every hero is compared across the same six categories",
+					"reason": "A useful tier list measures complete run performance rather than one successful battle.",
+					"paths": [
+						"Early strength",
+						"Scaling potential",
+						"Flexibility",
+						"Survivability",
+						"Damage",
+						"Team utility"
+					],
+					"items": "Item dependence is treated as a weakness when a hero needs several exact drops",
+					"fit": "Heroes rank higher when they work in multiple formations and specialization routes"
+				}
+			]
+		},
+		"guildrunBestTeamBuilds": {
+			"title": "Guildrun Best Team Builds",
+			"intro": "Guildrun team building combines hero roles, specialization paths, items, relics, positioning and shared effects. These compositions focus on repeatable structures rather than requiring one exact set of shop choices.",
+			"builds": [
+				{
+					"name": "Balanced First-Run Team",
+					"roles": [
+						"Primary frontline",
+						"Main damage carry",
+						"Support or utility hero",
+						"Flexible reserve unit"
+					],
+					"positioning": "Place the most durable hero in the exposed position, keep the main carry protected and position the support where it can survive long enough to provide value.",
+					"items": "Defensive items go to the frontline, consistent damage items go to the carry and utility items go to the support.",
+					"relics": "Choose relics that improve the whole team or provide dependable resources between battles.",
+					"upgrade": "Stabilize the frontline first, then improve carry damage and finally add utility.",
+					"alternatives": "Replace missing roles with any hero whose specialization can perform the same job."
+				},
+				{
+					"name": "Lovers Shared-Effect Build",
+					"roles": [
+						"Two heroes activating Lovers",
+						"Frontline protector",
+						"Secondary damage or support hero"
+					],
+					"positioning": "Keep the Lovers pair protected and avoid exposing both linked heroes to the same opening pressure.",
+					"items": "Give survival tools to the more vulnerable member and scaling items to the hero providing the composition main damage.",
+					"relics": "Prioritize relics that improve shared effects, survivability or the entire active team.",
+					"upgrade": "Activate the shared effect, secure a frontline and then invest in the stronger scaling member of the pair.",
+					"alternatives": "Transition into a balanced team if the required pair or supporting upgrades stop appearing."
+				},
+				{
+					"name": "Single-Carry Scaling Build",
+					"roles": [
+						"One main carry",
+						"Two protective frontline or utility heroes",
+						"Reserve replacement"
+					],
+					"positioning": "Place every supporting hero to delay enemies and create maximum attack time for the carry.",
+					"items": "Concentrate the best offensive items on one hero instead of dividing them between several average damage dealers.",
+					"relics": "Use relics that improve damage scaling, item value or the carry survival.",
+					"upgrade": "Upgrade the carry strongest specialization path while spending only enough resources to keep the frontline stable.",
+					"alternatives": "Promote a second carry when the shop stops offering useful upgrades for the original one."
+				},
+				{
+					"name": "Double-Frontline Control Build",
+					"roles": [
+						"Primary tank",
+						"Secondary frontline hero",
+						"Backline damage hero",
+						"Support or reserve specialist"
+					],
+					"positioning": "Split incoming pressure between two durable heroes while keeping the damage dealer away from the initial attack.",
+					"items": "Distribute defensive items according to which frontline hero takes the most pressure, then place remaining damage items on the backline carry.",
+					"relics": "Select relics that reward longer battles, durable heroes or repeated team action.",
+					"upgrade": "Improve both frontline heroes enough to survive, then scale the protected damage hero.",
+					"alternatives": "Convert the weaker frontline slot into support when additional durability is no longer required."
+				},
+				{
+					"name": "Relic-Driven Flex Build",
+					"roles": [
+						"Heroes matching the strongest relic effects",
+						"One stable frontline",
+						"One adaptable carry",
+						"Multiple reserve options"
+					],
+					"positioning": "Position around the active relic effects rather than following a fixed formation from the beginning of the run.",
+					"items": "Use items to strengthen the heroes already benefiting from the relic package.",
+					"relics": "Build around repeated relic themes instead of selecting individually strong relics with no connection.",
+					"upgrade": "Commit only after two or more relics support the same strategy.",
+					"alternatives": "Return to a balanced team when relic effects remain scattered."
+				},
+				{
+					"name": "Reserve and Pivot Build",
+					"roles": [
+						"Stable three-hero core",
+						"Two or more reserve candidates",
+						"Alternative carry",
+						"Alternative support or frontline"
+					],
+					"positioning": "Keep the active formation simple and swap reserve heroes in when an encounter or specialization offer favors them.",
+					"items": "Avoid locking every valuable item onto a temporary hero before the final composition is clear.",
+					"relics": "Prefer flexible relics that remain useful after changing heroes.",
+					"upgrade": "Upgrade the stable core first and delay expensive reserve investments until a clear pivot appears.",
+					"alternatives": "Use reserve heroes to replace weak links instead of rebuilding the entire team."
+				}
+			]
+		},
+		"guildrunSpecializationsAndClasses": {
+			"title": "Guildrun Specializations and Classes",
+			"intro": "Rank upgrades can change a hero from a basic recruit into a focused tank, healer, ranged attacker, duelist, assassin, or hybrid unit. The strongest parties use complementary specializations rather than upgrading every hero toward the same type of damage.",
+			"classes": [
+				{
+					"role": "Tank",
+					"job": "Hold the front line, absorb pressure, and protect fragile allies.",
+					"focus": "Durability, damage reduction, control, and defensive team support.",
+					"multiclass": "Combines well with healing or support paths that improve survival during long fights.",
+					"upgrade": "Defensive rank upgrades first, followed by control or team-protection effects.",
+					"respec": "Respec when the party already has enough defense or when later bosses require more damage."
+				},
+				{
+					"role": "Healer",
+					"job": "Restore health and keep the party stable through extended encounters.",
+					"focus": "Healing strength, healing frequency, protection, and team sustain.",
+					"multiclass": "Pairs with defensive or damage-support paths to provide value between healing actions.",
+					"upgrade": "Dependable healing and survival first, followed by party-wide bonuses.",
+					"respec": "Respec when healing exceeds the party needs or when faster battles make offensive support more valuable."
+				},
+				{
+					"role": "Ranged",
+					"job": "Deal consistent damage from a safer position behind the front line.",
+					"focus": "Attack speed, ranged damage, target coverage, and sustained scaling.",
+					"multiclass": "Works well with class bonuses, attack-speed effects, and paths that improve repeated attacks.",
+					"upgrade": "Consistent damage upgrades before narrow effects that only work against specific targets.",
+					"respec": "Respec when the build lacks protection or when single-target boss damage becomes more important than general damage."
+				},
+				{
+					"role": "Duelist",
+					"job": "Pressure dangerous individual enemies through strong single-target combat.",
+					"focus": "Direct damage, repeated attacks, survivability, and extended one-on-one pressure.",
+					"multiclass": "Benefits from defensive secondary paths that allow the hero to continue attacking under pressure.",
+					"upgrade": "Damage consistency first, followed by defensive upgrades that prevent interrupted attacks.",
+					"respec": "Respec when encounters contain large enemy groups or when the party needs stronger area coverage."
+				},
+				{
+					"role": "Assassin",
+					"job": "Remove vulnerable or high-priority targets with concentrated burst damage.",
+					"focus": "Burst damage, target access, finishing power, and offensive scaling.",
+					"multiclass": "Pairs with flexible damage or attack-speed paths that remain useful after the opening burst.",
+					"upgrade": "Dependable finishing power before highly conditional damage bonuses.",
+					"respec": "Respec when enemies survive the opening attack or when longer fights reward sustained damage."
+				},
+				{
+					"role": "Hybrid",
+					"job": "Fill two party needs through multiclass combinations and flexible specialization choices.",
+					"focus": "Balanced damage, support, defense, or healing selected around the current party.",
+					"multiclass": "Provides the greatest flexibility when shops and recruitment do not offer a perfect team composition.",
+					"upgrade": "Choose upgrades that solve the party biggest weakness instead of splitting resources evenly.",
+					"respec": "Respec after major recruitment changes so the hero continues to fill a useful role."
+				}
+			]
+		},
+		"guildrunItemsAndRelicsTierList": {
+			"title": "Guildrun Items and Relics Tier List",
+			"intro": "The best equipment improves an entire build instead of providing a small isolated stat increase. Flexible class bonuses, attack-speed scaling, dependable defense, healing support, and early economy effects remain useful across more heroes and difficulty levels.",
+			"tiers": [
+				{
+					"tier": "S",
+					"category": "Class-Scaling Relics",
+					"power": "Very high",
+					"flexibility": "High",
+					"bestWith": "Parties containing several heroes that share or benefit from the same class direction.",
+					"reason": "Class-wide scaling can improve multiple abilities and becomes stronger as the party gains ranks and specializations."
+				},
+				{
+					"tier": "S",
+					"category": "Flexible Attack-Speed Effects",
+					"power": "Very high",
+					"flexibility": "Very high",
+					"bestWith": "Ranged heroes, duelists, repeated attackers, and effects triggered by frequent attacks.",
+					"reason": "Attack speed increases direct damage while also activating compatible on-attack effects more often."
+				},
+				{
+					"tier": "S",
+					"category": "Early Economy Relics",
+					"power": "High",
+					"flexibility": "Very high",
+					"bestWith": "Runs acquired early enough to benefit from additional shops, rerolls, recruits, and upgrades.",
+					"reason": "Early economic advantages compound across the run and create more opportunities to complete powerful builds."
+				},
+				{
+					"tier": "S",
+					"category": "Universal Survival Effects",
+					"power": "Very high",
+					"flexibility": "Very high",
+					"bestWith": "Front-line heroes and parties attempting higher difficulties or Endless Mode.",
+					"reason": "Dependable defense prevents failed runs and gives damage-focused heroes more time to scale."
+				},
+				{
+					"tier": "A",
+					"category": "Healing Amplification",
+					"power": "High",
+					"flexibility": "Medium",
+					"bestWith": "Dedicated healers, defensive parties, and long boss encounters.",
+					"reason": "Healing improvements provide strong sustain but lose value when the party has no dependable healing source."
+				},
+				{
+					"tier": "A",
+					"category": "Dedicated Damage Bonuses",
+					"power": "High",
+					"flexibility": "Medium",
+					"bestWith": "Specialized ranged, duelist, or assassin builds with a clear primary damage dealer.",
+					"reason": "Focused bonuses can create excellent carries but are less useful when recruitment forces a different composition."
+				},
+				{
+					"tier": "B",
+					"category": "Role-Specific Defensive Items",
+					"power": "Medium",
+					"flexibility": "Low",
+					"bestWith": "Tanks or heroes regularly exposed to enemy pressure.",
+					"reason": "These effects are useful on the correct hero but provide limited value when placed on protected back-line units."
+				},
+				{
+					"tier": "B",
+					"category": "Conditional Combat Relics",
+					"power": "Medium",
+					"flexibility": "Low",
+					"bestWith": "Builds that can activate the relic condition consistently.",
+					"reason": "Their maximum output can be strong, but missed conditions make them less consistent than universal effects."
+				},
+				{
+					"tier": "C",
+					"category": "Low-Impact Single-Stat Items",
+					"power": "Low",
+					"flexibility": "Medium",
+					"bestWith": "Temporary early-game equipment slots before stronger options appear.",
+					"reason": "Small isolated bonuses are quickly replaced and rarely influence late-game specialization or Endless Mode scaling."
+				}
+			]
+		},
+		"guildrunDifficultyAndEndless": {
+			"title": "Guildrun Difficulty Levels and Endless Mode",
+			"intro": "Higher difficulties reward efficient recruitment, controlled spending, stronger specialization synergy, and better equipment choices. Endless Mode extends the run beyond normal progression and tests how long the party can survive while building a leaderboard score.",
+			"levels": [
+				{
+					"name": "Difficulty 1",
+					"unlock": "Available at the beginning.",
+					"challenge": "Uses the base progression structure and introduces the complete recruitment, shop, upgrade, and boss loop.",
+					"preparation": "Build a balanced party with a front line, dependable damage, and enough sustain to finish the first run."
+				},
+				{
+					"name": "Difficulty 2",
+					"unlock": "Unlocked after completing Difficulty 1.",
+					"challenge": "Begins the escalating difficulty path and places greater pressure on basic party construction.",
+					"preparation": "Avoid unnecessary rerolls and invest resources in heroes that already support the main build."
+				},
+				{
+					"name": "Difficulty 3",
+					"unlock": "Unlocked after completing Difficulty 2.",
+					"challenge": "Punishes weak front lines and parties that rely on only one source of damage.",
+					"preparation": "Add defensive support and develop a secondary damage option before later bosses."
+				},
+				{
+					"name": "Difficulty 4",
+					"unlock": "Unlocked after completing Difficulty 3.",
+					"challenge": "Requires stronger rank upgrades, specialization synergy, and more careful combat preparation.",
+					"preparation": "Prioritize upgrades that improve the whole party instead of spreading resources across temporary recruits."
+				},
+				{
+					"name": "Difficulty 5",
+					"unlock": "Unlocked after completing Difficulty 4.",
+					"challenge": "Reduces the margin for inefficient shops, poorly matched relics, and incomplete class combinations.",
+					"preparation": "Plan a primary specialization direction early and keep enough resources available for important rerolls."
+				},
+				{
+					"name": "Difficulty 6",
+					"unlock": "Unlocked after completing Difficulty 5.",
+					"challenge": "Demands stronger answers to boss pressure and better scaling through the middle and late stages of a run.",
+					"preparation": "Combine dependable survival with equipment that continues gaining value as heroes receive more upgrades."
+				},
+				{
+					"name": "Difficulty 7",
+					"unlock": "Unlocked after completing Difficulty 6.",
+					"challenge": "Tests optimized multiclass combinations and exposes parties with narrow or conditional strategies.",
+					"preparation": "Use flexible items and relics, maintain more than one win condition, and respec heroes when the composition changes."
+				},
+				{
+					"name": "Difficulty 8",
+					"unlock": "Unlocked after completing Difficulty 7.",
+					"challenge": "Represents the hardest standard difficulty and requires an efficient build from recruitment through the final boss progression.",
+					"preparation": "Minimize wasted purchases, complete core specialization combinations, and enter late encounters with both damage and sustain fully developed."
+				},
+				{
+					"name": "Endless Mode",
+					"unlock": "Reached through successful progression beyond the standard run structure.",
+					"challenge": "Continues combat after normal boss progression while enemy pressure and long-run demands keep increasing.",
+					"preparation": "Favor scalable class bonuses, repeated-attack effects, strong sustain, and relic combinations that remain useful throughout an extended run.",
+					"goal": "Survive as long as possible and maximize the run leaderboard score."
+				}
+			]
+		},
+		"guildrunUpdatesAndPatchNotes": {
+			"title": "Guildrun Updates and Patch Notes",
+			"intro": "Guildrun update coverage is organized by the part of the game affected. Players should review hero balance, specialization changes, equipment adjustments, mode updates, and bug fixes before reusing an older build or tier list.",
+			"updates": [
+				{
+					"date": "Weekly update cycle",
+					"title": "Hero Balance Updates",
+					"category": "Balance",
+					"changes": "Tracks adjustments to hero performance, combat roles, rank upgrades, and ability behavior.",
+					"impact": "Damage, tank, healer, and support rankings may change when a hero receives stronger or weaker scaling."
+				},
+				{
+					"date": "Weekly update cycle",
+					"title": "Specialization and Class Changes",
+					"category": "Builds",
+					"changes": "Tracks specialization tuning, multiclass interactions, upgrade paths, ability keywords, and respec-related changes.",
+					"impact": "Existing class combinations may gain new synergies or require a different upgrade order."
+				},
+				{
+					"date": "Weekly update cycle",
+					"title": "Item and Relic Adjustments",
+					"category": "Equipment",
+					"changes": "Tracks power changes, rarity adjustments, effect revisions, and compatibility with different heroes or classes.",
+					"impact": "Tier placements can move when universal effects, economy relics, or class-scaling equipment are rebalanced."
+				},
+				{
+					"date": "Content update",
+					"title": "New Heroes and Equipment",
+					"category": "New Content",
+					"changes": "Covers newly added heroes, specialization options, items, relics, and related gameplay systems.",
+					"impact": "New additions can create stronger party roles, multiclass combinations, and late-game strategies."
+				},
+				{
+					"date": "Feature update",
+					"title": "Difficulty and Endless Mode Changes",
+					"category": "Game Modes",
+					"changes": "Tracks difficulty modifiers, boss progression, Endless Mode scaling, scoring, and leaderboard-related adjustments.",
+					"impact": "Recommended preparation and equipment priorities may change when high-difficulty or long-run scaling is adjusted."
+				},
+				{
+					"date": "Maintenance update",
+					"title": "Bug Fixes and Stability",
+					"category": "Fixes",
+					"changes": "Covers combat errors, ability interactions, interface problems, progression issues, and general stability improvements.",
+					"impact": "Fixes can restore intended hero, specialization, item, or relic behavior and change results from previous builds."
+				},
+				{
+					"date": "Beta update",
+					"title": "Demo and Beta Development",
+					"category": "Development",
+					"changes": "Tracks experimental features, feedback-driven revisions, demo improvements, and systems being prepared for later releases.",
+					"impact": "Beta changes may introduce new mechanics that affect progression strategies and future tier lists."
+				}
+			]
+		}
+	},
+	"faq": {
+		"title": "Frequently Asked",
+		"titleHighlight": "Questions",
+		"subtitle": "Everything you need to know about Guildrun",
+		"questions": [
+			{
+				"question": "What is Guildrun?",
+				"answer": "Guildrun is a single-player PvE roguelike autobattler from Leyline. You recruit heroes, develop their specialization paths, equip items and relics, then watch automatic combat clear escalating rifts."
+			},
+			{
+				"question": "Is there a free Guildrun demo?",
+				"answer": "Yes. The Guildrun Demo is a free standalone download on Steam that covers recruitment, shop decisions, upgrades, specializations, items, relics and automatic combat before the full release."
+			},
+			{
+				"question": "When is the full Guildrun release date?",
+				"answer": "The full version of Guildrun is targeting a 2027 release on PC via Steam. You can follow or wishlist the main Guildrun store page for future release announcements."
+			},
+			{
+				"question": "How many heroes and specializations does Guildrun have?",
+				"answer": "Guildrun is planned around 25 recruitable heroes, 75 specialization paths and 180 specialization choices, plus more than 100 items and more than 300 relics that shape every run."
+			},
+			{
+				"question": "Does Guildrun support co-op or multiplayer?",
+				"answer": "Co-op is part of the planned development scope for Guildrun. The current free demo is a single-player experience, with multiplayer features intended for the full release."
+			},
+			{
+				"question": "What is Endless Mode in Guildrun?",
+				"answer": "Endless Mode extends a Guildrun run beyond normal boss progression while enemy pressure keeps increasing. It favors scalable class bonuses, repeated-attack effects and strong sustain to maximize the leaderboard score."
+			}
+		]
+	},
+	"cta": {
+		"title": "Ready to Play Guildrun?",
+		"description": "Join the Guildrun community on Discord and master the PvE roguelike autobattler with our hero guides, build tips, relic tier lists, and specialization breakdowns.",
+		"joinCommunity": "Join Discord",
+		"joinGame": "Play Free Demo on Steam"
+	},
+	"footer": {
+		"title": "Guildrun Wiki",
+		"description": "Your complete resource hub for Guildrun heroes, builds, relics, items, specializations, and team synergy guides.",
+		"resources": "Resources",
+		"community": "Community",
+		"legal": "Legal",
+		"discord": "Discord",
+		"twitter": "X / Twitter",
+		"steamCommunity": "Steam Community",
+		"steamStore": "Steam Store",
+		"about": "About",
+		"privacy": "Privacy Policy",
+		"terms": "Terms of Service",
+		"copyrightNotice": "Copyright",
+		"copyright": "© 2026 Guildrun Wiki. Not affiliated with Leyline or the developers of Guildrun.",
+		"disclaimer": "Unofficial fan-made resource website."
+	},
+	"pages": {
+		"guide": {
+			"title": "Guildrun Guides",
+			"description": "Complete Guildrun guides covering beginner basics, first-run strategy, shop synergy, reroll priorities and advanced team-building tactics for the PvE roguelike autobattler.",
+			"metaTitle": "Guildrun Guides - Beginner to Advanced Strategy",
+			"metaDescription": "Master Guildrun with complete guides on first-run strategy, shop synergy, reroll priorities, hero recruitment and team-building tactics for the PvE roguelike autobattler.",
+			"categoryLabel": "GUILD GUIDES",
+			"whatIs": "What are Guildrun Guides?",
+			"whatIsDescription": "Guildrun guides walk you through every stage of a run, from your first hero recruitment and shop refreshes to specialized team builds, relic choices and combat preparation across escalating rifts.",
+			"why": "Why read Guildrun guides?",
+			"whySteps": {
+				"step1Title": "Master the First Run",
+				"step1Description": "Learn the core loop of recruitment, shop management, hex-grid positioning and battle preparation so your opening runs set up a strong economy and a viable team.",
+				"step2Title": "Optimize Shop and Resources",
+				"step2Description": "Discover when to refresh the shop, how to spend Shards efficiently, and which auction picks and early items deliver the highest value for your comp.",
+				"step3Title": "Build a Winning Strategy",
+				"step3Description": "Combine specialization paths, relic scaling and hero synergies into flexible strategies that adapt as the difficulty climbs toward SSS and Endless mode."
+			},
+			"featured": "Featured Guides",
+			"all": "All Guides"
+		},
+		"tiers": {
+			"title": "Guildrun Tier Lists",
+			"description": "Updated Guildrun tier lists ranking the best heroes, classes, items and relics by synergy, scaling and performance across every difficulty and Endless mode.",
+			"metaTitle": "Guildrun Tier List - Best Heroes, Classes, Items & Relics",
+			"metaDescription": "Compare the best Guildrun heroes, classes, items and relics with updated tier lists built around synergy, scaling and performance across every difficulty.",
+			"categoryLabel": "TIER LISTS",
+			"whatIs": "What are Guildrun Tier Lists?",
+			"whatIsDescription": "Guildrun tier lists rank heroes, classes, items and relics by their performance, synergy and scaling so you can quickly identify the strongest picks for your team and difficulty level.",
+			"why": "Why use Guildrun tier lists?",
+			"whySteps": {
+				"step1Title": "Pick the Best Heroes",
+				"step1Description": "See which of the 25 heroes sit in S-tier for front-line tanking, damage, healing and support, with rankings backed by real synergy and scaling data.",
+				"step2Title": "Rank Classes and Items",
+				"step2Description": "Compare specialization classes, items and relics side by side to find the highest-value picks that match your chosen build and team composition.",
+				"step3Title": "Plan Around the Meta",
+				"step3Description": "Use the rankings to anticipate which comps and relic packages perform best as balance shifts and new heroes enter the roster before the full release."
+			},
+			"featured": "Featured Tier Lists",
+			"all": "All Tier Lists"
+		},
+		"release": {
+			"title": "Guildrun Release",
+			"description": "Everything about the Guildrun release: the 2027 full launch window, free Steam demo access, pricing, platforms and how demo progress carries into the full game.",
+			"metaTitle": "Guildrun Release Date, Demo, Price & Progress Carryover",
+			"metaDescription": "Track the Guildrun 2027 full release window, free Steam demo, pricing, supported platforms and how your demo progress carries over into the launch version.",
+			"categoryLabel": "RELEASE INFO",
+			"whatIs": "What is the Guildrun release?",
+			"whatIsDescription": "The Guildrun release covers the free Steam demo currently available, the full 2027 launch roadmap, pricing, supported platforms and how heroes, mastery and meta progress carry over from demo to full game.",
+			"why": "Why follow the Guildrun release?",
+			"whySteps": {
+				"step1Title": "Try the Free Demo",
+				"step1Description": "Download the free Steam demo to experience recruitment, shop strategy and escalating rifts before committing to the full release.",
+				"step2Title": "Track the 2027 Launch",
+				"step2Description": "Stay current on the full release window, price, platform support and the planned co-op mode as Leyline finalizes the launch roadmap.",
+				"step3Title": "Carry Your Progress",
+				"step3Description": "Understand exactly which difficulty progress, hero mastery and meta unlocks transfer from the demo into the full game so nothing goes to waste."
+			},
+			"featured": "Featured Release Guides",
+			"all": "All Release Guides"
+		},
+		"builds": {
+			"title": "Guildrun Builds",
+			"description": "Complete Guildrun build guides for every playstyle, including Nyx, Kai, Berserker, Mage, Assassin, Rush and One-Shot setups with specialization, relic and item picks.",
+			"metaTitle": "Guildrun Builds - Best Hero, Mage, Assassin & Tank Setups",
+			"metaDescription": "Build winning Guildrun teams with complete guides for Nyx, Kai, Berserker, Mage, Assassin, Rush and One-Shot setups, including specializations, relics and items.",
+			"categoryLabel": "TEAM BUILDS",
+			"whatIs": "What are Guildrun Builds?",
+			"whatIsDescription": "Guildrun builds are complete team setups that combine heroes, specialization paths, items and relics into synergistic comps designed to clear rifts, SSS difficulty and Endless mode.",
+			"why": "Why use Guildrun builds?",
+			"whySteps": {
+				"step1Title": "Pick a Proven Setup",
+				"step1Description": "Start from tested builds like the infinite-scaling Rush warrior, the shield-stacking Kai front line or the One-Shot Assassin crit carry instead of guessing.",
+				"step2Title": "Understand the Synergies",
+				"step2Description": "Learn why each build works, which specialization paths and relic packages drive its power, and how to pivot mid-run when the shop offers better options.",
+				"step3Title": "Scale Into Endless",
+				"step3Description": "Adapt your build as difficulty climbs, stacking the right relics and items so your comp keeps clearing escalating rifts and Endless mode waves."
+			},
+			"featured": "Featured Builds",
+			"all": "All Builds"
+		},
+		"combat": {
+			"title": "Guildrun Combat",
+			"description": "Guildrun combat guides for boss fights, SSS difficulty, Endless mode scaling and the best team comps to clear every encounter and survive high-difficulty rifts.",
+			"metaTitle": "Guildrun Combat - Boss Guide, SSS, Endless & Best Teams",
+			"metaDescription": "Beat every Guildrun encounter with combat guides on boss tactics, SSS difficulty, Endless mode scaling and the best team comps for high-difficulty rifts.",
+			"categoryLabel": "COMBAT GUIDES",
+			"whatIs": "What is Guildrun Combat?",
+			"whatIsDescription": "Guildrun combat covers boss mechanics, difficulty scaling, SSS challenges and Endless mode waves, plus the team comps and tactical adjustments needed to clear each encounter.",
+			"why": "Why study Guildrun combat?",
+			"whySteps": {
+				"step1Title": "Decode Boss Mechanics",
+				"step1Description": "Learn the attack patterns, weaknesses and phase transitions of bosses like the Omega Plexus Sentinel so you can position and counter effectively.",
+				"step2Title": "Conquer SSS Difficulty",
+				"step2Description": "Prepare the right build, relic package and team comp to handle the steep stat modifiers and enemy buffs that define SSS difficulty runs.",
+				"step3Title": "Survive Endless Mode",
+				"step3Description": "Master the scaling curve of Endless mode with infinite-scaling builds, defensive layers and resource management that keep your run alive wave after wave."
+			},
+			"featured": "Featured Combat Guides",
+			"all": "All Combat Guides"
+		},
+		"mechanics": {
+			"title": "Guildrun Mechanics",
+			"description": "Deep dives into Guildrun mechanics: the autobattler combat system, roguelike run structure, hero rank-up progression, AI behavior and meta progression systems.",
+			"metaTitle": "Guildrun Mechanics - Autobattler, Roguelike, AI & Rank Up",
+			"metaDescription": "Understand how Guildrun really works with mechanics guides on the autobattler combat system, roguelike run structure, hero rank-up, AI behavior and meta progression.",
+			"categoryLabel": "GAME MECHANICS",
+			"whatIs": "What are Guildrun Mechanics?",
+			"whatIsDescription": "Guildrun mechanics explain the systems behind the game: the automated battle resolution, roguelike run structure, hero rank-up progression, AI decision-making and the meta progression that persists between runs.",
+			"why": "Why learn Guildrun mechanics?",
+			"whySteps": {
+				"step1Title": "Understand the Autobattler",
+				"step1Description": "See how positioning, targeting and ability priority drive the automated combat so you can set up teams that win without manual input.",
+				"step2Title": "Master the Roguelike Loop",
+				"step2Description": "Learn how recruitment, shop rolls, relic drops and escalating rifts structure each run, and where to invest for the strongest long-term payoff.",
+				"step3Title": "Rank Up Heroes Efficiently",
+				"step3Description": "Follow the C to S rank-up path, specialization choices and Respec options to grow heroes into S-tier performers across your runs."
+			},
+			"featured": "Featured Mechanics Guides",
+			"all": "All Mechanics Guides"
+		},
+		"steam": {
+			"title": "Guildrun Steam",
+			"description": "Guildrun on Steam: live player counts and charts, SteamDB tracking, system requirements for PC and Steam Deck, and where to download the free demo.",
+			"metaTitle": "Guildrun Steam - Player Count, Charts, SteamDB & System Specs",
+			"metaDescription": "Track Guildrun on Steam with live player counts and charts, SteamDB stats, PC and Steam Deck system requirements, and the free demo download page.",
+			"categoryLabel": "STEAM HUB",
+			"whatIs": "What is Guildrun on Steam?",
+			"whatIsDescription": "Guildrun on Steam is the free demo and upcoming full release, complete with live player counts, review scores, SteamDB tracking and PC plus Steam Deck system requirements.",
+			"why": "Why track Guildrun on Steam?",
+			"whySteps": {
+				"step1Title": "Watch Player Trends",
+				"step1Description": "Follow live concurrent players, peak CCU and review sentiment on Steam Charts to gauge the meta and community interest as the game grows.",
+				"step2Title": "Check System Requirements",
+				"step2Description": "Confirm your PC or Steam Deck meets the minimum and recommended specs so the demo and full release run smoothly on your hardware.",
+				"step3Title": "Get the Free Demo",
+				"step3Description": "Download the free Steam demo directly from the official store page and start running rifts before the 2027 full release."
+			},
+			"featured": "Featured Steam Guides",
+			"all": "All Steam Guides"
+		}
+	}
 }

@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Roguelike: Tier-List, Builds & Einsteiger-Guide",
+  description: "Meistere das Guildrun-Roguelike mit unserer Tier-List, den besten Team-Builds, Spezialisierungen und Einsteiger-Tipps. Optimiere deine Helden, um eskalierende Risse zu bewältigen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/111a18/e8eeeb?text=Guildrun+Roguelike+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Kern-Loop**: Rekrutiere eine ausgewogene Truppe, verwalte dein Gold, wähle Spezialisierungen und kämpfe dich in diesem Guildrun-Roguelike durch automatische taktische Schlachten.
+- **Helden-Synergien**: Kombiniere Tanks, Carries und Supports, anstatt nur schadensstarke Einheiten ohne defensiven Nutzen anzuhäufen.
+- **Spezialisierungspfade**: Passe deine Strategie während der Runs an, indem du aus 75 Pfaden und 180 einzigartigen Spezialisierungen wählst.
+- **Demo-Zugang**: Spiele die kostenlose eigenständige Demo auf Steam, um die Mechaniken vor der vollständigen Veröffentlichung im Jahr 2027 kennenzulernen.
+</Callout>
+
+<Section icon={Sparkles} title="Guildrun Roguelike Übersicht & Steam-Demo">
+
+Guildrun ist ein Singleplayer-PvE-Roguelike-Autobattler, der von Leyline entwickelt wird. Das Spiel fordert die Spieler heraus, eine flexible Gilde von Helden aufzubauen, Spezialisierungen, Gegenstände und Relikte zu kombinieren und ihre Strategien bei jedem Run anzupassen, um immer schwierigere Risse (Rifts) zu bewältigen. 
+
+Bis zum 18. Juli 2026 hat die kostenlose eigenständige Steam-Demo eine hochaktive Spielerbasis aufrechterhalten, mit durchschnittlich 7.184 Spielern online und einem historischen Höchstwert von 8.007 gleichzeitigen Nutzern. Die Resonanz der Spieler ist überwältigend positiv, was zu einer positiven Bewertungsrate von 96 % auf Steam führt. Die Vollversion des Spiels ist für eine Veröffentlichung im Jahr 2027 geplant und wird die Tiefe der Mechaniken, die Anzahl der Helden und den Schwierigkeitsgrad erweitern.
+
+**Video-Highlights:**
+- Offizielles Gameplay-Material, das taktische, automatisierte Kämpfe zeigt.
+- Vorschau auf die vielfältige Heldenauswahl und die strategische Positionierung.
+- Demonstration der Upgrade-, Gegenstands- und Riss-Fortschrittssysteme.
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun - Offizieller Ankündigungs-Trailer" />
+
+Im Gegensatz zu vielen modernen Autobattlern, die auf Free-to-Play-Strukturen oder Mikrotransaktionen setzen, ist Guildrun als Premium-Singleplayer-Kaufspiel konzipiert. Das bedeutet, dass es keine aktiven Promo-Codes oder Einlösesysteme gibt. Der Fortschritt wird ausschließlich durch deine taktischen Entscheidungen, dein Ressourcenmanagement und deine Anpassungsfähigkeit beim Draften während der Runs bestimmt.
+
+<Callout type="success" title="Steam-Meilenstein">
+Die Steam-Demo hat eine positive Bewertungsrate von 96 % erreicht, was beweist, dass der taktische Kern-Loop und die Tiefe der Spezialisierungen bei Fans des Roguelike-Genres großen Anklang finden.
+</Callout>
+
+Um zu verstehen, wie sich die aktuelle Demo im Vergleich zur geplanten Vollversion schlägt, wirf einen Blick auf die folgende Feature-Übersicht.
+
+| Feature | Demo-Version | Geplante Vollversion (2027) |
+|---|---|---|
+| Heldenauswahl | Begrenzte Auswahl | 25 spielbare Helden |
+| Spezialisierungen | Kern-Upgrade-Pfade | 75 Pfade, 180 Optionen |
+| Ausrüstung | Basis-Gegenstände und Relikte | 100+ Gegenstände, 300+ Relikte |
+| Spielmodi | Standard-Fortschritt | 8 Schwierigkeitsgrade, Endlos-Modus, Koop |
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt-Strategie für Einsteiger">
+
+Ein erfolgreicher erster Run in diesem Guildrun-Roguelike verlangt ein solides Verständnis von Ressourcenmanagement und Team-Balance. Neue Spieler machen oft den Fehler, den Shop frühzeitig zu oft neu zu würfeln (Rerolling) oder fragile Schadensausteiler zu kaufen, ohne eine solide Frontlinie zu sichern. Befolge diese strukturierten Schritte, um deinen ersten Sieg zu erringen.
+
+<Steps>
+  <Step num="1" title="Rekrutiere ein ausgewogenes Startteam">
+    Beginne deinen Run, indem du drei wesentliche Rollen abdeckst: einen widerstandsfähigen Frontline-Tank, einen zuverlässigen Schadensausteiler (Carry) und eine Support- oder Utility-Einheit. Vermeide es, deine aktiven Plätze mit mehreren fragilen Carries zu füllen. Wenn deine Frontlinie zusammenbricht, werden deine Schadensausteiler besiegt, bevor sie ihre Fähigkeiten einsetzen können.
+  </Step>
+  <Step num="2" title="Prüfe den Shop, bevor du Gold ausgibst">
+    Überprüfe immer die gesamte Auswahl des Shops, bevor du dein Gold ausgibst. Vergleiche neue Rekruten, potenzielle Duplikat-Upgrades und verfügbare Gegenstände. Der Kauf von sofortigen Macht-Upgrades ist im Allgemeinen sicherer, als Gold für hypothetische Synergien aufzusparen, die in zukünftigen Shops möglicherweise nicht erscheinen.
+  </Step>
+  <Step num="3" title="Baue dein Team um die stärksten Angebote herum auf">
+    Erzwinge nicht in jedem Run genau dieselbe Zusammenstellung. Passe dich den Helden, Relikten und Gegenständen an, die natürlicherweise erscheinen. Wenn der Shop wiederholt Klassen-Kombinationen oder gemeinsame Effekte anbietet, die von deinem ursprünglichen Plan abweichen, passe deine Strategie an, um diese hochrangigen Optionen zu nutzen.
+  </Step>
+  <Step num="4" title="Wähle Spezialisierungen mit Bedacht">
+    Sobald deine Helden Ränge aufsteigen, schalten sie Spezialisierungspfade frei. Wähle Upgrades, die die Hauptaufgabe des Helden direkt verbessern. Gib deinen Tanks defensive Schadensminderung, deinen Carries konstante Schadensskalierung und deinen Supports teamweite Nützlichkeit oder eine höhere Heilfrequenz.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Ressourcenmanagement">
+Vermeide aggressives Rerolling im Shop während der ersten Runden. Gold frühzeitig zu verschwenden, verringert deine Fähigkeit, im Mid-Game hochrangige Gegenstände und entscheidende Spezialisierungs-Upgrades zu kaufen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Helden-Tier-List & Schlüsselprofile">
+
+Mit einer geplanten Auswahl von 25 Helden ist die Bewertung der Stärke einzelner Einheiten der Schlüssel zu konsistenten Runs. Helden werden basierend auf ihrer Stärke im frühen Spiel, ihrem Skalierungspotenzial, ihrer Flexibilität, Überlebensfähigkeit, Schadensleistung und ihrem Nutzen fürs Team bewertet. Die stärksten Helden sind diejenigen, die über mehrere Spezialisierungspfade und Ausrüstungs-Setups hinweg hochgradig effektiv bleiben.
+
+| Tier | Profilbeschreibung | Hauptstärken | Teamrolle |
+|---|---|---|---|
+| S-Tier | Run-entscheidende Anker | Hohe Flexibilität, starke Skalierung | Haupt-Carry, Haupt-Tank |
+| A-Tier | Konstante Leistungsträger | Zuverlässiger Schaden und Nutzen | Sekundärer Tank, Fokussierter Support |
+| B-Tier | Build-abhängige Spezialisten | Hohes Potenzial mit passenden Relikten | Synergie-Carry, Kombo-Teil |
+| C-Tier | Situationelle Konter | Hohes Risiko, geringer Nutzen | Reserve-Einheit, Nischen-Konter |
+
+<Callout type="tip" title="Drafting-Tipp">
+Ein A- oder B-Tier-Held, der perfekt zu deinen aktiven Relikten und Teamsynergien passt, schneidet oft besser ab als ein S-Tier-Held ohne Synergien. Priorisiere immer den Gesamtzusammenhalt des Teams gegenüber individuellen Tier-Platzierungen.
+</Callout>
+
+Um dir bei der Strukturierung deiner Drafts zu helfen, haben wir im Folgenden die vier primären Heldenrollen skizziert. Konzentriere dich darauf, diese Rollen zu kombinieren, um eine widerstandsfähige aktive Aufstellung zu erstellen.
+
+<CardGrid cols={4}>
+  <Card title="Tank">
+    - **Frontline-Anker**
+    - Hohe Schadensreduktion
+    - Crowd-Control-Fähigkeiten
+    - Schützt fragile Verbündete
+  </Card>
+  <Card title="Healer">
+    - **Gruppen-Sustain**
+    - Stellt Lebenspunkte wieder her
+    - Gewährt Schilde
+    - Verstärkt die Regeneration
+  </Card>
+  <Card title="Ranged Carry">
+    - **Schaden aus der Backline**
+    - Hohe Angriffsgeschwindigkeit
+    - Konstanter physischer DPS
+    - Sichere Positionierung
+  </Card>
+  <Card title="Assassin">
+    - **Hoher Berstschaden**
+    - Zielpriorisierung
+    - Backline-Zugang
+    - Schnelle Eliminierung
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Die besten Team-Zusammenstellungen & Builds">
+
+Erfolgreiche Zusammenstellungen in Guildrun basieren auf gemeinsamen Effekten, kluger Positionierung und einer gut verwalteten Reservebank. Deine aktive Aufstellung muss deine primären Schadensausteiler schützen und gleichzeitig sicherstellen, dass deine Frontlinie den ersten Angriffen standhalten kann. Unten sind einige der konsistentesten Build-Archetypen aufgeführt, die zum Meistern hoher Schwierigkeitsgrade verwendet werden.
+
+| Build-Name | Kern-Kader | Schlüsselpositionierung | Hauptfokus |
+|---|---|---|---|
+| Ausgewogener Kern | Tank, Carry, Support, Reserve | Tank exponiert, Carry geschützt | Allgemeiner Fortschritt |
+| Liebende (Geteilt) | Liebenden-Paar, Tank, Support | Schütze verbundene Helden vor Burst | Skalierung durch geteilte Effekte |
+| Einzel-Carry | Haupt-Carry, zwei Tanks, Utility | Maximale Frontsicherung | Konzentrierte offensive Gegenstände |
+| Doppel-Front | Haupt-Tank, Off-Tank, Backline | Eintreffenden Druck aufteilen | Lange Kampfkontrolle |
+
+<Callout type="info" title="Mechanik der Reservebank">
+Nutze deine Reserveplätze, um alternative Spezialisierungsoptionen oder Konter-Picks für bestimmte Elite-Begegnungen bereitzuhalten. Das Einwechseln eines situationellen Helden in die aktive Aufstellung kann ein schwieriges Matchup in einen leichten Sieg verwandeln.
+</Callout>
+
+Priorisiere bei der Ausführung dieser Builds die Verteilung der Gegenstände. Platziere defensive Ausrüstung ausschließlich auf deinen Frontline-Tanks und konzentriere deine besten offensiven Gegenstände auf deinen Haupt-Carry, anstatt sie gleichmäßig auf mehrere durchschnittliche Schadensausteiler aufzuteilen.
+
+</Section>
+
+<Section icon={Shield} title="Spezialisierungen & Fortschrittsmeilensteine">
+
+Die Tiefe von Guildrun liegt in seinem Spezialisierungssystem mit 75 Pfaden und 180 einzigartigen Spezialisierungsoptionen. Rang-Upgrades ermöglichen es dir, einen einfachen Rekruten in eine hochspezialisierte Hybrid-Einheit zu verwandeln. Wenn dein Draft mitten im Run die Richtung ändert, kannst du die Respec-Mechanik (Zurücksetzen) nutzen, um deine Punkte neu zu verteilen und dich an neu erworbene Relikte anzupassen.
+
+| Rolle | Spezialisierungsfokus | Upgrade-Priorität | Respec-Timing |
+|---|---|---|---|
+| Tank | Haltbarkeit, Kontrolle, Schadensminderung | Defensive Rang-Upgrades zuerst | Wechsel auf Schaden für späte Bosse |
+| Healer | Heilungsleistung, Gruppen-Sustain | Zuverlässige Heilung zuerst | Wechsel auf offensiven Support, wenn sicher |
+| Ranged | Angriffsgeschwindigkeit, konstanter DPS | Kontinuierliche Schadens-Upgrades zuerst | Wechsel auf Einzelziel-Bossschaden |
+| Assassin | Berstschaden, Zielpriorität | Zuverlässige Exekutionskraft zuerst | Anpassung, wenn Gegner den ersten Burst überleben |
+
+<Callout type="tip" title="Respec-Strategie">
+Zögere nicht, deine Helden neu zu spezialisieren, wenn du ein mächtiges S-Tier-Relikt findest, das eine andere Klassenausrichtung unterstützt. Die Anpassung deiner Spezialisierungen an deine Ausrüstung ist der Schlüssel zur Skalierung in den Rissen des Late-Games.
+</Callout>
+
+Um sicherzustellen, dass deine Runs reibungslos verlaufen, solltest du versuchen, diese wesentlichen Meilensteine bei jedem Versuch zu erreichen.
+
+<Checklist
+  id="progression-milestones"
+  title="Fortschritts-Checkliste für den Run:"
+  items={[
+    "Sichere dir bis zur dritten Runde einen dedizierten Frontline-Tank",
+    "Identifiziere und rüste deinen primären Schadens-Carry vollständig aus",
+    "Koordiniere Spezialisierungen, um gemeinsame Klassenboni freizuschalten",
+    "Etabliere eine nützlichkeitsorientierte Reserve-Einheit für Elite-Kämpfe",
+    "Spare Gold, um hochrangige Relikte in den Late-Game-Shops aufzuwerten"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Schwierigkeitsgrade & Endlos-Modus">
+
+Guildrun bietet acht Standard-Schwierigkeitsgrade, wobei jede Stufe härtere Modifikatoren, klügeres Gegnerverhalten und anspruchsvollere Bossbegegnungen einführt. Sobald du den Standard-Fortschritt gemeistert hast, kannst du deine optimierten Gruppen im Endlos-Modus testen, um deine Bestenlisten-Punktzahl zu maximieren und zu sehen, wie lange deine Zusammenstellung gegen unendliche Skalierung überleben kann.
+
+| Schwierigkeitsgrad | Wichtige Modifikatoren | Optimale Vorbereitungsstrategie |
+|---|---|---|
+| Schf. 1-3 | Standardmäßige gegnerische Lebenspunkte und Schaden | Konzentration auf das Erlernen grundlegender Heldensynergien und Positionierung |
+| Schf. 4-5 | Reduziertes Goldeinkommen, stärkere Eliten | Shop-Rerolls minimieren und günstige Upgrades priorisieren |
+| Schf. 6-7 | Verbesserte Bossfähigkeiten, feindselige Risse | Präzise Multiklassen-Pfade und defensive Relikte nutzen |
+| Schf. 8 | Maximale gegnerische Skalierung, unbarmherzige Risse | Perfektioniere deine Gegenstandsverteilung und maximiere die Spezialisierungssynergie |
+
+<Callout type="warning" title="Skalierung auf hohem Schwierigkeitsgrad">
+Ab Schwierigkeitsgrad 6 verlieren Gegenstände mit flachen Werten schnell ihre Wirksamkeit. Du musst prozentual skalierende Relikte, Spezialisierungen mit Crowd Control und zuverlässigen Sustain priorisieren, um die ersten Kampfphasen zu überleben.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Gibt es einen Mehrspielermodus in der Guildrun-Roguelike-Demo?",
+    answer: "Nein, die aktuelle Steam-Demo ist eine reine Singleplayer-PvE-Erfahrung. Ein kooperativer Mehrspielermodus ist jedoch in Planung und für die Vollversion vorgesehen."
+  },
+  {
+    question: "Kann ich meinen Fortschritt aus der Demo in das Hauptspiel übernehmen?",
+    answer: "Ja, die Entwickler planen, Spielern die Übertragung bestimmter Fortschrittselemente wie freigeschaltete Schwierigkeitsgrade, Heldenmeisterschaften und Meta-Fortschritte auf die offizielle Veröffentlichung im Jahr 2027 zu ermöglichen."
+  },
+  {
+    question: "Gibt es aktive Promo-Codes für kostenlose Belohnungen in Guildrun?",
+    answer: "Nein, Guildrun ist ein Premium-Singleplayer-Kaufspiel. Es gibt weder ein System zum Einlösen von Promo-Codes noch Mikrotransaktionen. Der gesamte Fortschritt wird rein durch das Gameplay freigeschaltet."
+  },
+  {
+    question: "Wie geht man auf hohen Schwierigkeitsgraden am besten mit einem schlechten Draft um?",
+    answer: "Nutze die Reservebank, um Ersatzeinheiten zu lagern, und verwende die Respec-Mechanik, um deine aktiven Spezialisierungen auf die stärksten Gegenstände und Relikte auszurichten, die sich derzeit in deinem Inventar befinden."
+  }
+]} />
+
+</Section>

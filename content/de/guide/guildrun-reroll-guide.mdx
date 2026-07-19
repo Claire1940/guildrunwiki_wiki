@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, RefreshCw, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Reroll-Leitfaden: Die besten Helden & Startstrategie",
+  description: "Meistere den Guildrun Reroll-Leitfaden, um dir die besten Starthelden wie Funky und Kai zu sichern. Erfahre mehr über Shop-Management, Brand-Synergien und Elite-Relikt-Taktiken.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Reroll+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Guildrun Reroll-Leitfaden**: Konzentriere dich darauf, einen hochrangigen Magier-Starter wie **Funky** zu sichern, um frühe Brand-Synergien zu nutzen.
+- **Shop-Management**: Nutze die **Einfrieren**-Mechanik (Freeze), um wichtige Duplikate aufzusparen; führe Rerolls nur durch, wenn du einen Überschuss von mehr als 10 Splittern hast.
+- **Klassensynergie**: Priorisiere Paarungen aus **Magier** (Mage) und **Vorhut** (Vanguard), um hohen magischen Schaden mit dem Überleben an der Frontlinie auszubalancieren.
+- **Relikt-Priorität**: Ziele frühzeitig auf den **Brand-Katalysator** (Burn Catalyst) oder den **Plattierten Kodex** (Plated Codex) ab, um teambezogene Werte dauerhaft zu steigern.
+- **Notfall-Rückspulen**: Nutze den einmaligen Niederlagenschutz, um zusätzliche Splitter zu erhalten und einen scheiternden Run zu stabilisieren.
+</Callout>
+
+<Section icon={Map} title="Starthelden-Auswahl und Reroll-Mechaniken">
+
+In diesem **Guildrun Reroll-Leitfaden** ist das Verständnis der anfänglichen Heldenauswahl das Fundament für einen erfolgreichen Run. Im Gegensatz zu traditionellen Gacha-Spielen, bei denen man ein komplettes Konto neu erstellt (rerollt), funktioniert *Guildrun* als Roguelike-Auto-Battler. Deine „Reroll“-Strategie besteht darin, den ersten Run so oft neu zu starten, bis dir ein Held angeboten wird, der zu den aktuellen Meta-Synergien passt, insbesondere zu den schadensintensiven Brand- (Burn) oder Frost-Archetypen.
+
+**Video-Highlights:**
+- Grundlagen der Heldenauswahl mit Funky, Kai und Yuna.
+- Automatische Kampfmechaniken und Grundlagen der Manaregeneration.
+- So navigierst du durch den ersten Shop und rekrutierst deine ersten Breaker.
+- Die Bedeutung von Heldenklassen und dem Teilen von Archetypen.
+
+<YouTubeEmbed videoId="XGFvBmp-XTo" title="Guildrun | Awesome Auto Battler Roguelike!" />
+
+Wenn du einen neuen Vertrag mit dem Department of Guild Affairs beginnst, werden dir drei potenzielle Anführer präsentiert. Wenn die Auswahl keinen stark skalierenden Magier oder eine robuste Vorhut enthält, starten Spieler den Run oft neu, um ihre Startmöglichkeiten neu auszuwürfeln („rerollen“).
+
+| Held | Startklasse | Schlüsselfertigkeit | Spielstil |
+| :--- | :--- | :--- | :--- |
+| **Funky** | Magier (Mage) | Lauffeuer (Wildfire) | Hoher AOE-Brandschaden, skaliert mit Magie |
+| **Kai** | Vorhut (Vanguard) | Schildschlag (Shield Bash) | Frontlinien-Tanking, Fokus auf physische Verteidigung |
+| **Yuna** | Assassine (Assassin) | Schneller Schlag (Quick Strike) | Einzelziel-Burst, hohe Mobilität |
+| **Arya** | Magier (Mage) | Frostblitz (Frost Bolt) | Crowd Control und Anwendung von Debuffs |
+
+<Callout type="tip" title="Experten-Empfehlung">
+Für ein möglichst beständiges Early Game solltest du so lange rerollen, bis du **Funky** findest. Seine Lauffeuer-Fähigkeit verursacht massiven Flächenschaden (AOE), der frühe Gegnerwellen selbst mit minimaler Gegenstandsinvestition auslöschen kann.
+</Callout>
+
+</Section>
+
+<Section icon={RefreshCw} title="Optimierung der Shop-Reroll-Strategie">
+
+Sobald dein Run läuft, verlagert sich der Hauptnutzen der „Reroll“-Mechanik auf den In-Game-Shop. Die Verwaltung deiner Splitter (der lokalen Währung) ist ein Balanceakt zwischen dem Aufwerten bestehender Helden und der Suche nach neuen Synergien. Der **Guildrun Reroll-Leitfaden** schreibt vor, dass du in den ersten beiden Shops selten rerollen solltest. Kaufe stattdessen jeden Helden, der zur Klasse deines Starters passt, um frühe Boni freizuschalten.
+
+<CardGrid cols={2}>
+  <Card title="Der aggressive Reroll">
+    - Gib Splitter frühzeitig aus, um Duplikate zu finden.
+    - Ziele auf einen Rang-A-Helden vor dem ersten Boss ab.
+    - Hohes Risiko, dass dir die Splitter für Gegenstände ausgehen.
+  </Card>
+  <Card title="Der wirtschaftliche Reroll">
+    - Spare Splitter bis zum Auktionshaus (Auction House).
+    - Führe Rerolls nur durch, wenn du 15+ Splitter hast.
+    - Konzentriere dich eher auf den Kauf von Relikten als auf Helden-Refreshes.
+  </Card>
+</CardGrid>
+
+Der Shop bietet pro Besuch drei Helden an. Wenn du einen Helden kaufst, den du bereits besitzt, steigt sein Rang, wodurch neue aktive und passive Fähigkeiten freigeschaltet werden. Beispielsweise kann das Aufwerten eines Magiers die Sekundärklasse „Mystiker“ (Mystic) gewähren, was die Manaregeneration erheblich steigert.
+
+| Aktion | Splitterkosten | Strategischer Wert | Wann zu verwenden |
+| :--- | :--- | :--- | :--- |
+| **Einzelner Reroll** | 2 Splitter | Moderat | Bei der Suche nach einem bestimmten Rang-Aufstieg |
+| **Shop einfrieren** | 0 Splitter | Hoch | Wenn du einen Helden siehst, den du dir noch nicht leisten kannst |
+| **Held verkaufen** | + Variabel | Niedrig | Nur um einen Splitter-Meilenstein für ein Relikt zu erreichen |
+| **Rang erhöhen** | Variabel | Essenziell | Priorisiere immer das Aufwerten deines Haupt-Carrys |
+
+<Callout type="warning" title="Splitter-Konservierung">
+Jagt in den frühen Akten nicht durch mehrere Rerolls einem bestimmten Helden hinterher. Der Zufallsfaktor (RNG) kann gnadenlos sein, und oft ist es besser, einen suboptimalen Helden zu wählen, der dieselbe Klasse teilt, als 10 Splitter für ergebnislose Aktualisierungen zu verschwenden.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Klassensynergien und Fähigkeitenskalierung">
+
+Der Erfolg in *Guildrun* hängt davon ab, wie gut deine Helden interagieren. Eine Kernkomponente jedes **Guildrun Reroll-Leitfadens** ist es, zu identifizieren, welche Klassen man stapeln sollte. Magier beispielsweise gewinnen massiv an Stärke, wenn sie mit anderen Magiern kombiniert werden, insbesondere wenn du Relikte findest, die Debuffs wie Brand (Burn) oder Frost verstärken.
+
+<Steps>
+  <Step num="1" title="Kernsynergie identifizieren">
+    Wähle eine primäre Schadensart (z. B. Brand). Suche nach Helden wie Funky, die diesen Status automatisch anwenden.
+  </Step>
+  <Step num="2" title="Unterstützungsklassen anwerben">
+    Rekrutiere Vorhuten (Vanguards), um die Frontlinie zu halten. Ohne einen Tank werden deine Magier unterbrochen, bevor sie ihre aktiven Fähigkeiten wirken können.
+  </Step>
+  <Step num="3" title="Nach skalierenden Relikten suchen">
+    Besuche den Shop gezielt nach Gegenständen wie dem **Brand-Katalysator** (Burn Catalyst), der den Brandschaden für das gesamte Team um 33 % erhöht.
+  </Step>
+  <Step num="4" title="Auf S-Tier aufwerten">
+    Auf Rang A und S erhalten Helden massive Attributsschübe. Konzentriere deine Rerolls darauf, die letzten Duplikate für deinen Haupt-Carry zu finden.
+  </Step>
+</Steps>
+
+| Klasse | Hauptattribut | Synergieeffekt | Am besten kombiniert mit |
+| :--- | :--- | :--- | :--- |
+| **Magier (Mage)** | Magie | Erhöhter Fähigkeitsschaden | Anderen Magiern / Mystikern |
+| **Vorhut (Vanguard)** | Verteidigung | Erhöhte Überlebensfähigkeit | Assassinen / Waldläufern (Rangers) |
+| **Assassine (Assassin)** | Angriff | Kritische Trefferchance | Vorhuten (zur Ablenkung) |
+| **Mystiker (Mystic)** | Regeneration | Manaregeneration | Zauberern mit teuren Fähigkeiten |
+
+<Callout type="success" title="Synergie-Bonus">
+Wenn es dir gelingt, ein Team mit 3 oder mehr Magiern aufzubauen, erhalten sie oft einen passiven „Verzögerungs“- (Stall) oder „Ansturms“-Effekt (Rush), je nach ihren spezifischen Unterklassen, wodurch sie das Schlachtfeld nach der 20-Sekunden-Marke dominieren können.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstung und Reliktverwaltung">
+
+Gegenstände stärken einzelne Helden, während Relikte die gesamte Gilde beeinflussen. Im Kontext eines **Guildrun Reroll-Leitfadens** solltest du Relikten Priorität einräumen, die eine permanente Skalierung bieten. Der „Plattierte Kodex“ (Plated Codex) beispielsweise erhöht die Verteidigung nach jedem Sieg dauerhaft, was ihn im Early Game zu einem Fund der Spitzenklasse macht.
+
+**Spitzenreiter-Relikte für Reroll-Priorität:**
+1. **Brand-Katalysator** (Burn Catalyst): Essenziell für feuerbasierte Teams; verstärkt alle Brand-Ticks.
+2. **Magierroben** (Mage Robes): Bietet allen Zauberern flache Magie- und Manaregeneration.
+3. **Notfall-Rückspulen** (Emergency Rewind): Ein Sicherheitsnetz-Relikt, das bei einer Niederlage Splitter gewährt.
+4. **Splittergitter** (Shard Lattice): Erhöht den Splittergewinn aus Kämpfen, was häufigere Rerolls ermöglicht.
+
+| Gegenstandsname | Gewährte Werte | Beste Helden-Passung | Seltenheit |
+| :--- | :--- | :--- | :--- |
+| **Geduldiger Ring (Patient Ring)** | +100 Max. LP, +12 Magie | Tank-Zauberer (Kai/Funky) | Selten |
+| **Glühende Roben (Searing Robes)** | +15 Magie, +4 Regeneration | Haupt-Magier-Carry | Episch |
+| **Eisenschild (Iron Buckler)** | +20 Verteidigung, +5% Blocken | Frontlinien-Vorhut | Gewöhnlich |
+| **Leerenklinge (Void Blade)** | +25 Angriff, Brand bei Treffer | Assassinen | Legendär |
+
+<Callout type="info" title="Platzierung von Gegenständen">
+Gegenstände können jederzeit abgelegt werden. Wenn du während eines Shop-Rerolls einen besseren Helden findest, zögere nicht, deine beste Ausrüstung auf die höherrangige Einheit zu übertragen, um deren Skalierung zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Meilensteine und Checkliste">
+
+Um sicherzustellen, dass dein Run nicht vorzeitig endet, folge dieser Fortschritts-Checkliste. Dies stellt sicher, dass du deine Splitter und Rerolls in den effizientesten Abständen über die Akte hinweg nutzt.
+
+<Checklist
+  id="guildrun-progression"
+  title="Meilensteine für einen erfolgreichen Run:"
+  items={[
+    "Sichere dir einen Magier auf Rang B vor der ersten Elite-Begegnung",
+    "Erhalte bis zum Ende von Akt 1 mindestens ein teambezogenes Relikt",
+    "Erreiche mithilfe der Auktionshaus-Aufwertungen eine Teamgröße von 4 Helden",
+    "Staple mindestens zwei passende Klassensynergien (z. B. 2 Magier, 2 Vorhuten)",
+    "Besiege den Demo-Boss und schalte den Endlosmodus frei"
+  ]}
+/>
+
+<Callout type="tip" title="Positionierungsstrategie">
+Platziere deine Vorhuten (Vanguards) immer in der vorderen Mitte des Rasters. Dies zwingt Gegner dazu, sich auf sie zuzubewegen, was deinen Magiern in der hinteren Reihe genügend Zeit gibt, Mana für ihren ersten AOE-Zauber zu generieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guildrun Reroll FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie führe ich einen Hard-Reroll in Guildrun durch?",
+    answer: "Um deinen Starthelden hart zu rerollen, pausiere das Spiel einfach während des ersten Heldenauswahl-Bildschirms und wähle „Run abbrechen“ (Abandon Run). Dadurch gelangst du zurück ins Hauptmenü, wo du einen neuen Vertrag mit einer frischen Auswahl an Helden beginnen kannst."
+  },
+  {
+    question: "Was bedeutet das im Shop erwähnte Schlüsselwort „Verzögerung“ (Stall)?",
+    answer: "Verzögerungseffekte (Stall) sind mächtige passive Fähigkeiten, die erst nach den ersten 20 Sekunden des Kampfes aktiv werden. Sie sind für defensive Teams gedacht, die die anfängliche „Ansturms“-Phase (Rush) eines gegnerischen Angriffs überleben können."
+  },
+  {
+    question: "Sollte ich all meine Splitter für Rerolls ausgeben, um S-Tier-Helden zu bekommen?",
+    answer: "Nein. S-Tier-Helden sind zwar mächtig, aber die Splitterkosten, um sie zu finden, können astronomisch sein. Es ist in der Regel besser, ein ausgewogenes Team aus Rang-A-Helden mit starker Ausrüstung aufzubauen, als einen einzelnen S-Tier-Helden ohne Unterstützung zu haben."
+  },
+  {
+    question: "Kann ich Gegenstände, die ich nicht brauche, wieder an den Shop verkaufen?",
+    answer: "Ja, du kannst unerwünschte Gegenstände oder Helden auf das Verkaufssymbol im Shop-Menü ziehen. Dies ist ein wichtiger Teil des Guildrun Reroll-Leitfadens, um dir zu helfen, teure Relikte oder das letzte fehlende Helden-Duplikat zu finanzieren."
+  }
+]} />
+
+</Section>

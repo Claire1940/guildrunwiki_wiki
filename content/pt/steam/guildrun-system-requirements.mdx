@@ -1,0 +1,190 @@
+import { Cpu, HardDrive, Monitor, ShieldAlert, Sparkles, Swords, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos de Sistema de Guildrun: Especificações de PC e Guia do Steam Deck",
+  description: "Confira os requisitos de sistema oficiais de Guildrun. Leia nosso guia de otimização, detalhes de compatibilidade do Steam Deck e recomendações de hardware para a demo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111a18/fff?text=System+Requirements",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Verificação de Especificações**: Revise os **requisitos de sistema oficiais de Guildrun** para garantir que seu hardware execute o jogo sem problemas.
+- **Steam Deck**: O jogo roda excepcionalmente bem em dispositivos portáteis com pequenos ajustes de controle.
+- **Tamanho da Demo**: Você precisa de apenas uma pequena quantidade de espaço em disco para baixar a demo gratuita do Steam.
+- **Dica de Desempenho**: Reduzir as configurações avançadas de sombra oferece o maior aumento na taxa de quadros em notebooks econômicos.
+</Callout>
+
+<Section icon={Cpu} title="Requisitos de Sistema de Guildrun: Especificações de PC">
+
+Antes de mergulhar na profundidade estratégica deste autobattler roguelike PvE single-player, verificar se o hardware do seu PC está alinhado com os **requisitos de sistema oficiais de Guildrun** é o primeiro passo para uma experiência de jogo fluida. Desenvolvido pela Leyline, o jogo apresenta cálculos de combate complexos, rastreamento de status e efeitos visuais vibrantes que exigem um hardware estável para evitar lentidões no fim de jogo. 
+
+Como os autobattlers processam centenas de cálculos simultaneamente — como efeitos de relíquias ativas, escalonamento de atributos e especializações individuais de heróis —, ter um processador capaz é tão importante quanto a sua placa de vídeo. Abaixo estão as especificações de hardware mínimas e recomendadas para rodar o jogo de forma eficiente.
+
+### Requisitos Mínimos do Sistema
+
+As especificações mínimas foram projetadas para atingir a resolução de 1080p a 30 a 45 quadros por segundo durante confrontos de combate padrão. Esta configuração é ideal para setups de baixo custo, PCs de mesa mais antigos e notebooks de trabalho que utilizam gráficos integrados.
+
+| Componente | Especificação Mínima |
+| :--- | :--- |
+| **SO** | Windows 10 de 64 bits |
+| **Processador** | Intel Core i3-6100 / AMD FX-4350 |
+| **Memória** | 4 GB de RAM |
+| **Placa de Vídeo** | NVIDIA GeForce GTX 660 / AMD Radeon HD 7850 |
+| **DirectX** | Versão 11 |
+| **Armazenamento** | 2 GB de espaço disponível |
+
+### Requisitos de Sistema Recomendados
+
+Para desfrutar do jogo a cravados 60 quadros por segundo com efeitos de partículas de alta qualidade, tempos de carregamento rápidos e sem travamentos durante as intensas rodadas de Modo Infinito no fim do jogo, é altamente recomendável visar as especificações recomendadas.
+
+| Componente | Especificação Recomendada |
+| :--- | :--- |
+| **SO** | Windows 10/11 de 64 bits |
+| **Processador** | Intel Core i5-4460 / AMD Ryzen 3 1200 |
+| **Memória** | 8 GB de RAM |
+| **Placa de Vídeo** | NVIDIA GeForce GTX 960 / AMD Radeon RX 470 |
+| **DirectX** | Versão 11 |
+| **Armazenamento** | 4 GB de espaço disponível |
+
+<Callout type="warning" title="Necessário SO de 64 Bits">
+O jogo não pode ser iniciado em versões de 32 bits do Windows. Certifique-se de que seu sistema operacional esteja totalmente atualizado para uma arquitetura de 64 bits antes de tentar instalar o cliente de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Monitor} title="Suporte ao Steam Deck e Desempenho Portátil">
+
+Para os jogadores que preferem montar suas escalações de heróis em qualquer lugar, a compatibilidade portátil é um grande destaque. O jogo funciona excepcionalmente bem em PCs portáteis, oferecendo controles intuitivos e desempenho escalonável que preserva a vida útil da bateria durante sessões de jogo prolongadas.
+
+A interface, incluindo caixas de texto, descrições de relíquias e árvores de especialização de heróis, se adapta dinamicamente para permanecer legível em telas menores de sete polegadas. Embora o jogo seja altamente otimizado por padrão, ajustar algumas configurações nativas do Steam Deck pode melhorar drasticamente sua experiência geral.
+
+<CardGrid cols={3}>
+  <Card title="Otimização Portátil">
+    - Suporte a **resolução nativa** em 1280x800
+    - Escalonamento de texto claro na interface para alta legibilidade
+    - Baixo consumo de energia nas configurações padrão
+  </Card>
+  <Card title="Gerenciamento de Bateria">
+    - Limitar a taxa de atualização para **45Hz/45FPS**
+    - Definir o limite de TDP para **8 Watts**
+    - Prolongar a vida útil da bateria para até quatro horas
+  </Card>
+  <Card title="Esquemas de Controle">
+    - Integração total com gamepad
+    - Arrastar e soltar na tela sensível ao toque ativado
+    - Suporte para emulação de mouse por trackpad
+  </Card>
+</CardGrid>
+
+Para garantir uma navegação suave pela loja, tela de recrutamento e campos de batalha ativos, os jogadores podem escolher entre múltiplos métodos de entrada. O tabela abaixo descreve o desempenho de diferentes esquemas de controle.
+
+| Tipo de Entrada | Status de Compatibilidade | Configuração Recomendada |
+| :--- | :--- | :--- |
+| **Teclado e Mouse** | Suporte Nativo | Melhor para atualizações rápidas da loja e posicionamento preciso |
+| **Controle de Xbox** | Suporte Total | Compatibilidade plug-and-play com layouts padrão |
+| **Controle de PlayStation**| Suporte Total | Alternância dinâmica de comandos de interface para DualShock/DualSense |
+| **Controles do Steam Deck** | Excelente | Usa o layout oficial com mapeamento de trackpad |
+
+<Callout type="tip" title="Atalhos de Tela de Toque">
+Você pode dar um toque duplo em qualquer carta de herói na tela sensível ao toque do Steam Deck para visualizar rapidamente seus caminhos de especialização atuais e itens equipados, sem precisar navegar por submenus.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Otimização Gráfica e Dicas de Desempenho">
+
+Se o seu PC estiver mais próximo das especificações mínimas de hardware, você poderá notar pequenas quedas de quadros quando várias especializações de alto nível ativarem seus efeitos visuais simultaneamente. Felizmente, o menu de configurações do jogo oferece várias opções para recuperar o desempenho perdido sem sacrificar a clareza visual.
+
+Ao ajustar sistematicamente as configurações que consomem muitos recursos, você pode manter uma taxa de quadros estável mesmo durante rodadas caóticas no fim do jogo, onde a tela fica cheia de invocações, indicadores de status e feitiços de área de efeito.
+
+<Steps>
+  <Step num="1" title="Configurar Modo de Exibição">
+    Altere de Tela Cheia Exclusiva para Sem Bordas em Janela. Isso reduz a latência de entrada e evita travamentos se você costuma usar Alt-Tab com frequência para verificar listas de melhores heróis ou guias de builds.
+  </Step>
+  <Step num="2" title="Reduzir Resolução de Sombra">
+    As sombras representam o maior consumo individual de GPU no jogo. Reduzir a qualidade das sombras de Alta para Média ou Baixa pode aumentar sua taxa média de quadros em até 15% em placas de vídeo mais antigas.
+  </Step>
+  <Step num="3" title="Limitar Taxa Máxima de Quadros">
+    Sincronize o limite da sua taxa de quadros diretamente com a taxa de atualização do seu monitor. Se você estiver jogando em uma tela padrão de 60Hz, limitar o jogo a 60 FPS evita o estresse desnecessário da GPU e o estrangulamento térmico.
+  </Step>
+  <Step num="4" title="Desativar Tremor de Tela">
+    Desative a opção de tremor de tela no menu de acessibilidade. Isso não apenas melhora o desempenho durante sequências rápidas de ataque, mas também torna muito mais fácil acompanhar as barras de vida das unidades durante o combate.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Desempenho de Gráficos Integrados">
+Seguir estas etapas de otimização permite que chips gráficos integrados modernos, como AMD Radeon 680M ou Intel Iris Xe, mantenham facilmente cravados 60 FPS na resolução 1080p.
+</Callout>
+
+</Section>
+
+<Section icon={HardDrive} title="Acesso à Demo de Guildrun e Requisitos de Armazenamento">
+
+Os desenvolvedores disponibilizaram uma demo autônoma gratuita no Steam, permitindo que os jogadores experimentem o ciclo principal de jogabilidade antes do lançamento da versão completa em 2027. A demo inclui uma fatia substancial de conteúdo, apresentando o recrutamento básico de heróis, mecânicas de loja, combinações de itens e os níveis de dificuldade iniciais.
+
+Como a demo é uma versão condensada do produto final, seu consumo de armazenamento é significativamente menor. No entanto, ainda é recomendável preparar sua unidade de armazenamento para evitar problemas de instalação ou carregamento lento de recursos durante as transições.
+
+<Checklist
+  id="pre-install-checklist"
+  title="Lista de Verificação de Instalação:"
+  items={[
+    "Verifique se você tem pelo menos 2 GB de espaço livre em sua unidade de armazenamento de preferência",
+    "Instale o jogo em um SSD para minimizar os tempos de carregamento entre os combates e as lojas",
+    "Certifique-se de que seu cliente Steam esteja atualizado para a versão estável mais recente",
+    "Atualize seus drivers de vídeo para evitar possíveis falhas ao iniciar"
+  ]}
+/>
+
+À medida que o desenvolvimento avança em direção à janela de lançamento de 2027, o escopo geral do jogo se expandirá. A tabela abaixo compara os requisitos da versão de demonstração atual com as especificações projetadas para a versão completa.
+
+| Recurso / Especificação | Demo Gratuita do Steam | Jogo Completo (Meta para 2027) |
+| :--- | :--- | :--- |
+| **Espaço de Armazenamento** | Aprox. 1,5 GB | Estimado de 4,0 a 6,0 GB |
+| **Memória RAM do Sistema** | Mínimo de 4 GB | 8 GB Recomendados para Co-op |
+| **Lista de Heróis** | Seleção limitada | 25 heróis jogáveis |
+| **Especializações** | Caminhos de melhoria básicos | 75 caminhos / 180 escolhas |
+| **Modos de Jogo** | Níveis de dificuldade iniciais | 8 dificuldades + Modo Infinito |
+| **Multijogador** | Apenas single-player | Planejado modo co-op online |
+
+<Callout type="info" title="Transferência de Progresso">
+Embora os requisitos básicos do sistema permaneçam muito consistentes, planeja-se que certos elementos de meta-progressão, dificuldades desbloqueadas e maestrias de heróis obtidas na demo sejam transferidos para a versão completa.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldAlert} title="FAQ de Desempenho e Hardware de Guildrun">
+
+Para ajudar a resolver dúvidas comuns de instalação e hardware, compilamos as perguntas mais frequentes da comunidade sobre desempenho, compatibilidade e requisitos de software.
+
+<FAQ items={[
+  {
+    question: "Quais são os requisitos mínimos de sistema de Guildrun para PC?",
+    answer: "Os requisitos mínimos incluem o Windows 10 (64 bits), um processador Intel Core i3-6100 ou AMD FX-4350, 4 GB de RAM do sistema e uma placa de vídeo NVIDIA GeForce GTX 660 ou AMD Radeon HD 7850 com suporte a DirectX 11."
+  },
+  {
+    question: "Posso rodar Guildrun em um notebook com gráficos integrados?",
+    answer: "Sim. Soluções de gráficos integrados modernos, como Intel UHD, Intel Iris Xe ou AMD Radeon Vega, podem rodar o jogo perfeitamente, desde que você reduza as configurações de sombra e ajuste a resolução para 1080p."
+  },
+  {
+    question: "O jogo suporta monitores com alta taxa de atualização?",
+    answer: "Sim, o motor do jogo suporta taxas de quadros desbloqueadas e monitores com alta taxa de atualização (120Hz, 144Hz e superiores). Você pode ajustar esses limites diretamente no menu de configurações gráficas do jogo."
+  },
+  {
+    question: "Os requisitos de sistema aumentarão quando o jogo completo for lançado em 2027?",
+    answer: "As especificações básicas permanecerão muito semelhantes. No entanto, o modo cooperativo online planejado e o escalonamento do Modo Infinito no fim do jogo podem exigir um processador ligeiramente mais forte e 8 GB de RAM para manter o desempenho ideal durante as sessões multijogador."
+  }
+]} />
+
+<Callout type="tip" title="Relate Erros Diretamente">
+Se você notar erros incomuns de fechamento inesperado para a área de trabalho ou quedas graves na taxa de quadros, envie um relatório detalhado de hardware junto com as especificações do seu sistema para a comunidade oficial de Guildrun no Steam ou canal do Discord.
+</Callout>
+
+</Section>

@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "guildrun Rush-Build: Unendliche Skalierung & S-Tier Krieger-Strategie",
+  description: "Meistern Sie den guildrun Rush-Build mit unserem Leitfaden zu unendlicher Skalierung, Helden-Synergien auf S-Schwierigkeit und den besten Krieger-Relikten für den Endlos-Modus.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=GuildRun+Rush+Build+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki-Team",
+  keywords: "guildrun, Rush-Build, Krieger-Strategie, unendliche Skalierung, S-Schwierigkeitsgrad, Endlos-Modus"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **guildrun Rush-Build**: Konzentriert sich auf „Rush-Trigger“, um eine permanente, unendliche Attribut-Skalierung für Helden der Krieger-Klasse zu ermöglichen.
+- **Kernmechanik**: Nutzen Sie Helden wie Nicl und Raina, die massive Angriffs- und Verteidigungsboni erhalten, wann immer eine Rush-Fähigkeit aktiviert wird.
+- **S-Schwierigkeitsgrad-Eignung**: Dieser Build glänzt in hohen Schwierigkeitsgraden, in denen Gegenstandsplätze begrenzt sind, da er stattdessen auf interne Helden-Skalierung setzt.
+- **Essenzielles Relikt**: Das Kriegerbanner ist obligatorisch, um krit-basierte Heilung und Angriffsgeschwindigkeitsboni zu maximieren.
+- **Endspiel-Ziel**: Erreichen Sie im Endlos-Modus über 2.000 Angriffspunkte, indem Sie Debuffs wie Gift und Verbrennung stapeln.
+</Callout>
+
+<Section icon={Map} title="Die Grundlagen eines guildrun Rush-Builds">
+
+Der **guildrun Rush-Build** ist derzeit eine der mächtigsten Strategien zur Bewältigung des S-Schwierigkeitsgrads und des Endlos-Modus. Im Gegensatz zu Standard-Builds, die stark auf statischen Gegenstandswerten basieren, konzentriert sich die Rush-Engine auf dynamische Skalierung. Jedes Mal, wenn ein Held eine Rush-Fähigkeit auslöst, erhält das gesamte Team (insbesondere Krieger) permanente Offensiv- und Defensiv-Buffs, die für die gesamte Dauer des Durchlaufs anhalten. Dies ermöglicht es Ihrem Team, Gegner selbst dann zu übertreffen, wenn diese in späteren Phasen „tödlicher“ werden.
+
+**Video-Highlights:**
+- **Unendliche Skalierung**: Demonstration, wie die Werte in einem einzigen Durchlauf auf über 2.000 steigen.
+- **Mechaniken des S-Schwierigkeitsgrads**: Effektive Verwaltung der „Ein-Gegenstand-pro-Rang“-Beschränkung.
+- **Helden-Vorstellungen**: Tiefer Einblick in Nicls überarbeitete Gegenstands-Konsum-Mechanik.
+- **Überleben im Endlos-Modus**: Strategien zum Abschluss von Ebene 17 und darüber hinaus.
+
+<YouTubeEmbed videoId="j2lLHYpvpNs" title="Die Skalierung dieses Rush-Builds ist absolut wahnsinnig (S-Diff) | GuildRun" />
+
+Um mit diesem Build erfolgreich zu sein, müssen Sie Helden priorisieren, die das „Rush“-Tag besitzen. Diese Fähigkeiten beinhalten oft Hochgeschwindigkeitsangriffe, Schilde, die basierend auf der Angriffsfrequenz generiert werden, oder massiven Flächenschaden (AOE), der zusätzliche Sekundäreffekte auslöst. Im S-Schwierigkeitsgrad, in dem die Anzahl der ausrüstbaren Gegenstände begrenzt ist, kompensiert der rohe Attributgewinn durch die Rush-Mechanik den Mangel an Ausrüstung.
+
+| Mechanik | Effekt auf Rush-Build | Wichtigkeit |
+| :--- | :--- | :--- |
+| **Rush-Trigger** | Gewährt +2 Angriff pro Trigger im gesamten Spiel | **Kritisch** |
+| **Krieger-Synergie** | Erhöht die Verteidigung pro Rush-Aktivierung | **Hoch** |
+| **Debuff-Stapelung** | Verbrennungs- und Giftschaden skaliert mit maximalen LP | **Mittel** |
+| **Gegenstands-Konsum** | Absorbiert Gegenstands-Stats permanent in den Helden | **Hoch** |
+
+<Callout type="tip" title="Profi-Tipp">
+Konzentrieren Sie sich frühzeitig auf den Modifikator „Zwei Angriffe pro Rush-Trigger“. Dies stellt sicher, dass selbst Ihre Helden niedrigerer Ränge zum gesamten Stat-Pool beitragen, bevor Sie den Endboss erreichen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Top-Helden für Rush-Synergien">
+
+Die Wahl der richtigen Aufstellung entscheidet über Erfolg oder Scheitern im Endlos-Modus. Der **guildrun Rush-Build** stützt sich auf einen Kern aus Kriegern und Vorhut-Einheiten, die sich selbst am Leben erhalten können, während sie Trigger generieren. Raina und Nicl sind die Grundpfeiler dieser Strategie aufgrund ihrer einzigartigen Fähigkeit, die Lücke zwischen Tanking und hohem Schaden (DPS) zu schließen.
+
+<CardGrid cols={3}>
+  <Card title="Raina (Krieger)">
+    - **Hohes Krit-Potenzial**
+    - Reduziert gegnerische Verteidigung bei Krit
+    - Hervorragend für Rushing im Early-Game
+  </Card>
+  <Card title="Nicl (Tank/Krieger)">
+    - **Stat-Fresser**: Konsumiert Gegenstände für Stats
+    - Massive Schildgenerierung
+    - Primäre Frontlinie für S-Schwierigkeitsgrad
+  </Card>
+  <Card title="Logan (Assassine/Krieger)">
+    - **Schnelle Trigger-Rate**
+    - Hohe Synergie mit Angriffsgeschwindigkeit
+    - Betäubt Gegner bei Krit
+  </Card>
+</CardGrid>
+
+Im aktuellen Meta bietet der „Chief“ zudem eine zusätzliche Schutzschicht. Auch wenn er in manchen Setups nur ein B-Rang-Held ist, macht ihn seine Fähigkeit, zufällige Gegenstände und massive Schilde zu generieren, zu einem unschätzbaren Aktivposten für das Ressourcenmanagement. In Kombination mit dem Kriegerbanner werden diese Helden durch den aus kritischen Treffern generierten Lebensentzug (Lifesteal) fast unbesiegbar.
+
+| Held | Primäre Klasse | Rolle im Rush-Build | Synergie-Bewertung |
+| :--- | :--- | :--- | :--- |
+| **Raina** | Krieger | Haupt-DPS / Debuffer | ★★★★★ |
+| **Nicl** | Tank | Skalierender Tank / Gegenstands-Konsument | ★★★★★ |
+| **Logan** | Krieger/Assassine | Trigger-Generator | ★★★★☆ |
+| **Chief** | Vorhut | Schild-Unterstützung / Gegenstands-Farmer | ★★★★☆ |
+| **Tilly** | Duellantin | Angriffsgeschwindigkeits-Spezialistin | ★★★☆☆ |
+
+<Callout type="success" title="Erfolgsstrategie">
+Wenn Sie einen „Krieger-Klassen-Upgrade“-Gegenstand finden, verwenden Sie ihn bei einem Helden mit hoher Angriffsgeschwindigkeit wie Tilly. Dies ermöglicht es ihr, von den kriegerspezifischen Rush-Boni zu profitieren, was ihren Schadensausstoß effektiv verdoppelt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Leitfaden zum Fortschritt">
+
+Der Aufbau eines erfolgreichen **guildrun Rush-Builds** erfordert ein diszipliniertes Vorgehen im Shop und in den Kämpfen. Sie können nicht einfach Gegenstände mit hoher Seltenheit wählen; Sie müssen Gegenstände wählen, die mehr Trigger ermöglichen oder Nützlichkeit bieten, die Kriegern fehlt, wie Magieresistenz oder Omnivamp.
+
+<Steps>
+  <Step num="1" title="Early-Game-Setup">
+    Konzentrieren Sie sich darauf, mindestens zwei Krieger mit dem Rush-Tag zu rekrutieren. Machen Sie sich noch keine Sorgen um die Seltenheit der Gegenstände; priorisieren Sie das Überleben und das so häufige Auslösen der Rush-Mechanik wie möglich, um den Skalierungsprozess zu starten.
+  </Step>
+  <Step num="2" title="Mid-Game-Optimierung">
+    Suchen Sie im Gilden-Shop nach dem Kriegerbanner. Dies ist das wichtigste Relikt für den Build. Beginnen Sie, sich auf Nicls „Gegenstands-Konsum“-Quest zu konzentrieren, um Inventarplatz freizumachen und gleichzeitig an Stärke zu gewinnen.
+  </Step>
+  <Step num="3" title="Late-Game-Skalierung">
+    Wechseln Sie zu Debuff-Gegenständen. Gegenstände, die bei Treffern Verbrennung oder Gift verursachen, sind essenziell, da sie mit den massiven Angriffswerten skalieren, die Sie angesammelt haben. Streben Sie über 100 Rush-Trigger vor dem Endboss an.
+  </Step>
+  <Step num="4" title="Übergang zum Endlos-Modus">
+    Konzentrieren Sie sich im Endlos-Modus vollständig auf Relikte für „unendliche Skalierung“. Wählen Sie Belohnungen, die Ihre Primärattribute pro Splitter oder pro Kampfsieg erhöhen. In dieser Phase sollten Ihre Schilde in die Zehntausende gehen.
+  </Step>
+</Steps>
+
+| Phase | Prioritätsfokus | Wichtiger Meilenstein |
+| :--- | :--- | :--- |
+| **Früh** | Rekrutierung | 2+ Krieger im Team |
+| **Mittel** | Relikte | Kriegerbanner erworben |
+| **Spät** | Skalierung | 1.000+ Angriff auf Haupt-DPS |
+| **Endlos** | Überleben | Ebene 15+ abgeschlossen |
+
+<Callout type="warning" title="Wichtige Warnung">
+Denken Sie im S-Schwierigkeitsgrad daran, dass Helden nur einen Gegenstand pro Rang ausrüsten können. Verschwenden Sie Ihre begrenzten Plätze nicht für Gegenstände mit flachen LP-Werten; priorisieren Sie Gegenstände mit „pro Trigger“- oder „pro Krit“-Effekten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essenzielle Gegenstände und Relikte">
+
+Die Effektivität eines **guildrun Rush-Builds** wird stark von Ihrer Wahl der Relikte beeinflusst. Während die Helden die Basis bilden, liefern die Relikte die Multiplikatoren. Suchen Sie gezielt nach allem, was mit „Krieger“, „Krit“ oder „Rush“ interagiert.
+
+**Wichtige Relikt-Stufen:**
+- **S-Tier**: Kriegerbanner, Blitzspiegel, Giftkatalysator.
+- **A-Tier**: Omnivamp-Splitter, Angriffsgeschwindigkeits-Stiefel, Schild-Reflektoren.
+- **B-Tier**: Flache Magieresistenz, Goldgenerierungs-Gegenstände (verkaufen Sie diese im Late-Game).
+
+| Gegenstandsname | Effekt | Beste für |
+| :--- | :--- | :--- |
+| **Kriegerbanner** | Heilt bei Krit / +50 Angriff | Alle Krieger |
+| **Blitzspiegel** | Massiver Magieschaden beim Wirken | Helden mit viel Mana |
+| **Giftdolch** | Verursacht Gift bei automatischen Angriffen | Logan / Tilly |
+| **Schild der Tapferkeit** | Erhält Schild in Höhe von 400 % der Verteidigung | Nicl / Chief |
+
+<Callout type="info" title="Einblick in die Mechanik">
+Der Blitzspiegel hat eine hohe Magie-Anforderung (75), aber für Helden wie den Chief, die Schilde basierend auf Magiewerten generieren, bietet er sowohl Offensive als auch einen massiven Schub für die Überlebensfähigkeit.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fortgeschrittene Kampftaktiken">
+
+Sobald Ihr **guildrun Rush-Build** etabliert ist, rücken Positionierung und Debuff-Management in den Fokus. Sie möchten, dass Ihre Krieger so vielen Gegnern wie möglich benachbart sind, um die AOE-Rush-Trigger zu maximieren, aber Sie müssen auch Ihre „Trigger-Generatoren“ davor schützen, von Elite-Einheiten schnell besiegt zu werden.
+
+<Checklist
+  id="combat-prep"
+  title="Checkliste vor dem Kampf:"
+  items={[
+    "Überprüfen, ob Nicl einen Gegenstand in seinem ganz linken Slot zum Konsumieren hat",
+    "Sicherstellen, dass das Kriegerbanner dem Helden mit der höchsten Krit-Rate ausgerüstet ist",
+    "Vorhut-Einheiten positionieren, um den anfänglichen Explosionsschaden abzufangen",
+    "Verifizieren, dass alle Helden mindestens eine aktive Rush-Fähigkeit haben",
+    "Auf Debuff-Synergien prüfen (Stapelung von Verbrennung + Gift)"
+  ]}
+/>
+
+Im Endlos-Modus erhalten Gegner schließlich „Tödlich“-Modifikatoren. Um dem entgegenzuwirken, müssen Sie auf „dauerhafte Schilde“ setzen. Im Gegensatz zu Standard-Schilden, die mit der Zeit verfallen, bleiben dauerhafte Schilde bestehen, bis sie zerbrochen werden. Dies ist entscheidend, um die ersten 10 Sekunden eines Kampfes auf hohen Ebenen im Endlos-Modus zu überleben, wenn der gegnerische Schaden seinen Höhepunkt erreicht.
+
+| Debuff-Typ | Rush-Build-Synergie | Skalierungspotenzial |
+| :--- | :--- | :--- |
+| **Verbrennung** | Skaliert mit max. LP / +1 Magie pro Stapel | Hoch |
+| **Gift** | Verursacht % Schaden über Zeit / Erhöht sich mit Rush | Extrem |
+| **Frost** | Verlangsamt Angriffsgeschwindigkeit / Reduziert gegnerische Trigger | Mittel |
+| **Betäubung** | Ausgelöst durch Krieger-Krits | Hoch |
+
+<Callout type="tip" title="Strategie-Tipp">
+Wenn Sie im Late-Game die Wahl zwischen flachem Angriff und Omnivamp haben, wählen Sie immer Omnivamp. Bei über 2.000 Angriffspunkten wird ein kleiner Prozentsatz an Lebensentzug Ihre Helden unabhängig vom gegnerischen Schaden bei voller Gesundheit halten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Warum gilt das Kriegerbanner als obligatorisch für einen guildrun Rush-Build?",
+    answer: "Das Kriegerbanner bietet zwei entscheidende Effekte: Es ermöglicht Kriegern, basierend auf ihren kritischen Treffern zu heilen, und gewährt einen massiven Angriffsboost pro Rush-Trigger. Ohne es fehlt dem Build das für den Endlos-Modus erforderliche Durchhaltevermögen (Sustain)."
+  },
+  {
+    question: "Wie funktioniert Nicls Gegenstands-Konsum-Mechanik im S-Schwierigkeitsgrad?",
+    answer: "Nicl konsumiert den Gegenstand in seinem ganz linken Slot nach einem erfolgreichen Kampf. Er erhält permanent 100 % der Werte dieses Gegenstands und erstattet einen Teil der Kosten in Form von Splittern zurück. Dies ermöglicht es Ihnen, Werte zu „stapeln“, ohne seine begrenzten Gegenstandsplätze zu verbrauchen."
+  },
+  {
+    question: "Kann ich einen Rush-Build mit Magiern statt Kriegern spielen?",
+    answer: "Obwohl Magier ihre eigenen Synergien haben, ist die Rush-Mechanik speziell darauf ausgelegt, mit den Attributen von Kriegern und Vorhut-Einheiten zu skalieren. Ein magiefokussierter Build basiert normalerweise stattdessen auf „Stall“- oder „Mana“-Triggern."
+  },
+  {
+    question: "Was ist der beste Weg, um den Boss auf Ebene 17 im Endlos-Modus zu besiegen?",
+    answer: "Der Schlüssel ist die Debuff-Stapelung. Bis Ebene 17 könnte Ihr roher Schaden gegen den LP-Pool des Bosses Probleme haben, aber tausende Stapel von Gift und Verbrennung (verstärkt durch Ihre Rush-Skalierung) werden die LP des Bosses rasant schmelzen lassen."
+  }
+]} />
+
+</Section>

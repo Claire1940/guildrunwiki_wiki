@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Gameplay: Strategy Guide & Meta Progression 2026",
+  description: "Master Guildrun gameplay with our expert guide. Learn optimal hero builds, relic synergy, and combat tactics to dominate the rogue-lite auto battler.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Gameplay+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Guildrun gameplay** relies on balancing hero classes like Vanguards, Mages, and Duelists for maximum synergy.
+- **Relic management** is crucial; prioritize offensive relics that trigger on crit or rush for late-game scaling.
+- **Positioning matters**; use your tanks to absorb frontline damage while your backline casters ramp up.
+- **Economy control** via rerolls and shard accumulation determines your ability to upgrade heroes to S-rank.
+- **Endless mode** rewards players who focus on permanent stat scaling and efficient item distribution.
+</Callout>
+
+<Section icon={Map} title="Understanding Core Gameplay Mechanics">
+
+Guildrun is a deep auto-battler rogue-lite that challenges players to manage hero units, class synergies, and relic effects simultaneously. Success in a run depends on your ability to pivot your team composition based on the shop's offerings and the specific threats encountered in each combat encounter.
+
+**Video Highlights:**
+- Demonstrating the power of stall-focused vanguard tanks.
+- Utilizing critical hit and magic damage synergy.
+- Managing shop rerolls to find essential hero upgrades.
+
+<YouTubeEmbed videoId="HmeAJ5I4YEU" title="Nyx, Relentless Little Monster | Guildrun" />
+
+The flow of combat involves placing your heroes strategically to trigger specific class bonuses. Vanguards are essential for survivability, while Mages and Assassins provide the necessary burst to clear waves. Understanding the "Rush" mechanic—where abilities refresh or gain power under specific conditions—is the key to scaling your damage output into the later stages of a run.
+
+| Class | Primary Role | Key Stat Focus |
+| :--- | :--- | :--- |
+| Vanguard | Tanking, CC | Max HP, Armor |
+| Mage | Magic Damage | Magic, Mana Regen |
+| Duelist | Attack Speed | Attack Speed, Crit |
+| Assassin | Burst Damage | Crit, Attack |
+
+<Callout type="tip" title="Strategic Positioning">
+Always place your Vanguards in the front row to ensure they absorb initial enemy aggression. This protects your fragile Mages and Assassins, allowing them to stack damage-over-time or crit buffs safely.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hero Synergy and Builds">
+
+Building a cohesive team in Guildrun requires selecting units that share class tags or benefit from the same relic types. You should aim to specialize in one or two damage profiles, such as "Crit-Frost" or "Rush-Stall," rather than spreading your stats too thin across multiple conflicting archetypes.
+
+<CardGrid cols={3}>
+  <Card title="Crit-Frost Build">
+    - Focuses on freezing enemies
+    - High crit chance scaling
+    - Reduces enemy armor/speed
+  </Card>
+  <Card title="Stall-Vanguard Build">
+    - Maximum survivability
+    - HP-based damage reflection
+    - Ideal for long, drawn-out fights
+  </Card>
+  <Card title="Rush-Burst Build">
+    - Fast ability triggering
+    - High attack speed bonuses
+    - Best for clearing bosses quickly
+  </Card>
+</CardGrid>
+
+| Build Type | Difficulty | Best For |
+| :--- | :--- | :--- |
+| Crit-Frost | Intermediate | Crowd Control |
+| Stall-Vanguard | Beginner | Consistent Wins |
+| Rush-Burst | Advanced | Speed Runs |
+
+<Callout type="warning" title="Synergy Caution">
+Avoid over-investing in too many classes. Aim for 2-3 major synergies to maximize your relic efficiency. A team with too many disparate classes will struggle to gain meaningful bonuses from relics.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression Steps">
+
+Efficient progression through a run requires careful management of your shards. Use the following steps to optimize your shop phases and combat preparation.
+
+<Steps>
+  <Step num="1" title="Initial Team Setup">
+    Draft a balanced team during the early stages. Prioritize at least one Vanguard for tanking and one damage dealer to ensure you survive the first three combats.
+  </Step>
+  <Step num="2" title="Relic Prioritization">
+    Select relics that complement your current hero classes. If you have multiple Warriors, prioritize relics that boost "Crit" or "Rush" abilities.
+  </Step>
+  <Step num="3" title="Economic Management">
+    Use rerolls sparingly. Aim to keep a buffer of shards to maximize interest or to snag high-tier units when they appear in the shop.
+  </Step>
+  <Step num="4" title="Endgame Optimization">
+    Sell low-impact units to upgrade your core carries to S-rank. Ensure your best items are equipped on the heroes that benefit most from their specific stat bonuses.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Milestones and Goals">
+
+To reach higher difficulties in Guildrun, you must complete specific objectives. Tracking these goals helps you understand which mechanics to prioritize during your current session.
+
+<Checklist
+  id="guildrun-goals"
+  title="Run Progression Checklist:"
+  items={[
+    "Obtain an S-rank hero before the act boss",
+    "Successfully trigger a 10-stack Rush effect",
+    "Clear a challenge encounter with less than 50% HP",
+    "Maintain 100+ shards for the end-of-run bonus"
+  ]}
+/>
+
+| Milestone | Reward | Strategy |
+| :--- | :--- | :--- |
+| First Boss | Rare Relic | Focus on unit levels |
+| 100 Shard Bank | Extra Hero Slot | Save gold early |
+| S-Rank Unit | Stat Multiplier | Merge duplicates |
+
+<Callout type="success" title="Pro Strategy">
+Focus on the "backup" effects of your items. Some items provide significant bonuses to your team even when sitting in your inventory, particularly if they grant passive healing or defensive shielding.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I improve my tank's survivability?",
+    answer: "Focus on items that provide omnivamp or HP-based shields. Vanguards benefit most from stacking armor and health-regen passives during the mid-game."
+  },
+  {
+    question: "Is it better to reroll or save shards?",
+    answer: "Reroll only when you are struggling to clear encounters or when you are one unit away from an S-rank upgrade. Otherwise, hoard shards for interest bonuses."
+  },
+  {
+    question: "Do class bonuses stack?",
+    answer: "Yes, class bonuses stack based on the number of heroes of that class in combat. Check your team info panel to see current active bonuses."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Kai Build: Leitfaden zum Schild-Stacking & Ramping",
+  description: "Meistern Sie die Schild-Stacking-Strategie für Kai in Guildrun. Erfahren Sie alles über die besten Gegenstände, Backup-Relikte und Teamsynergien für Läufe mit hohem Schwierigkeitsgrad.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kai+Shield+Build",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team",
+  keywords: "Guildrun, Kai Build, Schild-Stacking, Endlosmodus, Guide, Strategie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primärer Build-Fokus**: Der **Guildrun Kai Build** konzentriert sich auf die Skalierung massiver Schilde, die direkt in explosiven Flächenschaden (AoE) umgewandelt werden.
+- **Kern-Synergie**: Kombinieren Sie Kai mit Mystikern und Vorhuten (Vanguards), um kontinuierlich Schilde zu erzeugen und flache Verteidigung zu stapeln.
+- **Bank-Strategie**: Behalten Sie hochrangige Tanks auf der Bank mit Backup-Relikten, um über 300 flache Rüstung an aktive Einheiten weiterzugeben.
+- **Schlüssel-Gegenstand**: Suchen Sie nach der Panzer-Glyphe (Tank Glyph), um die Verteidigung-zu-Angriff-Skalierung und massive Boni durch Stall-Trigger zu aktivieren.
+- **Endlosmodus-Tipp**: Priorisieren Sie Sandsturm-Immunität und Frost-Relikte, um schnell angreifende Feinde zu verlangsamen.
+</Callout>
+
+<Section icon={Swords} title="Kernmechaniken des Guildrun Kai Builds">
+
+Kai agiert als erstklassiger skalierender Carry in *Guildrun*. Seine Hauptmechanik dreht sich um das Aufladen eines mächtigen Angriffs, der einen massiven temporären Schild gewährt, welcher dann explodiert, um Bonusschaden direkt proportional zu seinem aktuellen Schildwert zu verursachen. Dies schafft eine einzigartige defensiv-offensive Feedback-Schleife, bei der Überlebenswerte direkt Ihre Offensivleistung steigern.
+
+**Video-Highlights:**
+- Demonstriert, wie man exponentielle Schilde durch aktive Unterstützung und Bank-Buffs stapelt.
+- Hebt die Stärke der Panzer-Glyphe in Kombination mit der Vorhut-Klasse hervor.
+- Zeigt Überlebenstaktiken für den Endlosmodus bis Tag 5 und darüber hinaus.
+
+<YouTubeEmbed videoId="GimB7p3ZEVQ" title="Kai, Stacking Frankly Stupid Amounts of Shield | Guildrun" />
+
+Während der 2-sekündigen Aufladezeit seiner aktiven Fähigkeit ist Kai sehr verwundbar. Die Sicherung einer frühen Schildgenerierung oder hoher flacher Verteidigung ist entscheidend, um dieses Fenster zu überleben. Sobald die Aufladung abgeschlossen ist, erhält Kai einen massiven Schild und führt einen Wirbelangriff aus. Der Wirbelangriff verursacht Basisschaden plus Bonusschaden in Höhe seines aktuellen Schildes. Wenn er 2.000 Schild hat, verursacht er massiven AoE-Schaden. Dies macht die Schildskalierung zur absoluten Priorität für diesen Build.
+
+Zudem halten Schilde in *Guildrun* 10 Sekunden lang an, sofern sie nicht als „dauerhafte Schilde“ spezifiziert sind. Das bedeutet, dass Sie kontinuierlich aktive Fähigkeiten durchlaufen lassen und passive Trigger nutzen müssen, um Ihren Verteidigungspuffer aufrechtzuerhalten. Wenn Feinde Kais Schilde angreifen, können bestimmte Relikte diesen Schaden zurückwerfen und seine Verteidigung in eine passive Waffe verwandeln.
+
+<Callout type="tip" title="Schildkraft steigern">
+Kai gewinnt an Angriffskraft, wann immer er geschützt ist oder seine Schilde Schaden erleiden. Konzentrieren Sie sich auf die schnelle Anwendung von Schilden statt auf einzelne große Schilde, um diese passiv stapelnde Angriffskraft zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Beste Gegenstände und Relikte für Kai">
+
+Um den **Guildrun Kai Build** zu optimieren, müssen Sie aktive Kampfgegenstände auf Kai mit mächtigen Backup-Relikten auf Ihren Helden auf der Bank ausbalancieren. Kai selbst benötigt eine Mischung aus Überlebensfähigkeit, Schildverstärkung und reinen Statuswerten. Gegenstände wie der Harmonie-Kristall, Vorhut-Embleme und Verteidigungs-stapelnde Glyphen sind entscheidend.
+
+| Gegenstand | Typ | Effekt | Bewertung |
+|------|------|--------|--------|
+| **Panzer-Glyphe** | Klassen-Emblem | Gewährt Tank-Klasse, +90 Verteidigung, ermöglicht Verteidigung-zu-Angriff-Skalierung | ★★★★★ |
+| **Harmonie-Kristall** | Status-Relikt | Erhöht Primärwerte basierend auf aktiven Klassen | ★★★★☆ |
+| **Schwert des Knappen** | Waffe | Erhöht Angriffsgeschwindigkeit und gewährt zuverlässigen Omnivamp | ★★★★☆ |
+| **Blizzard-Schutz** | Hilfsmittel | Beschwört jede Sekunde einen Blizzard, der Frost verursacht | ★★★★☆ |
+
+Während aktive Gegenstände Kai an der Front am Leben erhalten, bestimmt Ihr Bank-Setup Ihre Skalierung im Late-Game. Backup-Relikte ermöglichen es Helden auf der Bank, massive flache Verteidigungswerte direkt an Kai weiterzugeben, ohne Ihren aktiven Platz auf dem Feld zu beanspruchen.
+
+| Relikt | Platzierung | Team-Vorteil | Bewertung |
+|------|------|--------|--------|
+| **Backup-Schild-Emblem** | Nur Bank | Kampfbeginn: Gibt allen aktiven Helden 1.500 dauerhafte Schilde | ★★★★★ |
+| **Vorhut-Reserve** | Nur Bank | Gewährt 200 Max HP pro Rang von Vorhut-Einheiten in Reserve | ★★★★☆ |
+| **Panzer-Reserve** | Nur Bank | Gewährt 30 Verteidigung pro Rang von Panzer-Einheiten in Reserve | ★★★★★ |
+| **Investitions-Splitter** | Nur Bank | Erzeugt Manaregeneration und Splitter durch passive Investition | ★★★★☆ |
+
+<Callout type="warning" title="Platzierung von Backup-Relikten">
+Backup-Relikte bewirken nichts, wenn der Träger auf dem aktiven Feld steht. Stellen Sie immer sicher, dass diese Einheiten in Ihren Reserve-Slots platziert sind, um ihre teamweiten Verteidigungs-Buffs zu aktivieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Teamzusammensetzung und Synergie">
+
+Ein erfolgreicher Lauf erfordert einen hochspezialisierten Unterstützungstrupp. Sie wollen kein volles Feld mit aktiven Einheiten, wenn Sie stattdessen Kai verstärken können. Ein kleinerer, stark gebuffter Trupp ist oft überlegen. Nutzen Sie Rowan als aktive Unterstützung, um Frost und Betäubungen zu verursachen, während Mystiker Mana generieren und Zauber wirken, die eine Schildgenerierung beim Verbündeten mit den niedrigsten Lebenspunkten auslösen.
+
+| Klasse | Synergie-Effekt | Rolle im Build |
+|------|------|--------|
+| **Mystiker** | Schützt Helden mit niedrigsten HP um 500% der Manaregeneration | Aktive Unterstützung |
+| **Vorhut** | Auto-Angriffe gewähren permanent max. HP, skaliert Kais Überleben | Frontline-Tank |
+| **Krieger** | Gewährt zu Kampfbeginn allen Kriegern 2.000 dauerhafte Schilde | Carry-Synergie |
+| **Magier** | Verursacht 300% magischen Schaden am Ziel mit niedrigsten HP | Backline-DPS |
+
+Um die Zuweisung Ihrer Ressourcen besser zu verstehen, betrachten Sie die verschiedenen Rollen in dieser Komposition:
+
+<CardGrid cols={3}>
+  <Card title="Der Haupt-Carry (Kai)">
+    - **Konzentriert sich auf das Stapeln von Schilden**, um AoE-Schaden zu skalieren.
+    - Erfordert hohe Verteidigung, um eingehenden Schildschaden zu mildern.
+    - Profitiert immens von Omnivamp, um Chip-Schaden zu überstehen.
+  </Card>
+  <Card title="Die aktive Unterstützung">
+    - **Generiert kontinuierlich Schilde** und Mana für das Team.
+    - Wendet Crowd Control wie Frost und Betäubung an, um Gegner zu verlangsamen.
+    - Löst Feedback-Schleifen für Schildschaden aus, um Angreifer zu bestrafen.
+  </Card>
+  <Card title="Der Bank-Buffer">
+    - **Bleibt auf der Bank**, um Backup-Relikte zu aktivieren.
+    - Gibt massive flache Rüstung an aktive Einheiten weiter.
+    - Generiert passives Gold und Splitter für Late-Game-Übergänge.
+  </Card>
+</CardGrid>
+
+Durch das Platzieren hochrangiger Einheiten auf der Bank können Sie massive flache Verteidigung ansammeln. Zum Beispiel gibt ein Tank des Rangs A in der Reserve 90 Verteidigung an alle weiter. Wenn Sie mehrere hochrangige Tanks auf der Bank haben, können Sie problemlos über 300 flache Verteidigung stapeln, was Ihr aktives Team praktisch unbesiegbar macht.
+
+<Callout type="success" title="Feedback-Schleifen">
+Wann immer ein Mystiker einen Helden schützt, erlauben bestimmte Relikte, 50% des angewendeten Schildes als Schaden an den nächsten Feind zurückzugeben. Dies verwandelt passives Schützen in ein aktives offensives Werkzeug.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt-Leitfaden zum Fortschritt">
+
+Der Aufbau dieses Setups erfordert eine sorgfältige Planung über die verschiedenen Akte eines Laufs hinweg. Folgen Sie diesen Schritten, um reibungslos von einem Early-Game-Carry zu einem unaufhaltsamen Endlosmodus-Tank zu werden.
+
+<Steps>
+  <Step num="1" title="Early Game Setup">
+    Holen Sie sich Kai und konzentrieren Sie sich auf Basis-Angriffsgeschwindigkeit und Omnivamp. Überstürzen Sie kein volles Team; konzentrieren Sie Ressourcen darauf, Kai durch die ersten Akte zu bringen.
+  </Step>
+  <Step num="2" title="Übergang zum Schild-Stacking">
+    Holen Sie sich Mystiker- und Vorhut-Unterstützungen. Suchen Sie nach Gegenständen, die Schilde beim Wirken gewähren oder schützende Blumenfelder erzeugen.
+  </Step>
+  <Step num="3" title="Optimierung der Bank">
+    Kaufen Sie hochrangige Einheiten (A- oder S-Rang) und platzieren Sie diese mit Backup-Relikten auf der Bank. Dies gibt massive passive Verteidigung an Kai weiter.
+  </Step>
+  <Step num="4" title="Endlosmodus-Skalierung">
+    Besorgen Sie sich Sandsturm-Schutz und Frost-Relikte, um Backline-Schadensverursacher (wie Pilz-Scharfschützen) in hohen Endlos-Stufen zu neutralisieren.
+  </Step>
+</Steps>
+
+Achten Sie im weiteren Verlauf auf Stall-Trigger. Relikte, die Verteidigung und Magie für jeden Stall-Trigger gewähren, skalieren die Überlebensfähigkeit Ihres Teams während langwieriger Bosskämpfe exponentiell.
+
+<Callout type="info" title="Stall-Trigger">
+Stall-Trigger werden aktiviert, wenn eine Kampfrunde länger als eine bestimmte Dauer dauert. Diese sind für Schild-Builds äußerst vorteilhaft, da sie defensives Spielen mit permanentem Statuswachstum belohnen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ziele und Checkliste">
+
+Bevor Sie in die letzten Begegnungen gehen oder den Endlosmodus versuchen, nutzen Sie diese Checkliste, um sicherzustellen, dass Ihr Build alle notwendigen Komponenten hat.
+
+<Checklist
+  id="kai-build-milestones"
+  title="Wichtige Build-Meilensteine:"
+  items={[
+    "Erreichen Sie 300+ flache Rüstung, die von Ihren Reserve-Einheiten weitergegeben wird.",
+    "Rüsten Sie Kai mit der Panzer-Glyphe aus, um die Verteidigung-zu-Angriff-Skalierung zu aktivieren.",
+    "Sichern Sie mindestens zwei aktive Mystiker-Unterstützungen auf dem Feld.",
+    "Besorgen Sie sich ein Backup-Schild-Relikt für sofortigen Schutz bei Kampfbeginn."
+  ]}
+/>
+
+Im Endlosmodus skaliert der gegnerische Schaden exponentiell. Nutzen Sie die folgenden Richtlinien, um Ihre Verteidigungswerte einzuschätzen.
+
+| Endlos-Tag | Gegner-HP-Modifikator | Ziel-Rüstung | Überlebens-Priorität |
+|-------------|-------------------|--------------|-------------------|
+| **Tag 1-2** | +50% HP | 150 Rüstung | Hohen DPS beibehalten |
+| **Tag 3-4** | +100% HP | 250 Rüstung | Passive Schildgenerierung etablieren |
+| **Tag 5+** | +150% HP | 310+ Rüstung | Sandsturm-Immunität & Backline-Schutz |
+
+Falls Ihre Rüstung unter diesen Zielwerten liegt, konzentrieren Sie sich darauf, Ihre Einheiten auf der Bank aufzuwerten.
+
+<Callout type="tip" title="Pilz-Gegenmaßnahmen">
+Pilz-Scharfschützen sind aufgrund ihres hohen Backline-Schadens die gefährlichsten Feinde im Endlosmodus. Kontern Sie diese durch flache Verteidigung von der Bank und Frost-Relikte.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie skaliert der Guildrun Kai Build den Schaden?",
+    answer: "Kais aktive Fähigkeit lädt einen Angriff auf, der direkt mit seinem aktuellen Schildwert skaliert. Durch das Stapeln von Gegenständen, die Schilde und Verteidigung verstärken, skaliert sein Schaden exponentiell."
+  },
+  {
+    question: "Warum sollte ich hochrangige Helden auf die Bank setzen?",
+    answer: "Bestimmte Backup-Relikte gewähren massive Boni basierend auf dem Rang der Einheiten in der Reserve. Ein Tank des Rangs A oder S auf der Bank kann über 90+ flache Verteidigung pro Einheit weitergeben."
+  },
+  {
+    question: "Was ist der beste Konter gegen Backline-Scharfschützen im Endlosmodus?",
+    answer: "Pilz-Scharfschützen können Ihre Backline vernichten. Kontern Sie diese durch flache teamweite Verteidigung von der Bank, Frost-Relikte zur Verlangsamung und Sandsturm-Immunität."
+  }
+]} />
+
+<Callout type="success" title="Build-Zusammenfassung">
+Der Schild-Stacking-Build für Kai bietet beispiellose Überlebensfähigkeit und skalierenden Schaden. Durch die Nutzung von Backup-Relikten und aktiven Mystiker-Unterstützungen können Sie Läufe mit hohem Schwierigkeitsgrad meistern und tief in den Endlosmodus vordringen.
+</Callout>
+
+</Section>

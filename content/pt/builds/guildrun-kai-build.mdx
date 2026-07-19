@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Kai em Guildrun: Guia de Acúmulo de Escudo e Escalonamento",
+  description: "Domine a estratégia de acúmulo de escudo para Kai em Guildrun. Aprenda os melhores itens, relíquias de reserva e sinergias de equipe para partidas de alta dificuldade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kai+Shield+Build",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun",
+  keywords: "guildrun, kai build, acúmulo de escudo, guia de jogo, estratégia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal da Build**: A **build de kai em guildrun** centra-se em escalar escudos massivos que se convertem diretamente em dano em área (AoE) explosivo.
+- **Sinergia Principal**: Combine Kai com Místicos (Mystics) e Vanguardas (Vanguards) para gerar escudos continuamente e acumular defesa bruta.
+- **Estratégia de Reserva (Bench)**: Mantenha tanques de rank alto na reserva com relíquias de apoio para passar mais de 300 de armadura bruta para as unidades ativas.
+- **Item Chave**: Procure pelo Glifo de Tanque (Tank Glyph) para permitir o escalonamento de defesa para ataque e bônus massivos de gatilhos de prolongamento (stall triggers).
+- **Dica para o Modo Infinito**: Priorize imunidade a tempestades de areia e relíquias que aplicam gelo para retardar inimigos de ataque rápido.
+</Callout>
+
+<Section icon={Swords} title="Mecânicas Principais da build de kai em guildrun">
+
+Kai opera como um carry de escalonamento de elite em *Guildrun*. Sua mecânica principal gira em torno de carregar um ataque poderoso que concede um escudo temporário massivo, que então explode para causar dano bônus diretamente proporcional ao seu valor de escudo atual. Isso cria um ciclo de feedback defensivo-ofensivo único, onde os atributos de sobrevivência impulsionam diretamente seu potencial ofensivo.
+
+**Destaques do Vídeo:**
+- Demonstra como acumular escudos exponenciais usando suporte ativo e buffs de reserva.
+- Destaca o poder do Glifo de Tanque combinado com a classe Vanguarda.
+- Mostra táticas de sobrevivência no modo infinito até o Dia 5 e além.
+
+<YouTubeEmbed videoId="GimB7p3ZEVQ" title="Kai, Acumulando Quantidades Absurdas de Escudo | Guildrun" />
+
+Durante o tempo de carregamento de 2 segundos de sua habilidade ativa, Kai fica altamente vulnerável. Garantir a geração precoce de escudos ou alta defesa bruta é crucial para sobreviver a essa janela. Assim que o carregamento termina, Kai ganha um escudo massivo e libera um ataque giratório. O ataque giratório causa dano base mais dano bônus igual ao seu escudo atual. Se ele tiver 2.000 de escudo, causará um dano AoE massivo. Isso torna o escalonamento de escudo a prioridade absoluta para esta build.
+
+Além disso, os escudos em *Guildrun* duram 10 segundos, a menos que especificados como "escudos duradouros" (lasting shields). Isso significa que você deve ciclar continuamente as habilidades ativas e aproveitar os gatilhos passivos para manter seu buffer defensivo. Quando os inimigos atacam os escudos de Kai, relíquias específicas podem refletir esse dano de volta, transformando sua defesa em uma arma passiva.
+
+<Callout type="tip" title="Aumentando o Poder do Escudo">
+Kai ganha poder de ataque sempre que está protegido por um escudo ou quando seus escudos recebem dano. Foque na aplicação rápida de escudos em vez de um único escudo grande para maximizar essa passiva de acúmulo de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Itens e Relíquias para Kai">
+
+Para otimizar a **build de kai em guildrun**, você deve equilibrar itens de combate ativos no Kai com relíquias de reserva poderosas colocadas em seus heróis no banco. O próprio Kai precisa de uma mistura de sobrevivência, amplificação de escudo e atributos puros. Itens como o Cristal da Harmonia, emblemas de Vanguarda e glifos de acúmulo de defesa são cruciais.
+
+| Item | Tipo | Efeito | Classificação |
+|------|------|--------|--------|
+| **Tank Glyph** | Emblema de Classe | Concede classe Tanque, +90 de Defesa, permite escalonamento de defesa para ataque | ★★★★★ |
+| **Harmony Crystal** | Relíquia de Atributo | Aumenta atributos principais com base nas classes ativas | ★★★★☆ |
+| **Squire's Sword** | Arma | Aumenta a velocidade de ataque básico e concede omnivamp confiável | ★★★★☆ |
+| **Blizzard Ward** | Utilidade | Gera uma nevasca a cada segundo, aplicando gelo para reduzir a velocidade de ataque inimiga | ★★★★☆ |
+
+Enquanto os itens ativos mantêm Kai vivo na linha de frente, sua configuração de reserva dita seu escalonamento no final do jogo. Relíquias exclusivas para reserva permitem que heróis no banco passem valores defensivos brutos massivos diretamente para Kai sem ocupar espaço no seu tabuleiro ativo.
+
+| Relíquia | Posicionamento | Benefício para a Equipe | Classificação |
+|------|------|--------|--------|
+| **Backup Shield Emblem** | Apenas Reserva | Início do combate: Dá a todos os heróis ativos 1.500 de escudos duradouros | ★★★★★ |
+| **Vanguard Reserve** | Apenas Reserva | Concede 200 de HP Máximo por rank de unidades de Vanguarda na reserva | ★★★★☆ |
+| **Tank Reserve** | Apenas Reserva | Concede 30 de Defesa por rank de unidades de Tanque na reserva | ★★★★★ |
+| **Investment Shard** | Apenas Reserva | Gera regeneração de mana e fragmentos ao longo do tempo através de investimento passivo | ★★★★☆ |
+
+<Callout type="warning" title="Posicionamento de Relíquias de Reserva">
+Relíquias exclusivas para reserva não fazem nada se o portador estiver no tabuleiro ativo. Sempre certifique-se de que essas unidades estejam em seus slots de reserva para ativar os buffs defensivos para toda a equipe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Composição de Equipe e Sinergia">
+
+Uma partida bem-sucedida requer um esquadrão de suporte altamente especializado. Você não quer um tabuleiro cheio de unidades ativas se puder, em vez disso, fortalecer o Kai. Um esquadrão menor e altamente buffado costuma ser superior. Use Rowan como um suporte ativo para aplicar gelo e atordoamentos, enquanto os Místicos geram mana e lançam feitiços que ativam a geração de escudos no aliado com menos vida.
+
+| Classe | Efeito de Sinergia | Papel na Build |
+|------|------|--------|
+| **Mystic** | Protege o herói com menos HP em 500% da regeneração de mana ao conjurar | Suporte Ativo |
+| **Vanguard** | Ataques básicos concedem HP máximo permanente, escalando a sobrevivência do Kai | Tanque de Linha de Frente |
+| **Warrior** | Concede 2.000 de escudo duradouro no início do combate a todos os guerreiros | Sinergia de Carry |
+| **Mage** | Causa 300% de dano mágico ao alvo com menos vida ao conjurar | DPS de Linha de Retaguarda |
+
+Para entender melhor como alocar seus recursos, considere os papéis distintos dentro desta composição:
+
+<CardGrid cols={3}>
+  <Card title="O Carry Principal (Kai)">
+    - **Foca em acumular escudos** para escalar o dano em área.
+    - Requer alta defesa para mitigar o dano recebido no escudo.
+    - Beneficia-se imensamente de omnivamp para se sustentar contra danos graduais.
+  </Card>
+  <Card title="O Suporte Ativo">
+    - **Gera escudos contínuos** e mana para a equipe.
+    - Aplica controle de grupo como gelo e atordoamento para retardar o DPS inimigo.
+    - Ativa ciclos de feedback de dano de escudo para punir atacantes.
+  </Card>
+  <Card title="O Buffer de Reserva">
+    - **Permanece no banco** para ativar relíquias exclusivas de reserva.
+    - Passa armadura bruta massiva para as unidades ativas.
+    - Gera ouro e fragmentos passivos para financiar transições de final de jogo.
+  </Card>
+</CardGrid>
+
+Ao colocar unidades de rank alto na reserva, você pode acumular uma defesa bruta massiva. Por exemplo, um tanque de rank A na reserva passa 90 de defesa para todos. Se você tiver vários tanques de rank alto no banco, pode facilmente acumular mais de 300 de defesa bruta, tornando sua equipe ativa virtualmente invencível.
+
+<Callout type="success" title="Ciclos de Feedback">
+Sempre que um Místico protege um herói com escudo, certas relíquias permitem que você cause dano de volta ao inimigo mais próximo igual a 50% do escudo aplicado. Isso transforma a proteção passiva em uma ferramenta ofensiva ativa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia de Progressão Passo a Passo">
+
+Construir esta configuração requer planejamento cuidadoso ao longo dos diferentes atos de uma partida. Siga estes passos para transitar suavemente de um carry de início de jogo para um tanque imparável no modo infinito.
+
+<Steps>
+  <Step num="1" title="Configuração Inicial">
+    Adquira Kai e foque em velocidade de ataque básico e omnivamp. Não se apresse em formar uma equipe completa; foque os recursos em carregar Kai sozinho pelos primeiros atos.
+  </Step>
+  <Step num="2" title="Transição para Acúmulo de Escudo">
+    Pegue suportes Místicos e de Vanguarda. Procure por itens que concedam escudos ao conjurar ou gerem campos de flores protetores para manter Kai saudável durante o carregamento de sua habilidade ativa.
+  </Step>
+  <Step num="3" title="Otimizando a Reserva">
+    Compre unidades de rank alto (rank A ou rank S) e coloque-as na reserva com relíquias exclusivas para reserva. Isso passa uma defesa passiva massiva para o Kai, permitindo que ele tanke chefes de alto dano.
+  </Step>
+  <Step num="4" title="Escalonamento no Modo Infinito">
+    Adquira proteção contra tempestades de areia e relíquias que aplicam gelo para neutralizar causadores de dano da retaguarda (como os atiradores de cogumelo) em níveis altos do modo infinito.
+  </Step>
+</Steps>
+
+Conforme você progride, fique atento aos gatilhos de prolongamento (stall triggers). Relíquias que concedem defesa e magia para cada gatilho de prolongamento escalarão a sobrevivência da sua equipe exponencialmente durante lutas prolongadas contra chefes.
+
+<Callout type="info" title="Gatilhos de Prolongamento">
+Os gatilhos de prolongamento são ativados quando uma rodada de combate dura mais do que uma duração especificada. Eles são altamente benéficos para builds de escudo, pois recompensam estilos de jogo defensivos com crescimento permanente de atributos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Checklist">
+
+Antes de seguir para os encontros finais ou tentar o modo infinito, use este checklist para garantir que sua build tenha todos os componentes necessários para sobreviver.
+
+<Checklist
+  id="kai-build-milestones"
+  title="Marcos Essenciais da Build:"
+  items={[
+    "Alcançar 300+ de armadura bruta vinda das suas unidades de reserva no banco.",
+    "Equipar Kai com o Glifo de Tanque para permitir o escalonamento de defesa para ataque.",
+    "Garantir pelo menos dois suportes Místicos ativos no tabuleiro.",
+    "Obter uma relíquia de escudo exclusiva para reserva para proteção instantânea no início do combate."
+  ]}
+/>
+
+No modo infinito, o dano inimigo escala exponencialmente. Use as diretrizes a seguir para avaliar se seus atributos defensivos são altos o suficiente para sobreviver aos modificadores de escalonamento.
+
+| Dia Infinito | Modificador de HP Inimigo | Armadura Alvo | Prioridade de Sobrevivência |
+|-------------|-------------------|--------------|-------------------|
+| **Dia 1-2** | +50% HP | 150 de Armadura | Manter DPS alto para limpar ondas |
+| **Dia 3-4** | +100% HP | 250 de Armadura | Estabelecer geração passiva de escudo |
+| **Dia 5+** | +150% HP | 310+ de Armadura | Imunidade a tempestade de areia e proteção de retaguarda |
+
+Se sua armadura estiver abaixo desses alvos, foque em melhorar suas unidades de reserva para aumentar a defesa bruta passada para seu esquadrão ativo.
+
+<Callout type="tip" title="Contramedidas para Cogumelos">
+Atiradores de cogumelo são os inimigos mais perigosos no modo infinito devido ao seu alto dano na retaguarda. Neutralize-os acumulando defesa bruta para toda a equipe a partir da reserva e usando relíquias de gelo para reduzir sua velocidade de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como a build de kai em guildrun escala o dano?",
+    answer: "A habilidade ativa de Kai carrega um ataque poderoso que escala diretamente com seu valor de escudo atual. Ao acumular itens que amplificam a proteção e a defesa, seu dano cresce exponencialmente."
+  },
+  {
+    question: "Por que devo colocar heróis de rank alto na reserva?",
+    answer: "Certas relíquias exclusivas para reserva concedem bônus de atributos massivos aos heróis ativos com base no rank das unidades em suas reservas. Colocar um tanque de rank A ou S no banco pode passar mais de 90 de defesa bruta por unidade para seu esquadrão ativo."
+  },
+  {
+    question: "Qual é a melhor forma de lidar com atiradores de retaguarda no Modo Infinito?",
+    answer: "Atiradores de cogumelo podem devastar sua retaguarda. Combata-os acumulando defesa bruta para toda a equipe a partir da reserva, usando relíquias de gelo para retardar seus ataques e garantindo imunidade a tempestades de areia."
+  }
+]} />
+
+<Callout type="success" title="Resumo da Build">
+A build de acúmulo de escudo para Kai oferece uma sobrevivência incomparável e dano escalonável. Ao utilizar relíquias exclusivas para reserva e suportes Místicos ativos, você pode completar partidas de alta dificuldade com conforto e avançar profundamente no modo infinito.
+</Callout>
+
+</Section>

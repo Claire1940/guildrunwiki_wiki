@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Shop-Leitfaden: S-Tier-Synergie & Ressourcenmanagement",
+  description: "Meistern Sie den Guildrun Shop-Leitfaden, um Splitter-Ausgaben zu optimieren, Helden auf S-Tier aufzuwerten und unaufhaltsame Magier- oder Brand-Synergien im Jahr 2026 aufzubauen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Shop+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team",
+  keywords: "Guildrun, Shop-Leitfaden, Splitter, Helden-Rang, Relikte, Synergie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptwährung**: Verwenden Sie **Splitter**, die Sie in Kämpfen verdienen, um Helden, Gegenstände und teamweite Relikte zu kaufen.
+- **Helden-Rang**: Kaufen Sie Duplikate von Helden, um sie von **B auf S** aufzuwerten und mächtige passive sowie aktive Fähigkeiten freizuschalten.
+- **Synergie-Fokus**: Priorisieren Sie Helden, die eine **Klasse** (z. B. Magier) oder einen **Archetyp** (z. B. Brand) teilen, um massive Attributsboni zu erhalten.
+- **Relikt-Strategie**: Investieren Sie frühzeitig in **Relikte**, da diese permanente Buffs für Ihre gesamte Gilde bieten, anstatt nur für einzelne Einheiten.
+- **Shop-Nutzen**: Nutzen Sie die **Einfrieren**-Funktion, um wertvolle Helden für den nächsten Besuch zu speichern, falls Ihnen die Splitter fehlen.
+</Callout>
+
+<Section icon={Map} title="Grundlagen des Guildrun Shop-Leitfadens">
+
+In der Welt von Guildrun ist der Shop das Herzstück Ihres Fortschritts. Erfolg bedeutet nicht nur, Kämpfe zu gewinnen; es geht darum, wie effektiv Sie den **Guildrun Shop-Leitfaden** nutzen, um ein stimmiges Team aufzubauen. Nach jeder Kampfbegegnung wird Ihnen eine Auswahl an Helden, Ausrüstung und Relikten präsentiert. Das Verständnis der Splitter-Wirtschaft entscheidet über einen gescheiterten Run oder das Erreichen des Endlos-Modus.
+
+**Video-Highlights:**
+- **Heldenrekrutierung**: Wie man Starthelden wie Funky oder Kai basierend auf ihren Anfangsfähigkeiten auswählt.
+- **Shop-Layout**: Navigieren durch die drei Helden-Slots, Gegenstands-Slots und Relikt-Angebote.
+- **Synergie-Aufbau**: Identifizierung von Magiern und Vorhut-Einheiten, um klassenbasierte Attributsschübe auszulösen.
+- **Ressourcenmanagement**: Abwägen zwischen Ausgaben für sofortige Helden-Upgrades und langfristigen Relikten.
+
+<YouTubeEmbed videoId="XGFvBmp-XTo" title="Guildrun | Awesome Auto Battler Roguelike!" />
+
+Der Shop bietet eine zufällige Auswahl, aber Sie haben Werkzeuge, um das Ergebnis zu beeinflussen. Sie können Splitter ausgeben, um die Auswahl **Neu auszuwürfeln** (Reroll) oder den Shop **Einzufrieren**, um bestimmte Artikel für Ihren nächsten Besuch verfügbar zu halten. Dies ist entscheidend, wenn Sie einen hochrangigen Helden sehen, aber nicht genug Mittel haben, um ihn sofort zu rekrutieren.
+
+| Shop-Aktion | Kosten | Hauptvorteil |
+| :--- | :--- | :--- |
+| **Held rekrutieren** | Variabel | Fügt eine neue Einheit hinzu oder wertet eine bestehende auf |
+| **Gegenstand kaufen** | Variabel | Bietet individuelle Attributsschübe (Magie, LP, Verteidigung) |
+| **Relikt kaufen** | Variabel | Gewährt permanente, teamweite passive Buffs |
+| **Neu auswürfeln** | 2-5 Splitter | Aktualisiert die aktuelle Auswahl an Helden und Gegenständen |
+| **Einfrieren** | Kostenlos | Sperrt den aktuellen Shop für den nächsten Besuch |
+
+<Callout type="tip" title="Wirtschafts-Tipp">
+Priorisieren Sie früh im Run die Erweiterung Ihrer Teamgröße und den Erwerb von mindestens einem **Relikt**. Relikte wie die "Magiergewänder" bieten einen pauschalen Bonus für alle Magier, was kosteneffizienter ist als der Kauf einzelner Gegenstände für jede Einheit.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Helden-Rang und Fähigkeitsentwicklung">
+
+Einer der kritischsten Aspekte des **Guildrun Shop-Leitfadens** ist das Rangsystem. Im Gegensatz zu traditionellen RPGs, in denen Helden durch EP aufsteigen, müssen Sie in Guildrun Duplikate im Shop kaufen, um ihren Rang zu erhöhen. Das Aufwerten eines Helden steigert seine Basiswerte erheblich und schaltet vor allem neue Stufen von Fähigkeiten frei.
+
+<CardGrid cols={3}>
+  <Card title="Rang B (Basis)">
+    - **Startwerte**
+    - Erste aktive Fähigkeit
+    - Standard-Mana-Regeneration
+  </Card>
+  <Card title="Rang A (Fortgeschritten)">
+    - **Attributs-Multiplikator**
+    - Neue passive Fähigkeit freigeschaltet
+    - Erhöhte Skalierung der Fähigkeiten
+  </Card>
+  <Card title="Rang S (Überlegen)">
+    - **Maximales Attributswachstum**
+    - Ultimative Fähigkeit freigeschaltet
+    - Potenzielle Klassenentwicklung
+  </Card>
+</CardGrid>
+
+Wenn Sie Rang A oder S erreichen, haben Sie oft die Wahl zwischen verschiedenen Upgrades. Ein Magier könnte beispielsweise zwischen "Sengenden Flammen" (Brand-Fokus) oder "Gletscherberührung" (Frost-Fokus) wählen. Diese Entscheidungen sollten auf Ihre vorhandenen Relikte abgestimmt sein. Wenn Sie das Relikt **Brand-Katalysator** besitzen, wählen Sie immer das feuerbasierte Upgrade, um den Schaden zu maximieren.
+
+| Rang-Stufe | Attributssteigerung | Fähigkeitsänderungen |
+| :--- | :--- | :--- |
+| **B → A** | +25% Basiswerte | Schaltet das erste passive Merkmal frei |
+| **A → S** | +50% Basiswerte | Schaltet ultimative/sekundäre Klasse frei |
+| **S+ (Endlos)** | Inkrementell | Attributsskalierung basierend auf Heldentyp |
+
+<Callout type="success" title="Synergie-Bonus">
+Das Aufwerten eines Helden, der dieselbe Klasse wie Ihr Anführer teilt (z. B. ein Magier-Anführer mit Magier-Rekruten), löst den **Klassen-Synergie-Bonus** aus, der allen in dieser Klasse kostenlose Magie- oder Verteidigungswerte gewährt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="So optimieren Sie Ihren Shop-Besuch">
+
+Um Ihre Effizienz zu maximieren, sollten Sie bei jedem Shop-Besuch einem spezifischen Arbeitsablauf folgen. Blindlings den teuersten Helden zu kaufen, ist ein häufiger Fehler, der zu mangelnder Synergie führt.
+
+<Steps>
+  <Step num="1" title="Zuerst Synergien prüfen">
+    Scannen Sie die drei verfügbaren Helden nach Symbolen, die zu den Klassen Ihres aktuellen Teams passen. Achten Sie auf Tags wie "Magier", "Vorhut" oder "Assassine".
+  </Step>
+  <Step num="2" title="Relikte bewerten">
+    Prüfen Sie den Relikt-Slot. Wenn es ein Relikt gibt, das Ihren primären Schadenstyp bufft (z. B. Brand oder Frost), kaufen Sie es sofort. Relikte sind selten und oft wertvoller als ein einzelner Helden-Rang.
+  </Step>
+  <Step num="3" title="Inventar verwalten">
+    Ziehen Sie Gegenstände aus dem Shop auf bestimmte Helden. Geben Sie LP-Gegenstände Ihrer Vorhut und Magie-Gegenstände Ihren Magiern. Sie können Gegenstände jederzeit kostenlos ablegen und tauschen.
+  </Step>
+  <Step num="4" title="Neu auswürfeln oder Einfrieren">
+    Wenn Sie überschüssige Splitter haben und kein Helden-Duplikat gefunden haben, würfeln Sie einmal neu. Wenn ein lebenswichtiger Held erscheint, Sie aber pleite sind, drücken Sie die **Einfrieren**-Taste.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Inventarverwaltung">
+Passen Sie auf, dass Sie Gegenstände oder Helden nicht versehentlich verkaufen. Das Verkaufen bietet zwar eine kleine Splitter-Rückerstattung, aber es lohnt sich selten, eine aufgewertete Einheit zu verlieren, es sei denn, Sie ändern Ihre Strategie komplett.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gegenstände, Relikte und Schlüsselwörter">
+
+Der Shop ist nicht nur für Helden da; hier definieren Sie Ihren "Build" durch spezialisierte Ausrüstung. Das Verständnis von Schlüsselwörtern wie **Ansturm** (Rush), **Verzögerung** (Stall) und **Reserve** (Backup) ist für das Spiel auf hohem Niveau unerlässlich.
+
+- **Ansturm**: Effekte, die in den ersten 15 Sekunden des Kampfes ausgelöst werden. Ideal für aggressive Teams mit hohem Schaden.
+- **Verzögerung**: Effekte, die erst nach 20 Sekunden aktiviert werden. Perfekt für tanklastige Kompositionen, die den Gegner überdauern.
+- **Reserve**: Diese Gegenstände oder Fähigkeiten wirken auch, wenn sich der Held in Ihren Reserve-Slots befindet, sodass Sie Ihr aktives Team von der Seitenlinie aus buffen können.
+
+| Name (Gegenstand/Relikt) | Typ | Schlüsseleffekt | Bestens für |
+| :--- | :--- | :--- | :--- |
+| **Ring der Geduld** | Gegenstand | +100 Max LP, +12 Magie | Frontlinien-Magier |
+| **Brand-Katalysator** | Relikt | +33% Brandschaden | Feuerbasierte Teams |
+| **Magiergewänder** | Relikt | +25 Magie für alle Magier | Magielastige Comps |
+| **Plattierter Kodex** | Relikt | +10 Verteidigung pro Sieg | Langfristige Skalierung |
+| **Splittergitter** | Relikt | Erhöht Splitter-Gewinn | Wirtschaft im frühen Spiel |
+
+<Callout type="tip" title="Das Auktionshaus">
+Nach dem Besiegen eines Bosses betreten Sie das **Auktionshaus**. Dies ist eine spezielle Version des Shops, die Gegenstände mit höherer Seltenheit und die seltene Fähigkeit zur **Erhöhung der Teamgröße** bietet. Sparen Sie vor einem Bosskampf immer mindestens 20-30 Splitter, um sich diese Elite-Upgrades leisten zu können.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame-Shop-Checkliste">
+
+Wenn Sie sich den finalen Akten nähern und sich auf den Endlos-Modus vorbereiten, müssen sich Ihre Shop-Prioritäten von Rekrutierung hin zur Perfektion verschieben. Nutzen Sie diese Checkliste, um sicherzustellen, dass Ihre Gilde für die ultimative Herausforderung bereit ist.
+
+<Checklist
+  id="endgame-shop-goals"
+  title="Endgame-Bereitschafts-Checkliste:"
+  items={[
+    "Maximale Teamgröße erreichen (normalerweise 5-6 Slots über das Auktionshaus)",
+    "Mindestens zwei Kernhelden auf S-Tier aufwerten",
+    "Alle aktiven Helden mit mindestens einem seltenen Gegenstand ausrüsten",
+    "Ein klassenspezifisches Relikt sichern (z. B. Leerenessenz für Assassinen)",
+    "Eine sekundäre Synergie identifizieren und festigen (z. B. Brand + Frost)"
+  ]}
+/>
+
+<CardGrid cols={2}>
+  <Card title="Die Brand-Strategie">
+    Konzentrieren Sie sich auf Helden wie **Funky** und Relikte wie den **Brand-Katalysator**. Dieser Build setzt auf Schaden über Zeit, der mit der Gesundheit des Gegners skaliert – perfekt für Bosskämpfe.
+  </Card>
+  <Card title="Die Magier-Verzögerungs-Strategie">
+    Konzentrieren Sie sich auf hohe Magiewerte und das Schlüsselwort **Verzögerung**. Wenn Ihre Magier die ersten 20 Sekunden überleben, erhalten sie massive Machtspitzen, die das gesamte Spielfeld mit einem Zauber leeren können.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Letzter Rat">
+Scheuen Sie sich nicht, die Option "Umschulen" an Lagerfeuern auszuprobieren, wenn der Shop Ihrem aktuellen Build gegenüber nicht gnädig war. Ein rechtzeitiger Strategiewechsel kann einen Run retten, der sich unterlegen anfühlt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Guildrun Shop-Meisterschaft">
+
+<FAQ items={[
+  {
+    question: "Wie bekomme ich mehr Splitter für den Shop?",
+    answer: "Splitter werden primär durch das Gewinnen von Kämpfen verdient. Sie können Ihren Ertrag steigern, indem Sie 'Splitter schürfen'-Pfade auf der Karte wählen oder früh im Run das Relikt 'Splittergitter' ausrüsten."
+  },
+  {
+    question: "Sollte ich jeden Helden kaufen, den ich im Guildrun Shop-Leitfaden sehe?",
+    answer: "Nein. Der Kauf zu vieler verschiedener Helden verhindert, dass Sie Ihre Kerneinheiten aufwerten können. Konzentrieren Sie sich auf 3-4 spezifische Helden und kaufen Sie nur deren Duplikate, um schnell Rang S zu erreichen."
+  },
+  {
+    question: "Was ist der Vorteil des Einfrierens im Shop?",
+    answer: "Das Einfrieren ermöglicht es Ihnen, einen wertvollen Helden oder ein Relikt für den nächsten Besuch im Shop zu behalten. Dies ist unerlässlich, wenn Sie ein Duplikat zum Aufwerten finden, Ihre Splitter aber zuvor beim selben Besuch für einen notwendigen Gegenstand ausgegeben haben."
+  },
+  {
+    question: "Kann ich Gegenstände bei Reserve-Helden verwenden?",
+    answer: "Ja, und das sollten Sie auch! Gegenstände mit dem Schlüsselwort 'Reserve' (Backup) bieten ihre Boni dem aktiven Team an, selbst wenn der Held, der sie trägt, gerade nicht auf dem Schlachtfeld ist."
+  }
+]} />
+
+</Section>

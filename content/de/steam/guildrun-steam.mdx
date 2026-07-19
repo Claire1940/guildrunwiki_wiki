@@ -1,0 +1,221 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Info, HelpCircle, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Steam: 2026 Einsteiger-Guide & Beste Helden-Builds",
+  description: "Meistere Guildrun auf Steam mit unserem Guide für 2026. Entdecke Helden-Tier-Listen, Spezialisierungspfade und Strategien für die kostenlose Demo und den Full Release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111A18/D5B65C?text=Guildrun+Steam+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Guildrun Steam**: Das Spiel ist ein Singleplayer-PvE-Roguelike-Autobattler, entwickelt von Leyline. Eine kostenlose Demo ist derzeit verfügbar.
+- **Kernmechanik**: Rekrutiere ein ausgewogenes Team aus 25 verfügbaren Helden und passe dich den zufälligen Shop-Angeboten in immer schwierigeren Rissen an.
+- **Build-Strategie**: Konzentriere dich auf **geteilte Effekte** (wie „Lovers“) und Spezialisierungspfade, die zur Haltbarkeit deiner Frontline passen.
+- **Fortschritt**: Navigiere durch 8 Schwierigkeitsgrade und strebe den **Endlosmodus** an, um deine Bestenlisten-Punktzahl zu maximieren.
+- **Ressourcenmanagement**: Priorisiere sofortige Stärke gegenüber spekulativen Upgrades, um die Risse im frühen Spiel zu überleben.
+</Callout>
+
+<Section icon={Activity} title="Guildrun Steam: Demo-Zugang und Roadmap 2027">
+
+**Guildrun Steam** hat sich schnell zu einem herausragenden Titel im Genre der PvE-Roguelike-Autobattler entwickelt. Das von Leyline entwickelte Spiel legt den Schwerpunkt auf taktische Rekrutierung und tiefgreifende Spezialisierung. Seit Juli 2026 verzeichnet die Community einen deutlichen Aktivitätsschub mit über 7.184 Online-Spielern und einer positiven Bewertungsrate von 96 % für die eigenständige Demo. Während die Vollversion für eine Veröffentlichung im Jahr 2027 geplant ist, bietet die aktuelle Demo einen umfassenden Einblick in die Kernmechaniken, einschließlich einer Auswahl der geplanten 25 Helden und über 300 Relikte.
+
+**Video-Highlights:**
+- **Ankündigungstrailer**: Visueller Überblick über die Kämpfe in den Rissen und die Heldenrekrutierung.
+- **Visueller Stil**: Dark-Fantasy-Ästhetik mit leuchtend türkisfarbenen Rissen und antiken Goldakzenten.
+- **Kampfmechanik**: Präsentation des automatischen Kampfsystems, bei dem die Positionierung der Schlüssel zum Sieg ist.
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun – Official Announcement Trailer" />
+
+Der Übergang von der Demo zum vollständigen Spiel verspricht eine massive Erweiterung der Inhalte. Spieler, die derzeit die Steam-Version testen, sollten sich darauf konzentrieren, die Rekrutierungs- und Shop-Refresh-Mechaniken zu meistern, da diese Grundlagen in die komplexeren Systeme der finalen Version übernommen werden.
+
+| Funktion | Demo-Version (2026) | Vollversion (2027) |
+| :--- | :--- | :--- |
+| **Heldenkader** | Begrenzte Auswahl | 25 einzigartige Helden |
+| **Spezialisierungspfade** | Nur Kernpfade | 75 Pfade / 180 Spezialisierungen |
+| **Reliktanzahl** | ~50 Relikte | 300+ Relikte |
+| **Spielmodi** | Basis-Runs / Früher Endlosmodus | 8 Schwierigkeitsgrade / Voller Endlosmodus / Koop |
+| **Plattform** | Steam (PC) | Steam / Geplanter Steam Deck Support |
+
+<Callout type="tip" title="Profi-Tipp: Fortschrittsübernahme">
+Obwohl die Demo eine eigenständige Erfahrung ist, haben die Entwickler angedeutet, dass bestimmte Meta-Fortschrittselemente, wie die Vertrautheit mit Helden und freigeschaltete Schwierigkeitsgrade, deinen Start in der Vollversion 2027 beeinflussen könnten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Strategie für Anfänger">
+
+Erfolg in **Guildrun Steam** erfordert ein Umdenken vom traditionellen RPG-Denken hin zu einer „Ressourcen-zuerst“-Mentalität. Du baust nicht nur ein Team auf; du verwaltest eine sich ständig verändernde Wirtschaft. Die ersten Risse bestimmen den Verlauf deines gesamten Runs. Ein strukturierter Ansatz bei Rekrutierung und Itemisierung ist unerlässlich, um den Endboss zu erreichen.
+
+<Steps>
+  <Step num="1" title="Rekrutiere eine ausgewogene Basis">
+    Dein Startgold sollte in einen Frontline-Helden (Tank), einen zuverlässigen Schadensverursacher (Fernkämpfer oder Duellant) und eine Unterstützungseinheit fließen. Widerstehe der Versuchung, drei Schadensverursacher zu kaufen; ohne einen Tank, der den Druck im ersten Riss abfängt, fallen deine Carries, bevor sie ihre Fähigkeiten einsetzen können.
+  </Step>
+  <Step num="2" title="Analysiere das Shop-Layout">
+    Bevor du auf „Reroll“ klickst, schaue dir jeden angebotenen Gegenstand und Helden an. Manchmal lohnt es sich, einen suboptimalen Helden zu kaufen, wenn er einen geteilten Effekt oder eine Spezialisierung mitbringt, die den Gegnertyp des aktuellen Risses kontert. Rerolls sollten für das Mid-Game aufgespart werden, wenn du nach spezifischen S-Tier-Relikten suchst.
+  </Step>
+  <Step num="3" title="Lege dich auf eine Build-Richtung fest">
+    Beim dritten Riss solltest du eine klare Vorstellung von deiner „Siegbedingung“ haben. Dies könnte ein skalierender Build für einen einzelnen Carry oder eine Komposition mit geteilten Effekten wie die **Lovers**-Synergie sein. Sobald du dich festgelegt hast, kaufe nur noch Helden und Gegenstände, die diese spezifische Strategie verstärken.
+  </Step>
+  <Step num="4" title="Führe Spezialisierungsränge aus">
+    Wenn Helden Ränge aufsteigen, schalten sie Spezialisierungspfade frei. Wähle Pfade, die die aktuellen Schwächen deines Teams beheben. Wenn deine Frontline zu schnell stirbt, wähle defensive Spezialisierungen. Wenn dir bei Bosskämpfen die Zeit davonläuft, wandle deinen Carry in einen Assassinen mit hohem Burst-Schaden oder einen nachhaltigen Fernkampf-Pfad um.
+  </Step>
+  <Step num="5" title="Optimiere die Positionierung">
+    Die Positionierung ist dynamisch. In **Guildrun Steam** greifen Gegner oft die nächste Einheit oder die Einheit mit der höchsten Gesundheit an. Platziere deinen Tank in der „heißen Zone“ und bringe deine Unterstützer in den hinteren Ecken unter. Nutze Reserveeinheiten, um sie einzuwechseln, wenn eine bestimmte Gegnerformation deine Hinterlinie bedroht.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Häufiger Anfängerfehler">
+Verteile deine Gegenstände nicht zu dünn. Ein einzelner Held, der mit drei synergistischen Gegenständen ausgerüstet ist, ist deutlich mächtiger als drei Helden, die jeweils einen zufälligen Gegenstand halten. Konzentriere deine Kraft auf deinen Haupt-Carry.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Helden-Tier-Liste und Schlachtfeldrollen">
+
+Da für das vollständige Spiel 25 Helden geplant sind, ist das Verständnis der Machthierarchie für Runs auf hohen Schwierigkeitsgraden von entscheidender Bedeutung. In der aktuellen Meta werden Helden basierend auf ihrer Flexibilität über verschiedene Spezialisierungspfade und ihrer Abhängigkeit von bestimmten Gegenständen bewertet.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Run-Anker">
+    - **Hohe Flexibilität**: Funktioniert in jedem Team.
+    - **Skalierungspotenzial**: Bleibt im Endlosmodus stark.
+    - **Kernhelden**: Robuste Tanks und utility-lastige Unterstützer.
+  </Card>
+  <Card title="A-Tier: Konsistente Carries">
+    - **Zuverlässiger Schaden**: Hohe DPS-Basis.
+    - **Pfadabhängig**: Benötigt eine spezifische Spezialisierung.
+    - **Kernhelden**: Fernkämpfer und fokussierte Duellanten.
+  </Card>
+  <Card title="B-Tier: Synergie-Spezialisten">
+    - **Hohes Potenzial**: Kann mit den richtigen Relikten S-Tier sein.
+    - **Frühe Schwäche**: Hat in den ersten drei Rissen zu kämpfen.
+    - **Kernhelden**: Assassinen und Hybrid-Heiler.
+  </Card>
+</CardGrid>
+
+Um dir bei der Auswahl des richtigen Rekruten zu helfen, haben wir die primären Rollen kategorisiert, denen du in der Steam-Version des Spiels begegnen wirst.
+
+| Rolle | Hauptaufgabe | Bester Spezialisierungsfokus | Respec-Priorität |
+| :--- | :--- | :--- | :--- |
+| **Tank** | Druck absorbieren / Schützen | Haltbarkeit / Schadensreduzierung | Hoch (wenn Verteidigung zu stark ist) |
+| **Heiler** | Erhaltung / Teamstabilität | Heilfrequenz / Schutz | Mittel (Wechsel zu Support) |
+| **Fernkämpfer** | Konsistenter Backline-DPS | Angriffsgeschwindigkeit / Multiziel | Niedrig (weiter skalieren) |
+| **Duellant** | Einzelschaden-Druck | 1v1 Kampf / Lebensentzug | Mittel (falls AOE benötigt wird) |
+| **Assassine** | Burst-Schaden auf wichtige Ziele | Finishing-Power / Tarnung | Hoch (wenn Boss zu tanky ist) |
+| **Hybrid** | Lücken im Team füllen | Vielseitigkeit / Buffs | Sehr Hoch (an Shop anpassen) |
+
+<Callout type="success" title="Die Macht der Hybriden">
+Hybriden sind die Geheimwaffe der Profis. Obwohl ihnen die rohen Werte eines spezialisierten Tanks oder Assassinen fehlen, macht sie ihre Fähigkeit, mitten im Run umzuskillen (Respec), für Durchläufe auf Schwierigkeitsgrad 8 unersetzlich.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Beste Team-Builds und Synergien">
+
+Der Aufbau eines Teams in **Guildrun Steam** bedeutet mehr als nur starke Helden auszuwählen; es geht darum, eine Maschine zu erschaffen, in der sich die Teile gegenseitig verstärken. Unten aufgeführt sind die erfolgreichsten Archetypen, die von der Community während der Demophase 2026 entdeckt wurden.
+
+### Der ausgewogene Erst-Run-Build
+Dies ist der sicherste Weg, um deinen ersten vollständigen Run abzuschließen. Er basiert auf einer „Heiligen Dreifaltigkeit“, die die meisten Gegnerformationen mit minimalem Mikromanagement bewältigt.
+- **Frontline**: Ein Tank mit hoher Gesundheit und Spezialisierungen zur Schadensreduzierung.
+- **Carry**: Ein Fernkämpfer, der auf Angriffsgeschwindigkeit fokussiert ist.
+- **Support**: Ein Heiler mit teamweiten Buffs.
+- **Reserve**: Ein Duellant zum Einwechseln für Bosskämpfe.
+
+### Der „Lovers“-Effekt-Build
+Dieser Build mit hohem Risiko und hoher Belohnung konzentriert sich auf die einzigartige „Lovers“-Mechanik, bei der zwei Helden Werte und Effekte teilen.
+- **Kern**: Zwei Helden mit dem „Lovers“-Tag.
+- **Strategie**: Schütze das Paar um jeden Preis. Gib dem verwundbareren Mitglied defensive Gegenstände, während das andere Mitglied offensive Relikte trägt.
+- **Schwäche**: Wenn ein Mitglied des Paares früh stirbt, verliert das andere erhebliche Boni.
+
+| Build-Name | Kernstärke | Item-Priorität | Schwierigkeitsbewertung |
+| :--- | :--- | :--- | :--- |
+| **Ausgewogen** | Hohe Stabilität, geringes Risiko | Verteidigung auf Tank, DPS auf Carry | 1/5 (Anfänger) |
+| **Lovers** | Massives Teilen von Werten | Relikte mit geteilten Effekten | 3/5 (Fortgeschritten) |
+| **Einzel-Carry** | Konzentrierte Kraft | Alle Offensive auf einen Helden | 4/5 (Experte) |
+| **Doppel-Tank** | Den Gegner überdauern | HP- und Rüstungs-Stacking | 2/5 (Sicher) |
+
+<Callout type="info" title="Relikt-Synergie">
+Überprüfe immer deine Relikte, bevor du dich für einen Build entscheidest. Wenn du früh ein „Wirtschafts-Relikt“ findest, kannst du dir eine teurere Heldenkomposition mit hoher Seltenheit leisten. Wenn du „Angriffsgeschwindigkeits-Relikte“ findest, tendiere zu einem fernkampflastigen Build.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gegenstände und Relikte Tier-Liste">
+
+Gegenstände und Relikte sind die „Modifikatoren“, die ein Standardteam in eine unaufhaltsame Streitmacht verwandeln. Mit über 300 geplanten Relikten konzentriert sich die aktuelle Meta auf universelle Effekte, die unabhängig von deiner spezifischen Heldenwahl wertvoll sind.
+
+### S-Tier Ausrüstung (Pflichtkauf)
+1. **Klassen-skalierende Relikte**: Diese verbessern jeden Helden einer bestimmten Klasse (z. B. erhalten alle Tanks +20 % HP). Dies sind die mächtigsten Gegenstände für das Late-Game.
+2. **Angriffsgeschwindigkeits-Effekte**: In einem Autobattler bedeuten mehr Angriffe mehr Fähigkeiten-Procs. Diese sind universell gut für jeden Schadensverursacher.
+3. **Frühe Wirtschafts-Relikte**: Gegenstände, die zusätzliches Gold oder kostenlose Rerolls gewähren. Diese in Riss 1 oder 2 zu wählen, kann deine Gesamtmacht bis zum Ende des Runs verdoppeln.
+4. **Universelles Überleben**: Flache Schadensreduzierung oder Schilde, die zu Kampfbeginn ausgelöst werden. Unverzichtbar für höhere Schwierigkeitsgrade.
+
+### Item-Kompatibilitätstabelle
+| Kategorie | Passendster Held | Macht-Level | Grund |
+| :--- | :--- | :--- | :--- |
+| **Lebensentzug** | Duellanten / Assassinen | Hoch | Hält Frontline-Carries am Leben |
+| **Mana-Regen** | Heiler / Magier | Mittel | Schnellere Fähigkeiten-Zyklen |
+| **Rüstungsdurchschlag** | Fernkämpfer / Duellanten | Hoch | Unverzichtbar für Late-Game-Bosse |
+| **Max HP** | Tanks | Sehr Hoch | Direkte Skalierung mit dem Überleben |
+
+<Callout type="tip" title="Inventarverwaltung">
+Du kannst Gegenstände während der Shop-Phase zwischen Helden verschieben. Wenn du vor einem Boss mit hohem Backline-Schaden stehst, verschiebe deine defensiven Gegenstände vorübergehend von deinem Tank auf deinen Carry, um sicherzustellen, dass dieser den ersten Burst überlebt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Schwierigkeitsgrade und Endlosmodus">
+
+Der Fortschritt in **Guildrun Steam** wird durch die acht Schwierigkeitsgrade gemessen. Jede Stufe fügt Modifikatoren hinzu, die bestimmte Teile deiner Strategie testen. Sobald du Schwierigkeitsgrad 8 meisterst, beginnt die wahre Herausforderung im Endlosmodus.
+
+<Checklist
+  id="difficulty-progression"
+  title="Weg zu Schwierigkeitsgrad 8:"
+  items={[
+    "Meistere die Grundlagen auf Schwierigkeitsgrad 1-2 durch den Aufbau ausgewogener Teams.",
+    "Lerne, mit begrenztem Gold auf Schwierigkeitsgrad 3-4 umzugehen, wo Shops teurer sind.",
+    "Optimiere Spezialisierungspfade auf Schwierigkeitsgrad 5-6, um Elite-Gegner-Buffs zu kontern.",
+    "Perfektioniere deine Positionierung für Schwierigkeitsgrad 7-8, wo ein einziger Fehler den Run beendet.",
+    "Betrete den Endlosmodus mit einer voll optimierten, reliktlastigen Komposition."
+  ]}
+/>
+
+### Strategie für den Endlosmodus
+Im Endlosmodus skalieren die Gegner unendlich. Standard-Schadenszahlen werden irgendwann irrelevant. Um die Bestenlisten zu erklimmen, musst du dich auf **prozentualen Schaden**, **unendlich skalierende Relikte** und **Crowd Control** konzentrieren. Ein Team, das Gegner betäuben oder einfrieren kann, ist in den späten Phasen des Endlosmodus oft besser als ein Team, das nur rohen Schaden verursacht.
+
+<Callout type="warning" title="Warnung zum Endlosmodus">
+Vernachlässige nicht die Leistung deines Computers! Da die Risse im Endlosmodus mit Hunderten von Projektilen und Effekten gefüllt werden, stelle sicher, dass deine Steam-Einstellungen auf Stabilität optimiert sind, um Abstürze während eines Rekord-Runs zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Ist die Guildrun Steam Demo für immer kostenlos?",
+    answer: "Ja, die eigenständige Demo ist eine kostenlose Erfahrung, die Spieler in die Mechaniken einführen soll. Der Fortschritt wird jedoch möglicherweise nicht vollständig in die kostenpflichtige Version von 2027 übernommen."
+  },
+  {
+    question: "Wie schalte ich in der Demo mehr Helden frei?",
+    answer: "Helden werden normalerweise freigeschaltet, indem man bestimmte Risse erreicht oder Runs mit verschiedenen Klassenkombinationen abschließt. Überprüfe das 'Helden'-Menü im Haupt-Hub für spezifische Anforderungen."
+  },
+  {
+    question: "Welcher Held ist am besten für Anfänger geeignet?",
+    answer: "Der einfache Tank und der Fernkampf-Bogenschütze sind am zuverlässigsten. Sie haben unkomplizierte Spezialisierungspfade, die sofortige, sichtbare Machtsteigerungen bieten."
+  },
+  {
+    question: "Kann ich Guildrun mit Freunden spielen?",
+    answer: "Derzeit ist Guildrun eine Singleplayer-PvE-Erfahrung. Ein Koop-Modus ist als Teil der Entwicklungs-Roadmap für 2027 geplant."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guildrun Beginner Guide: Step-by-Step Starter Strategy",
+  description: "Master the core recruitment, shop mechanics, hero specializations, and item builds in Guildrun with this step-by-step beginner guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111a18/d5b65c?text=Guildrun+Beginner+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Loop**: Recruit heroes, manage shop resources, and upgrade specializations to clear escalating rifts.
+- **Resource Management**: Avoid early shop rerolls to preserve Shards for guaranteed hero rank upgrades.
+- **Team Balance**: Always deploy a dedicated frontline tank, a reliable carry, and a utility support.
+- **Adaptability**: Build around the relics and items you receive rather than forcing a single composition.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics and Team Recruitment">
+
+Guildrun is a tactical single-player PvE roguelike autobattler developed by Leyline. Players must build a flexible guild of heroes, combine unique specializations, and equip powerful relics to survive escalating rifts. Understanding the recruitment phase is the first step toward clearing your first run. Every run begins with a limited pool of Shards, the primary currency used to draft heroes, purchase equipment, and refresh the shop.
+
+A balanced starting team is critical for early survival. The active roster has limited space, meaning every unit must serve a distinct purpose. Deploying too many damage dealers without adequate protection will result in a quick defeat, as fragile carries cannot survive long enough to utilize their skills. Conversely, a team with too much defense will fail to defeat enemies before they scale in strength.
+
+| Role | Primary Job | Recommended Position | Key Attribute |
+|---|---|---|---|
+| Tank | Absorb incoming attacks and protect allies | Front Row | High Health, Defense |
+| Carry | Deal consistent physical or magical damage | Back Row | Attack Speed, Damage |
+| Support | Provide healing, shields, or crowd control | Middle Row | Mana Regen, Utility |
+| Hybrid | Fill gaps in defense or damage as needed | Flexible | Adaptability, Multiclass |
+
+### Understanding the Roster Limit
+
+At the start of a run, prioritize securing a reliable frontline unit. Once your defense is stable, look for a primary damage dealer that can scale throughout the combat rounds. The remaining slots should be filled with utility units that enhance your core duo. Keeping a reserve unit on your bench is also highly recommended, as it allows you to swap strategies when facing specific boss modifiers.
+
+<Callout type="warning" title="Recruitment Warning">
+Do not buy every hero offered in the early shops. Purchasing unnecessary units dilutes your Shards and prevents you from upgrading your core team members to higher ranks.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Shop Management and Resource Optimization">
+
+The shop is the central hub of your Guildrun progression. Here, you will spend Shards to acquire new heroes, duplicate units for rank upgrades, items, and game-changing relics. Managing your Shards efficiently between combat rounds determines whether your team can keep up with the scaling difficulty of the rifts.
+
+Rerolling the shop costs Shards and is highly addictive but mathematically inefficient in the early game. During the first few rounds, work with the natural offers presented to you. Forcing a specific build by repeatedly rerolling will quickly deplete your resources, leaving you weak and unable to purchase crucial upgrades when they finally appear.
+
+| Priority | Action | Cost | Strategic Impact |
+|---|---|---|---|
+| High | Purchase duplicate heroes for Rank Upgrades | Moderate | Increases base stats and unlocks specialization paths |
+| High | Acquire core items for your primary carry | Variable | Provides immediate scaling and multiplier bonuses |
+| Medium | Purchase early economy relics | High | Compounds resources over the course of the entire run |
+| Low | Reroll the shop for specific heroes | Low | Highly random and drains Shards early in the run |
+
+### Managing the Auction Phase
+
+During specific intervals, you will participate in shop phases that offer rare relics and items. Focus on securing items that directly complement your active specializations. If an item does not fit your current strategy, save your Shards. Accumulating wealth is a valid strategy, as it gives you more purchasing power in later, more dangerous rifts.
+
+<Callout type="tip" title="Pro Tip on Economy">
+Only reroll the shop when you are one duplicate away from a major rank upgrade that will unlock a crucial specialization path. Otherwise, save your Shards to buy high-tier equipment.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hero Classes and Specialization Paths">
+
+With 25 heroes, 75 specialization paths, and 180 unique specializations planned for the full game, Guildrun offers immense build variety. As your heroes gain ranks, they progress through specialization paths that completely alter their active skills, passive bonuses, and combat roles. A basic recruit can be developed into a dedicated tank, a swift assassin, or a supportive hybrid unit.
+
+Upgrading a hero's rank is essential for unlocking these paths. When a hero reaches a new rank, you must choose between diverging paths. It is vital to select paths that harmonize with the rest of your team. For example, if your frontline tank specializes in self-healing, your support unit should focus on utility or crowd control rather than additional healing.
+
+| Class Role | Specialization Focus | Multiclass Value | Respec Priority |
+|---|---|---|---|
+| Tank | Durability, damage reduction, and control | Pairs well with healing and defensive support | Medium |
+| Healer | Healing strength, frequency, and protection | Combines with defensive utility paths | High |
+| Ranged | Attack speed, consistent damage, and scaling | Works best with attack-speed relics | Low |
+| Duelist | Single-target pressure and sustain | Benefits from defensive secondary paths | Medium |
+| Assassin | Burst damage, target access, and finishing | Pairs with high offensive scaling | High |
+| Hybrid | Balanced utility, defense, and damage | Highly flexible across multiple teams | Low |
+
+### Utilizing the Respec Mechanic
+
+Do not be afraid to experiment with different specializations. Guildrun includes a respec mechanic that allows you to reset a hero's path. This is particularly useful if you transition from a balanced early-game team into a highly specialized late-game composition, or if you acquire a powerful relic that favors a different playstyle.
+
+<Callout type="info" title="Specialization Strategy">
+Always check the active specializations of your entire team before locking in a new path. Synergizing your team's passive effects is far more valuable than picking the highest individual damage upgrade.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Starter Walkthrough">
+
+To help you complete your first successful run in the Steam Demo, follow this step-by-step progression strategy. This route focuses on stability, resource conservation, and gradual team scaling.
+
+<Steps>
+  <Step num="1" title="Recruit a Balanced Core">
+    Start the run by securing one frontline hero and one reliable damage dealer. Avoid purchasing duplicate support units early on. Focus on clearing the first few combat encounters using positioning to keep your damage dealer safe.
+  </Step>
+  <Step num="2" title="Evaluate Shop Offers and Hoard Shards">
+    During rounds three and four, purchase only necessary duplicates that directly upgrade your active duo. Do not spend Shards on rerolls. Let your gold accumulate to benefit from potential economy mechanics and high-value shop offers.
+  </Step>
+  <Step num="3" title="Select Complementary Specializations">
+    Once your core units reach the rank upgrade threshold, select specializations that fill immediate needs. If your frontline is struggling to survive, choose defensive paths. If combats are lasting too long, invest in your carry's damage scaling.
+  </Step>
+  <Step num="4" title="Equip Relics and Adjust Positioning">
+    Equip defensive items on your tank and offensive items on your main carry. Place your tank in the front row to draw enemy aggression, and tuck your carry safely in the back corner to maximize their attack uptime.
+  </Step>
+  <Step num="5" title="Pivot and Optimize for Boss Fights">
+    Before entering the final rift encounter, evaluate your team's performance. Use the respec mechanic if your build lacks synergy, and spend all remaining Shards on upgrades, items, or relics to maximize your combat power.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Combat Positioning Success">
+Proper unit placement can completely negate enemy assassin threats. If enemies are targeting your backline, place a secondary off-tank next to your main carry to intercept incoming damage.
+</Callout>
+
+### First-Run Milestones
+
+To ensure you are on the right track during your initial runs, aim to complete the following goals. These milestones will help you master the basic progression loop before moving on to higher difficulties.
+
+<Checklist
+  id="beginner-milestones"
+  title="First-Run Checklist:"
+  items={[
+    "Deploy a stable three-hero core with clear roles",
+    "Upgrade at least one hero to their maximum available specialization rank",
+    "Acquire a relic that directly scales your primary carry's damage type",
+    "Complete a full demo run without spending Shards on unnecessary early rerolls",
+    "Successfully utilize the respec mechanic to optimize a build before a boss fight"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Best Team Builds and Synergies">
+
+Creating powerful team builds in Guildrun relies on combining hero roles, specialization paths, items, and relics. The strongest compositions focus on repeatable structures rather than requiring one exact set of lucky shop choices.
+
+<CardGrid cols={3}>
+  <Card title="Balanced Starter Core">
+    - **Primary Frontline**: High-defense tank to absorb opening pressure.
+    - **Main Damage Carry**: Protected backline unit with consistent scaling.
+    - **Support Utility**: Healer or controller to sustain the team.
+  </Card>
+  <Card title="Lovers Shared-Effect Build">
+    - **Lovers Duo**: Two linked heroes activating shared combat bonuses.
+    - **Frontline Protector**: Durable tank to keep the linked pair safe.
+    - **Flexible Support**: Focuses on amplifying the duo's active effects.
+  </Card>
+  <Card title="Single-Carry Scaling Build">
+    - **Hyper Carry**: One main damage dealer receiving all offensive items.
+    - **Double Frontline**: Two highly durable tanks to stall the enemy.
+    - **Utility Buffer**: Support hero that boosts the carry's attack speed.
+  </Card>
+</CardGrid>
+
+### Analyzing Early-Game Synergies
+
+When building your team, look for class combinations that share passive benefits. For example, combining multiple physical damage dealers with physical defense shredding specializations will drastically increase your overall damage output.
+
+| Synergy Name | Core Heroes | Primary Benefit | Alternative Choice |
+|---|---|---|---|
+| Balanced Core | Tank, Carry, Support | High stability and low resource requirement | Swap support for a hybrid off-tank |
+| Lovers Shared | Linked Lovers Pair | Amplified stats and shared healing effects | Pivot to Balanced Core if pair is missing |
+| Single-Carry | One Carry, Two Tanks | Concentrates items on one high-yield damage dealer | Transition to Double-Carry if items split |
+| Double-Frontline | Two Tanks, One Carry | Maximizes combat duration for scaling damage | Replace one tank with a crowd controller |
+
+<Callout type="tip" title="Relic Synergy Tip">
+Always select relics that benefit your entire active team. A relic that grants a small bonus to all units is often superior to a highly specialized relic that only benefits a single, un-upgraded hero.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+To help you navigate the early hours of your journey, here are answers to the most common questions regarding the Guildrun beginner guide and general gameplay mechanics.
+
+<FAQ items={[
+  {
+    question: "How do I download the Guildrun Demo and will my progress carry over?",
+    answer: "The standalone Guildrun Demo is free to download on Steam. While meta-progression like unlocked difficulties and masteries may carry over to future tests, active runs and mid-run save states do not transfer to the full game."
+  },
+  {
+    question: "What is the release date and target platforms for Guildrun?",
+    answer: "Developed by Leyline, Guildrun is currently targeting a full release in 2027 on PC via Steam. The developers also plan to include Steam Deck support, controller support, and a co-op multiplayer mode in the final version."
+  },
+  {
+    question: "When should I use the respec mechanic on my heroes?",
+    answer: "You should respec your heroes when you acquire a powerful relic that synerges with a different specialization path, or if your current team composition lacks the damage or defense required to clear the upcoming rift."
+  },
+  {
+    question: "Is there a codes system in Guildrun to get free items?",
+    answer: "No, Guildrun is a premium, single-player PvE roguelike autobattler. It does not feature a redemption code system or microtransactions. All items, relics, and heroes are unlocked purely through gameplay."
+  }
+]} />
+
+<Callout type="info" title="Community and Updates">
+To stay updated on weekly patches, balance changes, and the development roadmap leading up to the 2027 release, consider joining the official Guildrun Discord or following their Steam Community page.
+</Callout>
+
+</Section>

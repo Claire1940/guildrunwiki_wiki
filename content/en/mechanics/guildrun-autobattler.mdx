@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "guildrun autobattler: Best Hero Builds & Stall Strategies",
+  description: "Master the guildrun autobattler with our guide to hero classes, epic relics, and the unbeatable Stall strategy meta in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Autobattler+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Strategy**: The **guildrun autobattler** relies heavily on executing precise class synergies, specifically focusing on stalling the clock to trigger late-combat power spikes.
+- **S-Tier Class**: **Tanks** and **Duelists** form the core of the strongest compositions, balancing high survivability with rapid attack-speed scaling.
+- **Key Item**: Prioritize obtaining the **Hourglass** relic early to accelerate your Stall timers and activate your strongest abilities instantly.
+- **Gold Management**: Save your Shards to invest in team size upgrades and shop rerolls to secure high-tier backup heroes.
+</Callout>
+
+<Section icon={Map} title="Introduction to the Guildrun Autobattler Roguelike Meta">
+
+The **guildrun autobattler** is a highly polished auto-chess roguelike that challenges players to build an unstoppable guild of heroes, manage resources, and select synergistic relics. Success in this game requires a deep understanding of positioning, class mechanics, and the delicate balance between immediate power and scaling potential. This guide breaks down the essential systems to help you dominate both standard runs and endless mode.
+
+**Video Highlights:**
+- Choosing a starting hero like Pollen provides immediate poison and shield benefits.
+- Positioning tanks like Scorn on the frontline allows them to absorb damage and trigger stall effects.
+- Managing Shards efficiently is crucial for purchasing high-tier items and unlocking team slots.
+- Transitioning into endless mode requires stacking defensive relics to survive high-damage enemies.
+
+<YouTubeEmbed videoId="mWzn2y6Is1U" title="This Autobattler Roguelike is My New Problem | Guildrun" />
+
+The gameplay loop revolves around recruiting heroes, equipping them with powerful items, and positioning them strategically on a hexagonal grid. As heroes attack, they build up mana to cast unique abilities that can turn the tide of battle. Navigating the map efficiently and making the right choices at campfires and shops will determine how far your guild can progress.
+
+<Callout type="tip" title="Demo Version Polish">
+Even in its demo phase in 2026, the game features incredibly deep mechanics that reward careful composition planning and economic discipline.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Core Gameplay Mechanics & Hero Classes">
+
+Understanding the fundamental stats and class roles is essential for survival in the **guildrun autobattler**. Heroes utilize three primary resources: Shards (gold), Mana, and Omnivamp (lifesteal on both physical attacks and spells). Balancing your team composition between frontline protectors and backline damage dealers is the key to overcoming difficult bosses.
+
+The table below outlines the primary class archetypes and their core focus in combat:
+
+| Class | Core Focus | Key Mechanic | Synergistic Stats |
+| :--- | :--- | :--- | :--- |
+| **Tank** | Frontline mitigation | Stall triggers, poison clouds | Armor, Defense, Magic |
+| **Duelist** | High-speed physical DPS | Attack speed scaling, crit | Crit Chance, Attack Speed |
+| **Mystic** | Support, healing, utility | Mana regeneration, shields | Mana Regen, Magic Power |
+| **Vanguard** | Frontline offensive hybrid | Rush triggers, burst damage | Physical Attack, Omnivamp |
+
+Each hero brings a unique passive or active ability to the board. Choosing the right combination of heroes can unlock powerful team-wide synergies.
+
+The following table compares the most effective heroes available in the current meta:
+
+| Hero | Class | Rank | Primary Ability | Best Role |
+| :--- | :--- | :--- | :--- | :--- |
+| **Scorn** | Tank | B-Rank | Reflects armor damage & poison | Frontline Solo Tank |
+| **Pimenta** | Tank | B-Rank | Creates toxic cloud, heals over time | Off-Tank / Debuffer |
+| **Irene** | Duelist | B-Rank | Frost & burn splash, scales magic | Main Magic Carry |
+| **Raina** | Duelist | C-Rank | Gains attack & magic on cast | Early Physical DPS |
+
+<Callout type="warning" title="Omnivamp Efficiency">
+Omnivamp provides 10% lifesteal on both attacks and spells, making it exceptionally valuable for hybrid damage dealers who rely on both physical strikes and ability casts.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The Unstoppable guildrun autobattler Stall Strategy">
+
+The Stall mechanic is one of the most powerful strategies in the **guildrun autobattler**. Unlike aggressive "Rush" builds that attempt to burst down enemies quickly, Stall builds focus on surviving the early seconds of combat to trigger massive late-game scaling. Stall abilities typically activate after 10, 15, 20, or 30 seconds of a fight, granting massive shields, healing, and poison damage.
+
+The table below details the different phases of the Stall mechanic and their strategic value:
+
+| Phase | Required Time | Active Trigger Effects | Strategic Value |
+| :--- | :--- | :--- | :--- |
+| **Early Stall** | 10 Seconds | Reflects magic damage based on armor | Survival phase transition |
+| **Mid Stall** | 15 Seconds | Heals heroes in flower fields, boosts stats | Power spike for duelists |
+| **Late Stall** | 20 Seconds | Grants massive max HP shields to all | Hard counter to burst damage |
+| **End Stall** | 30 Seconds | Generates extra shards, massive poison debuffs | Endless mode scaling |
+
+To make this strategy viable, players must find ways to reduce the time required to trigger these effects. By stacking specific relics and utilizing backup hero passives, you can accelerate these timers significantly.
+
+<CardGrid cols={3}>
+  <Card title="Stall Build">
+    - **High Survivability**: Focuses on armor and shields.
+    - **Delayed Power**: Triggers massive damage after 15 seconds.
+    - **Relic Dependent**: Requires timer-reduction items.
+  </Card>
+  <Card title="Rush Build">
+    - **Immediate Burst**: Focuses on crit and attack speed.
+    - **Fast Clears**: Aims to end fights in under 10 seconds.
+    - **Squishy Units**: Vulnerable to high-armor enemies.
+  </Card>
+  <Card title="Hybrid Build">
+    - **Balanced Stats**: Combines defensive tanks with fast duelists.
+    - **Flexible Tactics**: Adapts to various boss mechanics.
+    - **Moderate Investment**: Easier to assemble during standard runs.
+  </Card>
+</CardGrid>
+
+By combining multiple Duelists in combat and utilizing backup effects from your bench, you can reduce Stall timers by up to 16 seconds. This allows your 15-second Stall abilities to trigger literally at the start of combat, instantly granting your team massive shields and poison fields.
+
+<Callout type="success" title="Instant Stall Trigger">
+Stacking the Hourglass relic with backup Duelist passive effects can reduce your Stall timers to zero, activating all late-combat buffs the exact moment the round begins.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Mastering Runs">
+
+Achieving victory in a standard run requires careful planning from the very first node. Follow these steps to optimize your hero recruitment, economy, and combat positioning.
+
+<Steps>
+  <Step num="1" title="Select Your Starting Hero">
+    Begin your run by choosing a hero with strong utility. Heroes like Pollen are excellent choices, as they create flower fields that apply poison and generate shields based on your magic power. This provides a safe foundation for your early-game fights.
+  </Step>
+  <Step num="2" title="Establish Your Economy">
+    Focus on accumulating Shards (gold) during the first three combats. Avoid rerolling the shop early. Look for relics or choices that grant bonus Shards or reduce the cost of items in the shop. A strong economy allows you to purchase high-tier heroes later.
+  </Step>
+  <Step num="3" title="Assemble Your Core Synergy">
+    As you progress past the first boss, pivot into your chosen archetype. If you find defensive relics, commit to a Stall build by recruiting tanks like Scorn and Pimenta. If you find attack speed items, transition into a Duelist-heavy composition.
+  </Step>
+  <Step num="4" title="Optimize Board Positioning">
+    Position your main tank in the front-center hex to draw enemy aggro. Place your damage dealers two hexes behind to protect them from area-of-effect (AoE) attacks. Ensure your support units are close enough to apply shields to your tank.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Backup Hero Mechanics">
+Remember that certain hero abilities work from the backup bench, meaning you can benefit from their stats and passive traits without placing them on the active board.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Relics and Item Synergy">
+
+Relics are the backbone of any successful run in the **guildrun autobattler**. They provide global passive bonuses that can completely transform your team's performance. When building a Stall or Duelist composition, look for relics that synergize with high defense and rapid attack speed.
+
+The table below lists the most powerful relics for these builds and their primary effects:
+
+| Relic Name | Tier | Ideal Holder | Primary Stat Boost | Special Effect |
+| :--- | :--- | :--- | :--- | :--- |
+| **Zeus's Thunder** | Epic | Duelist | Attack speed, Attack | AoE damage based on speed |
+| **Hourglass** | Rare | Tank / Support | Mana Regen, Cooldown | Triggers stall 2s faster |
+| **Sanctuary of Bloom** | Rare | Mystic | Magic Power, Healing | Doubles healing & shields |
+| **Poison Transfer** | Rare | Tank / Rogue | Poison Damage | Transfers poison on death |
+
+To ensure your squad is prepared for the final boss and endless mode, aim to complete the milestones in the checklist below.
+
+<Checklist
+  id="endgame-preparation"
+  title="End-Game Milestones:"
+  items={[
+    "Unlock at least 5 active hero slots on your board",
+    "Equip your main tank with a shield relic that scales off defense",
+    "Secure a source of poison transfer to deal with large enemy groups",
+    "Achieve 150% crit chance on your primary Duelist carry",
+    "Stack at least two Stall-reduction effects to trigger buffs early"
+  ]}
+/>
+
+<Callout type="warning" title="Relic Penalties">
+Some powerful relics require you to take a temporary stat penalty for one fight. Only choose these when your team is healthy enough to survive the handicap.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guildrun Autobattler FAQ">
+
+This section addresses the most common questions players have regarding the core systems and advanced strategies in the game.
+
+<FAQ items={[
+  {
+    question: "What is the primary benefit of the guildrun autobattler Stall build?",
+    answer: "The Stall build allows you to survive early enemy burst damage and activate massive healing, shielding, and poison effects once the combat timer progresses, which can be accelerated to trigger instantly with the right relics."
+  },
+  {
+    question: "How does the backup bench system work?",
+    answer: "Certain heroes have passive abilities marked as 'backup' effects. These traits apply to your active combat units even if the source hero is sitting on your reserve bench, allowing you to stack global buffs."
+  },
+  {
+    question: "Is it better to focus on physical or magic damage?",
+    answer: "A hybrid approach is best. Duelists scale incredibly well with physical attack speed, while Mystics and Tanks use magic power to boost their shields and poison damage."
+  },
+  {
+    question: "How do I unlock more hero slots for my active board?",
+    answer: "You can increase your team size by purchasing upgrades in the shop using Shards or by completing specific relic quests during your run."
+  }
+]} />
+
+<Callout type="success" title="Mastering Endless Mode">
+In endless mode, enemy health and damage scale rapidly. Focus on defense-to-damage conversion items to ensure your frontline doesn't get instantly defeated.
+</Callout>
+
+</Section>

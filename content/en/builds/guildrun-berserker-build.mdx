@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Berserker Build: Setup Guide & Combat Walkthrough",
+  description: "Master the Guildrun Berserker build. Learn optimal item setups, Warrior class synergies, and positioning strategies to dominate Endless Mode.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Berserker+Build+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Mastering the **guildrun berserker build** requires focusing on Rip's rage mechanics and rush ability resets.
+- Prioritize **attack speed** and **Omnivamp** items to ensure high survivability during extended Endless Mode encounters.
+- Utilize **Rowan** as a frontline Vanguard tank to absorb initial burst damage and shield your primary carry.
+- Stack **critical strike rate** past 100 percent to convert excess rating into massive critical damage scaling.
+</Callout>
+
+<Section icon={Swords} title="Core Mechanics of the Guildrun Berserker Build">
+
+The cornerstone of the **guildrun berserker build** revolves around maximizing high-risk, high-reward melee scaling. In Guildrun, the premier unit for this playstyle is Rip, a high-tempo Warrior who excels at turning incoming damage into raw offensive power. Unlike traditional tanks that rely solely on damage mitigation, a Berserker thrives on maintaining a low health pool to trigger devastating stat multipliers.
+
+Rip utilizes a unique Rage mechanic that activates when he enters combat. Upon casting his active ability, he enters a state of frenzy, gaining massive bonuses to his maximum health, attack speed, and Omnivamp. This makes him incredibly difficult to bring down once he starts attacking, as his life steal scales directly with his damage output. Furthermore, whenever Rip or an adjacent ally drops below the 50% health threshold, all of his Rush abilities instantly refresh, and he gains a flat 25% attack speed boost. This reset mechanic allows him to chain high-impact abilities back-to-back, shredding through enemy frontlines before they can react.
+
+**Video Highlights:**
+- **Rage Management**: Learn how to balance Rip's health pool to maximize his passive attack speed resets.
+- **Synergy Drafting**: Discover the best supporting heroes to complement a melee-focused carry.
+- **Itemization Choices**: Understand why scaling Omnivamp and flat health pool cheese outperforms raw defensive armor.
+
+<YouTubeEmbed videoId="HmeAJ5I4YEU" title="Nyx, Relentless Little Monster | Guildrun" />
+
+To make this build work effectively, you must understand the "Rush" system. Rush abilities are high-impact buffs that trigger under specific conditions, such as the start of combat or during active skill casts. By stacking items that extend the duration of these Rush states, you can keep Rip at peak combat efficiency for the entirety of the round, bypassing the standard downtime that plagues other melee builds.
+
+<Callout type="success" title="Synergy Tip">
+Always pair Rip with heroes who benefit from rapid health fluctuations. Because Rip's passive triggers when adjacent allies drop below 50% HP, placing a secondary off-tank next to him can force early Rush resets without putting Rip in immediate lethal danger.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Class Synergies & Combat Variants">
+
+Unlocking the full potential of this build requires a deep understanding of Guildrun's class synergy system. By combining the Warrior class with complementary roles like Duelist, Vanguard, and Mystic, you can build a highly resilient squad capable of tackling high-difficulty encounters and deep Endless Mode runs.
+
+When Rip gains the Warrior class synergy, his base offensive capabilities skyrocket. Warriors gain a flat bonus of 50 attack, and their Permafrost damage is enabled to land critical strikes. This opens up a highly effective frost-crit hybrid build. If you pair Rip with a frost-applying mage like Sal, every critical hit Rip lands will inflict frost, which in turn reduces the enemy's armor and attack speed. This creates a powerful crowd-control loop that keeps enemies permanently slowed while maximizing Rip's physical damage output.
+
+| Class | Role | Synergy Rating | Key Benefit |
+| Warrior | Main DPS | ★★★★★ | **50 bonus attack** and crit on Permafrost |
+| Vanguard | Tank | ★★★★☆ | Massive **HP pools** and shield sharing |
+| Assassin | Executor | ★★★★☆ | Instantly kills targets below **25% HP** |
+| Mystic | Utility | ★★★☆☆ | Boosts **mana regen** and active skill spam |
+
+To customize your playstyle, consider these three distinct variants of the Berserker composition:
+
+<CardGrid cols={3}>
+  <Card title="The Rush Resetter">
+    Focuses entirely on extending **Rush duration** and triggering rapid attack speed buffs. Best paired with the Eye of Haste.
+  </Card>
+  <Card title="The Omnivamp Stall">
+    Prioritizes **sustained healing** and defensive shields. Extremely viable for surviving high-damage AoE spikes in Endless Mode.
+  </Card>
+  <Card title="The Permafrost Crit">
+    Converts excess **critical strike rate** into raw physical damage. Relies on mages to apply frost debuffs before Rip strikes.
+  </Card>
+</CardGrid>
+
+For players looking to maximize raw damage, the critical strike conversion mechanic is essential. In Guildrun, critical strike rate is not capped at 100%. Any excess crit rate you accumulate through relics and items is automatically converted into bonus critical damage. When combined with Rip's rapid attack speed, this allows his basic attacks to hit for astronomical numbers during his Rage window.
+
+<Callout type="tip" title="Pro Tip">
+If you acquire a Crest item that grants Rip an additional class, aim for the Assassin class. This allows Rip to instantly execute any enemy he damages who falls below 25% of their maximum health, dramatically speeding up frontline clear times.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimal Gear & Relic Setup">
+
+Itemization can make or break your run. Because the Berserker relies on maintaining a balance between taking damage and healing back up, your item choices must support both survivability and high-frequency skill casting. Stacking pure defensive items like armor will reduce the damage Rip takes, which can actually slow down his Rage transition. Instead, focus on health pools, shields, and attack speed.
+
+The most critical offensive relic for this build is the Crown of Haste, which grants a massive 40% attack speed boost during the first 8 seconds of combat. This ensures Rip can build up his Rage stacks immediately at the start of the round. For defensive utility, look for Vindictive Shields. This relic grants a lasting shield at the start of combat and deals damage to adjacent enemies equal to a percentage of the remaining shield value, turning defensive mitigation into passive offensive output.
+
+| Relic Name | Rarity | Tier | Primary Effect |
+| Crown of Haste | Epic | S-Tier | Increases **attack speed** by 40% during Rush |
+| Vindictive Shields | Rare | A-Tier | Deals damage based on **remaining shields** |
+| Mystery Charm | Rare | B-Tier | Grants a random **rare offensive relic** |
+| Shard Magnet | Common | C-Tier | Increases **shard generation** on combat victory |
+
+When managing your inventory, always compare how items scale with Rip's active abilities. Items that offer flat health boosts are highly valuable because Rip's Rage ability scales his maximum health by a percentage. A larger base health pool results in significantly larger scaling bonuses, which in turn boosts his passive health-regen mechanics.
+
+| Item Name | Type | Scaling Type | Best Used For |
+| Vanguard Emblem | Defensive | Max HP % | Boosting **shield values** on Rip |
+| Eye of Haste | Offensive | Attack Speed | Extending **Rush duration** by 3 seconds |
+| Permafrost Shard | Offensive | Crit Rate | Enabling **frost damage** to land critical hits |
+| Salvation Scroll | Defensive | Health Regen | Reviving **fallen allies** after 20 seconds |
+
+<Callout type="warning" title="Gear Caution">
+Avoid equipping items that grant flat armor without health scaling. High armor values prevent Rip's health from dropping to the 50% threshold quickly, which can delay his crucial Rush resets and leave your backline vulnerable.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Progression Guide">
+
+Building a successful Berserker squad requires careful planning from the very first combat round. You cannot simply force this build without managing your economy and shop rolls efficiently. Follow this step-by-step progression route to safely transition from the early game into deep Endless Mode scaling.
+
+<Steps>
+  <Step num="1" title="Acquire Rip Early">
+    Search the shop for Rip during the first three combat rounds. Upgrade him to B-Rank as quickly as possible to unlock his core Rage mechanics and basic Omnivamp scaling.
+  </Step>
+  <Step num="2" title="Establish a Frontline">
+    Recruit Rowan or a similar Vanguard tank. Place them in the front row to draw initial enemy aggro, allowing Rip to build up his mana and attack speed safely from an adjacent tile.
+  </Step>
+  <Step num="3" title="Secure Rush Relics">
+    Prioritize shop purchases and combat rewards that offer attack speed or extend Rush duration. Lock the shop if you see the Crown of Haste or Eye of Haste but lack the shards to buy them immediately.
+  </Step>
+  <Step num="4" title="Optimize Crit and Frost">
+    Introduce a frost-applying unit like Sal to the board. Equip Rip with critical strike items to trigger the Warrior class synergy, allowing his physical attacks to shatter frosted targets.
+  </Step>
+  <Step num="5" title="Transition to Endless Mode">
+    Equip Rip with high-tier Omnivamp relics and maximum health boosters to withstand the massive scaling AoE damage present in Endless Mode stage 10 and beyond.
+  </Step>
+</Steps>
+
+To keep your progression on track, use this checklist of essential milestones during your run. If you miss too many of these targets by the mid-game, your carry may fall off in damage output.
+
+<Checklist
+  id="berserker-progression"
+  title="Progression Goals & Milestones:"
+  items={[
+    "Upgrade Rip to at least A-Rank before the Act 1 Boss",
+    "Secure at least one relic that extends Rush duration by 3 seconds",
+    "Achieve a minimum of 15% Omnivamp on your primary carry",
+    "Pair Rip with a Vanguard tank holding over 600 bonus health",
+    "Unlock the 3-unit Warrior class synergy bonus"
+  ]}
+/>
+
+<Callout type="info" title="Economy Tip">
+Do not hesitate to lock the shop if it contains high-value relics like the Vanguard Emblem, even if it delays your unit upgrades. Getting the right item setup is often more impactful than a simple rank upgrade.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Combat Positioning & Team Composition">
+
+Positioning is a critical aspect of Guildrun's tactical gameplay. Because Rip is a melee unit, placing him incorrectly can result in him being focused down by ranged enemies or trapped by high-defense enemy tanks before he can trigger his Rage state.
+
+Your ideal team composition should feature a solid mix of frontline defense, rapid physical damage, and utility crowd control. Rowan should always occupy the primary frontline tile to pull the initial wave of attacks. Place Rip directly adjacent to Rowan, slightly offset to the left or right. This positioning ensures that when Rowan's health drops below 50%, Rip's Rush abilities refresh instantly, while keeping Rip safe from direct single-target burst attacks.
+
+| Hero Name | Rank | Synergy Type | Combat Priority |
+| Rip | S-Rank | Rush Carry | Target **highest HP** enemy and trigger rage |
+| Rowan | A-Rank | Stall Tank | Hold the **frontline** and heal based on armor |
+| Nyx | S-Rank | Combo DPS | Clean up **low health** targets with multi-hits |
+| Sal | B-Rank | Crit Mage | Apply **Permafrost** and burn debuffs to targets |
+
+When facing enemies with piercing line attacks or wide AoE spells, avoid grouping your units in a straight vertical or horizontal line. Instead, utilize a split formation. Place your primary tank on one side of the board to draw the linear attacks, while Rip and your backup damage dealers like Nyx flank from the opposite side to dismantle the enemy's backline.
+
+<Callout type="success" title="Positioning Success">
+Using a diagonal layout prevents enemy mages from landing high-damage AoE spells on both Rowan and Rip simultaneously. This keeps your Berserker's health pool stable enough to sustain through life steal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is Rip the ideal unit for a Guildrun berserker build?",
+    answer: "Rip is the perfect fit because his active ability scales his maximum health, attack speed, and Omnivamp simultaneously. His unique passive also resets his Rush abilities whenever he or an adjacent ally falls below 50% HP, allowing him to maintain high combat momentum."
+  },
+  {
+    question: "How does critical strike rate scale past 100% in this build?",
+    answer: "In Guildrun, any critical strike rate accumulated beyond 100% is converted directly into bonus critical damage. Stacking crit-focused relics on Rip allows his basic attacks to deal massive damage during his Rage windows."
+  },
+  {
+    question: "What is the best way to handle scaling AoE damage in Endless Mode?",
+    answer: "To survive deep Endless Mode runs, you must shift your focus toward maximum health pool scaling and high-tier Omnivamp. Items like the Vanguard Emblem and Vindictive Shields provide the necessary health buffers and lasting shields to survive high-damage spikes."
+  },
+  {
+    question: "Should I run a solo carry setup or a full team composition?",
+    answer: "While Rip is a powerful solo carry, pairing him with a dedicated Vanguard tank like Rowan and a backup executor like Nyx is highly recommended. This prevents Rip from being focused down early in combat before he can build up his Rage stacks."
+  }
+]} />
+
+</Section>

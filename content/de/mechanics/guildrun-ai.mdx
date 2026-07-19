@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun AI: Helden-Ranking & Overpowered Build-Leitfaden",
+  description: "Meistere Guildrun AI mit unserem umfassenden Leitfaden zu Helden-Ranking, Gift-Crit-Builds und Strategien für den Endlosmodus für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+AI+Build+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team",
+  keywords: "Guildrun AI, Helden-Ranking, Gift-Build, Crit-Build, Endlosmodus, Strategie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Der Kern-Loop von **Guildrun AI** dreht sich um das Management von **Splittern** (Shards), um Helden vom C-Rang auf den S-Rang aufzustufen.
+- **Yuna** ist die erste Wahl für DPS und spezialisiert auf eine verheerende **Gift-Crit-Synergie**.
+- **Splitter-Management** ist entscheidend; das Einfrieren des Shops für hochwertige Relikte wie die **Kapuze des Assassinen** (Assassin's Hood) ist eine Profi-Strategie.
+- **Gift-Stapel** (Poison Stacking) skalieren im Late-Game exponentiell und ermöglichen Millionen von Schaden im **Endlosmodus**.
+- **Tank-Positionierung** ist überlebenswichtig, um Bosse aus Akt 2 wie den Frostdrachen zu überstehen.
+</Callout>
+
+<Section icon={Map} title="Einstieg in den Guildrun AI Fortschritt">
+
+Die Reise in **Guildrun AI** beginnt mit einer einzigen Entscheidung: deinem Starthelden. Egal, ob du Sal, Hoyoung oder Yuna wählst, dein Hauptziel ist es, durch den Riss zu navigieren, Splitter zu sammeln und ein Team aufzubauen, das in der Lage ist, zunehmend „broken“ Begegnungen zu bewältigen. Das Spiel belohnt aggressives Skalieren und kalkulierte Risiken im Shop.
+
+**Video-Highlights:**
+- Demonstration der Macht einer **Rang S Yuna** im Late-Game.
+- Effektive Nutzung der **Shop-Reroll**-Mechanik, um spezifische Heldensplitter zu finden.
+- Strategie zum Besiegen der Bosse **Hydra** und **Frostdrache**.
+- Analyse der Punkteverteilung und des Schadenspotenzials im **Endlosmodus**.
+
+<YouTubeEmbed videoId="GLIHLwgmrBU" title="I Ranked Up Heroes to Overpowered Levels in Guildrun" />
+
+Um erfolgreich zu sein, müssen Spieler verstehen, dass es in **Guildrun AI** nicht nur um rohe Kraft geht, sondern um die Synergie zwischen Heldenklassen und den erworbenen Relikten. Splitter sind deine wertvollste Ressource, die zum Anheuern neuer Helden, zum Kauf von Gegenständen oder zum Aufstufen deines bestehenden Kaders verwendet werden. Das Aufstufen eines Helden erhöht nicht nur die Stats; es schaltet transformative Fähigkeiten frei, die deinen gesamten Run definieren können.
+
+| Feature | Beschreibung | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Splitter** | Primäre Währung aus Kämpfen | Wird für Shop-Käufe und Rang-Upgrades verwendet |
+| **Helden-Rang** | Fortschritt von C- bis S-Rang | Schaltet aktive und passive Fähigkeiten frei |
+| **Relikte** | Permanente Boni für das gesamte Team | Bestimmt die Durchführbarkeit spezifischer Builds |
+| **Gegenstände** | Helden-spezifische Ausrüstung | Verbessert individuelle Stats wie Crit oder Vamp |
+| **Reroll** | Aktualisieren des Shop-Inventars | Unerlässlich, um spezifische Heldensplitter zu finden |
+
+<Callout type="tip" title="Wirtschafts-Tipp">
+Priorisiere früh im Spiel das **Splitter-Starter-Kit** oder Relikte, die den Splittergewinn pro überlebendem Helden erhöhen. Dies schafft einen massiven wirtschaftlichen Vorteil für Akt 2 und darüber hinaus.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Helden-Tier-Liste und Klassensynergie">
+
+In der aktuellen **Guildrun AI**-Meta werden Helden nach ihrem Nutzen und ihrem Skalierungspotenzial kategorisiert. Während jeder Held mit den richtigen Relikten spielbar sein kann, bieten bestimmte Charaktere wie **Yuna** aufgrund ihrer angeborenen Klassenboni ein höheres Limit für den Schadensausstoß.
+
+<CardGrid cols={3}>
+  <Card title="Yuna (Assassine)">
+    - **Primär-Stat**: Crit / Gift
+    - **Beste Rolle**: Haupt-DPS
+    - **Schlüssel-Fähigkeit**: Shuriken-Schattenstoß
+  </Card>
+  <Card title="Pollen (Mystiker)">
+    - **Primär-Stat**: Magie / Debuff
+    - **Beste Rolle**: Support / Heiler
+    - **Schlüssel-Fähigkeit**: Blumenfeld-Gift
+  </Card>
+  <Card title="Yuria (Tank)">
+    - **Primär-Stat**: Verteidigung / LP
+    - **Beste Rolle**: Frontlinie
+    - **Schlüssel-Fähigkeit**: Versteinernder Betäubungsschlag
+  </Card>
+</CardGrid>
+
+Der Aufbau eines ausgewogenen Teams ist essenziell. Ein häufiger Fehler ist es, sich ausschließlich auf DPS zu konzentrieren, wodurch die Hinterreihe anfällig für flankierende Gegner oder Flächenangriffe (AOE) von Bossen wird. Ein robuster Vanguard wie **Jury** oder **Yuria** stellt sicher, dass deine Assassinen die Zeit haben, die sie benötigen, um Gift zu stapeln und kritische Treffer auszulösen.
+
+| Held | Klasse | Wichtige Synergie | Empfohlene Gegenstände |
+| :--- | :--- | :--- | :--- |
+| **Yuna** | Assassine | Gift-Crit | Köcher, Kapuze des Assassinen |
+| **Pollen** | Mystiker | AOE-Heilung | Manapulle, Fokus des Zauberers |
+| **Jury** | Tank | Verteidigungs-Stacking | Große Weste, Schildakkumulator |
+| **Sal** | Assassine | Lebensraub | Omni-Vamp-Klinge |
+| **Hoyoung** | Assassine | Reiner Crit | Runenstein, Hastiger Ring |
+
+<Callout type="warning" title="Positionierungs-Warnung">
+Überprüfe immer die Bewegungsmuster der Gegner. Wenn ein Gegner eine Fähigkeit „Sprung in die Hinterreihe“ hat, platziere deinen Tank etwas weiter hinten, um ihn abzufangen, bevor er deine empfindlichen Mystiker erreicht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Der ultimative Gift-Crit Build-Leitfaden">
+
+Der derzeit stärkste Build in **Guildrun AI** ist das Gift-Crit-Assassinen-Setup. Dieser Build basiert auf der Interaktion, bei der kritische Treffer Gift verursachen und vergiftete Gegner erhöhten Schaden durch kritische Treffer erleiden.
+
+<Steps>
+  <Step num="1" title="Sichere dir Yuna frühzeitig">
+    Wähle Yuna als Starter oder finde sie im ersten Shop. Ihr **Shuriken-Schattenstoß** ist das Fundament dieses Builds.
+  </Step>
+  <Step num="2" title="Fokus auf Rang-A-Upgrade">
+    Erreiche so schnell wie möglich Rang A, um **Tarnung bei Kill** freizuschalten. Dies macht Yuna unangreifbar, während sie die Hinterreihe zerlegt.
+  </Step>
+  <Step num="3" title="Gift-Relikte stapeln">
+    Suche nach dem Relikt **Gift-Vorherrschaft** (Poison Ascendancy). Dies bewirkt, dass Gegner einen Prozentsatz ihrer maximalen LP verlieren, wann immer sie Giftschaden erleiden.
+  </Step>
+  <Step num="4" title="Rang-S-Meisterschaft erreichen">
+    Auf Rang S erhält Yuna massiven **Omni-Vamp** und garantierte Crits. Dies ermöglicht es ihr, die meisten Begegnungen allein zu bestreiten, falls der Rest der Gilde fällt.
+  </Step>
+</Steps>
+
+Dieser Build skaliert bis in die Millionen von Schadenspunkten, da Gift traditionelle Rüstungswerte ignoriert. In Kombination mit **Pollens** Debuff-Verstärkung können die Stapel auf einem einzigen Ziel über 500 erreichen und selbst die härtesten Bosse in Akt 2 in Sekunden schmelzen lassen.
+
+| Build-Komponente | Priorität | Beste Quelle | Effekt |
+| :--- | :--- | :--- | :--- |
+| **Crit-Chance** | Hoch | Gegenstände / Relikte | Löst Gift-Applikation aus |
+| **Gift-Stapel** | Hoch | Pollen / Rang-Ups | Massiver DOT und max. LP-Abzug |
+| **Omni-Vamp** | Mittel | Rang-S-Passiv | Nachhaltigkeit im Endlosmodus |
+| **Angriffstempo** | Mittel | Köcher-Gegenstand | Schnelleres Auftragen der Stapel |
+
+<Callout type="success" title="Build-Synergie">
+Yuna mit einer Rang-A-Pollen zu kombinieren, ist das „Geheimrezept“. Pollens Fähigkeit, die Menge jedes Debuffs auf Gegnern um 100 % zu erhöhen, verdoppelt Yunas Schadensausstoß effektiv und sofort.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Itemisierung und Relikt-Strategie">
+
+Gegenstände in **Guildrun AI** liefern die rohen Stats, die zum Überleben benötigt werden, während Relikte die spielverändernden Mechaniken bieten. Zu verstehen, welche Gegenstände man verkauft und welche man behält, ist das Markenzeichen eines Experten.
+
+| Gegenstand/Relikt | Typ | Bestens für | Strategie |
+| :--- | :--- | :--- | :--- |
+| **Große Weste** | Gegenstand | Tanks | Massiver LP-Boost für Akt 2 |
+| **Kapuze des Assassinen** | Gegenstand | Yuna / Sal | Essenziell für Crit-basierte Skalierung |
+| **Harmonie-Kristall** | Relikt | Alle | Erhöht die Teamgröße auf 4 Helden |
+| **Giftprisma** | Relikt | Alle | Crit-Chance skaliert mit Bank-Splittern |
+| **Manapulle** | Gegenstand | Mystiker | Stellt frühe Uptime des Blumenfelds sicher |
+
+**Guildrun AI** bietet auch ein „Quest“-System für Gegenstände. Einige Gegenstände, wie der **Schildakkumulator**, erfordern, dass du eine bestimmte Anzahl von Kämpfen überlebst, um ihr volles Potenzial freizuschalten. Priorisiere immer den Abschluss dieser Quests früh in einem Akt, wenn die Gegner schwächer sind.
+
+<Checklist
+  id="relic-priority"
+  title="Must-Have-Relikte für Runs in 2026:"
+  items={[
+    "Gift-Vorherrschaft für LP-basiertes Schreddern",
+    "Gier des Assassinen für permanente Angriffsskalierung",
+    "Frontlinien-Barrikade für erhöhte Tank-Größe",
+    "Splitter-Präzisionsprisma für Crit-Capping im Late-Game",
+    "Sanduhr des Stillstands für Basis-Stat-Boosts"
+  ]}
+/>
+
+<Callout type="info" title="Gegenstands-Management">
+Scheue dich nicht, minderwertige Gegenstände wie die **Aegis** zu verkaufen, um dir ein hochwertiges Rang-Upgrade leisten zu können. Ein Rang-A-Held ist fast immer besser als ein Rang-C-Held mit vollen Gegenständen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Akt-Bosse und Endlosmodus bezwingen">
+
+Die Hydra aus Akt 1 und der Frostdrache aus Akt 2 sind die primären Ausrüstungschecks in **Guildrun AI**. Die Hydra erfordert hohen AOE-Schaden, um mehrere Köpfe zu bewältigen, während der Frostdrache eine sorgfältige Positionierung erfordert, um seinem Frostatem auszuweichen, der benachbarte Helden trifft.
+
+| Boss | Hauptbedrohung | Gegenstrategie |
+| :--- | :--- | :--- |
+| **Hydra** | Mehrere Angriffe | Hohe Gift-Stapel auf dem Hauptkörper |
+| **Frostdrache** | Frostatem (AOE) | Helden verteilen; Yuria zum Spotten nutzen |
+| **Endlos-Mobs** | Hohe LP-Skalierung | Verlasse dich auf das Giftprisma und % LP-Schaden |
+
+Sobald du den Frostdrachen besiegt hast, betrittst du den **Endlosmodus**. Hier steigt der Schwierigkeitsgrad exponentiell an. Der Schlüssel zu einer hohen Platzierung auf der globalen Bestenliste ist das **Splitter-Präzisionsprisma**. Indem du Splitter hortest, anstatt sie auszugeben, kannst du die Crit-Chance deines Helden auf über 700 % treiben, was zu mehreren Shuriken oder Angriffen pro Aktion führt.
+
+<Steps>
+  <Step num="1" title="Boss-Vorbereitung">
+    Stelle vor dem Frostdrachen sicher, dass dein Tank mindestens 1.500 LP hat und dein DPS über Omni-Vamp verfügt.
+  </Step>
+  <Step num="2" title="Die Spreizformation">
+    Positioniere deinen Tank auf der einen Seite und deinen DPS auf der anderen. Gruppiere Helden niemals gegen Drachen.
+  </Step>
+  <Step num="3" title="Endlos-Skalierung">
+    Höre auf, Splitter auszugeben, sobald dein Kernteam Rang S erreicht hat. Lass die Splitter ansammeln, um deine Relikte zu verstärken.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Endlos-Geheimnis">
+In den späten Phasen des Endlosmodus können die Schadenszahlen 1,4 Millionen pro Treffer erreichen. An diesem Punkt ist die Verteidigung weniger wichtig als Heilung bei Treffern und Tarnungsmechaniken.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen zu Guildrun AI">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich Rang-S-Helden in Guildrun AI frei?",
+    answer: "Rang S wird erreicht, indem man mehrere Duplikate desselben Helden im Shop sammelt oder seltene Rang-Up-Token verwendet, die man an Lagerfeuern findet. Rang S schaltet einen dritten Gegenstandsplatz und eine mächtige Meisterschafts-Passive frei."
+  },
+  {
+    question: "Was ist der beste Weg, um Splitter zu farmen?",
+    answer: "Priorisiere frühzeitig „Herausfordernde Begegnungen“. Obwohl sie um 150 % erhöhte Stats haben, bieten sie deutlich höhere Splitter-Belohnungen und epische Relikte, die deinen Fortschritt beschleunigen."
+  },
+  {
+    question: "Kann ich doppelte Relikte kombinieren?",
+    answer: "Derzeit lassen sich doppelte Relikte nicht kombinieren. Wenn der Shop es jedoch erlaubt, zwei gleiche Relikte zu besitzen, werden deren Effekte gestapelt, was für Gift- oder Crit-Builds unglaublich mächtig ist."
+  },
+  {
+    question: "Warum ist mein Held im Endlosmodus sofort gestorben?",
+    answer: "Im Endlosmodus verursachen Gegner schließlich genug Schaden, um Helden mit einem Schlag zu töten (One-Shot). Du musst dich auf Tarnung (Yuna), Versteinerung (Yuria) oder massive Heilung (Pollen) verlassen, um die ersten Wellen zu überstehen."
+  }
+]} />
+
+<Callout type="success" title="Abschließendes Urteil">
+Die **Guildrun AI**-Meta bevorzugt diejenigen, die eine gierige Wirtschaft mit einem spezialisierten Team-Build ausbalancieren können. Konzentriere dich auf Yuna, meistere die Gift-Mechaniken und sieh zu, wie deine Schadenszahlen in die Millionen schießen.
+</Callout>
+
+</Section>

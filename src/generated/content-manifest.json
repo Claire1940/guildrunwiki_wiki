@@ -1,1 +1,470 @@
-{}
+{
+  "de": {
+    "builds": [
+      {
+        "slug": "guildrun-berserker-build",
+        "file": "guildrun-berserker-build"
+      },
+      {
+        "slug": "guildrun-best-builds",
+        "file": "guildrun-best-builds"
+      },
+      {
+        "slug": "guildrun-kai-build",
+        "file": "guildrun-kai-build"
+      },
+      {
+        "slug": "guildrun-magic-build",
+        "file": "guildrun-magic-build"
+      },
+      {
+        "slug": "guildrun-nyx-build",
+        "file": "guildrun-nyx-build"
+      },
+      {
+        "slug": "guildrun-one-shot-build",
+        "file": "guildrun-one-shot-build"
+      },
+      {
+        "slug": "guildrun-rush-build",
+        "file": "guildrun-rush-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guildrun-beginner-guide",
+        "file": "guildrun-beginner-guide"
+      },
+      {
+        "slug": "guildrun-first-run-guide",
+        "file": "guildrun-first-run-guide"
+      },
+      {
+        "slug": "guildrun-reroll-guide",
+        "file": "guildrun-reroll-guide"
+      },
+      {
+        "slug": "guildrun-shop-guide",
+        "file": "guildrun-shop-guide"
+      },
+      {
+        "slug": "guildrun-strategy",
+        "file": "guildrun-strategy"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "guildrun-ai",
+        "file": "guildrun-ai"
+      },
+      {
+        "slug": "guildrun-hero-rank-up",
+        "file": "guildrun-hero-rank-up"
+      },
+      {
+        "slug": "guildrun-roguelike",
+        "file": "guildrun-roguelike"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "guildrun-steam-charts",
+        "file": "guildrun-steam-charts"
+      },
+      {
+        "slug": "guildrun-steam",
+        "file": "guildrun-steam"
+      },
+      {
+        "slug": "guildrun-steamdb",
+        "file": "guildrun-steamdb"
+      },
+      {
+        "slug": "guildrun-system-requirements",
+        "file": "guildrun-system-requirements"
+      }
+    ],
+    "tiers": [
+      {
+        "slug": "guildrun-class-tier-list",
+        "file": "guildrun-class-tier-list"
+      },
+      {
+        "slug": "guildrun-hero-tier-list",
+        "file": "guildrun-hero-tier-list"
+      },
+      {
+        "slug": "guildrun-item-tier-list",
+        "file": "guildrun-item-tier-list"
+      },
+      {
+        "slug": "guildrun-relic-tier-list",
+        "file": "guildrun-relic-tier-list"
+      },
+      {
+        "slug": "guildrun-tier-list",
+        "file": "guildrun-tier-list"
+      }
+    ]
+  },
+  "en": {
+    "builds": [
+      {
+        "slug": "guildrun-assassin-build",
+        "file": "guildrun-assassin-build"
+      },
+      {
+        "slug": "guildrun-berserker-build",
+        "file": "guildrun-berserker-build"
+      },
+      {
+        "slug": "guildrun-best-builds",
+        "file": "guildrun-best-builds"
+      },
+      {
+        "slug": "guildrun-kai-build",
+        "file": "guildrun-kai-build"
+      },
+      {
+        "slug": "guildrun-magic-build",
+        "file": "guildrun-magic-build"
+      },
+      {
+        "slug": "guildrun-nyx-build",
+        "file": "guildrun-nyx-build"
+      },
+      {
+        "slug": "guildrun-one-shot-build",
+        "file": "guildrun-one-shot-build"
+      },
+      {
+        "slug": "guildrun-rush-build",
+        "file": "guildrun-rush-build"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "guildrun-best-team",
+        "file": "guildrun-best-team"
+      },
+      {
+        "slug": "guildrun-boss-guide",
+        "file": "guildrun-boss-guide"
+      },
+      {
+        "slug": "guildrun-endless-mode",
+        "file": "guildrun-endless-mode"
+      },
+      {
+        "slug": "guildrun-sss-difficulty",
+        "file": "guildrun-sss-difficulty"
+      },
+      {
+        "slug": "guildrun-team-comps",
+        "file": "guildrun-team-comps"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guildrun-beginner-guide",
+        "file": "guildrun-beginner-guide"
+      },
+      {
+        "slug": "guildrun-first-run-guide",
+        "file": "guildrun-first-run-guide"
+      },
+      {
+        "slug": "guildrun-reroll-guide",
+        "file": "guildrun-reroll-guide"
+      },
+      {
+        "slug": "guildrun-shop-guide",
+        "file": "guildrun-shop-guide"
+      },
+      {
+        "slug": "guildrun-strategy",
+        "file": "guildrun-strategy"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "guildrun-ai",
+        "file": "guildrun-ai"
+      },
+      {
+        "slug": "guildrun-autobattler",
+        "file": "guildrun-autobattler"
+      },
+      {
+        "slug": "guildrun-gameplay",
+        "file": "guildrun-gameplay"
+      },
+      {
+        "slug": "guildrun-hero-rank-up",
+        "file": "guildrun-hero-rank-up"
+      },
+      {
+        "slug": "guildrun-roguelike",
+        "file": "guildrun-roguelike"
+      }
+    ],
+    "release": [
+      {
+        "slug": "guildrun-demo",
+        "file": "guildrun-demo"
+      },
+      {
+        "slug": "guildrun-full-release",
+        "file": "guildrun-full-release"
+      },
+      {
+        "slug": "guildrun-price",
+        "file": "guildrun-price"
+      },
+      {
+        "slug": "guildrun-progress-carryover",
+        "file": "guildrun-progress-carryover"
+      },
+      {
+        "slug": "guildrun-release-date",
+        "file": "guildrun-release-date"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "guildrun-steam-charts",
+        "file": "guildrun-steam-charts"
+      },
+      {
+        "slug": "guildrun-steam",
+        "file": "guildrun-steam"
+      },
+      {
+        "slug": "guildrun-steamdb",
+        "file": "guildrun-steamdb"
+      },
+      {
+        "slug": "guildrun-system-requirements",
+        "file": "guildrun-system-requirements"
+      }
+    ],
+    "tiers": [
+      {
+        "slug": "guildrun-class-tier-list",
+        "file": "guildrun-class-tier-list"
+      },
+      {
+        "slug": "guildrun-hero-tier-list",
+        "file": "guildrun-hero-tier-list"
+      },
+      {
+        "slug": "guildrun-item-tier-list",
+        "file": "guildrun-item-tier-list"
+      },
+      {
+        "slug": "guildrun-relic-tier-list",
+        "file": "guildrun-relic-tier-list"
+      },
+      {
+        "slug": "guildrun-tier-list",
+        "file": "guildrun-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "guildrun-assassin-build",
+        "file": "guildrun-assassin-build"
+      },
+      {
+        "slug": "guildrun-berserker-build",
+        "file": "guildrun-berserker-build"
+      },
+      {
+        "slug": "guildrun-best-builds",
+        "file": "guildrun-best-builds"
+      },
+      {
+        "slug": "guildrun-kai-build",
+        "file": "guildrun-kai-build"
+      },
+      {
+        "slug": "guildrun-magic-build",
+        "file": "guildrun-magic-build"
+      },
+      {
+        "slug": "guildrun-nyx-build",
+        "file": "guildrun-nyx-build"
+      },
+      {
+        "slug": "guildrun-one-shot-build",
+        "file": "guildrun-one-shot-build"
+      },
+      {
+        "slug": "guildrun-rush-build",
+        "file": "guildrun-rush-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guildrun-beginner-guide",
+        "file": "guildrun-beginner-guide"
+      },
+      {
+        "slug": "guildrun-reroll-guide",
+        "file": "guildrun-reroll-guide"
+      },
+      {
+        "slug": "guildrun-shop-guide",
+        "file": "guildrun-shop-guide"
+      },
+      {
+        "slug": "guildrun-strategy",
+        "file": "guildrun-strategy"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "guildrun-hero-rank-up",
+        "file": "guildrun-hero-rank-up"
+      },
+      {
+        "slug": "guildrun-roguelike",
+        "file": "guildrun-roguelike"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "guildrun-steam-charts",
+        "file": "guildrun-steam-charts"
+      },
+      {
+        "slug": "guildrun-steam",
+        "file": "guildrun-steam"
+      },
+      {
+        "slug": "guildrun-steamdb",
+        "file": "guildrun-steamdb"
+      },
+      {
+        "slug": "guildrun-system-requirements",
+        "file": "guildrun-system-requirements"
+      }
+    ],
+    "tiers": [
+      {
+        "slug": "guildrun-class-tier-list",
+        "file": "guildrun-class-tier-list"
+      },
+      {
+        "slug": "guildrun-hero-tier-list",
+        "file": "guildrun-hero-tier-list"
+      },
+      {
+        "slug": "guildrun-item-tier-list",
+        "file": "guildrun-item-tier-list"
+      },
+      {
+        "slug": "guildrun-relic-tier-list",
+        "file": "guildrun-relic-tier-list"
+      },
+      {
+        "slug": "guildrun-tier-list",
+        "file": "guildrun-tier-list"
+      }
+    ]
+  },
+  "ru": {
+    "builds": [
+      {
+        "slug": "guildrun-assassin-build",
+        "file": "guildrun-assassin-build"
+      },
+      {
+        "slug": "guildrun-berserker-build",
+        "file": "guildrun-berserker-build"
+      },
+      {
+        "slug": "guildrun-best-builds",
+        "file": "guildrun-best-builds"
+      },
+      {
+        "slug": "guildrun-kai-build",
+        "file": "guildrun-kai-build"
+      },
+      {
+        "slug": "guildrun-magic-build",
+        "file": "guildrun-magic-build"
+      },
+      {
+        "slug": "guildrun-nyx-build",
+        "file": "guildrun-nyx-build"
+      },
+      {
+        "slug": "guildrun-rush-build",
+        "file": "guildrun-rush-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "guildrun-beginner-guide",
+        "file": "guildrun-beginner-guide"
+      },
+      {
+        "slug": "guildrun-reroll-guide",
+        "file": "guildrun-reroll-guide"
+      },
+      {
+        "slug": "guildrun-shop-guide",
+        "file": "guildrun-shop-guide"
+      },
+      {
+        "slug": "guildrun-strategy",
+        "file": "guildrun-strategy"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "guildrun-hero-rank-up",
+        "file": "guildrun-hero-rank-up"
+      }
+    ],
+    "steam": [
+      {
+        "slug": "guildrun-steam-charts",
+        "file": "guildrun-steam-charts"
+      },
+      {
+        "slug": "guildrun-steamdb",
+        "file": "guildrun-steamdb"
+      },
+      {
+        "slug": "guildrun-system-requirements",
+        "file": "guildrun-system-requirements"
+      }
+    ],
+    "tiers": [
+      {
+        "slug": "guildrun-class-tier-list",
+        "file": "guildrun-class-tier-list"
+      },
+      {
+        "slug": "guildrun-hero-tier-list",
+        "file": "guildrun-hero-tier-list"
+      },
+      {
+        "slug": "guildrun-item-tier-list",
+        "file": "guildrun-item-tier-list"
+      },
+      {
+        "slug": "guildrun-relic-tier-list",
+        "file": "guildrun-relic-tier-list"
+      },
+      {
+        "slug": "guildrun-tier-list",
+        "file": "guildrun-tier-list"
+      }
+    ]
+  }
+}
