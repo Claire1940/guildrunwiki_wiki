@@ -1,0 +1,75 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Refeições de Corrida de Guilda: Equilibrando Perfeitamente Sua Viagem",
+  description: "Descubra as melhores refeições de corrida de guilda para um desempenho ótimo na Corrida de Guilda. Saiba quais refeições são essenciais para sua viagem.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Refeições+de+Corrida+de+Guilda",
+  date: "2026-07-23",
+  author: "Equipe de Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave primária**: Refeições de Corrida de Guilda
+- **Mecânica chave**: Combinações de refeições ótimas para desempenho
+- **Melhor estratégia**: Quais refeições priorizar com base no seu estilo de jogo
+- **Dica crucial**: Como gerenciar o espaço da sua inventário eficazmente
+- **Escolha top**: As 3 melhores refeições que todos os jogadores devem considerar
+</Callout>
+
+<Section icon={Map} title="Introdução às Refeições de Corrida de Guilda">
+As Refeições de Corrida de Guilda desempenham um papel crucial em melhorar o desempenho do seu personagem durante as Corridas de Guilda. Ao escolher as refeições certas, você pode ganhar uma vantagem significativa em termos de estatísticas, velocidade e resistência.
+</Section>
+
+<Section icon={Swords} title="Entendendo os Tipos de Refeições">
+Existem vários tipos de refeições disponíveis, cada uma oferecendo benefícios únicos:
+- **Refeições de Aumento**: Aumentam estatísticas temporárias como força, agilidade e resistência.
+- **Refeições de Saúde**: Recuperam saúde e previnem efeitos de status como veneno ou fadiga.
+- **Refeições de Velocidade**: Aumentam a velocidade de movimento, permitindo uma travessia mais rápida do mapa.
+</Section>
+
+<Section icon={Trophy} title="Top 3 Refeições de Corrida de Guilda">
+1. **Salada Mística**: Uma Refeição de Aumento que aumenta tanto força quanto agilidade, making it perfect for characters who rely on physical attacks.
+2. **Elixir da Vida**: Uma Refeição de Saúde que não apenas recupera saúde, mas também oferece um escudo temporário contra danos recebidos.
+3. **Pão Rápido**: Uma Refeição de Velocidade que aumenta a velocidade de movimento, ideal para personagens que precisam traversar o mapa rapidamente para coletar recursos ou derrotar inimigos.
+</Section>
+
+<Section icon={Target} title="Estratégias de Combinação de Refeições">
+Para maximizar seu desempenho, considere as seguintes combinações de refeições:
+- **Para Atacantes**: Combine uma Refeição de Aumento como Salada Mística com uma Refeição de Saúde como Elixir da Vida para um ataque e defesa equilibrados.
+- **Para Defensores**: Use uma Refeição de Velocidade como Pão Rápido em conjunto com uma Refeição de Saúde para melhorar sua capacidade de evitar inimigos e se curar.
+- **Para Equilíbrio**: Misture e combine diferentes tipos de refeições para atender às suas necessidades específicas e estilo de jogo.
+</Section>
+
+<Section icon={Shield} title="Dicas de Gestão de Inventário">
+A gestão adequada do inventário é essencial para garantir que você tenha as refeições certas no momento certo:
+- **Priorize Refeições Essenciais**: Mantenha as 3 melhores refeições mencionadas acima no seu inventário a todo momento.
+- **Planeje com Antecedência**: Avalie suas necessidades com base nos desafios vindouros e prepare suas refeições conforme necessário.
+- **Rotacione Refeições**: Use refeições menos eficazes para fazer espaço para refeições mais poderosas conforme seu percurso avança.
+</Section>
+
+<Section icon={Sparkles} title="Conclusão">
+Escolher as Refeições de Corrida de Guilda certas pode ter um impacto significativo em seu desempenho. Ao entender os tipos de refeições disponíveis e planejando seu inventário eficazmente, você pode ganhar uma vantagem competitiva nas suas Corridas de Guilda. Boa sorte!
+</Section>
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores refeições para um novo jogador?",
+    answer: "Para novos jogadores, é recomendado começar com Refeições de Saúde básicas e Refeições de Aumento como Salada Mística e Elixir da Vida para construir as estatísticas e saúde do seu personagem."
+  },
+  {
+    question: "Posso usar a mesma refeição várias vezes?",
+    answer: "Sim, você pode usar a mesma refeição várias vezes, mas é importante gerenciar o espaço do seu inventário eficazmente para garantir que você tenha as refeições certas para diferentes situações."
+  },
+  {
+    question: "Existem efeitos negativos de usar muitas refeições?",
+    answer: "Usar muitas refeições pode levar a efeitos negativos como náusea ou fadiga, então é importante equilibrar sua ingestão de refeições."
+  }
+]} />

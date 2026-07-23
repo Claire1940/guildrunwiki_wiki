@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Reddit: Top Community Tips for Mythic Efficiency",
+  description: "Master your guildrun reddit strategies for 2026. Learn optimal dungeon pathing, group coordination, and loot distribution tips from veteran players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guildrun+Reddit+Guide",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Guildrun reddit** discussions emphasize the importance of **pre-raid preparation** and communication.
+- Optimize your **Mythic+ performance** by mastering interrupt rotations and stun-locking priority targets.
+- Effective **loot distribution** requires clear guild policies using tools like RC Loot Council.
+- Always maintain **vantage runes and health pots** to ensure survival during high-pressure boss phases.
+- **Coordination is key**: Use voice chat to call out mechanics and coordinate group soaks.
+</Callout>
+
+<Section icon={Map} title="Understanding Guildrun Reddit Best Practices">
+
+The guildrun reddit community is a goldmine for players looking to elevate their gameplay. Whether you are tackling Mythic dungeons or organizing a raid team, the consensus remains that preparation is the primary factor for success. Veteran players frequently discuss the transition from casual dungeon runs to high-level Mythic+ content, focusing on utility and team composition.
+
+**Video Highlights:**
+- Essential interrupt and stun management for Demon Hunters.
+- Strategies for handling complex healer mechanics during boss fights.
+- The importance of proper Discord etiquette and communication during raid progression.
+
+<YouTubeEmbed videoId="aXw13HvCERU" title="MYTHIC MANAFORGE OMEGA GUILD RUN!!! (World of Warcraft)" />
+
+Community members often highlight that the "guildrun" experience is defined by how well members adapt to unforeseen glitches or mechanic overlaps. Staying calm, even when bugs occur, is what separates a successful guild from a struggling one.
+
+| Strategy Component | Focus Area | Impact Level |
+| :--- | :--- | :--- |
+| Interrupts | Priority targets | Critical |
+| Stuns | Crowd control | High |
+| Positioning | Boss mechanics | High |
+| Communication | Raid calls | Critical |
+
+</Section>
+
+<Section icon={Swords} title="Optimizing Loot and Gear Progression">
+
+Loot distribution remains a hot topic on guildrun reddit threads. As guilds progress through raid tiers, moving from personal loot to a structured system like RC Loot Council is often recommended to ensure gear goes to the players who contribute most to raid performance.
+
+<CardGrid cols={3}>
+  <Card title="RC Loot Council">
+    - Centralizes loot decisions
+    - Reduces drama
+    - Increases raid efficiency
+  </Card>
+  <Card title="Simcraft Tools">
+    - Uses QE Live/Raidbots
+    - Data-driven upgrades
+    - Removes guesswork
+  </Card>
+  <Card title="Tertiary Stats">
+    - Focus on Speed/Leech
+    - Enhances survivability
+    - Long-term scaling
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip">
+Always ensure your RC Loot Council settings are correctly configured. Disable "auto-pass" for transmog items if your guild allows off-spec rolling, otherwise you may miss out on cosmetic upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Raid Preparation">
+
+Preparation is the silent killer of progression. If you ignore the small details, your team will struggle during the final 20% of boss fights.
+
+<Steps>
+  <Step num="1" title="Consumables Check">
+    Ensure you have enough health pots, mana oils, and vantage runes. Never start a raid with empty bags.
+  </Step>
+  <Step num="2" title="Add-on Sync">
+    Verify that every guild member has updated raid frames and loot council add-ons to prevent communication gaps.
+  </Step>
+  <Step num="3" title="Boss Strategy Review">
+    Review the phase transitions and soak groups. Assign specific markers to players to avoid overlapping mechanics.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Essential Guildrun Data Tables">
+
+To maintain peak efficiency, tracking your progress and resource usage is vital. The following data highlights key aspects of guildrun management.
+
+| Resource | Usage Purpose | Recommended Stock |
+| :--- | :--- | :--- |
+| Health Potions | Emergency healing | 20+ |
+| Vantage Runes | Flat damage/heal buff | 10+ |
+| Mana Oils | Healer sustainability | 5+ |
+| Repair Hammers | Equipment maintenance | 2-3 |
+
+<Callout type="warning" title="Watch Your Positioning">
+Many guildrun reddit posts warn against "tunneling" on damage meters. If you are too busy looking at your DPS, you will miss the swirlies and void pools that lead to instant wipes. Focus on movement first, damage second.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Checklist">
+
+<Checklist
+  id="guildrun-progression"
+  title="Raid Progression Checklist:"
+  items={[
+    "Simulate gear upgrades using Raidbots",
+    "Confirm soak group assignments for all phases",
+    "Verify all members have appropriate enchants",
+    "Set up Discord audio for clear raid calls",
+    "Complete required Mythic+ dungeons for crests"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to handle loot in a guildrun reddit-style group?",
+    answer: "Most experienced groups recommend using an add-on like RC Loot Council. It allows for transparent decision-making based on raid performance and gear needs rather than random rolls."
+  },
+  {
+    question: "Why is my DPS low even with high item level gear?",
+    answer: "Low DPS is often due to poor uptime on the boss. Focus on mechanic management and movement. If you are dead or running away from mechanics, your DPS drops to zero."
+  },
+  {
+    question: "How do I improve my guildrun reddit standing?",
+    answer: "Be reliable, show up on time with consumables, and communicate clearly. Being a player who understands mechanics and admits to mistakes is more valuable than being a top DPS who ignores calls."
+  }
+]} />
+
+</Section>

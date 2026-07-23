@@ -58,12 +58,68 @@
     ],
     "guide": [
       {
+        "slug": "guild-run-arena-10",
+        "file": "guild-run-arena-10"
+      },
+      {
+        "slug": "guild-run-arena-2",
+        "file": "guild-run-arena-2"
+      },
+      {
+        "slug": "guild-run-arena-3",
+        "file": "guild-run-arena-3"
+      },
+      {
+        "slug": "guild-run-arena-5",
+        "file": "guild-run-arena-5"
+      },
+      {
+        "slug": "guild-run-arena-6",
+        "file": "guild-run-arena-6"
+      },
+      {
+        "slug": "guild-run-arena-7",
+        "file": "guild-run-arena-7"
+      },
+      {
+        "slug": "guild-run-arena-8",
+        "file": "guild-run-arena-8"
+      },
+      {
+        "slug": "guild-run-leaderboard",
+        "file": "guild-run-leaderboard"
+      },
+      {
+        "slug": "guild-run-meals",
+        "file": "guild-run-meals"
+      },
+      {
+        "slug": "guild-run-season-meal",
+        "file": "guild-run-season-meal"
+      },
+      {
         "slug": "guildrun-beginner-guide",
         "file": "guildrun-beginner-guide"
       },
       {
+        "slug": "guildrun-developers",
+        "file": "guildrun-developers"
+      },
+      {
+        "slug": "guildrun-discord",
+        "file": "guildrun-discord"
+      },
+      {
+        "slug": "guildrun-dragomir",
+        "file": "guildrun-dragomir"
+      },
+      {
         "slug": "guildrun-first-run-guide",
         "file": "guildrun-first-run-guide"
+      },
+      {
+        "slug": "guildrun-reddit",
+        "file": "guildrun-reddit"
       },
       {
         "slug": "guildrun-reroll-guide",
@@ -76,9 +132,17 @@
       {
         "slug": "guildrun-strategy",
         "file": "guildrun-strategy"
+      },
+      {
+        "slug": "guildrun-trailer",
+        "file": "guildrun-trailer"
       }
     ],
     "mechanics": [
+      {
+        "slug": "guild-run-season-recipe",
+        "file": "guild-run-season-recipe"
+      },
       {
         "slug": "guildrun-ai",
         "file": "guildrun-ai"
@@ -222,12 +286,28 @@
     ],
     "guide": [
       {
+        "slug": "guild-run-arena-6",
+        "file": "guild-run-arena-6"
+      },
+      {
+        "slug": "guild-run-meals",
+        "file": "guild-run-meals"
+      },
+      {
         "slug": "guildrun-beginner-guide",
         "file": "guildrun-beginner-guide"
       },
       {
+        "slug": "guildrun-discord",
+        "file": "guildrun-discord"
+      },
+      {
         "slug": "guildrun-first-run-guide",
         "file": "guildrun-first-run-guide"
+      },
+      {
+        "slug": "guildrun-reddit",
+        "file": "guildrun-reddit"
       },
       {
         "slug": "guildrun-reroll-guide",
@@ -240,6 +320,10 @@
       {
         "slug": "guildrun-strategy",
         "file": "guildrun-strategy"
+      },
+      {
+        "slug": "guildrun-trailer",
+        "file": "guildrun-trailer"
       }
     ],
     "mechanics": [
@@ -386,12 +470,68 @@
     ],
     "guide": [
       {
+        "slug": "guild-run-arena-10",
+        "file": "guild-run-arena-10"
+      },
+      {
+        "slug": "guild-run-arena-2",
+        "file": "guild-run-arena-2"
+      },
+      {
+        "slug": "guild-run-arena-3",
+        "file": "guild-run-arena-3"
+      },
+      {
+        "slug": "guild-run-arena-5",
+        "file": "guild-run-arena-5"
+      },
+      {
+        "slug": "guild-run-arena-6",
+        "file": "guild-run-arena-6"
+      },
+      {
+        "slug": "guild-run-arena-7",
+        "file": "guild-run-arena-7"
+      },
+      {
+        "slug": "guild-run-arena-8",
+        "file": "guild-run-arena-8"
+      },
+      {
+        "slug": "guild-run-leaderboard",
+        "file": "guild-run-leaderboard"
+      },
+      {
+        "slug": "guild-run-meals",
+        "file": "guild-run-meals"
+      },
+      {
+        "slug": "guild-run-season-meal",
+        "file": "guild-run-season-meal"
+      },
+      {
         "slug": "guildrun-beginner-guide",
         "file": "guildrun-beginner-guide"
       },
       {
+        "slug": "guildrun-developers",
+        "file": "guildrun-developers"
+      },
+      {
+        "slug": "guildrun-discord",
+        "file": "guildrun-discord"
+      },
+      {
+        "slug": "guildrun-dragomir",
+        "file": "guildrun-dragomir"
+      },
+      {
         "slug": "guildrun-first-run-guide",
         "file": "guildrun-first-run-guide"
+      },
+      {
+        "slug": "guildrun-reddit",
+        "file": "guildrun-reddit"
       },
       {
         "slug": "guildrun-reroll-guide",
@@ -404,9 +544,17 @@
       {
         "slug": "guildrun-strategy",
         "file": "guildrun-strategy"
+      },
+      {
+        "slug": "guildrun-trailer",
+        "file": "guildrun-trailer"
       }
     ],
     "mechanics": [
+      {
+        "slug": "guild-run-season-recipe",
+        "file": "guild-run-season-recipe"
+      },
       {
         "slug": "guildrun-ai",
         "file": "guildrun-ai"
@@ -550,12 +698,68 @@
     ],
     "guide": [
       {
+        "slug": "guild-run-arena-10",
+        "file": "guild-run-arena-10"
+      },
+      {
+        "slug": "guild-run-arena-2",
+        "file": "guild-run-arena-2"
+      },
+      {
+        "slug": "guild-run-arena-3",
+        "file": "guild-run-arena-3"
+      },
+      {
+        "slug": "guild-run-arena-5",
+        "file": "guild-run-arena-5"
+      },
+      {
+        "slug": "guild-run-arena-6",
+        "file": "guild-run-arena-6"
+      },
+      {
+        "slug": "guild-run-arena-7",
+        "file": "guild-run-arena-7"
+      },
+      {
+        "slug": "guild-run-arena-8",
+        "file": "guild-run-arena-8"
+      },
+      {
+        "slug": "guild-run-leaderboard",
+        "file": "guild-run-leaderboard"
+      },
+      {
+        "slug": "guild-run-meals",
+        "file": "guild-run-meals"
+      },
+      {
+        "slug": "guild-run-season-meal",
+        "file": "guild-run-season-meal"
+      },
+      {
         "slug": "guildrun-beginner-guide",
         "file": "guildrun-beginner-guide"
       },
       {
+        "slug": "guildrun-developers",
+        "file": "guildrun-developers"
+      },
+      {
+        "slug": "guildrun-discord",
+        "file": "guildrun-discord"
+      },
+      {
+        "slug": "guildrun-dragomir",
+        "file": "guildrun-dragomir"
+      },
+      {
         "slug": "guildrun-first-run-guide",
         "file": "guildrun-first-run-guide"
+      },
+      {
+        "slug": "guildrun-reddit",
+        "file": "guildrun-reddit"
       },
       {
         "slug": "guildrun-reroll-guide",
@@ -568,9 +772,17 @@
       {
         "slug": "guildrun-strategy",
         "file": "guildrun-strategy"
+      },
+      {
+        "slug": "guildrun-trailer",
+        "file": "guildrun-trailer"
       }
     ],
     "mechanics": [
+      {
+        "slug": "guild-run-season-recipe",
+        "file": "guild-run-season-recipe"
+      },
       {
         "slug": "guildrun-ai",
         "file": "guildrun-ai"

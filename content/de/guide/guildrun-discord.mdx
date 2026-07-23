@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Discord: Community-Setup-Leitfaden & Demo-Tipps",
+  description: "Tritt dem offiziellen Guildrun-Discord bei, um die besten Helden-Builds, Relikt-Tier-Lists und Demo-Strategien direkt aus der aktiven Spieler-Community freizuschalten.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/111a18/fff?text=Guildrun+Discord+Guide",
+  date: "2026-07-19",
+  author: "Guildrun Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Tritt der Community bei**: Verbinde dich mit Entwicklern und aktiven Spielern auf dem offiziellen **Guildrun-Discord**-Server.
+- **Builds optimieren**: Entdecke erstklassige Teamzusammenstellungen, Heldenspezialisierungen und Gegenstandskombinationen.
+- **Updates verfolgen**: Bleibe über die Veröffentlichung des vollständigen Spiels im Jahr 2027, wöchentliche Demo-Patches und Koop-Pläne auf dem Laufenden.
+- **Mechaniken meistern**: Lerne, wie du eskalierende Risse abschließt, Splitter verwaltest und den Endlosmodus überlebst.
+</Callout>
+
+<Section icon={Sparkles} title="Warum du dem offiziellen Guildrun-Discord-Hub beitreten musst">
+
+Der Beitritt zum offiziellen **Guildrun-Discord** ist der beste Weg, um deine Leistung in Leylines taktischem PvE-Roguelike-Autobattler zu steigern. Unabhängig davon, ob du die kostenlose Steam-Demo spielst oder dich auf die Vollversion im Jahr 2027 vorbereitest – die Community bietet Patch-Updates in Echtzeit, Einblicke der Entwickler und Matchmaking-Diskussionen für den geplanten Koop-Modus. Der Austausch mit anderen Gildenleitern ermöglicht es dir, Strategien zu teilen und mit schnellen Balance-Änderungen Schritt zu halten.
+
+Die Community dient als lebendige Datenbank, in der Spieler versteckte Synergien, optimale Platzierungen auf dem Hex-Raster und das Skalierungsverhalten von Relikten dokumentieren. Durch die Teilnahme an aktiven Diskussionen erhältst du sofortigen Zugriff auf Strategien, die dir helfen, Risse mit hohem Schwierigkeitsgrad zu meistern und deine Wirtschaft zwischen den Runden zu optimieren.
+
+**Video-Highlights:**
+- **Taktischer Kampf**: Erhalte eine Vorschau auf das automatische Kampfsystem und die Positionierungsmechaniken.
+- **Heldenauswahl**: Sieh verschiedene Fantasy-Helden und ihre einzigartigen Fähigkeiten in Aktion.
+- **Fokus auf Synergien**: Erfahre, wie das Abstimmen von Klassen und Relikten erfolgreiche Runs beeinflusst.
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun - Official Announcement Trailer" />
+
+Der Server bietet eigene Kanäle für Fehlermeldungen, Demo-Feedback und Theorycrafting. Dieser direkte Draht zu den Entwicklern von Leyline stellt sicher, dass das Feedback der Spieler die Balance der 25 geplanten Helden, 75 Spezialisierungspfade und über 300 Relikte vor dem offiziellen Spielstart direkt mitgestaltet.
+
+<Callout type="success" title="Präsenz der Entwickler">
+Die Entwickler von Leyline überwachen aktiv die Community-Kanäle, um Spielerfeedback zu sammeln, Demo-Fehler zu beheben und exklusive Einblicke in kommende Features zu teilen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die besten Guildrun-Builds und -Strategien finden">
+
+Erfolgreiche Runs erfordern ein tiefes Verständnis von Teamsynergien, Positionierung und Ressourcenmanagement. Anstatt in jedem Run dieselbe Aufstellung zu erzwingen, solltest du dich an die zufälligen Shop-Angebote anpassen und um die Relikte herum bauen, die du früh im Spiel erhältst. Die Community testet kontinuierlich neue Setups, um die zuverlässigsten Wege zum Meistern von Rissen mit hohem Schwierigkeitsgrad zu finden.
+
+Um eine hohe Siegesrate aufrechtzuerhalten, muss deine aktive Gruppe eine Balance aus defensiven Ankern, beständigen Schadensausteilern und unterstützenden Utility-Einheiten bieten. Wenn du deine Ressourcen zu sehr auf temporäre Rekruten verteilst, führt dies in den späteren Phasen eines Risses oft zu gescheiterten Runs.
+
+| Build-Name | Kernrollen | Schlüsselsynergie | Schwierigkeitsgrad |
+| :--- | :--- | :--- | :--- |
+| **Ausgewogener Erst-Run** | 1 Tank, 1 Carry, 1 Support, 1 Flex | Hohes Überleben, stetiger Fortschritt | Anfänger (Einfach) |
+| **Lovers Geteilter Effekt** | 2 verbundene Lovers, 1 Tank, 1 Utility | Geteilter Schaden, hoher Einzelziel-Schaden | Fortgeschritten (Mittel) |
+| **Einzel-Carry-Skalierung** | 1 Haupt-Carry, 2 Tanks, 1 Utility | Konzentrierte Gegenstände, maximaler Schutz | Experte (Schwer) |
+| **Doppel-Frontline-Kontrolle** | 2 Tanks, 1 Backline-Carry, 1 Support | Aufgeteilter Druck, Crowd Control, sichere Skalierung | Meister (Schwer) |
+
+<CardGrid cols={3}>
+  <Card title="Frontline-Anker">
+    - **Priorisiere Haltbarkeit** und Schadensreduktion.
+    - Positioniere Tanks so, dass sie die ersten Angriffe abfangen.
+    - Kombiniere sie mit Heilungs- oder Unterstützungspfaden.
+  </Card>
+  <Card title="Backline-Carries">
+    - **Fokussiere dich auf Angriffsgeschwindigkeit** und skalierenden Schaden.
+    - Halte sie geschützt hinter robusten Frontlinern.
+    - Rüste sie mit stark offensiven Gegenständen aus.
+  </Card>
+  <Card title="Utility-Unterstützer">
+    - **Biete teamweite Heilung** und Buffs.
+    - Positioniere sie sicher, um eine hohe Betriebszeit zu gewährleisten.
+    - Nutze Hybridpfade, um dich an die Bedürfnisse anzupassen.
+  </Card>
+</CardGrid>
+
+Wenn du um geteilte Effekte wie die Lovers-Synergie herum baust, konzentriere dich darauf, das verbundene Paar zu schützen. Wenn ein Mitglied des Paares früh fällt, sinken das Schadens- und Überlebenspotenzial der gesamten Zusammenstellung erheblich. Halte immer eine flexible Reserve-Einheit bereit, um sie einzuwechseln, falls der Shop keine Upgrades mehr für deinen primären Carry anbietet.
+
+<Callout type="tip" title="Positionierungsregeln">
+Platziere deinen widerstandsfähigsten Helden immer auf dem am meisten exponierten Hex-Feld, um herannahende Gegner zu blockieren, und halte deine anfälligen Schadensausteiler in der hinteren Reihe absolut sicher.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Leitfaden zur Heldenspezialisierung und Klassenprogression">
+
+Mit 25 Helden, 75 Spezialisierungspfaden und 180 individuellen Spezialisierungen, die für das vollständige Spiel geplant sind, ist das Verständnis des Upgrade-Systems von entscheidender Bedeutung. Rang-Upgrades ermöglichen es dir, einfache Rekruten in hochspezialisierte Kämpfer zu verwandeln. Die Wahl komplementärer Pfade verhindert, dass es deinem Team an essenziellen defensiven oder offensiven Fähigkeiten mangelt.
+
+Das Progressionssystem belohnt Spieler, die ihre Klassenübergänge frühzeitig planen. Indem du deine Heldenspezialisierungen auf deine aktiven Relikte abstimmst, kannst du mächtige Kampfschleifen erstellen, mit denen selbst Helden niedrigerer Stufen außergewöhnlich gut abschneiden.
+
+<Steps>
+  <Step num="1" title="Etabliere das Kernteam">
+    Rekrutiere ein ausgewogenes Startteam aus drei Helden, die die Rollen Tank, Schaden und Unterstützung abdecken, bevor du Ressourcen für Shop-Rerolls ausgibst.
+  </Step>
+  <Step num="2" title="Wähle spezialisierte Pfade">
+    Wähle Rang-Upgrades, die die Hauptaufgabe jedes Helden stärken, wie z. B. Blocken für Tanks oder kritische Trefferchance für Carries.
+  </Step>
+  <Step num="3" title="Integriere Multiklassen-Synergien">
+    Kombiniere sekundäre Spezialisierungspfade, um Hybrideinheiten zu erschaffen, wie einen Paladin, der heilt, während er Frontline-Schaden absorbiert.
+  </Step>
+  <Step num="4" title="Führe strategische Respecs">
+    Setze deine Spezialisierungsentscheidungen zurück und weise sie neu zu, wenn du vom Beseitigen von Gegnerwellen im frühen Spiel zu Bosskämpfen gegen Einzelziele übergehst.
+  </Step>
+</Steps>
+
+Die effiziente Verwaltung deiner Rang-Upgrades entscheidet darüber, ob du einen Riss erfolgreich abschließt oder im Mid-Game scheiterst. Vermeide es, temporäre Einheiten aufzuwerten, die du später austauschen möchtest, da dies wertvolle Splitter verschwendet, die für deine permanenten Carries ausgegeben werden könnten.
+
+| Klassenrolle | Hauptfokus | Multiklassen-Wert | Upgrade-Priorität |
+| :--- | :--- | :--- | :--- |
+| **Tank** | Haltbarkeit, Schadensreduktion, Kontrolle | Lässt sich gut mit Selbstheilungspfaden kombinieren | Defensive Rang-Upgrades zuerst |
+| **Heiler** | Regeneration, Schutz, Team-Sustain | Lässt sich mit offensiven Unterstützungs-Buffs kombinieren | Heilungsfrequenz und -leistung |
+| **Fernkampf-Carry** | Angriffsgeschwindigkeit, anhaltender physischer Schaden | Funktioniert mit Multi-Ziel-Angriffsboni | Reiner Schaden und kritische Trefferchance |
+| **Assassine** | Burst-Schaden, Einzelziel-Finisher | Lässt sich mit hoher Mobilität und Angriffsgeschwindigkeit kombinieren | Direkter Burst- und Hinrichtungsschaden |
+| **Hybrid** | Anpassbare Unterstützung, Verteidigung oder Schaden | Füllt jede fehlende Rolle in der Gruppe aus | Beheben aktueller Team-Schwachstellen |
+
+<Callout type="warning" title="Respec-Kosten">
+Obwohl das Zurücksetzen (Respec) deiner Helden für Bosskämpfe im Late-Game sehr effektiv ist, kann eine zu häufige Durchführung deine Splitter-Wirtschaft ruinieren, sodass dir weniger Ressourcen für Shop-Upgrades zur Verfügung stehen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checkliste zur Optimierung von Ausrüstung und Relikten">
+
+Gegenstände und Relikte bestimmen die Richtung deines Runs. Gegenstände werden direkt bei einzelnen Helden ausgerüstet, um deren Werte zu verbessern, während Relikte mächtige, passive, teamweite Effekte bieten. Die Priorisierung von universellen Überlebens- und wirtschaftsfördernden Relikten zu Beginn eines Runs maximiert deine Chancen, höhere Schwierigkeitsgrade zu überleben.
+
+Die Community aktualisiert die Ausrüstungs-Tier-List kontinuierlich basierend auf Patch-Änderungen. Konzentriere dich auf Gegenstände, die mit der Angriffsgeschwindigkeit oder Verteidigung deines Helden skalieren, anstatt auf flache Einzelwert-Boosts, die in Late-Game-Begegnungen an Wert verlieren.
+
+| Tier | Reliktkategorie | Beste kompatible Klassen | Hauptsächlicher Stärkegrund |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | Klassenskalierende Relikte | Team-Setups mit geteilten Klassen | Verbessert mehrere Einheiten gleichzeitig |
+| **S-Tier** | Angriffsgeschwindigkeitseffekte | Fernkampf-Carries, Duellanten | Beschleunigt sowohl Schaden als auch On-Hit-Effekte |
+| **S-Tier** | Frühe Wirtschafts-Relikte | Jede Startaufstellung | Multipliziert Ressourcen für Late-Game-Upgrades |
+| **A-Tier** | Heilungsverstärkung | Dedizierte Heiler, Paladine | Erhöht den Sustain in längeren Bosskämpfen |
+| **A-Tier** | Dedizierter Schaden | Assassinen, Einzelziel-Carries | Maximiert Burst-Schaden, lässt aber allgemeine Flexibilität vermissen |
+| **B-Tier** | Bedingter Kampf | Spezifische, auf Synergien ausgerichtete Builds | Extrem stark, erfordert aber exakte Setups |
+| **C-Tier** | Einzelwert-Gegenstände | Temporäre Slots im frühen Spiel | Leicht durch höherwertige Ausrüstung zu ersetzen |
+
+<Checklist
+  id="run-preparation"
+  title="Checkliste zur Vorbereitung vor dem Kampf:"
+  items={[
+    "Rüste defensive Gegenstände auf deinem primären Frontline-Tank aus",
+    "Platziere skalierende Angriffsgeschwindigkeits-Gegenstände auf deinem Haupt-Backline-Carry",
+    "Überprüfe den Shop auf doppelte Helden, um deren Ränge aufzuwerten",
+    "Überprüfe die aktiven Relikteffekte, um deine Positionierung anzupassen",
+    "Halte einen flexiblen Reserve-Helden bereit, um bestimmten Bossen entgegenzuwirken"
+  ]}
+/>
+
+<Callout type="info" title="Wirtschaft zuerst">
+Der Erwerb von wirtschaftsfördernden Relikten in den ersten drei Runden erhöht deine Splitter-Generierung drastisch, was häufigere Shop-Rerolls im Mid-Game ermöglicht.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guildrun-Discord-FAQs und Community-Support">
+
+Das Navigieren durch die sich entwickelnde Meta eines Roguelike-Autobattlers ist mit Community-Unterstützung viel einfacher. Die Community dokumentiert aktiv geheime Synergien, Fehler und optimale Pfadstrategien. Beziehe dich auf diese häufig gestellten Fragen, die direkt aus aktiven Diskussionen zusammengestellt wurden, um sofortige Hilfe zur Demo und zur kommenden Vollversion zu erhalten.
+
+Durch den Beitritt zum Community-Hub kannst du auch an saisonalen Events teilnehmen, deine Highscore-Screenshots teilen und kommende Features direkt mit dem Entwicklungsteam diskutieren.
+
+<FAQ items={[
+  {
+    question: "Wie trete ich dem offiziellen Guildrun-Discord-Server bei?",
+    answer: "Du kannst dem offiziellen Guildrun-Discord beitreten, indem du auf die Community-Links auf der Steam-Shop-Seite oder der offiziellen Website des Spiels klickst. Der Beitritt ist kostenlos und für alle Spieler offen."
+  },
+  {
+    question: "Wird mein Fortschritt aus der kostenlosen Demo in das vollständige Spiel übernommen?",
+    answer: "Nein, der Demo-Fortschritt wird nicht in die Vollversion übernommen. Das Abschließen von Runs mit hohem Schwierigkeitsgrad in der Demo ist jedoch eine hervorragende Übung für die für 2027 geplante Vollversion."
+  },
+  {
+    question: "Welche Plattformen wird Guildrun zum Launch unterstützen?",
+    answer: "Guildrun ist derzeit für den PC über Steam bestätigt. Volle Controller-Unterstützung und eine Optimierung für das Steam Deck sind geplant, und die Entwickler diskutieren in der Community aktiv über andere Plattformen."
+  },
+  {
+    question: "Gibt es einen Koop-Mehrspielermodus im Spiel?",
+    answer: "Koop ist ein geplantes Feature für die Veröffentlichung des vollständigen Spiels. Die aktuelle eigenständige Steam-Demo ist ein reines Einzelspieler-PvE-Erlebnis, aber die Entwickler teilen Updates zum Koop-Fortschritt auf ihren sozialen Kanälen."
+  }
+]} />
+
+<Callout type="success" title="Tritt der Diskussion bei">
+Nimm an wöchentlichen Community-Herausforderungen teil und teile deine Highscore-Screenshots, um spezielle Rollen und Anerkennung unter Mitspielern zu verdienen.
+</Callout>
+
+</Section>

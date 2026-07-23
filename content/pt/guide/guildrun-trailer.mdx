@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Trailer de Guildrun: Análise do Anúncio e Recursos da Demo",
+  description: "Explore a análise oficial do trailer de Guildrun. Saiba mais sobre o autobattler roguelike PvE da Leyline, recursos da demo, classes de heróis e planos de lançamento para 2027.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111A18/E8EEEB?text=Guildrun+Official+Trailer+Breakdown",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Guildrun"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Revelação Oficial**: O recém-lançado **trailer de guildrun** apresenta o próximo autobattler roguelike PvE para um jogador da Leyline.
+- **Disponibilidade da Demo**: Uma demo jogável gratuita e independente está disponível atualmente no Steam, oferecendo uma prévia robusta dos sistemas de jogabilidade principais.
+- **Elenco e Personalização**: O jogo completo contará com 25 heróis únicos, 75 caminhos de especialização e 180 especializações distintas.
+- **Cronograma de Lançamento**: Embora a demo já esteja disponível, a versão completa de Guildrun está oficialmente planejada para uma janela de lançamento em 2027.
+- **Loop Principal**: O sucesso depende do recrutamento de equipes de heróis equilibradas, compra de itens e posicionamento estratégico das unidades antes do início do combate automatizado.
+</Callout>
+
+<Section icon={Sparkles} title="Trailer de Guildrun: Revelação Oficial e Análise de Jogabilidade">
+
+O lançamento oficial do **trailer de guildrun** gerou enorme entusiasmo entre os fãs de autobattlers roguelike, apresentando uma experiência PvE profunda e estratégica desenvolvida pela Leyline. Este teaser apresenta aos jogadores um mundo de fantasia sombrio e estilizado, onde construir uma guilda flexível de heróis é a chave para sobreviver a fendas crescentes. Ao contrário dos autobattlers multijogador tradicionais, este jogo foca inteiramente em uma campanha para um jogador, desafiando os jogadores a se adaptarem a ofertas aleatórias da loja, descobertas de relíquias poderosas e formações de inimigos complexas.
+
+As imagens promocionais destacam a natureza tátil de organizar sua guilda, mostrando como o posicionamento tático influencia diretamente os resultados do combate. As unidades atacam, defendem e ativam habilidades especiais automaticamente assim que a fase de batalha começa, colocando todo o fardo estratégico em sua preparação pré-combate.
+
+**Destaques do Vídeo:**
+- **Recrutamento Tático**: Prévia da fase de recrutamento onde os jogadores compram, vendem e aprimoram heróis.
+- **Especializações Visuais**: Mostra como os heróis se transformam visual e mecanicamente ao escolher caminhos avançados.
+- **Sistemas de Sinergia**: Apresenta sequências de combate de alto impacto ativadas pela combinação de bônus de classe e relíquias ativas.
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun – Trailer de Anúncio Oficial" />
+
+<Callout type="success" title="Visão do Desenvolvedor">
+As imagens de jogabilidade confirmam que Guildrun é totalmente focado na progressão para um jogador. Embora um modo cooperativo esteja planejado para o desenvolvimento futuro, a experiência atual prioriza uma campanha solo polida e altamente rejogável.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Loop de Jogabilidade Principal e Recursos da Demo">
+
+A demo jogável do Steam oferece uma visão generosa das mecânicas mostradas nos materiais promocionais. Os jogadores podem mergulhar no loop principal imediatamente, que gira em torno do gerenciamento de recursos limitados, atualização da loja e preparação para encontros com chefes. Cada partida começa com uma pequena quantidade de fragmentos usados para recrutar unidades básicas, que devem ser desenvolvidas em uma força de combate coesa.
+
+Para ajudar os jogadores a entender o que está atualmente jogável em comparação com o que está planejado para o lançamento final, compilamos uma comparação de recursos.
+
+| Fase | Conteúdo Disponível | Limites de Progressão | Previsão de Lançamento |
+| :--- | :--- | :--- | :--- |
+| Demo Gratuita | Loop de autobattle principal, heróis básicos, relíquias iniciais | Apenas progresso local da demo | Disponível Agora (Steam) |
+| Jogo Completo | 25 heróis, 75 caminhos, 180 esp., 300+ relíquias | 8 dificuldades, Modo Infinito, Cooperativo | Previsão para 2027 |
+
+A demo serve como um excelente campo de treinamento para dominar a economia. Gerenciar seus gastos de fragmentos entre comprar heróis duplicados para melhorias de ranque, adquirir equipamentos e atualizar a loja é a habilidade definidora de jogadores de alta dificuldade.
+
+<Callout type="tip" title="Dica de Economia">
+Evite atualizar a loja agressivamente durante as três primeiras rodadas de uma partida. Economizar seus fragmentos cedo permite que você alcance limites de juros mais altos e garanta recrutas premium de nível três muito mais rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Recrutamento de Heróis e Estratégia de Construção de Equipe">
+
+Construir uma guilda eficaz exige uma compreensão profunda das funções das unidades e de como elas interagem no campo de batalha. O jogo se afasta de métricas simples de dano por segundo, forçando os jogadores a equilibrar valores de bloqueio defensivo, cura, controle de grupo e mecânicas de execução limpas.
+
+Ao recrutar sua equipe, você deve geralmente estruturar seu elenco ativo em torno de três funções de combate principais para garantir que possa lidar com diversos encontros de inimigos.
+
+<CardGrid cols={3}>
+  <Card title="Protetores da Linha de Frente">
+    - **Função Principal**: Absorver os ataques iniciais dos inimigos e gerar valores de bloqueio.
+    - **Atributos-Chave**: Vida máxima, taxa de armadura e duração de controle de grupo.
+    - **Melhor Especialização**: Tanque defensivo e escudos protetores.
+  </Card>
+  <Card title="Carregadores da Retaguarda">
+    - **Função Principal**: Causar dano físico ou mágico sustentado de forma segura.
+    - **Atributos-Chave**: Velocidade de ataque, chance de acerto crítico e dano bruto.
+    - **Melhor Especialização**: Atirador de longa distância ou assassino de alto dano explosivo.
+  </Card>
+  <Card title="Utilidade e Suportes">
+    - **Função Principal**: Restaurar vida, remover penalidades e amplificar o dano dos aliados.
+    - **Atributos-Chave**: Geração de mana, poder de cura e eficiência de bônus.
+    - **Melhor Especialização**: Curador dedicado ou suporte ofensivo híbrido.
+  </Card>
+</CardGrid>
+
+Para maximizar a eficiência dessas funções, os jogadores devem prestar muita atenção às especializações de classes individuais. A tabela abaixo descreve como os arquétipos básicos de heróis se transformam em ativos especializados no campo de batalha.
+
+| Arquétipo | Função Principal no Campo de Batalha | Foco de Especialização | Prioridade de Melhoria |
+| :--- | :--- | :--- | :--- |
+| Tanque | Absorver pressão da linha de frente, proteger aliados | Durabilidade, controle, defesa | Melhorias de ranque defensivo |
+| Curador | Restaurar vida, estabilizar a sustentação do grupo | Frequência de cura, proteção | Cura confiável |
+| Atirador | Causar dano consistente na retaguarda | Velocidade de ataque, escalonamento sustentado | Consistência de dano bruto |
+| Assassino | Eliminar alvos de alta prioridade rapidamente | Dano explosivo, escalonamento ofensivo | Poder de finalização confiável |
+
+<Callout type="warning" title="Armadilha de Recrutamento">
+Não encha seu banco inteiramente com causadores de dano frágeis. Um único carregador de alto dano apoiado por dois tanques duráveis e um curador dedicado terá um desempenho consistentemente melhor do que uma equipe de quatro causadores de dano sem proteção.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para sua Primeira Partida de Sucesso">
+
+Concluir sua primeira partida completa exige um planejamento cuidadoso desde a primeira tela da loja. Siga este plano de progressão passo a passo para estabilizar sua economia e garantir sua primeira vitória.
+
+<Steps>
+  <Step num="1" title="Estabeleça uma Linha de Frente Estável Primeiro">
+    Priorize o recrutamento de uma unidade durável para a linha de frente na rodada de abertura. Se a loja oferecer escudos protetores ou itens defensivos, garanta-os imediatamente para minimizar a perda inicial de vida.
+  </Step>
+  <Step num="2" title="Identifique seu Carregador Principal">
+    Até a terceira rodada, selecione um causador de dano dedicado para construir sua equipe ao redor. Procure unidades de ataque à distância ou duelistas que escalem bem com itens de velocidade de ataque ou bônus de dano físico.
+  </Step>
+  <Step num="3" title="Crie Sinergia com Efeitos de Classe Compartilhados">
+    À medida que seu elenco aumenta, procure heróis que compartilhem características de classe ou palavras-chave mecânicas específicas. Ativar bônus compartilhados aumenta significativamente o poder base de sua equipe sem custo adicional de fragmentos.
+  </Step>
+  <Step num="4" title="Transição para Especializações Avançadas">
+    Assim que suas unidades principais alcançarem ranques mais altos, comprometa-se com caminhos de especialização que cubram as fraquezas atuais de sua equipe. Evite caminhos híbridos, a menos que sua linha de frente já esteja completamente estável.
+  </Step>
+</Steps>
+
+À medida que domina essa sequência básica, você pode começar a subir a escala de dificuldade progressiva do jogo. Cada nível introduz modificadores mais severos que testam os limites da sua composição.
+
+| Nível | Requisito de Desbloqueio | Modificador de Desafio Principal | Preparação Recomendada |
+| :--- | :--- | :--- | :--- |
+| Dificuldade 1 | Disponível no início | Progressão básica, chefes padrão | Grupo equilibrado, sinergia básica |
+| Dificuldade 3 | Concluir Dificuldade 2 | Pune linhas de frente fracas, dano maior | Adicionar suporte defensivo, escalonar carregador |
+| Dificuldade 5 | Concluir Dificuldade 4 | Lojas ineficientes punidas, margens menores | Planejar caminhos de especialização cedo |
+| Dificuldade 8 | Concluir Dificuldade 7 | Modo padrão mais difícil, escalonamento agressivo | Maximizar economia, otimizar relíquias |
+| Modo Infinito | Concluir partidas padrão | Escalonamento infinito, rastreamento de ranking | Relíquias escalonáveis, ataques repetidos |
+
+<Callout type="success" title="Marco Desbloqueado">
+Superar a Dificuldade 8 desbloqueia o Modo Infinito, onde os inimigos escalam infinitamente. Este modo foi projetado para levar composições altamente otimizadas e ricas em relíquias ao limite absoluto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamentos, Relíquias e Escalonamento de Itens">
+
+Embora os ranques dos heróis forneçam uma base sólida, os itens e as relíquias são o que realmente definem uma partida de alto desempenho. Os itens são equipados diretamente em heróis individuais para aprimorar seus atributos específicos, enquanto as relíquias fornecem modificações passivas para toda a partida que podem alterar toda a sua abordagem estratégica.
+
+Para construir uma partida vitoriosa, mantenha estes marcos essenciais em mente:
+
+<Checklist
+  id="relic-milestones"
+  title="Objetivos de Equipamento da Partida:"
+  items={[
+    "Garantir pelo menos uma relíquia de economia inicial antes da quinta rodada",
+    "Equipar seu tanque principal da linha de frente com dois itens defensivos de sobrevivência",
+    "Concentrar itens de velocidade de ataque de alto nível no seu carregador principal",
+    "Ativar uma relíquia de escalonamento de classe que corresponda à classe majoritária"
+  ]}
+/>
+
+Compreender quais categorias de equipamentos merecem seus fragmentos suados é crucial para a sobrevivência a longo prazo. A tabela abaixo classifica as categorias de equipamentos de alta prioridade que você encontrará.
+
+| Categoria | Benefício Principal | Melhor Combinação de Herói | Potencial de Sinergia |
+| :--- | :--- | :--- | :--- |
+| Relíquias de Escalonamento de Classe | Amplificação de atributos de várias unidades | Composições de classe compartilhada | Melhora as especializações de ranque |
+| Itens de Velocidade de Ataque | Ataques básicos frequentes | Carregadores à distância, duelistas | Ativa efeitos ao atingir mais rápido |
+| Relíquias de Economia Inicial | Recursos da loja compostos | Estratégias de muitas atualizações | Mais recrutas e melhorias mais rápidas |
+| Sobrevivência Universal | Redução de dano fixa | Tanques de linha de frente, off-tanques | Evita derrotas nas rodadas iniciais |
+
+<Callout type="tip" title="Dica de Sinergia">
+Sempre combine itens de velocidade de ataque com heróis que possuem efeitos ao atingir ou habilidades passivas de geração de mana. Aumentar a frequência de ataque acelera diretamente a rapidez com que esses heróis ativam suas habilidades supremas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para ajudar os jogadores a aproveitar ao máximo suas primeiras horas, compilamos respostas para as perguntas mais comuns sobre a revelação do jogo, disponibilidade da demo e mecânicas principais.
+
+<FAQ items={[
+  {
+    question: "Onde posso assistir ao trailer oficial de Guildrun?",
+    answer: "O trailer oficial de guildrun está disponível para assistir na página da loja do jogo no Steam e no canal oficial da Leyline no YouTube, apresentando o loop principal de autobattle, classes de heróis e sistemas de relíquias."
+  },
+  {
+    question: "Meu progresso na demo gratuita do Steam será transferido para o jogo completo?",
+    answer: "De acordo com os planos antigos da desenvolvedora, a demo gratuita é um ambiente de teste independente. Embora apresente as mecânicas aos jogadores, não se espera que o progresso seja transferido diretamente para o lançamento completo em 2027."
+  },
+  {
+    question: "Como funcionam as especializações em Guildrun?",
+    answer: "À medida que os heróis ganham ranques durante uma partida, os jogadores podem escolher entre caminhos de especialização distintos. Essas escolhas alteram permanentemente as habilidades ativas do herói, os bônus passivos e a função geral no campo de batalha pelo restante daquela partida."
+  },
+  {
+    question: "Posso redefinir ou mudar as escolhas de especialização do meu herói no meio de uma partida?",
+    answer: "Sim, o jogo conta com uma mecânica de redefinição que permite realocar pontos de especialização. Isso é altamente útil ao mudar a composição da sua equipe ou se adaptar a uma relíquia poderosa obtida no final do jogo."
+  }
+]} />
+
+<Callout type="info" title="Mantenha-se Atualizado">
+Para obter as últimas notícias, mudanças de balanceamento e cronogramas de desenvolvimento que antecedem o lançamento em 2027, junte-se ao Discord oficial de Guildrun e siga os desenvolvedores no Steam.
+</Callout>
+
+</Section>

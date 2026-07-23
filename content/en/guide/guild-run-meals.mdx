@@ -1,0 +1,75 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guild Run Meals: Perfectly Balancing Your Journey",
+  description: "Discover the best guild run meals for optimal performance in Guild Run. Find out which meals are a must-have for your journey.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Guild+Run+Meals",
+  date: "2026-07-23",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Guild Run Meals
+- **Key mechanic**: Optimal meal combinations for performance
+- **Best strategy**: Which meals to prioritize based on your playstyle
+- **Critical tip**: How to manage your inventory space effectively
+- **Top choice**: The top 3 meals every player should consider
+</Callout>
+
+<Section icon={Map} title="Introduction to Guild Run Meals">
+Guild Run Meals play a crucial role in enhancing your character's performance during Guild Runs. By choosing the right meals, you can gain a significant advantage in terms of stats, speed, and endurance.
+</Section>
+
+<Section icon={Swords} title="Understanding Meal Types">
+There are several types of meals available, each offering unique benefits:
+- **Boost Meals**: Increase temporary stats like strength, agility, and endurance.
+- **Health Meals**: Restore health and prevent status effects like poison or fatigue.
+- **Speed Meals**: Enhance movement speed, allowing for quicker traversal of the map.
+</Section>
+
+<Section icon={Trophy} title="Top 3 Guild Run Meals">
+1. **Mystic Salad**: A Boost Meal that increases both strength and agility, making it perfect for characters who rely on physical attacks.
+2. **Elixir of Vitality**: A Health Meal that not only restores health but also provides a temporary shield against incoming damage.
+3. **Swift Bread**: A Speed Meal that boosts movement speed, ideal for characters who need to traverse the map quickly to gather resources or defeat enemies.
+</Section>
+
+<Section icon={Target} title="Meal Combination Strategies">
+To maximize your performance, consider the following meal combinations:
+- **For Attackers**: Combine a Boost Meal like Mystic Salad with a Health Meal like Elixir of Vitality for balanced offense and defense.
+- **For Defenders**: Use a Speed Meal like Swift Bread in conjunction with a Health Meal to enhance your ability to evade enemies and heal.
+- **For Balance**: Mix and match different types of meals to suit your specific needs and playstyle.
+</Section>
+
+<Section icon={Shield} title="Inventory Management Tips">
+Proper inventory management is key to ensuring you have the right meals at the right time:
+- **Prioritize Essential Meals**: Keep the top 3 meals mentioned above in your inventory at all times.
+- **Plan Ahead**: Assess your needs based on the upcoming challenges and prepare your meals accordingly.
+- **Rotate Meals**: Use less effective meals to make space for more powerful ones as your journey progresses.
+</Section>
+
+<Section icon={Sparkles} title="Conclusion">
+Choosing the right Guild Run Meals can significantly impact your performance. By understanding the types of meals available and planning your inventory effectively, you can gain a competitive edge in your Guild Runs. Happy running!
+</Section>
+
+<FAQ items={[
+  {
+    question: "What are the best meals for a new player?",
+    answer: "For new players, it's recommended to start with basic Health Meals and Boost Meals like Mystic Salad and Elixir of Vitality to build up your character's stats and health."
+  },
+  {
+    question: "Can I use the same meal multiple times?",
+    answer: "Yes, you can use the same meal multiple times, but it's important to manage your inventory space effectively to ensure you have the right meals for different situations."
+  },
+  {
+    question: "Are there any negative effects from using too many meals?",
+    answer: "Using too many meals can lead to negative effects like nausea or fatigue, so it's important to balance your meal consumption."
+  }
+]} />

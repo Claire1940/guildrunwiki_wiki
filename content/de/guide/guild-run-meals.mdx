@@ -1,0 +1,75 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guild Run Mahlzeiten: Perfekte Ausgewogenheit auf Ihrer Reise",
+  description: "Entdecken Sie die besten Guild Run Mahlzeiten für optimale Leistung im Guild Run. Erfahren Sie, welche Mahlzeiten ein Muss für Ihre Reise sind.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/059669/fff?text=Guild+Run+Meals",
+  date: "2026-07-23",
+  author: "Guildrun Wiki Team"
+}
+
+<Callout type="info" title="Kurzguide">
+- **Hauptwort**: Guild Run Mahlzeiten
+- **Schlüsselmechanik**: Optimalen Mahlzeitenkombinationen für die Leistung
+- **Beste Strategie**: Welche Mahlzeiten Sie basierend auf Ihrem Spielstil priorisieren sollten
+- **Wichtiger Tipp**: Wie Sie Ihren Inventarplatz effektiv verwalten
+- **Top-Wahl**: Die Top 3 Mahlzeiten, die jeder Spieler in Betracht ziehen sollte
+</Callout>
+
+<Section icon={Map} title="Einführung in die Guild Run Mahlzeiten">
+Guild Run Mahlzeiten spielen eine entscheidende Rolle bei der Verbesserung der Leistung Ihres Charakters während der Guild Runs. Durch die Auswahl der richtigen Mahlzeiten können Sie einen erheblichen Vorteil in Bezug auf Statistiken, Geschwindigkeit und Ausdauer erlangen.
+</Section>
+
+<Section icon={Swords} title="Verständnis der Mahlzeitentypen">
+Es gibt mehrere Arten von Mahlzeiten, die einzigartige Vorteile bieten:
+- **Boost Mahlzeiten**: Erhöhen temporäre Statistiken wie Stärke, Agilität und Ausdauer.
+- **Gesundheitsmahlzeiten**: Erholen Sie Ihre Gesundheit und verhindern Sie Statuseffekte wie Gift oder Erschöpfung.
+- **Geschwindigkeitsmahlzeiten**: Erhöhen Sie die Bewegungsgeschwindigkeit, was eine schnellere Fortbewegung auf der Karte ermöglicht.
+</Section>
+
+<Section icon={Trophy} title="Top 3 Guild Run Mahlzeiten">
+1. **Mystische Salat**: Eine Boost Mahlzeit, die sowohl Stärke als auch Agilität erhöht, was sie perfekt für Charaktere macht, die sich auf physische Angriffe verlassen.
+2. **Elixier der Vitalität**: Eine Gesundheitsmahlzeit, die nicht nur Gesundheit wiederherstellt, sondern auch einen vorübergehenden Schild gegen eingehenden Schaden bietet.
+3. **Schnellbrot**: Eine Geschwindigkeitsmahlzeit, die die Bewegungsgeschwindigkeit erhöht, ideal für Charaktere, die schnell die Karte traversieren müssen, um Ressourcen zu sammeln oder Feinde zu besiegen.
+</Section>
+
+<Section icon={Target} title="Mahlzeitenkombinationsstrategien">
+Um Ihre Leistung zu maximieren, betrachten Sie die folgenden Mahlzeitenkombinationen:
+- **Für Angreifer**: Kombinieren Sie eine Boost Mahlzeit wie Mystischer Salat mit einer Gesundheitsmahlzeit wie Elixier der Vitalität für ausgewogene Angriff und Verteidigung.
+- **Für Verteidiger**: Verwenden Sie eine Geschwindigkeitsmahlzeit wie Schnellbrot in Verbindung mit einer Gesundheitsmahlzeit, um Ihre Fähigkeit zu erhöhen, Feinde zu umgehen und zu heilen.
+- **Für Ausgewogenheit**: Mixen und mischen Sie verschiedene Arten von Mahlzeiten, um Ihren spezifischen Bedürfnissen und Spielstil gerecht zu werden.
+</Section>
+
+<Section icon={Shield} title="Inventarverwaltungstipps">
+Eine ordnungsgemäße Inventarverwaltung ist entscheidend, um sicherzustellen, dass Sie zu der richtigen Zeit die richtigen Mahlzeiten haben:
+- **Essentielle Mahlzeiten priorisieren**: Halten Sie die oben genannten Top 3 Mahlzeiten immer in Ihrem Inventar.
+- **Vorausplanen**: Beurteilen Sie Ihre Bedürfnisse basierend auf den bevorstehenden Herausforderungen und bereiten Sie Ihre Mahlzeiten entsprechend vor.
+- **Mahlzeiten rotieren**: Verwenden Sie weniger effektive Mahlzeiten, um Platz für mächtigere zu machen, je weiter Ihre Reise fortschreitet.
+</Section>
+
+<Section icon={Sparkles} title="Schluss">
+Die Auswahl der richtigen Guild Run Mahlzeiten kann Ihre Leistung erheblich beeinflussen. Durch das Verständnis der verfügbaren Mahlzeitentypen und die effektive Planung Ihres Inventars können Sie einen Wettbewerbsvorteil in Ihren Guild Runs erlangen. Viel Spaß beim Laufen!
+</Section>
+
+<FAQ items={[
+  {
+    question: "Welche sind die besten Mahlzeiten für einen Neuling?",
+    answer: "Für Neulinge wird empfohlen, mit grundlegenden Gesundheitsmahlzeiten und Boost Mahlzeiten wie Mystischer Salat und Elixier der Vitalität zu beginnen, um die Statistiken und Gesundheit Ihres Charakters aufzubauen."
+  },
+  {
+    question: "Kann ich die gleiche Mahlzeit mehrmals verwenden?",
+    answer: "Ja, Sie können die gleiche Mahlzeit mehrmals verwenden, aber es ist wichtig, Ihren Inventarplatz effektiv zu verwalten, um sicherzustellen, dass Sie die richtigen Mahlzeiten für verschiedene Situationen haben."
+  },
+  {
+    question: "Gibt es negative Auswirkungen durch die Verwendung zu viele Mahlzeiten?",
+    answer: "Die Verwendung zu viele Mahlzeiten kann zu negativen Auswirkungen wie Übelkeit oder Erschöpfung führen, daher ist es wichtig, den Konsum Ihrer Mahlzeiten auszugleichen."
+  }
+]} />

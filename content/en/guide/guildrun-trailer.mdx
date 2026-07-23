@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guildrun Trailer: Announcement Breakdown & Demo Features",
+  description: "Explore the official Guildrun trailer breakdown. Learn about Leyline's PvE roguelike autobattler, demo features, hero classes, and 2027 release plans.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111A18/E8EEEB?text=Guildrun+Official+Trailer+Breakdown",
+  date: "2026-07-19",
+  author: "guildrun Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Official Reveal**: The newly released **guildrun trailer** showcases Leyline's upcoming single-player PvE roguelike autobattler.
+- **Demo Availability**: A free standalone playable demo is currently accessible on Steam, offering a robust preview of the core gameplay systems.
+- **Roster & Customization**: The full game features 25 unique heroes, 75 specialization paths, and 180 distinct specializations.
+- **Launch Timeline**: While the demo is live now, the full version of Guildrun is officially targeting a release window in 2027.
+- **Core Loop**: Success relies on drafting balanced hero teams, purchasing items, and positioning units strategically before automated combat begins.
+</Callout>
+
+<Section icon={Sparkles} title="Guildrun Trailer: Official Reveal & Gameplay Breakdown">
+
+The official release of the **guildrun trailer** has sparked massive excitement among roguelike autobattler fans, showcasing a deep, strategic PvE experience developed by Leyline. This teaser introduces players to a dark, stylized fantasy world where building a flexible guild of heroes is the key to surviving escalating rifts. Unlike traditional multiplayer autobattlers, this game focuses entirely on a single-player campaign, challenging players to adapt to random shop offerings, powerful relic discoveries, and complex enemy formations.
+
+The promotional footage highlights the tactile nature of organizing your guild, showcasing how tactical positioning directly influences combat outcomes. Units attack, defend, and trigger special abilities automatically once the battle phase begins, placing the entire strategic burden on your pre-combat preparation.
+
+**Video Highlights:**
+- **Tactical Drafting**: Previewing the recruitment phase where players buy, sell, and upgrade heroes.
+- **Visual Specializations**: Showing how heroes transform visually and mechanically when choosing advanced paths.
+- **Synergy Systems**: Showcasing high-impact combat sequences triggered by matching class bonuses and active relics.
+
+<YouTubeEmbed videoId="Ul2Of4SE2GM" title="Guildrun – Official Announcement Trailer" />
+
+<Callout type="success" title="Developer Insight">
+The gameplay footage confirms that Guildrun is fully focused on single-player progression. While a co-op mode is planned for future development, the current experience prioritizes a polished, highly replayable solo campaign.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Core Gameplay Loop & Demo Features">
+
+The playable Steam demo provides a generous look at the mechanics teased in the promotional media. Players can jump into the core loop immediately, which revolves around managing limited resources, updating the shop, and preparing for boss encounters. Each run starts with a small pool of shards used to recruit basic units, which must then be developed into a cohesive fighting force.
+
+To help players understand what is currently playable versus what is planned for the final launch, we have compiled a feature comparison.
+
+| Phase | Available Content | Progression Limits | Target Launch |
+| :--- | :--- | :--- | :--- |
+| Free Demo | Core autobattle loop, basic heroes, early relics | Local demo progress only | Out Now (Steam) |
+| Full Game | 25 heroes, 75 paths, 180 specs, 300+ relics | 8 difficulties, Endless, Co-op | 2027 Target |
+
+The demo serves as an excellent training ground for mastering the economy. Managing your shard spending between buying duplicate heroes for rank upgrades, purchasing equipment, and rolling the shop is the defining skill of high-difficulty players.
+
+<Callout type="tip" title="Economy Tip">
+Avoid aggressive shop rerolling during the first three rounds of a run. Saving your shards early allows you to reach higher interest thresholds and secure premium tier-three recruits much faster.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hero Recruitment & Team Build Strategy">
+
+Building an effective guild requires a deep understanding of unit roles and how they interact on the battlefield. The game moves away from simple damage-per-second metrics, forcing players to balance defensive block values, healing output, crowd control, and clean execution mechanics. 
+
+When drafting your team, you should generally structure your active roster around three primary combat roles to ensure you can handle diverse enemy encounters.
+
+<CardGrid cols={3}>
+  <Card title="Frontline Protectors">
+    - **Primary Job**: Absorb initial enemy strikes and generate block values.
+    - **Key Stats**: Maximum health, armor rating, and crowd-control duration.
+    - **Top Specialization**: Defensive tanking and protective shields.
+  </Card>
+  <Card title="Backline Carries">
+    - **Primary Job**: Deliver sustained physical or magical damage from safety.
+    - **Key Stats**: Attack speed, critical strike chance, and flat damage.
+    - **Top Specialization**: Ranged marksman or high-burst assassin.
+  </Card>
+  <Card title="Utility & Supports">
+    - **Primary Job**: Restore health, cleanse debuffs, and amplify ally damage.
+    - **Key Stats**: Mana generation, healing power, and buff efficiency.
+    - **Top Specialization**: Dedicated healer or hybrid offensive support.
+  </Card>
+</CardGrid>
+
+To maximize the efficiency of these roles, players must pay close attention to individual class specializations. The table below outlines how basic hero archetypes transition into specialized battlefield assets.
+
+| Archetype | Primary Battlefield Job | Specialization Focus | Upgrade Priority |
+| :--- | :--- | :--- | :--- |
+| Tank | Absorb frontline pressure, protect allies | Durability, control, defense | Defensive rank upgrades |
+| Healer | Restore health, stabilize party sustain | Healing frequency, protection | Reliable healing output |
+| Ranged | Deal consistent backline damage | Attack speed, sustained scaling | Raw damage consistency |
+| Assassin | Eliminate high-priority targets quickly | Burst damage, offensive scaling | Reliable finishing power |
+
+<Callout type="warning" title="Drafting Trap">
+Do not fill your bench entirely with fragile damage dealers. A single high-damage carry supported by two durable tanks and a dedicated healer will consistently outperform a team of four unshielded damage dealers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide for Your First Successful Run">
+
+Completing your first full run requires careful planning from the very first shop screen. Follow this step-by-step progression plan to stabilize your economy and secure your first victory.
+
+<Steps>
+  <Step num="1" title="Establish a Stable Frontline First">
+    Prioritize recruiting a durable frontline unit in the opening round. If the shop offers protective shields or defensive items, secure them immediately to minimize early health loss.
+  </Step>
+  <Step num="2" title="Identify Your Primary Carry">
+    By round three, select a dedicated damage dealer to build your team around. Look for ranged units or duelists that scale well with attack-speed items or physical damage bonuses.
+  </Step>
+  <Step num="3" title="Synergize With Shared Class Effects">
+    As your roster expands, look for heroes that share class traits or specific mechanical keywords. Activating shared bonuses significantly boosts your team's baseline power without costing extra shards.
+  </Step>
+  <Step num="4" title="Transition to Advanced Specializations">
+    Once your core units reach higher ranks, commit to specialization paths that cover your team's current weaknesses. Avoid hybrid paths unless your frontline is already completely stable.
+  </Step>
+</Steps>
+
+As you master this basic sequence, you can begin climbing the game's progressive difficulty ladder. Each tier introduces harsher modifiers that test the limits of your build.
+
+| Tier | Unlock Requirement | Core Challenge Modifier | Recommended Preparation |
+| :--- | :--- | :--- | :--- |
+| Difficulty 1 | Available at start | Base progression, standard bosses | Balanced party, basic synergy |
+| Difficulty 3 | Complete Difficulty 2 | Punishes weak frontlines, higher damage | Add defensive support, scale carry |
+| Difficulty 5 | Complete Difficulty 4 | Inefficient shops punished, lower margins | Plan specialization paths early |
+| Difficulty 8 | Complete Difficulty 7 | Hardest standard mode, aggressive scaling | Maximize econ, optimize relics |
+| Endless Mode | Complete standard runs | Infinite scaling, leaderboard tracking | Scalable relics, repeated attacks |
+
+<Callout type="success" title="Milestone Unlocked">
+Beating Difficulty 8 unlocks Endless Mode, where enemies scale infinitely. This mode is designed to push highly optimized, relic-heavy builds to their absolute limits.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment, Relics, and Item Scaling">
+
+While hero ranks provide a solid foundation, items and relics are what truly define a high-performance run. Items are equipped directly onto individual heroes to enhance their specific stats, whereas relics provide passive, run-wide modifications that can alter your entire strategic approach.
+
+To build a winning run, keep these essential milestones in mind:
+
+<Checklist
+  id="relic-milestones"
+  title="Run Equipment Goals:"
+  items={[
+    "Secure at least one early economy relic before round five",
+    "Equip your primary frontline tank with two defensive survival items",
+    "Concentrate high-tier attack-speed items on your main carry",
+    "Activate a class-scaling relic that matches your majority class"
+  ]}
+/>
+
+Understanding which equipment categories deserve your hard-earned shards is crucial for long-term survival. The table below ranks the high-priority equipment categories you will encounter.
+
+| Category | Primary Benefit | Best Hero Match | Synergy Potential |
+| :--- | :--- | :--- | :--- |
+| Class-Scaling Relics | Multi-unit stat amplification | Shared-class compositions | Enhances rank specializations |
+| Attack-Speed Items | Frequent basic attacks | Ranged carries, duelists | Triggers on-hit effects faster |
+| Early Economy Relics | Compounding shop resources | High-reroll strategies | More recruits and faster upgrades |
+| Universal Survival | Flat damage reduction | Frontline tanks, off-tanks | Prevents early round losses |
+
+<Callout type="tip" title="Synergy Tip">
+Always pair attack-speed items with heroes that possess on-hit effects or passive mana-generation abilities. Increasing attack frequency directly accelerates how quickly those heroes trigger their ultimate skills.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+To help players get the most out of their early hours, we have compiled answers to the most common questions surrounding the game's reveal, demo availability, and core mechanics.
+
+<FAQ items={[
+  {
+    question: "Where can I watch the official Guildrun trailer?",
+    answer: "The official guildrun trailer is available to watch on the game's Steam store page and Leyline's official YouTube channel, showcasing the core autobattle loop, hero classes, and relic systems."
+  },
+  {
+    question: "Does my progress in the free Steam demo carry over to the full game?",
+    answer: "According to the developer's current plans, the free demo is a standalone testing environment. While it introduces players to the mechanics, progress is not expected to carry over directly to the 2027 full release."
+  },
+  {
+    question: "How do specializations work in Guildrun?",
+    answer: "As heroes gain ranks during a run, players can choose between distinct specialization paths. These choices permanently alter the hero's active skills, passive bonuses, and overall battlefield role for the remainder of that run."
+  },
+  {
+    question: "Can I reset or respec my hero's specialization choices mid-run?",
+    answer: "Yes, the game features a respec mechanic that allows you to reallocate specialization points. This is highly useful when transitioning your team composition or adapting to a powerful late-game relic drop."
+  }
+]} />
+
+<Callout type="info" title="Stay Updated">
+For the latest news, balance changes, and development roadmaps leading up to the 2027 launch, join the official Guildrun Discord and follow the developers on Steam.
+</Callout>
+
+</Section>
